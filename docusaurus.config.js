@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "GalacticCouncil", // Usually your GitHub org/user name.
+  organizationName: "galacticcouncil", // Usually your GitHub org/user name.
   projectName: "HydraDX-docs", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -33,37 +33,15 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/",
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/",
-            },
-          ],
-        },
-        {
           title: "Community",
           items: [
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discord.gg/HDNPFFrcnW",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://twitter.com/hydra_dx",
             },
           ],
         },
