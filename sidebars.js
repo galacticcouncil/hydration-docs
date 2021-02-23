@@ -1,7 +1,7 @@
 module.exports = {
   sidebar: {
     Intro: ["intro"],
-    Snakenet: ["snakenet", "node_setup"],
+    Snakenet: ["snakenet", "claim", "node_setup"],
     Contributing: ["contributing"],
   },
 };
