@@ -1,4 +1,4 @@
-# node\_setup
+# Setting up a node
 
 {% hint style="warning" %}
 It is recommended to use **Ubuntu 20.04**
