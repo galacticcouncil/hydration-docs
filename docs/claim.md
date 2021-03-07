@@ -34,7 +34,7 @@ In the first step, you'll need to select an account you want to claim the tokens
 You will need to select an address for claiming HDX. For security reasons, this address will need to be unique to the HydraDX Stakenet. If you have approved the metadata upgrade in the first step, you will be able to create HydraDX address in the Polkadot.js extension. Please do so now.
 
 :::warning 
-Never give your seed phrase to anybody. Back it up and store it in a safe place. It is the only way you can recover your account and if you lose or leak it, your funds will be compromised.
+Never give your seed phrase to anybody. Back it up and store it in a safe place. It is the only way you can recover your account and if you lose or leak it, your funds will be compromised. Please note that you will own this wallet until the mainnet and if you lose access you will lose your HDX. Keep it safe please.
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
