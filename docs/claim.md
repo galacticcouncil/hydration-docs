@@ -59,11 +59,11 @@ Depending on the option you chose in the first step you will be presented with o
 
 2. Sign a message through external wallet.
 
-    If you have typed in your ethereum address you will need to sign a message through external wallet that you used to buy the tokens and own a private key to. Once you have signed your message, paste the signed message into the response field.
+    If you have typed in your ethereum address you will need to sign a message through external wallet that you used to buy the tokens and own a private key to. Once you have signed your message, paste the signature (starting with "0x") of the signed message into the response field.
 
 ### 04 Claim
 
-Once signed, you will need to send a transaction and sign it with your Polkadot.js extension. When you do this you officialy become HDX owner.
+Once signed, you will need to send a transaction and sign it with your Polkadot.js extension. When you do this you officialy become HDX owner. You can check the balance of your claimed tokens in [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
 ### 05 What's next?
 
