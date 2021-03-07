@@ -34,7 +34,7 @@ In the first step, you'll need to select an account you want to claim the tokens
 You will need to select an address for claiming HDX. For security reasons, this address will need to be unique to the HydraDX Stakenet. If you have approved the metadata upgrade in the first step, you will be able to create HydraDX address in the Polkadot.js extension. Please do so now.
 
 :::warning 
-Never give your seed phrase to anybody. Back it up and store it in a safe place. It is the only way you can recover your account and if you lose or leak it, your funds will be compromised. Please note that you will own this wallet until the mainnet and if you lose access you will lose your HDX. Keep it safe please.
+Never give your seed phrase to anybody. Back it up and store it in a safe place. It is the only way you can recover your account and if you lose or leak it, your funds will be compromised. Please note that you will own this wallet until the mainnet as the balances will be locked and if you lose access you will lose your HDX. Keep it safe please.
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
@@ -42,6 +42,14 @@ Never give your seed phrase to anybody. Back it up and store it in a safe place.
 Once you have your address created, you can select it in the claims UI and continue with the claim process.
 
 ### 03 Sign
+
+:::info
+Because of the properties of the [ss58](https://polkadot.js.org/docs/keyring/start/ss58/) address format that polkadot chains use to display addresses in a human readable way, there will be a mismatch between the address you will be signing in the message and the one you will see in the polkadot.js extension. 
+
+What you see in the message box is the actual public key of your address. While in the extension you will see human readable representation of your address.
+
+This is completely safe as we are checking the address you are signing in the message, against the address of the account you are using to do the actual claim. In this way, it's not possible to claim to any other address than the one you will use in the last step.
+:::
 
 Depending on the option you chose in the first step you will be presented with one of the two options here.
 
