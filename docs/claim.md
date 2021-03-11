@@ -9,7 +9,7 @@ For claiming the HDX tokens from the xHDX ERC-20 token representation, you'll ne
 
 ## Preparation
 
-Make sure your browser supports polkadot.js extension. This is the only official way right now to use your accounts with HydraDX. It's a good idea to have the Ethereum wallet ready for signing a message before starting the claim process but we tried to make it as easy as possible. If you have [polkadot.js extension](https://polkadot.js.org/extension/) and metamask up and running you should be ready to go.
+Make sure your browser supports the polkadot.js extension. Polkadot.js extension is the only official way to use your accounts with HydraDX right now. It's a good idea to have the Ethereum wallet ready for signing a message before starting the claim process, but we tried to make it as easy as possible. If you have [polkadot.js extension](https://polkadot.js.org/extension/) and metamask up and running, you should be ready to go.
 
 ## Claim process
 
