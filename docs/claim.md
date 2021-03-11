@@ -5,7 +5,7 @@ title: Claim your HDX
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-For claiming the HDX tokens from the xHDX ERC-20 token representation you'll need your original wallet that you hold the tokens in on the Ethereum side, the polkadot.js browser extension and a few minutes of your time.
+For claiming the HDX tokens from the xHDX ERC-20 token representation, you'll need your original wallet that you hold the tokens with on the Ethereum side, the polkadot.js browser extension, and a few minutes of your time.
 
 ## Preparation
 
