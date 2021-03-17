@@ -7,6 +7,7 @@ module.exports = {
         "label": "Validator guide",
         "items": [
           "node_setup",
+          "performance_benchmark",
           "validator"
         ]
       },

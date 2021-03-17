@@ -1,92 +1,89 @@
 ---
 id: node_setup
-title: Setup validator node
+title: Run a validator node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Initial setup
+This section walks you through the process of setting up and running a HydraDX node.
 
-### Requirements
+### 00 Recommended specs
 
-The most common way to run a validator is on a cloud server running Linux. You may choose whatever VPS provider that you prefer and we recommend using Linux as operating system, but you can choose whatever operating system you are comfortable with. For this tutorial we will be using **Ubuntu 20.04**, but the instructions should be similar for other platforms.
+The following machine setup is recommended: 
 
-#### Recommended hardware
-We recommend using at least **Intel Core i7-7700K CPU with 64GB of RAM and an NVMe SSD with capacity 100-200GB** *(this capacity should be ok for next 6-months, but it should be monitored and adjusted as required)*. This are not *minimum requirements*, however you should be aware that you might hit performance issues if you decide to use less performant hadware.
+* OS: Ubuntu 20.04
+* CPU: Intel Core i7-7700K
+* Memory: 64GB RAM
+* Storage: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
 
-#### Install and configure network time protocol (NTP) client
+:::note
 
-NTP is a networking protocol designed to synchronize the clocks of computers over a network. NTP allows you to synchronize the clocks of all the systems within the network. Currently it is required that validator's local clocks stay reasonably in sync, so you should be running NTP or a similar service. You can check whether you have the NTP client by running:
+This is a recommended setup which has been verified by the team. Want to know whether your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
 
-*On ubuntu 20.04 NTP Client should be installed by default.*
-```bash
-timedatectl
-```
-If NTP is installed and running, you should see `System clock synchronized: yes` (or a similar message). If you do not see it, you can install it by executing:
-```bash
-sudo apt install ntp
-```
-ntpd will be started automatically after install. You can query ntpd for status information to verify that everything is working:
-```bash
-sudo ntpq -p
-```
-
-#### Firewal requirements 
-
-* `30333` *allowed* - p2p port have to be exposed publicly to allow other nodes to connect to your node
-* `9944`  *optional* - rpc websocket port, expose this port only if want to allow external apps connect to your node (e.g https://polkadot.js.org/apps/) 
-* `9933`  *optional* - http rpc port, expose this port only if want to allow external http req to your node
-
-:::caution
-We highly recommend **TO NOT** expose RPC ports (`9944, 9933`) publicly if you are running node as validator. This ports can be abused by 3-rd party to manipulate with your node and cause slashing. 
 :::
 
 
+### 01 Check whether your system clock is synchronized
 
-### Getting binaries 
+Before running a node, you should make sure that your system clock is synchronized - this is important because validators work together. On Ubuntu 20.04 the system clock should be synchronized by default. To verify, run the following command and check the output:
 
-#### Download binaries
-
-You can download released binaries from our [github](https://github.com/galacticcouncil/HydraDX-node/releases).
-
-#### Building binary from source
-
-:::important
-Please use `git tags` with lates version *(e.g v2.0.0)* if you are building binary from souce.
-:::
 ```bash
-git clone git@github.com:galacticcouncil/HydraDX-node.git
-cd HydraDX-node/
-git checkout v2.0.0 #this is latest release in the time of writing this doc. Please check github for latest release tag before running this cmd
-
-curl https://getsubstrate.io -sSf | bash -s -- --fast
-
-cargo build --release
+$ timedatectl | grep "System clock"
+System clock synchronized: yes
 ```
 
-##### Running binary
+If the output is different, then you can install NTP manually and verify again that your system clock is synchronized:
+
 ```bash
-./target/release/hydra-dx --chain lerna --name your-validator-name --validator
+$ apt install ntp
+$ ntpq -p
 ```
 
-:::important
-`--name` will be dislayed in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet). Telemetry show all nodes in HydraDX network. It is important to use unique name so you can identify your node.
-:::
+### 02 Adjust your firewall settings
+Port `30333` is used for peer-to-peer connections with other nodes. If you are running the node as a validator, this is the only port we recommend exposing in your firewall.
 
-### Running validator node
+If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node).
 
-#### Systemd
-You can run your validator as a systemd process so that it will automatically restart on server reboots or crashes.
+### 03 Download or build a binary
+You can download a binary of our latest release on [github](https://github.com/galacticcouncil/HydraDX-node/releases).
 
-First create file `hydradx-validator.service` in `/etc/systemd/system/`
+Alternatively, you can build the binary from source:
+
 ```bash
-touch /etc/systemd/system/hydradx-validator.service
+# Fetch source
+$ git clone git@github.com:galacticcouncil/HydraDX-node.git
+$ cd HydraDX-node/
+
+# Make sure you are on latest release
+$ git checkout v2.0.0
+
+# Install Rust and Substrate
+$ curl https://getsubstrate.io -sSf | bash -s -- --fast
+
+# Build the binary
+$ cargo build --release
 ```
 
-whith content:
-:::important
-replace `{...}` with correct values e.g `User={YOUR_SYSTEM_USER}` -> `User=Hydra`
-:::
+If you built the binary following the steps above, the path to your binary is:
+```
+HydraDX-node/target/release/hydra-dx
+```
+
+### 04 Run the binary
+You can run the binary by executing the following command:
+
+```bash
+$ {PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
+```
+
+Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) where you can find a list of all nodes running on HydraDX Snakenet.
+
+### 05 Running with systemd
+To make sure that your node is automatically started when your machine reboots, we recommend running the HydraDX node as a systemd process. To do so, create the following file and insert the content while replacing the variables indicated as `{VARIABLE}`:
+
+```bash
+$ touch /etc/systemd/system/hydradx-validator.service
+```
 
 ```
 [Unit]
@@ -95,33 +92,31 @@ Description=HydraDX validator
 [Service]
 Type=exec
 User={YOUR_SYSTEM_USER}
-ExecStart={PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_TELEMETRY_NAME} --validator
+ExecStart={PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
 Restart=always
 RestartSec=120
 
 [Install]
 WantedBy=multi-user.target
 ```
-:::caution
-It's recommended to delay the restart of a node with `RestartSec` in the case of node crashes. It's possible that when a node crashes, consensus votes in GRANDPA aren't persisted to disk. In this case, there is potential to equivocate when immediately restarting. What can happen is the node will not recognize votes that didn't make it to disk, and will then cast conflicting votes. Delaying the restart will allow the network to progress past potentially conflicting votes, at which point other nodes will not accept them.
+
+:::note
+Setting RestartSec is recommended because it delays the restart of the node in the case of a crash. This allows for any unpersisted data (such as consensus votes) to be written to the disk before the node is restarted.
 :::
 
-Enable to autostart on bootup:
+After creating the configuration file you can interact with your HydraDX validator node as a system process:
 ```bash
-systemctl enable hydradx-validator.service
+# Start the node at system boot
+$ systemctl enable hydradx-validator.service
+
+# Start the node manually
+$ systemctl start hydradx-validator.service
+
+# Check the status of the node
+$ systemctl status hydradx-validator.service
+
+# Checks the logs of the node
+$ journalctl -f -u hydradx-validator.service
 ```
 
-Start your validator manually:
-```bash
-systemctl start hydradx-validator.service
-```
-
-You can check that it's working with:
-```bash
-systemctl status hydradx-validator.service
-```
-
-You can see logs with `journalctl`:
-```bash
-journalctl -f -u hydradx-validator.service
-```
+Your HydraDX validator node is now all set up and ready to go!
