@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 To learn how to run validator node go read [setup validator node](node_setup).<br/>
 To learn how to connect PolkadotJS-APPS go read [connect to public nodes](polkadotjs_apps_public). 
 
-## Bon HDX
+## Bond HDX
 :::warning
 Transfers are disabled on snakenet. This means that you have to setup validator with single(stash) account. We **highly recommend** to you to change to stash/controller accounts as soon as possible. 
 :::

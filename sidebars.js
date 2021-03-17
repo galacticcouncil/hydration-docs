@@ -12,6 +12,13 @@ module.exports = {
       },
       {
         "type": "category",
+        "label": "Nominator guide",
+        "items": [
+          "start_nominate"
+        ]
+      },
+      {
+        "type": "category",
         "label": "PolkadotJS-APPS",
         "items": [
           "polkadotjs_apps_local",
