@@ -8,10 +8,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 You can make sure that your machine satisfies the [required technical specifications](/node_setup#00-required-technical-specifications) by running a performance benchmark. To do so, follow the steps below:
 
 ```bash
-# Fetch source and switch to latest release
-$ git clone https://github.com/galacticcouncil/HydraDX-node.git
+# Fetch source of the latest stable release
+$ git clone https://github.com/galacticcouncil/HydraDX-node -b stable
 $ cd HydraDX-node/
-$ git checkout v2.0.0
 
 # Prepare for running the benchmark
 $ ./scripts/init.sh
