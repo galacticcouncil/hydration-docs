@@ -7,6 +7,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This section walks you through the process of setting up and running a HydraDX validator node.
 
+:::warning
+
+Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominate) to an experienced validator instead. By doing so, you protect yourself against an involuntary loss of funds.
+
+:::
+
 ### 00 Required technical specifications
 
 The following technical specifications are required as a minimum for running a HydraDX validator node: 
