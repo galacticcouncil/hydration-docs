@@ -51,7 +51,7 @@ Alternatively, you can build the binary from source:
 
 ```bash
 # Fetch source
-$ git clone git@github.com:galacticcouncil/HydraDX-node.git
+$ git clone https://github.com/galacticcouncil/HydraDX-node.git
 $ cd HydraDX-node/
 
 # Make sure you are on latest release
