@@ -9,7 +9,7 @@ This section walks you through the process of setting up and running a HydraDX v
 
 :::warning
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominate) to an experienced validator instead. By doing so, you protect yourself against an involuntary loss of funds.
+Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominate) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
 
 :::
 
