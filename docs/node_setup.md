@@ -5,7 +5,7 @@ title: Run a validator node
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section walks you through the process of setting up and running a HydraDX node.
+This section walks you through the process of setting up and running a HydraDX validator node.
 
 ### 00 Recommended specs
 
@@ -115,7 +115,7 @@ $ systemctl start hydradx-validator.service
 # Check the status of the node
 $ systemctl status hydradx-validator.service
 
-# Checks the logs of the node
+# Check the logs of the node
 $ journalctl -f -u hydradx-validator.service
 ```
 
