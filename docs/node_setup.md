@@ -7,9 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This section walks you through the process of setting up and running a HydraDX validator node.
 
-### 00 Recommended specs
+### 00 Required technical specifications
 
-The following machine setup is recommended: 
+The following technical specifications are required as a minimum for running a HydraDX validator node: 
 
 * OS: Ubuntu 20.04
 * CPU: Intel Core i7-7700K
@@ -18,7 +18,7 @@ The following machine setup is recommended:
 
 :::note
 
-This is a recommended setup which has been verified by the team. Want to know whether your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
+These are the minimum technical requirements which have been verified by the team. Want to make sure that your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
 
 :::
 
