@@ -18,7 +18,7 @@ Running a validator node requires a certain technical skillset needed for the pr
 The following technical specifications are required as a minimum for running a HydraDX validator node: 
 
 * OS: Ubuntu 20.04
-* CPU: Intel Core i7-7700K
+* CPU: Intel Core i7-7700K (or equivalent single core performance)
 * Memory: 64GB RAM
 * Storage: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
 
@@ -69,7 +69,7 @@ $ cargo build --release
 
 If you built the binary following the steps above, the path to your binary is:
 ```
-HydraDX-node/target/release/hydra-dx
+target/release/hydra-dx
 ```
 
 ### 04 Run the binary
@@ -104,7 +104,7 @@ WantedBy=multi-user.target
 ```
 
 :::note
-Setting RestartSec is recommended because it delays the restart of the node in the case of a crash. This allows for any unpersisted data (such as consensus votes) to be written to the disk before the node is restarted.
+Setting RestartSec is recommended because it delays the restart of the node in the case of a crash. This allows for any unpersisted data (such as consensus votes) to be written to the disk before the node is restarted. Restarting the node immediately after it has crashed can cause equivocation or double signing, eventually resulting in slashing.
 :::
 
 After creating the configuration file you can interact with your HydraDX validator node as a system process:
