@@ -2,19 +2,13 @@ module.exports = {
   sidebar: {
     Intro: ["intro"],
     Snakenet: ["snakenet", "claim",
+      "start_nominating",
       {
         "type": "category",
-        "label": "Validator guide",
+        "label": "Become a validator",
         "items": [
           "node_setup",
           "start_validating"
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Nominator guide",
-        "items": [
-          "start_nominate"
         ]
       },
       {

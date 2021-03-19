@@ -1,6 +1,6 @@
 ---
 id: start_validating 
-title: Become a validator
+title: Start validating
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -9,7 +9,7 @@ After [setting up your HydraDX node](node_setup), you need to bond HDX tokens an
 
 :::warning
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominate) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
+Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
 
 :::
 

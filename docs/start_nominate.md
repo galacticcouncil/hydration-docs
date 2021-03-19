@@ -1,6 +1,6 @@
 ---
-id: start_nominate 
-title: Nominate
+id: start_nominating
+title: Become a nominator
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
