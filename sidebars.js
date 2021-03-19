@@ -7,8 +7,7 @@ module.exports = {
         "label": "Validator guide",
         "items": [
           "node_setup",
-          "performance_benchmark",
-          "validator"
+          "start_validating"
         ]
       },
       {
@@ -24,6 +23,13 @@ module.exports = {
         "items": [
           "polkadotjs_apps_local",
           "polkadotjs_apps_public"
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Other",
+        "items": [
+          "performance_benchmark"
         ]
       }
     ],

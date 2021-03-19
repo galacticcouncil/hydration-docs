@@ -1,6 +1,6 @@
 ---
 id: node_setup
-title: Run a validator node
+title: Set up a validator node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -122,4 +122,4 @@ $ systemctl status hydradx-validator.service
 $ journalctl -f -u hydradx-validator.service
 ```
 
-Your HydraDX validator node is now all set up and ready to go!
+Your HydraDX validator node is now set up and running. Proceed to the start validating section to complete the process.
