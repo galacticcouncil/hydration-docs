@@ -1,6 +1,6 @@
 ---
 id: start_validating 
-title: Start validating
+title: Become a validator
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -35,12 +35,12 @@ For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 After clicking the Stash button, you should see the bonding preferences with four editable fields:
 * _stash account_: the account holding the majority of your HDX. Make sure that you have more HDX than you want to stake in order to cover the transaction fees;
 * _controller account_: this account should hold a smaller portion of HDX needed to cover fees associated with starting and stopping a validator;
-* _value bonded_: Amount of HDX you are bonding;
-* _payment destination_: the account where the rewards from validating will be sent.
+* _value bonded_: the amount of HDX you are bonding;
+* _payment destination_: the account to which the validating rewards will be sent.
 
 :::note
 
-For security reasons, it is not recommended that the Stash account and the Controller account are the same. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash / Controller accounts as soon as this becomes possible in future.
+For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
 
 :::
 
@@ -48,7 +48,7 @@ After adjusting the bonding preferences, click _Bond_ and sign transaction to co
 
 :::warning
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node may be punished by slashing which can lead to an involuntary loss of funds. We strongly advice that you only proceed if you really know what you are doing.
+Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node may be punished by slashing which can lead to an involuntary loss of funds. We strongly recommend that you only proceed if you really know what you are doing.
 
 :::
 
@@ -58,7 +58,7 @@ Bonded HDX tokens are at stake for guaranteeing the security of the network. Imp
 
 ## 02 Generate session keys
 
-The second step is to generate your session keys. The session keys are used to associate your validator node with your Controller account and the staked HDX. It is therefore important that they are set up correctly.
+The second step is to generate your session keys. The session keys are used to associate the validator node with your Controller account and the staked HDX. It is therefore important that they are set up correctly.
 
 To generate your session keys, run on the node:
 
@@ -80,8 +80,8 @@ Fill in the fields:
 
 * _using selected account_: select your Controller account;
 * _submit the following extrinsic_: select `session` on the left side and `setKeys` on the right;
-* _keys_: enter your session keys.
-* _proof_: `0`
+* _keys_: enter your session keys from the previous step;
+* _proof_: `0`.
 
 To complete, click _Submit Transaction_ and sign the transaction.
 
@@ -91,7 +91,7 @@ To complete, click _Submit Transaction_ and sign the transaction.
 
 ## 04 Start validating
 
-Before you start, check [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) to make sure that your node is running and is fully synchronized.
+Before you start, check [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) to make sure that your node is running and the synchronization is fully complete.
 
 To start validating, navigate in the Polkadot.JS app:
 
@@ -101,7 +101,7 @@ To start validating, navigate in the Polkadot.JS app:
   <img src={useBaseUrl('/validator-guide/validate-1.png')} />
 </div>
 
-In the validator preferences, set your _reward commission percentage_. This is the proportion of the rewards which will be paid out to you. The remaining rewards will be split across your nominators in accordance with their stake. If you decide to not take any reward commission, you can set the percentage to 0 😇
+In the validator preferences, set your _reward commission percentage_. This is the proportion of the rewards which will be paid out to you. The remaining rewards will be split across your nominators in accordance with their stake. If you decide to not take any reward commission, you can set the percentage to 0.
 
 To confirm, click *Validate* and sign the transaction.
 
@@ -115,11 +115,12 @@ You can check the status of your validator node in the Polkadot.JS app under:
 
 *Network* > *Staking* > *Staking overview*
 
-This tab provides an overview of all active validators connected to the network. At the top, there is an indication of the number of available validator slots, as well as the number of nodes that have signaled their intention to be a validator. You can check that your node is in the waiting queue by clicking on the _Waiting_ tab.
+This tab provides an overview of all active validators connected to the network. At the top, there is an indication of the amount of validator slots available, as well as the number of nodes that have signaled their intention to be a validator. You can confirm whether your node is in the waiting queue by clicking on the _Waiting_ tab.
 
-Your validator node will remain in the waiting queue until it has been selected to be included in the validator set. The validator set is updated every era and new nodes are included provided there are empty slots.
+Your validator node will remain in the waiting queue until it has been selected to be included in the validator set. The validator set is updated every era which allows for new nodes to be included, provided there are empty slots.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/validate-3.png')} />
 </div>
 
+Thank you for supporting HydraDX by becoming a Snakenet validator! 🎉
