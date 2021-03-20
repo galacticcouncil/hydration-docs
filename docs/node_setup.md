@@ -56,11 +56,11 @@ You can download a binary of our latest release on [github](https://github.com/g
 Alternatively, you can build the binary from source:
 
 ```bash
+# Install dependencies
+$ curl https://getsubstrate.io -sSf | bash -s -- --fast
+
 # Fetch source of the latest stable release
 $ git clone https://github.com/galacticcouncil/HydraDX-node -b stable
-
-# Install Rust and Substrate
-$ curl https://getsubstrate.io -sSf | bash -s -- --fast
 
 # Build the binary
 $ cd HydraDX-node/
