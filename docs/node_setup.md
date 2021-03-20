@@ -13,7 +13,7 @@ Running a validator node requires a certain technical skillset needed for the pr
 
 :::
 
-### 00 Required technical specifications
+## 00 Required technical specifications
 
 The following technical specifications are required as a minimum for running a HydraDX validator node: 
 
@@ -29,7 +29,7 @@ These are the minimum technical requirements which have been verified by the tea
 :::
 
 
-### 01 Check whether your system clock is synchronized
+## 01 Check whether your system clock is synchronized
 
 Before running a node, you should make sure that your system clock is synchronized - this is important because validators work together. On Ubuntu 20.04 the system clock should be synchronized by default. To verify, run the following command and check the output:
 
@@ -45,12 +45,12 @@ $ apt install ntp
 $ ntpq -p
 ```
 
-### 02 Adjust your firewall settings
-Port `30333` is used for peer-to-peer connections with other nodes. If you are running the node as a validator, this is the only port we recommend exposing in your firewall.
+## 02 Adjust your firewall settings
+Port `30333` is used for peer-to-peer connections with other nodes. If you are running the node as a validator, we recommend that you set up a firewall and configure to expose only this port for remote connections.
 
-If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node).
+If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node). You can use port `9944` to connect to your node with [Polkadot.JS app](polkadotjs_apps_local).
 
-### 03 Download or build a binary
+## 03 Download or build a binary
 You can download a binary of our latest release on [github](https://github.com/galacticcouncil/HydraDX-node/releases).
 
 Alternatively, you can build the binary from source:
@@ -72,7 +72,7 @@ If you built the binary following the steps above, the path to your binary is:
 target/release/hydra-dx
 ```
 
-### 04 Run the binary
+## 04 Run the binary
 You can run the binary by executing the following command:
 
 ```bash
@@ -90,7 +90,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) where you can find a list of all nodes running on HydraDX Snakenet.
 
-### 05 Running with systemd
+## 05 Running with systemd
 To make sure that your node is automatically started when your machine reboots, we recommend running the HydraDX node as a systemd process. To do so, create the following file and insert the content while replacing the variables indicated as `{VARIABLE}`:
 
 ```bash

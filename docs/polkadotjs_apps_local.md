@@ -1,26 +1,35 @@
 ---
 id: polkadotjs_apps_local 
-title: Connect to local node 
+title: Connect to a local node 
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-*Prerequisites: your node is running on your local machine or you have port `9944` forwarded to your local machine.*
+You can use the Polkadot.JS app to connect to your local HydraDX node. For this purpose, you need to have access to port `9944` which is used for RPC websocket connections.
 
-Open [Polkadot/apps](https://polkadot.js.org/apps/)  and click to left upper corner(you may be connected to different chain by default):
+:::warning
 
-<div style={{textAlign: 'center'}}>
+If you are running the node as a validator, we highly recommend that you blacklist port `9944` for remote connections. This port could be abused by third parties to degrade the performance of your node, which may result in slashing and involuntary loss of funds. You should use port `9944` to connect to your validator node only when the node is in your local network.
+
+:::
+
+### Accessing your local node using Polkadot.JS app
+
+To access your node, open the [Polkadot.JS app](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
+
+<div>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-Click **Development** in the list and select **Local Node**
+After opening the menu, click on **Development** and select **Local node**.
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-1.png')} />
 </div>
 
-Click **Switch** button
+Adjust the IP if necessary and click on ***Switch*** to switch to your local node.
+
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-2.png')} />
 </div>
 
-Now you should be connected to your local node and you can interact with your node.
+Now you should be connected to your local node and be able to interact with it.
