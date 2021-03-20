@@ -9,7 +9,7 @@ After [setting up your HydraDX node](node_setup), you need to bond HDX tokens an
 
 :::warning
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
+Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. We also require validators to be updated with the latest stable release. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
 
 :::
 
@@ -23,9 +23,7 @@ Are you still in possession of xHDX tokens that you bought during the Balancer L
 
 :::
 
-To bond HDX, you first need to open the Polkadot.JS app, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_local) and make sure that you can see your account balance:
-
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
+To bond HDX, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
 For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 
@@ -34,14 +32,14 @@ For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 </div>
 
 After clicking the Stash button, you should see the bonding preferences with four editable fields:
-* _stash account_: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees;
-* _controller account_: an account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of validating;
-* _value bonded_: the amount of HDX you are bonding;
-* _payment destination_: the account to which the validating rewards will be sent.
+* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees.
+* **controller account**: an account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of validating.
+* **value bonded**: the amount of HDX you are bonding.
+* **payment destination**: the account to which the validating rewards will be sent.
 
 :::caution
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
+For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in the future.
 
 :::
 
@@ -74,7 +72,7 @@ You can find your session keys under the _result_ part of the output (`0x9257...
 
 ## 03 Set your session keys
 
-To associate the generated session keys with your Controller account, open in in the Polkadot.JS app:
+To associate the generated session keys with your Controller account, open in in the Polkadot/apps:
 *Developer* > *Extrinsics*
 
 Fill in the fields:
@@ -94,7 +92,7 @@ To complete, click _Submit Transaction_ and sign the transaction.
 
 Before you start, check [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) to make sure that your node is running and the synchronization is fully complete.
 
-To start validating, navigate in the Polkadot.JS app:
+To start validating, navigate in the Polkadot/apps:
 
 *Network* > *Staking* > *Account actions* > *Validate* (button next to your bonded HDX)
 
@@ -112,7 +110,7 @@ To confirm, click *Validate* and sign the transaction.
 
 ## 05 Check the status of your validator node
 
-You can check the status of your validator node in the Polkadot.JS app under:
+You can check the status of your validator node in the Polkadot/apps under:
 
 *Network* > *Staking* > *Staking overview*
 

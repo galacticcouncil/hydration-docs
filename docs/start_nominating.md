@@ -17,10 +17,7 @@ Nominating is a more accessible form of participation in the staking process, ho
 
 ## 00 Staking UI
 
-To access the staking interface, you first need to open the Polkadot.JS app, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_local) and make sure that you can see your account balance:
-
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
-
+To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
 :::note
 
@@ -34,12 +31,12 @@ After verifying that you can see your HDX balance, you can navigate to the Staki
 
 The Staking UI has the following menu tabs:
 
-* *Staking overview*: here you can find a list of all active validators and some basic information about each validator such as the amount of HDX staked on the node, the amount of the validator's own stake and how much reward commission is charged. Furthermore, you can see the amount of era points that were earned by each validator in the current era, as well as the number of the last block produced by the validator;
-* *Account actions*: here you can stake and nominate;
-* *Payouts*: here you can claim your staking rewards;
-* *Targets*: here you can estimate your earnings. This is a good place to start when picking a validator node to nominate;
-* *Waiting*: here you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set. It may take a long time for a validator to receive enough nominations to become active, and there is no guarantee that a validator in the waiting queue will ever reach the amount of staked HDX required to be included in the set of active validators;
-* *Validator stats*: here you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
+* **Staking overview**: here, you will find a list of all active validators and some basic information about each validator, such as the amount of HDX staked on the node, the amount of the validator's own stake, and how much reward commission is charged. Furthermore, you can see the number of era points earned by each validator in the current era and the number of the last block produced by the validator.
+* **Account actions**: here, you can stake and nominate.
+* **Payouts**: here, you can claim your staking rewards.
+* **Targets**: here, you can estimate your earnings. This is a good place to start when picking a validator node to nominate.
+* **Waiting**: here, you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set.
+* **Validator stats**: here, you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
 
 ## 01 Bond HDX tokens
 
@@ -52,10 +49,10 @@ To bond HDX tokens, navigate to *Account actions* in the Staking UI:
 </div>
 
 After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
-* _stash account_: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees;
-* _controller account_: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating;
-* _value bonded_: the amount of HDX you are bonding;
-* _payment destination_: the account to which the staking rewards will be sent.
+* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees.
+* **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating.
+* **value bonded**: the amount of HDX you are bonding.
+* **payment destination**: the account to which the staking rewards will be sent.
 
 :::caution
 
@@ -63,7 +60,7 @@ For security reasons, it is not recommended to have the same Stash and Controlle
 
 :::
 
-After adjusting the bonding preferences, click _Bond_ and sign transaction to complete the bonding process.
+After adjusting the bonding preferences, click **Bond** and sign transaction to complete the bonding process.
 
 :::warning
 
