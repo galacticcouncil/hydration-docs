@@ -1,0 +1,119 @@
+---
+id: start_nominating
+title: Become a nominator
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+By becoming a nominator, you stake some of your HDX tokens to help secure the HydraDX network and to earn rewards. Unlike running a validator node, the process of nominating does not require advanced technical skills, making it the recommended choice for anyone who is not fully confident with becoming a validator.
+
+When nominating, nominators appoint their stake to a validator of their choice. By doing so, nominators elect the active set of validators and receive rewards for their participation. The amount of awards you receive as a nominator depends on the reward commission percentage of the chosen validator - the higher the reward commission of the validator, the less rewards you will be receiving for your stake.
+
+:::warning
+
+Nominating is a more accessible form of participation in the staking process, however it also carries a certain degree of risk. If the validator you have nominated misbehaves (e.g. fails to maintain the required uptime), slashing can occur which may lead to a partial involuntary loss of the funds you have staked. We highly recommend that you do your due diligence before nominating a validator.
+
+:::
+
+## 00 Staking UI
+
+To access the staking interface, you first need to open the Polkadot.JS app, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_local) and make sure that you can see your account balance:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
+
+
+:::note
+
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
+
+:::
+
+After verifying that you can see your HDX balance, you can navigate to the Staking UI:
+
+*Network* > *Staking*
+
+The Staking UI has the following menu tabs:
+
+* *Staking overview*: here you can find a list of all active validators and some basic information about each validator such as the amount of HDX staked on the node, the amount of the validator's own stake and how much reward commission is charged. Furthermore, you can see the amount of era points that were earned by each validator in the current era, as well as the number of the last block produced by the validator;
+* *Account actions*: here you can stake and nominate;
+* *Payouts*: here you can claim your staking rewards;
+* *Targets*: here you can estimate your earnings. This is a good place to start when picking a validator node to nominate;
+* *Waiting*: here you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set. It may take a long time for a validator to receive enough nominations to become active, and there is no guarantee that a validator in the waiting queue will ever reach the amount of staked HDX required to be included in the set of active validators;
+* *Validator stats*: here you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
+
+## 01 Bond HDX tokens
+
+To bond HDX tokens, navigate to *Account actions* in the Staking UI:
+
+*Network* > *Staking* > *Account actions* > *+ Stash*
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/bond-hdx-1.png')} />
+</div>
+
+After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
+* _stash account_: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees;
+* _controller account_: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating;
+* _value bonded_: the amount of HDX you are bonding;
+* _payment destination_: the account to which the staking rewards will be sent.
+
+:::caution
+
+For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
+
+:::
+
+After adjusting the bonding preferences, click _Bond_ and sign transaction to complete the bonding process.
+
+:::warning
+
+Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+
+:::
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
+</div>
+
+## 02 Nominate a validator
+
+After bonding HDX, you can now nominate a validator. Before proceeding, you should do your due diligence and decide which validators you would like to nominate based on their (past) performance. To do so, refer to the information in the Staking UI [discussed above](#00-staking-ui).
+
+To nominate one or more validators, navigate to:
+
+*Network* > *Staking* > *Account actions* > *Nominate* (button next to your bonded HDX)
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-1.png')} />
+</div>
+
+After clicking on the *Nominate* button you should see a popup called *nominate validators*. Here you can select on or more validators to nominate from the list of available validators. If you select multiple validators, you can disperse your stake in different proportions to the validators of your choice.
+
+To nominate the selected validators, click _Nominate_ and sign the transaction.
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
+</div>
+
+
+## 03 Check the status of your nominations
+
+After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that the validator nodes you have nominated are included in the active set of validators. If a given validator remains in the waiting queue, your respective nomination will remain inactive and you will not earn any rewards for this stake.
+
+To check the status of your nominations, navigate to:
+
+*Network* > *Staking* > *Account actions*
+
+You can see your inactive nominations under *Waiting nominations*:
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-3.png')} />
+</div>
+
+Once a nomination becomes active, you should find it in the list of *Active nominations*
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
+</div>
+
+Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉

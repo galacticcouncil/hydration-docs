@@ -13,17 +13,18 @@ Running a validator node requires a certain technical skillset needed for the pr
 
 :::
 
-## 01 Bond HDX
+## 01 Bond HDX tokens
 
 In order to take part at the network as a validator node, you need to bond some amount of HDX tokens. If you do not have any HDX, it is not possible to participate in the _initial_ stage of the testnet. However, some exciting news will be announced by the team in the upcoming weeks so stay posted and subscribe to our newsletter.
 
 :::note
 
-Are you still in posession of xHDX tokens from the Balancer LBP event? You need to first [claim your HDX](claim).
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
 
 :::
 
-To bond HDX, open your account in Polkadot.JS app and make sure you can see your balance:
+To bond HDX, you first need to open the Polkadot.JS app, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_local) and make sure that you can see your account balance:
+
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
 For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
@@ -33,12 +34,12 @@ For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 </div>
 
 After clicking the Stash button, you should see the bonding preferences with four editable fields:
-* _stash account_: the account holding the majority of your HDX. Make sure that you have more HDX than you want to stake in order to cover the transaction fees;
-* _controller account_: this account should hold a smaller portion of HDX needed to cover fees associated with starting and stopping a validator;
+* _stash account_: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees;
+* _controller account_: an account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of validating;
 * _value bonded_: the amount of HDX you are bonding;
 * _payment destination_: the account to which the validating rewards will be sent.
 
-:::note
+:::caution
 
 For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
 
@@ -101,7 +102,7 @@ To start validating, navigate in the Polkadot.JS app:
   <img src={useBaseUrl('/validator-guide/validate-1.png')} />
 </div>
 
-In the validator preferences, set your _reward commission percentage_. This is the proportion of the rewards which will be paid out to you. The remaining rewards will be split across your nominators in accordance with their stake. If you decide to not take any reward commission, you can set the percentage to 0.
+After clicking on the *Validate* button you should see a popup called *set validator preferences*. Here, you need to set your _reward commission percentage_. This is the proportion of the rewards which will be paid out to you. The remaining rewards will be split across your nominators in accordance with their stake. If you decide to not take any reward commission, you can set the percentage to 0.
 
 To confirm, click *Validate* and sign the transaction.
 
