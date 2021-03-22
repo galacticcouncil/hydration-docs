@@ -21,7 +21,7 @@ To access the staking interface, you first need to open the Polkadot/apps, conne
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
 
 :::
 

@@ -5,7 +5,7 @@ title: Start validating
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-After [setting up your HydraDX node](node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
+After [setting up your HydraDX node](/node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
 
 :::warning
 
@@ -19,7 +19,7 @@ In order to take part at the network as a validator node, you need to bond some 
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
 
 :::
 
