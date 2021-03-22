@@ -69,7 +69,7 @@ $ cargo build --release
 
 If you built the binary following the steps above, the path to your binary is:
 ```
-/home/{UNIX_USER_HOME}/HydraDX-node/target/release/hydra-dx
+target/release/hydra-dx
 ```
 
 ## 04 Run the binary
