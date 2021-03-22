@@ -55,9 +55,9 @@ To bond HDX tokens, navigate to *Account actions* in the Staking UI:
 </div>
 
 After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account;
-* **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating;
-* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later;
+* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
+* **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating.
+* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
 * **payment destination**: the account to which the staking rewards will be sent.
 
 :::warning
