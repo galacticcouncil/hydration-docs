@@ -69,7 +69,7 @@ $ cargo build --release
 
 If you built the binary following the steps above, the path to your binary is:
 ```
-target/release/hydra-dx
+/home/{UNIX_USER_HOME}/HydraDX-node/target/release/hydra-dx
 ```
 
 ## 04 Run the binary
@@ -103,7 +103,7 @@ Description=HydraDX validator
 
 [Service]
 Type=exec
-User={YOUR_SYSTEM_USER}
+User={UNIX_USER}
 ExecStart={PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
 Restart=always
 RestartSec=120
