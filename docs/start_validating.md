@@ -23,7 +23,7 @@ Are you still in possession of xHDX tokens that you bought during the Balancer L
 
 :::
 
-To bond HDX, open Polkadot/apps, and connect to one of the [public HydraDX RPC nodes](polkadotjs_apps_public). Make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
+To bond HDX, open Polkadot/apps, and connect to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public). Make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
 :::warning
 

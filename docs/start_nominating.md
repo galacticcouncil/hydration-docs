@@ -17,7 +17,7 @@ Nominating is a more accessible form of participation in the staking process, ho
 
 ## 00 Staking UI
 
-To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
+To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
 :::note
 

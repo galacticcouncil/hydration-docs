@@ -48,7 +48,7 @@ $ ntpq -p
 ## 02 Adjust your firewall settings
 Port `30333` is used for peer-to-peer connections with other nodes. If you are running the node as a validator, we recommend that you set up a firewall and configure to expose only this port for remote connections.
 
-If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node). You can use port `9944` to connect to your node with [Polkadot/apps](polkadotjs_apps_local).
+If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node). You can use port `9944` to connect to your node with [Polkadot/apps](/polkadotjs_apps_local).
 
 ## 03 Download or build a binary
 You can download a binary of our latest release on [github](https://github.com/galacticcouncil/HydraDX-node/releases).
