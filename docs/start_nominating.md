@@ -21,7 +21,7 @@ To access the staking interface, you first need to open the Polkadot/apps, conne
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
 
 :::
 
@@ -40,6 +40,12 @@ The Staking UI has the following menu tabs:
 
 ## 01 Bond HDX tokens
 
+:::warning
+
+Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+
+:::
+
 To bond HDX tokens, navigate to *Account actions* in the Staking UI:
 
 *Network* > *Staking* > *Account actions* > *+ Stash*
@@ -49,22 +55,22 @@ To bond HDX tokens, navigate to *Account actions* in the Staking UI:
 </div>
 
 After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees.
+* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
 * **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating.
-* **value bonded**: the amount of HDX you are bonding.
+* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
 * **payment destination**: the account to which the staking rewards will be sent.
 
-:::caution
+:::warning
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
+Do not bond all your available HDX tokens. Leave a small reserve for covering the transactions fees. If you bond all HDX tokens that you have, you may not be able to sign the transaction for starting the nomination process.
 
 :::
 
 After adjusting the bonding preferences, click **Bond** and sign transaction to complete the bonding process.
 
-:::warning
+:::caution
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
 
 :::
 

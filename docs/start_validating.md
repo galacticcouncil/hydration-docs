@@ -5,11 +5,11 @@ title: Start validating
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-After [setting up your HydraDX node](node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
+After [setting up your HydraDX node](/node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
 
 :::warning
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. We also require validators to be updated with the latest stable release. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
+Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. We also require validators to be always running the node using the latest stable release. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
 
 :::
 
@@ -19,11 +19,17 @@ In order to take part at the network as a validator node, you need to bond some 
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](claim) before continuing.
+Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
 
 :::
 
-To bond HDX, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
+To bond HDX, open Polkadot/apps, and connect to one of the [public HydraDX RPC nodes](polkadotjs_apps_public). Make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
+
+:::warning
+
+Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node may be punished by slashing which can lead to an involuntary loss of funds. We strongly recommend that you only proceed if you really know what you are doing.
+
+:::
 
 For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 
@@ -32,22 +38,22 @@ For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
 </div>
 
 After clicking the Stash button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account. Make sure that you leave some HDX after staking to cover the transactions fees.
+* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
 * **controller account**: an account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of validating.
-* **value bonded**: the amount of HDX you are bonding.
+* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
 * **payment destination**: the account to which the validating rewards will be sent.
 
-:::caution
+:::warning
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in the future.
+Do not bond all your available HDX tokens. Leave a small reserve for covering the transactions fees. If you bond all HDX tokens that you have, you may not be able to sign the transaction for starting the validation process.
 
 :::
 
 After adjusting the bonding preferences, click _Bond_ and sign transaction to complete the bonding process.
 
-:::warning
+:::caution
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node may be punished by slashing which can lead to an involuntary loss of funds. We strongly recommend that you only proceed if you really know what you are doing.
+For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in the future.
 
 :::
 
