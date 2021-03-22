@@ -79,6 +79,15 @@ You can run the binary by executing the following command:
 $ {PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
 ```
 
+:::note
+
+Validator nodes require the whole chain database. If you ran the node before without the `--validator` flag, you will need to resync the database by purging the chain before launching the node.
+```bash
+$ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
+```
+
+:::
+
 Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) where you can find a list of all nodes running on HydraDX Snakenet.
 
 ### 05 Running with systemd
