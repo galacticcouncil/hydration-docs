@@ -94,11 +94,27 @@ To complete, click _Submit Transaction_ and sign the transaction.
   <img src={useBaseUrl('/validator-guide/set-session-keys-1.png')} />
 </div>
 
-## 04 Start validating
+## 04 Make sure that your node is fully synced
 
-Before you start, check [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) to make sure that your node is running and the synchronization is fully complete.
+Before you continue, you should make sure that your node is running and that the synchronization process is fully complete. The most certain way to check the state of synchronization is directly on the node itself:
 
-To start validating, navigate in the Polkadot/apps:
+```bash
+
+$ journalctl -f -u hydradx-validator.service
+
+# The output will be similar to this
+Mar 22 18:37:38 Ubuntu-2010-groovy-64-minimal hydra-dx[232761]: 2021-03-22 18:37:38  💤 
+Idle (52 peers), best: #622028 (0x5f5a…1041), finalized #622025 (0x5b21…a746), ⬇ 9.1kiB/s ⬆ 6.1kiB/s
+
+```
+
+You can compare the block number from the output (in the example above: `#622025`) with the current block number which you can find in [Polkadot/apps Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer). At the time of writing, the current block is `#622240`, meaning that the node used for the example is not fully synced.
+
+Please wait until the block number shown in your local logs matches the current block number of the network.
+
+## 05 Start validating
+
+To start validating, navigate in Polkadot/apps:
 
 *Network* > *Staking* > *Account actions* > *Validate* (button next to your bonded HDX)
 

@@ -103,7 +103,7 @@ Description=HydraDX validator
 
 [Service]
 Type=exec
-User={YOUR_SYSTEM_USER}
+User={UNIX_USER}
 ExecStart={PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
 Restart=always
 RestartSec=120
