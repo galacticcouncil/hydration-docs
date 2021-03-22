@@ -5,7 +5,7 @@ title: Connect to a local node
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can use the Polkadot.JS app to connect to your local HydraDX node. For this purpose, you need to have access to port `9944` which is used for RPC websocket connections.
+You can use the Polkadot/apps to connect to your local HydraDX node. For this purpose, you need to have access to port `9944` which is used for RPC websocket connections.
 
 :::warning
 
@@ -13,9 +13,9 @@ If you are running the node as a validator, we highly recommend that you blackli
 
 :::
 
-### Accessing your local node using Polkadot.JS app
+### Accessing your local node using Polkadot/apps
 
-To access your node, open the [Polkadot.JS app](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
+To access your node, open [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
 
 <div>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
