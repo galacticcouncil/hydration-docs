@@ -15,6 +15,8 @@ $ cd HydraDX-node/
 # Prepare for running the benchmark
 $ ./scripts/init.sh
 $ rustup default nightly
+$ apt install python3-pip
+$ pip3 install bench-wizard
 
 # Run the benchmark
 $ ./scripts/check_performance.sh
