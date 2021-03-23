@@ -13,7 +13,7 @@ Make sure your browser supports the polkadot.js extension. Polkadot.js extension
 
 ## Claim process
 
-Navigate to https://claim.hydradx.io, the app will check for all the necessary pre-requisites for claiming and should guide you through the process. Yo will be able to claim from metamask or external wallet like MEW that supports signing a message. 
+Navigate to https://claim.hydradx.io, the app will check for all the necessary pre-requisites for claiming and should guide you through the process. You will be able to claim from metamask or external wallet like MEW that supports signing a message. 
 
 If your xHDX are stored in either Coinbase Wallet or Trust Wallet you will need some workaround as they don't support signing a message.  
 <u>Metamask</u>: If you open the Metamask extension for the first time you can import a wallet by seed phrase. You will find the seed phrase in the wallet app settings as "Recovery phrase".  
