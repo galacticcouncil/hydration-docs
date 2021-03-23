@@ -130,7 +130,7 @@ To confirm, click *Validate* and sign the transaction.
   <img src={useBaseUrl('/validator-guide/validate-2.png')} />
 </div>
 
-## 05 Check the status of your validator node
+## 06 Check the status of your validator node
 
 You can check the status of your validator node in the Polkadot/apps under:
 
