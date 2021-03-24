@@ -82,6 +82,12 @@ For security reasons, it is not recommended to have the same Stash and Controlle
 
 After bonding HDX, you can now nominate a validator. Before proceeding, you should do your due diligence and decide which validators you would like to nominate based on their (past) performance. To do so, refer to the information in the Staking UI [discussed above](#00-staking-ui).
 
+:::note
+
+HydraDX Snakenet has a **limit of 64 nominators per validating node**. When selecting a node to nominate, make sure that the validator has not reached the maximum amount of nominations, otherwise your nomination will be invalid and you will not receive rewards for your stake. The number of nominations for every validator can be found in the *Waiting* menu tab in the Staking UI.
+
+:::
+
 To nominate one or more validators, navigate to:
 
 *Network* > *Staking* > *Account actions* > *Nominate* (button next to your bonded HDX)
