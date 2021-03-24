@@ -1,7 +1,7 @@
 module.exports = {
   sidebar: {
     Intro: ["intro"],
-    "Knowledge base": [
+    "Knowledge Base": [
       "staking"
     ],
     Snakenet: [
