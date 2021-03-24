@@ -1,6 +1,9 @@
 module.exports = {
   sidebar: {
     Intro: ["intro"],
+    "Knowledge base": [
+      "staking"
+    ],
     Snakenet: [
       "snakenet",
       "claim",
