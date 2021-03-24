@@ -96,7 +96,7 @@ To nominate one or more validators, navigate to:
   <img src={useBaseUrl('/nominator-guide/nominate-validator-1.png')} />
 </div>
 
-After clicking on the *Nominate* button you should see a popup called *nominate validators*. Here you can select on or more validators to nominate from the list of available validators. If you select multiple validators, your stake will be automatically assigned to one of your selected validators in a way to maximize decentralization and profits.
+After clicking on the *Nominate* button you should see a popup called *nominate validators*. Here you can select one or more validators to nominate from the list of available validators. It is highly recommended to nominate multiple validators to prevent being inactive if you don't get a spot in one validator (e.g. the validator is overcrowded or not elected into the active validator set). You can nominate up to 16 validators. In every era just one of your nominations can be active, you cannot be chosen by multiple validators simultaneously. Your stake will be automatically assigned to one of your selected validators in a way to maximize decentralization and profits. You just chose the amount of bonded HDX and the validators you trust.
 
 To nominate the selected validators, click _Nominate_ and sign the transaction.
 
@@ -107,7 +107,7 @@ To nominate the selected validators, click _Nominate_ and sign the transaction.
 
 ## 03 Check the status of your nominations
 
-After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that the validator nodes you have nominated are included in the active set of validators. If a given validator remains in the waiting queue, your respective nomination will remain inactive and you will not earn any rewards for this stake.
+After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that at least one of the validator nodes you have nominated is included in the active set of validators and is not overcrowded leaving you out. If all of your validators remain in the waiting queue, your respective nominations will remain inactive too and you will not earn any rewards for this era.
 
 To check the status of your nominations, navigate to:
 
