@@ -18,7 +18,7 @@ Running a validator node requires a certain technical skillset needed for the pr
 The following technical specifications are required as a minimum for running a HydraDX validator node: 
 
 * OS: Ubuntu 20.04
-* CPU: Intel Core i7-7700K (or equivalent single core performance)
+* CPU: Intel Core i7-7700K @ 4.5Ghz (or equivalent single core performance)
 * Memory: 64GB RAM
 * Storage: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
 
