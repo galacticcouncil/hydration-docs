@@ -23,6 +23,10 @@ module.exports = {
           position: "left",
         },
         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
           href: "https://hydradx.io",
           label: "HydraDX Homepage",
           position: "right",
@@ -64,4 +68,13 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+    },
+  },
 };
