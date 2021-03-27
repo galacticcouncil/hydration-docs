@@ -51,7 +51,7 @@ After entering your ETH address, you should see the balance of HDX tokens you ca
 
 :::note
 
-Did you obtain your xHDX at some other place than Balancer, such as a DEX (Uniswap)? In that case, you are not eligible for gas refund.
+You are not eligible for a gas refund if you have obtained your xHDX at some other place than the official Balancer pool (such as Uniswap), or if you have moved your tokens out of the original buying wallet.
 
 :::
 
@@ -101,4 +101,4 @@ After completing the claim process, the HDX tokens will remain locked in your wa
 
 The xHDX tokens (which you used to claim HDX), on the other hand, will remain locked in your ERC-20 wallet forever, meaning that you can hide them from your wallet (or keep them visible as an early-adopter badge).
 
-Do you want to put your HDX tokens to work and help improve the security of the HydraDX network? Then you could participate at our incentivized testnet called **Snakenet** by staking your HDX. If you are interested, you can proceed by getting familiar with the [staking process](/staking), after which you can decide to participate as a [validator](/start_validating) or a [nominator](start_nominating).
+Do you want to put your HDX tokens to work and help improve the security of the HydraDX network? Then you could participate at our incentivized testnet called **Snakenet** by staking your HDX. If you are interested, you can proceed by getting familiar with the [staking process](/staking), after which you can decide to participate as a [validator](/start_validating) or a [nominator](/start_nominating).
