@@ -127,7 +127,7 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
 
 :::note
 
-Make sure to revisit your nominations once in a while. If some of your validators decide to change their commission percentage, your respective nominations will be removed and you might need to place new nominations.
+Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
 
 :::
 
