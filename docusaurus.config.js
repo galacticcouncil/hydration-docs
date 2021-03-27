@@ -70,10 +70,13 @@ module.exports = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: ['en', 'de', 'ru'],
     localeConfigs: {
       en: {
         label: 'English',
+      },
+      de: {
+        label: 'Deutsch',
       },
       ru: {
         label: 'русский',
