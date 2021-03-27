@@ -15,7 +15,7 @@ Nominating is a more accessible form of participation in the staking process, ho
 
 :::
 
-## 00 Staking UI
+## 00 Staking UI {#00-staking-ui}
 
 To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
@@ -38,7 +38,7 @@ The Staking UI has the following menu tabs:
 * **Waiting**: here, you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set.
 * **Validator stats**: here, you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
 
-## 01 Bond HDX tokens
+## 01 Bond HDX tokens {#01-bond-hdx-tokens}
 
 :::warning
 
@@ -78,7 +78,7 @@ For security reasons, it is not recommended to have the same Stash and Controlle
   <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 Nominate a validator
+## 02 Nominate a validator {#02-nominate-a-validator}
 
 After bonding HDX, you can now nominate a validator. Before proceeding, you should do your due diligence and decide which validators you would like to nominate based on their (past) performance. To do so, refer to the information in the Staking UI [discussed above](#00-staking-ui).
 
@@ -105,7 +105,7 @@ To nominate the selected validators, click _Nominate_ and sign the transaction.
 </div>
 
 
-## 03 Check the status of your nominations
+## 03 Check the status of your nominations {#03-check-the-status-of-your-nominations}
 
 After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that at least one of the validator nodes you have nominated is included in the active set of validators and is not overcrowded leaving you out. If all of your validators remain in the waiting queue, your respective nominations will remain inactive too and you will not earn any rewards for this era.
 

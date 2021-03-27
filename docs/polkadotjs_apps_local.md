@@ -13,7 +13,7 @@ If you are running the node as a validator, we highly recommend that you blackli
 
 :::
 
-### Accessing your local node using Polkadot/apps
+### Accessing your local node using Polkadot/apps {#accessing-your-local-node-using-polkadotapps}
 
 To access your node, open [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
 

@@ -7,11 +7,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 For claiming the HDX tokens from the xHDX ERC-20 token representation, you'll need your original wallet that you hold the tokens with on the Ethereum side, the polkadot.js browser extension, and a few minutes of your time.
 
-## Preparation
+## Preparation {#preparation}
 
 Make sure your browser supports the polkadot.js extension. Polkadot.js extension is the only official way to use your accounts with HydraDX right now. It's a good idea to have the Ethereum wallet ready for signing a message before starting the claim process, but we tried to make it as easy as possible. If you have [polkadot.js extension](https://polkadot.js.org/extension/) and metamask up and running, you should be ready to go.
 
-## Claim process
+## Claim process {#claim-process}
 
 Navigate to https://claim.hydradx.io, the app will check for all the necessary pre-requisites for claiming and should guide you through the process. You will be able to claim from metamask or external wallet like MEW that supports signing a message. 
 
@@ -20,7 +20,7 @@ If your xHDX are stored in either Coinbase Wallet or Trust Wallet you will need 
 <u>MEW (MyEtherWallet)</u>: Go to the [MEW Access My Wallet site](https://www.myetherwallet.com/access-my-wallet). If you're using Coinbase Wallet you could click on MEW wallet and chose the WalletLink connecting option and pair it. WalletLink can be found in the settings of the Coinbase Wallet app.  
 The other approach works with both wallets: chose "Software" on the MEW Access site and continue with "Mnemonic Phrase". There you'll be able to enter your seed phrase just like described with Metamask above.
 
-### 00 Setup
+### 00 Setup {#00-setup}
 
 You will be prompted from polkadot.js extension to authorize the usage with the claim site. Make sure the prompt says CLAIM.HYDRADX.IO and https://claim.hydradx.io, otherwise you could be a victim of a phishing attack!
 <img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
@@ -30,11 +30,11 @@ After authorization, you will be prompted to update metadata for the polkadot.js
 <img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
 
 
-### 01 Select ETH address
+### 01 Select ETH address {#01-select-eth-address}
 
 In the first step, you'll need to select an account you want to claim the tokens from. This can be done either by connecting to Metamask or by entering your address into the input box. In the second case you will need to sign the message manually later.
 
-### 02 Create HDX address
+### 02 Create HDX address {#02-create-hdx-address}
 
 You will need to select an address for claiming HDX. If you have approved the metadata upgrade in the first step, you will be able to create a HydraDX address in the Polkadot.js extension. Please do so now.
 
@@ -46,7 +46,7 @@ Never give your seed phrase to anybody. Back it up and store it in a safe place.
 
 Once you have your address created, you can select it in the claims UI and continue with the claim process.
 
-### 03 Sign
+### 03 Sign {#03-sign}
 
 :::info
 Because of the properties of the [ss58](https://polkadot.js.org/docs/keyring/start/ss58/) address format that polkadot chains use to display addresses in a human readable way, there will be a mismatch between the address you will be signing in the message and the one you will see in the polkadot.js extension. 
@@ -66,11 +66,11 @@ Depending on the option you chose in the first step you will be presented with o
 
     If you have entered your Ethereum address manually you will need to sign the message through the external wallet you used to buy the tokens and own the private key to. Once you have signed your message, paste the signature of the signed message (starting with "0x") into the response field.
 
-### 04 Claim
+### 04 Claim {#04-claim}
 
 Once signed, you will need to send a transaction and sign it with your Polkadot.js extension. When you did this you officially became HDX owner. You can check your HDX balance over at [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts). It is not displayed in the browser extension.
 
-### 05 What's next?
+### 05 What's next? {#05-whats-next}
 
 In the next few days, we'll prepare a guide on how to use your tokens to run a validator node or nominate a validator to stake them. There's nothing else you can't do right now with your tokens.  
 You will still see your xHDX balance in your old wallet. As they are locked there forever you could just leave them visible as an "early-adopter badge" or you could hide the token from your wallet.  

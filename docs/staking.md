@@ -9,7 +9,7 @@ This section provides a brief introduction into how staking works in the HydraDX
 
 The consensus mechanism used by HydraDX is called Nominated Proof-of-Stake (NPoS). NPoS is a variation of Proof-of-Stake and is used in Substrate-based blockchains such as Polkadot and Kusama. The two central actors in an NPoS environment are called [**validators**](#validators) and [**nominators**](#nominators). 
 
-### Validators
+### Validators {#validators}
 
 Validators participate in the network by running validator nodes, which provide the infrastructure that allows the HydraDX network to operate securely. Validator nodes fulfill three functions which are of paramount importance to the consensus mechanism. In the first place, they validate the information contained in blocks, such as the identity of the parties and the subject of the contract. In the second place, validators participate in the production of new blocks based on the validity statements of other validators. In the third place, they guarantee the finality of blockchain transactions.
 
@@ -25,7 +25,7 @@ In a Substrate-based network, time is divided in units called **eras**. In [Hydr
 
 Participating as a validator requires a certain level of technical knowledge for securely setting up and maintaining a validator node. Misbehavior of the validator node can be punished by slashing, resulting in an involuntary loss of funds for you and your nominators. If you believe that you have the necessary experience for running a validator node, you can refer to our [validator guide](/node_setup). Otherwise, we highly recommend that you consider participating as a nominator.
 
-### Nominators
+### Nominators {#nominators}
 
 Nominators help secure the network by nominating validators to be elected in the active validator set. They do so by staking their HDX tokens with the validators of their choice. The nomination process does not require running and maintaining nodes, making this form of staking more accessible to everybody. Tokens which are used to nominate validators are *bonded*, meaning that they are frozen and cannot be used for other purposes. It is at any time possible to change or stop your nominations which will be reflected at the end of the current era. Nominators can also free up their tokens, however this will only become effective after a waiting period of *28 days* following the unbonding transaction.
 
