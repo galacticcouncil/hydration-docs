@@ -1,7 +1,6 @@
 ---
 id: intro
-title: Intro
-slug: /ru
+title: Далее
 ---
 
 Добро пожаловать в документацию по HydraDX. 

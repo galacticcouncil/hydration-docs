@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Let's learn this",
   url: "https://docs.hydradx.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "galacticcouncil", // Usually your GitHub org/user name.
@@ -70,10 +70,13 @@ module.exports = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ru'],
     localeConfigs: {
       en: {
         label: 'English',
+      },
+      ru: {
+        label: 'русский',
       },
     },
   },
