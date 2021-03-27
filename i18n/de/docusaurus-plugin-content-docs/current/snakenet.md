@@ -3,8 +3,8 @@ id: snakenet
 title: Snakenet
 ---
 
-The time is here. We'll need fellow Hydraheads to join our incentivized testnet (Stakenet) and help us extend current limitations and point us where to improve. 
+Die Zeit ist gekommen. Wir werden einige Hydraheads brauchen die unserem incentivized testnet (damit ist das Stakenet gemeint) beitreten und uns dabei helfen unsere momentanen Limitierungen auszubauen und uns aufzuzeigen wo wir uns verbessern können.
 
-The testnet will be split into different phases and, at some point, it will transition into a fully working mainnet. The balances of HDX token rewards during this phase will be transitioned to the mainnet.
+Das Testnet wird in verschiedene Phasen aufgeteilt sein und irgendwann in ein voll funktionstüchtiges Mainnet übergehen. Die Kontostände der HDX Token Rewards während dieser Phase werden mit ins Mainnet übertragen werden. 
 
-For now, we will hold sudo keys in case of a bug or an issue on our side that may lead to a loss of funds. We would like to reserve a right to revert any such mishap. 
+Für den Moment behalten wir die sudo keys im Falle eines Bugs oder eines anderen Fehler auf unserer Seite welche zu einem Verlust von Kapital führen könnten. Wir möchten uns das Recht vorbehalten einen solchen Fall auf den Zustand vor dem Unfall zurückleiten zu können.

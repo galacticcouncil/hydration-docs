@@ -1,9 +1,8 @@
 ---
 id: intro
 title: Intro
-slug: /
 ---
 
-Welcome to HydraDX docs. 
+Willkommen in den HydraDX docs.
 
-Hopefully, we can make this place a great resource for learning about HydraDX together.
+Ziel ist es diese Plattform als Lern und Austauschsmöglichkeit rund um HydraDX gemeinsam aufzubauen.

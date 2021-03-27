@@ -1,78 +1,75 @@
 ---
 id: claim
-title: Claim your HDX
+title: HDX beanspruchen
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-For claiming the HDX tokens from the xHDX ERC-20 token representation, you'll need your original wallet that you hold the tokens with on the Ethereum side, the polkadot.js browser extension, and a few minutes of your time.
+Um Ihre HDX Token aus der xHDX ERC-20 Token-Repräsentation beanspruchen zu können, benötigen sie Ihr originales Wallet in welchem Sie Ihre Token im Ethereum Netzwerk aufbewahren, die polkadot.js Browsererweiterung, und ein paar Minuten Zeit.
 
-## Preparation {#preparation}
+## Vorbereitung {#preparation}
 
-Make sure your browser supports the polkadot.js extension. Polkadot.js extension is the only official way to use your accounts with HydraDX right now. It's a good idea to have the Ethereum wallet ready for signing a message before starting the claim process, but we tried to make it as easy as possible. If you have [polkadot.js extension](https://polkadot.js.org/extension/) and metamask up and running, you should be ready to go.
+Stellen Sie sicher das ihr Browser die polkadot.js Erweiterung unterstützt. Die Polkadot.js Erweiterung ist momentan der einzig offizielle Weg Ihre Accounts mit HydraDX zu verwenden. Es wäre empfehlenswert das Ethereum Wallet bereit zu haben um eine Nachricht zu signieren um den Beanspruchungsvorgang zu starten, aber wir haben uns bemüht den Vorgang so einfach wie möglich zu machen. Wenn Sie die [polkadot.js extension] (https://polkadot.js.org/extension/) besitzen und Metamask installiert und funktionsbereit haben, sind Sie bereit loszulegen.
 
-## Claim process {#claim-process}
+## Beanspruchungsprozess {#claim-process}
 
-Navigate to https://claim.hydradx.io, the app will check for all the necessary pre-requisites for claiming and should guide you through the process. You will be able to claim from metamask or external wallet like MEW that supports signing a message. 
+Besuchen sie die Website https://claim.hydradx.io, die App prüft ob alle benötigten zuvor genannten Vorbereitungen getroffen wurden, und sollte Sie durch den Vorgang der Beanspruchung führen. Es ist Ihnen möglich die Beanspruchung von Metamask oder einem Externen Wallet durchzuführen insofern es die signierung einer Nachricht unterstützt.
+Wenn sie Ihre XHDX in einer Coinbase Wallet oder in einem Trust Wallet liegen haben, bedarf es einem Workaroung da diese Wallets eine signierte Nachricht nicht ermöglichen.  
+<u>Metamask</u>: Wenn Sie die Metamask Erweiterung das erste mal verwenden können Sie mit einem Seed Phrase eine Wallet importieren. Sie finden die Seed Phrase in den Einstellungen der Wallet App unter "Recovery Phrase" 
+<u>MEW (MyEtherWallet)</u>: Gehen sie zu [MEW Access My Wallet site](https://www.myetherwallet.com/access-my-wallet). Wenn Sie ein Coinbase Wallet verwenden klicken sie auf MEW Wallet und wählen sie WalletLink connecting Option und koppeln sie diese. Der WalletLink ist in den Einstellungen der Coinbase Wallet App zu finden.  
 
-If your xHDX are stored in either Coinbase Wallet or Trust Wallet you will need some workaround as they don't support signing a message.  
-<u>Metamask</u>: If you open the Metamask extension for the first time you can import a wallet by seed phrase. You will find the seed phrase in the wallet app settings as "Recovery phrase".  
-<u>MEW (MyEtherWallet)</u>: Go to the [MEW Access My Wallet site](https://www.myetherwallet.com/access-my-wallet). If you're using Coinbase Wallet you could click on MEW wallet and chose the WalletLink connecting option and pair it. WalletLink can be found in the settings of the Coinbase Wallet app.  
-The other approach works with both wallets: chose "Software" on the MEW Access site and continue with "Mnemonic Phrase". There you'll be able to enter your seed phrase just like described with Metamask above.
+Die andere Herangehensweise funktioniert mit beiden Wallets: Wählen sie "Software" auf der MEW Access Seite und fahren sie mit "Mnemonic Phrase" fort. Hier können sie dann in der selben Art und Weise wie in Metamask oben beschrieben, Ihre Seed Phrase eingeben.
 
-### 00 Setup {#00-setup}
+### 00 Einrichtung {#00-setup}
 
-You will be prompted from polkadot.js extension to authorize the usage with the claim site. Make sure the prompt says CLAIM.HYDRADX.IO and https://claim.hydradx.io, otherwise you could be a victim of a phishing attack!
+Sie werden daraufhin von der polkadot.js Erweiterung aufgefordert die Benutzung der Beanspruchungsseite zu authorisieren. Stellen Sie sicher das die Aufforderung CLAIM.HYDRADX.IO anzeigt und  https://claim.hydradx.io, andererseits könnten sie einem Phishing Angriff zum Opfer fallen!
 <img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
 
 
-After authorization, you will be prompted to update metadata for the polkadot.js extension. This means that polkadot.js will be able to create HydraDX specific addresses which are required to complete the claim process in the UI.
+Nach der Authorisierung, werden sie aufgefordert ihre Metadaten für die polkadot.js Erweiterung zu aktualisieren. Dies bedeutet das die Polkadot.js Erweiterung dazu in der Lage sein wird HydraDX spezifische Adressen zu erstellen, welche notwendig sind um den Beanspruchungsprozess in der Benutzeroberfläche zu vervollständigen.
 <img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
 
+### 01 ETH Adresse auswählen {#01-select-eth-address}
 
-### 01 Select ETH address {#01-select-eth-address}
+Im ersten Schritt, müssen sie einen Account auswählen von dem Sie die Token beanspruchen wollen. Dies geschieht entweder durch die Verbindung zu Metamask oder indem Sie ihre Adresse in das Eingabefeld eingeben. Im Falle der zweiten Variante müssen sie später die Nachricht manuell signieren. 
 
-In the first step, you'll need to select an account you want to claim the tokens from. This can be done either by connecting to Metamask or by entering your address into the input box. In the second case you will need to sign the message manually later.
+### 02 HDX Adresse erstellen {#02-create-hdx-address}
 
-### 02 Create HDX address {#02-create-hdx-address}
-
-You will need to select an address for claiming HDX. If you have approved the metadata upgrade in the first step, you will be able to create a HydraDX address in the Polkadot.js extension. Please do so now.
+Um Ihre HDX beanspruchen zu können müssen sie eine Adresse auswählen. Wenn sie dem Metadaten Upgrade in Schritt Eins zugestimmt haben, können Sie nun ihre HydraDX Adresse in der Polkadot.js Erweiterung erstellen. Bitte tun Sie dies jetzt.
 
 :::warning 
-Never give your seed phrase to anybody. Back it up and store it in a safe place. It is the only way you can recover your account and if you lose or leak it, your funds will be compromised. Please note that you need to keep this wallet until the mainnet starts as the balances will be locked and if you lose access to the wallet you will also lose your HDX. Keep it safe please.
+Geben sie ihre Seed Phrase an niemanden weiter. Erstellen sie davon ein Backup und bewahren Sie sie an einem sicheren PLatz auf. Es ist der einzige Weg ihren Account wiederzuerlangen und wenn Sie ihn verlieren oder versehentlich veröffentlichen, sind ihre Anlagen in Gefahr. Bitte nehmen Sie zu Kenntnis das Sie dieses Wallet bis zum Start des Mainnets behalten müssen, da alle Bestände bis dahin gesperrt bleiben. Wenn Sie den Zugang zu ihrer Wallet verlieren, verlieren sie auch Ihre HDX. Sichern sie es. Bitte.
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
-Once you have your address created, you can select it in the claims UI and continue with the claim process.
+Sobald sie Ihre Adresse erstellt haben, können Sie diese in der Benutzeroberfläche auswählen und mit dem Beanspruchungsprozess fortfahren.
 
-### 03 Sign {#03-sign}
+### 03 Signieren {#03-sign}
 
 :::info
-Because of the properties of the [ss58](https://polkadot.js.org/docs/keyring/start/ss58/) address format that polkadot chains use to display addresses in a human readable way, there will be a mismatch between the address you will be signing in the message and the one you will see in the polkadot.js extension. 
-
-What you see in the message box is the actual public key of your address. While in the extension you will see human readable representation of your address.
-
-This is completely safe as we are checking the address you are signing in the message against the address of the account you are using to do the actual claim. In this way, it's not possible to claim to any other address than the one you will use in the last step.
+Aufgrund der Eigenschaften des  [ss58](https://polkadot.js.org/docs/keyring/start/ss58/) Adressformats welche die Polkadot Chain benutzt um Adressen in einer für Menschen lesbaren Darstellung anzuzeigen, werden die Adresse die Sie signieren und der Adresse die Sie in der Polkadot.js Erweiterung sehen werden, nicht übereinstimmen.
+Was Sie in der Mitteilungs Box sehen ist ihr tatsächlicher öffentlicher Schlüssel zu Ihrer Adresse. Während sie in der Erweiterung eine für Menschen lesbare Repräsentation ihrer Adresse sehen werden.
+Dies ist vollständig sicher da wir die Adresse die sie signieren, mit der Adresse des von Ihnen zur Beanspruchung verwendeten Accounts abgleichen. Dadurch ist es nicht möglich HDX von einer anderen Adresse zu beanspruchen außer von der die Sie im vorangegangen Schritt verwendet haben.
 :::
 
-Depending on the option you chose in the first step you will be presented with one of the two options here.
+Abhängig von der von Ihnen verwendeten Möglichkeit die sie in Schritt Eins ausgewählt haben werden Ihnen hier nun eine von Zwei möglichen Optionen angezeigt.
+1.   Signieren der Nachricht durch Metamask.
 
-1. Sign the message through Metamask.
-  
-    If you have connected your Metamask, you will be prompted to sign a message when you click on the sign button. Follow the instructions in Metamask to sign the message.
+        Wenn sie ihr Metamask verbunden haben, werden sie aufgefordert eine Nachricht zu signieren wenn sie auf den Sign Knopf klicken. Folgen sie den Anweisungen in Metamask um die Nachricht zu signieren.
+		
+2. Signieren Sie die Nachricht über ihre externe Wallet.
 
-2. Sign the message through external wallet.
+	Wenn sie Ihre Ethereum Adresse manuell eingegeben haben müssen sie die Nachricht durch ihre externe Wallet signieren die sie zum kauf der Token verwendet haben und sie den privaten Schlüssel dazu besitzen. Sobald sie Ihre Nachricht signiert haben, fügen sie sie Signatur (beginnt mit "0x") in das dafür vorgesehene Feld ein.
 
-    If you have entered your Ethereum address manually you will need to sign the message through the external wallet you used to buy the tokens and own the private key to. Once you have signed your message, paste the signature of the signed message (starting with "0x") into the response field.
+### 04 Beanspruchen {#04-claim}
 
-### 04 Claim {#04-claim}
+Sobald die Nachricht signiert ist, müssen sie eine Transaktion senden und sie mit ihrer Polkadot.js Erweiterung signieren. Wenn sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts). Falls es nicht bereits in der Erweiterung angezeigt werden sollte.
 
-Once signed, you will need to send a transaction and sign it with your Polkadot.js extension. When you did this you officially became HDX owner. You can check your HDX balance over at [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts). It is not displayed in the browser extension.
+### 05 Was kommt danach? {#05-whats-next}
 
-### 05 What's next? {#05-whats-next}
+In den nächsten Tagen, bereiten wir eine Anleitung vor wie sie Ihre Token zum Betreiben einer Validator Node oder zum nominieren eines Validators einsetzen und staken können. Es gibt nichts was Sie jetzt mit ihren Token nicht tun könnten. 
+Sie werden weiterhin ihren xHDX Kontostand in ihrer alten Wallet angezeigt bekommen. Da sie dort für immer gesperrt bleiben, könnten sie diese Sichtbar lassen als eine Art "Early-Supporter Medaille" oder sie eben in ihrer Wallet ausblenden lassen.
+Die HDX token sind ebenfalls gesperrt bis das Mainnet gestartet wird. Sie können sie im Moment nicht übertragen, handeln oder umtauschen. 
+Was sie allerdings tun könnten, wäre uns zu helfen mit Dingen wie, anderen zu helfen den Claim vorgang durchzuführen, diese Anleitung zu verbesserun oder andere Probleme anzugehen unter [github](https://github.com/galacticcouncil).
 
-In the next few days, we'll prepare a guide on how to use your tokens to run a validator node or nominate a validator to stake them. There's nothing else you can't do right now with your tokens.  
-You will still see your xHDX balance in your old wallet. As they are locked there forever you could just leave them visible as an "early-adopter badge" or you could hide the token from your wallet.  
-The HDX tokens are also locked until the start of the mainnet. You can't transfer, trade or swap them right now.  
-What you can do is to jump in and help us with stuff including helping others with the claim, improving this guide or tackling some issues at the [github](https://github.com/galacticcouncil).
