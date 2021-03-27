@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "HydraDX Документация",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Документы",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.HydraDX Homepage": {
+    "message": "HydraDX Домашняя страница",
+    "description": "Navbar item with label HydraDX Homepage"
+  }
+}
