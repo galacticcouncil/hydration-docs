@@ -125,4 +125,10 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
   <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
 </div>
 
+:::note
+
+Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
+
+:::
+
 Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
