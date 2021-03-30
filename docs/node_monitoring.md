@@ -5,7 +5,7 @@ title: Node Monitoring
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-In this chapter we will walk you through setting up a local monitoring for your validator node.
+In this chapter we will walk you through the setup of local monitoring for your validator node.
 
 ## Prerequisites
 
@@ -18,13 +18,13 @@ In the first step we will set up the Prometheus server.
 
 ### User and Directories
 
-We create a user just for the monitoring purpose which has no home directory and can't be used to log in.
+We create a user just for monitoring purposes which has no home directory and can't be used to log in.
 
 ```shell script
 $ sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
 ```
 
-Then we create directories for the executable and configuration file.
+Then we create directories for the executable and the configuration file.
 
 ```shell script
 $ sudo mkdir /etc/prometheus
@@ -68,7 +68,7 @@ $ sudo chown prometheus:prometheus /usr/local/bin/prometheus
 $ sudo chown prometheus:prometheus /usr/local/bin/promtool
 ```
 
-Next up we'll copy over the web interface and configuration presets.
+Next up we'll copy the web interface and the configuration presets.
 
 ```shell script
 $ sudo cp -r ./consoles /etc/prometheus
@@ -82,7 +82,7 @@ $ sudo chown -R prometheus:prometheus /etc/prometheus/consoles
 $ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
 
-We now got everything we need from the downloaded package so we will go one step back and do some cleanup.
+We now have everything we need from the downloaded package so we will go one step back and do some cleanup.
 
 ```shell script
 $ cd .. && rm -rf prometheus*
@@ -121,8 +121,8 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-The first scrape job exports data of Prometheus itself, the second one carries the HydraDX node metrics.
-We adjusted the `scrape_interval` of both jobs to get a more detailed statistic. This overrides the global values.
+The first scrape job exports data of Prometheus itself, the second one exports the HydraDX node metrics.
+We adjusted the `scrape_interval` of both jobs to get more detailed statistics. This overrides the global values.
 The `target` in `static_configs` sets where the exporters run, we stick to the default ports here.
 
 After saving the configuration we will - once again - change the ownership.
@@ -163,12 +163,12 @@ Paste the following configuration and save the file.
   WantedBy=multi-user.target
 ```
 
-We will do three steps in one now but here's what it does:
+Next we will perform the following three steps:
 `systemctl deamon-reload` loads new configurations and updates existing 
 `systemctl enable` activates our new service
 `systemctl start` triggers the execution of the service
 
-Please perform all three actions in one step now:
+You can perform the steps above in one command by executing:
 
 ```shell script
 $ sudo systemctl daemon-reload && systemctl enable prometheus && systemctl start prometheus
@@ -310,7 +310,7 @@ Password: `admin`
 ### Configuring the Datasource
 
 Please click the settings gear in the menu and select datasources.  
-In the next window you click "Add Datasource" and celect "Prometheus".  
+In the next window you click "Add Datasource" and select "Prometheus".  
 
 In the following form you don't need to change anything but the URL.  
 Set `http://localhost:9090/` and click `Save and Test`.  
@@ -346,4 +346,3 @@ If some panels are empty please ensure your selection above the panels is like t
 * `Chain Instance`: localhost:9615  
 * `Server Job`: node_exporter  
 * `Server Host`: localhost:9100  
-
