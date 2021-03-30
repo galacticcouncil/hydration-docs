@@ -327,7 +327,7 @@ Please click the `Plus`-button in the main navigation and select `import`.
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-We will use the HydraDX Dashboard and to load it you simply input the id `14158` and hit the `Load`-button.  
+We will use the [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) and to load it you simply input the id `14158` and hit the `Load`-button.  
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
