@@ -7,16 +7,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 In this chapter we will walk you through the setup of local monitoring for your validator node.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 You must have your [validator node](/node_setup) up and running.  
 This guide was tested on Ubuntu 20.04 LTS release.
 
-## Prometheus Setup
+## Prometheus Setup {#prometheus-setup}
 
 In the first step we will set up the Prometheus server.
 
-### User and Directories
+### User and Directories {#user-and-directories}
 
 We create a user just for monitoring purposes which has no home directory and can't be used to log in.
 
@@ -38,7 +38,7 @@ $ sudo chown -R prometheus:prometheus /etc/prometheus
 $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 ```
 
-### Install Prometheus
+### Install Prometheus {#install-prometheus}
 
 Check latest version number of Prometheus at the [GitHub release page](https://github.com/prometheus/prometheus/releases/).  
 At the time of writing it is v2.25.2. Insert the latest release version in the following commands.
@@ -131,7 +131,7 @@ After saving the configuration we will - once again - change the ownership.
 $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 ```
 
-### Starting Prometheus
+### Starting Prometheus {#starting-prometheus}
 
 To have Prometheus starting automatically and running in the background we'll use `systemd`.
 Create a new config (again with the editor of your choice):
@@ -176,13 +176,13 @@ $ sudo systemctl daemon-reload && systemctl enable prometheus && systemctl start
 
 You should now be able to access Prometheus' web interface at http://localhost:9090/.
 
-## Node Exporter
+## Node Exporter {#node-exporter}
 
 We will install Node Exporter to scrape server metrics that will be used in the dashboard.  
 Please check the version number of the latest release [here](https://github.com/prometheus/node_exporter/releases/) and update the command.  
 At the time of writing the latest version was `1.1.2`.
 
-### Install Node Exporter
+### Install Node Exporter {#install-node-exporter}
 
 Download the latest release.
 
@@ -212,7 +212,7 @@ We can now do some cleanup and remove the downloaded and unpacked package.
 $ rm -rf node_exporter*
 ```
 
-### Create a Systemd Service
+### Create a Systemd Service {#create-a-systemd-service}
 
 Similar to prometheus we want Node Exporter to run as a service too.  
 Create a systemd service with your editor of choice.
@@ -245,7 +245,7 @@ We will now activate and start the service with this one-liner.
 $ sudo systemctl daemon-reload && systemctl enable node_exporter && systemctl start node_exporter
 ```
 
-### Add Scrape Job for Node Exporter
+### Add Scrape Job for Node Exporter {#add-scrape-job-for-node-exporter}
 
 The Node Exporter is now up and running but we need to tell Prometheus to scrape its data.  
 We will open the configuration file once again with the editor of choice.
@@ -273,12 +273,12 @@ $ sudo systemctl restart prometheus.service
 Your server metrics are now scraped and can be found in the Prometheus web interface.  
 We will need them later for our dashboard.
 
-## Grafana Setup
+## Grafana Setup {#grafana-setup}
 
 We can see our metrics in the web interface, but that's not how we want to monitor it.   
 We want it nice and beautiful. That's where Grafana comes into play. 
 
-### Install Grafana
+### Install Grafana {#install-grafana}
 
 Please check what's the latest Grafana Version [with this link](https://grafana.com/grafana/download?platform=linux).  
 You can either change the version number in the following commands or copy the install commands directly from the link.  
@@ -296,7 +296,7 @@ The package comes with a builtin `systemd`-service which we will configure and s
 $ sudo systemctl daemon-reload && sudo systemctl enable grafana-server && sudo systemctl start grafana-server
 ```
 
-### Accessing the Web Interface
+### Accessing the Web Interface {#accessing-the-web-interface}
 
 We'll be able to open the Grafana web interface at http://localhost:3000/.  
 The default login Grafana is:  
@@ -307,7 +307,7 @@ Password: `admin`
   <img src={useBaseUrl('/node-monitoring/grafana-home.png')} />
 </div>
 
-### Configuring the Datasource
+### Configuring the Datasource {#configuring-the-datasource}
 
 Please click the settings gear in the menu and select datasources.  
 In the next window you click "Add Datasource" and select "Prometheus".  
@@ -319,7 +319,7 @@ Set `http://localhost:9090/` and click `Save and Test`.
   <img src={useBaseUrl('/node-monitoring/grafana-datasource.png')} />
 </div>
 
-### Importing the Dashboard
+### Importing the Dashboard {#importing-the-dashboard}
 
 Please click the `Plus`-button in the main navigation and select `import`.  
 
