@@ -123,12 +123,34 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
-</div>
+</div>  
 
 :::note
 
 Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
 
 :::
+
+## 04 Change Nominees
+
+There may be several circumstances where you'd like to change your nominations or remove specific ones.  
+This could be due to oversubscription of a validator or if he changes the commission rate.  
+
+To do so open Polkadot/apps and navigate over to:  
+*Network* > *Staking* > *Account actions*
+
+Hit the three dots at the end of your account details and click _Set nominees_.  
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
+</div>
+
+In the following window, that may already feel familiar, you can remove validators and/or add new ones.  
+This step can be done on the fly, there is no need to stop nominating. It will be respected for the next era.  
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
+</div>  
+
 
 Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
