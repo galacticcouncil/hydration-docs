@@ -20,7 +20,7 @@ module.exports = {
       "maintain/performance_benchmark",
       "maintain/node_monitoring"
     ],
-    "Build": [],
+    "Build": ["build/intro"],
     Contributing: ["contributing"],
   },
 };
