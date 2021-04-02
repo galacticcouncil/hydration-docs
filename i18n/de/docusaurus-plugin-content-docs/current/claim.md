@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Um Ihre HDX Token aus der xHDX ERC-20 Token-Repräsentation beanspruchen zu können, benötigen sie Ihr originales Wallet in welchem Sie Ihre Token im Ethereum Netzwerk aufbewahren, die polkadot.js Browsererweiterung, und ein paar Minuten Zeit.
 
-## Vorbereitung {#preparation}
+## Vorbereitung {#prequisites}
 
 Stellen Sie sicher das ihr Browser die polkadot.js Erweiterung unterstützt. Die Polkadot.js Erweiterung ist momentan der einzig offizielle Weg Ihre Accounts mit HydraDX zu verwenden. Es wäre empfehlenswert das Ethereum Wallet bereit zu haben um eine Nachricht zu signieren um den Beanspruchungsvorgang zu starten, aber wir haben uns bemüht den Vorgang so einfach wie möglich zu machen. Wenn Sie die [polkadot.js extension] (https://polkadot.js.org/extension/) besitzen und Metamask installiert und funktionsbereit haben, sind Sie bereit loszulegen.
 
@@ -20,7 +20,7 @@ Wenn sie Ihre XHDX in einer Coinbase Wallet oder in einem Trust Wallet liegen ha
 
 Die andere Herangehensweise funktioniert mit beiden Wallets: Wählen sie "Software" auf der MEW Access Seite und fahren sie mit "Mnemonic Phrase" fort. Hier können sie dann in der selben Art und Weise wie in Metamask oben beschrieben, Ihre Seed Phrase eingeben.
 
-### 00 Einrichtung {#00-setup}
+### 00 Authorisierung {#00-authorize}
 
 Sie werden daraufhin von der polkadot.js Erweiterung aufgefordert die Benutzung der Beanspruchungsseite zu authorisieren. Stellen Sie sicher das die Aufforderung CLAIM.HYDRADX.IO anzeigt und  https://claim.hydradx.io, andererseits könnten sie einem Phishing Angriff zum Opfer fallen!
 <img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
@@ -29,11 +29,11 @@ Sie werden daraufhin von der polkadot.js Erweiterung aufgefordert die Benutzung 
 Nach der Authorisierung, werden sie aufgefordert ihre Metadaten für die polkadot.js Erweiterung zu aktualisieren. Dies bedeutet das die Polkadot.js Erweiterung dazu in der Lage sein wird HydraDX spezifische Adressen zu erstellen, welche notwendig sind um den Beanspruchungsprozess in der Benutzeroberfläche zu vervollständigen.
 <img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
 
-### 01 ETH Adresse auswählen {#01-select-eth-address}
+### 01 ETH Adresse auswählen {#01-select-your-eth-address}
 
 Im ersten Schritt, müssen sie einen Account auswählen von dem Sie die Token beanspruchen wollen. Dies geschieht entweder durch die Verbindung zu Metamask oder indem Sie ihre Adresse in das Eingabefeld eingeben. Im Falle der zweiten Variante müssen sie später die Nachricht manuell signieren. 
 
-### 02 HDX Adresse erstellen {#02-create-hdx-address}
+### 02 HDX Adresse erstellen {#02-create-and-select-an-hdx-address}
 
 Um Ihre HDX beanspruchen zu können müssen sie eine Adresse auswählen. Wenn sie dem Metadaten Upgrade in Schritt Eins zugestimmt haben, können Sie nun ihre HydraDX Adresse in der Polkadot.js Erweiterung erstellen. Bitte tun Sie dies jetzt.
 
