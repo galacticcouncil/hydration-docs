@@ -21,7 +21,7 @@ module.exports = {
       {
         type: "category",
         label: "Other",
-        items: ["performance_benchmark"],
+        items: ["performance_benchmark",  "node_monitoring"],
       },
     ],
     Contributing: ["contributing"],
