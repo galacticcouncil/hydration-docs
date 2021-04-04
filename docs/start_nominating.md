@@ -131,22 +131,21 @@ Make sure that you revisit your nominations once in a while. It is possible that
 
 :::
 
-## 04 Change Nominees
+## 04 Adjust your nominations
 
-There may be several circumstances where you'd like to change your nominations or remove specific ones.  
-This could be due to oversubscription of a validator or if he changes the commission rate.  
+If some of your validators become oversubscribed or change their commission, you might want to adjust your nominations.
 
-To do so open Polkadot/apps and navigate over to:  
+To do so, open Polkadot/apps and navigate to:  
 *Network* > *Staking* > *Account actions*
 
-Hit the three dots at the end of your account details and click _Set nominees_.  
+Click on the three dots next to your account details and select _Set nominees_.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
 </div>
 
 In the following window, that may already feel familiar, you can remove validators and/or add new ones.  
-This step can be done on the fly, there is no need to stop nominating. It will be respected for the next era.  
+Adjusting your nominations can be done on the fly, there is no need to stop nominating. The changes will be applied when the following era begins (24h).
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
