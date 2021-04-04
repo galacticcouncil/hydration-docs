@@ -1,28 +1,28 @@
 ---
 id: performance_benchmark
-title: Performance benchmark
+title: Benchmark de desempeño
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can make sure that your machine satisfies the [required technical specifications](/node_setup#00-required-technical-specifications) by running a performance benchmark. To do so, follow the steps below:
+Puede asegurarse de que su máquina cumpla con las [especificaciones técnicas requeridas](/node_setup__#-00-required-technical-specifications) ejecutando una evaluación comparativa de rendimiento. Para hacerlo, siga los pasos a continuación:
 
 ```bash
 # Fetch source of the latest stable release
 $ git clone https://github.com/galacticcouncil/HydraDX-node -b stable
 $ cd HydraDX-node/
 
-# Prepare for running the benchmark
+# Prepárese para ejecutar el benchmark
 $ ./scripts/init.sh
 $ rustup default nightly
 $ apt install python3-pip
 $ pip3 install bench-wizard
 
-# Run the benchmark
+# Ejecute el benchmark
 $ ./scripts/check_performance.sh
 ```
 
-After the benchmark executes you should see an output similar to the following:
+Después de que se ejecute benchmark, debería ver un resultado similar al siguiente:
 
 ```
          Pallet          |   Time comparison (µs)    |     diff*     |            |   Rerun
@@ -31,6 +31,6 @@ exchange                 |    1105.00 vs 1049.10     |      55       |     OK   
 transaction_multi_payment|     289.00 vs 279.96      |       9       |     OK     |
 ```
 
-If the values in the `diff` field are positive in all three cases, then your machine is suitable to run a HydraDX validator node.
+Si los valores en el campo `diff` son positivos en los tres casos, entonces su máquina es adecuada para ejecutar un nodo validador HydraDX.
 
-Join us at Discord if you would like to discuss your benchmark results, our community is always happy to help.
+Únase a nosotros en Discord si desea discutir sus resultados de referencia, nuestra comunidad siempre estará feliz de ayudar.

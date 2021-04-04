@@ -1,76 +1,76 @@
 ---
 id: start_nominating
-title: Become a nominator
+title: Conviértete en un nominador
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-By becoming a nominator, you stake some of your HDX tokens to help secure the HydraDX network and to earn rewards. Unlike running a validator node, the process of nominating does not require advanced technical skills, making it the recommended choice for anyone who is not fully confident with becoming a validator.
+Al convertirse en nominador, apuesta algunos de sus tokens HDX para ayudar a asegurar la red HydraDX y ganar recompensas. A diferencia de ejecutar un nodo validador, el proceso de nominación no requiere habilidades técnicas avanzadas, por lo que es la opción recomendada para cualquiera que no esté completamente seguro de convertirse en validador.
 
-When nominating, nominators appoint their stake to a validator of their choice. By doing so, nominators elect the active set of validators and receive rewards for their participation. The amount of awards you receive as a nominator depends on the reward commission percentage of the chosen validator - the higher the reward commission of the validator, the less rewards you will be receiving for your stake.
+Al nominar, los nominadores asignan su participación a un validador de su elección. Al hacerlo, los nominadores eligen el conjunto activo de validadores y reciben recompensas por su participación. La cantidad de premios que recibe como nominador depende del porcentaje de comisión de recompensa del validador elegido: cuanto mayor sea la comisión de recompensa del validador, menos recompensas recibirá por su stake.
 
 :::warning
-
-Nominating is a more accessible form of participation in the staking process, however it also carries a certain degree of risk. If the validator you have nominated misbehaves (e.g. fails to maintain the required uptime), slashing can occur which may lead to a partial involuntary loss of the funds you have staked. We highly recommend that you do your due diligence before nominating a validator.
+La nominación es una forma más accesible de participación en el proceso de participación, sin embargo, también conlleva un cierto grado de riesgo. Si el validador que ha designado se comporta mal (por ejemplo, no mantiene el tiempo de actividad requerido), pueden producirse recortes que pueden conducir a una pérdida parcial involuntaria de los fondos que ha apostado. Le recomendamos encarecidamente que haga su debida diligencia antes de nominar a un validador.
 
 :::
 
 ## 00 Staking UI {#00-staking-ui}
 
-To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
+Para acceder a la interfaz de staking, primero debe abrir Polkadot/apps, conectarlo a uno de los [nodos públicos de HydraDX RPC](/polkadotjs_apps_public) y asegurarse de que puede ver su cuenta [saldo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
+¿Sigues en posesión de los tokens xHDX que compraste durante el evento Balancer LBP? Primero debe [reclamar su HDX](/claim) antes de continuar.
 
 :::
 
-After verifying that you can see your HDX balance, you can navigate to the Staking UI:
+Después de verificar que puede ver su saldo de HDX, puede navegar a la IU de Stking:
 
-*Network* > *Staking*
+*Network* > *Participacion*
 
-The Staking UI has the following menu tabs:
+El menu de staking IU, tiene las siguientes pestañas:
 
-* **Staking overview**: here, you will find a list of all active validators and some basic information about each validator, such as the amount of HDX staked on the node, the amount of the validator's own stake, and how much reward commission is charged. Furthermore, you can see the number of era points earned by each validator in the current era and the number of the last block produced by the validator.
-* **Account actions**: here, you can stake and nominate.
-* **Payouts**: here, you can claim your staking rewards.
-* **Targets**: here, you can estimate your earnings. This is a good place to start when picking a validator node to nominate.
-* **Waiting**: here, you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set.
-* **Validator stats**: here, you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
+* **Resumen de Staking**aquí, encontrará una lista de todos los validadores activos y cierta información básica sobre cada validador, como la cantidad de HDX apostada en el nodo, la cantidad de la propia participación del validador y la comisión de recompensa que se cobra. Además, puede ver el número de puntos de era obtenidos por cada validador en la era actual y el número del último bloque producido por el validador.
+* **Acciones de la cuenta**: aquí, puede stakear y nominar.
+* **Payouts**: aquí, puede reclamar sus recompensas de participación.
+* **Objetivos**: aquí, puede estimar sus ganancias. Este es un buen lugar para comenzar al elegir un nodo validador para nominar
+* **Esperando**:aquí, puede encontrar la cola de espera donde se colocan los validadores inactivos antes de ser incluidos en el conjunto de validadores activos. Un validador permanecerá en la cola de espera hasta que haya recibido una cantidad suficiente de HDX apostado para ingresar al conjunto de validador activo.
+* **Estadísticas del validador**:aquí, puede consultar la dirección de stash de un validador para ver información histórica detallada sobre los puntos ganados de la era, la apuesta elegida, las recompensas y el recorte. Le recomendamos encarecidamente que estudie esta información antes de confiar su nominación a un validador.
 
-## 01 Bond HDX tokens {#01-bond-hdx-tokens}
+## 01 Vincula tus HDX tokens {#01-bond-hdx-tokens}
 
 :::warning
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+Los tokens HDX vinculados están en juego para garantizar la seguridad de la red. El comportamiento inadecuado del nodo validador que ha designado puede ser castigado con recortes, lo que puede provocar una pérdida involuntaria de sus fondos. Le recomendamos encarecidamente que haga su debida diligencia al seleccionar qué validador nominar.
 
 :::
 
-To bond HDX tokens, navigate to *Account actions* in the Staking UI:
+Para vincular tokens HDX, navegue hasta *Acciones de la cuenta* en la IU de Staking:
 
-*Network* > *Staking* > *Account actions* > *+ Stash*
+*Network* > *Participacion* > *Acciones de la cuenta* > *+ Stash*
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/bond-hdx-1.png')} />
 </div>
 
-After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
-* **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating.
-* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
-* **payment destination**: the account to which the staking rewards will be sent.
+Después de hacer clic en el botón *Stash*, debería ver las preferencias de vinculación con cuatro campos editables:
+* **cuenta stash**: la cuenta que tiene la mayoría de sus tokens HDX. HDX se va a stakear desde esta cuenta.
+* **cuenta controller**: la cuenta que tiene una porción más pequeña de HDX necesaria para cubrir las tarifas asociadas con el inicio y la detención del proceso de nominación.
+* **valor vinculado**: la cantidad de HDX que está vinculando. No vincule todos los HDX que tenga; en su lugar, deje algunos para cubrir las tarifas de transacción que se producirán más adelante.
+* **destino de pago**: la cuenta a la que se enviarán las recompensas de stake.
 
 :::warning
 
-Do not bond all your available HDX tokens. Leave a small reserve for covering the transactions fees. If you bond all HDX tokens that you have, you may not be able to sign the transaction for starting the nomination process.
+No vincule todos sus tokens HDX disponibles. Deje una pequeña reserva para cubrir las tarifas de transacción. Si vincula todos los tokens HDX que tiene, es posible que no pueda firmar la transacción para iniciar el proceso de nominación.
 
 :::
 
-After adjusting the bonding preferences, click **Bond** and sign transaction to complete the bonding process.
+Después de ajustar las preferencias de vinculación, haga clic en **Vinculo** y firme la transacción para completar el proceso de vinculación.
+
 
 :::caution
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
+Por razones de seguridad, no se recomienda tener las mismas cuentas Stash y Controller. Sin embargo, dado que las transferencias están deshabilitadas en Snakenet, actualmente no es posible usar cuentas separadas. Recomendamos encarecidamente que cambie a cuentas Stash y Controller separadas tan pronto como sea posible en el futuro.
 
 :::
 
@@ -78,48 +78,49 @@ For security reasons, it is not recommended to have the same Stash and Controlle
   <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 Nominate a validator {#02-nominate-a-validator}
+## 02 Nominar un validador {#02-nominate-a-validator}
 
-After bonding HDX, you can now nominate a validator. Before proceeding, you should do your due diligence and decide which validators you would like to nominate based on their (past) performance. To do so, refer to the information in the Staking UI [discussed above](#00-staking-ui).
+Después de vincular HDX, ahora puede nominar un validador. Antes de continuar, debe hacer su debida diligencia y decidir qué validadores le gustaría nominar en función de su desempeño (pasado). Para hacerlo, consulte la información en la IU de replanteo [discutida anteriormente](#00-staking-ui).
 
 :::note
 
-HydraDX Snakenet has a **limit of 64 nominators per validating node**. When selecting a node to nominate, make sure that the validator has not reached the maximum amount of nominations, otherwise your nomination will be invalid and you will not receive rewards for your stake. The number of nominations for every validator can be found in the *Waiting* menu tab in the Staking UI.
+HydraDX Snakenet tiene un **límite de 64 nominadores por nodo de validación**. Al seleccionar un nodo para nominar, asegúrese de que el validador no haya alcanzado la cantidad máxima de nominaciones; de lo contrario, su nominación no será válida y no recibirá recompensas por su stake. El número de nominaciones para cada validador se puede encontrar en la pestaña del menú *Esperando * en la IU de Participacion.
 
 :::
 
-To nominate one or more validators, navigate to:
+Para nominar uno o más validadores, navegue hasta:
 
-*Network* > *Staking* > *Account actions* > *Nominate* (button next to your bonded HDX)
+*Network* > *Participación* > *Acciones de la cuenta* > *Nominar* (button next to your bonded HDX)
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-1.png')} />
 </div>
 
-After clicking on the *Nominate* button you should see a popup called *nominate validators*. Here you can select one or more validators to nominate from the list of available validators. It is highly recommended to nominate multiple validators to prevent being inactive if you don't get a spot in one validator (e.g. the validator is overcrowded or not elected into the active validator set). You can nominate up to 16 validators. In every era just one of your nominations can be active, you cannot be chosen by multiple validators simultaneously. Your stake will be automatically assigned to one of your selected validators in a way to maximize decentralization and profits. You just chose the amount of bonded HDX and the validators you trust.
+Después de hacer clic en el botón *Nominar*, debería ver una ventana emergente llamada *nominar validadores*. Aquí puede seleccionar uno o más validadores para nominar de la lista de validadores disponibles. Se recomienda encarecidamente nominar varios validadores para evitar estar inactivo si no obtiene un lugar en un validador (por ejemplo, el validador está sobrepoblado o no está elegido en el conjunto de validadores activos). Puede nominar hasta 16 validadores. En cada era, solo una de sus nominaciones puede estar activa, no puede ser elegido por varios validadores simultáneamente. Su participación se asignará automáticamente a uno de sus validadores seleccionados para maximizar la descentralización y las ganancias. Simplemente elige la cantidad de HDX enlazado y los validadores en los que confía.
 
-To nominate the selected validators, click _Nominate_ and sign the transaction.
+Para nominar a los validadores seleccionados, haga clic en _Nominar_ y firme la transacción.
+
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>
 
 
-## 03 Check the status of your nominations {#03-check-the-status-of-your-nominations}
+## 03 Verifique el estado de su nominación {#03-check-the-status-of-your-nominations}
 
-After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that at least one of the validator nodes you have nominated is included in the active set of validators and is not overcrowded leaving you out. If all of your validators remain in the waiting queue, your respective nominations will remain inactive too and you will not earn any rewards for this era.
+Después de completar el proceso de nominación, sus nominaciones estarán inactivas durante el resto de la era actual. Una vez que comience la siguiente era, sus nominaciones se activarán, siempre que al menos uno de los nodos de validación que haya nominado esté incluido en el conjunto activo de validadores y no esté abarrotado dejándolo fuera. Si todos sus validadores permanecen en la cola de espera, sus respectivas nominaciones también permanecerán inactivas y no obtendrá ninguna recompensa por esta era.
 
-To check the status of your nominations, navigate to:
+Para verificar el estado de sus nominaciones, navegue a:
 
-*Network* > *Staking* > *Account actions*
+*Network* > *Participacion* > *Acciones de la cuenta*
 
-You can see your inactive nominations under *Waiting nominations*:
+Puede ver sus nominaciones inactivas en *Esperando nominacione *:
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-3.png')} />
 </div>
 
-Once a nomination becomes active, you should find it in the list of *Active nominations*
+Una vez que una nominación se activa, debe encontrarla en la lista de *Nominaciones activas*
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
@@ -127,8 +128,8 @@ Once a nomination becomes active, you should find it in the list of *Active nomi
 
 :::note
 
-Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
+Asegúrese de revisar sus nominaciones de vez en cuando. Es posible que algunos de sus validadores cambien su porcentaje de comisión, lo que tendrá un impacto negativo en sus recompensas. Al verificar el estado de sus nominaciones con frecuencia, podrá reaccionar actualizando la lista de sus validadores nominados.
 
 :::
 
-Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
+¡Gracias por apoyar a HydraDX convirtiéndose en un nominador de Snakenet! 🎉
