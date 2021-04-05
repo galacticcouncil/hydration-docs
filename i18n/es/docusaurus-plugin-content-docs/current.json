@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Siguiente",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Intro": {
@@ -8,7 +8,7 @@
     "description": "The label for category Intro in sidebar sidebar"
   },
   "sidebar.sidebar.category.Knowledge Base": {
-    "message": "Knowledge Base",
+    "message": "Base de Conocimientos",
     "description": "The label for category Knowledge Base in sidebar sidebar"
   },
   "sidebar.sidebar.category.Snakenet": {
@@ -16,19 +16,19 @@
     "description": "The label for category Snakenet in sidebar sidebar"
   },
   "sidebar.sidebar.category.Become a validator": {
-    "message": "Become a validator",
+    "message": "Conviértete en validador",
     "description": "The label for category Become a validator in sidebar sidebar"
   },
   "sidebar.sidebar.category.Connecting to node": {
-    "message": "Connecting to node",
+    "message": "Conectando al nodo",
     "description": "The label for category Connecting to node in sidebar sidebar"
   },
   "sidebar.sidebar.category.Other": {
-    "message": "Other",
+    "message": "Otro",
     "description": "The label for category Other in sidebar sidebar"
   },
   "sidebar.sidebar.category.Contributing": {
-    "message": "Contributing",
+    "message": "Contribuyendo",
     "description": "The label for category Contributing in sidebar sidebar"
   }
 }
