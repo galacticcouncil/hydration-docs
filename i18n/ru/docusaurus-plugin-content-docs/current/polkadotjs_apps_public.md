@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * [RPC node hosted by Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
 
 
-## Подключиться к узлу RPC вручную
+## Подключиться к узлу RPC вручную {#connect-manually-to-an-rpc-node}
 
 Чтобы получить доступ к общедоступному узлу RPC вручную, откройте [Polkadot/apps](https://polkadot.js.org/apps/) и щелкните в верхнем левом углу, чтобы изменить сеть.
 
