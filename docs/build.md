@@ -1,5 +1,5 @@
 ---
-id: intro
+id: build
 title: For developers
 ---
 

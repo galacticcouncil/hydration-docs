@@ -1,26 +1,28 @@
 module.exports = {
   sidebar: {
-    Intro: ["intro"],
-    Snakenet: [
-      "snakenet/snakenet",
-      "snakenet/claim",
-      "snakenet/start_nominating",
-      "snakenet/start_validating",
+    Intro: [
+      "intro",
+      "snakenet"
+    ],
+    "How-to": [
+      "claim",
+      "start_nominating",
+      "start_validating",
       {
         type: "category",
         label: "Connecting to node",
-        items: ["snakenet/polkadotjs_apps_local", "snakenet/polkadotjs_apps_public"],
+        items: ["polkadotjs_apps_local", "polkadotjs_apps_public"],
       }
     ],
     "Learn": [
-      "learn/staking"
+      "staking"
     ],
     "Maintain": [
-      "maintain/node_setup",
-      "maintain/performance_benchmark",
-      "maintain/node_monitoring"
+      "node_setup",
+      "performance_benchmark",
+      "node_monitoring"
     ],
-    "Build": ["build/intro"],
+    "Build": ["build"],
     Contributing: ["contributing"],
   },
 };
