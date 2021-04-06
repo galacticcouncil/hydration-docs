@@ -37,9 +37,9 @@ exchange                 |     804.00 vs 720.00      |      84.00    |      10.4
 transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.17     |     OK     |
 
 Notes:
-* - diff means the difference between reference total time and total benchmark time of current machine
-* - if diff > 10% of ref value -> performance is same or better
-* - If diff < 10% of ref value -> performance is worse and might not be suitable to run node ( You may ask node devs for further clarifications)
+- in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
+- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
+- if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
 You can see the difference in the performance between your machine and the minimum required setup in the column **diff* (%)**. If all three values in this column are positive, your machine should be suitable to run a HydraDX validator node. If any of the values is below *-10 %*, we do not recommend running a HydraDX node.
