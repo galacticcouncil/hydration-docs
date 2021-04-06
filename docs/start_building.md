@@ -1,5 +1,5 @@
 ---
-id: build
+id: start_building
 title: For developers
 ---
 

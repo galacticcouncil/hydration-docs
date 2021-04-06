@@ -22,7 +22,7 @@ module.exports = {
       "performance_benchmark",
       "node_monitoring"
     ],
-    "Build": ["build"],
+    "Build": ["start_building"],
     Contributing: ["contributing"],
   },
 };
