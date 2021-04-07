@@ -1,6 +1,6 @@
 ---
 id: start_validating 
-title: Start validating
+title: Become a validator
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
