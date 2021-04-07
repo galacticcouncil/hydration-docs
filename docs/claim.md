@@ -55,6 +55,8 @@ You are not eligible for a gas refund if you have obtained your xHDX at some oth
 
 :::
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
+
 ### 02 Create and select an HDX address
 
 In the second step, you will be asked to select your HDX address.
@@ -70,6 +72,8 @@ Make sure that you back up your recovery seed phrase by storing it in a safe pla
 :::
 
 After creating your HDX account, you should be able to select it in the HydraDX Claim app. After doing so, the app should provide you with an overview of the ETH and HDX addresses used for the claim process. Click on next to proceed to signing the message.
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
 ### 03 Sign
 
@@ -87,9 +91,13 @@ Depending on the choice you have made in the first step, you have two options to
 
 * If you have entered your ETH address manually, you will need to sign the message through the external wallet that holds the private keys of your xHDX tokens. Once you have signed the message, copy the signature (starting with *0x*) to the respective field in the HydraDX Claim app.
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
+
 ### 04 Claim
 
 After signing the message with the wallet holding your xHDX tokens, the Polkadot.js extension should open and you will be asked to sign the transaction for claiming the HDX to your account. Enter your HDX account password, and click *Sign the transaction*.
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
 You have now completed the claim process, thereby officially becoming an HDX owner!
 
