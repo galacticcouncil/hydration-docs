@@ -37,11 +37,11 @@ Make sure that you are not the victim of a phishing attack and pay attention to 
 
 :::
 
-<img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 After authorizing, you will be prompted to update the metadata for the Polkadot.js browser extension. This will allow Polkadot.js to create HydraDX-specific addresses which are required to complete the claim process.
 
-<img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
 ### 01 Select your ETH address
 
