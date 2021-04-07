@@ -32,15 +32,15 @@
     "description": "The label for category Contributing in sidebar sidebar"
   },
   "sidebar.sidebar.category.How-to": {
-    "message": "Как-то",
+    "message": "Как это сделать",
     "description": "The label for category How-to in sidebar sidebar"
   },
   "sidebar.sidebar.category.Learn": {
-    "message": "Учить",
+    "message": "База знаний",
     "description": "The label for category Learn in sidebar sidebar"
   },
   "sidebar.sidebar.category.Maintain": {
-    "message": "Поддерживать",
+    "message": "Обслуживание",
     "description": "The label for category Maintain in sidebar sidebar"
   }
 }
