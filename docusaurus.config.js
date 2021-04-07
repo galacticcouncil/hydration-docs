@@ -81,6 +81,9 @@ module.exports = {
       ru: {
         label: 'русский',
       },
+      es: {
+        label: 'español',
+      }
     },
   },
 };

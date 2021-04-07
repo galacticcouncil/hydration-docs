@@ -30,5 +30,17 @@
   "sidebar.sidebar.category.Contributing": {
     "message": "Contribuyendo",
     "description": "The label for category Contributing in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.How-to": {
+    "message": "Cómo",
+    "description": "The label for category How-to in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Learn": {
+    "message": "Aprender",
+    "description": "The label for category Learn in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Maintain": {
+    "message": "Mantener",
+    "description": "The label for category Maintain in sidebar sidebar"
   }
 }
