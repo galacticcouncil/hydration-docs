@@ -13,7 +13,7 @@ Running a validator node requires a certain technical skillset needed for the pr
 
 :::
 
-## 01 Bond HDX tokens
+## 01 Bond HDX tokens {#01-bond-hdx-tokens}
 
 In order to take part at the network as a validator node, you need to bond some amount of HDX tokens. If you do not have any HDX, it is not possible to participate in the _initial_ stage of the testnet. However, some exciting news will be announced by the team in the upcoming weeks so stay posted and subscribe to our newsletter.
 
@@ -61,7 +61,7 @@ For security reasons, it is not recommended to have the same Stash and Controlle
   <img src={useBaseUrl('/validator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 Generate session keys
+## 02 Generate session keys {#02-generate-session-keys}
 
 The second step is to generate your session keys. The session keys are used to associate the validator node with your Controller account and the staked HDX. It is therefore important that they are set up correctly.
 
@@ -76,7 +76,7 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
 
 You can find your session keys under the _result_ part of the output (`0x9257...` in the example output above).
 
-## 03 Set your session keys
+## 03 Set your session keys {#03-set-your-session-keys}
 
 To associate the generated session keys with your Controller account, open in in the Polkadot/apps:
 *Developer* > *Extrinsics*
@@ -94,7 +94,7 @@ To complete, click _Submit Transaction_ and sign the transaction.
   <img src={useBaseUrl('/validator-guide/set-session-keys-1.png')} />
 </div>
 
-## 04 Make sure that your node is fully synced
+## 04 Make sure that your node is fully synced {#04-make-sure-that-your-node-is-fully-synced}
 
 Before you continue, you should make sure that your node is running and that the synchronization process is fully complete. The most certain way to check the state of synchronization is directly on the node itself:
 
@@ -112,7 +112,7 @@ You can compare the block number from the output (in the example above: `#622025
 
 Please wait until the block number shown in your local logs matches the current block number of the network.
 
-## 05 Start validating
+## 05 Start validating {#05-start-validating}
 
 To start validating, navigate in Polkadot/apps:
 
@@ -130,7 +130,7 @@ To confirm, click *Validate* and sign the transaction.
   <img src={useBaseUrl('/validator-guide/validate-2.png')} />
 </div>
 
-## 06 Check the status of your validator node
+## 06 Check the status of your validator node {#06-check-the-status-of-your-validator-node}
 
 You can check the status of your validator node in the Polkadot/apps under:
 

@@ -33,14 +33,16 @@ Before nominating, you should always do your due diligence and research the cred
 
 Another point to consider when choosing a validator is the *reward commission percentage*. This represents the proportion of the rewards which will be paid out to the validator for providing its services to nominators. The lowest commission percentage is not always the best - running a performant and available node has high operational costs which can only be covered sustainably by demanding a realistic reward commission.
 
-In HydraDX, it is possible to nominate a **maximum of 16 validators** with your stake. Nominating more than one validator, however, does not necessarily mean that your stake will be assigned to all chosen validators every time. When the following era begins, Substrate will run a series of complex algorithms to determine the most optimal distribution of all nominations within the network, with the ultimate goal of deciding which validators are to be included in the set of active validators. If none of the validators you have chosen receives sufficient backing to be included in the active set, your **nominations will remain inactive** for the duration of the era (*24 hours*), and you will also receive no rewards for this period. To maximize the chances of having your stake included in the set of active validators, we strongly advise that you **nominate several validators**, which will also contribute to our efforts in enhancing decentralization.
-
 :::note
+
+We strongly recommend that you **nominate several validators**. This enhances the decentralization of the network and increases the chances of your stake being included in the active validator set.
 
 Make sure that you do not nominate validators that are oversubscribed. Currently, there is a **limit of 64 nominations** for a single validator, after which it becomes oversubscribed. When the following era begins, an oversubscribed validator will only be elected using the maximum allowed number of nominators. If this occurs, the nominators with the highest stake take precedence, while the nominators with the lowest stake will be disregarded and will not earn any awards during that era.
 
 Nominating is a more accessible form of staking however it also bears risks. Validators which breach the rules of the network may be punished by slashing, resulting in loss of funds for both the validator and its nominators. This is why it is important to only nominate reputable validator nodes.
 
 :::
+
+After you have nominated one or more validators, you will not start earning rewards immediately. Before this can happen, the validators in question must receive sufficient backing to be elected in the set of active validators. Until then, your nomination will remain inactive (for more details see previous section).
 
 Are you interested in staking your HDX tokens by nominating validators? Check out our [nominator guide](/start_nominating) to start nominating.

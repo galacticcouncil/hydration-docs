@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Далее",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Intro": {
+    "message": "Введение",
+    "description": "The label for category Intro in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Knowledge Base": {
+    "message": "База знаний",
+    "description": "The label for category Knowledge Base in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Snakenet": {
+    "message": "Snakenet",
+    "description": "The label for category Snakenet in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Become a validator": {
+    "message": "Стать валидатором",
+    "description": "The label for category Become a validator in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Connecting to node": {
+    "message": "Подключение к ноде",
+    "description": "The label for category Connecting to node in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Other": {
+    "message": "Другое",
+    "description": "The label for category Other in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Contributing": {
+    "message": "Сделать вклад",
+    "description": "The label for category Contributing in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.How-to": {
+    "message": "Как это сделать",
+    "description": "The label for category How-to in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Learn": {
+    "message": "База знаний",
+    "description": "The label for category Learn in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Maintain": {
+    "message": "Обслуживание",
+    "description": "The label for category Maintain in sidebar sidebar"
+  }
+}

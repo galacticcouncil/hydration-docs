@@ -11,7 +11,7 @@ There are two public RPC nodes which are maintained by HydraDX and our partners.
 * [RPC node hosted by Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
 
 
-## Connect manually to an RPC node
+## Connect manually to an RPC node {#connect-manually-to-an-rpc-node}
 
 To access a public RPC node manually, open the [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
 
