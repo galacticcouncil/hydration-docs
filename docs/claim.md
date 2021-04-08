@@ -13,7 +13,7 @@ You don't have any xHDX tokens but you would like to obtain some HDX nonetheless
 
 :::
 
-## Prerequisites
+## Prerequisites {#prequisites}
 
 There are two prerequisites for claiming your HDX. In the first place, you need to install the [Polkadot.js browser extension](https://polkadot.js.org/extension/) which will be used to create your HDX wallet. In the second place, you need access to your xHDX tokens which should be stored in a wallet supporting the signing of messages relating to ERC-20 tokens (e.g. Metamask).
 
@@ -21,13 +21,13 @@ If your xHDX tokens are stored in Coinbase Wallet or Trust Wallet, you will need
 * Metamask: You can use the Metamask browser extension and import your wallet using the recovery seed phrase.
 * MEW (MyEtherWallet): You can also use MEW by either importing your recovery seed phrase (*Mnemonic Phrase*) or by using the WalletLink connection option. Both options can be accessed from the [MEW wallet access page](https://www.myetherwallet.com/access-my-wallet). If you are using Coinbase Wallet, you can use WalletLink which you can find the Settings of Coinbase Wallet.
 
-## Claim process
+## Claim process {#claim-process}
 
 After making sure that you have fulfilled the prerequisites described above, you can navigate to the [HydraDX Claim app](https://claim.hydradx.io) and proceed with the claim process.
 
 During the claim process, you will use your xHDX tokens (ERC-20) to claim your share of HDX tokens.
 
-### 00 Authorize
+### 00 Authorize {#00-authorize}
 
 The HydraDX Claim app will request authorization from the Polkadot.js browser extension.
 
@@ -43,7 +43,7 @@ After authorizing, you will be prompted to update the metadata for the Polkadot.
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
-### 01 Select your ETH address
+### 01 Select your ETH address {#01-select-your-eth-address}
 
 In the first step of the claim process, you will be asked to select the account holding your xHDX tokens. This can be done by either connecting to your wallet holding the ERC-20 tokens (e.g. Metamask), or by entering your ETH address manually in the input box (in that case you will need to sign the message manually later).
 
@@ -57,7 +57,7 @@ You are not eligible for a gas refund if you have obtained your xHDX at some oth
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
-### 02 Create and select an HDX address
+### 02 Create and select an HDX address {#02-create-and-select-an-hdx-address}
 
 In the second step, you will be asked to select your HDX address.
 
@@ -75,7 +75,7 @@ After creating your HDX account, you should be able to select it in the HydraDX 
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
-### 03 Sign
+### 03 Sign {#03-sign}
 
 In the third step of the claim process using the HydraDX Claim app, you will be provided with the option to sign the message for using your xHDX tokens to claim HDX.
 
@@ -93,7 +93,7 @@ Depending on the choice you have made in the first step, you have two options to
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
-### 04 Claim
+### 04 Claim {#04-claim}
 
 After signing the message with the wallet holding your xHDX tokens, the Polkadot.js extension should open and you will be asked to sign the transaction for claiming the HDX to your account. Enter your HDX account password, and click *Sign the transaction*.
 
@@ -103,7 +103,7 @@ You have now completed the claim process, thereby officially becoming an HDX own
 
 You can check your balance using [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) connected to the HydraDX Snakenet network. Please note that you cannot see your HDX balance directly in the Polkadot.js browser extension.
 
-### 05 What's next?
+### 05 What's next? {#05-whats-next}
 
 After completing the claim process, the HDX tokens will remain locked in your wallet until the launch of mainnet. 
 

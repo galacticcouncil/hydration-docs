@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "Weiter",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Intro": {
+    "message": "Intro",
+    "description": "The label for category Intro in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Knowledge Base": {
+    "message": "Wissensdatenbank",
+    "description": "The label for category Knowledge Base in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Snakenet": {
+    "message": "Snakenet",
+    "description": "The label for category Snakenet in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Become a validator": {
+    "message": "Werde ein Validator",
+    "description": "The label for category Become a validator in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Connecting to node": {
+    "message": "Mit einer Node verbinden",
+    "description": "The label for category Connecting to node in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Other": {
+    "message": "Andere",
+    "description": "The label for category Other in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Contributing": {
+    "message": "Beitragen",
+    "description": "The label for category Contributing in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.How-to": {
+    "message": "How-to",
+    "description": "The label for category How-to in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Learn": {
+    "message": "Lernen",
+    "description": "The label for category Learn in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Maintain": {
+    "message": "Verwalten",
+    "description": "The label for category Maintain in sidebar sidebar"
+  }
+}
