@@ -5,7 +5,7 @@ title: Benchmark de desempeño
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Puede asegurarse de que su máquina cumpla con las [especificaciones técnicas requeridas](/node_setup__#-00-required-technical-specifications) ejecutando una evaluación comparativa de rendimiento. Para hacerlo, siga los pasos a continuación:
+Puede asegurarse de que su máquina cumpla con las [especificaciones técnicas requeridas](/node_setup#00-required-technical-specifications) ejecutando una evaluación comparativa de rendimiento. Para hacerlo, siga los pasos a continuación:
 
 ```bash
 # Fetch source of the latest stable release
