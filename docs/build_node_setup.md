@@ -59,4 +59,4 @@ $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --de
 You can connect to your HydraDX development node using Polkadot/apps and changing network to `Development`. You can also use this link:  
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
 
-<img alt="connect to node" src={useBaseUrl('/build/connect-to-node.jpg')} />
+<img alt="connect to node" src={useBaseUrl('/building/connect-to-node.jpg')} />
