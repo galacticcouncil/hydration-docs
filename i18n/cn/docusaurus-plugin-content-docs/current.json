@@ -1,30 +1,30 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "下一篇",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Intro": {
-    "message": "Intro",
+    "message": "简介",
     "description": "The label for category Intro in sidebar sidebar"
   },
   "sidebar.sidebar.category.How-to": {
-    "message": "How-to",
+    "message": "指南",
     "description": "The label for category How-to in sidebar sidebar"
   },
   "sidebar.sidebar.category.Connecting to node": {
-    "message": "Connecting to node",
+    "message": "连接到节点",
     "description": "The label for category Connecting to node in sidebar sidebar"
   },
   "sidebar.sidebar.category.Learn": {
-    "message": "Learn",
+    "message": "学习",
     "description": "The label for category Learn in sidebar sidebar"
   },
   "sidebar.sidebar.category.Maintain": {
-    "message": "Maintain",
+    "message": "维护",
     "description": "The label for category Maintain in sidebar sidebar"
   },
   "sidebar.sidebar.category.Contributing": {
-    "message": "Contributing",
+    "message": "投稿",
     "description": "The label for category Contributing in sidebar sidebar"
   }
 }
