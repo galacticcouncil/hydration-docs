@@ -35,7 +35,7 @@ module.exports = {
     },
     colorMode: {
       switchConfig: {
-        darkIcon: '🐍'
+        lightIcon: '🐍'
       }
     },
     footer: {

@@ -23,7 +23,11 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] {
+html[data-theme='light'] {
+  --ifm-font-color-base: #fff;
+  --ifm-menu-color: #fff;
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg alt="Arrow" xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24"><path fill="#fff" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>');
+  --ifm-color-content-secondary: #fff;
   --ifm-background-color: #0b0d56;
   --ifm-background-surface-color: #0d106e;
 }
