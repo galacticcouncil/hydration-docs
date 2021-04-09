@@ -1,6 +1,6 @@
 ---
 id: node_setup
-title: Set up a HydraDX node
+title: Set up a validator node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
