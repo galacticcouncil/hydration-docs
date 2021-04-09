@@ -36,6 +36,7 @@ html[data-theme='light'] {
   --ifm-background-color: #0b0d56;
   --ifm-background-surface-color: #0d106e;
   --ifm-color-secondary: #0d106e;
+  --ifm-code-background: #0d106e;
 }
 
 .footer {
