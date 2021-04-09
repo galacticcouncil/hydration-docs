@@ -4,7 +4,7 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "我们找不到你想要的东西！",
+    "message": "我们找不到您想要的东西！",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
