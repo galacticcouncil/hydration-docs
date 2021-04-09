@@ -39,7 +39,6 @@ module.exports = {
       }
     },
     footer: {
-      style: "dark",
       logo: {
         alt: "HydraDX",
         src: "img/logo.svg"
