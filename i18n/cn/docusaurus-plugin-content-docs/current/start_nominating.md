@@ -1,5 +1,5 @@
 ---
-id: 开始_提名
+id: start_nominating
 title: 成为提名人
 ---
 
@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::
 
-## 00 Staking界面 {#00-staking界面}
+## 00 Staking界面 {#00-staking-ui}
 
 要访问staking界面，您首先需要打开Polkadot /应用程序，将其连接到 [公共HydraDX RPC节点](/polkadotjs_apps_public) 之一，并确保可以看到您的帐户余额 [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
 
@@ -38,7 +38,7 @@ Staking 界面，具有以下菜单选项：
 * **Waiting**: 在这里，您可以找到等待队列，在该队列中，非活跃验证人放置于活跃验证人集前。验证人将保留在等待队列中，直到质押足够数量的HDX才能进入活跃验证人集。
 * **Validator stats**: 在这里，你可以查询验证人隐藏的地址，可以看到era积分、当选股份、奖励和斜线等详细的历史信息。我们强烈建议您在提名信任的验证节点前研究这些信息。
 
-## 01 绑定HDX代币 {#01-绑定hdx代币}
+## 01 绑定HDX代币 {#01-bond-hdx-tokens}
 
 :::警告
 
@@ -78,9 +78,9 @@ Staking 界面，具有以下菜单选项：
   <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 提名验证人 {#02-提名验证人}
+## 02 提名验证人 {#02-nominate-a-validator}
 
-绑定HDX之后，您现在可以指定一个验证人。 在继续之前，您应该进行尽职调查，并根据其（过去）的表现来决定要提名哪些验证人。 为此，请参考[上面讨论](#00-staking界面)的Staking界面中的信息。
+绑定HDX之后，您现在可以指定一个验证人。 在继续之前，您应该进行尽职调查，并根据其（过去）的表现来决定要提名哪些验证人。 为此，请参考[上面讨论](#00-staking-ui)的Staking界面中的信息。
 
 :::提示
 
@@ -105,7 +105,7 @@ HydraDX Snakenet每个验证节点 **最多只能有64个提名人**。选择要
 </div>
 
 
-## 03 检查您的提名状态 {#03-检查您的提名状态}
+## 03 检查您的提名状态 {#03-check-the-status-of-your-nominations}
 
 完成提名过程后，您的提名将在当前era的其余时间处于无效状态。 一旦下一个era开始，只要您提名的验证人节点中的至少一个包含在活动的验证人集中且不会过于拥挤而将您拒之门外，您的提名就会生效。 如果您所有的验证人都在等待队列中，那么您各自的提名也将保持无效，并且您将在这个era不会获得任何奖励。
 
