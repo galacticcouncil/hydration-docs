@@ -1,52 +1,52 @@
 ---
 id: start_nominating
-title: Become a nominator
+title: 成为提名人
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-By becoming a nominator, you stake some of your HDX tokens to help secure the HydraDX network and to earn rewards. Unlike running a validator node, the process of nominating does not require advanced technical skills, making it the recommended choice for anyone who is not fully confident with becoming a validator.
+通过成为提名人，您可以质押一些HDX代币来帮助保护HydraDX网络并获得奖励。与运行验证节点不同，提名过程不需要高级技术技能，因此对于不完全有信心成为验证节点的任何人，推荐使用此选项。
 
-When nominating, nominators appoint their stake to a validator of their choice. By doing so, nominators elect the active set of validators and receive rewards for their participation. The amount of awards you receive as a nominator depends on the reward commission percentage of the chosen validator - the higher the reward commission of the validator, the less rewards you will be receiving for your stake.
+提名时，提名人将其代币质押给他们选择的验证人。通过这样做，提名人选出了活跃的验证人集，并因其参与而获得奖励。作为提名人，您获得的奖励金额取决于所选验证人设定的佣金百分比：验证人的奖励佣金百分比越高，您获得的质押奖励就越少。
 
-:::warning
+:::警告
 
-Nominating is a more accessible form of participation in the staking process, however it also carries a certain degree of risk. If the validator you have nominated misbehaves (e.g. fails to maintain the required uptime), slashing can occur which may lead to a partial involuntary loss of the funds you have staked. We highly recommend that you do your due diligence before nominating a validator.
-
-:::
-
-## 00 Staking UI {#00-staking-ui}
-
-To access the staking interface, you first need to open the Polkadot/apps, connect it to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public) and make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
-
-:::note
-
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
+提名是一种更容易参与的质押获利方式，但它也带有一定程度的风险。如果您质押的验证人行为异常（例如，无法维持所需的正常运行时间），大幅消减的惩罚就会发生，这可能会导致您质押的代币发生部分非自愿损失。我们强烈建议您在提名验证人之前进行尽职调查！
 
 :::
 
-After verifying that you can see your HDX balance, you can navigate to the Staking UI:
+## 00 Staking界面 {#00-staking-ui}
+
+要访问staking界面，您首先需要打开Polkadot /应用程序，将其连接到 [公共HydraDX RPC节点](/polkadotjs_apps_public) 之一，并确保可以看到您的帐户余额 [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)
+
+:::提示
+
+您是否拥有在Balancer LBP事件期间购买的xHDX？在继续操作之前，您首先需要 [申领您的HDX](/claim) 。
+
+:::
+
+确认您可以看到HDX余额后，您可以导航到Staking界面：
 
 *Network* > *Staking*
 
-The Staking UI has the following menu tabs:
+Staking 界面，具有以下菜单选项：
 
-* **Staking overview**: here, you will find a list of all active validators and some basic information about each validator, such as the amount of HDX staked on the node, the amount of the validator's own stake, and how much reward commission is charged. Furthermore, you can see the number of era points earned by each validator in the current era and the number of the last block produced by the validator.
-* **Account actions**: here, you can stake and nominate.
-* **Payouts**: here, you can claim your staking rewards.
-* **Targets**: here, you can estimate your earnings. This is a good place to start when picking a validator node to nominate.
-* **Waiting**: here, you can find the waiting queue where inactive validators are placed before being included in the active validator set. A validator will remain in the waiting queue until it has received a sufficient amount of staked HDX to enter the active validator set.
-* **Validator stats**: here, you can query a validator's stash address to see detailed historical information about earned era points, elected stake, rewards, and slashes. We highly recommend that you study this information before trusting a validator with your nomination.
+* **Staking overview**: 在这里，您将找到所有活动验证人的列表以及有关每个验证人的一些基本信息，例如，节点上已质押的HDX数量，验证人自己质押的数量以及收取的佣金。此外，您还可以看到每个验证人获得的当前积分以及验证人生成的最后一个区块数。
+* **Account actions**: 您可以在此处质押并指定。
+* **Payouts**: 您可以在这里申领您的质押奖励。
+* **Targets**: 您可以在这里估算您的收入。在选择要质押的验证节点时，这是一个不错的起点。
+* **Waiting**: 在这里，您可以找到等待队列，在该队列中，非活跃验证人放置于活跃验证人集前。验证人将保留在等待队列中，直到质押足够数量的HDX才能进入活跃验证人集。
+* **Validator stats**: 在这里，你可以查询验证人隐藏的地址，可以看到era积分、当选股份、奖励和斜线等详细的历史信息。我们强烈建议您在提名信任的验证节点前研究这些信息。
 
-## 01 Bond HDX tokens {#01-bond-hdx-tokens}
+## 01 绑定HDX代币 {#01-bond-hdx-tokens}
 
-:::warning
+:::警告
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node you have nominated may be punished by slashing which can lead to an involuntary loss of your funds. We strongly recommend that you do your due diligence when selecting which validator to nominate.
+绑定的HDX代币对于保证网络的安全性至关重要。您指定的验证人节点的不当行为可能会受到大幅削减的惩罚，这可能会导致您的资金非自愿损失。我们强烈建议您在选择提名验证人时进行尽职调查。
 
 :::
 
-To bond HDX tokens, navigate to *Account actions* in the Staking UI:
+要绑定HDX代币，请在Staking UI中导航到 *Account actions* ：
 
 *Network* > *Staking* > *Account actions* > *+ Stash*
 
@@ -54,23 +54,23 @@ To bond HDX tokens, navigate to *Account actions* in the Staking UI:
   <img src={useBaseUrl('/nominator-guide/bond-hdx-1.png')} />
 </div>
 
-After clicking the *Stash* button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
-* **controller account**: the account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of nominating.
-* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
-* **payment destination**: the account to which the staking rewards will be sent.
+单击 *Stash* 按钮后，您应该看到带有四个可编辑字段的绑定选项： 
+* **stash account**: 拥有大多数HDX令牌的帐户，HDX将通过此帐户质押。
+* **controller account**: 持有少量HDX的帐户，用于支付质押过程中的费用（开始和停止提名等）。
+* **value bonded**: 您要绑定的HDX数量。不要绑定您拥有的所有HDX，而是留下一些以支付以后发生的交易费用。
+* **payment destination**: 权益奖励将被发送到的帐户。
 
-:::warning
+:::警告
 
-Do not bond all your available HDX tokens. Leave a small reserve for covering the transactions fees. If you bond all HDX tokens that you have, you may not be able to sign the transaction for starting the nomination process.
+不要绑定所有可用的HDX代币。留下少量HDX以支付交易费用。如果您绑定了所有拥有的HDX代币，则可能无法签署交易以启动提名程序。
 
 :::
 
-After adjusting the bonding preferences, click **Bond** and sign transaction to complete the bonding process.
+调整完绑定选项后，单击 **Bond** 并签署交易完成绑定程序。 
 
-:::caution
+:::警示
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in future.
+出于安全原因，“存储”和“控制”帐户，不建议采用相同的。但是，由于在Snakenet上禁止转账，因此当前无法使用单独的帐户。强烈建议您在将来可能的情况下尽快切换到单独的“存储”和“控制”帐户。
 
 :::
 
@@ -78,17 +78,17 @@ For security reasons, it is not recommended to have the same Stash and Controlle
   <img src={useBaseUrl('/nominator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 Nominate a validator {#02-nominate-a-validator}
+## 02 提名验证人 {#02-nominate-a-validator}
 
-After bonding HDX, you can now nominate a validator. Before proceeding, you should do your due diligence and decide which validators you would like to nominate based on their (past) performance. To do so, refer to the information in the Staking UI [discussed above](#00-staking-ui).
+绑定HDX之后，您现在可以指定一个验证人。 在继续之前，您应该进行尽职调查，并根据其（过去）的表现来决定要提名哪些验证人。 为此，请参考[上面讨论](#00-staking-ui)的Staking界面中的信息。
 
-:::note
+:::提示
 
-HydraDX Snakenet has a **limit of 64 nominators per validating node**. When selecting a node to nominate, make sure that the validator has not reached the maximum amount of nominations, otherwise your nomination will be invalid and you will not receive rewards for your stake. The number of nominations for every validator can be found in the *Waiting* menu tab in the Staking UI.
+HydraDX Snakenet每个验证节点 **最多只能有64个提名人**。选择要提名的节点时，请确保验证者未达到提名的最大数量，否则您的提名将无效，且您将不会获得本金的奖励。可以在Staking UI的 *Waiting* 菜单选项卡中，找到每个验证者的提名数量。
 
 :::
 
-To nominate one or more validators, navigate to:
+要提名一个或多个验证者，请导航至：
 
 *Network* > *Staking* > *Account actions* > *Nominate* (button next to your bonded HDX)
 
@@ -96,60 +96,60 @@ To nominate one or more validators, navigate to:
   <img src={useBaseUrl('/nominator-guide/nominate-validator-1.png')} />
 </div>
 
-After clicking on the *Nominate* button you should see a popup called *nominate validators*. Here you can select one or more validators to nominate from the list of available validators. It is highly recommended to nominate multiple validators to prevent being inactive if you don't get a spot in one validator (e.g. the validator is overcrowded or not elected into the active validator set). You can nominate up to 16 validators. In every era just one of your nominations can be active, you cannot be chosen by multiple validators simultaneously. Your stake will be automatically assigned to one of your selected validators in a way to maximize decentralization and profits. You just chose the amount of bonded HDX and the validators you trust.
+单击 *Nominate* 按钮后，您应该会看到一个名为 *nominate validators* 的弹出窗口。在这里，您可以从可用验证者列表中选择一个或多个验证者进行提名。强烈建议您提名多个验证者，以防止如果您在一个验证者中没有获得一席之地（例如，验证者过于拥挤或未被选入有效的验证人集中）而被停用。您最多可以提名16位验证人。在每个era中，只有一个提名是有效的，不能同时由多个验证者选择。 您的股份将自动分配给您选择的验证人中的一个，以最大程度地分散投资和获利。您只需选择绑定的HDX的数量和您信任的验证器。  
 
-To nominate the selected validators, click _Nominate_ and sign the transaction.
+要提名选定的验证者，请单击 _Nominate_ 并签署交易。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>
 
 
-## 03 Check the status of your nominations {#03-check-the-status-of-your-nominations}
+## 03 检查您的提名状态 {#03-check-the-status-of-your-nominations}
 
-After completing the nominating process, your nominations will be inactive for the remainder of the current era. Once the following era begins, your nominations will become active, provided that at least one of the validator nodes you have nominated is included in the active set of validators and is not overcrowded leaving you out. If all of your validators remain in the waiting queue, your respective nominations will remain inactive too and you will not earn any rewards for this era.
+完成提名过程后，您的提名将在当前era的其余时间处于无效状态。 一旦下一个era开始，只要您提名的验证人节点中的至少一个包含在活动的验证人集中且不会过于拥挤而将您拒之门外，您的提名就会生效。 如果您所有的验证人都在等待队列中，那么您各自的提名也将保持无效，并且您将在这个era不会获得任何奖励。
 
-To check the status of your nominations, navigate to:
+要查看提名状态，请导航至：
 
 *Network* > *Staking* > *Account actions*
 
-You can see your inactive nominations under *Waiting nominations*:
+您可以在 *Waiting nominations* 下看到您的无效提名：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-3.png')} />
 </div>
 
-Once a nomination becomes active, you should find it in the list of *Active nominations*
+提名被激活后，您应该在 *Active nominations* 列表中找到它：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-4.png')} />
 </div>  
 
-:::note
+:::提示
 
-Make sure that you revisit your nominations once in a while. It is possible that some of your validators change their commission percentage which will have a negative impact on your rewards. By checking the status of your nominations frequently you will be able to react by updating the list of your nominated validators.
+确保您不定时重新审查提名。您的某些验证人可能会更改其佣金百分比，这会对您的奖励产生负面影响。通过经常检查提名状态，您将能够通过更新提名验证人列表来做出反应。  
 
 :::
 
-## 04 Adjust your nominations
+## 04 调整提名
 
-If some of your validators become oversubscribed or change their commission, you might want to adjust your nominations.
+如果您的某些验证人被超额认购或更改其佣金，则可能需要调整提名。
 
-To do so, open Polkadot/apps and navigate to:  
+为此，请打开Polkadot / apps并导航至：
 *Network* > *Staking* > *Account actions*
 
-Click on the three dots next to your account details and select _Set nominees_.
+点击您的帐户详细信息旁边的三个点，然后选择 _Set nominees_：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
 </div>
 
-In the following window, that may already feel familiar, you can remove validators and/or add new ones.  
-Adjusting your nominations can be done on the fly, there is no need to stop nominating. The changes will be applied when the following era begins (24h).
+在下面可能已经熟悉的窗口中，您可以删除验证器和/或添加新的验证人。
+调整提名可以随时进行，无需停止提名。 当下一个era开始（24h）时，将应用更改。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>  
 
 
-Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
+感谢您成为Snakenet提名人对HydraDX的支持！ 🎉
