@@ -1,9 +1,9 @@
 ---
 id: intro
-title: Intro
+title: 前言
 slug: /
 ---
 
-Welcome to HydraDX docs. 
+欢迎使用 HydraDX 技术文档！ 
 
-Hopefully, we can make this place a great resource for learning about HydraDX together.
+希望我们能一道将这里变为学习了解 HydraDX 的“世外桃源”。
