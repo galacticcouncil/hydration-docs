@@ -1,35 +1,35 @@
 ---
 id: polkadotjs_apps_local 
-title: Connect to a local node 
+title: 连接到本地节点 
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can use the Polkadot/apps to connect to your local HydraDX node. For this purpose, you need to have access to port `9944` which is used for RPC websocket connections.
+您可以使用 Polkadot/apps 连接到 HydraDX 本地节点。为此，需要访问用于 RPC Websocket 连接的 `9944` 端口。
 
 :::warning
 
-If you are running the node as a validator, we highly recommend that you blacklist port `9944` for remote connections. This port could be abused by third parties to degrade the performance of your node, which may result in slashing and involuntary loss of funds. You should use port `9944` to connect to your validator node only when the node is in your local network.
+如果您是运行验证节点的验证人，我们强烈建议您将`9944`端口列入黑名单以禁止第三方进行远程连接。第三方可能会滥用此端口，从而降低您节点的性能，并可能导致严厉惩罚或资金的非自愿损失。仅当您的验证节点位于本地网络中时，才可以使用 `9944` 端口连接。
 
 :::
 
-### Accessing your local node using Polkadot/apps {#accessing-your-local-node-using-polkadotapps}
+### 使用 Polkadot/apps 连接本地节点 {#accessing-your-local-node-using-polkadotapps}
 
-To access your node, open [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
+请打开 [Polkadot/apps](https://polkadot.js.org/apps/) ，单击左上角来更改网络去访问您的节点。 
 
 <div>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-After opening the menu, click on **Development** and select **Local node**.
+打开菜单后，单击 **DEVELOPMENT** (开发)，然后选择 **Local Node** （本地节点）。
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-1.png')} />
 </div>
 
-Adjust the IP if necessary and click on ***Switch*** to switch to your local node.
+如有必要，请调整IP后，单击 ***Switch***（切换）以切换到您的本地节点。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-2.png')} />
 </div>
 
-Now you should be connected to your local node and be able to interact with it.
+至此，您应该已连接到您的本地节点，并能够进行交互。
