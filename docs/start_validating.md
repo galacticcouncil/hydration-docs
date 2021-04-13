@@ -78,7 +78,7 @@ You can find your session keys under the _result_ part of the output (`0x9257...
 
 ## 03 Set your session keys {#03-set-your-session-keys}
 
-To associate the generated session keys with your Controller account, open in in the Polkadot/apps:
+To associate the generated session keys with your Controller account, navigate to the following menu item in the Polkadot/apps:
 *Developer* > *Extrinsics*
 
 Fill in the fields:
