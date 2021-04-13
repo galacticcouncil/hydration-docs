@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "下一篇",
+    "message": "下一页",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Intro": {
@@ -20,7 +20,7 @@
     "description": "The label for category Learn in sidebar sidebar"
   },
   "sidebar.sidebar.category.Maintain": {
-    "message": "维护",
+    "message": "运营",
     "description": "The label for category Maintain in sidebar sidebar"
   },
   "sidebar.sidebar.category.Contributing": {
