@@ -36,11 +36,11 @@ Asegúrese de no ser víctima de un ataque de phishing y preste atención a la v
 
 :::
 
-<img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 Después de autorizar, se le pedirá que actualice los metadatos para la extensión del navegador Polkadot.js. Esto permitirá que Polkadot.js cree direcciones específicas de HydraDX que se requieren para completar el proceso de reclamo.
 
-<img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
 ### 01 Selecciona tu dirección ETH {#01-select-your-eth-address}
 
@@ -53,6 +53,8 @@ Después de ingresar su dirección ETH, debería ver el saldo de tokens HDX que 
 No es elegible para un reembolso de gasolina si ha obtenido su xHDX en algún otro lugar que no sea el grupo oficial de Balancer (como Uniswap), o si ha sacado sus tokens de la billetera de compra original.
 
 :::
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
 ### 02 Crea y Selecciona una dirección HDX  {#02-create-and-select-an-hdx-address}
 
@@ -70,6 +72,8 @@ Asegúrese de hacer una copia de seguridad de su frase inicial de recuperación 
 
 Después de crear su cuenta HDX, debería poder seleccionarla en la aplicación HydraDX Claim. Después de hacerlo, la aplicación debería proporcionarle una descripción general de las direcciones ETH y HDX utilizadas para el proceso de reclamo. Haga clic en siguiente para continuar con la firma del mensaje.
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
+
 ### 03 Firma {#03-sign}
 
 En el tercer paso del proceso de reclamo utilizando la aplicación HydraDX Claim, se le proporcionará la opción de firmar el mensaje para usar sus tokens xHDX para reclamar HDX.
@@ -85,6 +89,8 @@ Dependiendo de la elección que haya hecho en el primer paso, tiene dos opciones
 * Si está utilizando **Metamask**, después de hacer clic en el botón *Firmar*, Metamask le pedirá que firme el mensaje. Siga las instrucciones en Metamask.
 
 * Si ingresó su dirección ETH manualmente, deberá firmar el mensaje a través de la billetera externa que contiene las claves privadas de sus tokens xHDX. Una vez que haya firmado el mensaje, copie la firma (comenzando con *0x*) en el campo respectivo en la aplicación HydraDX Claim.
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
 ### 04 Reclamo {#04-claim}
 
