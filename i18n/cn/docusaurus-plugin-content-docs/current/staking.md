@@ -1,46 +1,46 @@
 ---
 id: staking
-title: Staking
+title: 质押
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section provides a brief introduction into how staking works in the HydraDX network. If you are not familiar with staking in a Substrate-based network, we recommend that you read this before deciding to participate.
+本节简要介绍了 HydraDX 网络中的质押。如果您不熟悉基于 Substrate 网络的质押，我们建议您在决定参与之前先阅读此内容。
 
-The consensus mechanism used by HydraDX is called Nominated Proof-of-Stake (NPoS). NPoS is a variation of Proof-of-Stake and is used in Substrate-based blockchains such as Polkadot and Kusama. The two central actors in an NPoS environment are called [**validators**](#validators) and [**nominators**](#nominators). 
+HydraDX 使用的共识机制，称为提名权益证明（NPoS）。NPoS 是权益证明的一种变体，其被用于诸如 Polkadot 和 Kusama 这类基于 Substrate 网络的区块链。NPoS 环境中的两个主要角色，被称为 [**验证人**](#validators) 和 [**提名人**](#nominators) 。
 
-### Validators {#validators}
+### 验证人 {#validators}
 
-Validators participate in the network by running validator nodes, which provide the infrastructure that allows the HydraDX network to operate securely. Validator nodes fulfill three functions which are of paramount importance to the consensus mechanism. In the first place, they validate the information contained in blocks, such as the identity of the parties and the subject of the contract. In the second place, validators participate in the production of new blocks based on the validity statements of other validators. In the third place, they guarantee the finality of blockchain transactions.
+验证人通过运行验证节点参与网络，验证节点提供了使 HydraDX 网络安全运行的基础结构。验证节点履行三个职能，这些职能对于共识机制至关重要。第一，验证包含在块中的信息，例如：各方的身份和合约的内容；第二，根据其他验证人的有效性声明参与新块的生产；第三，保证交易的不可改变性。
 
-An important characteristic of NPoS is that not all validators participate in the validating process at the same time. Only validators in the *active validator set* perform the above-mentioned operations and earn rewards for doing so. The set of active validators is limited to a fixed number of nodes. In [HydraDX Snakenet](/snakenet) we expect this number to be around 300, scaling it up as we progress towards mainnet.
+NPoS 的一个重要特征是，并非所有验证人都同时参与验证过程。只有处于 *活跃验证人集*  中的验证人，才能执行上述操作，并因此获得奖励。活跃验证人集，由固定数量的节点构成。在 [HydraDX Snakenet](/snakenet) 中，我们希望这个数量大约在 300 左右，并随主网升级而增多。
 
-Validators are elected into the active set by following the principle of *proportional justified representation*. This principle aims to safeguard decentralization and fair representation by assigning the available slots to validators in proportion to their nominated stake. The higher the amount of staked tokens with a given validator, the higher the chance that the node will be elected in the active set. Validators which are not included in the active set are placed on a waiting list. The set of active validators is updated at the beginning of every era, providing a possible entry window for new validators.
-
-:::note
-
-In a Substrate-based network, time is divided in units called **eras**. In [HydraDX Snakenet](/snakenet), *1 Era = 24 hours*.
-
-:::
-
-Participating as a validator requires a certain level of technical knowledge for securely setting up and maintaining a validator node. Misbehavior of the validator node can be punished by slashing, resulting in an involuntary loss of funds for you and your nominators. If you believe that you have the necessary experience for running a validator node, you can refer to our [validator guide](/node_setup). Otherwise, we highly recommend that you consider participating as a nominator.
-
-### Nominators {#nominators}
-
-Nominators help secure the network by nominating validators to be elected in the active validator set. They do so by staking their HDX tokens with the validators of their choice. The nomination process does not require running and maintaining nodes, making this form of staking more accessible to everybody. Tokens which are used to nominate validators are *bonded*, meaning that they are frozen and cannot be used for other purposes. It is at any time possible to change or stop your nominations which will be reflected at the end of the current era. Nominators can also free up their tokens, however this will only become effective after a waiting period of *28 days* following the unbonding transaction.
-
-Before nominating, you should always do your due diligence and research the credibility of the chosen validators. You can do so by checking their identity as well as historical information like era points, elected stake, rewards and slashes. At the beginning of Snakenet it might be difficult to find all this information, however. If you are in doubt about the choice of validators, approach us in the Discord and we will share our community curated list of trusted validators with you.
-
-Another point to consider when choosing a validator is the *reward commission percentage*. This represents the proportion of the rewards which will be paid out to the validator for providing its services to nominators. The lowest commission percentage is not always the best - running a performant and available node has high operational costs which can only be covered sustainably by demanding a realistic reward commission.
-
-In HydraDX, it is possible to nominate a **maximum of 16 validators** with your stake. Nominating more than one validator, however, does not necessarily mean that your stake will be assigned to all chosen validators every time. When the following era begins, Substrate will run a series of complex algorithms to determine the most optimal distribution of all nominations within the network, with the ultimate goal of deciding which validators are to be included in the set of active validators. If none of the validators you have chosen receives sufficient backing to be included in the active set, your **nominations will remain inactive** for the duration of the era (*24 hours*), and you will also receive no rewards for this period. To maximize the chances of having your stake included in the set of active validators, we strongly advise that you **nominate several validators**, which will also contribute to our efforts in enhancing decentralization.
+选择验证人进入活跃验证人集，遵循 *比例代表制* 原则。该原则旨在通过“以验证人获得的提名质押比例分配可用插槽”来保证去中心化和公平性。具体到某个验证人，他获得的质押令牌越多，那他当选为活跃验证人集节点的几率就越高。落选的验证人会出现在等待名单中。活跃验证人集中的名单，每 era (24小时) 更新一次，这为新的验证人提供一个进入名单的机会。
 
 :::note
 
-Make sure that you do not nominate validators that are oversubscribed. Currently, there is a **limit of 64 nominations** for a single validator, after which it becomes oversubscribed. When the following era begins, an oversubscribed validator will only be elected using the maximum allowed number of nominators. If this occurs, the nominators with the highest stake take precedence, while the nominators with the lowest stake will be disregarded and will not earn any awards during that era.
-
-Nominating is a more accessible form of staking however it also bears risks. Validators which breach the rules of the network may be punished by slashing, resulting in loss of funds for both the validator and its nominators. This is why it is important to only nominate reputable validator nodes.
+基于 Substrate 的网络中，时间以 *eras* 单位划分。在 [HydraDX Snakenet](/snakenet) 中，*1 era = 24小时* 。
 
 :::
 
-Are you interested in staking your HDX tokens by nominating validators? Check out our [nominator guide](/start_nominating) to start nominating.
+验证人需要具备一定水平的技术知识，才能安全地设置和维护验证节点。验证节点的不当行为，可能会受到严厉惩罚，从而导致您和提名人的非自愿资金损失。如果您认为您具有运行验证节点的必要经验，则可以参考我们的 [验证人指南](/node_setup) 。否则，我们强烈建议您考虑作为提名人参与网络。
+
+### 提名人 {#nominators}
+
+提名人通过提名和选举活跃的验证人，来帮助保护网络。他们将通过质押自己的 HDX 令牌，来选择和提名验证人。提名过程不需要运行和维护节点，这使得所有人都可以更容易地进行的质押提名。用于提名验证人的令牌会被 *绑定* ，这意味着它们会冻结而不能用于其他目的。您可以随时更改或停止您的提名，你的改变将在当前 era（24小时） 结束时完成。提名人也可以再次自由使用其令牌，但只在解除绑定并等待 *28天* 后才可以。
+
+您应在提名之前，调查并研究所选验证人的信誉。您可以通过检查他们的身份以及历史信息，如 era 分数、当选质押量、奖励和惩罚。然而，在 Snakenet 的开始阶段，可能很难找到所有这些信息。如果您对所选择的验证人有所质疑，请通过 discord 与我们联系，我们将与您分享我们社区中的可信任验证人列表。
+
+另一个选择验证人时要考虑的是 *奖励佣金百分比* ，这代表了将要支付给验证人以奖励其向提名人提供服务的佣金比例。最低的佣金百分比，并不总是最佳的，因为运行性能高效的节点，需要较高的运营成本，这些费用需要通过持续获得适当的奖励佣金来填补。
+
+在 HydraDX中，**最多可以提名 16 位验证人**。 但是，提名多个验证人并不一定意味着您的质押将每次分配给所有选定的验证人。 当下一个 ear 开始时，Substrate 将运行一系列复杂的算法，以确定网络中所有提名的最佳分配，以此来确定哪些验证人可以进入活跃验证人集。 如果您选择的任何验证人，都没有获得足够的支持进入活跃验证人集，则在该 ear（*24小时*） 内 **您的提名将保持无效** ，并且在此期间您也不会获得任何奖励。 为了最大程度地将您的质押包含在活跃验证人集中，我们强烈建议您 **提名多个验证人** ，这也将有助于加强我们的去中心化。
+
+:::note
+
+请确保您不会提名过量提名的验证人。当前，单个验证人的被提名数量，**被限制为 64 个**，超过 64 个将成为过量提名。当下一个 era (24小时）开始时，被过量提名的验证人，将只被允许使用质押数量最多的提名（64个）。如果发生这种情况，则质押越多的提名人将优先获得奖励，而质押少的提名人将被忽略，将不会获得任何奖励。
+
+提名是一种更简易的质押形式，但是它也有风险。违反网络规则的验证人，可能会受到严厉的惩罚，从而导致验证人及其提名人的资金损失。这就是为什么选择提名信誉良好的验证节点很重要的原因。
+
+:::
+
+您是否有兴趣通过质押您的 HDX 令牌来提名验证人呢？查看我们的 [提名人指南](/start_nominating) 开始提名吧！

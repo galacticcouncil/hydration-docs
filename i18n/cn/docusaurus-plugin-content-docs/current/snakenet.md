@@ -1,10 +1,10 @@
 ---
 id: snakenet
-title: Snakenet
+title: Snakenet（蛇网）
 ---
 
-The time is here. We'll need fellow Hydraheads to join our incentivized testnet (Stakenet) and help us extend current limitations and point us where to improve. 
+终于来了！我们需要您加入我们的激励性测试网——Snakenet（蛇网），帮助我们突破“当局者迷”的束缚，找出我们尚需改进的地方。 
 
-The testnet will be split into different phases and, at some point, it will transition into a fully working mainnet. The balances of HDX token rewards during this phase will be transitioned to the mainnet.
+测试网将分为不同的阶段，在未来它将会迁移过渡到一个正常运行的主网。届时，HDX 令牌奖励也会一并迁移。   
 
-For now, we will hold sudo keys in case of a bug or an issue on our side that may lead to a loss of funds. We would like to reserve a right to revert any such mishap. 
+目前，我们将保留 sudo 密钥，以防发生可能会导致资金损失的错误或问题。 我们谨保留纠正此类问题的权利。 

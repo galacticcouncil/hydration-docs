@@ -1,59 +1,58 @@
 ---
 id: start_validating 
-title: Become a validator
+title: 成为验证人
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-After [setting up your HydraDX node](/node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
+ 您在 [搭建 HydraDX 节点](/node_setup) 后，需要绑定 HDX 令牌并设置验证密钥，然后才能开始验证。
 
 :::warning
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. We also require validators to be always running the node using the latest stable release. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
+搭建并运行验证节点需要一定的技术技能，以正确设置节点并保证其正常运行。 我们还要求验证程序始终使用最新的稳定版本运行节点。 如果不确定自己在做什么，我们建议您[将 HDX 提名](/start_nominating)给经验丰富的验证人。 这样，您可以保护自己和可能质押您的提名人免受非自愿的资金损失。
 
 :::
 
-## 01 Bond HDX tokens {#01-bond-hdx-tokens}
+## 01 绑定 HDX 令牌 {#01-bond-hdx-tokens}
 
-In order to take part at the network as a validator node, you need to bond some amount of HDX tokens. If you do not have any HDX, it is not possible to participate in the _initial_ stage of the testnet. However, some exciting news will be announced by the team in the upcoming weeks so stay posted and subscribe to our newsletter.
+为作为验证节点参与网络，您需要绑定一定数量的 HDX 令牌。 如果您没有任何 HDX ，则无法参与测试网的_初始_阶段。 但是，在接下来的几周内，团队将宣布一些令人振奋的消息，因此请关注通告并订阅我们的新闻通讯。
 
 :::note
 
-Are you still in possession of xHDX tokens that you bought during the Balancer LBP event? You first need to [claim your HDX](/claim) before continuing.
-
+您是否仍然拥有在 Balancer LBP 事件期间购买的 xHDX 令牌？ 在继续操作之前，您首先需要[申领您的 HDX](/claim)。
 :::
 
-To bond HDX, open Polkadot/apps, and connect to one of the [public HydraDX RPC nodes](/polkadotjs_apps_public). Make sure that you can see your account [balance](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
+要绑定HDX，请打开 Polkadot/apps,然后连接到 [公共 HydraDX RPC 节点](/polkadotjs_apps_public)之一. 确保您可以看到您的 [账户余额](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
 :::warning
 
-Bonded HDX tokens are at stake for guaranteeing the security of the network. Improper behavior of the validator node may be punished by slashing which can lead to an involuntary loss of funds. We strongly recommend that you only proceed if you really know what you are doing.
+绑定的 HDX 令牌对于保证网络的安全性至关重要。验证节点的不当行为可能会受到严厉惩罚，这可能会导致资金的非自愿损失。我们强烈建议您仅在真正知道自己在做什么的情况下继续操作。
 
 :::
 
-For the next step, go to *Network* > *Staking* > *Account actions* > *+ Stash*
+下一步，请转到 *Network* > *Staking* > *Account actions* > *+ Stash*
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/bond-hdx-1.png')} />
 </div>
 
-After clicking the Stash button, you should see the bonding preferences with four editable fields:
-* **stash account**: the account holding the majority of your HDX tokens. HDX will be staked from this account.
-* **controller account**: an account holding a smaller portion of HDX needed to cover the fees associated with starting and stopping the process of validating.
-* **value bonded**: the amount of HDX you are bonding. Do not bond all HDX that you have - instead, leave some to cover the transaction fees which occur later.
-* **payment destination**: the account to which the validating rewards will be sent.
+单击 Stash（存放账户）按钮后，您应该看到带有四个可编辑字段的绑定偏好设置选项：
+* **stash account**（存储账户）: 拥有您大多数 HDX 令牌的帐户。HDX 将通过此帐户质押。
+* **controller account**（控制账户）: 拥有少量 HDX 的帐户，用于支付与开始和停止提名过程相关的费用。
+* **value bonded**（绑定的金额）:您要绑定的 HDX 数量。不要绑定您拥有的所有 HDX ，而是留下一些以支付后续发生的交易费用。
+* **payment destination**（支付目的账户）:质押奖励将被发送到的帐户。 
 
 :::warning
 
-Do not bond all your available HDX tokens. Leave a small reserve for covering the transactions fees. If you bond all HDX tokens that you have, you may not be able to sign the transaction for starting the validation process.
+不要绑定所有可用的 HDX 令牌。留下少量储备以支付交易费用。如果您绑定了全部拥有的 HDX 令牌，则可能无法签署交易以开始提名过程。
 
 :::
 
-After adjusting the bonding preferences, click _Bond_ and sign transaction to complete the bonding process.
+调整偏好设置后，单击 Bond（绑定）并签署交易完成绑定流程。
 
 :::caution
 
-For security reasons, it is not recommended to have the same Stash and Controller accounts. However, since transfers are disabled on Snakenet, it is currently not possible to use separate accounts. We highly recommend that you switch to separate Stash and Controller accounts as soon as this becomes possible in the future.
+出于安全原因，不建议拥有相同的“存储”和“控制”帐户。但是，因目前在 Snakenet 上禁用了转账，现在无法使用单独的帐户。强烈建议您在将来有可能时尽快切换到单独的“存储”帐户和“控制器”帐户。
 
 :::
 
@@ -61,11 +60,11 @@ For security reasons, it is not recommended to have the same Stash and Controlle
   <img src={useBaseUrl('/validator-guide/bond-hdx-2.png')} />
 </div>
 
-## 02 Generate session keys {#02-generate-session-keys}
+## 02 生成会话密钥 {#02-generate-session-keys}
 
-The second step is to generate your session keys. The session keys are used to associate the validator node with your Controller account and the staked HDX. It is therefore important that they are set up correctly.
+第二步是生成您的会话密钥。会话密钥用于将验证节点与您的 Controller （控制）帐户和质押的 HDX 关联。因此，正确设置它们很重要。
 
-To generate your session keys, run on the node:
+要生成会话密钥，请在节点上运行：
 
 ```bash
 $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
@@ -74,29 +73,29 @@ $ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method
 {"jsonrpc":"2.0","result":"0x9257c7a88f94f858a6f477743b4180f0c9a0630a1cea85c3f47dc6ca78e503767089bebe02b18765232ecd67b35a7fb18fc3027613840f27aca5a5cc300775391cf298af0f0e0342d0d0d873b1ec703009c6816a471c64b5394267c6fc583c31884ac83d9fed55d5379bbe1579601872ccc577ad044dd449848da1f830dd3e45","id":1}
 ```
 
-You can find your session keys under the _result_ part of the output (`0x9257...` in the example output above).
+您可以在输出的 _结果_ 部分下找到会话密钥（`0x9257...`如上所示）。  
 
-## 03 Set your session keys {#03-set-your-session-keys}
+## 03 设置您的会话密钥 {#03-set-your-session-keys}
 
-To associate the generated session keys with your Controller account, open in in the Polkadot/apps:
+要生成的会话密钥与控制帐户相关联，在 Polkadot/apps 中打开:
 *Developer* > *Extrinsics*
 
-Fill in the fields:
+填写以下字段：
 
-* _using selected account_: select your Controller account;
-* _submit the following extrinsic_: select `session` on the left side and `setKeys` on the right;
-* _keys_: enter your session keys from the previous step;
-* _proof_: `0`.
+* _using selected account_（使用选定的账户）: 选择您的控制账户;
+* _submit the following extrinsic_（提交以下外部信息）: 左侧选择 `session` 右侧选择 `setKeys` ;
+* _keys_（密钥）: 输入上一步生成的会话密钥;
+* _proof_（认证）: `0`.
 
-To complete, click _Submit Transaction_ and sign the transaction.
+要完成此操作，请单击 _Submit Transaction_（提交交易）并签署该事务。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/set-session-keys-1.png')} />
 </div>
 
-## 04 Make sure that your node is fully synced {#04-make-sure-that-your-node-is-fully-synced}
+## 04 确保您的节点已完全同步{#04-make-sure-that-your-node-is-fully-synced}
 
-Before you continue, you should make sure that your node is running and that the synchronization process is fully complete. The most certain way to check the state of synchronization is directly on the node itself:
+在下一步之前，您应确保节点正在运行并且同步过程已充分完成。检查同步状态的最直接的方法是直接在节点本身：
 
 ```bash
 
@@ -108,40 +107,40 @@ Idle (52 peers), best: #622028 (0x5f5a…1041), finalized #622025 (0x5b21…a746
 
 ```
 
-You can compare the block number from the output (in the example above: `#622025`) with the current block number which you can find in [Polkadot/apps Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer). At the time of writing, the current block is `#622240`, meaning that the node used for the example is not fully synced.
+您可以将输出中的区块高度（如上所示：`#622025`）与您可以在 [Polkadot/apps Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer). 中找到的当前区块高度进行比较。在编写本文时，当前区块高度为#622240，这意味着示例中使用的节点尚未完全同步。
 
-Please wait until the block number shown in your local logs matches the current block number of the network.
+请等待，直到本地日志中显示的区块高度与网络的当前区块高度匹配为止。
 
 ## 05 Start validating {#05-start-validating}
 
-To start validating, navigate in Polkadot/apps:
+要开始验证，请在 Polkadot/apps 中导航：
 
-*Network* > *Staking* > *Account actions* > *Validate* (button next to your bonded HDX)
+*Network* > *Staking* > *Account actions* > *Validate* (绑定的HDX旁边的按钮)
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/validate-1.png')} />
 </div>
 
-After clicking on the *Validate* button you should see a popup called *set validator preferences*. Here, you need to set your _reward commission percentage_. This is the proportion of the rewards which will be paid out to you. The remaining rewards will be split across your nominators in accordance with their stake. If you decide to not take any reward commission, you can set the percentage to 0.
+单击 *Validate* （验证）按钮后，您应该会看到一个名为 *set validator preferences*（验证人偏好设置）的弹出窗口。在这里，您需要设置 _奖励佣金百分比_。这是将支付给您的奖励比例。剩余的奖励将根据提名人的质押份额分配给提名人。如果您决定不收取任何奖励佣金，则可以将百分比设置为0。
 
-To confirm, click *Validate* and sign the transaction.
+请单击 *Validate*（验证）并签署交易确认。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/validate-2.png')} />
 </div>
 
-## 06 Check the status of your validator node {#06-check-the-status-of-your-validator-node}
+## 06 检查验证节点的状态 {#06-check-the-status-of-your-validator-node}
 
-You can check the status of your validator node in the Polkadot/apps under:
+您可以在 Polkadot/apps 中的以下位置检查验证节点的状态：
 
 *Network* > *Staking* > *Staking overview*
 
-This tab provides an overview of all active validators connected to the network. At the top, there is an indication of the amount of validator slots available, as well as the number of nodes that have signaled their intention to be a validator. You can confirm whether your node is in the waiting queue by clicking on the _Waiting_ tab.
+此选项卡提供了连接到网络的所有活跃验证人的概况。在顶部，指示可用的验证节点插槽的数量，以及已发信号表示要成为验证节点的节点数量。您可以单击 _Waiting_ （等待）选项卡来确认您的节点是否在等待队列中。
 
-Your validator node will remain in the waiting queue until it has been selected to be included in the validator set. The validator set is updated every era which allows for new nodes to be included, provided there are empty slots.
+您的验证节点将保留在等待队列中，直到网络已选择将其包含在验证节点集群中。验证节点集群会在每个 era 进行更新，只要有空置的插槽，就允许接纳新节点。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/validate-3.png')} />
 </div>
 
-Thank you for supporting HydraDX by becoming a Snakenet validator! 🎉
+感谢您以 Snakenet （蛇网）验证人的身份支持 HydraDX！ 🎉
