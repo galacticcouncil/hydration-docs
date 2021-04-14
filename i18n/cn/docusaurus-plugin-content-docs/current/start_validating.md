@@ -111,7 +111,7 @@ Idle (52 peers), best: #622028 (0x5f5a…1041), finalized #622025 (0x5b21…a746
 
 请等待，直到本地日志中显示的区块高度与网络的当前区块高度匹配为止。
 
-## 05 Start validating {#05-start-validating}
+## 05 开始验证 {#05-start-validating}
 
 要开始验证，请在 Polkadot/apps 中导航：
 
