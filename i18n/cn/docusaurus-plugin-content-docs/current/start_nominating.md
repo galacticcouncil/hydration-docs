@@ -145,7 +145,7 @@ HydraDX Snakenet每个验证节点 **最多只能有64个提名人**。选择要
 </div>
 
 在下面可能已经熟悉的窗口中，您可以删除验证人或添加新的验证人。
-调整提名可以随时进行，无需停止提名。 当下一个 era 开始（24h）时，将应用这些更改。
+调整提名可以随时进行，无需停止提名。 当下一个 era（24h）开始时，更改就会生效。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
