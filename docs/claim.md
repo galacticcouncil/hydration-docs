@@ -61,7 +61,7 @@ You are not eligible for a gas refund if you have obtained your xHDX at some oth
 
 In the second step, you will be asked to select your HDX address.
 
-To create a new HDX address, open the Polkadot.js browser extension and click on the + sign to create a new account. In the first step of account creation, you will see the 12-work mnemonic phrase which can be used to recover your account. After saving your seed phrase in a secure place, click on *Next step*. Here, you should change the **Network** by selecting the option **HydraDX Snakenet**. Enter a name and password for your account, and finish the account creation.
+To create a new HDX address, open the Polkadot.js browser extension and click on the + sign to create a new account. In the first step of account creation, you will see the 12-word mnemonic phrase which can be used to recover your account. After saving your seed phrase in a secure place, click on *Next step*. Here, you should change the **Network** by selecting the option **HydraDX Snakenet**. Enter a name and password for your account, and finish the account creation.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
