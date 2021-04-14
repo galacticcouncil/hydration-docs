@@ -23,15 +23,17 @@ Die andere Herangehensweise funktioniert mit beiden Wallets: Wählen sie "Softwa
 ### 00 Authorisierung {#00-authorize}
 
 Sie werden daraufhin von der polkadot.js Erweiterung aufgefordert die Benutzung der Beanspruchungsseite zu authorisieren. Stellen Sie sicher, dass die Aufforderung CLAIM.HYDRADX.IO anzeigt und  https://claim.hydradx.io, andererseits könnten Sie einem Phishing Angriff zum Opfer fallen!
-<img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 
 Nach der Authorisierung, werden Sie aufgefordert ihre Metadaten für die polkadot.js Erweiterung zu aktualisieren. Dies bedeutet, dass die Polkadot.js Erweiterung dazu in der Lage sein wird HydraDX spezifische Adressen zu erstellen, welche notwendig sind um den Beanspruchungsprozess in der Benutzeroberfläche zu vervollständigen.
-<img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
 ### 01 ETH Adresse auswählen {#01-select-your-eth-address}
 
 Im ersten Schritt, müssen Sie einen Account auswählen von dem Sie die Token beanspruchen wollen. Dies geschieht entweder durch die Verbindung zu Metamask oder indem Sie Ihre Adresse in das Feld eingeben. Im Falle der zweiten Variante müssen Sie später die Nachricht manuell signieren. 
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
 ### 02 HDX Adresse erstellen {#02-create-and-select-an-hdx-address}
 
@@ -44,6 +46,8 @@ Geben Sie Ihre Seed Phrase an niemanden weiter. Erstellen Sie davon ein Backup u
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
 Sobald Sie Ihre Adresse erstellt haben, können Sie diese in der Benutzeroberfläche auswählen und mit dem Beanspruchungsprozess fortfahren.
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
 ### 03 Signieren {#03-sign}
 
@@ -62,7 +66,11 @@ Abhängig von der von Ihnen verwendeten Möglichkeit die Sie in Schritt Eins aus
 
 	Wenn Sie Ihre Ethereum Adresse manuell eingegeben haben müssen Sie die Nachricht durch Ihre externe Wallet signieren die Sie zum kauf der Token verwendet haben und Sie den privaten Schlüssel dazu besitzen. Sobald sie Ihre Nachricht signiert haben, fügen Sie die Signatur (beginnt mit "0x") in das dafür vorgesehene Feld ein.
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
+
 ### 04 Beanspruchen {#04-claim}
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
 Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie mit ihrer Polkadot.js Erweiterung signieren. Wenn Sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können Ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts), falls es nicht bereits in der Erweiterung angezeigt werden sollte.
 

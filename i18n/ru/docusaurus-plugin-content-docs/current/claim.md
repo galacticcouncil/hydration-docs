@@ -37,11 +37,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::
 
-<img alt="authorize" src={useBaseUrl('/claim/authorize.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 После авторизации вам будет предложено обновить метаданные для расширения polkadot.js. Это означает, что polkadot.js сможет создавать специальные адреса HydraDX, которые необходимы для завершения процесса запроса токенов в пользовательском интерфейсе.
 
-<img alt="authorize" src={useBaseUrl('/claim/metadata.png')} />
+<img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
 ### 01 Выбор вашего адреса ETH {#01-select-your-eth-address}
 
@@ -54,6 +54,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Вы не имеете права на возврат газа, если вы получили свой xHDX в другом месте, кроме официального пула балансировщика (например, Uniswap), или если вы переместили свои токены из исходного кошелька для покупки.
 
 :::
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
 ### 02 Создание и выбор адреса HDX {#02-create-and-select-an-hdx-address}
 
@@ -71,6 +73,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 После создания учетной записи HDX вы сможете выбрать ее в приложении HydraDX Claim. После этого приложение должно предоставить вам обзор адресов ETH и HDX, используемых для процесса заявки. Нажмите «Далее», чтобы подписать сообщение.
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
+
 ### 03 Подписание {#03-sign}
 
 На третьем этапе процесса запроса с использованием приложения HydraDX Claim вам будет предоставлена возможность подписать сообщение об использовании ваших токенов xHDX для запроса HDX.
@@ -87,9 +91,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 * Если вы ввели свой адрес ETH вручную, вам нужно будет подписать сообщение через внешний кошелек, в котором хранятся закрытые ключи ваших токенов xHDX. После того, как вы подписали сообщение, скопируйте подпись (начиная с *0x*) в соответствующее поле в приложении HydraDX Claim.
 
+<img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
+
 ### 04 Запрос токенов {#04-claim}
 
 После подписания сообщения кошельком с вашими токенами xHDX должно открыться расширение Polkadot.js, и вам будет предложено подписать транзакцию для запроса токенов HDX на вашу учетную запись. Введите пароль своей учетной записи HDX и нажмите *Sign the transaction*.
+
+<img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
 Вы завершили процесс подачи заявки и официально стали владельцем HDX!
 
