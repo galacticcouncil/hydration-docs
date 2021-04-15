@@ -1,6 +1,6 @@
 ---
-id: rewards
-title: Rewards
+id: staking_rewards
+title: Staking Rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
