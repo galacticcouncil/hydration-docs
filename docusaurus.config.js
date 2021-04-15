@@ -44,6 +44,10 @@ module.exports = {
             {
               label: "Newsletter",
               href: "https://hydradx.substack.com"
+            },
+            {
+              label: "FAQ",
+              href: "https://hydradx.io/faq"
             }
           ]
         },
@@ -67,6 +71,10 @@ module.exports = {
               label: "Twitter",
               href: "https://twitter.com/hydra_dx",
             },
+            {
+              label: "Telegram",
+              href: "https://t.me/hydradx"
+            }
           ],
         },
       ]
