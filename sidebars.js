@@ -15,7 +15,8 @@ module.exports = {
       }
     ],
     "Learn": [
-      "staking"
+      "staking",
+      "rewards"
     ],
     "Maintain": [
       "node_setup",
