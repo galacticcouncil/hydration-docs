@@ -5,7 +5,7 @@ title: Supervision de node
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-Dans ce chapitre nous allons vous guider tout au long du réglage d'une surveillance locale pour votre node validateur.
+Dans ce chapitre nous allons vous guider tout au long du réglage d'une solution de monitoring locale pour votre node validateur.
 
 ## Prérequis {#prerequisites}
 
@@ -18,20 +18,20 @@ Dans la première étape nous allons installer le serveur Prometheus.
 
 ### User et Directories {#user-and-directories}
 
-Nous créons un user (utilisateur) juste à des fins de surveillance qui n'ont pas de répertoire home et ne peut pas être utilisé pour ouvrir une session.
+Nous créons un user (utilisateur), _prometheus_, juste à des fins de monitoring qui n'a pas de répertoire home et ne peut pas être utilisé pour ouvrir une session.
 
 ```shell script
 $ sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
 ```
 
-Puis nous créons des répertoires pour le fichier exécutable et les fichier de configuration.
+Puis nous créons des répertoires pour le fichier exécutable et les fichiers de configuration.
 
 ```shell script
 $ sudo mkdir /etc/prometheus
 $ sudo mkdir /var/lib/prometheus
 ```
 
-Changer le propriétaire des répertoires pour les restreinre à notre nouvel utilisateur superviseur.
+Nous allons changer le propriétaire des répertoires pour restreindre l'accès au nouvel utilisateur, _prometheus_.
 
 ```shell script
 $ sudo chown -R prometheus:prometheus /etc/prometheus
@@ -54,14 +54,14 @@ $ tar xfz prometheus-*.tar.gz
 $ cd prometheus-2.25.2.linux-amd64
 ```
 
-Maintenant copier les binaries dans votre fichier local.
+Maintenant copier les binaires dans votre dossier local.
 
 ```shell script
 $ sudo cp ./prometheus /usr/local/bin/
 $ sudo cp ./promtool /usr/local/bin/
 ```
 
-Nous devons maintenant assigner ces binaries à notre utilisateur nouvellement crée.
+Nous devons maintenant définir le nouvel utilisateur, _prometheus_, comme étant propriétaire de ces binaires.
 
 ```shell script
 $ sudo chown prometheus:prometheus /usr/local/bin/prometheus
@@ -82,7 +82,7 @@ $ sudo chown -R prometheus:prometheus /etc/prometheus/consoles
 $ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
 
-Nous avons maintenant tout ce dont nous avons besoin en paquets téléchargés et nous allons donc faire un pas en arrière faire un peu de ménage.
+Maintenant que nous avons tous les paquets nécessaires, nous pouvons remonter d'un niveau et supprimer le dossier contenant les sources.
 
 ```shell script
 $ cd .. && rm -rf prometheus*
@@ -100,7 +100,7 @@ Notre config est divisé en trois sections:
 * `rule_files`: specify rule-files the Prometheus server should load
 * `scrape_configs`: this is where you set the monitoring-resources
 
-Nous allons rester simples et terminer avec quelque chose comme ça:
+Nous allons rester simples et terminer avec cette configuration:
 
 ```yaml
 global:
