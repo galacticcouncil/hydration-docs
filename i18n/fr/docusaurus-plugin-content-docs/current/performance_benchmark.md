@@ -1,11 +1,11 @@
 ---
 id: performance_benchmark
-title: Performance benchmark
+title: Benchmark de performance
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can make sure that your machine satisfies the [required technical specifications](/node_setup#00-required-technical-specifications) by running a performance benchmark. To do so, follow the steps below:
+Vous pouvez vous assurer que votre machine satisfait les [spécifications techniques requises](/node_setup#00-required-technical-specifications) en exécutant un benchmark de performance. Pour ce faire, suivez les étapes ci-dessous:
 
 ```bash
 # Fetch source of the latest stable release
@@ -28,7 +28,7 @@ $ apt install clang
 $ ./scripts/check_performance.sh
 ```
 
-After the benchmark executes you should see an output similar to the following:
+Après que le benchmark s'exécute, vous devriez voir une sortie similaire à ce qui suit:
 
 ```
          Pallet          |   Time comparison (µs)    |  diff* (µs)   |   diff* (%)    |            |   Rerun
@@ -37,11 +37,11 @@ exchange                 |     804.00 vs 720.00      |      84.00    |      10.4
 transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.17     |     OK     |
 
 Notes:
-- in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
-- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
-- if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
+- dans les champs "diff" vous pouve voir la différence entre le temps benchmark de référence et le temps benchmark de votre machine
+- Si diff est positif pour les trois données, votre machine couvre les exigences minimum pour faire fonctionner un node HydraDX
+- Si diff dévie de -10% ou plus pour certaines données, votre machine pourrait ne pas convenir pour faire fonctionner un node
 ```
 
-You can see the difference in the performance between your machine and the minimum required setup in the column **diff* (%)**. If all three values in this column are positive, your machine should be suitable to run a HydraDX validator node. If any of the values is below *-10 %*, we do not recommend running a HydraDX node.
+Vous pouvez voir la différence de performance entre votre machine et la configuration minimale requise dans la colonne **diff* (%)**. Si les trois valeurs dans cette colonne sont positives, votre machine devrait convenir pour faire fonctionner un node validateur HydraDX. Si une des valeurs est en dessous de *-10 %*, nous ne recommandons pas de faire fonctionner un node HydraDX.
 
-Join us at Discord if you would like to discuss your benchmark results, our community is always happy to help.
+Rejoignez nous sur Discord si vous voulez discuter des résultats du benchmark, notre communauté vous aidera volontiers.

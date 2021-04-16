@@ -1,59 +1,59 @@
 ---
 id: node_setup
-title: Set up a HydraDX node
+title: Installer un node HydraDX
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section walks you through the process of setting up and running a HydraDX node.
+Cette section vous guide à travers le procédé d'installation et de fonctionnement d'un node HydraDX.
 
-:::warning
+:::mise en garde
 
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
+Faire fonctionner un node validateur requiert une certaine compétence technique nécessaire pour l'installation correcte du node, et pour garantir sa disponibilité. Si vous n'êtes pas sûr de ce que vous faites ici, nous recommandons de [Déléguer vos HDX](/start_nominating) à un validateur expérimenté à la place. En faisant ainsi, vous vous protégez vous, et vos nominateurs contre une perte de fonds involontaire.
 
 :::
 
-## 00 Required technical specifications {#00-required-technical-specifications}
+## 00 configurations techniques requises {#00-required-technical-specifications}
 
-The following technical specifications are required as a minimum for running a HydraDX validator node: 
+Les configurations techniques suivantes sont nécessaire au minimum pour faire fonctionner un node validateur HydraDX:
 
-* OS: Ubuntu 20.04
-* CPU: Intel Core i7-7700K @ 4.5Ghz (or equivalent single core performance)
-* Memory: 64GB RAM
-* Storage: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
+* Système d'exploitation: Ubuntu 20.04
+* Processeur: Intel Core i7-7700K @ 4.5Ghz (ou monocœur à performance équivalente)
+* Mémoire: 64GB RAM
+* Stockage: NVMe SSD avec une capacité d'au moins 200GB (l'empreinte de donnée va croître à l'avenir)
 
 :::note
 
-These are the minimum technical requirements which have been verified by the team. Want to make sure that your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
+Ce sont les exigences techniques minimales qui ont été vérifiées par l'équipe. Vous voulez vous assurer que votre machine a les ressources suffisantes pour faire fonctionner un node? Lancer un [benchamark de performance](/performance_benchmark) pour le découvrir.
 
 :::
 
 
-## 01 Check whether your system clock is synchronized {#01-check-whether-your-system-clock-is-synchronized}
+## 01 vérifier si votre horloge système est synchronisée {#01-check-whether-your-system-clock-is-synchronized}
 
-Before running a node, you should make sure that your system clock is synchronized - this is important because validators work together. On Ubuntu 20.04 the system clock should be synchronized by default. To verify, run the following command and check the output:
+Avant de faire fonctionner un node, vous devriez vous assurer que votre horloge système est synchronisée - c'est important car les validateurs travaillent ensemble. Sur Ubuntu 20.04 l'horloge système devrait être synchronisée par défaut. Pour le vérifier, lancer la commande suivante et vérifier le résultat:
 
 ```bash
 $ timedatectl | grep "System clock"
 System clock synchronized: yes
 ```
 
-If the output is different, then you can install NTP manually and verify again that your system clock is synchronized:
+Si le résultat est différent, alors vous pouvez installer NTP manuellement et vérifier encore que votre horloge système est synchronisée:
 
 ```bash
 $ apt install ntp
 $ ntpq -p
 ```
 
-## 02 Adjust your firewall settings {#02-adjust-your-firewall-settings}
-Port `30333` is used for peer-to-peer connections with other nodes. If you are running the node as a validator, we recommend that you set up a firewall and configure to expose only this port for remote connections.
+## 02 Règler vos paramètres de firewall {#02-adjust-your-firewall-settings}
+Le port `30333` est utilisé pour des connexions peer-to-peer avec d'autres nodes. Si vous faites fonctionner le node en tant que validateur, nous recommandons que vous installiez un firewall et le configuriez pour exposer ce port seulement aux connexions distantes.
 
-If you are *not* running the node as a validator, you can also consider exposing `9944` (for RPC websocket connections with external apps) and `9933` (for HTTP requests to your node). You can use port `9944` to connect to your node with [Polkadot/apps](/polkadotjs_apps_local).
+Si vous ne faites pas fonctionner le node en tant que validateur, vous pouvez aussi exposer `9944`  (pour des connexions websocket avec des applications externes) et `9933` (pour les requêtes HTTP à votre node). Vous pouvez utiliser le port `9944` pour vous connecter à votre node avec [Polkadot/apps](/polkadotjs_apps_local).   
 
-## 03 Download or build a binary {#03-download-or-build-a-binary}
-You can download a binary of our latest release on [github](https://github.com/galacticcouncil/HydraDX-node/releases).
+## 03 Télécharger et construire un binary {#03-download-or-build-a-binary}
+Vous pouvez télécharger un binary de notre dernière publication sur [github](https://github.com/galacticcouncil/HydraDX-node/releases).
 
-Alternatively, you can build the binary from source:
+Alternativement, vous pouvez construire un binary depuis la source:
 
 ```bash
 # Install dependencies
@@ -67,13 +67,13 @@ $ cd HydraDX-node/
 $ cargo build --release
 ```
 
-If you built the binary following the steps above, the path to your binary is:
+Si vous avez construit un binary selon les étapes ci-dessus, le chemin de votre binary est:
 ```
 target/release/hydra-dx
 ```
 
-## 04 Run the binary {#04-run-the-binary}
-You can run the binary by executing the following command:
+## 04 exécuter le binary {#04-run-the-binary}
+Vous pouvez lancer le binary en exécutant la commande suivante:
 
 ```bash
 $ {PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
@@ -81,17 +81,18 @@ $ {PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
 
 :::note
 
-Validator nodes require the whole chain database. If you ran the node before without the `--validator` flag, you will need to resync the database by purging the chain before launching the node.
+Les nodes validateurs requierent la base de donnée de la chaîne entière. Si vous avez lancé le node avant sans le flag `--validator`, vous allez avoir besoin de resynchroniser la base de donnée en purgeant la chaîne avant de lancer le node.
 ```bash
 $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 ```
 
 :::
 
-Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) where you can find a list of all nodes running on HydraDX Snakenet.
+Outre le chemin de votre binary (voir au dessus), vous devez spécifier un nom de node qui sera utilisé pour identifier votre node dans [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) où vous pouvez trouver une liste de toutes les nodes fonctionnement sur le Snakenet HydraDX.
 
-## 05 Running with systemd {#05-running-with-systemd}
-To make sure that your node is automatically started when your machine reboots, we recommend running the HydraDX node as a systemd process. To do so, create the following file and insert the content while replacing the variables indicated as `{VARIABLE}`:
+## 05 Fonctionnement avec systemd {#05-running-with-systemd}
+
+Pour vous assurer que votre node est lancée automatiquement quand votre machine redémarre, nous recommandons de lancer le node HydraDX en tant que processus de systemd. Pour ce faire, créer le fichier suivant et insérer le contenu en remplaçant les variables indiquées comme `{VARIABLE}`:
 
 ```bash
 $ touch /etc/systemd/system/hydradx-validator.service
@@ -113,10 +114,10 @@ WantedBy=multi-user.target
 ```
 
 :::note
-Setting RestartSec is recommended because it delays the restart of the node in the case of a crash. This allows for any unpersisted data (such as consensus votes) to be written to the disk before the node is restarted. Restarting the node immediately after it has crashed can cause equivocation or double signing, eventually resulting in slashing.
+Régler RestartSec est recommandé parce que cela retarde la remise en route du node en cas de crash. Cela permet à n'importe quelle donnée imperturbable (comme les votes de consensus) d'être écrite sur le disque avant que le node ne se remette en route. Relancer le node immédiatement après qu'il ait crashé peut provoquer un ambiguïté ou une double signature, et enfin résulter en un slashing (punition).
 :::
 
-After creating the configuration file you can interact with your HydraDX validator node as a system process:
+Après avoir créé le fichier de configuration vous pouvez réagir avec votre node validateur HydraDX comme un processus du système:
 ```bash
 # Start the node at system boot
 $ systemctl enable hydradx-validator.service
@@ -131,6 +132,6 @@ $ systemctl status hydradx-validator.service
 $ journalctl -f -u hydradx-validator.service
 ```
 
-Your HydraDX node is now configured and running!
+Votre node HydraDX est maintenant configuré et fonctionne!
 
-You can now complete the last steps to [start validating](/start_validating).
+Vous pouvez maintenant compléter les dernières étapes pour [Commencer à valider](/start_validating).

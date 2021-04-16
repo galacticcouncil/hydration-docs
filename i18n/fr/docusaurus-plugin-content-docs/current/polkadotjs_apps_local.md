@@ -1,35 +1,39 @@
 ---
 id: polkadotjs_apps_local 
-title: Connect to a local node 
+title: Se connecter à un node local 
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can use the Polkadot/apps to connect to your local HydraDX node. For this purpose, you need to have access to port `9944` which is used for RPC websocket connections.
+Vous pouvez utiliser Polkadot/apps pour vous connecter à votre node HydraDX local. Pour ce faire, vous devez avoir accès au port `9944` qui est utilisé connexions websockets RPC.
 
-:::warning
+:::mise en garde
 
-If you are running the node as a validator, we highly recommend that you blacklist port `9944` for remote connections. This port could be abused by third parties to degrade the performance of your node, which may result in slashing and involuntary loss of funds. You should use port `9944` to connect to your validator node only when the node is in your local network.
+Si vous faites fonctionner un node en tant que validateur, nous recommandons fortement que vous blacklistiez le port `9944` pour des connexions à distance. Ce port pourrait être exploité par des personnes tierces pour altérer la performance de votre node, ce qui peut résulter par un slashing et une perte involontaire de fonds. Vous devriez utiliser le port `9944`  pour vous connecter à votre node validateur seulement quand le node est dans votre réseau local.
 
 :::
 
-### Accessing your local node using Polkadot/apps {#accessing-your-local-node-using-polkadotapps}
+### Accéder à votre  node local en utilisant Polkadot/apps {#accessing-your-local-node-using-polkadotapps}
 
-To access your node, open [Polkadot/apps](https://polkadot.js.org/apps/) and click in the upper left corner to change the network.
+Pour accéder à votre node, ouvrez [Polkadot/apps](https://polkadot.js.org/apps/) et cliquez dans le coin supérieur gauche pour changer de réseau.
 
 <div>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-After opening the menu, click on **Development** and select **Local node**.
+Après avoir ouvert le menu, cliquez sur **Development** et choisissez **Local node**.
+
+ou dans l'interface en français: 
+
+**Développement** et choisissez **Nœud local(propre Nœud)**
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-1.png')} />
 </div>
 
-Adjust the IP if necessary and click on ***Switch*** to switch to your local node.
+Régler l'IP si nécessaire et cliquez sur ***Switch*** pour passer à votre node local.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-2.png')} />
 </div>
 
-Now you should be connected to your local node and be able to interact with it.
+Maintenant vous devriez être connecté à votre node local et être capable d'interagir avec.

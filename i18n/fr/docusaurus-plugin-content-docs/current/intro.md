@@ -4,6 +4,7 @@ title: Intro
 slug: /
 ---
 
-Welcome to HydraDX docs. 
+Bienvenue dans la documentation HydraDX.
 
-Hopefully, we can make this place a great resource for learning about HydraDX together.
+Avec de l'entrain, nous pouvons faire de cet endroit une grande ressource pour étudier HydraDX ensemble.
+

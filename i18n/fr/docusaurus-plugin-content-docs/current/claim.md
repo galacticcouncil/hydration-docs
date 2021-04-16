@@ -1,112 +1,114 @@
 ---
 id: claim
-title: Claim your HDX
+title: Récupérer vos HDX
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can claim your HDX with the xHDX tokens (ERC-20) that you have obtained in the period when our [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) was live.
+Vous pouvez récupérer vos HDX avec les tokens xHDX (ERC-20) que vous avez obtenus pendant la période où notre [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) était opérationnel. 
 
 :::note
 
-You don't have any xHDX tokens but you would like to obtain some HDX nonetheless? Thank you for the interest but at this moment it is not possible to buy any HDX tokens - transfers of HDX are frozen until mainnet. As we move towards mainnet, however, we will be launching incentivized community programs which might earn you some early HDX. If you are interested, [subscribe to our newsletter](https://hydradx.substack.com) and join our Discord server to stay updated.
+Vous n'avez pas de tokens xHDX mais vous aimeriez néanmoins obtenir des HDX? Merci de votre intérêt mais pour le moment il n'est pas possible d'acheter des tokens HDX. Les transferts de HDX sont gelés jusqu'au mainnet (réseau principal). Pendant que nous nous dirigeons vers le mainnet, toutefois, nous allons lancer des programmes de communauté récompensés qui pourront vous faire gagner quelques HDX. Si vous êtes intéressés, [souscrivez à notre newsletter](https://hydradx.substack.com) et rejoignez notre server Discord pour rester informé.
 
 :::
 
-## Prerequisites {#prequisites}
+## Prérequis {#prequisites}
 
-There are two prerequisites for claiming your HDX. In the first place, you need to install the [Polkadot.js browser extension](https://polkadot.js.org/extension/) which will be used to create your HDX wallet. In the second place, you need access to your xHDX tokens which should be stored in a wallet supporting the signing of messages relating to ERC-20 tokens (e.g. Metamask).
+Il y a deux conditions préalables pour récupérer vos HDX. En premier lieu, vous  devez installer [l'extension de navigateur Polkadot.js](https://polkadot.js.org/extension/) qui sera utilisée pour créer votre portefeuille HDX. En second lieu, vous devez accéder à vos xHDX qui devraient être stockés dans un portefeuille supportant la signature de messages relatifs aux tokens ERC-20 (par exemple : Metamask).
 
-If your xHDX tokens are stored in Coinbase Wallet or Trust Wallet, you will need to use one of the following workarounds for claiming your HDX, as these wallets do not support the signing of messages:
-* Metamask: You can use the Metamask browser extension and import your wallet using the recovery seed phrase.
-* MEW (MyEtherWallet): You can also use MEW by either importing your recovery seed phrase (*Mnemonic Phrase*) or by using the WalletLink connection option. Both options can be accessed from the [MEW wallet access page](https://www.myetherwallet.com/access-my-wallet). If you are using Coinbase Wallet, you can use WalletLink which you can find the Settings of Coinbase Wallet.
+Si vos tokens xHDX sont stockés dans un portefeuille Coinbase ou un portefeuille Trust, vous devrez utiliser une des solutions alternatives suivantes pour récupérer vos HDX, puisque ces portefeuilles ne supportent pas la signature de messages:
+* Metamask: vous pouvez utiliser l'extension de navigateur Metamask et importer votre portefeuille en utilisant la "seed phrase" de récupération.
+* MEW (MyEtherWallet): vous pouvez aussi utiliser MEW soit en important votre "seed phrase" de récupération (*Phrase Mnémontechnique*) ou en utilisant l'option de connexion WalletLink. Les deux options sont accessibles depuis [MEW wallet access page](https://www.myetherwallet.com/access-my-wallet). Si vous utilisez un portefeuille Coinbase, vous pouvez utiliser WalletLink que vous pouvez trouver dans les paramètres du portefeuille Coinbase.
 
-## Claim process {#claim-process}
 
-After making sure that you have fulfilled the prerequisites described above, you can navigate to the [HydraDX Claim app](https://claim.hydradx.io) and proceed with the claim process.
+## procédure de réclamation {#claim-process}
 
-During the claim process, you will use your xHDX tokens (ERC-20) to claim your share of HDX tokens.
+Après vous être assuré que vous satisfaites les prérequis décris ci-dessus, vous pouvez vous rendre sur [application de réclamation HydraDX](https://claim.hydradx.io) et effectuer le procédé de récupération.
 
-### 00 Authorize {#00-authorize}
+Pendant la procédure de récupération, vous allez utiliser vos tokens xHDX (ERC-20) pour récupérer votre part de tokens HDX.
 
-The HydraDX Claim app will request authorization from the Polkadot.js browser extension.
+### 00 Autoriser {#00-authorize}
 
-:::warning
+L'application de réclamation HydraDX va requérir une autorisation de l'extension de navigateur Polkadot.js.
 
-Make sure that you are not the victim of a phishing attack and pay attention to the authorization popup: The application should be identifying itself as **CLAIM.HYDRADX.IO** and the request should be coming from **https://claim.hydradx.io**.
+:::attention
+
+assurez vous que vous n'êtes pas victime d'une attaque d'hameçonnage, et soyez attentif au pop-up d'autorisation: L'application devrait s'identifier  elle-même comme **CLAIM.HYDRADX.IO** et la requête devrait venir de **https://claim.hydradx.io**.
 
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
-After authorizing, you will be prompted to update the metadata for the Polkadot.js browser extension. This will allow Polkadot.js to create HydraDX-specific addresses which are required to complete the claim process.
+Après autorisation, vous serez invité à mettre à jour les métadonnées pour l'extension de navigateur Polkadot.js. Cela permettra à Polkadot.js de créer des adresses spécifiques à HydraDX qui seront nécessaires pour terminer la procédure de récupération.
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
-### 01 Select your ETH address {#01-select-your-eth-address}
+### 01 Sélectionnez votre adresse ETH {#01-select-your-eth-address}
 
-In the first step of the claim process, you will be asked to select the account holding your xHDX tokens. This can be done by either connecting to your wallet holding the ERC-20 tokens (e.g. Metamask), or by entering your ETH address manually in the input box (in that case you will need to sign the message manually later).
+Dans la première étape de la procédure de récupération, on vous demandera de choisir votre compte contenant vos tokens xHDX. Ca peut être fait soit en connectant votre portefeuille contenant les tokens ERC-20 (par exemple : Metamask), soit en entrant manuellement votre adresse ETH dans la zone de saisie (auquel cas vous devrez signer le message manuellement plus tard).
 
-After entering your ETH address, you should see the balance of HDX tokens you can claim, including the [refund of the gas fees](https://hydradx.substack.com/p/first-governance-vote) that you have spent for obtaining your xHDX on Balancer.
+Après avoir entré votre adresse ETH, vous devriez voir le solde de tokens HDX que vous pouvez réclamer, dont le [remboursement des frais de gaz](https://hydradx.substack.com/p/first-governance-vote) que vous avez dépensé pour obtenir vos xHDX sur le Balancer.
 
 :::note
 
-You are not eligible for a gas refund if you have obtained your xHDX at some other place than the official Balancer pool (such as Uniswap), or if you have moved your tokens out of the original buying wallet.
+Vous n'êtes pas éligible pour un remboursement de gaz si vous avez obtenu vos xHDX à un autre endroit que sur le Balancer pool officiel (par exemple sur Uniswap), ou si vous avez déplacé vos tokens en dehors de votre portefeuille utilisé au moment de l'achat.
 
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
-### 02 Create and select an HDX address {#02-create-and-select-an-hdx-address}
+### 02 créez et sélectionnez une adresse HDX {#02-create-and-select-an-hdx-address}
 
-In the second step, you will be asked to select your HDX address.
+Dans la seconde étape, on vous demandera de choisir votre adresse HDX.
 
-To create a new HDX address, open the Polkadot.js browser extension and click on the + sign to create a new account. In the first step of account creation, you will see the 12-work mnemonic phrase which can be used to recover your account. After saving your seed phrase in a secure place, click on *Next step*. Here, you should change the **Network** by selecting the option **HydraDX Snakenet**. Enter a name and password for your account, and finish the account creation.
+Pour créer une nouvelle adresse HDX, ouvre l'extension de navigateur Polkadot.js et cliquez sur le signe  "+" pour créer un nouveau compte. Dans la première étape de création de compte, vous verrez la phrase mnémotechnique de 12 mots qui pourra être utilisée pour récupérer votre compte. Après avoir enregistré votre "seed phrase" dans un endroit sûr, cliquez sur *Next step*. Ici, vous devriez changer le **Network** en choisissant l'option **HydraDX Snakenet**.
+Saisissez un nom et un mot de passe pour votre compte, et finissez la création de compte.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
-:::warning 
+:::attention 
 
-Make sure that you back up your recovery seed phrase by storing it in a safe place and never share it with anybody. Using the seed phrase is the only way you can recover your account and if you lose or leak it, your funds might be compromised. Please note that you need to secure your access to this wallet until the mainnet starts, as all HDX balances are currently locked. If you lose access to your HDX wallet you will also lose your HDX.
+Assurez vous de conserver votre "seed phrase" de récupération en la stockant dans un endroit sûr et ne la partagez avec personne. Utilisez cette "seed phrase" est le seul moyen pour vous de recouvrer votre compte et si vous la perdez ou la faites fuiter, vos fonds pourraient être compromis. Veuillez noter que vous avez besoin de protéger l'accès à ce portefeuille jusqu'à ce que le mainnet commence, puisque tous les soldes HDX sont actuellement verrouillés. Si vous perdez l'accès à votre portefeuille HDX, vous perdrez en même temps vos HDX.
 
 :::
 
-After creating your HDX account, you should be able to select it in the HydraDX Claim app. After doing so, the app should provide you with an overview of the ETH and HDX addresses used for the claim process. Click on next to proceed to signing the message.
+Après avoir créé votre compte HDX, vous devriez être capable de le séléctionner dans l'application de récupération HydraDX. Après l'avoir fait, l'application devrait vous fournir un aperçu des adresses ETH et HDX utilisées pour la procédure de récupération. Cliquez sur suivant pour procéder à la signature du message.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
-### 03 Sign {#03-sign}
+### 03 Signer {#03-sign}
 
-In the third step of the claim process using the HydraDX Claim app, you will be provided with the option to sign the message for using your xHDX tokens to claim HDX.
+Dans la troisième étape du processus de récupération en utilisant l'application de récupération HydraDX, vous aurez l'option de signer le message en utilisant vos tokens xHDX pour réclamer vos HDX.
 
 :::note
 
-Please note that in this step you will see the **public key** of your HDX address, and not the address in its human readable form as it was displayed in the previous step and in your Polkadot.js browser extension (for more details refer to the [ss58 docs](https://polkadot.js.org/docs/keyring/start/ss58)). If you have followed all steps as described above, there is nothing to worry about and it is safe to proceed with signing the message. We will also verify that the HDX account you are using to sign the claim transaction at the final step corresponds with the account which is receiving the claimed HDX.
+Veuillez noter que dans cette étape vous verrez la **public key** (clé publique) de votre adresse HDX, et non pas l'adresse dans sa forme humainement lisible comme elle était présentée dans les étapes précédentes dans votre extension de navigateur Polkadot.js (pour plus de détails référez vous à [ss58 docs](https://polkadot.js.org/docs/keyring/start/ss58)). Si vous avez suivi toutes les étapes comme décrites ci-dessus, Il n'y a pas d'inquiétude à avoir et il est sûr de continuer avec la signature du message. Nous allons aussi vérifier que le compte HDX que vous utilisez pour signer la transaction de récupération à l'étape finale correspond au compte qui reçoit les HDX réclamés. 
 
 :::
 
-Depending on the choice you have made in the first step, you have two options to sign the message for using the xHDX tokens in the claim process:
+Selon le choix que vous avez fait à la première étape, vous avez deux options de signature de message pour utiliser les tokens xHDX dans le processus de récupération:
 
-* If you are using **Metamask**, after clicking the *Sign* button you will be prompted by Metamask to sign the message. Follow the instructions in Metamask.
+* Si vous utilisez **Metamask**, après avoir cliqué sur le bouton *sign* (signez) vous serez invité par Metamask à signer le message. Suivez les instructions dans Metamask.
 
-* If you have entered your ETH address manually, you will need to sign the message through the external wallet that holds the private keys of your xHDX tokens. Once you have signed the message, copy the signature (starting with *0x*) to the respective field in the HydraDX Claim app.
+* Si vous avez entré votre adresse ETH manuellement, vous devrez signer le message via le portefeuille externe qui contient la clé privée de vos tokens xHDX. Une fois que vous avez signé le message, copiez la signature (qui commence par "0x") dans le champ respectif sur l'application de récupération HydraDX.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
-### 04 Claim {#04-claim}
+### 04 Récupération {#04-claim}
 
-After signing the message with the wallet holding your xHDX tokens, the Polkadot.js extension should open and you will be asked to sign the transaction for claiming the HDX to your account. Enter your HDX account password, and click *Sign the transaction*.
+Après avoir signé le message avec le portefeuille contenant vos tokens xHDX, l'extension Polkadot.js devrait s'ouvrir et il vous sera demandé de signer la transaction pour récupérer les HDX sur votre compte. Entrez votre mode de passe de votre compte HDX, et clickez sur *Sign the transaction* (signez la transaction).
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
-You have now completed the claim process, thereby officially becoming an HDX owner!
+Vous avez terminé la procédure de récupération, faisant ainsi de vous un propriétaire de HDX.
 
-You can check your balance using [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) connected to the HydraDX Snakenet network. Please note that you cannot see your HDX balance directly in the Polkadot.js browser extension.
+Vous pouvez visualiser votre solde en utilisant [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) connecté au réseau HydraDX Snakenet. Veuillez noter que vous ne pouvez pas voir votre solde directement dans l'extension de navigateur Polkadot.js.
 
-### 05 What's next? {#05-whats-next}
+### 05 Et après? {#05-whats-next}
 
-After completing the claim process, the HDX tokens will remain locked in your wallet until the launch of mainnet. 
+Après avoir terminé le processus de récupération, les tokens HDX vont être bloqués dans votre portefeuille jusqu'au lancement du mainnet (réseau principal).
 
-The xHDX tokens (which you used to claim HDX), on the other hand, will remain locked in your ERC-20 wallet forever, meaning that you can hide them from your wallet (or keep them visible as an early-adopter badge).
+Les tokens xHDX (que vous avez utilisés pour réclamer vos HDX), eux, vont restés bloqués dans votre portefeuille ERC-20 pour toujours, ce qui signifie que vous pouvez les cacher de votre portefeuille (ou les garder visibles comme un badge d'utilisateur pionnier).
 
-Do you want to put your HDX tokens to work and help improve the security of the HydraDX network? Then you could participate at our incentivized testnet called **Snakenet** by staking your HDX. If you are interested, you can proceed by getting familiar with the [staking process](/staking), after which you can decide to participate as a [validator](/start_validating) or a [nominator](/start_nominating).
+Voulez-vous mettre vos tokens HDX à l'œuvre et aider à améliorer la sécurité du réseau HydraDX? Alors vous pourriez participer à notre testnet récompensé appelé **Snakenet** en déléguant (staking) vos HDX. Si vous êtes intéressés, vous pouvez vous y mettre en vous familiarisant avec le [staking process](/staking), après quoi vous pouvez décider de participer en tant que [validateur](/start_validating) ou [nominateur](/start_nominating).
