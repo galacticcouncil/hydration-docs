@@ -5,43 +5,43 @@ title: Node Monitoring
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-In this chapter we will walk you through the setup of local monitoring for your validator node.
+In diesem Kapitel durchlaufen wir den Einrichtungsprozess eines lokalen Monoitoring-Systems der Validator Node.
 
 ## Prerequisites {#prerequisites}
 
-You must have your [validator node](/node_setup) up and running.  
-This guide was tested on Ubuntu 20.04 LTS release.
+Sie müssen Ihre [Validator Node](/node_setup) fertig eingerichtet und aktiv haben.  
+Dieser Guide wurde unter dem Ubuntu 20.04 LTS Release getestet.
 
 ## Prometheus Setup {#prometheus-setup}
 
-In the first step we will set up the Prometheus server.
+Im ersten Schritt werden wir den Prometheus Server einrichten.
 
-### User and Directories {#user-and-directories}
+### Benutzer und Ordner {#user-and-directories}
 
-We create a user just for monitoring purposes which has no home directory and can't be used to log in.
+Sie erstellen einen separaten Benutzer für die Überwachungszwecke, für den kein Home-Verzeichnis angelegt wird und der sich nicht einloggen kann.
 
 ```shell script
 $ sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
 ```
 
-Then we create directories for the executable and the configuration file.
+Als nächstes erstellen Sie Verzeichnisse für die ausführbaren Dateien und die Konfigurationsdateien.
 
 ```shell script
 $ sudo mkdir /etc/prometheus
 $ sudo mkdir /var/lib/prometheus
 ```
 
-Change ownership of the directories to restrict them to our new monitoring user.
+Ändern Sie den Eigentümer der Verzeichnisse auf den neu erstellten Benutzer.
 
 ```shell script
 $ sudo chown -R prometheus:prometheus /etc/prometheus
 $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 ```
 
-### Install Prometheus {#install-prometheus}
+### Prometheus installieren {#install-prometheus}
 
-Check latest version number of Prometheus at the [GitHub release page](https://github.com/prometheus/prometheus/releases/).  
-At the time of writing it is v2.25.2. Insert the latest release version in the following commands.
+Schauen Sie nach der aktuellsten Version auf der [GitHub Release Seite](https://github.com/prometheus/prometheus/releases/).  
+Zum Zeitpunkt der Veröffentlichung ist dies v2.25.2. Setzen Sie die aktuellste Version in die folgenden Befehle ein.
 
 ```shell script
 # download prometheus
@@ -54,53 +54,53 @@ $ tar xfz prometheus-*.tar.gz
 $ cd prometheus-2.25.2.linux-amd64
 ```
 
-Now copy over the binaries into the local folder.
+Nun kopieren Sie die Binaries in das lokale Verzeichnis.
 
 ```shell script
 $ sudo cp ./prometheus /usr/local/bin/
 $ sudo cp ./promtool /usr/local/bin/
 ```
 
-We now need to assign those binaries to our freshly created user.
+Als Besitzer der Dateien wird ebenfalls unser neuer Benutzer gesetzt.
 
 ```shell script
 $ sudo chown prometheus:prometheus /usr/local/bin/prometheus
 $ sudo chown prometheus:prometheus /usr/local/bin/promtool
 ```
 
-Next up we'll copy the web interface and the configuration presets.
+Danach kopieren Sie die Benutzeroberfläche und die Konfigurationsdateien.
 
 ```shell script
 $ sudo cp -r ./consoles /etc/prometheus
 $ sudo cp -r ./console_libraries /etc/prometheus
 ```
 
-You may have guessed it already but we're also changing the ownership of those directories.
+Sie ahnen es sicher bereits, doch wir müssen mal wieder die Benutzer der Verzeichnisse ändern.
 
 ```shell script
 $ sudo chown -R prometheus:prometheus /etc/prometheus/consoles
 $ sudo chown -R prometheus:prometheus /etc/prometheus/console_libraries
 ```
 
-We now have everything we need from the downloaded package so we will go one step back and do some cleanup.
+Sie haben nun alles, was Sie aus dem heruntergeladenen Paket benötigen, also navigieren Sie einen Schritt zurück und räumen etwas auf.
 
 ```shell script
 $ cd .. && rm -rf prometheus*
 ```
 
-Let's create a `YAML` configuration file for Prometheus with the editor of your choice (nano / vim / pico).
+Nun erstellen Sie eine `YAML`-Komnfigurationsdatei für Prometheus mit einem Editor Ihrer Wahl (nano / vim / pico).
 
 ```shell script
 $ sudo nano /etc/prometheus/prometheus.yml
 ```
 
-Our config is divided in three sections:
+Die Konfigurationsdatei ist in drei Bereiche gegliedert:
 
-* `global`: sets the default values for `scrape_interval` and the rule-execution interval with `evaluation_interval`
-* `rule_files`: specify rule-files the Prometheus server should load
-* `scrape_configs`: this is where you set the monitoring-resources
+* `global`: setzt die Standardwerte für das Abtastungsintervall `scrape_interval` und das Ausführungsintervall der Regeln `evaluation_interval`
+* `rule_files`: legt die Regel-Dateien fest, die Prometheus laden soll
+* `scrape_configs`: hier wird festgelegt welche Resourcen überwacht werden sollen
 
-We will keep it very basic and end up with something like this:
+Wir werden uns auf die Grundsätze beschränken und folgende Konfiguration erstellen:
 
 ```yaml
 global:
@@ -121,26 +121,26 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-The first scrape job exports data of Prometheus itself, the second one exports the HydraDX node metrics.
-We adjusted the `scrape_interval` of both jobs to get more detailed statistics. This overrides the global values.
-The `target` in `static_configs` sets where the exporters run, we stick to the default ports here.
+Der erste Job exportiert Daten von Prommetheus selbst, der zweite exportiert die Metriken der HydraDX Node.
+Wir ändern das `scrape_interval` beider Jobs um ein detaillierteres Dashboard zu erstellen. Dies überschreibt die globalen Variablen.
+Das `target` in `static_configs` legt fest, wo die Exporter laufen, wir belassen dies bei den Standardwerten.
 
-After saving the configuration we will - once again - change the ownership.
+Nachdem die Konfiguration gespeichert wurde, wird erneut der Besitzer geändert.
 
 ```shell script
 $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 ```
 
-### Starting Prometheus {#starting-prometheus}
+### Prometheus starten {#starting-prometheus}
 
-To have Prometheus starting automatically and running in the background we'll use `systemd`.
-Create a new config (again with the editor of your choice):
+Damit Prometheus automatisch startet und im Hintergrund läuft werden wir `systemd` verwenden.
+Erstellen Sie eine neue Konfiguration (wieder mit einem Editor Ihrer Wahl):
 
 ````shell script
 $ sudo nano /etc/systemd/system/prometheus.service
 ````
 
-Paste the following configuration and save the file.
+Fügen Sie folgende Konfiguration ein und speichern sie ab.
 
 ```
 [Unit]
@@ -163,40 +163,40 @@ Paste the following configuration and save the file.
   WantedBy=multi-user.target
 ```
 
-Next we will perform the following three steps:
-`systemctl deamon-reload` loads new configurations and updates existing 
-`systemctl enable` activates our new service
-`systemctl start` triggers the execution of the service
+Danach führen Sie die drei folgenden Schritte aus:
+`systemctl deamon-reload` lädt neue Konfigurationen und aktualisiert die bestehende 
+`systemctl enable` aktiviert Ihren neuen Service
+`systemctl start` startet den Service
 
-You can perform the steps above in one command by executing:
+Hiermit können Sie alle drei Befehle in einer Zeile ausführen:
 
 ```shell script
 $ sudo systemctl daemon-reload && systemctl enable prometheus && systemctl start prometheus
 ```
 
-You should now be able to access Prometheus' web interface at http://localhost:9090/.
+Sie sollten nun in der Lage sein die Benutzeroberfläche von Prometheus unter http://localhost:9090/ aufzurufen.
 
 ## Node Exporter {#node-exporter}
 
-We will install Node Exporter to scrape server metrics that will be used in the dashboard.  
-Please check the version number of the latest release [here](https://github.com/prometheus/node_exporter/releases/) and update the command.  
-At the time of writing the latest version was `1.1.2`.
+Wir werden Node Exporter installieren um Hardware-Werte für das Dashboard abzugreifen.
+Bitte schauen Sie [hier](https://github.com/prometheus/node_exporter/releases/) nach, welches die aktuellste Version ist und ersetzen die Versionsnummer im folgenden Befehl.  
+Zum Veröffentlichungszeitpunkt war die aktuellste Version `1.1.2`.
 
-### Install Node Exporter {#install-node-exporter}
+### Node Exporter installieren {#install-node-exporter}
 
-Download the latest release.
+Laden Sie die neuste Version herunter.
 
 ```shell script
 $ wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
 ```
 
-Unpack the archive you just downloaded. This will create a folder called `node_exporter-1.1.2.linux-amd64`.
+Entpacken Sie das eben heruntergeladene Paket. Dadurch wird ein Verzeichnis mit dem Namen `node_exporter-1.1.2.linux-amd64` erstellt.
 
 ```shell script
 $ tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
 ```
 
-Next we copy the binary into our local application directory and assign it to our monitoring user.
+Als Nächstes kopieren Sie die Binary in das lokale Applikationsverzeichnis und weisen es dem entsprechenden Benutzer zu.
 
 ```shell script
 # copy binary
@@ -206,22 +206,22 @@ $ cp node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin
 $ sudo chown prometheus:prometheus /usr/local/bin/node_exporter
 ```
 
-We can now do some cleanup and remove the downloaded and unpacked package.
+Sie können etwas aufräumen und das heruntergeladene Paket und die entpackten Dateien entfernen.
 
 ```shell script
 $ rm -rf node_exporter*
 ```
 
-### Create a Systemd Service {#create-a-systemd-service}
+### Einen Systemd Service erstellen {#create-a-systemd-service}
 
-Similar to prometheus we want Node Exporter to run as a service too.  
-Create a systemd service with your editor of choice.
+Genau wie bei Prometheus starten Sie Node Exporter als Service im Hintergrund.
+Erstellen Sie einen systemd Service mit einem Editor Ihrer Wahl.
 
 ```shell script
 $ sudo nano /etc/systemd/system/node_exporter.service
 ```
 
-And paste the following configuration into it.
+Und fügen Sie folgende Konfiguration ein.
 
 ```
 [Unit]
@@ -239,23 +239,23 @@ ExecStart=/usr/local/bin/node_exporter
 WantedBy=multi-user.target
 ```
 
-We will now activate and start the service with this one-liner.
+Aktivieren und starten Sie den Service mit folgendem Einzeiler.
 
 ```shell script
 $ sudo systemctl daemon-reload && systemctl enable node_exporter && systemctl start node_exporter
 ```
 
-### Add Scrape Job for Node Exporter {#add-scrape-job-for-node-exporter}
+### Scrape Job für Node Exporter hinzufügen {#add-scrape-job-for-node-exporter}
 
-The Node Exporter is now up and running but we need to tell Prometheus to scrape its data.  
-We will open the configuration file once again with the editor of choice.
+Der Node Exporter ist nun einsatzbereit, Sie müssen Prometheus jedoch noch anleiten die Daten zu erheben.
+Öffnen Sie die Konfiguration mit einem beliebigen Editor.
 
 ```shell script
 $ sudo nano /etc/prometheus/prometheus.yml
 ```
 
-And at the very bottom of the file we will append one more scrape config.  
-Paste the following content and save the file.
+Fügen Sie ganz unten am Ende der Datei eine weitere Scrape-Konfiguration ein.
+Kopieren Sie folgenden Codeblock hinein und speichern die Datei.
 
 ```yaml
   - job_name: 'node_exporter'
@@ -264,25 +264,25 @@ Paste the following content and save the file.
       - targets: ['localhost:9100']
 ```
 
-The apply the changes configuration a restart of the Prometheus service is required.
+Um die neue Konfiguration anzuwenden muss der Prometheus Service neugestartet werden.
 
 ```shell script
 $ sudo systemctl restart prometheus.service 
 ```
 
-Your server metrics are now scraped and can be found in the Prometheus web interface.  
-We will need them later for our dashboard.
+Ihre Server-Metriken werden nun ausgelesen und können in der Prometheus Benutzeroberfläche eingesehen werden.
+Sie werden sie später für das Dashboard benötigen.
 
 ## Grafana Setup {#grafana-setup}
 
-We can see our metrics in the web interface, but that's not how we want to monitor it.   
-We want it nice and beautiful. That's where Grafana comes into play. 
+Sie können die Daten in der Benutzeroberfläche sehen, das war jedoch nicht das Ziel dieser Anleitung.
+Wir möchten die Daten hübsch angezeigt bekommen und da kommt Grafana ins Spiel.
 
-### Install Grafana {#install-grafana}
+### Grafana installieren {#install-grafana}
 
-Please check what's the latest Grafana Version [with this link](https://grafana.com/grafana/download?platform=linux).  
-You can either change the version number in the following commands or copy the install commands directly from the link.  
-At the time of writing the latest version was `7.5.1`.
+Bitte überprüfen Sie mit [diesem Link](https://grafana.com/grafana/download?platform=linux), welches die neuste Version von Grafana ist.
+Sie können entweder die Versionsnummer in folgendem Befehl anpassen oder die Befehle aus der verlinkten Seite kopieren und direkt benutzen.
+Zum Veröffentlichungszeitpunkt war die aktuellste Version `7.5.1`.
 
 ```shell script
 $ sudo apt-get install -y adduser libfontconfig1
@@ -290,58 +290,58 @@ $ wget https://dl.grafana.com/oss/release/grafana_7.5.1_amd64.deb
 $ sudo dpkg -i grafana_7.5.1_amd64.deb
 ```
 
-The package comes with a builtin `systemd`-service which we will configure and start just like the Prometheus service.
+Das Paket enthält einen fertigen `systemd`-Service, welchen Sie direkt verwenden können.
 
 ```shell script
 $ sudo systemctl daemon-reload && sudo systemctl enable grafana-server && sudo systemctl start grafana-server
 ```
 
-### Accessing the Web Interface {#accessing-the-web-interface}
+### Die Benutzeroberfläche aufrufen {#accessing-the-web-interface}
 
-We'll be able to open the Grafana web interface at http://localhost:3000/.  
-The default login Grafana is:  
-User: `admin`  
-Password: `admin`  
+Sie können die Benutzeroberfläche von Grafana nun unter http://localhost:3000/ aufrufen.
+Die standardmäßigen Login-Daten für Grafana sind:  
+Benutzer: `admin`  
+Passwort: `admin`  
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-home.png')} />
 </div>
 
-### Configuring the Datasource {#configuring-the-datasource}
+### Die Datenquelle konfigurieren {#configuring-the-datasource}
 
-Please click the settings gear in the menu and select datasources.  
-In the next window you click "Add Datasource" and select "Prometheus".  
+Bitte klicken Sie das Einstellungs-Zahnrad im Menü und wählen `Datasources`.
+Im nächsten Fenster klicken Sie `Add Datasource` und wählen Sie `Prometheus`.
 
-In the following form you don't need to change anything but the URL.  
-Set `http://localhost:9090/` and click `Save and Test`.  
+Im nachfolgenden Formular müssen Sie nichts ändern außer die URL.
+Stellen Sie `http://localhost:9090/` ein und klicken `Save and Test`.  
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-datasource.png')} />
 </div>
 
-### Importing the Dashboard {#importing-the-dashboard}
+### Das Dashboard importieren {#importing-the-dashboard}
 
-Please click the `Plus`-button in the main navigation and select `import`.  
+Bitte klicken Sie den `Plus`-Button im Hauptmenü und wählen `import`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-We will use the [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) and to load it you simply input the id `14158` and hit the `Load`-button.  
+Sie können das [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) nutzen und um es zu laden geben Sie einfach die ID `14158` ein und klicken auf `Load`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
 </div>  
 
-You don't need much configuration here, just make sure Prometheus is used as the datasource.  
-You can now finish the import.  
+Hier müssen Sie nicht viel einstellen, vergewissern Sie sich lediglich, dass `Prometheus` als `Datasource` eingestellt ist.
+Sie können den Importvorgang nun abschließen.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-dashboard.png')} />
 </div>  
 
-You should now see your dashboard right away.  
-If some panels are empty please ensure your selection above the panels is like this:    
+Sie sollten das Dashboard sofort mit ihren Daten sehen.
+Falls einzelne Panele leer sind, vergewissern Sie sich bitte, dass die Auswahlfelder ganz oben folgende Werte enthalten:
 * `Chain Metrics`: Substrate  
 * `Chain Instance`: localhost:9615  
 * `Server Job`: node_exporter  
