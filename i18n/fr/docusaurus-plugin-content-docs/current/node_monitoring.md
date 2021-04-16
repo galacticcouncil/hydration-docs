@@ -88,7 +88,7 @@ Maintenant que nous avons tous les paquets nécessaires, nous pouvons remonter d
 $ cd .. && rm -rf prometheus*
 ```
 
-Créons le fichier de configuration `YAML` pour Prometheus avec l'éditeur de votre choix (nano / vim / pico).
+Création du fichier de configuration, _prometheus.yml_, avec l'éditeur de votre choix (nano / vim / pico).
 
 ```shell script
 $ sudo nano /etc/prometheus/prometheus.yml
@@ -123,7 +123,7 @@ scrape_configs:
 
 La première tâche d'organisation de données (scrape) exporte les données de Prometheus, la seconde exporte les mesures du node HydraDX.
 Nous avons réglé le `scrape_interval` de chaque tâche pour avoir des statistiques plus détaillées. Cela remplace les valeurs globales.
-le `target` dans `static_configs` définit où les exportateurs fonctionnent, nous nous en tenons aux ports par défaut ici.
+Le `target` dans `static_configs` définit où les exportateurs fonctionnent, nous nous en tenons aux ports par défaut ici.
 
 Après avoir sauvegardé la configuration nous allons - encore une fois - changer le propriétaire.
 
@@ -133,7 +133,7 @@ $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 
 ### Démarrer Prometheus {#starting-prometheus}
 
-Pour faire démarrer Prometheus automatiquement et fonctionner en arrière-plan nous allons utiliser `systemd`.
+Pour faire démarrer Prometheus automatiquement et fonctionner en arrière-plan nous allons créer un service Prometheus avec `systemd`.
 Créez un nouveau config (encore avec l'éditeur de votre choix):
 
 ````shell script
@@ -164,11 +164,11 @@ Coller les configurations suivantes et sauvegardez le fichier.
 ```
 
 Ensuite nous allons effectuer les trois étapes suivantes:
-`systemctl deamon-reload` charge les nouvelles configurations et met à jour celles existantes.
+`systemctl daemon-reload` charge les nouvelles configurations et met à jour celles existantes.
 `systemctl enable` active notre nouveau service
 `systemctl start` déclenche l'exécution du service.
 
-vous pouvez effectuer les étapes au dessus en une commande en exécutant:
+Vous pouvez effectuer les étapes au dessus en une commande en exécutant:
 
 ```shell script
 $ sudo systemctl daemon-reload && systemctl enable prometheus && systemctl start prometheus
@@ -178,7 +178,7 @@ Vous devriez maintenant être capable d'accéder à l'interface web de Prometheu
 
 ## Node Exporter {#node-exporter}
 
-Nous allons installer Node Exporter pour organiser les mesures du serveur qui vont être utilisées dans le tableau de bord.
+Nous allons installer Node Exporter pour organiser les métriques du serveur qui vont être remontées dans le tableau de bord.
 Veuillez vérifier le numéro de la dernière version [ici](https://github.com/prometheus/node_exporter/releases/) et mettez la commande à jour.
 Au moment de l'écriture de l'article la dernière version est `1.1.2`.
 
@@ -196,7 +196,7 @@ Extraire l'archive que vous venez de télécharger. Cela créera un dossier appe
 $ tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
 ```
 
-Ensuite nous copions le binary dans notre répertoire local d'application and l'assignons à notre utilisateur superviseur.
+Ensuite nous copions le binaire dans notre répertoire local d'application and l'assignons à notre utilisateur superviseur.
 
 ```shell script
 # copy binary
@@ -248,13 +248,13 @@ $ sudo systemctl daemon-reload && systemctl enable node_exporter && systemctl st
 ### Ajouter Scrape Job pour Node Exporter {#add-scrape-job-for-node-exporter}
 
 Le Node Exporter est maintenant actif et opérationnel mais nous devons dire à Prometheus d'organiser (scrape) ses données.
-Nous allons ouvre le fichier de configuration encore une fois avec l'éditeur de votre choix.
+Nous allons ouvre le fichier de configuration, _prometheus.yml_, encore une fois avec l'éditeur de votre choix.
 
 ```shell script
 $ sudo nano /etc/prometheus/prometheus.yml
 ```
 
-Et à la toute fin du fichier nous allons apposer un scrape config de plus.
+Et à la toute fin du fichier nous allons ajouter un scrape config de plus.
 Coller le contenu suivant et sauvegarder le ficher.
 
 ```yaml
@@ -270,12 +270,12 @@ L'application des changements de configuration au redémarrage du service Promet
 $ sudo systemctl restart prometheus.service 
 ```
 
-Les mesures de votre serveur sont maintenant organisées (scraped) et peuvent être trouvées dans l'interface web Prometheus.
+Les métriques de votre serveur sont maintenant organisées (scraped) et peuvent être trouvées dans l'interface web Prometheus.
 Nous allons en avoir besoin plus tard pour notre tableau de bord.
 
 ## Configuration de Grafana {#grafana-setup}
 
-Nous pouvons voir nos mesures dans l'interface web, mais ce n'est pas la façon dont on veut les superviser.
+Nous pouvons voir nos métriques dans l'interface web, mais ce n'est pas la façon dont on veut les superviser.
 On les veut belles et propres. C'est là que Grafana entre en jeu.
 
 ### Installer Grafana {#install-grafana}
@@ -299,7 +299,7 @@ $ sudo systemctl daemon-reload && sudo systemctl enable grafana-server && sudo s
 ### Accéder à l'interface web {#accessing-the-web-interface}
  
 Nous allons être capable d'ouvrir l'interface web Grafana à http://localhost:3000/.
-l'ouverture de session de Grafana par défaut est:
+Les identifiants de session de Grafana par défaut sont:
 User: `admin`  
 Password: `admin`  
 
