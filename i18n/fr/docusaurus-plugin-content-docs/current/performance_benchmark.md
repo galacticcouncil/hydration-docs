@@ -5,7 +5,7 @@ title: Benchmark de performance
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Vous pouvez vous assurer que votre machine satisfait les [spécifications techniques requises](/node_setup#00-required-technical-specifications) en exécutant un benchmark de performance. Pour ce faire, suivez les étapes ci-dessous:
+Vous pouvez vous assurer que votre machine correspond aux [spécifications techniques requises](/node_setup#00-required-technical-specifications) en exécutant un benchmark de performance. Pour ce faire, suivez les étapes ci-dessous:
 
 ```bash
 # Fetch source of the latest stable release
@@ -37,11 +37,11 @@ exchange                 |     804.00 vs 720.00      |      84.00    |      10.4
 transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.17     |     OK     |
 
 Notes:
-- dans les champs "diff" vous pouve voir la différence entre le temps benchmark de référence et le temps benchmark de votre machine
-- Si diff est positif pour les trois données, votre machine couvre les exigences minimum pour faire fonctionner un node HydraDX
+- dans les champs "diff" vous pouvez voir la différence entre le temps benchmark de référence et le temps benchmark de votre machine
+- Si diff est positif pour les trois données, votre machine répond aux exigences minimums pour faire fonctionner un node HydraDX
 - Si diff dévie de -10% ou plus pour certaines données, votre machine pourrait ne pas convenir pour faire fonctionner un node
 ```
 
-Vous pouvez voir la différence de performance entre votre machine et la configuration minimale requise dans la colonne **diff* (%)**. Si les trois valeurs dans cette colonne sont positives, votre machine devrait convenir pour faire fonctionner un node validateur HydraDX. Si une des valeurs est en dessous de *-10 %*, nous ne recommandons pas de faire fonctionner un node HydraDX.
+Vous pouvez voir la différence de performance entre votre machine et la configuration minimale requise dans la colonne **diff* (%)**. Si les trois valeurs dans cette colonne sont positives, votre machine devrait convenir pour faire fonctionner un node validateur HydraDX. Si une des valeurs est en dessous de *-10 %*, il est déconseillé de faire fonctionner un node HydraDX.
 
 Rejoignez nous sur Discord si vous voulez discuter des résultats du benchmark, notre communauté vous aidera volontiers.
