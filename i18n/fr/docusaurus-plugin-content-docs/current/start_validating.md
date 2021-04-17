@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Après avoir [mis en place votre node HydraDX](/node_setup), vous devez engager (bonding) vos tokens HDX et définir les clés de validateur avant de pouvoir commencer à valider.
 
-:::attention
+:::warning
 
 Faire fonctionner un node de validateur requiert certaines compétences techniques for l'installation correcte du node, et garantir sa durée de fonctionnement. Nous exigeons aussi que les validateurs fassent fonctionner leur node en utilisant la version stable la plus récente. Si vous n'êtes pas sûr de ce que vous faites ici, nous vous recommandons de [déléguer vos HDX](/start_nominating) à un validateur expérimenté. Ainsi, vous vous protégez vous-même et vos nominateurs contre une perte de fonds involontaire.
 
@@ -25,7 +25,7 @@ Afin de prendre part au réseau en tant que node validateur, vous devez engager 
 
 Pour lier des HDX, ouvrez Polkadot/apps, et connectez vous à un des[Nodes HydraDX RPC publique](/polkadotjs_apps_public). Assurez vous que vous pouvez voir votre [solde](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts).
 
-:::attention
+:::warning
 
 Les tokens HDX engagés sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur peuvent être punis par un "slashing" qui peut résulter par une perte involontaire de fonds. Nous recommandons seulement les personnes éxperimentées à devenir validateur.
 
@@ -42,12 +42,12 @@ ou pour l'interface en français:
 </div>
 
 Après avoir cliqué sur le bouton Réserve, vous devriez voir les préférences d'engagement (bonding)  avec quatre champs de saisie modifiables:
-* **Compte de la réserve**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
-* **Compte contrôleur**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de validation.
+* **stash account**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
+* **controller account**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de validation.
 * **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - gardez en quelques un pour couvrir les frais de transactions qui surviendront plus tard.
 * **payment destination**: Le compte sur lequel les récompenses de validation seront envoyées.
 
-:::attention
+:::warning
 
 N'engagez pas tous vos tokens HDX disponibles. Gardez une petite réserve pour couvrir les frais de transaction. Si vous engagez tous vos tokens HDX, vous pourriez ne pas être capable de signer la transaction pour la mise en route du processus de validation.
 
@@ -55,7 +55,7 @@ N'engagez pas tous vos tokens HDX disponibles. Gardez une petite réserve pour c
 
 Après avoir ajusté vos préférences d'engagement, cliquez sur Allouer et signez la transaction pour compléter la procédure d'engagement.
 
-:::attention
+:::warning
 
 Il est recommandé d'utiliser deux comptes différents, un pour le compte contrôleur et un autre pour le compte de la réserve. Toutefois, puisque les transferts sont désactivés sur Snakenet, Il n'est pour l'instant pas possible d'utiliser des comptes séparés. Nous recommandons fortement l'utilisation de comptes de réserve et contrôleur différents dès que cette fonctionnalité sera disponible.
 
@@ -92,8 +92,8 @@ ou pour l'interface en français:
 
 Remplissez les champs de saisie:
 
-* _utiliser le compte sélectionné_: sélectionnez votre compte de contrôleur;
-* _soumettre l'extrinsèque suivant_: choisissez `session` dans la barre de gauche et `setKeys` à droite;
+* _using selected account_: sélectionnez votre compte de contrôleur;
+* _submit the following extrinsic_: choisissez `session` dans la barre de gauche et `setKeys` à droite;
 * _keys_: entrez votre clé de session de l'étape précédente;
 * _proof_: `0`.
 
