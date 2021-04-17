@@ -5,13 +5,14 @@ title: Devenez nominateur
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-En devenant un nominateur, vous stakez (déléguez) certains de vos tokens HDX pour aider à sécuriser le réseau HydraDX et pour gagner des récompenses. Au contraire de faire fonctionner un node de validateur, le procéder de nominer ne requiert pas de compétences techniques avancées, en faisant le choix recommandé pour quiconque n'est pas totalement assez confiant pour devenir validateur.
+En devenant un nominateur, vous stakez (déléguez) certains de vos tokens HDX pour aider à sécuriser le réseau HydraDX et pour gagner des récompenses.  À l'inverse de faire fonctionner un node de validateur, le procédé de nominer ne requiert pas de compétences techniques avancées, faisant ainsi de la nomination le choix recommandé pour quiconque ne souhaite pas devenir validateur.
 
-Au moment de nominer, les nominateurs fournissent leur stake (délégation) à un validateur de leur choix. En faisant ainsi, les nominateurs élisent l'ensemble actif de validateurs et reçoivent des récompenses pour leur participation. La somme de récompenses que vous recevez en tant que nominateur dépend du pourcentage de la commission de récompense du validateur choisi - Plus la commission de récompense est grande, plus les récompenses que vous recevrez pour votre délégation seront petites. 
+
+Au moment de nominer, les nominateurs fournissent leur stake (délégation) à un validateur de leur choix. Ainsi, les nominateurs élisent l'ensemble actif de validateurs et reçoivent des récompenses pour leur participation. La somme de récompenses que vous recevez en tant que nominateur dépend du pourcentage de la commission de récompense du validateur choisi - Plus la commission de récompense est grande, plus les récompenses que vous recevrez pour votre délégation seront réduites. 
 
 :::attention
 
-nominer est une forme de participation au processus de staking (délégation) plus accessible, cependant cela comporte un certain niveau de risque. Si le validateur que vous avez nominé se comporte de manière non conforme (par exemple : ne parvient pas à maintenir le temps de fonctionnement requis), un "slashing" peut survenir qui peut causer à une perte involontaire partielle des fonds que vous avez délégué. Nous recommandons fortement que vous fassiez votre devoir de recherche avant de nominez un validateur.
+nominer est une forme de participation au processus de staking (délégation) plus accessible, cependant cela comporte un certain niveau de risque. Si le validateur que vous avez nominé se comporte de manière non conforme (par exemple : ne parvient pas à maintenir le temps de fonctionnement requis), un "slashing" peut survenir qui peut causer à une perte involontaire partielle des fonds que vous avez délégué. Nous recommandons fortement que vous fassiez vos recherches avant de nominez un validateur.
  
 :::
 
@@ -34,18 +35,18 @@ ou pour l'interface en français:
 L'interface de Staking a les onglets de menu suivants:
 
 
-* **Staking overview**: ici, vous trouverez une liste de tous les validateurs actifs et quelques informations basiques sur chaque validateur, comme le montant de HDX délégués sur le node, le montant de délégation du validateur lui-même, et combien la commission de récompense est facturée. De plus, vous pouvez voir le nombre de points d'ère gagnés par chaque validateur in l'ère courante et le nombre du dernier bloc produit par le validateur.
+* **Staking overview**: ici, vous trouverez une liste de tous les validateurs actifs et quelques informations basiques sur chaque validateur, comme le montant de HDX délégués sur le node, le montant de délégation du validateur lui-même, et le pourcentage de la comission de récompense. De plus, vous pouvez voir le nombre de points d'ère gagnés par chaque validateur pendant l'ère actuelle et le nombre du dernier bloc produit par le validateur.
 * **Actions sur le compte**: Ici vous pouvez déléguer et nominer.
 * **Paiements**: Ici, vous pouvez réclamer vos récompenses de délégation.
-* **Cibles**: Ici, vous pouvez estimer vos gains. C'est un bon endroit pour commencer  quand vous choisissez un node validateur à nominer.
-* **En attente**: Ici, vous pouvez trouver  la liste d'attente où les validateurs inactifs sont situés avant d'être inclus dans l'ensemble de validateurs actifs. Un validateur va rester dans la file d'attente jusqu'à ce qu'il reçoive un montant de HDX délégué suffisant pour entrer  dans l'ensemble des validateurs actifs.
-* **Statistiques du validateur**: Ici, vous pouvez interroger l'adresse de cache d'un validateur pour voir un historique détaillé sur les points d'ère gagnés, stake élu, récompenses, et "slashes" (punitions). Nous recommandons fortement que vous étudiiez cette information avant de faire confiance à un nominateur avec votre nomination.
+* **Cibles**: Ici, vous pouvez estimer vos gains. C'est un bon endroit pour commencer  lorsque vous cherchez un node validateur à nominer.
+* **En attente**: Ici, vous pouvez trouver  la liste d'attente des validateurs inactifs, avant d'être inclus dans l'ensemble de validateurs actifs. Un validateur va rester dans la file d'attente jusqu'à ce qu'il reçoive un montant de HDX délégué suffisant pour entrer  dans l'ensemble des validateurs actifs.
+* **Statistiques du validateur**: Ici, vous pouvez retrouver différentes informations, via l'adresse, d'un validateur un historique détaillé sur les points d'ère gagnés, stake élu, récompenses, et "slashes" (punitions). Nous recommandons fortement que vous étudiiez cette information avant de faire confiance à un nominateur avec votre nomination.
 
 ## 01 Engager vos tokens HDX {#01-bond-hdx-tokens}
 
 :::attention
 
-Les tokens HDX engagé sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur que vous avez nominé peuvent être punis de "slashing" qui peut mener à une perte involontaire de vos fonds. Nous recommandons fortement que vous fassiez votre devoir de recherche quand vous choisissez des validateurs à nominer.
+Les tokens HDX engagés sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur que vous avez nominé peuvent être punis de "slashing" qui peut mener à une perte involontaire de vos fonds. Nous recommandons fortement que vous fassiez vos recherches quand vous choisissez des validateurs à nominer.
 
 :::
 
@@ -59,11 +60,11 @@ ou pour l'interface en français:
   <img src={useBaseUrl('/nominator-guide/bond-hdx-1.png')} />
 </div>
 
-Après avoir cliqué sur le bouton *Réserve*, Vous devriez voir les préférences d'engagements avec quatre champs de saisie modifiables:
+Après avoir cliqué sur le bouton *Réserve*, vous devriez voir les préférences d'engagements avec quatre champs de saisie modifiables:
 * **Compte de la réserve**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
 * **Compte contrôleur**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de nomination.
-* **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - à la place, laisser en quelques un pour couvrir les frais de transactions qui surviendront plus tard.
-* **payment destination**: Le compte sur lequel les récompenses de staling (délégation) seront envoyées.
+* **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - à la place, gardez-en un petit montant pour couvrir les frais de transactions qui surviendront plus tard.
+* **payment destination**: Le compte sur lequel les récompenses de staking (délégation) seront envoyées.
 
 :::attention
 
@@ -75,7 +76,7 @@ Après avoir ajusté vos préférences d'engagement, cliquez sur **Allouer** et 
 
 :::mise en garde
 
-Pour des raisons de sécurité, il n'est pas recommandé d'avoir le même compte de Réserve et de contrôleur. Cependant, puisque les transferts sont désactivés sur Snakenet, Il n'est actuellement pas possible d'utiliser des comptes séparés. Nous recommandons fortement que vous passiez à des comptes de Réserve et de Contrôleur séparé dès que cela devient possible, à l'avenir.
+Pour des raisons de sécurité, il n'est pas recommandé d'avoir le même compte de Réserve et de contrôleur. Cependant, puisque les transferts sont désactivés sur Snakenet, Il n'est actuellement pas possible d'utiliser des comptes séparés. Nous recommandons fortement que vous passiez à des comptes de Réserve et de Contrôleur séparé dès que cela devient possible.
 
 :::
 
@@ -85,7 +86,7 @@ Pour des raisons de sécurité, il n'est pas recommandé d'avoir le même compte
 
 ## 02 Nominer un validateur {#02-nominate-a-validator}
 
-Après avoir alloué vos HDX, vous pouvez nominez un validateur. Avant de procéder, Faites votre devoir de recherche pour décider quel validateur vous aimeriez nominé selon leur performance (passée). Pour se faire, référez vous aux information dans l'interface de staking [mentionnée ci-dessus](#00-staking-ui).
+Après avoir alloué vos HDX, vous pouvez nominez un validateur. Avant de procéder, Faites vos recherches pour décider quel validateur vous aimeriez nominé selon leur performance (historique). Pour ce faire, référez vous aux informations dans l'interface de staking [mentionnée ci-dessus](#00-staking-ui).
 
 :::note
 
@@ -112,7 +113,7 @@ Pour nominer les validateurs choisis, cliquez sur _Désigner_ et signez la trans
 
 ## 03 Vérifier le statut de vos nominations {#03-check-the-status-of-your-nominations}
 
-Après  avoir complété le processus de nomination, vos nominations vont être inactive pour le restant de l'ère en cours. Dès que l'ère suivante commence, vous nominations vont devenir actives, à condition qu'au moins un des nodes validateurs que vous avez nominé est inclus dans l'ensemble actif des validateurs et n'est pas surchargé, vous en excluant. Si tous vos validateurs restent en liste d'attente, vos nominations respectives vont aussi rester inactives et vous ne gagnerez pas de récompense pendant cette ère.
+Après  avoir complété le processus de nomination, vos nominations vont être inactives pour le restant de l'ère en cours. Au début de l'ère suivante, vos nominations vont devenir actives, à condition qu'au moins un des nodes validateurs que vous avez nominé soit inclus dans l'ensemble actif des validateurs et n'est pas surchargé, vous en excluant. Si tous vos validateurs restent en liste d'attente, vos nominations respectives vont aussi rester inactives et vous ne gagnerez pas de récompense pendant cette ère.
 
 Pour vérifier le statut de vos nominations, naviguez à: *Network* > *Staking* > *Account actions*
 
@@ -134,17 +135,17 @@ Quand une nomination devient active, vous devriez la trouver dans la liste de "N
 
 :::note
 
-Assurez vous que vous revisitiez vos nominations de temps en temps. Il est possible que certains de vos validateurs changent leur pourcentage de commission ce qui impactera négativement vos récompenses. En vérifiant le statut de vos nominations fréquemment, vous serez capable de réagir en mettant à jour la liste de vos validateurs désignés.
+Assurez-vous de revisiter vos nominations de temps en temps. Il est possible que certains de vos validateurs changent leur pourcentage de commission ce qui impactera négativement vos récompenses. En vérifiant le statut de vos nominations fréquemment, vous serez capable de réagir en mettant à jour la liste de vos validateurs désignés.
 
 :::
 
 ## 04 Adapter vos nominations
 
-Si certains de vos validateurs deviennent surchargés ou changent leur commission, vous pourriez vouloir adapter vos nominations.
+Si certains de vos validateurs deviennent surchargés ou changent leur commission, vous pourriez avoir envie de changer vos nominations.
 
-Pour se faire, ouvrez Polkadit/apps et naviguez dans: *Network* > *Staking* > *Account actions*
+Pour ce faire, ouvrez Polkadit/apps et naviguez dans: *Network* > *Staking* > *Account actions*
 
-ou pour l'interface en français:
+ou pour l'interface en français :
 
 *Réseau* > *Staking* > *Actions sur le compte*
 
@@ -154,8 +155,8 @@ Cliquez sur les trois points à côté des détails de votre compte et sélectio
   <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
 </div>
 
-Dans la fenêtre suivant, qui pourrait déjà vous sembler familière, vous pouvez enlever des validateurs, et/ou en ajouter de nouveaux.
-Adapter vos nominations peut être fait à la volée, Il n'y a pas besoin d'arrêter de nominer. Les changement seront appliqués quand la nouvelle ère commence (24h).
+Dans la fenêtre suivante, vous pouvez enlever des validateurs, et/ou en ajouter des nouveaux.
+Adapter vos nominations peut être fait à la volée, Il n'y a pas besoin d'arrêter de nominer. Les changements seront appliqués quand la nouvelle ère commence (24h).
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
