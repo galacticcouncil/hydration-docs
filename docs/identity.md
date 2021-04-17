@@ -11,10 +11,9 @@ Account holders have the possibility to set their identity by prodiving specific
 If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
 :::
 
-## 01 Set identity {#set-identity}
+## 01 Set identity {#01-set-identity}
 
-To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*.  
-Alternatively, you can use this link:
+To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
@@ -30,15 +29,15 @@ You will see a popup called *register identity*. Here, you can enter the followi
 * twitter
 * riot name (in case you are using Element messaging)
 
-In the last field of the popup you will see the amount of HDX you need to deposit to register your identity. You will receive this deposit back once you decide to clear your identity at a later point.
+In the last field of the popup you can see the amount of HDX you need to deposit to register your identity. You will receive this deposit back once you decide to clear your identity at a later point.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
 After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
 
-## 02 Submit your identity for verification {#verify-identity}
+## 02 Submit your identity for verification {#02-verify-identity}
 
-After you have set your identity, you can submit it to the network registrars for verification. To do so, navigate to *Extrinsics* in the *Developer* menu or click on this link:
+After you have set your identity, you can submit it to the network registrars for verification. To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
