@@ -9,17 +9,17 @@ Après avoir [mis en place votre node HydraDX](/node_setup), vous devez engager 
 
 :::attention
 
-Faire fonctionner un node de validateur requiert certaines compétences techniques for l'installation correcte du node, et garantir sa durée de fonctionnement. Nous exigeons aussi que les validateurs fassent fonctionner leur node en utilisant la version stable la plus récente. Si vous n'êtes pas sûr de ce que vous faites ici, nous vous recommandons de [proposer vos HDX](/start_nominating) à un validateur expérimenté, à la place. En faisant ainsi, vous vous protégez vous-même et vos nominateurs contre une perte de fonds involontaire.
+Faire fonctionner un node de validateur requiert certaines compétences techniques for l'installation correcte du node, et garantir sa durée de fonctionnement. Nous exigeons aussi que les validateurs fassent fonctionner leur node en utilisant la version stable la plus récente. Si vous n'êtes pas sûr de ce que vous faites ici, nous vous recommandons de [déléguer vos HDX](/start_nominating) à un validateur expérimenté. Ainsi, vous vous protégez vous-même et vos nominateurs contre une perte de fonds involontaire.
 
 :::
 
 ## 01 Engagez vos tokens HDX {#01-bond-hdx-tokens}
 
-Afin de prendre part au réseau en tant que node validateur, vous devez engager une certaine somme de tokens HDX. So vous n'avez aucun HDX, il n'est pas possible de participer à l'étape initiale du testnet. Cependant, de trépidantes nouvelles vont être annoncées par l'équipe dans les semaines à venir, donc restez à l'affût et souscrivez à notre newsletter.
+Afin de prendre part au réseau en tant que node validateur, vous devez engager une certaine somme de tokens HDX. Si vous n'avez aucun HDX, il n'est pas possible de participer à l'étape initiale du testnet. D'éxcitantes nouvelles vont être annoncées par l'équipe dans les prochaines semaines, donc restez à l'affût et souscrivez à notre newsletter.
 
 :::note
 
-Êtes vous toujours en possession de vos tokens xHDX que vous avez acheté pendant l'évènement de vente "Balancer LBP"? Vous devez d'abord [récupérer vos HDX](/claim) avant de continuer.
+Êtes-vous toujours en possession de vos tokens xHDX que vous avez acheté pendant l'évènement de vente "Balancer LBP"? Vous devez d'abord [récupérer vos HDX](/claim) avant de continuer.
 
 :::
 
@@ -27,7 +27,7 @@ Pour lier des HDX, ouvrez Polkadot/apps, et connectez vous à un des[Nodes Hydra
 
 :::attention
 
-Les tokens HDX engagés sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur peuvent être punis par un "slashing" qui peut résulter par une perte involontaire de fonds. Nous recommandons fortement que vous ne procédiez que si vous savez vraiment ce que vous faite.
+Les tokens HDX engagés sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur peuvent être punis par un "slashing" qui peut résulter par une perte involontaire de fonds. Nous recommandons seulement les personnes éxperimentées à devenir validateur.
 
 :::
 
@@ -44,7 +44,7 @@ ou pour l'interface en français:
 Après avoir cliqué sur le bouton Réserve, vous devriez voir les préférences d'engagement (bonding)  avec quatre champs de saisie modifiables:
 * **Compte de la réserve**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
 * **Compte contrôleur**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de validation.
-* **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - à la place, laisser en quelques un pour couvrir les frais de transactions qui surviendront plus tard.
+* **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - gardez en quelques un pour couvrir les frais de transactions qui surviendront plus tard.
 * **payment destination**: Le compte sur lequel les récompenses de validation seront envoyées.
 
 :::attention
@@ -57,7 +57,8 @@ Après avoir ajusté vos préférences d'engagement, cliquez sur Allouer et sign
 
 :::attention
 
-Pour raisons de sécurité, Il n'est pas recommandé d'avoir un seul compte pour le compte de contrôleur et celui de la réserve. Toutefois, puisque les transferts sont désactivés sur Snakenet, Il n'est pour l'instant pas possible d'utiliser des comptes séparés. Nous recommandons fortement que vous passiez à des comptes de réserve et contrôleur séparés aussitôt que cela devient possible à l'avenir.
+Il est recommandé d'utiliser deux comptes différents, un pour le compte contrôleur et un autre pour le compte de la réserve. Toutefois, puisque les transferts sont désactivés sur Snakenet, Il n'est pour l'instant pas possible d'utiliser des comptes séparés. Nous recommandons fortement l'utilisation de comptes de réserve et contrôleur différents dès que cette fonctionnalité sera disponible.
+
 
 :::
 
@@ -67,7 +68,7 @@ Pour raisons de sécurité, Il n'est pas recommandé d'avoir un seul compte pour
 
 ## 02 Générez des clés de sessions {#02-generate-session-keys}
 
-La deuxième étape consiste à générer vos clés de session. Les clés de session sont utilisées pour associer le node validateur avec votre compte de contrôleur and les HDX délégués (staked). Il est donc important qu'elles soient installées correctement. 
+La deuxième étape consiste à générer vos clés de session. Les clés de session sont utilisées pour associer le node validateur avec votre compte de contrôleur et les HDX délégués (staked). Il est donc important qu'elles soient installées correctement. 
 
 Pour générer vos clés de session, exécuter sur le node:
 
@@ -102,9 +103,9 @@ Pour terminer, cliquez sur _soumettre la transaction_ et signez la transaction.
   <img src={useBaseUrl('/validator-guide/set-session-keys-1.png')} />
 </div>
 
-## 04 Assurez vous que votre node est complètement synchronisée {#04-make-sure-that-your-node-is-fully-synced}
+## 04 Assurez vous que votre node est complètement synchronisé {#04-make-sure-that-your-node-is-fully-synced}
 
-Avant de continuer, vous devriez vous assurer que votre node fonctionne et que le processus de synchronisation est entièrement terminée. La façon la plus certaine de vérifier l'état de la synchronisation est directement sur le node elle-même:
+Avant de continuer, vous devriez vous assurer que votre node fonctionne et que le processus de synchronisation est entièrement terminée. La meilleure façon de vérifier l'état de la synchronisation est de vérifier directement sur le node :
 
 ```bash
 
@@ -116,7 +117,7 @@ Idle (52 peers), best: #622028 (0x5f5a…1041), finalized #622025 (0x5b21…a746
 
 ```
 
-Vous pouvez comparer le numéro de bloc de la sortie (dans l'exemple ci-dessus:`#622025`) avec le numéro de bloc courant que vous pouvez trouver dans [Polkadot/apps Explorateur](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer). Au moment de la rédaction le bloc courant est `#622240`, ce qui signifie que le node utilisée pour l'exemple n'est pas totalement synchronisée. 
+Vous pouvez comparer le numéro de bloc de la sortie (dans l'exemple ci-dessus:`#622025`) avec le numéro de bloc courant que vous pouvez trouver dans [Polkadot/apps Explorateur](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer). Au moment de la rédaction nous sommes au bloc `#622240`, ce qui signifie que le node utilisé pour l'exemple n'est pas totalement synchronisé. 
 
 Veuillez attendre que le numéro de bloc apparaissant dans votre journal local corresponde au numéro de bloc du réseau.
 
@@ -150,9 +151,9 @@ ou pour l'interface en français:
 
 *réseau* > *Staking* > *Staking overview*
 
-Cette onglet offre un aperçu de tous les validateurs actifs connectés au réseau. En haut, il y a une indication du nombre de places de validateurs disponibles, ainsi que le nombre de nodes qui ont signalées leur intention d'être des validateurs. Vous pouvez confirmer si votre node est en liste d'attente en cliquant sur l'onglet _En attente_.
+Cette onglet offre un aperçu de tous les validateurs actifs connectés au réseau. En haut, il y a une indication du nombre de places de validateurs disponibles, ainsi que le nombre de nodes qui ont signalés leur intention d'être des validateurs. Vous pouvez confirmer si votre node est en liste d'attente en cliquant sur l'onglet _En attente_.
 
-Votre node validateur va rester en liste d'attente jusqu'à ce qu'il soit choisi pour être inclus dans l'ensemble des validateurs. L'ensemble des validateurs est mis à jour à chaque ère ce qui permet à de nouveaux nodes d'être inclus, à condition qu'il y ait des places libres.
+Votre node validateur restera en liste d'attente jusqu'à ce qu'il soit choisi pour être inclus dans l'ensemble des validateurs actifs. L'ensemble des validateurs est mis à jour à chaque ère ce qui permet à de nouveaux nodes d'être inclus, à condition qu'il y ait des places disponibles.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/validator-guide/validate-3.png')} />
