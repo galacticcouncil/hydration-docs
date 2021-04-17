@@ -5,7 +5,7 @@ title: Set your Identity
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help increase the trust in the network.
+Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
 
 :::note
 If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
@@ -36,7 +36,7 @@ In the last field of the popup you will see the amount of HDX you need to deposi
 
 After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
 
-## 02 Submit your identity for verification
+## 02 Submit your identity for verification {#verify-identity}
 
 After you have set your identity, you can submit it to the network registrars for verification. To do so, navigate to *Extrinsics* in the *Developer* menu or click on this link:
 
