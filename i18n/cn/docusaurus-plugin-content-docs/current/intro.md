@@ -12,7 +12,7 @@ HydraDX 是社区驱动的，这些文档也是如此。我们很高兴看到您
 的贡献，它可以有多种方式来呈现，例如，您可以撰写新文章或翻译
 现有文章。请查看我们的 GitHub 代码库及投稿指南。
 
-## 00 什么是HydraDX？ {#00-what-is-hydradx}
+## 什么是HydraDX？ {#what-is-hydradx}
 
 HydraDX 是建立在 Substrate 上的跨链流动性协议。我们的使命是
 通过建立首个复合资产流动性池—HydraDX 万能池，为所有加密资产
