@@ -10,7 +10,7 @@ HydraDX 的普通访客、验证人、提名人和开发人员的“世外桃源
 
 HydraDX 是社区驱动的，这些文档也是如此。我们很高兴看到您
 的贡献，它可以有多种方式来呈现，例如，您可以撰写新文章或翻译
-现有文章。请查看我们的 GitHub 代码库及投稿指南。
+现有文章。请查看我们的 [GitHub 代码库]https://github.com/galacticcouncil/HydraDX-docs 及[投稿指南]https://docs.hydradx.io/cn/contributing 。
 
 ## 什么是HydraDX？ {#what-is-hydradx}
 
