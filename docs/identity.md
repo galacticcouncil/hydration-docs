@@ -27,7 +27,7 @@ You will see a popup called *register identity*. Here, you can enter the followi
 * email
 * web address
 * twitter
-* riot name (in case you are using Element messaging)
+* riot name (in case you are using Matrix messaging)
 
 In the last field of the popup you can see the amount of HDX you need to deposit to register your identity. You will receive this deposit back once you decide to clear your identity at a later point.
 
