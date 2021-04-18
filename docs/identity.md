@@ -46,7 +46,7 @@ After selecting the relevant HydraDX account from the last step, you need to fil
 * **extrinsic**: identity
 * **action**: requestJudgment
 * **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
-HydraDX has 2 validators: Sik (ID: **0**) and Jimmy (ID: **1**).
+HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
 * **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
 
 To submit your verification request, click on *Submit Transaction* and sign the transaction.
