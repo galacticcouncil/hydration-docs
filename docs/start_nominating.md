@@ -131,7 +131,7 @@ Make sure that you revisit your nominations once in a while. It is possible that
 
 :::
 
-## 04 Adjust your nominations
+## 04 Adjust your nominations {#04-adjust-your-nominations}
 
 If some of your validators become oversubscribed or change their commission, you might want to adjust your nominations.
 
