@@ -54,3 +54,14 @@ To submit your verification request, click on *Submit Transaction* and sign the 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
 Please note that the process of identity verification may take some time to complete. To see the status of your request, navigate to **My accounts** and hover the section displaying your identity - you will see a popup showing the current status.
+
+## 03 Outcome of the verification procedure {#03-verification-outcome}
+
+After processing your verification request, the registrar will submit one of the following judgments which will become visible in your identity status:
+
+* **Unknown** - default value, no judgment has been made yet.
+* **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
+* **KnownGood** - the information is correct.
+* **OutOfDate** - the information was correct in the past but it is now out of date.
+* **LowQuality** - the information is unprecise but it can be fixed by updating it.
+* **Erroneous** - the provided information is wrong and might indicate a malicious intent.
