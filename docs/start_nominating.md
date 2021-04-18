@@ -153,21 +153,23 @@ Adjusting your nominations can be done on the fly, there is no need to stop nomi
 
 ## 05 Rebond funds {#05-rebond-funds}
 
-If you accidentally unbonded your HDX tokens and don't want to wait the 28 days unbonding period you can rebond the tokens.
+If you have accidentally unbonded your HDX tokens, you can rebond them before the waiting period of 28 days has lapsed.
 
-To do so, open Polkadot/apps and navigate to:  
-*Developer* > *Extrinsics*
+To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
 
-Select your account in the _using the selected account_ dropdown.  
-At _submit the following extrinsic_ you will select _staking_ in the first dropdown and _rebond(value)_ in the second.  
-In the _value_ field you will input the amount of HDX tokens you accidentally unbonded.
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-You should have filled the form similar like shown in the following picture:
+Select your account in the _using the selected account_ dropdown.  After that, you need to fill out the following information:
+
+* **extrinsic**: staking
+* **action**: rebond_value
+* **value**: here you need to enter the amount of HDX you want to rebond.
+
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/rebond.png')} />
 </div>
 
-If everything is set correctly you can submit the extrinsic by clicking the _Submit Transaction_ button and confirm it by hitting the _Sign and Submit_ button in the popup.
+If everything is set correctly you can submit the extrinsic by clicking the _Submit Transaction_ button and sign the transaction in the Polkadot.js extension. Once completed, the selected amount of HDX should be rebonded.
 
 Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
