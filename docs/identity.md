@@ -17,7 +17,7 @@ To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* networ
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
-On the accounts page, locate the account holding your bonded HDX tokens (if you are validator - your controller account). After that, click on the three dots to the right of the account and select *Set on-chain identity*.
+On the accounts page, locate the account holding your bonded HDX tokens. After that, click on the three dots next to the account (on the right side) and select *Set on-chain identity*.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
