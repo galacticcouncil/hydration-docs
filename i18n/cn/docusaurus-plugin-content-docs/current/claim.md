@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::note
 
-没有 xHDX 令牌的你仍想获取一些 HDX 令牌么？感谢您对 HydraDX 的关注，但是目前无法购买任何 HDX 令牌——主网上线前 HDX 的转账路径将被冻结。但是，随着主网上线临近，我们将启动激励性社区计划，这些计划可能会给您带来一些早期的 HDX 令牌奖励。如果您感兴趣，请 [订阅我们的新闻通讯](https://hydradx.substack.com) 并加入我们的 Discord 服务器，关注最新发布的消息。
+没有 xHDX 令牌的仍您想获取一些 HDX 令牌么？感谢您对 HydraDX 的关注，但是目前无法购买任何 HDX 令牌——主网上线前 HDX 的转账路径将被冻结。但是，随着主网上线临近，我们将启动激励性社区计划，这些计划可能会给您带来一些早期的 HDX 令牌奖励。如果您感兴趣，请 [订阅我们的新闻通讯](https://hydradx.substack.com) 并加入我们的 Discord 服务器，关注最新发布的消息。
 
 :::
 
