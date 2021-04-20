@@ -151,5 +151,25 @@ Adjusting your nominations can be done on the fly, there is no need to stop nomi
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>  
 
+## 05 Rebond funds {#05-rebond-funds}
+
+If you have accidentally unbonded your HDX tokens, you can rebond them before the waiting period of 28 days has lapsed.
+
+To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+Select your account in the _using the selected account_ dropdown.  After that, you need to fill out the following information:
+
+* **extrinsic**: staking
+* **action**: rebond_value
+* **value**: here you need to enter the amount of HDX you want to rebond.
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+If everything is set correctly you can submit the extrinsic by clicking the _Submit Transaction_ button and sign the transaction in the Polkadot.js extension. Once completed, the selected amount of HDX should be rebonded.
 
 Thank you for supporting HydraDX by becoming a Snakenet nominator! 🎉
