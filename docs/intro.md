@@ -10,6 +10,6 @@ Welcome to the official HydraDX Docs! Here you can find all kinds of useful reso
 
 HydraDX is community-driven and so are these Docs. We are happy to see your contributions, which can take various shapes - for example, you could write a new article or translate an existing one. Check out our [GitHub repo](https://github.com/galacticcouncil/HydraDX-docs) as well as some [contribution guidelines](/contributing).
 
-## What is HydraDX?
+## What is HydraDX? {#what-is-hydradx}
 
 HydraDX is a cross-chain liquidity protocol built on Substrate. Our mission is to enable frictionless liquidity for all cryptoassets by building the first of its kind multi-asset liquidity pool - the HydraDX Omnipool. In the Omnipool, various assets аrе priced against each other by using our native token HDX as a proxy for determining their relative value. With the Omnipool, HydraDX breaks with the traditional conception according to which assets are traded in pairs using isolated pools. Besides that, we are happy to be part of the Polkadot ecosystem and are looking forward to become the go-to liquidity provider for all assets built on Substrate.
