@@ -14,10 +14,16 @@ $ git clone https://github.com/galacticcouncil/HydraDX-node -b stable
 $ cd HydraDX-node/
 
 # Prepare for running the benchmark
+## Install Rust following https://rustup.rs
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+## Configure Rust
 $ ./scripts/init.sh
 $ rustup default nightly
+
+## Install additional libraries
 $ apt install python3-pip
-$ pip3 install bench-wizard
+$ apt install clang
 
 # Run the benchmark
 $ ./scripts/check_performance.sh
@@ -26,10 +32,15 @@ $ ./scripts/check_performance.sh
 Nachdem Ihr Benchmark ausgeführt wurde sollte ihre Ausgabe ähnlich zu folgedem sein:
 
 ```
-         Pallet          |   Time comparison (µs)    |     diff*     |            |   Rerun
-amm                      |    1066.00 vs 1045.80     |      20       |     OK     |
-exchange                 |    1105.00 vs 1049.10     |      55       |     OK     |
-transaction_multi_payment|     289.00 vs 279.96      |       9       |     OK     |
+         Pallet          |   Time comparison (µs)    |  diff* (µs)   |   diff* (%)    |            |   Rerun
+amm                      |     773.00 vs 680.00      |      93.00    |      12.03     |     OK     |
+exchange                 |     804.00 vs 720.00      |      84.00    |      10.44     |     OK     |
+transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.17     |     OK     |
+
+Notes:
+- in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
+- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
+- if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
 Wenn die Werte in der Spalte `diff` alle drei positive Zahlenwerte sind, ist ihre Hardware geeignet um eine HydraDX Validator Node zu betreiben.

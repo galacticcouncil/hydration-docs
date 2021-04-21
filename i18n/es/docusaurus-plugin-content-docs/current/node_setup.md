@@ -90,7 +90,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-Además de la ruta a su binario (ver arriba), debe especificar un nombre de nodo que se utilizará para identificar su nodo en [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) donde puede encontrar una lista de todos los nodos que se ejecutan en HydraDX Snakenet.
+Además de la ruta a su binario (ver arriba), debe especificar un nombre de nodo que se utilizará para identificar su nodo en [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) donde puede encontrar una lista de todos los nodos que se ejecutan en HydraDX Snakenet.
 
 ## 05 Ejecutando con systemd {#05-running-with-systemd}
 
