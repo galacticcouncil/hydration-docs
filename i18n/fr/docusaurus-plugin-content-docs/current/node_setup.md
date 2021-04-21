@@ -89,7 +89,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-Outre le chemin de votre binaire (voir au dessus), vous devez spécifier un nom de node qui sera utilisé pour identifier votre node dans [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) où vous pouvez trouver une liste de toutes les nodes fonctionnement sur le Snakenet HydraDX.
+Outre le chemin de votre binaire (voir au dessus), vous devez spécifier un nom de node qui sera utilisé pour identifier votre node dans [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) où vous pouvez trouver une liste de toutes les nodes fonctionnement sur le Snakenet HydraDX.
 
 ## 05 Fonctionnement avec systemd {#05-running-with-systemd}
 
