@@ -23,7 +23,7 @@ module.exports = {
       "node_monitoring"
     ],
     Build: [
-      "build_node_setup"
+      "build_dev_chain"
     ],
     Contribute: ["contributing"]
   },
