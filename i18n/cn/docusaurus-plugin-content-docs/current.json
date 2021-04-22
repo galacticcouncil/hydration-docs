@@ -27,8 +27,8 @@
     "message": "Build",
     "description": "The label for category Build in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Contributing": {
+  "sidebar.sidebar.category.Contribute": {
     "message": "投稿",
-    "description": "The label for category Contributing in sidebar sidebar"
+    "description": "The label for category Contribute in sidebar sidebar"
   }
 }
