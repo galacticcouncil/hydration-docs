@@ -1,6 +1,6 @@
 ---
 id: node_setup
-title: Set up a HydraDX node
+title: Set up a validator node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -88,7 +88,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) where you can find a list of all nodes running on HydraDX Snakenet.
+Besides the path to your binary (see above), you need to specify a node name which will be used to identify your node in [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) where you can find a list of all nodes running on HydraDX Snakenet.
 
 ## 05 Running with systemd {#05-running-with-systemd}
 To make sure that your node is automatically started when your machine reboots, we recommend running the HydraDX node as a systemd process. To do so, create the following file and insert the content while replacing the variables indicated as `{VARIABLE}`:

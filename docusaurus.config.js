@@ -3,8 +3,8 @@ module.exports = {
   tagline: "Let's learn this",
   url: "https://docs.hydradx.io",
   baseUrl: "/",
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.png",
   organizationName: "galacticcouncil", // Usually your GitHub org/user name.
   projectName: "HydraDX-docs", // Usually your repo name.
@@ -70,7 +70,7 @@ module.exports = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'ru', 'es', 'cn'],
+    locales: ['en', 'de', 'ru', 'es', 'fr', 'cn'],
     localeConfigs: {
       en: {
         label: 'English',
@@ -83,6 +83,9 @@ module.exports = {
       },
       es: {
         label: 'español',
+      },
+      fr: {
+        label: 'français',
       },
       cn: {
         label: '中文',

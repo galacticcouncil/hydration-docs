@@ -8,20 +8,25 @@ module.exports = {
       "claim",
       "start_nominating",
       "start_validating",
+      "identity",
       {
         type: "category",
-        label: "Connecting to node",
+        label: "Connect to a Node",
         items: ["polkadotjs_apps_local", "polkadotjs_apps_public"],
       }
     ],
     "Learn": [
-      "staking"
+      "staking",
+      "staking_rewards"
     ],
     "Maintain": [
       "node_setup",
       "performance_benchmark",
       "node_monitoring"
     ],
-    Contributing: ["contributing"],
+    Build: [
+      "build_dev_chain"
+    ],
+    Contribute: ["contributing"]
   },
 };
