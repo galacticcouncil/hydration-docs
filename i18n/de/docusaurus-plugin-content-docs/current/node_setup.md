@@ -91,7 +91,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-Neben dem Dateipfad zu der Binary müssen Sie noch einen Namen für Ihre Node festlegen welcher zur Identifikation in [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) genutzt wird. Dort finden Sie ebenfalls eine Liste aller Nodes im HydraDX Snakenet.
+Neben dem Dateipfad zu der Binary müssen Sie noch einen Namen für Ihre Node festlegen welcher zur Identifikation in [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) genutzt wird. Dort finden Sie ebenfalls eine Liste aller Nodes im HydraDX Snakenet.
 
 ## 05 Mit systemd starten {#05-running-with-systemd}
 Um gewährleisten zu können das ihr Node automatisch bei einem Systemneustart startet, empfehlen wir den HydraDX node als System Prozess zu betreiben. Diese Einstellungen können sie mit folgendem Befehl vornehmen (in die "{}" Klammern müssen sie Ihre Daten eingeben) :

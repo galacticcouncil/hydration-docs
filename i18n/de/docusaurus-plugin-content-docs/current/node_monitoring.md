@@ -9,7 +9,7 @@ In diesem Kapitel durchlaufen wir den Einrichtungsprozess eines lokalen Monoitor
 
 ## Prerequisites {#prerequisites}
 
-Sie müssen Ihre [validator node](/node_setup) fertig eingerichtet und aktiv haben.  
+Sie müssen Ihre [Validator Node](/node_setup) fertig eingerichtet und aktiv haben.  
 Dieser Guide wurde unter dem Ubuntu 20.04 LTS Release getestet.
 
 ## Prometheus Setup {#prometheus-setup}
@@ -54,7 +54,7 @@ $ tar xfz prometheus-*.tar.gz
 $ cd prometheus-2.25.2.linux-amd64
 ```
 
-Nun kopieren Sie die binaries in das lokale Verzeichnis.
+Nun kopieren Sie die Binaries in das lokale Verzeichnis.
 
 ```shell script
 $ sudo cp ./prometheus /usr/local/bin/
@@ -68,7 +68,7 @@ $ sudo chown prometheus:prometheus /usr/local/bin/prometheus
 $ sudo chown prometheus:prometheus /usr/local/bin/promtool
 ```
 
-Danach kopieren Sie das Benutzeroberfläche und die Konfigurationsdateien.
+Danach kopieren Sie die Benutzeroberfläche und die Konfigurationsdateien.
 
 ```shell script
 $ sudo cp -r ./consoles /etc/prometheus
@@ -121,11 +121,11 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-Der erste Job exportiert Daten von Prommetheus selbst, der zweote exportiert die Metriken der HydraDX Node.
+Der erste Job exportiert Daten von Prommetheus selbst, der zweite exportiert die Metriken der HydraDX Node.
 Wir ändern das `scrape_interval` beider Jobs um ein detaillierteres Dashboard zu erstellen. Dies überschreibt die globalen Variablen.
 Das `target` in `static_configs` legt fest, wo die Exporter laufen, wir belassen dies bei den Standardwerten.
 
-Nachdem die Konfiguration gespeichert wurde wird erneut der Besitzer geändert.
+Nachdem die Konfiguration gespeichert wurde, wird erneut der Besitzer geändert.
 
 ```shell script
 $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
@@ -134,7 +134,7 @@ $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 ### Prometheus starten {#starting-prometheus}
 
 Damit Prometheus automatisch startet und im Hintergrund läuft werden wir `systemd` verwenden.
-Erstellen Sie eine neue Konfiguration (wieder mit einen Editor Ihrer Wahl):
+Erstellen Sie eine neue Konfiguration (wieder mit einem Editor Ihrer Wahl):
 
 ````shell script
 $ sudo nano /etc/systemd/system/prometheus.service
@@ -164,7 +164,7 @@ Fügen Sie folgende Konfiguration ein und speichern sie ab.
 ```
 
 Danach führen Sie die drei folgenden Schritte aus:
-`systemctl deamon-reload` lädt neue Konfigurationen und aktualisiert Bestehende 
+`systemctl deamon-reload` lädt neue Konfigurationen und aktualisiert die bestehende 
 `systemctl enable` aktiviert Ihren neuen Service
 `systemctl start` startet den Service
 
@@ -310,9 +310,9 @@ Passwort: `admin`
 ### Die Datenquelle konfigurieren {#configuring-the-datasource}
 
 Bitte klicken Sie das Einstellungs-Zahnrad im Menü und wählen `Datasources`.
-Im nächsten Fenster klicken Sie `Add Datasource`und wählen `Prometheus`.
+Im nächsten Fenster klicken Sie `Add Datasource` und wählen Sie `Prometheus`.
 
-Im nachfolgenden Formular müssen Sie nichts ändern außer der URL.
+Im nachfolgenden Formular müssen Sie nichts ändern außer die URL.
 Stellen Sie `http://localhost:9090/` ein und klicken `Save and Test`.  
 
 <div style={{textAlign: 'center'}}>
@@ -325,23 +325,23 @@ Bitte klicken Sie den `Plus`-Button im Hauptmenü und wählen `import`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
-</div>
+</div>  
 
 Sie können das [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) nutzen und um es zu laden geben Sie einfach die ID `14158` ein und klicken auf `Load`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
-</div>
+</div>  
 
 Hier müssen Sie nicht viel einstellen, vergewissern Sie sich lediglich, dass `Prometheus` als `Datasource` eingestellt ist.
 Sie können den Importvorgang nun abschließen.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-dashboard.png')} />
-</div>
+</div>  
 
 Sie sollten das Dashboard sofort mit ihren Daten sehen.
-Falls einzelne Panele leer sind vergewissern Sie sich bitte, dass die Auswahlfelder ganz oben folgende Werte enthalten:
+Falls einzelne Panele leer sind, vergewissern Sie sich bitte, dass die Auswahlfelder ganz oben folgende Werte enthalten:
 * `Chain Metrics`: Substrate  
 * `Chain Instance`: localhost:9615  
 * `Server Job`: node_exporter  
