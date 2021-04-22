@@ -11,7 +11,7 @@ This section runs you through the process of setting up a local HydraDX chain in
 Are you looking to set up a node for validation purposes? Please move to our [validator setup guide](/node_setup).
 :::
 
-## 01 Install dependencies
+## 01 Install dependencies {#01-install-dependencies}
 
 To prepare a local HydraDX chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
 
@@ -22,7 +22,7 @@ $ curl https://getsubstrate.io -sSf | bash -s -- --fast
 $ source ~/.cargo/env
 ```
 
-## 02 Build
+## 02 Build {#02-build}
 
 Build the Wasm and native execution environments:
 
@@ -37,7 +37,7 @@ $ cargo build --release
 
 You should be able to find the build under `./target/release/hydra-dx`.
 
-## 03 Run
+## 03 Run {#03-run}
 
 Before running your build you can purge any existing development chains on your machine (you will need to do this often in the development process):
 
@@ -54,7 +54,7 @@ $ ./target/release/hydra-dx --dev
 $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --dev
 ```
 
-## 04 Connect to your local chain instance
+## 04 Connect to your local chain instance {#04-connect-to-your-local-chain-instance}
 
 You can connect to your HydraDX development node using Polkadot/apps and changing network to `Development`. You can also use this link:  
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
