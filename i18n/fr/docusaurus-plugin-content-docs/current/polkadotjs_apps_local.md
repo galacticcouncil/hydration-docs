@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Vous pouvez utiliser Polkadot/apps pour vous connecter à votre node HydraDX local. Pour ce faire, vous devez avoir accès au port `9944` qui est utilisé connexions websockets RPC.
 
-:::mise en garde
+:::caution
 
 Si vous faites fonctionner un node en tant que validateur, nous recommandons fortement que vous blacklistiez le port `9944` pour des connexions à distance (hors LAN). Ce port pourrait être exploité par des personnes tierces pour altérer la performance de votre node, ce qui peut résulter par un slashing et une perte involontaire de fonds. Vous devriez utiliser le port `9944`  pour vous connecter à votre node validateur seulement quand le node est dans votre réseau local.
 

@@ -19,7 +19,7 @@ NPoS 的一个重要特征是，并非所有验证人都同时参与验证过程
 
 :::note
 
-基于 Substrate 的网络中，时间以 *eras* 单位划分。在 [HydraDX Snakenet](/snakenet) 中，*1 era = 24小时* 。
+基于 Substrate 的网络中，时间以 *eras* 作为单位进行划分。在 [HydraDX Snakenet](/snakenet) 中，*1 era = 24小时* 。
 
 :::
 

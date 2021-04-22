@@ -32,7 +32,7 @@ Pendant la procédure de récupération, vous allez utiliser vos tokens xHDX (ER
 
 L'application de réclamation HydraDX va requérir une autorisation de l'extension de navigateur Polkadot.js.
 
-:::attention
+:::warning
 
 assurez vous que vous n'êtes pas victime d'une attaque d'hameçonnage, et soyez attentif au pop-up d'autorisation: L'application devrait s'identifier  elle-même comme **CLAIM.HYDRADX.IO** et la requête devrait venir de **https://claim.hydradx.io**.
 
@@ -67,7 +67,7 @@ Saisissez un nom et un mot de passe pour votre compte, et finissez la création 
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
-:::attention 
+:::warning 
 
 Assurez vous de conserver votre "seed phrase" de récupération en la stockant dans un endroit sûr et ne la partagez avec personne. Utilisez cette "seed phrase" est le seul moyen pour vous de recouvrer votre compte et si vous la perdez ou la faites fuiter, vos fonds pourraient être compromis. Veuillez noter que vous avez besoin de protéger l'accès à ce portefeuille jusqu'à ce que le mainnet commence, puisque tous les soldes HDX sont actuellement verrouillés. Si vous perdez l'accès à votre portefeuille HDX, vous perdrez en même temps vos HDX.
 

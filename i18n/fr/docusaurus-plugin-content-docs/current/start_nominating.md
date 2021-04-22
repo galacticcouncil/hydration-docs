@@ -10,7 +10,7 @@ En devenant un nominateur, vous stakez (déléguez) certains de vos tokens HDX p
 
 Au moment de nominer, les nominateurs fournissent leur stake (délégation) à un validateur de leur choix. Ainsi, les nominateurs élisent l'ensemble actif de validateurs et reçoivent des récompenses pour leur participation. La somme de récompenses que vous recevez en tant que nominateur dépend du pourcentage de la commission de récompense du validateur choisi - Plus la commission de récompense est grande, plus les récompenses que vous recevrez pour votre délégation seront réduites. 
 
-:::attention
+:::warning
 
 nominer est une forme de participation au processus de staking (délégation) plus accessible, cependant cela comporte un certain niveau de risque. Si le validateur que vous avez nominé se comporte de manière non conforme (par exemple : ne parvient pas à maintenir le temps de fonctionnement requis), un "slashing" peut survenir qui peut causer à une perte involontaire partielle des fonds que vous avez délégué. Nous recommandons fortement que vous fassiez vos recherches avant de nominez un validateur.
  
@@ -44,7 +44,7 @@ L'interface de Staking a les onglets de menu suivants:
 
 ## 01 Engager vos tokens HDX {#01-bond-hdx-tokens}
 
-:::attention
+:::warning
 
 Les tokens HDX engagés sont en jeu pour garantir la sécurité du réseau. Les comportements non conformes du node validateur que vous avez nominé peuvent être punis de "slashing" qui peut mener à une perte involontaire de vos fonds. Nous recommandons fortement que vous fassiez vos recherches quand vous choisissez des validateurs à nominer.
 
@@ -61,12 +61,12 @@ ou pour l'interface en français:
 </div>
 
 Après avoir cliqué sur le bouton *Réserve*, vous devriez voir les préférences d'engagements avec quatre champs de saisie modifiables:
-* **Compte de la réserve**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
-* **Compte contrôleur**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de nomination.
+* **stash account**: Le compte contenant la plupart de vos tokens HDX. Les HDX vont être délégués depuis ce compte.
+* **controller account**: un compte contenant une petite partie de HDX nécessaires pour couvrir les frais associés à la mise en route et à l'arrêt du processus de nomination.
 * **value bonded**: La somme de HDX que vous engagez. N'engagez pas tous les HDX que vous possédez - à la place, gardez-en un petit montant pour couvrir les frais de transactions qui surviendront plus tard.
 * **payment destination**: Le compte sur lequel les récompenses de staking (délégation) seront envoyées.
 
-:::attention
+:::warning
 
 N'engagez pas tous vos tokens HDX disponibles. Gardez une petite réserve pour couvrir les frais des transactions. Si vous engagez tous les tokens HDX que vous possédez, vous pourriez ne pas être capable de signer la transaction pour commencer le processus de nomination.
 
@@ -74,7 +74,7 @@ N'engagez pas tous vos tokens HDX disponibles. Gardez une petite réserve pour c
 
 Après avoir ajusté vos préférences d'engagement, cliquez sur **Allouer** et signer la transaction pour terminer le processus d'engagement.
 
-:::mise en garde
+:::caution
 
 Pour des raisons de sécurité, il n'est pas recommandé d'avoir le même compte de Réserve et de contrôleur. Cependant, puisque les transferts sont désactivés sur Snakenet, Il n'est actuellement pas possible d'utiliser des comptes séparés. Nous recommandons fortement que vous passiez à des comptes de Réserve et de Contrôleur séparé dès que cela devient possible.
 

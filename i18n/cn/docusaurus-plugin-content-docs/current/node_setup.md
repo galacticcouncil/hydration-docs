@@ -89,7 +89,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-在运行编译文件前，您需要为您的节点起名，这个名称将会和所有在 Hydradx Snakenet 运行的节点一起，在 [Telemetry](https://telemetry.polkadot.io/#list/HydraDX%20Snakenet) 页面中列出。
+在运行编译文件前，您需要为您的节点起名，这个名称将会和所有在 Hydradx Snakenet 运行的节点一起，在 [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) 页面中列出。
 
 ## 05 将程序设置为开机自动运行 {#05-running-with-systemd}
 我们建议将 Hydradx 节点加入系统服务，以避免重启后程序不会自动开启。为此，请创建以下文件，并替换 `{VARIABLE}` 中的变量为您的节点名称：
