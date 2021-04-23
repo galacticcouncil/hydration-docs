@@ -1,67 +1,67 @@
 ---
 id: identity
-title: Set your Identity
+title: 设置您的身份
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
+帐户持有人，可通过提供特定信息并将其存储在链上来设置身份。除此之外，身份信息还可以提交给 HydraDX 注册商进行认证。通过设置并认证身份，有助于验证人及提名人保护其网络信用。
 
 :::note
-If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
+如果您是 HydraDX 验证人，我们 **强烈建议** 您设置您的身份并通过认证程序。经过认证的验证人似乎更值得信任，并吸引更多的提名，也会因此增加进入活跃验证人集的机会。
 :::
 
-## 01 Set identity {#01-set-identity}
+## 01 设置身份 {#01-set-identity}
 
-To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
+要设置您的身份，请打开 Polkadot/apps（连接到 *HydraDX Snakenet* 网络），然后导航到 *My accounts* （我的账户）。或者，您也可以点击以下链接：
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
-On the accounts page, locate the account holding your bonded HDX tokens. After that, click on the three dots next to the account (on the right side) and select *Set on-chain identity*.
+在帐户页面，找到持有您的绑定 HDX 令牌的帐户（如果您是验证人-应为控制帐户）。然后，点击帐号旁边的三个点（在右侧），并选择 *Set on-chain identity* （设置链上身份）。
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
-You will see a popup called *register identity*. Here, you can enter the following information:
+您将看到一个名为 *register identity* （注册身份）的弹出窗口。在这里，您可以输入以下信息：
 
-* legal name
-* email
-* web address
-* twitter
-* riot name (in case you are using Matrix messaging)
+* legal name（法定名称）
+* email（邮箱）
+* web（网址）
+* twitter（推特）
+* riot name（防爆名称）（以防您使用矩阵传递）
 
-In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
+在弹出窗口的最后一个字段，你可以看到需存入的 HDX 数量，作为存储您身份信息的保证金。以后，一旦决定清除身份信息，这笔保证金将会被您回收。
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
-After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
+填写完信息后，单击 *Set Identity* （设置身份），并使用 Polkadot.js 浏览器扩展程序对交易进行签名。一旦确认了交易，您的身份就设置好了。
 
-## 02 Submit your identity for verification {#02-verify-identity}
+## 02 提交身份证明 {#02-verify-identity}
 
-After you have set your identity, you can submit it to the network registrars for verification. To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
+在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer* > *Extrinsics* 。或者，您也可以点击这个链接:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
+在上一步选择相应 HydraDX 帐户后，您需要填写以下信息:
 
-* **extrinsic**: identity
-* **action**: requestJudgment
-* **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
-HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
-* **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
+* **extrinsic**（外在）: identity（身份）
+* **action**（动作）: requestJudgment（请求判定）
+* **reg_index**（注册商ID）: 在这里需要输入您选择的注册商的ID进行验证。
+HydraDX 有两个注册商：HydraSik 的 Simon Kraus (ID: **0**) 和 Jimmy Tudeski - stakenode (ID: **1**)。
+* **max_fee**（最大费用）：在这里需要输入您愿意用 HDX 支付给注册商的最高费用。只有费用低于您最大费用的注册商，才有资格进行验证。
 
-To submit your verification request, click on *Submit Transaction* and sign the transaction.
+若要提交认证请求，请单击 *Submit Transaction* (提交交易)并签署交易。
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
-Please note that the process of identity verification may take some time to complete. To see the status of your request, navigate to **My accounts** and hover the section displaying your identity - you will see a popup showing the current status.
+请注意，身份认证过程可能需要一些时间来完成。要查看您的请求状态，导航到 **My accounts**（我的账户）并将鼠标停在显示您身份的部分-您将看到一个显示当前状态的弹出框。
 
-## 03 Outcome of the verification procedure {#03-verification-outcome}
+## 03 认证程序的结果 {#03-verification-outcome}
 
-After processing your verification request, the registrar will submit one of the following judgments which will become visible in your identity status:
+在处理您的认证请求后，注册商将提交以下的其中一项判断，该判断将在您的身份状态中显示：
 
-* **Unknown** - default value, no judgment has been made yet.
-* **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
-* **KnownGood** - the information is correct.
-* **OutOfDate** - the information was correct in the past but it is now out of date.
-* **LowQuality** - the information is unprecise but it can be fixed by updating it.
-* **Erroneous** - the provided information is wrong and might indicate a malicious intent.
+* **Unknown** - 默认值，尚未做出判断。
+* **Reasonable** -所提供的资料看来是合理的，但是没有进行深入的检查。
+* **KnownGood** - 信息正确。
+* **OutOfDate** - 这个信息在过去是正确的，但现在已经过时了。
+* **LowQuality** - 信息不精确，但可以通过更新修正。
+* **Erroneous** - 所提供的信息是错误的，可能表明存在恶意意图。
