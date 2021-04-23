@@ -24,7 +24,7 @@
     "description": "The label for category Maintain in sidebar sidebar"
   },
   "sidebar.sidebar.category.Build": {
-    "message": "Build",
+    "message": "构建",
     "description": "The label for category Build in sidebar sidebar"
   },
   "sidebar.sidebar.category.Contribute": {
