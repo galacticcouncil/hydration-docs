@@ -5,32 +5,34 @@ title: Staking Rewards
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
+Las recompensas del staking incentivan a los validadores y nominadores a [hacer stake de sus tokens HDX](/staking) . Hay tres tipos de recompensas por staking que se analizan en este artículo:  [base rewards](#base-rewards), [era points](#era-points) y los [tips](#tips)
 
 ## Base Rewards {#base-rewards}
 
-At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
+Al final de cada era (24 horas), todos los grupos de validadores activos reciben recompensas básicas en forma de tokens HDX. Un pool de validación consiste en un validador elegido (teniendo su propio HDX en stake ) y todas las nominaciones activos que respaldan el validador (para más información leer en [Staking](/staking) ). Un principio central del mecanismo de consenso de Proof-of-Stake (NPoS) es que **trabajos iguales traen recompensas iguales** . En otras palabras, dado que todos los grupos de validadores realizan esencialmente el mismo trabajo, las recompensas básicas disponibles se dividen por igual entre ellos. Esto significa que los grupos de validadores no son recompensados en proporción a su participación total, lo cual es una gran diferencia con las redes tradicionales de PoS.
 
-The mechanism of sharing the base rewards equally among all participating validator pools contributes to the security of the network by preventing the concentration of power in a few validator pools, thereby strengthening decentralization. Over time, it incentivizes nominators to nominate validators with a smaller HDX stake. This process will eventually balance out the power relationships in the network and lead to a situation where all validator pools have roughly an equivalent amount of staked HDX.
+El mecanismo de compartir las recompensas básicas por igual entre todos los grupos de validadores participantes contribuye a la seguridad de la red al evitar la concentración de poder en unos pocos grupos de validadores, fortaleciendo así la descentralización. Con el tiempo, incentiva a los nominadores a nominar validadores con una participación menor de HDX. Este proceso eventualmente equilibrará las relaciones de poder en la red y conducirá a una situación en la que todos los grupos de validadores tengan aproximadamente una cantidad equivalente de HDX apostado.
 
 The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
 
+La distribución de recompensas se lleva a cabo de la siguiente manera. Después de calcular la cantidad (igual) de recompensas para cada grupo de validadores, el validador recibe su parte en forma de **comisiones** por mantener el nodo. Como segundo paso, los tokens restantes se distribuyen entre todas las apuestas de manera **proporcional** (incluido el monto del propio validadorr). Esto significa que los stake más altos recibirán una mayor proporción de las recompensas que se atribuyen al grupo de validadores en particular.
+
 :::note
-In our incentivized testnet called Snakenet, the amount of rewards received for staking your HDX tokens is estimated to be around **50% APY**.
+En nuestra red de prueba incentivada llamada Snakenet, la cantidad de recompensas recibidas por hacer stake de sus tokens HDX se estima en alrededor del **50% APY** .
 :::
 
 ## Era points {#era-points}
 
-Validators can earn additional rewards in proportion to the era points which they have gained in the past era. These rewards are added to the base rewards described above. Validators can earn era points by carrying out certain specific actions such as:
+Los validadores pueden ganar recompensas adicionales en proporción a los puntos de era que hayan ganado en la era pasada. Estas recompensas se suman a las recompensas básicas descritas anteriormente. Los validadores pueden ganar puntos de era mediante la realización de determinadas acciones específicas como:
 
-* producing a non-uncle block in the Relay Chain.
-* producing a reference to a previously unreferenced uncle block.
-* producing a referenced uncle block.
+* Produciendo un non-uncle block en la Relay 
+* Produciendo una referencia a un uncle block no referenciado previamente
+* Produciendo un uncle block referenciado
 
 :::note
-An uncle block is a Relay Chain block valid in every regard, which however has failed to become canonical. This can happen when two or more validators are block producers in a single slot, and the block produced by one validator reaches the next block producer before the others. The lagging blocks are called uncle blocks.
+ Un uncle block es un bloque de la Relay Chain que es válido en todos los aspectos, que sin embargo no ha logrado convertirse en canonical. Esto puede suceder cuando dos o más validadores son productores de bloques en una sola ranura, y el bloque producido por un validador llega al siguiente productor de bloques antes que los demás. Los bloques rezagados se denominan uncle block
 :::
 
 ## Tips {#tips}
 
-Finally, validators can earn tips which are also added to the base rewards at the end of every era. Tips represent an additional transaction fee that can be optionally paid by users to give their transaction a higher priority.
+Finalmente, los validadores pueden ganar tips que también se agregan a las recompensas básicas al final de cada era. Los tips representan una tarifa de transacción adicional que los usuarios pueden pagar opcionalmente para darle a su transacción una prioridad más alta.
