@@ -1,36 +1,36 @@
 ---
 id: staking_rewards
-title: Staking Rewards
+title: 质押奖励
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
+设置质押奖励，可以鼓励验证人和提名人 [质押他们的 HDX 令牌](/staking)。本文将讨论三种类型的质押奖励：[基本奖励](#base-rewards) 、 [era 积分](#era-points) 和 [小费](#tips) 。
 
-## Base Rewards {#base-rewards}
+## 基本奖励 {#base-rewards}
 
-At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
+在每个 era (24小时)结束时，所有活跃的验证池都以 HDX 令牌的形式获得基本奖励。一个验证池包括一个选举出来的验证人(持有自我质押的 HDX )和所有支持该验证人的激活提名人(更多信息见 [质押](/staking))。提名权益证明 (NPoS) 共识机制的一个中心原则是 **同工同酬** 。换句话说，由于所有的验证池本质上是在执行相同的工作，在它们之间 **可用的基本奖励是平均分配的** 。这意味着验证池的奖励与他们的总质押 **不** 成比例，这是与传统 PoS 网络的主要区别。
 
-The mechanism of sharing the base rewards equally among all participating validator pools contributes to the security of the network by preventing the concentration of power in a few validator pools, thereby strengthening decentralization. Over time, it incentivizes nominators to nominate validators with a smaller HDX stake. This process will eventually balance out the power relationships in the network and lead to a situation where all validator pools have roughly an equivalent amount of staked HDX.
+在所有参与的验证池中平均分享基本奖励的机制，有助于网络的安全，防止权力集中在少数验证池中，从而加强了去中心化。随着时间推移，它鼓励提名人提名持有较少 HDX 质押的验证人。这一过程将最终平衡网络中的权力关系，并导致所有验证池都有大致相同数量的 HDX。
 
-The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
-
-:::note
-In our incentivized testnet called Snakenet, the amount of rewards received for staking your HDX tokens is estimated to be around **50% APY**.
-:::
-
-## Era points {#era-points}
-
-Validators can earn additional rewards in proportion to the era points which they have gained in the past era. These rewards are added to the base rewards described above. Validators can earn era points by carrying out certain specific actions such as:
-
-* producing a non-uncle block in the Relay Chain.
-* producing a reference to a previously unreferenced uncle block.
-* producing a referenced uncle block.
+奖励的分配如下：在计算每个验证池的(等额)奖励之后，验证人以维护节点 **佣金** 的形式获得其份额；作为第二步，剩余的令牌 **按比例** 分布在所有质押份额中(包括验证人的自我质押)。这意味着，更高的质押，将获得归于特定验证池的更大比例的奖励。
 
 :::note
-An uncle block is a Relay Chain block valid in every regard, which however has failed to become canonical. This can happen when two or more validators are block producers in a single slot, and the block produced by one validator reaches the next block producer before the others. The lagging blocks are called uncle blocks.
+在我们名为 Snakenet 的激励测试网中，质押 HDX 令牌所获得的奖励估计在 **50% APY** 左右（APY为年化率）。
 :::
 
-## Tips {#tips}
+## Era 积分 {#era-points}
 
-Finally, validators can earn tips which are also added to the base rewards at the end of every era. Tips represent an additional transaction fee that can be optionally paid by users to give their transaction a higher priority.
+验证人可以获得与他们过往 era 积分成比例的额外奖励。这些奖励被添加到上述基基本奖励中。验证人可通过执行某些特定操作获得 era 积分，例如:
+
+* 在中继链中产生一个非叔块；
+* 首次引用某个从未被引用过的叔块；
+* 产生一个参考叔块。
+
+:::note
+叔块是在各个方面都有效的中继链块，但是它没有成为标准块。当两个或多个验证人在同一个槽中均是区块生产者，而且由一个验证人产生的区块在其他验证人之前到达下一个区块生产者时，就会发生这种情况。滞后块称为叔叔块。
+:::
+
+## 小费 {#tips}
+
+最后，验证人可以获得小费，这些小费也会在每个 era 结束时添加到基本奖励中。小费代表了一种额外的交易费用，用户可以选择支付该费用，以使其交易具有更高的优先级。
