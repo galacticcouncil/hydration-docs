@@ -1,6 +1,6 @@
 ---
 id: node_setup
-title: Set up a validator node
+title: Set up a Validator Node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
