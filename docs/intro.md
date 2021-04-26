@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Getting started
+title: Getting Started
 slug: /
 ---
 
