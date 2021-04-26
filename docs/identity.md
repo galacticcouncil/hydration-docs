@@ -29,6 +29,10 @@ You will see a popup called *register identity*. Here, you can enter the followi
 * twitter
 * riot name (in case you are using Matrix messaging)
 
+:::note
+All this information is optional - feel free to only provide the details you choose. However, if you are running a validator node, we encourage you to set your email. This would allow us to contact you in case we encounter issues with your node.
+:::
+
 In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
