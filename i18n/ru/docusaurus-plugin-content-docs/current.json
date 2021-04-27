@@ -44,7 +44,7 @@
     "description": "The label for category Maintain in sidebar sidebar"
   },
   "sidebar.sidebar.category.Build": {
-    "message": "Build",
+    "message": "Сборка",
     "description": "The label for category Build in sidebar sidebar"
   }
 }
