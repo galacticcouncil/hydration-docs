@@ -1,36 +1,36 @@
 ---
 id: staking_rewards
-title: Staking Rewards
+title: Награды за стейкинг
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
+Вознаграждения за стейкинг стимулируют валидаторов и номинаторов [делегировать свои токены HDX](/staking). В этой статье обсуждаются три типа вознаграждений за стекинг: [базовые награды](#base-rewards), [очки за эру](#era-points) и [чаевые](#tips).
 
-## Base Rewards {#base-rewards}
+## Базовые Награды {#base-rewards}
 
-At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
+В конце каждой эры (24 часа) все активные пулы валидаторов получают базовые награды в виде токенов HDX. Пул валидаторов состоит из избранного валидатора (владеющего собственной ставкой HDX) и всех активных номинаций, поддерживающих валидатора (для получения дополнительной информации см. [Стейкинг](/staking)). Центральный принцип механизма консенсуса Nominated Proof-of-Stake (NPoS) заключается в том, что **равный труд приносит равные вознаграждения**. Другими словами, поскольку все пулы валидаторов по сути выполняют одну и ту же работу, **доступные базовые награды делятся между ними поровну**. Это означает, что пулы валидаторов **не** вознаграждаются пропорционально их общей ставке, что является основным отличием от традиционных сетей PoS.
 
-The mechanism of sharing the base rewards equally among all participating validator pools contributes to the security of the network by preventing the concentration of power in a few validator pools, thereby strengthening decentralization. Over time, it incentivizes nominators to nominate validators with a smaller HDX stake. This process will eventually balance out the power relationships in the network and lead to a situation where all validator pools have roughly an equivalent amount of staked HDX.
+Механизм распределяет базовые вознаграждения поровну между всеми участвующими пулами валидаторов, способствуя безопасности сети, предотвращая концентрацию власти в нескольких пулах валидаторов и тем самым, усиливая децентрализацию. Со временем это побуждает номинаторов назначать валидаторов с меньшей долей HDX. Этот процесс в конечном итоге уравновесит соотношение сил в сети и приведет к ситуации, когда все пулы валидаторов имеют примерно эквивалентное количество делегированных HDX.
 
-The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
-
-:::note
-In our incentivized testnet called Snakenet, the amount of rewards received for staking your HDX tokens is estimated to be around **50% APY**.
-:::
-
-## Era points {#era-points}
-
-Validators can earn additional rewards in proportion to the era points which they have gained in the past era. These rewards are added to the base rewards described above. Validators can earn era points by carrying out certain specific actions such as:
-
-* producing a non-uncle block in the Relay Chain.
-* producing a reference to a previously unreferenced uncle block.
-* producing a referenced uncle block.
+Распределение наград происходит следующим образом. После расчета (равной) суммы вознаграждения для каждого пула валидаторов, валидатор получает свою долю в виде **комиссионных сборов** за поддержание узла. На втором этапе оставшиеся токены распределяются между всеми ставками **пропорционально** (включая собственную ставку валидатора). Это означает, что более высокие делегации получат большую часть вознаграждений, относящихся к конкретному пулу валидаторов.
 
 :::note
-An uncle block is a Relay Chain block valid in every regard, which however has failed to become canonical. This can happen when two or more validators are block producers in a single slot, and the block produced by one validator reaches the next block producer before the others. The lagging blocks are called uncle blocks.
+В нашей стимулируемой тестовой сети Snakenet сумма вознаграждений, полученных за размещение ваших токенов HDX, оценивается примерно в **50% APY**.
 :::
 
-## Tips {#tips}
+## Очки за Эру {#era-points}
 
-Finally, validators can earn tips which are also added to the base rewards at the end of every era. Tips represent an additional transaction fee that can be optionally paid by users to give their transaction a higher priority.
+Валидаторы могут получать дополнительные награды пропорционально очкам эры, которые они получили в прошлой эре. Эти награды добавляются к базовым наградам, описанным выше. Валидаторы могут зарабатывать очки эры, выполняя определенные действия, такие как:
+
+* создание блока, отличного от "uncle block", в Relay Chain.
+* создание ссылки на ранее не упоминавшийся "uncle block".
+* создание упомянутого "uncle block".
+
+:::note
+"Uncle block" - это блок в Relay Chain, действительный во всех отношениях, который, однако, не стал каноническим. Это может произойти, когда два или более валидатора являются производителями блоков в одном слоте, и блок, созданный одним валидатором, достигает следующего производителя блоков раньше других. Отстающие блоки называются "uncle blocks".
+:::
+
+## Чаевые {#tips}
+
+Наконец, валидаторы могут зарабатывать чаевые, которые также добавляются к базовым наградам в конце каждой эры. Чаевые представляют собой дополнительную комиссию за транзакцию, которая может быть дополнительно оплачена пользователями, чтобы повысить приоритет своей транзакции.

@@ -1,67 +1,67 @@
 ---
 id: identity
-title: Set your Identity
+title: Установите свою личность
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
+Владельцы счетов имеют возможность установить свою личность, предоставив определенную информацию и сохранив ее в сети. Кроме того, идентификационная информация может быть отправлена регистраторам HydraDX для проверки. Устанавливая и проверяя свою личность, валидаторы и номинаторы помогают повысить доверие к сети.
 
 :::note
-If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
+Если вы участвуете в качестве валидатора HydraDX, мы **настоятельно рекомендуем** вам указать свою личность и пройти процесс проверки. Проверенные валидаторы выглядят более надежными и привлекают больше номинаций, тем самым увеличивая шансы быть включенными в набор активных валидаторов.
 :::
 
-## 01 Set identity {#01-set-identity}
+## 01 Установка идентичности {#01-set-identity}
 
-To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
+Чтобы установить свою личность, откройте Polkadot/apps (подключенный к сети *HydraDX Snakenet*) и перейдите в *Мои учетные записи*. Как вариант, вы можете перейти по этой ссылке:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
-On the accounts page, locate the account holding your bonded HDX tokens. After that, click on the three dots next to the account (on the right side) and select *Set on-chain identity*.
+На странице учетных записей найдите учетную запись, в которой хранятся ваши привязанные токены HDX. После этого нажмите на три точки рядом с учетной записью (справа) и выберите *Установить идентификацию в сети*.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
-You will see a popup called *register identity*. Here, you can enter the following information:
+Вы увидите всплывающее окно с названием *зарегистрировать личность*. Здесь вы можете ввести следующую информацию:
 
 * legal name
 * email
 * web address
 * twitter
-* riot name (in case you are using Matrix messaging)
+* riot name (если вы используете систему обмена сообщениями Matrix)
 
-In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
+В последнем поле всплывающего окна вы можете увидеть сумму HDX, которую вам нужно внести для хранения вашей идентификационной информации. Вы получите этот депозит обратно, как только решите очистить информацию о своей личности.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
-After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
+После заполнения информации нажмите *Set Identity* и подпишите транзакцию с помощью расширения браузера Polkadot.js. После подтверждения транзакции данные ваша личности установлены.
 
-## 02 Submit your identity for verification {#02-verify-identity}
+## 02 Отправьте вашу личность для проверки {#02-verify-identity}
 
-After you have set your identity, you can submit it to the network registrars for verification. To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
+После того, как вы установили свою личность, вы можете отправить ее регистраторам сети для проверки. Для этого откройте Polkadot/apps и перейдите в *Developer*>*Extrinsics*. Как вариант, вы можете перейти по этой ссылке:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
+После выбора соответствующей учетной записи HydraDX на последнем шаге вам необходимо заполнить следующую информацию:
 
 * **extrinsic**: identity
-* **action**: requestJudgment
-* **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
+* **action**: requestJudgement
+* **reg_index**: здесь вам нужно ввести идентификатор регистратора, которого вы выбираете для проведения проверки.
 HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
-* **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
+* **max_fee**: здесь вам нужно ввести максимальную плату в HDX, которую вы готовы заплатить регистратору за проверку. Только регистраторы с комиссией ниже вашего max_fee будут иметь право проводить проверку.
 
-To submit your verification request, click on *Submit Transaction* and sign the transaction.
+Чтобы отправить запрос на подтверждение, нажмите *Отправить транзакцию* (или *Submit Transaction*) и подпишите транзакцию.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
-Please note that the process of identity verification may take some time to complete. To see the status of your request, navigate to **My accounts** and hover the section displaying your identity - you will see a popup showing the current status.
+Обратите внимание, что процесс подтверждения личности может занять некоторое время. Чтобы увидеть статус вашего запроса, перейдите в **Мои учетные записи** (или **My accounts**) и наведите указатель мыши на раздел, отображающий вашу личность - вы увидите всплывающее окно с текущим статусом.
 
-## 03 Outcome of the verification procedure {#03-verification-outcome}
+## 03 Результаты проверки {#03-verification-outcome}
 
-After processing your verification request, the registrar will submit one of the following judgments which will become visible in your identity status:
+После обработки вашего запроса на подтверждение регистратор представит одно из следующих решений, которые станут видны в вашем статусе личности:
 
-* **Unknown** - default value, no judgment has been made yet.
-* **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
-* **KnownGood** - the information is correct.
-* **OutOfDate** - the information was correct in the past but it is now out of date.
-* **LowQuality** - the information is unprecise but it can be fixed by updating it.
-* **Erroneous** - the provided information is wrong and might indicate a malicious intent.
+* **Unknown** - значение по умолчанию, суждение еще не вынесено.
+* **Reasonable** - предоставленная информация кажется разумной, однако никаких углубленных проверок не проводилось.
+* **KnownGood** - информация верна.
+* **OutOfDate** - информация была верной в прошлом, но теперь она устарела.
+* **LowQuality** - информация неточная, но ее можно исправить, обновив.
+* **Erroneous** - предоставленная информация неверна и может указывать на злой умысел.
