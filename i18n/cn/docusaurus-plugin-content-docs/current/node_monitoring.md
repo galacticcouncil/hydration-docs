@@ -299,7 +299,7 @@ $ sudo systemctl daemon-reload && sudo systemctl enable grafana-server && sudo s
 
 ###访问 Web 界面 {#accessing-the-web-interface}
 
-我们将能够在 http：// localhost：3000 / 上打开 Grafana Web 界面。 
+我们将能够在 http://localhost:3000/ 上打开 Grafana Web 界面。 
 默认登录 Grafana 为：  
 User: `admin`  
 Password: `admin`  
