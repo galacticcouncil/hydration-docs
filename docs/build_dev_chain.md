@@ -1,6 +1,6 @@
 ---
 id: build_dev_chain
-title: Set up a development chain
+title: Set up a Development Chain
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

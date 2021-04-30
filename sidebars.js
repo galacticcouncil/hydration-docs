@@ -9,6 +9,7 @@ module.exports = {
       "start_nominating",
       "start_validating",
       "identity",
+      "staking_claim_rewards",
       {
         type: "category",
         label: "Connect to a Node",
