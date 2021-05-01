@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 01 设置身份 {#01-set-identity}
 
-要设置您的身份，请打开 Polkadot/apps（连接到 *HydraDX Snakenet* 网络），然后导航到 *My accounts* （我的账户）。或者，您也可以点击以下链接：
+要设置您的身份，请打开 Polkadot/apps（连接到 *HydraDX Snakenet* （蛇网）网络），然后导航到 *My accounts* （我的账户）。或者，您也可以点击以下链接：
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
@@ -21,13 +21,13 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
-您将看到一个名为 *register identity* （注册身份）的弹出窗口。在这里，您可以输入以下信息：
+您将看到一个名为 *register identity* （注册身份）的弹窗。在这里，您可以输入以下信息：
 
 * legal name（法定名称）
-* email（邮箱）
-* web（网址）
+* email（邮件）
+* web（网络）
 * twitter（推特）
-* riot name（防爆名称）（以防您使用矩阵传递）
+* riot name（roit姓名）（以防您使用矩阵传递）
 
 在弹出窗口的最后一个字段，你可以看到需存入的 HDX 数量，作为存储您身份信息的保证金。以后，一旦决定清除身份信息，这笔保证金将会被您回收。
 
@@ -37,7 +37,7 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 ## 02 提交身份证明 {#02-verify-identity}
 
-在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer* > *Extrinsics* 。或者，您也可以点击这个链接:
+在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，您也可以点击这个链接:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
