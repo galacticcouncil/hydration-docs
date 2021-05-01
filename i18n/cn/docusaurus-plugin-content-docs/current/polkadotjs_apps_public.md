@@ -19,13 +19,13 @@ HydraDX 和我们的合作伙伴运营着两个公共 RPC 节点。使用这些�
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-单击 **LIVE NETWORKS**（当前网络），然后选择 **HydraDX**：
+单击 **LIVE NETWORKS**（现行网络），然后选择 **HydraDX**：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/public-1.png')} />
 </div>
 
-选择其中一个 RPC 节点，单击 **Switch**（切换）：
+选择其中一个 RPC 节点，单击 **Switch**（转换）：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/public-2.png')} />
