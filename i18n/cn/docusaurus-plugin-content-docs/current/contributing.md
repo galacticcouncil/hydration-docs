@@ -27,13 +27,13 @@ title: 撰写文件
 
 ## 重点 {#emphasis}
 
-强调：又称斜体，可在文字前后添加 *单星号* 或 _下划线_。
+强调：又称斜体，可在文字前后添加 *单星号* 或 _下划线_ 。
 
 重点突出：又称黑体，可在文字前后添加 **双星号** 或 _下划线_ 。
 
-组合强调：可在文字前后同时添加 **双星号和_下划线_**。
+组合强调：可在文字前后同时添加 **双星号和_下划线_** 。
 
-删除线：在文字前后添加两个波浪号 ~~这是啥东东？~~。
+删除线：在文字前后添加两个波浪号 ~~这是啥东东？~~ 。
 
 ---
 
@@ -80,11 +80,11 @@ URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 
 
 这是我们的标志（悬停以查看标题文本）:
 
-内联型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
+内联型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 1')
 
 参考型： ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 2'
 
 通过提供文件路径，可以使用任何文件夹中的图像。路径应指向 markdown 文件。
 
@@ -127,7 +127,7 @@ function highlightMe() {
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-每个标题单元格，至少须有3个破折号（-）。 外框线（|）是可选的，您不需要把原始 Markdown 排列得很漂亮（会自动排列整齐）。 您也可以使用内嵌 Markdown 。
+每个标题单元格，至少须有 3 个破折号（-）。 外框线（|）是可选的，您不需要把原始 Markdown 排列得很漂亮（会自动排列整齐）。 您也可以使用内嵌 Markdown 。
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
@@ -150,10 +150,10 @@ function highlightMe() {
 
 <dl>
   <dt>定义清单</dt>
-  <dd>是人们有时会用到的东西.</dd>
+  <dd>是人们有时会用到的东西。</dd>
 
-  <dt>Markdown在HTML中</dt>
-  <dd> *不* 是 **很** 好。使用 HTML <em>标记</em>.</dd>
+  <dt>Markdown 在 HTML 中</dt>
+  <dd> *不* 是 **很** 好用。使用 HTML <em>标记</em>。</dd>
 </dl>
 
 ---
@@ -163,15 +163,15 @@ function highlightMe() {
 这是我们要开始的第一行。
 
 
-本行与上面一行之间，有两个换行符，因此它将成为一个_单独段落_。
+本行与上面一行之间，有两个换行符，因此它将成为一个_单独段落_ 。
 
-本行也是一个单独段落，但是…这一行只用一个换行符隔开，所以它是_同一段落_中的单独一行。
+本行也是一个单独段落，但是......这一行只用一个换行符隔开，所以它是_同一段落_ 中的单独一行。
 
 ---
 
 ## 告诫 {#admonitions}
 
-（请保持题头： Note、Tip、Important、Caution、Warning 为英文状态，内容可用您想用的语言进行撰写。）
+注：请保持题头：note、tip、important、caution、warning为原始英文状态，内容可根据您的需要撰写。
 
 :::note
 
