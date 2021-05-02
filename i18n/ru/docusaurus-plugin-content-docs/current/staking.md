@@ -5,42 +5,42 @@ title: Staking
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section provides a brief introduction into how staking works in the HydraDX network. If you are not familiar with staking in a Substrate-based network, we recommend that you read this before deciding to participate.
+В этом разделе представлено краткое введение в то, как работает стекинг в сети HydraDX. Если вы не знакомы со стейкингом в сети на основе Субстратов (Substrate), мы рекомендуем вам прочитать эту статью, прежде чем принимать решение об участии.
 
-The consensus mechanism used by HydraDX is called Nominated Proof-of-Stake (NPoS). NPoS is a variation of Proof-of-Stake and is used in Substrate-based blockchains such as Polkadot and Kusama. The two central actors in an NPoS environment are called [**validators**](#validators) and [**nominators**](#nominators). 
+Механизм консенсуса, используемый HydraDX, называется Nominated Proof-of-Stake (NPoS). NPoS является разновидностью Proof-of-Stake и используется в блокчейнах на основе субстрата, таких как Polkadot и Kusama. Два центральных участника в среде NPoS называются [**валидаторами**](#validators) и [**номинаторами**](#nominators).
 
-### Validators {#validators}
+### Валидаторы {#validators}
 
-Validators participate in the network by running validator nodes, which provide the infrastructure that allows the HydraDX network to operate securely. Validator nodes fulfill three functions which are of paramount importance to the consensus mechanism. In the first place, they validate the information contained in blocks, such as the identity of the parties and the subject of the contract. In the second place, validators participate in the production of new blocks based on the validity statements of other validators. In the third place, they guarantee the finality of blockchain transactions.
+Валидаторы участвуют в сети, запустив узлы валидаторов, которые обеспечивают инфраструктуру, позволяющую сети HydraDX работать безопасно. Узлы валидатора выполняют три функции, которые имеют первостепенное значение для механизма консенсуса. Во-первых, они проверяют информацию, содержащуюся в блоках, такую как личность сторон и предмет договора. Во-вторых, валидаторы участвуют в создании новых блоков на основе заявлений о валидности других валидаторов. В-третьих, они гарантируют окончательность транзакций блокчейна.
 
-An important characteristic of NPoS is that not all validators participate in the validating process at the same time. Only validators in the *active validator set* perform the above-mentioned operations and earn rewards for doing so. The set of active validators is limited to a fixed number of nodes. In [HydraDX Snakenet](/snakenet) we expect this number to be around 300, scaling it up as we progress towards mainnet.
+Важной характеристикой NPoS является то, что не все валидаторы участвуют в процессе валидации одновременно. Только валидаторы в активном наборе валидаторов выполняют вышеупомянутые операции и получают за это вознаграждение. Набор активных валидаторов ограничен фиксированным количеством узлов. В [HydraDX Snakenet](/snakenet) мы ожидаем, что это число будет около 300, и оно будет увеличиваться по мере продвижения к основной сети.
 
-Validators are elected into the active set by following the principle of *proportional justified representation*. This principle aims to safeguard decentralization and fair representation by assigning the available slots to validators in proportion to their nominated stake. The higher the amount of staked tokens with a given validator, the higher the chance that the node will be elected in the active set. Validators which are not included in the active set are placed on a waiting list. The set of active validators is updated at the beginning of every era, providing a possible entry window for new validators.
-
-:::note
-
-In a Substrate-based network, time is divided in units called **eras**. In [HydraDX Snakenet](/snakenet), *1 Era = 24 hours*.
-
-:::
-
-Participating as a validator requires a certain level of technical knowledge for securely setting up and maintaining a validator node. Misbehavior of the validator node can be punished by slashing, resulting in an involuntary loss of funds for you and your nominators. If you believe that you have the necessary experience for running a validator node, you can refer to our [validator guide](/node_setup). Otherwise, we highly recommend that you consider participating as a nominator.
-
-### Nominators {#nominators}
-
-Nominators help secure the network by nominating validators to be elected in the active validator set. They do so by staking their HDX tokens with the validators of their choice. The nomination process does not require running and maintaining nodes, making this form of staking more accessible to everybody. Tokens which are used to nominate validators are *bonded*, meaning that they are frozen and cannot be used for other purposes. It is at any time possible to change or stop your nominations which will be reflected at the end of the current era. Nominators can also free up their tokens, however this will only become effective after a waiting period of *28 days* following the unbonding transaction.
-
-Before nominating, you should always do your due diligence and research the credibility of the chosen validators. You can do so by checking their identity as well as historical information like era points, elected stake, rewards and slashes. At the beginning of Snakenet it might be difficult to find all this information, however. If you are in doubt about the choice of validators, approach us in the Discord and we will share our community curated list of trusted validators with you.
-
-Another point to consider when choosing a validator is the *reward commission percentage*. This represents the proportion of the rewards which will be paid out to the validator for providing its services to nominators. The lowest commission percentage is not always the best - running a performant and available node has high operational costs which can only be covered sustainably by demanding a realistic reward commission.
-
-In HydraDX, it is possible to nominate a **maximum of 16 validators** with your stake. Nominating more than one validator, however, does not necessarily mean that your stake will be assigned to all chosen validators every time. When the following era begins, Substrate will run a series of complex algorithms to determine the most optimal distribution of all nominations within the network, with the ultimate goal of deciding which validators are to be included in the set of active validators. If none of the validators you have chosen receives sufficient backing to be included in the active set, your **nominations will remain inactive** for the duration of the era (*24 hours*), and you will also receive no rewards for this period. To maximize the chances of having your stake included in the set of active validators, we strongly advise that you **nominate several validators**, which will also contribute to our efforts in enhancing decentralization.
+Валидаторы избираются в активную группу по принципу *пропорционального обоснованного представительства*. Этот принцип направлен на защиту децентрализации и справедливого представительства путем распределения доступных слотов валидаторам пропорционально их номинированной ставке. Чем выше количество поставленных токенов с данным валидатором, тем выше вероятность того, что узел будет выбран в активном наборе. Валидаторы, не входящие в активный набор, помещаются в список ожидания. Набор активных валидаторов обновляется в начале каждой эры, обеспечивая возможное окно входа для новых валидаторов.
 
 :::note
 
-Make sure that you do not nominate validators that are oversubscribed. Currently, there is a **limit of 64 nominations** for a single validator, after which it becomes oversubscribed. When the following era begins, an oversubscribed validator will only be elected using the maximum allowed number of nominators. If this occurs, the nominators with the highest stake take precedence, while the nominators with the lowest stake will be disregarded and will not earn any awards during that era.
-
-Nominating is a more accessible form of staking however it also bears risks. Validators which breach the rules of the network may be punished by slashing, resulting in loss of funds for both the validator and its nominators. This is why it is important to only nominate reputable validator nodes.
+В сети на основе субстрата время делится на единицы, называемые **эрами**. В [HydraDX Snakenet](/snakenet) *1 эра = 24 часа*.
 
 :::
 
-Are you interested in staking your HDX tokens by nominating validators? Check out our [nominator guide](/start_nominating) to start nominating.
+Для участия в качестве валидатора требуется определенный уровень технических знаний для безопасной настройки и обслуживания узла валидатора. Неправильное поведение узла валидатора может быть наказано рубкой (слешингом), что приведет к непреднамеренной потере средств для вас и ваших номинантов. Если вы считаете, что у вас есть необходимый опыт для запуска узла валидатора, вы можете обратиться к нашему [руководству по валидатору](/node_setup). В противном случае мы настоятельно рекомендуем вам рассмотреть возможность участия в качестве номинатора.
+
+### Номинаторы {#nominators}
+
+Номинаторы помогают защитить сеть, назначая валидаторов для избрания в активный набор валидаторов. Они делают это, размещая свои токены HDX у валидаторов по своему выбору. Процесс номинации не требует запуска и обслуживания узлов, что делает эту форму размещения ставок более доступной для всех. Токены, которые используются для назначения валидаторов, *связаны*, что означает, что они заморожены и не могут использоваться для других целей. Вы можете в любой момент изменить или отменить свои номинации, что будет отражено в конце текущей эры. Номинаторы также могут высвободить свои токены, однако это вступит в силу только после *28-дневного* периода ожидания после транзакции по разъединению.
+
+Перед номинированием вы всегда должны проявлять должную осмотрительность и исследовать надежность выбранных валидаторов. Вы можете сделать это, проверив их личность, а также историческую информацию, такую как точки эпох, выбранная ставка, награды и слешинги. Однако в начале Snakenet было сложно найти всю эту информацию. Если вы сомневаетесь в выборе валидаторов, обратитесь к нам в Discord, и мы поделимся с вами списком доверенных валидаторов, созданным нашим сообществом.
+
+Еще один момент, который следует учитывать при выборе валидатора - это *процент вознаграждения*. Это доля вознаграждения, которая будет выплачена валидатору за предоставление своих услуг номинантам. Самый низкий процент комиссии не всегда является лучшим - запуск работоспособного и доступного узла требует высоких эксплуатационных расходов, которые могут быть покрыты, только если потребовать реалистичное вознаграждение.
+
+В HydraDX можно номинировать свои токены **максимум 16 валидаторам**. Однако назначение более одного валидатора не обязательно означает, что ваша ставка будет каждый раз назначаться всем выбранным валидаторам. Когда начнется следующая эра, Substrate запустит серию сложных алгоритмов для определения наиболее оптимального распределения всех номинаций в сети с конечной целью решить, какие валидаторы должны быть включены в набор активных валидаторов. Если ни один из выбранных вами валидаторов не получит достаточной поддержки для включения в активный набор, ваши **номинации останутся неактивными** в течение периода (24 часа), и вы также не получите никаких наград за этот период. Чтобы максимизировать шансы включения вашей ставки в набор активных валидаторов, мы настоятельно рекомендуем вам **назначить несколько валидаторов**, которые также будут способствовать нашим усилиям по улучшению децентрализации.
+
+:::note
+
+Убедитесь, что вы не назначаете валидаторов с избыточной подпиской. В настоящее время существует **ограничение в 64 номинации** для одного валидатора, после чего его подписка будет превышена. Когда начнется следующая эра, валидатор с избыточной подпиской будет выбран только с использованием максимально разрешенного числа номинаторов. В этом случае приоритет отдается номинантам с наибольшей ставкой, а номинаторы с наименьшей ставкой не будут учитываться и не получат никаких наград в течение этого периода.
+
+Номинация - более доступная форма размещения ставок, но она также сопряжена с определенными рисками. Валидаторы, нарушающие правила сети, могут быть наказаны рубкой (слешингом), что приведет к потере средств как для валидатора, так и для его номинаторов. Вот почему важно назначать только авторитетные узлы-валидаторы.
+
+:::
+
+Вы заинтересованы в размещении своих токенов HDX путем назначения валидаторов? Ознакомьтесь с нашим [руководством для номинантов](/start_nominating), чтобы начать номинирование.
