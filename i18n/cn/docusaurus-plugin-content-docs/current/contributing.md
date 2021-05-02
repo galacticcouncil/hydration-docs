@@ -56,9 +56,9 @@ title: 撰写文件
 
 ## 链接 {#links}
 
-[内联型链接](https://www.google.com/)
+[内嵌型链接](https://www.google.com/)
 
-[标题内联型链接](https://www.google.com/ "Google's Homepage")
+[标题内嵌型链接](https://www.google.com/ "Google's Homepage")
 
 [参考型链接][arbitrary case-insensitive reference text]
 
@@ -66,7 +66,7 @@ title: 撰写文件
 
 或留空并使用[链接文本本身]
 
-URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 <http://www.example.com/> ，有时是 example.com（举例，不在GitHub上）。
+URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 <http://www.example.com/> ，有时是 example.com（举例，不在 GitHub 上）。
 
 一些文本表明参考链接可以在以后使用。
 
@@ -80,7 +80,7 @@ URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 
 
 这是我们的标志（悬停以查看标题文本）:
 
-内联型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 1')
+内嵌型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 1')
 
 参考型： ![alt text][logo]
 
@@ -146,7 +146,7 @@ function highlightMe() {
 
 ---
 
-## 内联 HTML {#inline-html}
+## 内嵌 HTML {#inline-html}
 
 <dl>
   <dt>定义清单</dt>
@@ -171,7 +171,7 @@ function highlightMe() {
 
 ## 告诫 {#admonitions}
 
-注：请保持题头：note、tip、important、caution、warning为原始英文状态，内容可根据您的需要撰写。
+注：请保持题头：note、tip、important、caution 和 warning 为原始英文状态，内容可根据您的需要撰写。
 
 :::note
 
