@@ -1,6 +1,6 @@
 ---
 id: polkadotjs_apps_public 
-title: Connect to a public node
+title: Connect to a Public Node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
