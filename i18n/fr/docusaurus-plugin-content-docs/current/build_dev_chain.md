@@ -1,30 +1,30 @@
 ---
 id: build_dev_chain
-title: Set up a development chain
+title: Configurer une chaîne de développement
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section runs you through the process of setting up a local HydraDX chain instance for development. 
+Cette section vous guide au long du processus de configuration de votre instance de chaîne HydraDX locale pour le développement.
 
 :::note
-Are you looking to set up a node for validation purposes? Please move to our [validator setup guide](/node_setup).
+ëtes vous en train de chercher à configurer un node pour des raisons de validation ? Veuillez vous rendre au [guide de configuration de node](/node_setup).
 :::
 
-## 01 Install dependencies {#01-install-dependencies}
+## 01 installer les dépendences {#01-install-dependencies}
 
-To prepare a local HydraDX chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
+Pour préparer une instance de chaîne HydraDX locale pour le développement, votre machine doit couvrir toutes les dépendances pour faire fonctionner une chaîne Substrate. Vous devrez installer un environnement de développement Rust et vous assurer qu'il est configuré convenablement pour compiler du code d'exécution Substrate dans la cible WebAssembly (Wasm).
 
-You can install and configure all dependencies manually following the [Substrate guide](https://substrate.dev/docs/en/knowledgebase/getting-started), or you could let this script do all the work for you:
+Vous pouvez installer et configurer toutes les dépendances manuellement en suivant le [guide de Substrate](https://substrate.dev/docs/en/knowledgebase/getting-started), ou vous pourriez laisser ce script faire tout le travail pour vous:
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
 $ source ~/.cargo/env
 ```
 
-## 02 Build {#02-build}
+## 02 Construire (build) {#02-build}
 
-Build the Wasm and native execution environments:
+Construire le Wasm et les environnements d'exécution natifs:
 
 ```bash
 # Fetch source of the latest stable release
@@ -35,17 +35,17 @@ $ cd HydraDX-node/
 $ cargo build --release
 ```
 
-You should be able to find the build under `./target/release/hydra-dx`.
+Vous devriez être capable de trouver le build (la construction) à `./target/release/hydra-dx`.
 
-## 03 Run {#03-run}
+## 03 exécuter {#03-run}
 
-Before running your build you can purge any existing development chains on your machine (you will need to do this often in the development process):
+avant d'exécuter votre build vous pouvez purger n'importe quel chaîne de développement existante sur votre machine (vous devrez faire ça souvent dans le processus de développement):
 
 ```bash
 $ ./target/release/hydra-dx purge-chain --dev
 ```
 
-Run your build using one of the following commands:
+exécuter votre build en utilisant une des commandes suivantes:
 
 ```bash
 $ ./target/release/hydra-dx --dev
@@ -54,9 +54,9 @@ $ ./target/release/hydra-dx --dev
 $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --dev
 ```
 
-## 04 Connect to your local chain instance {#04-connect-to-your-local-chain-instance}
+## 04 Connectez vous à voitre instance de chaîne locale {#04-connect-to-your-local-chain-instance}
 
-You can connect to your HydraDX development node using Polkadot/apps and changing network to `Development`. You can also use this link:  
+Vous pouvez vous connecter à votre node de développement HydraDX en utilisant Polkadot/apps et en changeant le réseau en `Développement`. Vous pouvez aussi utilisez ce lien: 
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
 
 <img alt="connect to node" src={useBaseUrl('/building/connect-to-node.jpg')} />
