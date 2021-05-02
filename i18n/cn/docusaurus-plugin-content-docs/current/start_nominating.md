@@ -17,7 +17,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 00 Staking（质押）界面 {#00-staking-ui}
 
-要访问 Staking （质押）界面，您首先要打开 Polkadot/apps，将其连接到 [公共 HydraDX RPC 节点](/polkadotjs_apps_public) 之一，并确保可以看到您的 [帐户余额](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) 。
+要访问 Staking （质押）界面，您首先要打开 Polkadot/apps，将其连接到 **[公共 HydraDX RPC 节点](/polkadotjs_apps_public)** 之一，并确保可以看到您的 **[帐户余额](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)** 。
 
 :::note
 
@@ -80,7 +80,7 @@ Staking （质押）界面，具有以下菜单选项：
 
 ## 02 提名验证人 {#02-nominate-a-validator}
 
-绑定 HDX 之后，您现在可以提名验证人了。 在决定提名之前，您应该进行尽职调查，并根据其历史表现来决定要提名哪些验证人。 为此，请参考 [上面讨论](#00-staking-ui) 的 Staking （质押）界面中的信息。
+绑定 HDX 之后，您现在可以提名验证人了。 在决定提名之前，您应该进行尽职调查，并根据其历史表现来决定要提名哪些验证人。 为此，请参考 **[上面讨论](#00-staking-ui)** 的 Staking （质押）界面中的信息。
 
 :::note
 
@@ -113,7 +113,7 @@ HydraDX Snakenet （蛇网）每个验证节点 **最多只能有64个提名人*
 
 *Network*（网络）> *Staking*（质押）> *Account actions*（账户操作）
 
-您可以在 *Waiting nominations* （等待提名）下看到您的无效提名：
+您可以在 *Waiting nominations* （等待中的提名）下看到您的无效提名：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/nominator-guide/nominate-validator-3.png')} />
