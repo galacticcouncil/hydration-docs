@@ -5,7 +5,7 @@ title: HDX beanspruchen
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Um Ihre HDX Token aus der xHDX ERC-20 Token-Repräsentation beanspruchen zu können, benötigen sie Ihr originales Wallet in welchem Sie Ihre Token im Ethereum Netzwerk aufbewahren, die polkadot.js Browsererweiterung, und ein paar Minuten Zeit.
+Um Ihre HDX Token aus der xHDX ERC-20 Token-Repräsentation beanspruchen zu können, benötigen sie Ihr originales Wallet in welchem Sie Ihre Token im Ethereum Netzwerk aufbewahren, die polkadot.js Browsererweiterung, und ein paar Minuten Zeit. 
 
 ## Vorbereitung {#prequisites}
 
