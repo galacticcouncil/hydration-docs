@@ -1,36 +1,36 @@
 ---
 id: staking_rewards
-title: Récompenses de délégation (staking)
+title: Staking Rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Les récompenses de staking (délégation) incitent les validateurs et nominateurs à [déléguer leurs tokens HDX](/staking). Il y a trois types de récompenses de staking qui sont détaillés dans l'article: [les récompenses de base](#base-rewards), [les points d'ère](#era-points) et [les pourboires (tips)](#tips).
+Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
 
-## Récompenses de base {#base-rewards}
+## Base Rewards {#base-rewards}
 
-À la fin de chaque ère (24h), toutes les pools de validateurs actifs reçoivent des récompenses de base sous la forme de tokens HDX. Une poule de validateur est constitué d'un validateur élu (qui garde ses propres HDX délégué (staked)) et toutes les nominations actives qui soutiennent le validateur (pour plus d'informations, voir [Staking (déléguer)](/staking)). Un principe central de la mécanique de consensus du Nominated Proof-of-Stake (NPOS) (en français, Preuve de délégation nominée) est que **à travail égal, récompenses égales**. En autres termes, puisque toutes les pools de validateur produisent essentiellement le même travail, **les récompenses de base disponibles sont partagées de manière égale** entre elles. Cela signifie que les pools de validateurs **ne sont pas** récompensées en fonction de leur délégation totale, ce qui est un différence majeure avec avec les réseaux PoS (preuve de délégation) traditionnels. 
+At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
 
-La mécanique de partager les récompenses de base de manière égale entre les poules validatrices participantes contribue à la sécurité du réseau en empêchant la concentration de pouvoir chez une petite partie des poules validatrices, renforçant ainsi la décentralisation. Au fil du temps, cela incite les nominateurs à nominer des validateurs avec des délégations de HDX plus petites. Ce processus équilibrera à la longue la relation de pouvoir dans le réseau et mènera à une situation dans laquelle toutes les poules validatrices auront plus ou moins un montant de HDX délégués équivalent.
+The mechanism of sharing the base rewards equally among all participating validator pools contributes to the security of the network by preventing the concentration of power in a few validator pools, thereby strengthening decentralization. Over time, it incentivizes nominators to nominate validators with a smaller HDX stake. This process will eventually balance out the power relationships in the network and lead to a situation where all validator pools have roughly an equivalent amount of staked HDX.
 
-La distribution de récompenses se passe comme suit. Après avoir calculé le montant (égal) de récompenses pour chaque pool validatrice, le validateur reçoit sa part sous la forme de **frais de commission** pour maintenir le node (nœud). pour la deuxième étape, les tokens restants sont distribués parmi tous les stakes (délégations) **proportionnellement** (en incluant la propre délégation (stake) du validateur). Cela signifie que des délégations plus élevées recevront une plus grosse proportion des récompenses attribuées à une poule validatrice particulière.
-
-:::note
-Dans notre testnet récompensé appelé Snakenet, le montant de récompenses reçues pour la délégation de vos tokens HDX est estimé aux alentours de **50% de APY (taux de rendement moyen annuel)**.
-:::
-
-## Points d'ère {#era-points}
-
-Les validateurs peuvent gagner des récompenses supplémentaires en proportions des points d'ère qu'ils ont gagnés sur l'ère passée. Ces récompenses sont ajoutées aux récompenses de base décrites ci-dessus. Les validateurs peuvent gagner des points d'ère en accomplissant certaines tâches spécifiques, telles que:
-
-* Produire un bloc non-oncle (non-uncle) dans la chaîne relai.
-* produire une référence à un bloc oncle (uncle block) non encore référencé.
-* produire un bloc oncle référencé.
+The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
 
 :::note
-Un bloc oncle est un bloc valide de la chaîne relai sous tout aspect, qui cependant ne peut pas être canonique. Cela peut arriver quand deux validateurs ou plus sont producteurs de blocs dans un seul slot (créneau), et que le bloc produit par un validateur atteint le producteur de bloc suivant avant les autres. Les blocs en retards sont appelés blocs oncles.
+In our incentivized testnet called Snakenet, the amount of rewards received for staking your HDX tokens is estimated to be around **50% APY**.
 :::
 
-## Pourboires {#tips}
+## Era points {#era-points}
 
-Enfin, les validateurs peuvent gagner des pourboires qui seront aussi ajoutés aux récompenses de base à la fin de chaque ère. Les pourboire représentent un frais de transaction supplémentaire qui peut être payé optionnellement par les utilisateurs qui donnent une plus haute priorité à leur transaction.
+Validators can earn additional rewards in proportion to the era points which they have gained in the past era. These rewards are added to the base rewards described above. Validators can earn era points by carrying out certain specific actions such as:
+
+* producing a non-uncle block in the Relay Chain.
+* producing a reference to a previously unreferenced uncle block.
+* producing a referenced uncle block.
+
+:::note
+An uncle block is a Relay Chain block valid in every regard, which however has failed to become canonical. This can happen when two or more validators are block producers in a single slot, and the block produced by one validator reaches the next block producer before the others. The lagging blocks are called uncle blocks.
+:::
+
+## Tips {#tips}
+
+Finally, validators can earn tips which are also added to the base rewards at the end of every era. Tips represent an additional transaction fee that can be optionally paid by users to give their transaction a higher priority.
