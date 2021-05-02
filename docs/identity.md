@@ -52,7 +52,7 @@ Pour soumettre la requête de vérification, cliquez sur *Soumettre la transacti
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
-Veuillez noter que le processus de vérification d'identité peut prendre du temps pour aboutir. Pour voir le statut de votre requête, naviguez jusque **Mes comptes** et passez le curseur sur la section montrant votre identité - vous verrez une fenêtre popup montrant le statut actuel.
+Veuillez noter que le processus de vérification d'identité peut prendre du temps pour aboutir. Pour voir le status de votre requête, navigez jusque **Mes comptes** et passez le curseur sur la section montrant votre identité - vous verrez une fenêtre popup montrant le statut actuel.
 
 ## 03 Résultat de la procédure de vérification {#03-verification-outcome}
 
