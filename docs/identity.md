@@ -1,66 +1,67 @@
 ---
 id: identity
-title: définir votre identité
+title: Set your Identity
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Les titulaires ed compte ont la possibilité de définir leur identité en fournissant des informations spécifiques et en les stockant on-chain (sur la chaîne). Par ailleurs, l'information de l'identité peut optionnellement être soumise aux gérants de registres pour vérification. En définissant et en vérifiant leur identité, les validateurs et les nominateurs aident à sauvegarder la confiance dans le réseau. 
+Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
 
 :::note
-Si vous participez en tant que validateur HydradDX nous **recommandons fortement** que vous définissiez votre identité et passiez par le procédé de vérification. Les validateurs vérifiés parraissent plus fiables et attirent plus de nominations, de ce fait augmentant leurs chances d'être inclus dans l'ensemble des validateurs actifs.
+If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
 :::
 
-## 01 Définir votre identité {#01-set-identity}
+## 01 Set identity {#01-set-identity}
 
-Pour définir votre identité, ouvrez Polkadot/apps (connecté au réseau *HydraDX Snakenet* ) et naviguez jusqu'à *Mes comptes*. Sinon, vous pouvez suivre ce lien:
+To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
-Sur la page des comptes, repérez le compte qui contient vos tokens HDX engagés. Après ça, cliquez sur les trois points à côté du compte (sur la droite) et sélectionnez *Définir l'identité sur la chaîne de bloc*.
+On the accounts page, locate the account holding your bonded HDX tokens. After that, click on the three dots next to the account (on the right side) and select *Set on-chain identity*.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
-Vous verrez une nouvelle fenêtre appelée *enregistrer votre identité*. Ici, vous pouvez entrer les informations suivantes:
+You will see a popup called *register identity*. Here, you can enter the following information:
 
-* nom légal
+* legal name
 * email
-* adresse web (web)
+* web address
 * twitter
-* nom matrix (riot name en anglais) (au cas où vous utilisez la messagerie Matrix)
+* riot name (in case you are using Matrix messaging)
 
-Dans le dernier champs de la fenêtre, vous pouvez voir le montant de HDX que vous devez déposer pour stocker votre information d'identité. Vous récupérerez la caution quand vous déciderez d'enlever votre identité plus tard.
+In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
-Après avoir rempli les informations, cliquez sur *Définir l'identité* et signer la transaction en utilisant l'extension de navigateur Polkadot.js. Une fois que la transaction est confirmée, votre identité est définie.
+After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
 
-## 02 Soumettre votre identité pour vérification {#02-verify-identity}
+## 02 Submit your identity for verification {#02-verify-identity}
 
-Après avoir défini votre identité, vous pouvez la soumettre aux gérants de registres pour vérification. Pour se faire, ouvrez Polkadot/apps et naviguez jusqu'à *Développeur* > *Extrinsics*. vous pouvez aussi suivre ce lien:
+After you have set your identity, you can submit it to the network registrars for verification. To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-Après avoir sélectionné le compte HydraDX approprié (de l'étape précédente), vous devez remplir les informations suivantes:
+After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
 
 * **extrinsic**: identity
 * **action**: requestJudgment
-* **reg_index**: Ici vous devez entrez l'ID du gérant de registre que vous choisissez pour procéder à la vérification. HydraDX a deux gérants de registres: Simon Kraus - HydraSik (ID: **0**) et Jimmy Tudeski - stakenode (ID: **1**).
-* **max_fee**: Ici vous devez entrer le montant de frais maximum en HDX  que vous êtes prêt à payer au registraire pour la vérification. Seuls les registraires avec des frais inférieurs à votre max_fee vont être éligible pour effectuer la vérification.
+* **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
+HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
+* **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
 
-Pour soumettre la requête de vérification, cliquez sur *Soumettre la transaction* (*Submit Transaction* en anglais) et signez la transaction.
+To submit your verification request, click on *Submit Transaction* and sign the transaction.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
-Veuillez noter que le processus de vérification d'identité peut prendre du temps pour aboutir. Pour voir le status de votre requête, navigez jusque **Mes comptes** et passez le curseur sur la section montrant votre identité - vous verrez une fenêtre popup montrant le statut actuel.
+Please note that the process of identity verification may take some time to complete. To see the status of your request, navigate to **My accounts** and hover the section displaying your identity - you will see a popup showing the current status.
 
-## 03 Résultat de la procédure de vérification {#03-verification-outcome}
+## 03 Outcome of the verification procedure {#03-verification-outcome}
 
-Après avoir effectué votre requête de vérification, le registraire va soumettre un des jugements suivants qui va devenir visible dans votre statut d'identité:
+After processing your verification request, the registrar will submit one of the following judgments which will become visible in your identity status:
 
-* **Unknown** - valeur par défaut, aucun jugement n'a encore été émis.
-* **Reasonable** - les informations fournies paraissent raisonnables, cependant, aucune vérification en profondeur n'a été effectuée.
-* **KnownGood** - l'information est correcte.
-* **OutOfDate** - l'information était correcte avant, mais est n'est maintenant plus à jour.
-* **LowQuality** - l'information est imprécise mais peut être corrigée en la mettant à jour.
-* **Erroneous** - l'information fournie est fausse et pourrait indiquer une intention malveillante.
+* **Unknown** - default value, no judgment has been made yet.
+* **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
+* **KnownGood** - the information is correct.
+* **OutOfDate** - the information was correct in the past but it is now out of date.
+* **LowQuality** - the information is unprecise but it can be fixed by updating it.
+* **Erroneous** - the provided information is wrong and might indicate a malicious intent.
