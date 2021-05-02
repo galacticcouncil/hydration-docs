@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 前提条件 {#prerequisites}
 
-您必须启动并运行 [验证节点](/node_setup) 。
+您必须启动并运行 **[验证节点](/node_setup)** 。
 
 本指南已在 Ubuntu 20.04 LTS 系统，进行了测试。  
 
@@ -42,7 +42,7 @@ $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 
 ### 安装 Prometheus {#install-prometheus}
 
-在 [GitHub发布页面](https://github.com/prometheus/prometheus/releases/) 上检查 Prometheus 的最新版本。 
+在 **[GitHub发布页面](https://github.com/prometheus/prometheus/releases/)** 上检查 Prometheus 的最新版本。 
 在撰写本文时，版本是 v2.25.2。 
 在以下命令中插入最新发行的版本：
 
@@ -180,7 +180,7 @@ $ sudo systemctl daemon-reload && systemctl enable prometheus && systemctl start
 ## Node Exporter（节点导出器） {#node-exporter}
 
 我们将安装 Node Exporter（节点导出器），来抓取将在仪表盘中使用的服务器指标。 
-请在 [此处](https://github.com/prometheus/node_exporter/releases/) 检查最新版本的版本号并更新命令。 
+请在 **[此处](https://github.com/prometheus/node_exporter/releases/)** 检查最新版本的版本号并更新命令。 
 在撰写本文时，最新版本为 `1.1.2` 。
 
 ### 安装 Node Exporter {#install-node-exporter}
@@ -281,7 +281,7 @@ $ sudo systemctl restart prometheus.service
 
 ### 安装 Grafana {#install-grafana}
 
-请通过 [此链接](https://grafana.com/grafana/download?platform=linux) 检查最新的 Grafana 版本。 
+请通过 **[此链接](https://grafana.com/grafana/download?platform=linux)** 检查最新的 Grafana 版本。 
 您可以在以下命令中更改版本号，也可以直接从链接复制安装命令。
 在撰写本文时，最新版本为 `7.5.1` 。
 
@@ -328,7 +328,7 @@ Password: `admin`
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-我们将使用 [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
+我们将使用 **[HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158)** 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />

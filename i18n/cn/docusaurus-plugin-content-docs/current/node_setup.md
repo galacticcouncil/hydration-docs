@@ -49,10 +49,10 @@ $ ntpq -p
 
 端口 `30333` 是 Hydradx 用于网络所有节点服务器的 P2P 服务。如果您的计算机是以验证人的身份运行的，我们建议把防火墙设置为仅可以此端口用于远端访问。
 
-如果您的机器 *不* 用作验证节点，那您可考虑同时打开端口 `9944`（用于 RPC Websocket 服务）和端口 `9933`（用于 HTTP 服务）。您可以使用端口 `9944` 通过 [Polkadot/apps](/polkadotjs_apps_local) 连接到您的节点。
+如果您的机器 *不* 用作验证节点，那您可考虑同时打开端口 `9944`（用于 RPC Websocket 服务）和端口 `9933`（用于 HTTP 服务）。您可以使用端口 `9944` 通过 **[Polkadot/apps](/polkadotjs_apps_local)** 连接到您的节点。
 
 ## 03 下载或安装编译文件 {#03-download-or-build-a-binary}
-您可以在 [github](https://github.com/galacticcouncil/HydraDX-node/releases) 上下载最新的编译文件。
+您可以在 **[GitHub](https://github.com/galacticcouncil/HydraDX-node/releases)** 上下载最新的编译文件。
 
 或者您可以用以下代码自己构建：
 
@@ -89,7 +89,7 @@ $ {PATH_TO_YOUR_BINARY} purge-chain --chain lerna
 
 :::
 
-在运行编译文件前，您需要为您的节点起名，这个名称将会和所有在 Hydradx Snakenet （蛇网）运行的节点一起，在 [Telemetry](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2) （遥测）页面中列出。
+在运行编译文件前，您需要为您的节点起名，这个名称将会和所有在 Hydradx Snakenet （蛇网）运行的节点一起，在 **[遥测页面](https://telemetry.hydradx.io/#/HydraDX%20Snakenet%20Gen2)** 中列出。
 
 ## 05 将程序设置为开机自动运行 {#05-running-with-systemd}
 我们建议将 Hydradx 节点加入系统服务，以避免重启后程序不会自动开启。为此，请创建以下文件，并替换 `{VARIABLE}` 中的变量为您的节点名称：
@@ -135,5 +135,5 @@ $ journalctl -f -u hydradx-validator.service
 
 恭喜您，现在您已经完成验证节点搭建并正在运行！
 
-接下来前往 [开始验证](/start_validating) ，完成剩下的步骤。
+接下来前往 **[开始验证](/start_validating)** ，完成剩下的步骤。
 

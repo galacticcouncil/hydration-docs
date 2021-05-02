@@ -5,25 +5,25 @@ title: 申领您的 HDX
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-您可以使用在 [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) 期间获得的 xHDX 令牌（ERC-20）申领您的 HDX 。 
+您可以使用在 **[Balancer LBP](https://hydradxcn.substack.com/p/lbpgg)** 期间获得的 xHDX 令牌（ERC-20）申领您的 HDX 。 
 
 :::note
 
-没有 xHDX 令牌的您仍想获取一些 HDX 令牌么？感谢您对 HydraDX 的关注，但目前无法购买任何 HDX 令牌——主网上线前 HDX 的转账路径将被冻结。随着主网上线临近，我们将启动激励性社区计划，这些计划可能会给您带来一些早期的 HDX 令牌奖励。如您感兴趣，请 **[订阅我们的新闻通讯](https://hydradxcn.substack.com)** 并加入我们的 Discord 服务器，关注发布的最新消息。
+没有 xHDX 令牌的您仍想获取一些 HDX 令牌么？感谢您对 HydraDX 的关注，但目前无法购买任何 HDX 令牌——主网上线前 HDX 的转账路径将被冻结。随着主网上线临近，我们将启动激励性社区计划，这些计划可能会给您带来一些早期的 HDX 令牌奖励。如感兴趣，请您 **[订阅我们的新闻通讯](https://hydradxcn.substack.com)** 并加入我们的 Discord 服务器，关注发布的最新消息。
 
 :::
 
 ## 前提条件 {#prequisites}
 
-想要申领您的 HDX，需满足两个前提条件。首先，您需要在浏览器上安装 [Polkadot.js 扩展程序](https://polkadot.js.org/extension/)，该扩展程序将用于创建您的 HDX 钱包。其次，您需要访问 xHDX 令牌，这些令牌应存储在支持 ERC-20 令牌消息签名的钱包中（例如 Metamask ）。
+想要申领您的 HDX，需满足两个前提条件。首先，您需要在浏览器上安装 **[Polkadot.js 扩展程序](https://polkadot.js.org/extension/)** ，该扩展程序将用于创建您的 HDX 钱包。其次，您需要访问 xHDX 令牌，这些令牌应存储在支持 ERC-20 令牌消息签名的钱包中（例如 Metamask ）。
 
 如果您的 xHDX 令牌存储在 Coinbase Wallet 或 Trust Wallet 中，则需要使用以下方法之一来申领您的 HDX ，因为这些钱包不支持消息签名：
-* Metamask: 您可以使用 Metamask 扩展程序，并使用恢复种子短语（助记词）导入您的钱包。
-* MEW (MyEtherWallet): 您也可以通过导入恢复种子短语(*助记词* ) 或使用 WalletLink 连接选项来使用 MEW 。可以从 [MEW 钱包访问页面](https://www.myetherwallet.com/access-my-wallet) 访问这两个选项。如果您使用的是 Coinbase 钱包，则可以使用 WalletLink ，该钱包可以找到 Coinbase 钱包的设置。
+* Metamask：您可以使用 Metamask 扩展程序，并使用恢复种子短语（助记词）导入您的钱包。
+* MEW (MyEtherWallet)：您也可以通过导入恢复种子短语(*助记词* ) 或使用 WalletLink 连接选项来使用 MEW 。可以从 **[MEW 钱包访问页面](https://www.myetherwallet.com/access-my-wallet)** 访问这两个选项。如果您使用的是 Coinbase 钱包，则可以使用 WalletLink ，该钱包可以找到 Coinbase 钱包的设置。
 
 ## 申领过程 {#claim-process}
 
-满足上述前提条件后，您可以导航到 [HydraDX 申领程序](https://claim.hydradx.io) ，进入申领流程。
+满足上述前提条件后，您可以导航到 **[HydraDX 申领程序](https://claim.hydradx.io)** ，进入申领过程。
 
 在申领过程中，您将使用您的 xHDX 令牌（ERC-20）申领属于您的 HDX 令牌份额。
 
@@ -47,7 +47,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 在申领过程的第一步，系统将要求您选择持有 xHDX 令牌的帐户。这可以通过连接到支持 ERC-20 令牌（例如 Metamask）的钱包，或通过输入框手动输入 ETH 地址来完成（在这种情况下，您稍后需要手动签名该消息）。
 
-确认您的 ETH 地址后，您应该看到可以申领的 HDX 令牌余额，包括您在 Balancer 上获得 xHDX 所花费的 [Gas退款](https://hydradxcn.substack.com/p/sczltp) （手续费，含交易失败的）。
+确认您的 ETH 地址后，您应该看到可以申领的 HDX 令牌余额，包括您在 Balancer 上获得 xHDX 所花费的 **[Gas 退款](https://hydradxcn.substack.com/p/sczltp)** （手续费，含交易失败的）。
 
 :::note
 
@@ -81,7 +81,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 :::note
 
-请注意，在此步骤中，您将看到 HDX 地址的 **公钥** ，而不是上一步和 Polkadot.js 扩展程序中显示的该地址的可读格式形式的地址（有关更多详细信息，请参阅 **[ss58 docs](https://polkadot.js.org/docs/keyring/start/ss58)** ）。如果您已按照上述所有步骤进行操作，则无需担心，可以安全地对消息进行签名。我们还将验证您在最后一步用于签署申领交易的 HDX 帐户是否与接收所申领的 HDX 的帐户相对应。
+请注意，在此步骤中，您将看到 HDX 地址的 **公钥** ，而不是上一步和 Polkadot.js 扩展程序中显示的该地址的可读格式形式的地址（更多详细信息，请参阅 **[ss58 docs](https://polkadot.js.org/docs/keyring/start/ss58)** ）。如果您已按照上述所有步骤进行操作，则无需担心，可以安全地对消息进行签名。我们还将验证您在最后一步用于签署申领交易的 HDX 帐户是否与接收所申领的 HDX 的帐户相对应。
 
 :::
 
@@ -99,14 +99,14 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
-此时您已经完成了申领流程，已正式成为 HDX 令牌所有者。
+此时您已完成申领过程，从而正式成为 HDX 所有者。
 
-您可以使用连接到 HydraDX Snakenet 网络的 [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) 检查令牌数额。请注意，您无法直接在 Polkadot.js 扩展程序中看到您的 HDX 令牌数额。
+您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)** 检查令牌数额。请注意，您无法直接在 Polkadot.js 扩展程序中看到您的 HDX 令牌数额。
 
 ### 05 接下来做什么? {#05-whats-next}
 
-完成申领流程后，令牌将在您的钱包中保持锁定状态直至主网启动。 
+完成申领过程后，令牌将在您的钱包中保持锁定状态，直至主网启动。 
 
 另一方面，xHDX 令牌（您曾用于申领 HDX ）将永远锁定在您的 ERC-20 钱包中，这意味着您可以将其隐藏（或将其作为 HDX 令牌早期持有者徽章保持可见）。
 
-想让您的 HDX 令牌工作并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网——**Snakenet**（蛇网）。如有兴趣，可以先熟悉 [质押](/staking) 过程，然后再决定以 [验证人](/start_validating) 或 [提名人](/start_nominating) 的身份参加。
+想让您的 HDX 令牌工作并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网——**Snakenet**（蛇网）。如有兴趣，可以先熟悉 **[质押](/staking)** 过程，然后再决定以 **[验证人](/start_validating)** 或 **[提名人](/start_nominating)** 的身份参加。
