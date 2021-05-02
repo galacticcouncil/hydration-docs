@@ -1,6 +1,6 @@
 ---
 id: performance_benchmark
-title: Performance benchmark
+title: Performance Benchmark
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

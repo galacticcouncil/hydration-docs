@@ -7,6 +7,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
 
+:::note
+Staking rewards are not distributed automatically to the accounts of the validators and nominators. Instead, they must be [claimed by triggering a payout](/staking_claim_rewards).
+:::
+
 ## Base Rewards {#base-rewards}
 
 At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
