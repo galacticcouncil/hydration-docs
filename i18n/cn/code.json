@@ -8,7 +8,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "请联系将您引导至本处的原URL所有者，并告知他们其链接已损坏。",
+    "message": "请联系将您引导至此的 URL 所有者，并告知其链接已损坏。",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -136,7 +136,7 @@
     "description": "Title for link to heading"
   },
   "theme.common.editThisPage": {
-    "message": "编辑这个页面",
+    "message": "编辑此页",
     "description": "The link label to edit the current page"
   },
   "theme.lastUpdated.atDate": {
@@ -152,7 +152,7 @@
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.common.skipToMainContent": {
-    "message": "跳到主体内容",
+    "message": "跳转到主要内容",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   }
 }
