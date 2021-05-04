@@ -29,6 +29,10 @@ Sie sehen ein Popup mit dem Namen *register identity*. Hier können Sie folgende
 * Twitter
 * Riotname (falls Sie Matrix verwenden)
 
+:::note
+Sämtliche Angaben sind optional. Sie können nach Belieben entscheiden welche Angaben Sie hinterlegen möchten. Wenn Sie jedoch eine Validator Node betreiben möchten wir Sie darum bitten Ihre E-Mail-Adresse anzugeben. Dies ermöglicht es uns Sie zu kontaktieren, falls wir Probleme an Ihrer Node feststellen.
+:::
+
 Im letzten Feld des Popups sehen Sie die Menge von HDX, die Sie hinterlegen müssen, um Ihre Identitätsinformationen zu speichern. Sie erhalten diese Kaution zurück, sobald Sie sich entschließen, Ihre Identität zu einem späteren Zeitpunkt zu löschen.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
