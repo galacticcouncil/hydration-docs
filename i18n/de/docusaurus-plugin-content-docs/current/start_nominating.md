@@ -120,4 +120,48 @@ Sobald eine Nominierung aktiv wird, sollten Sie diese in der Liste der *Active n
 Überprüfen Sie Ihre Nominierungen in regelmäßigen Abständen. Es kann vorkommen, dass manche Validatoren ihre Kommission anpassen, was negative Auswirkugen auf Ihre Belohnungen haben kann. Wenn Sie also immer wieder Ihre Nominierungen überprüfen können Sie schnell auf solche Veränderungen reagieren.
 :::
 
+## 04 Nominations anpassen {#04-adjust-your-nominations}
+
+Falls einer oder mehrere Ihrer gewählten Validatoren überfüllt ist oder seine Provision erhöht möchten Sie eventuell Ihre Nominationen anpassen.
+
+Um dies zu tun öffnen Sie Polkadot/apps und navigieren zu:  
+*Network* > *Staking* > *Account actions*
+
+Klicken Sie die drei Punkte hinter Ihrem Account und wählen _Set nominees_.
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
+</div>
+
+Im folgenden Fenster, das Ihnen vielleicht schon bekannt vorkommt, können Sie gewählte Validatoren entfernen und/oder neue hinzufügen.
+Nominationen können spontan geändert werden. Der Stakingprozess muss dazu nicht unterbrochen werden. Die Änderungen werden beim Beginn der nächsten Era (24h) angewandt.
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
+</div>  
+
+## 05 Token rebonden {#05-rebond-funds}
+
+Falls Sie ausversehen Ihre HDX Token unbonded(freigesetzt) haben können Sie dies rückgängig machen ohne die 28-Tages-Frist abzuwarten.
+
+Um deis zu tun öffnen Sie Polkadot/apps und navigieren zu *Developer* > *Extrinsics*. 
+Alternativ können Sie auch folgenden Link verwenden:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+Wählen Sie ihr Konto im _using the selected account_-Auswahlfeld.
+Danach müssen Sie folgende Werte eingeben:
+
+* **extrinsic**: staking
+* **action**: rebond_value
+* **value**: In diesem Feld geben Sie die Menge an HDX an, die Sie wieder bonden möchten.
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+Wenn alles korrekt eingetragen wurde können Sie die Aktion ausführen indem Sie den _Submit Transaction_-Button klicken und die Transaktion signieren.
+Sobald die Aktion fertig ist sollten Ihre HDX Token wieder gebunden sein und für das Staking verwendet werden können.
+
 Vielen Dank, dass Sie das HydraDX Netzwerk unterstützen indem Sie ein Snakenet Nominator geworden sind! 🎉
