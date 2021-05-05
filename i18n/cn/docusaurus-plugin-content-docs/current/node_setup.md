@@ -15,12 +15,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 00 基本性能要求 {#00-required-technical-specifications}
 
-以下是运行验证节点的硬件及系统的基本性能要求: 
+以下是运行验证节点的硬件及系统的基本性能要求： 
 
-* 系统：Ubuntu 20.04
-* CPU：Intel Core i7-7700K @ 4.5Ghz (或同等单核性能)
-* 内存：64GB RAM
-* 硬盘：NVMe SSD ≥200GB (随着链的增长，数据会越来越多)
+* 系统：Ubuntu 20.04；
+* CPU：Intel Core i7-7700K @ 4.5Ghz (或同等单核性能)；
+* 内存：64GB RAM；
+* 硬盘：NVMe SSD ≥200GB (随着链的增长，数据会越来越多)。
 
 :::note
 
@@ -74,7 +74,7 @@ target/release/hydra-dx
 ```
 
 ## 04 运行编译文件 {#04-run-the-binary}
-您可以通过以下命令来运行编译文件:
+您可以通过以下命令来运行编译文件：
 
 ```bash
 $ {PATH_TO_YOUR_BINARY} --chain lerna --name {YOUR_NODE_NAME} --validator
