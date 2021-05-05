@@ -42,7 +42,7 @@ $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 
 ### 安装 Prometheus {#install-prometheus}
 
-在 **[GitHub发布页面](https://github.com/prometheus/prometheus/releases/)** 上检查 Prometheus 的最新版本。 
+在 **[GitHub 发布页面](https://github.com/prometheus/prometheus/releases/)** 上检查 Prometheus 的最新版本。 
 在撰写本文时，版本是 v2.25.2。 
 在以下命令中插入最新发行的版本：
 
@@ -328,7 +328,7 @@ Password: `admin`
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-我们将使用 **[HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158)** 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
+我们将使用 **[HydraDX Dashboard（仪表盘）](https://grafana.com/grafana/dashboards/14158)** 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
