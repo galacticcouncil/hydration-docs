@@ -13,8 +13,6 @@ Al final de cada era (24 horas), todos los grupos de validadores activos reciben
 
 El mecanismo de compartir las recompensas básicas por igual entre todos los grupos de validadores participantes contribuye a la seguridad de la red al evitar la concentración de poder en unos pocos grupos de validadores, fortaleciendo así la descentralización. Con el tiempo, incentiva a los nominadores a nominar validadores con una participación menor de HDX. Este proceso eventualmente equilibrará las relaciones de poder en la red y conducirá a una situación en la que todos los grupos de validadores tengan aproximadamente una cantidad equivalente de HDX apostado.
 
-The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
-
 La distribución de recompensas se lleva a cabo de la siguiente manera. Después de calcular la cantidad (igual) de recompensas para cada grupo de validadores, el validador recibe su parte en forma de **comisiones** por mantener el nodo. Como segundo paso, los tokens restantes se distribuyen entre todas las apuestas de manera **proporcional** (incluido el monto del propio validadorr). Esto significa que los stake más altos recibirán una mayor proporción de las recompensas que se atribuyen al grupo de validadores en particular.
 
 :::note
