@@ -23,11 +23,11 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 您将看到一个名为 *register identity* （注册身份）的弹窗。在这里，您可以输入以下信息：
 
-* legal name（法定名称）
-* email（邮件）
-* web（网络）
-* twitter（推特）
-* riot name（roit姓名）（以防使用 Matrix 信息传递）
+* legal name（法定名称）；
+* email（邮件）；
+* web（网络）；
+* twitter（推特）；
+* riot name（roit姓名）（以防使用 Matrix 信息传递）。
 
 在弹出窗口的最后一个字段，你可以看到需存入的 HDX 数量，作为存储您身份信息的保证金。以后，一旦决定清除身份信息，这笔保证金将会被您回收。
 
@@ -37,16 +37,16 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 ## 02 提交身份证明 {#02-verify-identity}
 
-在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，您也可以点击这个链接:
+在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，您也可以点击这个链接：
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-在上一步选择相应 HydraDX 帐户后，您需要填写以下信息:
+在上一步选择相应 HydraDX 帐户后，您需要填写以下信息：
 
-* **extrinsic**（外在）: identity（身份）
-* **action**（操作）: requestJudgment（请求判定）
-* **reg_index**（注册商ID）: 在这里需要输入您选择的注册商的ID进行验证。
-HydraDX 有两个注册商：HydraSik 的 Simon Kraus (ID: **0** ) 和 Jimmy Tudeski - stakenode (ID: **1** )。
+* **extrinsic**（外在）: identity（身份）；
+* **action**（操作）: requestJudgment（请求判定）；
+* **reg_index**（注册商ID）: 在这里需要输入您选择的注册商的ID进行验证，
+HydraDX 有两个注册商：HydraSik 的 Simon Kraus ( ID: **0** ) 和 Jimmy Tudeski - stakenode ( ID: **1** )；
 * **max_fee**（最大费用）：在这里需要输入您愿意用 HDX 支付给注册商的最高费用。只有费用低于您最大费用的注册商，才有资格进行验证。
 
 若要提交认证请求，请单击 *Submit Transaction* (提交交易)并签署交易。
@@ -59,9 +59,9 @@ HydraDX 有两个注册商：HydraSik 的 Simon Kraus (ID: **0** ) 和 Jimmy Tud
 
 在处理您的认证请求后，注册商将提交以下的其中一项判断，该判断将在您的身份状态中显示：
 
-* **Unknown** - 默认值，尚未做出判断。
-* **Reasonable** - 所提供的资料看来是合理的，但是没有进行深入的检查。
-* **KnownGood** - 信息正确。
-* **OutOfDate** - 这个信息在过去是正确的，但现在已经过时了。
-* **LowQuality** - 信息不精确，但可以通过更新修正。
+* **Unknown** - 默认值，尚未做出判断；
+* **Reasonable** - 所提供的资料看来是合理的，但是没有进行深入的检查；
+* **KnownGood** - 信息正确；
+* **OutOfDate** - 这个信息在过去是正确的，但现在已经过时了；
+* **LowQuality** - 信息不精确，但可以通过更新修正；
 * **Erroneous** - 所提供的信息是错误的，可能表明存在恶意意图。
