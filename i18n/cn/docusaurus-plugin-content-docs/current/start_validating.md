@@ -37,9 +37,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>
 
 单击 + Stash（存储账户）按钮后，您应该看到带有四个可编辑字段的绑定偏好设置选项：
-* **stash account**（存储账户）: 拥有您大多数 HDX 令牌的帐户。HDX 将通过此帐户质押。
-* **controller account**（控制账户）: 拥有少量 HDX 的帐户，用于支付与开始和停止提名过程相关的费用。
-* **value bonded**（绑定的金额）：您要绑定的 HDX 数量。不要绑定所有的 HDX ，而是留下一些以支付后续发生的交易费用。
+* **stash account**（存储账户）: 拥有您大多数 HDX 令牌的帐户。HDX 将通过此帐户质押；
+* **controller account**（控制账户）: 拥有少量 HDX 的帐户，用于支付与开始和停止提名过程相关的费用；
+* **value bonded**（绑定的金额）：您要绑定的 HDX 数量。不要绑定所有的 HDX ，而是留下一些以支付后续发生的交易费用；
 * **payment destination**（支付目的账户）：质押奖励将被发送到的帐户。 
 
 :::warning
