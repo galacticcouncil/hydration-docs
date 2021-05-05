@@ -5,7 +5,7 @@ title: 建立开发链
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-本节将引导您完成设置本地HydraDX链实例进行开发的过程。
+本节将引导您完成设置本地 HydraDX 链实例进行开发的过程。
 
 :::note
 您是否希望搭建一个用于验证目的的节点？请转到我们的 **[验证节点搭建指南](/node_setup)** 。
