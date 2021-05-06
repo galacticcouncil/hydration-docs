@@ -109,4 +109,4 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 另一方面，xHDX 令牌（您曾用于申领 HDX ）将永远锁定在您的 ERC-20 钱包中，这意味着您可以将其隐藏（或将其作为 HDX 令牌早期持有者徽章保持可见）。
 
-想让您的 HDX 令牌工作并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网——**Snakenet**（蛇网）。如有兴趣，可以先熟悉 **[质押](/staking)** 过程，然后再决定以 **[验证人](/start_validating)** 或 **[提名人](/start_nominating)** 的身份参加。
+想让您的 HDX 令牌工作并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网 —— **Snakenet**（蛇网）。如有兴趣，可以先熟悉 **[质押](/staking)** 过程，然后再决定以 **[验证人](/start_validating)** 或 **[提名人](/start_nominating)** 的身份参加。

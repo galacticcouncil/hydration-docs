@@ -3,7 +3,7 @@ id: contributing
 title: 撰写文件
 ---
 
-您可以使用 [GitHub风格的Markdown语法](https://github.github.com/gfm/) 编写内容。
+您可以使用 **[GitHub 风格的 Markdown 语法](https://github.github.com/gfm/)** 编写内容。
 
 ## Markdown 语法 {#markdown-syntax}
 

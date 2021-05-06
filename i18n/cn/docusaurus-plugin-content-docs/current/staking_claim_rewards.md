@@ -18,4 +18,3 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/stakin
 <img src={useBaseUrl('/staking-claim-rewards/payouts.jpg')} />
 
 触发支付后，您将被要求使用您的 HDX 账户签署交易。一旦确认，选定的 era （时代）奖励，将分配给各自的验证人和他们的提名人。
-
