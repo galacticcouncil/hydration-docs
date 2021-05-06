@@ -1,6 +1,6 @@
 ---
 id: identity
-title: Set your Identity
+title: Establece tu Identidad
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -11,7 +11,7 @@ Los titulares de cuentas tienen la posibilidad de establecer su identidad propor
 Si participa como validador de HydraDX, le recomendamos encarecidamente que establezca su identidad y se someta al proceso de verificación. Los validadores verificados parecen más confiables y atraen más nominaciones, lo que aumenta sus posibilidades de ser incluidos en el conjunto de validadores activos.
 :::
 
-## 01 Set identity {#01-set-identity}
+## 01 Establece tu identidad {#01-set-identity}
 
 Para establecer su identidad, abra Polkadot / apps (conectado a la red HydraDX Snakenet ) y navegue hasta Cuentas . Alternativamente, puede seguir este enlace:
 
@@ -30,13 +30,17 @@ Verá una ventana emergente llamada *identidad de registro* . Aquí, puede ingre
 * twitter
 * riot name (en caso de que esté utilizando mensajes de Matrix)
 
+ :::note
+Toda esta información es opcional; no dude en proporcionar solo la información que desee. Sin embargo, si está ejecutando un nodo de validación, le recomendamos que establezca su correo electrónico. Esto nos permitiría comunicarnos con usted en caso de que encontremos problemas con su nodo.
+:::
+
 En el último campo de la ventana emergente, puede ver la cantidad de HDX que necesita depositar para almacenar su información de identidad. Recibirá este depósito una vez que decida borrar su identidad en un momento posterior.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
 Después de completar la información, haga clic en *Establecer identidad* y firme la transacción con la extensión del navegador Polkadot.js. Una vez que se confirma la transacción, se establece su identidad.
 
-## 02 Submit your identity for verification {#02-verify-identity}
+## 02 Envie su identidad para verificación {#02-verify-identity}
 
 Una vez que haya establecido su identidad, puede enviarla a los registradores de la red para su verificación. Para hacerlo, abra Polkadot / apps y vaya a *Desarrollador* > *Extrinsics* . Alternativamente, puede seguir este enlace:
 
@@ -58,7 +62,7 @@ Para enviar su solicitud de verificación, haga clic en *Enviar transacción* y 
 
 Tenga en cuenta que el proceso de verificación de identidad puede tardar algún tiempo en completarse. Para ver el estado de su solicitud, vaya a *Cuentas* y coloque el cursor sobre la sección que muestra su identidad; verá una ventana emergente que muestra el estado actual.
 
-## 03 Outcome of the verification procedure {#03-verification-outcome}
+## 03 Resultado del procedimiento de verificación {#03-verification-outcome}
 
 Después de procesar su solicitud de verificación, el registrador enviará uno de los siguientes juicios que se harán visibles en su estado de identidad:
 
