@@ -42,6 +42,6 @@ Notes:
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
-Si los valores en el campo `diff` son positivos en los tres casos, entonces su máquina es adecuada para ejecutar un nodo validador HydraDX.
+Puede ver la diferencia en el rendimiento entre su máquina y la configuración mínima requerida en la columna **diff* (%)**. Si los tres valores de esta columna son positivos, su máquina debería ser adecuada para ejecutar un nodo validador HydraDX. Si alguno de los valores está por debajo de *-10%*, no recomendamos ejecutar un nodo HydraDX.
 
 Únase a nosotros en Discord si desea discutir sus resultados de referencia, nuestra comunidad siempre estará feliz de ayudar.
