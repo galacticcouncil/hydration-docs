@@ -29,7 +29,11 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 * twitter（推特）；
 * riot name（roit姓名）（以防使用 Matrix 信息传递）。
 
-在弹出窗口的最后一个字段，你可以看到需存入的 HDX 数量，作为存储您身份信息的保证金。以后，一旦决定清除身份信息，这笔保证金将会被您回收。
+:::note
+所有这些信息都是可选的，请随意选择您想提供的细节。但是，如果您正在运行验证节点，我们建议您设置电子邮件，以便在节点遇到问题时，我们可以联系您。
+:::
+
+在弹出窗口的最后一个字段，你可以看到需存入的 HDX 数量，作为存储您身份信息的保证金。以后，一旦决定清除身份信息，您会收回这笔保证金。
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
@@ -41,15 +45,14 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-在上一步选择相应 HydraDX 帐户后，您需要填写以下信息：
+在上一步选择相应 HydraDX 帐户后，您需要选择或填写以下信息：
 
-* **extrinsic**（外在）: identity（身份）；
-* **action**（操作）: requestJudgment（请求判定）；
-* **reg_index**（注册商ID）: 在这里需要输入您选择的注册商的ID进行验证，
-HydraDX 有两个注册商：HydraSik 的 Simon Kraus ( ID: **0** ) 和 Jimmy Tudeski - stakenode ( ID: **1** )；
+* **submit the following extrinsic**（提交下面的外部信息）： 在这一栏，您需要选择外部信息和相关操作：左侧选 `identity` （身份）；右侧选 `requestJudgement(reg_index, max_fee)` （请求判定）。
+* **reg_index**（注册商 ID）: 在这里需要输入您选择的注册商 ID 进行验证。
+HydraDX 有两个注册商：HydraSik 的 Simon Kraus ( ID: **0** ) 和 Jimmy Tudeski - stakenode ( ID: **1** )
 * **max_fee**（最大费用）：在这里需要输入您愿意用 HDX 支付给注册商的最高费用。只有费用低于您最大费用的注册商，才有资格进行验证。
 
-若要提交认证请求，请单击 *Submit Transaction* (提交交易)并签署交易。
+若要提交认证请求，请单击 *Submit Transaction* （提交交易）并签署交易。
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
