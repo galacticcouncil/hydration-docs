@@ -1,67 +1,71 @@
 ---
 id: identity
-title: Das Einstellen Ihrer Identität
+title: Set your Identity
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Kontoinhaber haben die Möglichkeit, eigene Identität festzulegen, indem sie bestimmte Informationen bereitstellen und in On-chain speichern. Außerdem können die Identitätsinformationen optional zur Überprüfung an die HydraDX-Registratoren übermittelt werden. Durch das Festlegen und Überprüfen ihrer Identität tragen Validatoren und Nominatoren dazu bei, das Vertrauen in das Netzwerk zu schützen.
+Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
 
-:::Hinweis
-Wenn Sie als HydraDX-Validator teilnehmen, empfehlen wir Ihnen dringend, sowohl Ihre Identität festzulegen als auch den Überprüfungsprozess durchzuführen. Verifizierte Validatoren erscheinen vertrauenswürdiger und ziehen mehr Nominierungen an, wodurch sich ihre Chancen erhöhen, in die Gruppe der aktiven Validatoren aufgenommen zu werden.
+:::note
+If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
 :::
 
-## 01 Die Festlegung der Identität {#01-set-identity}
+## 01 Set identity {#01-set-identity}
 
-Um Ihre Identität festzulegen, öffnen Sie Polkadot/apps (verbunden mit * HydraDX Snakenet * network) und navigieren Sie zu * My accounts *.Man kann auch diesen Link folgen:
+To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
 
-Suchen Sie auf der Kontoseite das Konto, auf dem sich Ihre gebundenen HDX-Token befinden. Klicken Sie danach auf die drei Punkte neben dem Konto (auf der rechten Seite) und wählen Sie *Set on-chain identity*.
+On the accounts page, locate the account holding your bonded HDX tokens. After that, click on the three dots next to the account (on the right side) and select *Set on-chain identity*.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-1.jpg')} />
 
-Sie sehen ein Popup mit dem Namen *register identity*. Hier können Sie folgende Informationen eingeben:
+You will see a popup called *register identity*. Here, you can enter the following information:
 
-* Offizieller Name
-* E-Mail
-* Webadresse
-* Twitter
-* Riotname (falls Sie Matrix  verwenden)
+* legal name
+* email
+* web address
+* twitter
+* riot name (in case you are using Matrix messaging)
 
-Im letzten Feld des Popups sehen Sie die Menge von HDX, die Sie einzahlen müssen, um Ihre Identitätsinformationen zu speichern. Sie erhalten diese Anzahlung zurück, sobald Sie sich entschließen, Ihre Identität zu einem späteren Zeitpunkt zu löschen.
+:::note
+All this information is optional - feel free to only provide the details you choose. However, if you are running a validator node, we encourage you to set your email. This would allow us to contact you in case we encounter issues with your node.
+:::
+
+In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
-Klicken Sie nach dem Ausfüllen der Informationen auf *Set Identity* und signieren Sie die Transaktion mit der Browsererweiterung Polkadot.js. Sobald die Transaktion bestätigt würde, wird Ihre Identität festgelegt.
+After filling out the information, click on *Set Identity* and sign the transaction using the Polkadot.js browser extension. Once the transaction is confirmed, your identity is set.
 
-## 02 Senden Sie Ihre Identität zur Überprüfung {#02-verify-identity}
+## 02 Submit your identity for verification {#02-verify-identity}
 
-Nachdem Sie Ihre Identität festgelegt haben, kann man sie zur Überprüfung an die Netzwerkregister senden. Öffnen Sie dazu Polkadot / apps und navigieren Sie zu *Developer* > *Extrinsics*. Man kann auch diesen Link folgen:
+After you have set your identity, you can submit it to the network registrars for verification. To do so, open Polkadot/apps and navigate to *Developer* > *Extrinsics*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
 
-Nachdem Sie im letzten Schritt das entsprechende HydraDX-Konto ausgewählt haben, müssen Sie die folgenden Informationen eingeben:
+After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
 
-* **extrinsic**: Identität
-* **action**: die Anfrage der Beurteilung
-* **reg_index**: Hier müssen Sie die ID des Registers eingeben, die Sie für die Überprüfung ausgewählt haben.  
-HydraDX hat 2 Registratoren: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
-* **max_fee**: Hier müssen Sie die maximale Gebühr in HDX eingeben, die Sie zur Überprüfung an den Registrator zahlen möchten. Nur Registratoren mit einer Gebühr unter Ihrer max_fee können die Überprüfung durchführen.
+* **extrinsic**: identity
+* **action**: requestJudgement
+* **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
+HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
+* **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
 
-Um Ihre Bestätigungsanfrage einzureichen, klicken Sie auf *Submit Transaction* und unterschreiben Sie die Transaktion.
+To submit your verification request, click on *Submit Transaction* and sign the transaction.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
-Bitte beachten Sie, dass der Vorgang der Identitätsprüfung einige Zeit in Anspruch nehmen kann. Um den Status Ihrer Anfrage anzuzeigen, navigieren Sie zu **My accounts** und bewegen Sie den Mauszeiger über den Abschnitt, in dem Ihre Identität angezeigt wird. Es wird ein Popup mit dem aktuellen Status angezeigt.
+Please note that the process of identity verification may take some time to complete. To see the status of your request, navigate to **My accounts** and hover the section displaying your identity - you will see a popup showing the current status.
 
-## 03 Ergebnis des Überprüfungsverfahrens {#03-verification-outcome}
+## 03 Outcome of the verification procedure {#03-verification-outcome}
 
-Nach der Bearbeitung Ihrer Bestätigungsanfrage wird der Registrator eine der folgenden Urteile einreichen, die in Ihrem Identitätsstatus sichtbar werden:
+After processing your verification request, the registrar will submit one of the following judgements which will become visible in your identity status:
 
-* **Unknown** - Standardwert, es wurde noch kein Urteil gefällt.
-* **Reasonable** - Die bereitgestellte Information erscheint angemessen, es wurden jedoch keine eingehenden Überprüfungen durchgeführt.
-* **KnownGood** - Die Information ist korrekt.
-* **OutOfDate** - Die Information war in der Vergangenheit korrekt, ist aber jetzt veraltet.
-* **LowQuality** - Die Information ist ungenau, kann jedoch durch Aktualisierung behoben werden.
-* **Erroneous** - Die angegebene Information ist falsch und weist möglicherweise auf eine böswillige Absicht hin.
+* **Unknown** - default value, no judgement has been made yet.
+* **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
+* **KnownGood** - the information is correct.
+* **OutOfDate** - the information was correct in the past but it is now out of date.
+* **LowQuality** - the information is unprecise but it can be fixed by updating it.
+* **Erroneous** - the provided information is wrong and might indicate a malicious intent.
