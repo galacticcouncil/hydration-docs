@@ -5,32 +5,32 @@ title: Staking Rewards
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Staking rewards incentivize validators and nominators to [stake their HDX tokens](/staking). There are three types of staking rewards which are discussed in this article: [base rewards](#base-rewards), [era points](#era-points) and [tips](#tips).
+"Staking rewards" ist ein Anreiz für Validatoren und Nominatoren [ihre HDX-Token einzusetzen](/staking). Es gibt drei Arten von "Staking rewards" , die in diesem Artikel behandelt werden: [base rewards](#base-rewards), [era points](#era-points) und [tips](#tips).
 
 ## Base Rewards {#base-rewards}
 
-At the end of every era (24h), all active validator pools receive base rewards in the form of HDX tokens. A validator pool consists of an elected validator (holding their self-staked HDX) and all active nominations which are backing the validator (for more information see [staking](/staking)). A central principle of the Nominated Proof-of-Stake (NPoS) consensus mechanism is that **equal work brings equal rewards**. In other words, since all validator pools essentially carry out the same work, **the available base rewards are divided equally** among them. This means that validator pools are **not** rewarded in proportion to their total stake, which is a major difference from traditional PoS networks.
+Am Ende jeder Ära (24 Stunden) erhalten alle aktiven Validator-Pools Basisbelohnungen in Form von HDX-Token. Ein Validator-Pool besteht aus einem gewählten Validator (der seinen selbst gesetzten HDX hält) und allen aktiven Nominierungen, die den Validator unterstützen (weitere Informationen finden Sie unter [Staking](/Staking)). Ein zentrales Prinzip des NPoS-Konsensmechanismus (Nominated Proof-of-Stake) ist, dass **gleiche Arbeit gleiche "Rewards" bringt**. Mit anderen Worten, da alle Validator-Pools im Wesentlichen die gleiche Arbeit ausführen, **werden die verfügbaren "Base Rewards" zu gleichen Teilen** unter ihnen aufgeteilt. Dies bedeutet, dass Validator-Pools im Verhältnis zu ihrem Gesamteinsatz **nicht** belohnt werden, was einen großen Unterschied zu herkömmlichen PoS-Netzwerken darstellt.
 
-The mechanism of sharing the base rewards equally among all participating validator pools contributes to the security of the network by preventing the concentration of power in a few validator pools, thereby strengthening decentralization. Over time, it incentivizes nominators to nominate validators with a smaller HDX stake. This process will eventually balance out the power relationships in the network and lead to a situation where all validator pools have roughly an equivalent amount of staked HDX.
+Der Mechanismus der gleichmäßigen Aufteilung von "Base rewards" auf alle teilnehmenden Validator-Pools trägt zur Sicherheit des Netzwerks bei, indem die Machtkonzentration in einigen Validator-Pools verhindert und dadurch die Dezentralisierung gestärkt wird. Im Laufe der Zeit werden Nominatoren dazu angeregt, Validatoren mit einem geringeren HDX-Anteil zu nominieren. Dieser Prozess wird schließlich die Leistungsverhältnisse im Netzwerk ausgleichen und zu einer Situation führen, in der alle Validator-Pools ungefähr die gleiche Menge an abgestecktem HDX haben.
 
-The distribution of rewards takes place as follows. After calculating the (equal) amount of rewards for every validator pool, the validator receives its share in the form of **commission fees** for maintaining the node. As a second step, the remaining tokens are distributed among all stakes **proportionally** (including the self-stake of the validator). This means that higher stakes will receive a bigger proportion of the rewards which are attributed to the particular validator pool.
+Die Verteilung von "Rewards" erfolgt wie folgt. Nach der Berechnung des (gleichen) Betrags an "Rewards für jeden Validatorpool erhält der Validator seinen Anteil in Form von **Provisionsgebühren** für die Wartung des Knotens. In einem zweiten Schritt werden die verbleibenden Token **proportional** auf alle Einsätze verteilt (einschließlich des Eigeneinsatzes des Validators). Dies bedeutet, dass höhere Einsätze einen größeren Anteil von "Rewards" erhalten, die dem jeweiligen Validator-Pool zugeordnet werden.
 
 :::note
-In our incentivized testnet called Snakenet, the amount of rewards received for staking your HDX tokens is estimated to be around **50% APY**.
+In unserem Testnetz,das man auch "Snakenet" nennt, wird die Anzahl von "Rewards" für  Staking Ihrer HDX-Token auf etwa 50% APY geschätzt..
 :::
 
 ## Era points {#era-points}
 
-Validators can earn additional rewards in proportion to the era points which they have gained in the past era. These rewards are added to the base rewards described above. Validators can earn era points by carrying out certain specific actions such as:
+Validatoren können zusätzliche "Rewards" im Verhältnis zu den Era points verdienen, die sie in der vergangenen Ära gesammelt haben. Diese "Rewards" werden zu den oben beschriebenen "Base Rewards" hinzugefügt. Validatoren können Era points verdienen, indem sie bestimmte Aktionen ausführen, wie z.B :
 
-* producing a non-uncle block in the Relay Chain.
-* producing a reference to a previously unreferenced uncle block.
-* producing a referenced uncle block.
+* Herstellung von "non-uncle block in  Relay Chain".
+* Herstellung eines Verweises auf eine zuvor nicht referenzierte "uncle block".
+* Herstellung referenzierten "uncle block".
 
 :::note
-An uncle block is a Relay Chain block valid in every regard, which however has failed to become canonical. This can happen when two or more validators are block producers in a single slot, and the block produced by one validator reaches the next block producer before the others. The lagging blocks are called uncle blocks.
+ "Uncle block" ist ein "Relay Chain block" gültig in jeder Hinsicht, der jedoch nicht kanonisch geworden ist. Dies kann passieren, wenn zwei oder mehr Validatoren Blockproduzenten in einem einzelnen Slot sind und der von einem Validator erzeugte Block den nächsten Blockproduzenten vor den anderen erreicht. Die nacheilenden Blöcke werden "Uncle block" genannt.
 :::
 
 ## Tips {#tips}
 
-Finally, validators can earn tips which are also added to the base rewards at the end of every era. Tips represent an additional transaction fee that can be optionally paid by users to give their transaction a higher priority.
+Schließlich können Validatoren Tipps verdienen, die am Ende jeder Ära auch zu den "Base rewards" hinzugefügt werden. Tipps stellen eine zusätzliche Transaktionsgebühr dar, die optional von Benutzern gezahlt werden kann, um ihrer Transaktion eine höhere Priorität zu geben.
