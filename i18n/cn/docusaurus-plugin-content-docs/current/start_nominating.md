@@ -161,7 +161,7 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrin
 
 在 _using the selected account_ （使用已选的帐户）下拉框中选择您的帐户。然后，在下面的框中，选取或填写以下信息：
 
-* **submit the following extrinsic**（提交下面的外部信息）：在这一栏，需要您选取外部信息及相关操作：左侧选 `staking`（质押）；右侧选 `rebond(value)` （重新绑定的价值）。
+* **submit the following extrinsic**（提交下面的外部信息）：左侧选 `staking`（质押）；右侧选 `rebond(value)` （重新绑定的价值）。
 * **value** （价值）：在这里，输入您想重新绑定的 HDX 数量。
 
 <div style={{textAlign: 'center'}}>
