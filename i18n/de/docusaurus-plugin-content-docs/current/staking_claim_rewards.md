@@ -1,20 +1,20 @@
 ---
 id: staking_claim_rewards
-title: Claim your Staking Rewards
+title: Auslösen Ihrer Staking Rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-At the end of every era, validator pools are assigned their [staking rewards](/staking_rewards) which consist of base rewards, era point rewards and tips. These rewards, however, are not distributed automatically to the accounts of the validator and its nominators. This will only happen after the staking rewards have been claimed by **triggering a payout**. Staking rewards must be claimed **within 84 eras** after they have been earned. Once this period lapses, the relevant rewards information is deleted from the chain and the validator pool can no longer receive its rewards for that era. 
+Am Ende jeder Ära werden die Validator-Pools ihre [Staking rewards](/staking_rewards) zugewiesen, die aus Base rewards, Era points und Tipps bestehen. Diese "Rewards" werden jedoch nicht automatisch auf die Konten des Validators und seiner Nominatoren verteilt. Dies geschieht erst, nachdem die Einsatzprämien durch **Auslösen einer Auszahlung** beansprucht wurden. "Staking rewards" müssen **innerhalb von 84 Epochen** beansprucht werden, nachdem sie verdient wurden. Nach Ablauf dieser Frist werden die relevanten "Rewards" Informationen aus "Chain" gelöscht und der Validator-Pool kann seine "Rewards" für diese Zeit nicht mehr erhalten.
 
-The process of manually triggering a payout within a limited timeframe is an important security feature. By requiring that a payout transaction is submitted for every validator pool and for every era, the distribution of rewards is spread across several blocks. If all rewards were to be distributed to all validators and nominators within a single block, the stability of the chain could possibly be endangered.
+Das manuelle Auslösen einer Auszahlung innerhalb eines begrenzten Zeitraums ist ein wichtiges Sicherheitsmerkmal. Durch die Anforderung, dass für jeden Validatorpool und für jede Epoche eine Auszahlungstransaktion eingereicht wird, wird die Verteilung von "Rewards" auf mehrere Blöcke verteilt. Wenn alle "Rewards" innerhalb eines Blocks an alle Prüfer und Nominatoren verteilt würden, könnte die Chain-Stabilität  möglicherweise gefährdet sein.
 
-## How to trigger a payout
-A payout can be triggered easily by both validators and their nominators using Polkadot/apps. For this purpose, navigate to *Network > Staking > Payouts*. Alternatively, you can use the following link:  
+## Auslösung der Auszahlung
+Eine Auszahlung kann sowohl von Validatoren als auch von deren Nominatoren mithilfe von Polkadot / Apps problemlos ausgelöst werden. Navigieren Sie bitte zu *Network > Staking > Payouts*. Alternativ können Sie den folgenden Link verwenden: 
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
 
-When selecting *My stashes* you should see all rewards which are available for payout for your staked tokens with an indication of the respective era numbers. By clicking on *Payout all*, it is possible to submit a series of transactions in order to claim all available rewards for the past eras.
+Während der Auswahl *My stashes*, man soll alle "Rewards" sehen, die für die Auszahlung von gesetzten Token verfügbar sind, mit Angabe der jeweiligen Epochenzahlen. Durch Klicken auf *Payout all*, ist es möglich, eine Reihe von Transaktionen einzureichen, um alle verfügbaren "Rewards" für die vergangenen Epochen zu erhalten.
 
 <img src={useBaseUrl('/staking-claim-rewards/payouts.jpg')} />
 
-After triggering the payout, you will be asked to sign the transaction(s) using your HDX account. Once confirmed, the rewards for the selected eras will be distributed to the respective validators and their nominators.
+Nach dem Auslösen der Auszahlung werden Sie aufgefordert, die Transaktion(en) mit Ihrem HDX-Konto zu unterzeichnen. Nach der Bestätigung werden "Rewards" für die ausgewählten Epochen an die jeweiligen Validatoren und deren Nominatoren verteilt.
