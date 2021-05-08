@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Les titulaires de compte ont la possibilité de définir leur identité en fournissant des informations spécifiques et en les stockant on-chain (sur la chaîne). Par ailleurs, l'information de l'identité peut optionnellement être soumise aux gérants de registres pour vérification. En définissant et en vérifiant leur identité, les validateurs et les nominateurs aident à maintenir la confiance du réseau. 
 
 :::note
-Si vous participez en tant que validateur HydradDX nous **recommandons fortement** de vérifier votre identité et fassiez les étapes de vérification. Les validateurs vérifiés parraissent plus fiables et attirent plus de nominations, et augmente ainsi leurs chances d'être inclus dans l'ensemble des validateurs actifs.
+Si vous participez en tant que validateur HydradDX nous **recommandons fortement** de vérifier votre identité et fassiez les étapes de vérification. Les validateurs vérifiés paraissent plus fiables et attirent plus de nominations, et augmente ainsi leurs chances d'être inclus dans l'ensemble des validateurs actifs.
 :::
 
 ## 01 Définir votre identité {#01-set-identity}
@@ -29,7 +29,7 @@ Vous verrez une nouvelle fenêtre appelée *enregistrer votre identité*. Ici, v
 * twitter
 * nom matrix (riot name en anglais) (au cas où vous utilisez la messagerie Matrix)
 
-Dans le dernier champs de la fenêtre, vous pouvez voir le montant de HDX que vous devez déposer pour stocker votre information d'identité. Vous récupérerez la caution quand vous déciderez d'enlever votre identité plus tard.
+Dans le dernier champ de la fenêtre, vous pouvez voir le montant de HDX que vous devez déposer pour garder les informations relatives à votre identité. Vous récupérerez la caution si vous déciderez de supprimer votre identité.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
 
