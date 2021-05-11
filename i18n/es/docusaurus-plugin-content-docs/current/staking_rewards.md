@@ -1,13 +1,13 @@
 ---
 id: staking_rewards
-title: Staking Rewards
+title: Recompesas de Staking
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Las recompensas del staking incentivan a los validadores y nominadores a [hacer stake de sus tokens HDX](/staking) . Hay tres tipos de recompensas por staking que se analizan en este artículo:  [base rewards](#base-rewards), [era points](#era-points) y los [tips](#tips)
 
-## Base Rewards {#base-rewards}
+## Recompensas Base  {#base-rewards}
 
 Al final de cada era (24 horas), todos los grupos de validadores activos reciben recompensas básicas en forma de tokens HDX. Un pool de validación consiste en un validador elegido (teniendo su propio HDX en stake ) y todas las nominaciones activos que respaldan el validador (para más información leer en [Staking](/staking) ). Un principio central del mecanismo de consenso de Proof-of-Stake (NPoS) es que **trabajos iguales traen recompensas iguales** . En otras palabras, dado que todos los grupos de validadores realizan esencialmente el mismo trabajo, las recompensas básicas disponibles se dividen por igual entre ellos. Esto significa que los grupos de validadores no son recompensados en proporción a su participación total, lo cual es una gran diferencia con las redes tradicionales de PoS.
 
@@ -19,7 +19,7 @@ La distribución de recompensas se lleva a cabo de la siguiente manera. Después
 En nuestra red de prueba incentivada llamada Snakenet, la cantidad de recompensas recibidas por hacer stake de sus tokens HDX se estima en alrededor del **50% APY** .
 :::
 
-## Era points {#era-points}
+## Puntos Era  {#era-points}
 
 Los validadores pueden ganar recompensas adicionales en proporción a los puntos de era que hayan ganado en la era pasada. Estas recompensas se suman a las recompensas básicas descritas anteriormente. Los validadores pueden ganar puntos de era mediante la realización de determinadas acciones específicas como:
 
