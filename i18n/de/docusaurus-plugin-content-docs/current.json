@@ -19,17 +19,17 @@
     "message": "Werde ein Validator",
     "description": "The label for category Become a validator in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Connecting to node": {
+  "sidebar.sidebar.category.Connect to a Node": {
     "message": "Mit einer Node verbinden",
-    "description": "The label for category Connecting to node in sidebar sidebar"
+    "description": "The label for category Connect to a Node in sidebar sidebar"
   },
   "sidebar.sidebar.category.Other": {
     "message": "Andere",
     "description": "The label for category Other in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Contributing": {
+  "sidebar.sidebar.category.Contribute": {
     "message": "Beitragen",
-    "description": "The label for category Contributing in sidebar sidebar"
+    "description": "The label for category Contribute in sidebar sidebar"
   },
   "sidebar.sidebar.category.How-to": {
     "message": "How-to",
@@ -42,5 +42,9 @@
   "sidebar.sidebar.category.Maintain": {
     "message": "Verwalten",
     "description": "The label for category Maintain in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Build": {
+    "message": "Bauen",
+    "description": "The label for category Build in sidebar sidebar"
   }
 }
