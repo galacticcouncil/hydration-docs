@@ -31,9 +31,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Staking （质押）界面，具有以下菜单选项：
 
-* **Staking overview**（概览）: 在这里，您将找到所有活动验证人的列表以及有关每个验证人的一些基本信息，例如，节点上已质押的 HDX 数量，验证人自己质押的数量，以及收取的佣金。此外，您还可以看到每个验证人获得的 ear （时代）得分以及验证人生成的最后一个区块数。
+* **Staking overview**（概览）: 在这里，您将找到所有活动验证人的列表以及有关每个验证人的一些基本信息，例如，其他人质押金额，自己质押的金额，以及收取的佣金。此外，您还可以看到每个验证人的当前 ear （时代）得分以及验证人生成的最后一个区块编号。
 * **Account actions**（账户操作）: 您可以在此处质押并指定。
-* **Payouts**（支付）: 您可以在这里申领您的质押奖励。
+* **Payouts**（支付）: 您可以在这里领取您的质押奖励。
 * **Targets**（目标）: 您可以在这里估算您的收入。在选择要质押的验证节点时，这是一个不错的开始。
 * **Waiting**（等待中）: 在这里，您可以找到等待队列，在队列中，非活跃验证人被置于活跃验证人集前。非活跃验证人将一直留在等待队列中，直到质押足够数量的 HDX 才能进入活跃验证人集。
 * **Validator stats**（验证人统计数据）: 在这里，你可以查询验证人隐藏的地址，可以查看其 era （时代）得分、参与的质押、奖励&罚没、佣金等详细的历史信息。我们强烈建议您在提名信任的验证节点前，研究这些信息。
@@ -131,7 +131,7 @@ HydraDX Snakenet （蛇网）每个验证节点 **最多只能有64个提名人*
 
 :::
 
-## 04 调整提名
+## 04 调整提名 {#04-adjust-your-nominations}
 
 如果您的某些验证人被超额认购或更改其佣金，则可能需要调整提名。
 
@@ -151,5 +151,23 @@ HydraDX Snakenet （蛇网）每个验证节点 **最多只能有64个提名人*
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>  
 
+## 05 重新绑定资金 {#05-rebond-funds}
+
+如果不小心解除了 HDX 令牌的绑定，您可以在 28 天的等待期过去之前重新绑定。
+
+要做到这一点，请打开 Polkadot/apps ，并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，您可以直接点击以下链接：
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+在 _using the selected account_ （使用已选的帐户）下拉框中选择您的帐户。然后，在下面的框中，选取或填写以下信息：
+
+* **submit the following extrinsic**（提交下面的外部信息）：左侧选 `staking`（质押）；右侧选 `rebond(value)` （重新绑定的价值）。
+* **value** （价值）：在这里，输入您想重新绑定的 HDX 数量。
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+如果一切设置正确，您可以点击 _Submit Transaction_ （提交交易）按钮，并在 Polkadot.js 扩展程序中签署交易，完成外部信息的提交。一旦完成，选定数量的 HDX 将重新绑定。
 
 感谢您成为 Snakenet（蛇网）提名人，感谢您对 HydraDX 的支持！ 🎉
