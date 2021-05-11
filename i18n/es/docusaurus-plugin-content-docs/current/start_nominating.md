@@ -130,9 +130,11 @@ Una vez que una nominación se activa, debe encontrarla en la lista de *Nominaci
 
 Asegúrese de revisar sus nominaciones de vez en cuando. Es posible que algunos de sus validadores cambien su porcentaje de comisión, lo que tendrá un impacto negativo en sus recompensas. Al verificar el estado de sus nominaciones con frecuencia, podrá reaccionar actualizando la lista de sus validadores nominados.
 
+:::
+
 ## 04 Ajusta tus nominaciones {#04-adjust-your-nominations}
 
- Si alguno de sus validadores esta sobre-suscrito o cambio su comisión, es posible que desees ajustar las nominaciones.
+Si alguno de sus validadores esta sobre-suscrito o cambio su comisión, es posible que desees ajustar las nominaciones.
  
 Para hacerlo, abre Polkadot/apss y dirígete a:
 *Network* > *Participación* > *Acciones de la cuenta*
@@ -171,6 +173,5 @@ Selecciona tu cuenta en el desplegable "_usando la cuenta seleccionada_".Despues
 </div>
 
 Si todo está configurado correctamente, puede enviar el extrinsic haciendo clic en el botón _Enviar Transacción_ y firmar la transacción en la extensión Polkadot.js. Una vez completado, la cantidad seleccionada de HDX debe haberse revinculado.
-:::
 
 ¡Gracias por apoyar a HydraDX convirtiéndose en un nominador de Snakenet! 🎉
