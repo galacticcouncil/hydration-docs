@@ -23,14 +23,13 @@ En dicha sección de "Cuentas", ubique la cuenta que contiene sus tokens HDX vin
 
 Verá una ventana emergente llamada *identidad de registro* . Aquí, puede ingresar la siguiente información:
 
-
 * Nombre legal
 * Correo electrónico
 * Direccion web
 * twitter
 * riot name (en caso de que esté utilizando mensajes de Matrix)
 
- :::note
+:::note
 Toda esta información es opcional; no dude en proporcionar solo la información que desee. Sin embargo, si está ejecutando un nodo de validación, le recomendamos que establezca su correo electrónico. Esto nos permitiría comunicarnos con usted en caso de que encontremos problemas con su nodo.
 :::
 
@@ -51,12 +50,10 @@ After selecting the relevant HydraDX account from the last step, you need to fil
 * **extrinsic**: identity
 * **action**: requestJudgement
 * **reg_index**: aquí debe ingresar el ID del registrador que elija para realizar la verificación.
-HydraDX tiene 2 registradores: Simon Kraus - HydraSik (ID: ***0*** ) y Jimmy Tudeski - stakenode (ID: ***1*** ).
-
+HydraDX tiene 2 registradores: Simon Kraus - HydraSik (ID: **0** ) y Jimmy Tudeski - stakenode (ID: **1** ).
 * **max_fee**:aquí debe ingresar la tarifa máxima en HDX que está dispuesto a pagar al registrador por la verificación. Solo los registradores con una tarifa inferior a su max_fee serán elegibles para llevar a cabo la verificación.
 
 Para enviar su solicitud de verificación, haga clic en *Enviar transacción* y firme la transacción.
-
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-3.jpg')} />
 
@@ -67,10 +64,8 @@ Tenga en cuenta que el proceso de verificación de identidad puede tardar algún
 Después de procesar su solicitud de verificación, el registrador enviará uno de los siguientes juicios que se harán visibles en su estado de identidad:
 
 * **Desconocido** : valor predeterminado, aún no se ha emitido ningún juicio.
-
 * **Razonable** : la información proporcionada parece razonable, sin embargo, no se realizaron verificaciones en profundidad.
 * **Conocido Bueno**: la información es correcta.
-* **OutOfDate** : la información era correcta en el pasado, pero ahora está desactualizada .
+* **OutOfDate** : la información era correcta en el pasado, pero ahora está desactualizada.
 * **Baja calidad** : la información no es precisa, pero se puede corregir actualizándola.
 * **Erróneo** : la información proporcionada es incorrecta y puede indicar una intención maliciosa.
-
