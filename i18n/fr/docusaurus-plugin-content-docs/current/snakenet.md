@@ -3,8 +3,10 @@ id: snakenet
 title: Snakenet
 ---
 
-Le moment est arrivé. Nous allons avoir besoin de compagnons Hydraheads pour rejoindre notre testnet récompensé (Stakenet), nous aider à dépasser nos limitations actuelles et nous montrer où nous améliorer.
+Notre Testnet Snakenet récompensé a été lancé le 21 avril 2021 avec Genesis 2. 
 
-Le testnet comportera différentes phases et,  avant de se transformer en mainnet complètement opérationnel. Les soldes des récompenses de tokens HDX acquises pendant le testnet vont être transférés au mainnet.
+Snakenet fournit une opportunité pour tous les "Hydraheads" de s'équiper pendant la progression vers le mainnet. Les validateurs et les nominateurs peuvent s'habituer à jouer leur rôle dans le processus de délégation (staking) et gagner des récompenses d'approximativement 50% de taux de rendement moyen annuel (APY). Les développeurs peuvent mettre leur codes en action sur l'environnement testnet, et nous pouvons superviser comment le réseau se comporte avec cette activité accrue.
 
-Pour l'instant, nous allons garder les clés sudo en cas de bug ou de problème de  notre côté qui pourrait mener à une perte de fonds. Nous aimerions nous réserver le droit de corriger de tels incidents.
+Au delà des récompenses de délégations (staking), Snakenet apporte un lot de motivations pour l'implication de la communauté. HydraDX est dirigé par sa communauté et toutes les contributions sont récompensées en proportion de leur valeur ajoutée. Les contributions de la communauté peuvent prendre plusieurs formes. Les plus grosses primes sont réservées à la découverte ( et idéalement - à la résolution) de bugs critiques dans la chaîne. la création de communauté, la création de contenu, et le i18n sont d'autres exemples  d'activités qui sont récompensées. De plus amples informations sur les récompenses de communauté vont arriver peu après que nous finaliserons l'intégration avec Commonwealth ce qui nous permettra de gérer les pourboires de trésorerie. Il va sans dire que toute contribution précoce sera récompensées rétroactivement.
+
+Joyeux snaking!
