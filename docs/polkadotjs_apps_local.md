@@ -1,6 +1,6 @@
 ---
 id: polkadotjs_apps_local 
-title: Connect to a local node 
+title: Connect to a Local Node 
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

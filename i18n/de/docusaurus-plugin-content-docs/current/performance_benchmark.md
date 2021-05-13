@@ -43,5 +43,8 @@ Notes:
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
-Wenn die Werte in der Spalte `diff` alle drei positive Zahlenwerte sind, ist ihre Hardware geeignet um eine HydraDX Validator Node zu betreiben.
+Sie können die Unterschiede in der Leistungsfähigkeit zwischen Ihrem Server und den Mindestanforderungen in der diff* (%)-Spalte sehen.
+Wenn alle drei Werte positiv sind sollte Ihr Server in der Lage sein eine HydraDX Validator Node zu betreiben. 
+Wenn einer der Werte niedriger als -10 % ist empfehlen wir Ihnen vom Betreiben eines Validators auf diesem Server abzusehen.
+
 Sie können gerne unserem Discord Channel beitreten wenn sie Ihre Benchmark Ergebnisse diskutieren wollen oder Hilfe brauchen. Unsere Community hilft Ihnen gerne!

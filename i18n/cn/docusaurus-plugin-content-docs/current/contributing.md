@@ -1,9 +1,9 @@
 ---
 id: contributing
-title: 撰写格式
+title: 撰写文件
 ---
 
-您可以使用 [GitHub风格的Markdown语法](https://github.github.com/gfm/) 编写内容。
+您可以使用 **[GitHub 风格的 Markdown 语法](https://github.github.com/gfm/)** 编写内容。
 
 ## Markdown 语法 {#markdown-syntax}
 
@@ -27,13 +27,13 @@ title: 撰写格式
 
 ## 重点 {#emphasis}
 
-强调：又称斜体，带有 *星号* 或 _下划线_。
+强调：又称斜体，可在文字前后添加 *单星号* 或 _下划线_ 。
 
-重点突出：又称黑体，带有 **星号** 或 _下划线_ 。
+重点突出：又称黑体，可在文字前后添加 **双星号** 或 _下划线_ 。
 
-组合强调：**星号和_下划线_**。
+组合强调：可在文字前后同时添加 **双星号和_下划线_** 。
 
-删除线：使用两个波浪号，~~这是啥东东？~~。
+删除线：在文字前后添加两个波浪号 ~~这是啥东东？~~ 。
 
 ---
 
@@ -56,9 +56,9 @@ title: 撰写格式
 
 ## 链接 {#links}
 
-[内联型链接](https://www.google.com/)
+[内嵌型链接](https://www.google.com/)
 
-[标题内联型链接](https://www.google.com/ "Google's Homepage")
+[标题内嵌型链接](https://www.google.com/ "Google's Homepage")
 
 [参考型链接][arbitrary case-insensitive reference text]
 
@@ -66,7 +66,7 @@ title: 撰写格式
 
 或留空并使用[链接文本本身]
 
-URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 <http://www.example.com/> ，有时是 example.com（举例，不在GitHub上）。
+URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 <http://www.example.com/> ，有时是 example.com（举例，不在 GitHub 上）。
 
 一些文本表明参考链接可以在以后使用。
 
@@ -80,13 +80,13 @@ URL和尖括号中的URL，将自动变为链接。 http://www.example.com/ 或 
 
 这是我们的标志（悬停以查看标题文本）:
 
-内联型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
+内嵌型： ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 1')
 
 参考型： ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png '标志标题文本 2'
 
-通过提供文件路径，可以使用任何文件夹中的图像。路径应针对 markdown 文件。
+通过提供文件路径，可以使用任何文件夹中的图像。路径应指向 markdown 文件。
 
 ![img]{useBaseUrl('/static/img/logo.svg')}
 
@@ -119,7 +119,7 @@ function highlightMe() {
 
 ## 表格 {#tables}
 
-冒号可用于对齐列。
+冒号（:），可用于列的对齐，示例如下：
 
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
@@ -127,11 +127,11 @@ function highlightMe() {
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-每个标题单元格，须至少有3个破折号。 外轮廓（|）是可选的，您无需让原始 Markdown 排列整齐。 您还可以使用内联 Markdown 。
+每个标题单元格，至少须有 3 个破折号（-）。 外框线（|）是可选的，您不需要把原始 Markdown 排列得很漂亮（会自动排列整齐）。 您也可以使用内嵌 Markdown 。
 
 | Markdown | Less      | Pretty     |
 | -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
+    _Still_  | `renders` | **nicely** 
 | 1        | 2         | 3          |
 
 ---
@@ -140,37 +140,38 @@ function highlightMe() {
 
 > 电子邮件中的块引用非常有用，可以模拟回复文本。该行是同一引用的一部分。
 
-引用断开。
+引用断开
 
-> 这是一条很长的行，当它换行时仍会被正确引用。哦，boy，让我们继续写，以确保它足够长，可以实际上满足所有人。哦，您可以将 **Markdown** _放入_ 块引用中。
+> 这一行很长，当它换行时仍会被正确引用。 哦，boy，让我们继续，确保它够长，以满足所有人的实际需要。哦，您也可以将 **Markdown** _放入_ 块引用中。
 
 ---
 
-## 内联 HTML {#inline-html}
+## 内嵌 HTML {#inline-html}
 
 <dl>
   <dt>定义清单</dt>
-  <dd>是人们有时会用到的东西.</dd>
+  <dd>是人们有时会用到的东西。</dd>
 
-  <dt>Markdown在HTML中</dt>
-  <dd> *不* 是 **很** 好。使用 HTML <em>标记</em>.</dd>
+  <dt>Markdown 在 HTML 中</dt>
+  <dd> *不* 是 **很** 好用。使用 HTML <em>标记</em>。</dd>
 </dl>
 
 ---
 
 ## 换行 {#line-breaks}
 
-这是我们要开始的一行。
+这是我们要开始的第一行。
 
-该行与上面的行之间有两个换行符，因此它将是一个_单独的段落_。
 
-该行也是一个单独的段落，但是......该行仅由一个换行符分隔，因此它是_同一段落_中的一个单独的行。
+本行与上面一行之间，有两个换行符，因此它将成为一个_单独段落_ 。
+
+本行也是一个单独段落，但是......这一行只用一个换行符隔开，所以它是_同一段落_ 中的单独一行。
 
 ---
 
 ## 告诫 {#admonitions}
 
-（请保持题头： Note、Tip、Important、Caution、Warning 为英文状态，内容可用您想用的语言进行撰写。）
+注：请保持题头：note、tip、important、caution 和 warning 为原始英文状态，内容可根据您的需要撰写。
 
 :::note
 
