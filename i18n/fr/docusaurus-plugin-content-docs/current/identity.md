@@ -30,7 +30,7 @@ Vous verrez une nouvelle fenêtre appelée *enregistrer votre identité*. Ici, v
 * nom matrix (riot name en anglais) (au cas où vous utilisez la messagerie Matrix)
 
 :::note
-toutes ces informations sont facultatives - n'hésitez pas à ne fournir que les détails que vous voulez, si vous faites fonctionner un node validateur, nous vous encourageons à entrer votre email. Cela nous permettra de vous contacter dans le cas où nous rencontrerions un problème avec votre node.
+Toutes ces informations sont facultatives - renseignez seulement les informations que vous souhaitez. Si vous gérez un node de validation, nous vous encourageons à renseigner votre email, cela nous permettra de vous contacter en cas de soucis avec votre node de validation
 :::
 
 Dans le dernier champ de la fenêtre, vous pouvez voir le montant de HDX que vous devez déposer pour garder les informations relatives à votre identité. Vous récupérerez la caution si vous déciderez de supprimer votre identité.
