@@ -29,10 +29,6 @@ Vous verrez une nouvelle fenêtre appelée *enregistrer votre identité*. Ici, v
 * twitter
 * nom matrix (riot name en anglais) (au cas où vous utilisez la messagerie Matrix)
 
-:::note
-Toutes ces informations sont optionnelles - renseignez seulement les informations que vous souhaitez. Si vous gérez un node de validation, nous vous encourageons à renseigner votre email, cela nous permettra de vous contacter en cas de soucis avec votre node de validation.
-:::
-
 Dans le dernier champ de la fenêtre, vous pouvez voir le montant de HDX que vous devez déposer pour garder les informations relatives à votre identité. Vous récupérerez la caution si vous déciderez de supprimer votre identité.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
