@@ -6,7 +6,7 @@ slug: /
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Bienvenue sur les documentations officielles HydraDX ! Ici vous pouvez trouver toutes sortes de ressources utiles sur le protocole HydraDX. Notre intention est d'en faire un super endroit pour chacun, couvrant le spectre complet, depuis les visiteurs occasionnels, en passant pas les validateurs, les nominateurs, jusqu'aux développeurs qui veulent aider à construire HydraDX. 
+Bienvenue sur les documentations officielles HydraDX ! Ici vous pouvez trouver toutes les ressources utiles sur le protocole HydraDX. Notre intention est d'en faire un endroit incontournable pour tous, couvrant le spectre complet, des visiteurs occasionnels, en passant pas les validateurs, les nominateurs, jusqu'aux développeurs qui veulent aider à construire HydraDX. 
 
 HydraDX est conduit par sa communauté, ainsi que les sont ces documentations. Nous sommes heureux de voir vos contributions, qui peuvent prendre plusieurs formes - par exemple, vous pourriez écrire un nouvel article ou en traduire un existant. Regardez notre [dépôt GitHub](https://github.com/galacticcouncil/HydraDX-docs) ainsi que certaines [lignes directrices de contribution](/contributing).
 
