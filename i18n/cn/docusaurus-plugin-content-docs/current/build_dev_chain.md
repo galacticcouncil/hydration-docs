@@ -5,7 +5,7 @@ title: 建立开发链
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-本节将引导您完成设置本地HydraDX链实例进行开发的过程。
+本节将引导您完成设置本地 HydraDX 链实例进行开发的过程。
 
 :::note
 您是否希望搭建一个用于验证目的的节点？请转到我们的 **[验证节点搭建指南](/node_setup)** 。
@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 要设置本地 HydraDX 开发链实例，您的机器需涵盖运行 Substrate 链的所有依赖项。您需要安装 Rust 开发人员环境，并确保已对其进行正确配置，以便可将 Substrate 运行代码编译到 WebAssembly（Wasm）目标。
 
-您可以按照 [Substrate 指南](https://substrate.dev/docs/en/knowledgebase/getting-started) 手动安装和配置所有依赖项，也可以用以下脚本完成所有工作：
+您可以按照 **[Substrate 指南](https://substrate.dev/docs/en/knowledgebase/getting-started)** 手动安装和配置所有依赖项，也可以用以下脚本完成所有工作：
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
