@@ -11,9 +11,9 @@
     "message": "指南",
     "description": "The label for category How-to in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Connecting to node": {
+  "sidebar.sidebar.category.Connect to a Node": {
     "message": "连接到节点",
-    "description": "The label for category Connecting to node in sidebar sidebar"
+    "description": "The label for category Connect to a Node in sidebar sidebar"
   },
   "sidebar.sidebar.category.Learn": {
     "message": "学习",
@@ -23,8 +23,12 @@
     "message": "运营",
     "description": "The label for category Maintain in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Contributing": {
+  "sidebar.sidebar.category.Build": {
+    "message": "构建",
+    "description": "The label for category Build in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Contribute": {
     "message": "投稿",
-    "description": "The label for category Contributing in sidebar sidebar"
+    "description": "The label for category Contribute in sidebar sidebar"
   }
 }

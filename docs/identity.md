@@ -29,6 +29,10 @@ You will see a popup called *register identity*. Here, you can enter the followi
 * twitter
 * riot name (in case you are using Matrix messaging)
 
+:::note
+All this information is optional - feel free to only provide the details you choose. However, if you are running a validator node, we encourage you to set your email. This would allow us to contact you in case we encounter issues with your node.
+:::
+
 In the last field of the popup, you can see the amount of HDX you need to deposit to store your identity information. You will receive this deposit back once you decide to clear your identity at a later point.
 
 <img alt="authorize" src={useBaseUrl('/identity/set-identity-2.jpg')} />
@@ -44,7 +48,7 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrin
 After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
 
 * **extrinsic**: identity
-* **action**: requestJudgment
+* **action**: requestJudgement
 * **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
 HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
 * **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
@@ -57,9 +61,9 @@ Please note that the process of identity verification may take some time to comp
 
 ## 03 Outcome of the verification procedure {#03-verification-outcome}
 
-After processing your verification request, the registrar will submit one of the following judgments which will become visible in your identity status:
+After processing your verification request, the registrar will submit one of the following judgements which will become visible in your identity status:
 
-* **Unknown** - default value, no judgment has been made yet.
+* **Unknown** - default value, no judgement has been made yet.
 * **Reasonable** - the provided information appears reasonable, however no in-depth checks were made.
 * **KnownGood** - the information is correct.
 * **OutOfDate** - the information was correct in the past but it is now out of date.
