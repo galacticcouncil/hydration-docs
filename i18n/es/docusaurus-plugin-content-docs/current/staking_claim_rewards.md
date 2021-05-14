@@ -1,20 +1,23 @@
 ---
 id: staking_claim_rewards
-title: Claim your Staking Rewards
+title: Reclama tus recompensas de staking
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-At the end of every era, validator pools are assigned their [staking rewards](/staking_rewards) which consist of base rewards, era point rewards and tips. These rewards, however, are not distributed automatically to the accounts of the validator and its nominators. This will only happen after the staking rewards have been claimed by **triggering a payout**. Staking rewards must be claimed **within 84 eras** after they have been earned. Once this period lapses, the relevant rewards information is deleted from the chain and the validator pool can no longer receive its rewards for that era. 
 
-The process of manually triggering a payout within a limited timeframe is an important security feature. By requiring that a payout transaction is submitted for every validator pool and for every era, the distribution of rewards is spread across several blocks. If all rewards were to be distributed to all validators and nominators within a single block, the stability of the chain could possibly be endangered.
+Al final de cada era, a los pools de validadores se les asignan sus [recompensas de staking](/staking_rewards) que consisten en las recompensas base, recompensas de puntos de era y tips. Sin embargo, estas recompensas no se distribuyen automáticamente a las cuentas del validador y sus nominadores. Esto solo sucederá después de que las recompensas de staking hayan sido reclamadas,  **solicitando un pago**. Las recompensas de staking se deben reclamar **dentro de las 84 eras** posteriores a su obtención. Una vez que transcurre este período, la información de recompensas relevante se elimina de la cadena y el pool de validadores ya no puede recibir sus recompensas para esa era.
 
-## How to trigger a payout
-A payout can be triggered easily by both validators and their nominators using Polkadot/apps. For this purpose, navigate to *Network > Staking > Payouts*. Alternatively, you can use the following link:  
+El proceso de solicitar manualmente un pago dentro de un período de tiempo limitado es una característica de seguridad importante. Al requerir que se envíe una transacción de pago para cada pool de validadores y para cada época, la distribución de recompensas se extiende a lo largo de varios bloques. Si todas las recompensas se distribuyeran a todos los validadores y nominadores dentro de un solo bloque, la estabilidad de la cadena posiblemente podría estar en peligro.
+
+## Como solicitar el pago
+Tanto los validadores como sus nominadores pueden soliictar fácilmente un pago mediante Polkadot/Apps Para ello, vaya a *Network> Participación> Payouts*. Alternativamente, puede utilizar el siguiente enlace:
 https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
 
-When selecting *My stashes* you should see all rewards which are available for payout for your staked tokens with an indication of the respective era numbers. By clicking on *Payout all*, it is possible to submit a series of transactions in order to claim all available rewards for the past eras.
+Al seleccionar *My stashes*, debería ver todas las recompensas que están disponibles por el stake de sus tokens, con una indicación de los números de época respectivos. Al hacer clic en *Pagar todo*, es posible enviar una serie de transacciones para reclamar todas las recompensas disponibles para las eras pasadas.
+
 
 <img src={useBaseUrl('/staking-claim-rewards/payouts.jpg')} />
 
-After triggering the payout, you will be asked to sign the transaction(s) using your HDX account. Once confirmed, the rewards for the selected eras will be distributed to the respective validators and their nominators.
+Después de solicitar el pago, se le pedirá que firme la(s) transacción(es) usando su cuenta HDX. Una vez confirmadas, las recompensas por las eras seleccionadas se distribuirán a los respectivos validadores y sus nominadores.
+
