@@ -56,7 +56,6 @@ $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --de
 
 ## 04 连接到本地链实例 {#04-connect-to-your-local-chain-instance}
 
-您可以使用 Polkadot/apps 连接到 HydraDX 开发节点，并将网络更改为 `Development` 。您也可以使用这个链接：  
-https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
+您可以使用 Polkadot/apps 连接到 HydraDX 开发节点，并将网络更改为 `Development` 。或者，直接点击这个链接：https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
 
 <img alt="connect to node" src={useBaseUrl('/building/connect-to-node.jpg')} />
