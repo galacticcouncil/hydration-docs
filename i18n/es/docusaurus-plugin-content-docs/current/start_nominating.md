@@ -132,4 +132,46 @@ Asegúrese de revisar sus nominaciones de vez en cuando. Es posible que algunos 
 
 :::
 
+## 04 Ajusta tus nominaciones {#04-adjust-your-nominations}
+
+Si alguno de sus validadores esta sobre-suscrito o cambio su comisión, es posible que desees ajustar las nominaciones.
+ 
+Para hacerlo, abre Polkadot/apss y dirígete a:
+*Network* > *Participación* > *Acciones de la cuenta*
+
+Das click en los 3 puntos que aparecen al lado de los detalles de tu cuenta y selecciona _Set nominees_.
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-set-nominees.png')} />
+</div>
+
+En la siguiente ventana, que puede que ya le resulte familiar, puede eliminar validadores y/o agregar nuevos validadores
+Puede ajustar sus nominaciones no hay necesidad de detener la nominación o hacer unbonding de sus tokens. Los cambios se aplicarán cuando comience la siguiente era (24h).
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
+</div>  
+
+## 05 Revincular o Rebond de tus tokens {#05-rebond-funds}
+
+Si ha hecho unbond(desvinculado) de sus tokens, puede volver a vincularlos antes de que haya transcurrido el período de espera de 28 días.
+
+Para hacerlo, abra Polkadot / apps y navegue hasta *Desarrolladora* > *Extrinsics*. Alternativamente, puede seguir este enlace:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+Selecciona tu cuenta en el desplegable "_usando la cuenta seleccionada_".Despues, necesitas llenar los espacios con la siguiente información. 
+
+* **extrinsic**: staking
+* **action**: rebond(value)
+* **value**: Aqui colocas el monto de HDX que deseas rebond(revincular)
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+Si todo está configurado correctamente, puede enviar el extrinsic haciendo clic en el botón _Enviar Transacción_ y firmar la transacción en la extensión Polkadot.js. Una vez completado, la cantidad seleccionada de HDX debe haberse revinculado.
+
 ¡Gracias por apoyar a HydraDX convirtiéndose en un nominador de Snakenet! 🎉
