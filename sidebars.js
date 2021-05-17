@@ -28,6 +28,12 @@ module.exports = {
     Build: [
       "build_dev_chain"
     ],
-    Contribute: ["contributing"]
+    Contribute: ["contributing"],
+    "Hydra Dev Intro": ["dev_intro", "dev_pools",
+      "dev_primitives",
+      "dev_math",
+      {type: "category",
+      label: "Pallets", items: ["dev_pallets","pallet_asset_registry", "pallet_xyk", "pallet_hdx", "pallet_exchange", "pallet_payment" ]},
+    "dev_benchmarking"]
   },
 };
