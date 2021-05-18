@@ -43,7 +43,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
-### 01 选择您的ETH地址 {#01-select-your-eth-address}
+### 01 选择您的 ETH 地址 {#01-select-your-eth-address}
 
 在申领过程的第一步，系统将要求您选择持有 xHDX 令牌的帐户。这可以通过连接到支持 ERC-20 令牌（例如 Metamask）的钱包，或通过输入框手动输入 ETH 地址来完成（在这种情况下，您稍后需要手动签名该消息）。
 
@@ -51,15 +51,15 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 :::note
 
-如果您在官方 Balancer 池以外的其他地方（如 Uniswap）获得了 xHDX，或者您已将 xHDX 令牌从原始购买钱包中移出，则您无资格获得 Gas 退款。
+如果您在官方 Balancer 池以外的其他地方（如 Uniswap）获得了 xHDX，或者您已将 xHDX 令牌从原始购买钱包中移出，则无资格获得 Gas 退款。
 
 :::
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-01.jpg')} />
 
-### 02 创建并选择一个HDX地址 {#02-create-and-select-an-hdx-address}
+### 02 创建并选择一个 HDX 地址 {#02-create-and-select-an-hdx-address}
 
-在第二步中，将要求您选择您的 HDX 地址。
+在第二步中，将要求您选择 HDX 地址。
 
 要创建一个新的 HDX 地址，请打开 Polkadot.js 扩展程序，然后单击 + 号，创建一个新帐户。在帐户创建的第一步中，您会看到由 12 个英语单词组成、可用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 *Next step* （下一步） 。在这里，您应该通过选择 **HydraDX Snakenet** （蛇网）选项来切换 **NETWORK** （网络）。输入您的帐户名称和密码，然后完成帐户创建。
 
@@ -103,7 +103,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)** 检查令牌数额。请注意，您无法直接在 Polkadot.js 扩展程序中看到您的 HDX 令牌数额。
 
-### 05 接下来做什么? {#05-whats-next}
+### 05 接下来做什么？ {#05-whats-next}
 
 完成申领过程后，令牌将在您的钱包中保持锁定状态，直至主网启动。 
 
