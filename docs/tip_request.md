@@ -7,11 +7,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.io with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
+The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
 
-## 01 Publish the Tip Request in Commonwealth.io {#01-publish-tip-request}
+## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.io: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
