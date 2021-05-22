@@ -10,6 +10,7 @@ module.exports = {
       "start_validating",
       "identity",
       "staking_claim_rewards",
+      "tip_request",
       {
         type: "category",
         label: "Connect to a Node",
