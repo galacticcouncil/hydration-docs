@@ -24,22 +24,22 @@ Exchange pallet config have several types which are needed for the pallet to wor
 
 ```rust
 #[pallet::config]
-	pub trait Config: frame_system::Config {
-		type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
+pub trait Config: frame_system::Config {
+    type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
 
-		/// AMM pool implementation
-		type AMMPool: AMM<Self::AccountId, AssetId, AssetPair, Balance>;
+    /// AMM pool implementation
+    type AMMPool: AMM<Self::AccountId, AssetId, AssetPair, Balance>;
 
-		/// Intention resolver
-		type Resolver: Resolver<Self::AccountId, Intention<Self>, Error<Self>>;
+    /// Intention resolver
+    type Resolver: Resolver<Self::AccountId, Intention<Self>, Error<Self>>;
 
-		/// Currency for transfers
-		type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>
-			+ MultiReservableCurrency<Self::AccountId>;
+    /// Currency for transfers
+    type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>
+        + MultiReservableCurrency<Self::AccountId>;
 
-		/// Weight information for the extrinsics.
-		type WeightInfo: WeightInfo;
-	}
+    /// Weight information for the extrinsics.
+    type WeightInfo: WeightInfo;
+}
 ```
 
 AMMPool is implementation of an AMM pool which shall be used to resolve a transaction or partial transaction if it can't be directly traded with another transaction.
@@ -69,13 +69,13 @@ IntentionID is currently generated as follows:
 
 ```rust
 fn generate_intention_id(account: &T::AccountId, c: u32, assets: &AssetPair) -> IntentionId<T> {
-		let b = <system::Pallet<T>>::current_block_number();
-		(c, 
-         &account, 
-         b, 
-         assets.ordered_pair().0, 
-         assets.ordered_pair().1).using_encoded(T::Hashing::hash)
-	}
+    let b = <system::Pallet<T>>::current_block_number();
+    (c, 
+        &account, 
+        b, 
+        assets.ordered_pair().0, 
+        assets.ordered_pair().1).using_encoded(T::Hashing::hash)
+}
 ```
 
 ### Storage
@@ -85,7 +85,7 @@ The pallet has to keep track of all intentions for current block. Intention repr
 We use actual storage to store list of intentions for each asset pair:
 
 ```rust
-pub type ExchangeAssetsIntentions<T: Config> =StorageMap<_, Blake2_128Concat, 
+pub type ExchangeAssetsIntentions<T: Config> = StorageMap<_, Blake2_128Concat, 
     (AssetId, AssetId), 
     Vec<Intention<T>>, 
     ValueQuery>;

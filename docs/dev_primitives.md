@@ -83,8 +83,6 @@ pub struct ExchangeIntention<AccountId, Balance, IntentionID> {
     pub sell_or_buy: IntentionType,
     pub intention_id: IntentionID,
 }
-
-
 ```
 
 :::note

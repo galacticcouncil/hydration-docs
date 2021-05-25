@@ -20,28 +20,28 @@ Subsequently, the fee is paid in native currency.
 ### Config
 ```rust
 pub trait Config: frame_system::Config + pallet_transaction_payment::Config {
-        /// Because this pallet emits events, it depends on the runtime's definition of an event.
-        type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
+    /// Because this pallet emits events, it depends on the runtime's definition of an event.
+    type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
 
-        /// The currency type in which fees will be paid.
-        type Currency: Currency<Self::AccountId> + Send + Sync;
+    /// The currency type in which fees will be paid.
+    type Currency: Currency<Self::AccountId> + Send + Sync;
 
-        /// Multi Currency
-        type MultiCurrency: MultiCurrency<Self::AccountId>
-            + MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
+    /// Multi Currency
+    type MultiCurrency: MultiCurrency<Self::AccountId>
+        + MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
 
-        /// AMM pool to swap for native currency
-        type AMMPool: AMM<Self::AccountId, AssetId, AssetPair, Balance>;
+    /// AMM pool to swap for native currency
+    type AMMPool: AMM<Self::AccountId, AssetId, AssetPair, Balance>;
 
-        /// Weight information for the extrinsics.
-        type WeightInfo: WeightInfo;
+    /// Weight information for the extrinsics.
+    type WeightInfo: WeightInfo;
 
-        /// Should fee be paid for setting a currency
-        type WithdrawFeeForSetCurrency: Get<Pays>;
+    /// Should fee be paid for setting a currency
+    type WithdrawFeeForSetCurrency: Get<Pays>;
 
-        /// Convert a weight value into a deductible fee based on the currency type.
-        type WeightToFee: WeightToFeePolynomial<Balance = Balance>;
-    }
+    /// Convert a weight value into a deductible fee based on the currency type.
+    type WeightToFee: WeightToFeePolynomial<Balance = Balance>;
+}
 ```
 
 Currency deals with native asset and MultiCurrency deals with all other currencies in the system.
@@ -146,31 +146,31 @@ The multi payment transaction pallet imeplemtns the `OnChargeTransaction` trait 
 
 ```rust
 fn withdraw_fee(
-        who: &T::AccountId,
-        _call: &T::Call,
-        _info: &DispatchInfoOf<T::Call>,
-        fee: Self::Balance,
-        tip: Self::Balance,
-    ) -> Result<Self::LiquidityInfo, TransactionValidityError> {
-        if fee.is_zero() {
-            return Ok(None);
-        }
-
-        let withdraw_reason = if tip.is_zero() {
-            WithdrawReasons::TRANSACTION_PAYMENT
-        } else {
-            WithdrawReasons::TRANSACTION_PAYMENT | WithdrawReasons::TIP
-        };
-
-        if SW::swap_currency(&who, fee.into()).is_err() {
-            return Err(InvalidTransaction::Payment.into());
-        }
-
-        match C::withdraw(who, fee, withdraw_reason, ExistenceRequirement::KeepAlive) {
-            Ok(imbalance) => Ok(Some(imbalance)),
-            Err(_) => Err(InvalidTransaction::Payment.into()),
-        }
+    who: &T::AccountId,
+    _call: &T::Call,
+    _info: &DispatchInfoOf<T::Call>,
+    fee: Self::Balance,
+    tip: Self::Balance,
+) -> Result<Self::LiquidityInfo, TransactionValidityError> {
+    if fee.is_zero() {
+        return Ok(None);
     }
+
+    let withdraw_reason = if tip.is_zero() {
+        WithdrawReasons::TRANSACTION_PAYMENT
+    } else {
+        WithdrawReasons::TRANSACTION_PAYMENT | WithdrawReasons::TIP
+    };
+
+    if SW::swap_currency(&who, fee.into()).is_err() {
+        return Err(InvalidTransaction::Payment.into());
+    }
+
+    match C::withdraw(who, fee, withdraw_reason, ExistenceRequirement::KeepAlive) {
+        Ok(imbalance) => Ok(Some(imbalance)),
+        Err(_) => Err(InvalidTransaction::Payment.into()),
+    }
+}
 ```
 
 swap_currency ensures that there is enough balance of native currency to pay the fee by swapping chosen currency for native currency.

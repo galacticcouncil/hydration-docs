@@ -11,18 +11,18 @@ slug: /hdx
 Config is self-explanatory.
 
 ```rust
-    pub trait Config: frame_system::Config + pallet_asset_registry::Config {
-        type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
+pub trait Config: frame_system::Config + pallet_asset_registry::Config {
+    type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
 
-        /// Multi currency for transfer of currencies
-        type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
+    /// Multi currency for transfer of currencies
+    type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
 
-        /// Weight information for the extrinsics.
-        type WeightInfo: WeightInfo;
+    /// Weight information for the extrinsics.
+    type WeightInfo: WeightInfo;
 
-        /// Trading fee rate
-        type GetExchangeFee: Get<fee::Fee>;
-    }
+    /// Trading fee rate
+    type GetExchangeFee: Get<fee::Fee>;
+}
 ```
 
 ### Storage
@@ -52,11 +52,11 @@ ID assigned by asset registry, and the select element is current weight of the a
 
 ```rust
 pub fn add_token(
-            origin: OriginFor<T>,
-            asset: AssetId,
-            amount: Balance,
-            initial_price: Price,
-        ) -> DispatchResultWithPostInfo {}
+    origin: OriginFor<T>,
+    asset: AssetId,
+    amount: Balance,
+    initial_price: Price,
+) -> DispatchResultWithPostInfo {}
 ```
 Add new token to the pool with initial liquidity given by amount and initial price.
 
@@ -75,36 +75,36 @@ Sell and buy extrinsics are actually the same as the ones in xyk pallet.
 
 ```rust
  #[pallet::weight(<T as Config>::WeightInfo::sell())]
-        pub fn sell(
-            origin: OriginFor<T>,
-            asset_in: AssetId,
-            asset_out: AssetId,
-            amount: Balance,
-            max_limit: Balance,
-            discount: bool,
-        ) -> DispatchResultWithPostInfo {
-            let who = ensure_signed(origin)?;
+pub fn sell(
+    origin: OriginFor<T>,
+    asset_in: AssetId,
+    asset_out: AssetId,
+    amount: Balance,
+    max_limit: Balance,
+    discount: bool,
+) -> DispatchResultWithPostInfo {
+    let who = ensure_signed(origin)?;
 
-            <Self as AMM<_, _, _, _>>::sell(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
+    <Self as AMM<_, _, _, _>>::sell(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
 
-            Ok(().into())
-        }
+    Ok(().into())
+}
 ```
 
 ```rust
  #[pallet::weight(<T as Config>::WeightInfo::buy())]
-        pub fn buy(
-            origin: OriginFor<T>,
-            asset_out: AssetId,
-            asset_in: AssetId,
-            amount: Balance,
-            max_limit: Balance,
-            discount: bool,
-        ) -> DispatchResultWithPostInfo {
-            let who = ensure_signed(origin)?;
+pub fn buy(
+    origin: OriginFor<T>,
+    asset_out: AssetId,
+    asset_in: AssetId,
+    amount: Balance,
+    max_limit: Balance,
+    discount: bool,
+) -> DispatchResultWithPostInfo {
+    let who = ensure_signed(origin)?;
 
-            <Self as AMM<_, _, _, _>>::buy(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
+    <Self as AMM<_, _, _, _>>::buy(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
 
-            Ok(().into())
-        }
+    Ok(().into())
+}
 ```

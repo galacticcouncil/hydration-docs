@@ -16,23 +16,23 @@ Config is pretty straightforward.
 
 ```rust
 pub trait Config: frame_system::Config + pallet_asset_registry::Config {
-        type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
-   
-        /// Share token support
-        type AssetPairAccountId: AssetPairAccountIdFor<AssetId, Self::AccountId>;
+    type Event: From<Event<Self>> + IsType<<Self as frame_system::Config>::Event>;
 
-        /// Multi currency for transfer of currencies
-        type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
+    /// Share token support
+    type AssetPairAccountId: AssetPairAccountIdFor<AssetId, Self::AccountId>;
 
-        /// Native Asset Id
-        type NativeAssetId: Get<AssetId>;    
+    /// Multi currency for transfer of currencies
+    type Currency: MultiCurrencyExtended<Self::AccountId, CurrencyId = AssetId, Balance = Balance, Amount = Amount>;
 
-        /// Weight information for the extrinsics.
-        type WeightInfo: WeightInfo;
+    /// Native Asset Id
+    type NativeAssetId: Get<AssetId>;    
 
-        /// Trading fee rate
-        type GetExchangeFee: Get<fee::Fee>;
-    }
+    /// Weight information for the extrinsics.
+    type WeightInfo: WeightInfo;
+
+    /// Trading fee rate
+    type GetExchangeFee: Get<fee::Fee>;
+}
 ```
 
 ### Storage
@@ -115,20 +115,20 @@ when resolving the transaction ( mostly multiple limits).
 Sell:
 ```rust
 #[pallet::weight(<T as Config>::WeightInfo::sell())]
-		pub fn sell(
-			origin: OriginFor<T>,
-			asset_in: AssetId,
-			asset_out: AssetId,
-			amount: Balance,
-			min_limit: Balance,
-			discount: bool,
-		) -> DispatchResultWithPostInfo {
-			let who = ensure_signed(origin)?;
+pub fn sell(
+    origin: OriginFor<T>,
+    asset_in: AssetId,
+    asset_out: AssetId,
+    amount: Balance,
+    min_limit: Balance,
+    discount: bool,
+) -> DispatchResultWithPostInfo {
+    let who = ensure_signed(origin)?;
 
-			<Self as AMM<_, _, _, _>>::sell(&who, AssetPair { asset_in, asset_out }, amount, min_limit, discount)?;
+    <Self as AMM<_, _, _, _>>::sell(&who, AssetPair { asset_in, asset_out }, amount, min_limit, discount)?;
 
-			Ok(().into())
-		}
+    Ok(().into())
+}
 ```
 
 In case of sell, user specifies min_limit of asset out which should be exchange for amount of asset in.
@@ -137,20 +137,20 @@ In case of sell, user specifies min_limit of asset out which should be exchange 
 buy:
 ```rust
 #[pallet::weight(<T as Config>::WeightInfo::buy())]
-		pub fn buy(
-			origin: OriginFor<T>,
-			asset_out: AssetId,
-			asset_in: AssetId,
-			amount: Balance,
-			max_limit: Balance,
-			discount: bool,
-		) -> DispatchResultWithPostInfo {
-			let who = ensure_signed(origin)?;
+pub fn buy(
+    origin: OriginFor<T>,
+    asset_out: AssetId,
+    asset_in: AssetId,
+    amount: Balance,
+    max_limit: Balance,
+    discount: bool,
+) -> DispatchResultWithPostInfo {
+    let who = ensure_signed(origin)?;
 
-			<Self as AMM<_, _, _, _>>::buy(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
+    <Self as AMM<_, _, _, _>>::buy(&who, AssetPair { asset_in, asset_out }, amount, max_limit, discount)?;
 
-			Ok(().into())
-		}
+    Ok(().into())
+}
 ```
 
 Buy on the other hand - specify max_limit of asset_in to be exchange for amount of asset_out.
