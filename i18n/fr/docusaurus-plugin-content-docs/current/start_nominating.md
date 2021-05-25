@@ -162,5 +162,26 @@ Adapter vos nominations peut être fait à la volée, Il n'y a pas besoin d'arr�
   <img src={useBaseUrl('/nominator-guide/nominate-validator-2.png')} />
 </div>  
 
+## 05 Réengagez vos tokens
+
+Si vous avez accidentellement désengagés vos tokens HDX, vous pouvez les réengager avant que la période de 28 jours soit passée.
+
+Pour ce faire, ouvrez Polkadot/apps et naviguez jusqu'à Développeur > Extrinsics. Sinon, vous pouvez suivre ce lien:
+
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+
+Sélectionnez votre compte dans le menu déroulant de compte sélectionné. après ça, vous devez remplir les informations suivantes:
+
+* **extrinsic**: staking
+* **action**: rebond_value
+* **value**: Ici vous devez entrer le montant de HDX  que vous voulez réengager.
+
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/nominator-guide/rebond.png')} />
+</div>
+
+
+Si tout est configuré correctement vous pouvez soumettre l'extrinsic (extrinsèque) en cliquant sur le bouton "Soumettre la transaction" et en signant la transaction dans l'extension Polkadot.js. La transaction complétée, le montant de HDX sélectionné devrait être réengagé.
 
 Merci de soutenir HydraDX en devenant un nominateur Snakenet! 🎉
