@@ -9,6 +9,9 @@ module.exports = {
   organizationName: "galacticcouncil", // Usually your GitHub org/user name.
   projectName: "HydraDX-docs", // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ['rust'],
+    },
     navbar: {
       title: "HydraDX Documentation",
       logo: {
