@@ -9,6 +9,8 @@ The New Deal allows us to issue HDX rewards from the Treasury for a wide variety
 
 For more inspiration, we have outlined some of the most pressing areas where we welcome your involvement. The list is not exhaustive, so please feel free to reach out to us if you want to share your ideas.
 
+Unless otherwise stated below, all contributions will be assessed individually based on their merit and relevance to the project in order to determine an appropriate reward.
+
 ### 1. Bug Bounties {#bug-bounties}
 
 Hacks in DeFi are not uncommon. Incentivized Snakenet is a time and place to make sure that HydraDX is bulletproof (we might as well have called it “Operation Bulletproof”). HydraDX becoming the heart that pumps liquidity through the financial system requires all of us to join efforts and battle-test it.
@@ -46,7 +48,9 @@ To make it easier for future Hydraheads, we need a rich set of tooling and integ
 
 While we believe in organic community building, we also welcome the involvement of community managers who would like to take up the task of expanding the local communities (quality over quantity) and finding more Hydraheads who want to get involved.
 
-Becoming a community manager is based on merit. Any member who proves to be an active and constructive participant, willing to help others and spreading the word about HydraDX, can become one. 
+Becoming a community manager is based on merit. Any member who proves to be an active and constructive participant, willing to help others and spreading the word about HydraDX, can become one.
+
+The base reward for community managers is the equivalent of $20 per hour, paid out in HDX.
 
 ### 6. Other Community Contributions {#other-contributions}
 
