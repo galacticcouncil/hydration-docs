@@ -60,4 +60,4 @@ There are many other helpful tasks which will be rewarded with Treasury tips, in
 * Helping spreading the word by producing educational material (explanative blogs, ELI5 animations, videos)
 * Unfolding your creativity and creating stickers and memes (we will be rewarding the best ones)
 
-We will try to reward all original content. It is difficult to put an exact price tag on the various tasks, but with the help of the community managers we will be able to assess each contribution individually.
+Community contributions will be assessed individually by the community managers. The reward for eligible community contributions under this category is the equivalent of $20 per hour, paid out in HDX.
