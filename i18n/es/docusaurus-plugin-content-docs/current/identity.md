@@ -1,6 +1,6 @@
 ---
 id: identity
-title: Establece tu Identidad
+title: Establecer tu Identidad
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
