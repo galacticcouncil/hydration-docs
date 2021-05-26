@@ -28,14 +28,24 @@ module.exports = {
       "node_monitoring"
     ],
     Build: [
-      "build_dev_chain"
-    ],
-    Contribute: ["contributing"],
-    "Hydra Dev Intro": ["dev_intro", "dev_pools",
+      "dev_intro",
+      "build_dev_chain",
+      "dev_pools",
       "dev_primitives",
       "dev_math",
-      {type: "category",
-      label: "Pallets", items: ["dev_pallets","pallet_asset_registry", "pallet_xyk", "pallet_hdx", "pallet_exchange", "pallet_payment" ]},
-    "dev_benchmarking"]
-  },
+      {
+        type: "category",
+        label: "Pallets",
+        items: [
+          "dev_pallets",
+          "dev_pallet_asset_registry",
+          "dev_pallet_xyk",
+          "dev_pallet_hdx",
+          "dev_pallet_exchange",
+          "dev_pallet_payment"
+        ]
+      }
+    ],
+    Contribute: ["contributing"]
+  }
 };

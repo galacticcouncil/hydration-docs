@@ -1,16 +1,15 @@
 ---
 id: dev_primitives
-title: Primitives crate
+title: Primitives Crate
 ---
 
 ## Overview
 
-Purpose of this primitives crate is to have all common types used in Hydra or Basilisk in one place.
+The purpose of the primitives crate is to put all common types used in HydraDX or Basilisk at one place.
 
+## Common Types
 
-### Common Types
-
-Among other types, the following are worth mentioning:
+Among others, the following are worth mentioning:
 
 **AssetId**
 
@@ -30,7 +29,7 @@ Current type: FixedU128
 
 **AssetPair**
 
-Asset pair representation for AMM trades. Structure holding ids of assets involved in a trade.
+Asset pair representation for AMM trades. This is a structure holding the ids of the assets involved in a trade.
 
 ```rust
 [cfg_attr(feature = "std", derive(Serialize, Deserialize))]
@@ -41,15 +40,16 @@ pub struct AssetPair {
 }
 ```
 
-Couple of useful methods are implemented for AssetPair as well:
+A couple of useful methods implemented for AssetPair:
+
 ```rust
 pub fn ordered_pair(&self) -> (AssetId,AssetId){...}
 pub fn name(&self) -> Vec<u8>{...}
 ```
 
-ordered_pair returns tuple where first asset id < second asset id.
+The ordered_pair function returns a tuple where first asset id < second asset id.
 
-name construct a name for this asset pair. THis might be change slightly in future because it has currently hardcoded  'HDT' prefix.
+The name function constructs a name for the asset pair. This might change slightly in the future because it currently has a hardcoded 'HDT' prefix.
 
 ### Exchange
 
@@ -86,12 +86,12 @@ pub struct ExchangeIntention<AccountId, Balance, IntentionID> {
 ```
 
 :::note
-This might be moved into the exchange pallet as it is only used within exchange algorithm.
+ExchangeIntention might be moved to the exchange pallet as it is only used in the exchange algorithm.
 :::
 
 ### Traits
 
-AMM trait is an interface which a pool has to implement in order to be able to plug it into the exchange pallet.
+An AMM trait is an interface which needs to be implemented by a pool in order to be able to plug it into the exchange pallet.
 
 ```rust
 pub trait AMM<AccountId, AssetId, AssetPair, Amount> {

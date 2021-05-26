@@ -1,16 +1,15 @@
 ---
 id: dev_math
-title: Hydra Math crate
+title: HydraDX Math Crate
 ---
 
 ## Overview
 
-[Github](https://github.com/galacticcouncil/HydraDX-math)
+https://github.com/galacticcouncil/HydraDX-math
 
-HydraDX math crate contains all the mathematical formulas for various implementation of AMM pools.
+The HydraDX math crate contains all the mathematical formulas for the various implementations of AMM pools.
 
-Main goal of having this math functionality as a separate crate is that it is possible to easily compile it into WebAssembly and use 
-the wasm library directly on the frontend. 
+The main goal of having this math functionality as a separate crate is to make it possible to easily compile it into WebAssembly which allows us to  use the wasm library directly on the frontend. 
 
 This way, we can compute everything that is needed on the frontend side in the same way that it is calculated when a transaction is submitted using
 same math and without the need to talk to the node.
@@ -36,7 +35,7 @@ pub fn calculate_liquidity_out(asset_a_reserve: Balance,
 
 ### HDX
 
-Omni pool math implementation can be found in hdx module.
+The HydraDX Omnipool math implementation can be found in the hdx module.
 
 It has similar methods as xyk but different parameters are needed.
 

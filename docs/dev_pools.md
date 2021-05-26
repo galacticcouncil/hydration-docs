@@ -3,28 +3,18 @@ id: dev_pools
 title: AMM Pools
 ---
 
+HydraDX and its sister chain Basilisk will implement various Automated Market Maker (AMM) models.
 
-## AMM
+We are currently working on the following AMM pools:
 
-AMM stands from Automated Market Maker. Not going deeper into explanation but briefly - you can imagine as a tool to give you a price
-between two assets.
+### XYK
 
-If you want to read about AMM, we suggest following articles: TODO: add sources
+Uniswap-like AMM model. We have implemented this pool as it is already known, so it would be possible to test it with our exchange implementation.
 
-## Pools in Hydra
+### HDX
 
-We currently have several pools implemented.
+HydraDX Omnipool implementation.
 
-**XYK**
+### LBP
 
-Uniswap AMM model. We implemented this pool as it is already known, so it would be possible to test it with our exchange implementation.
-
-**HDX**
-
-Hydra Omni pool implementation.
-
-**LBP**
-
-TBD.
-
-As practice exercise at the end of this short course, we ( you ) will be implementing another type of pool - Curve
+Balancer-like Liquidity Bootstrapping Pool (LBP). TBD.
