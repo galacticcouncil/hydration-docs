@@ -39,7 +39,7 @@ Los nominadores y validadores que hicieron bond de todo su HDX y se "atascaron" 
 
 :::
 
-## 02 Envia la solicitud del Tip On-Chain {#02-submit-on-chain}
+## 02 Envía la solicitud del Tip On-Chain {#02-submit-on-chain}
 
 Después de publicar su solicitud de Tips de la Tesorería, debe enviarla de modo on-chain. Para este propósito, su billetera debe contener una pequeña cantidad de HDX para cubrir el fees de la transacción. Si actualmente no tiene ningún HDX, no es necesario que ejecute este paso; alguien más enviará su solicitud del tip on-chain por usted.
 
