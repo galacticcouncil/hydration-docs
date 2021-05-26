@@ -24,7 +24,7 @@ Current type: u128
 
 **Price**
 
-Current type: U64F64
+Current type: FixedU128
 
 ###  Asset
 
