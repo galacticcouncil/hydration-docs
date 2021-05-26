@@ -5,11 +5,11 @@ title: 成为验证人
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
- 您在 **[搭建 HydraDX 节点](/node_setup)** 后，需要绑定 HDX 令牌并设置验证密钥，然后才能开始验证。
+在 **[搭建 HydraDX 节点](/node_setup)** 后，您需要绑定 HDX 令牌并设置验证密钥，然后才能开始验证。
 
 :::warning
 
-搭建并运行验证节点需要一定的技术技能，以正确设置节点并保证其正常运行。 我们还要求验证程序始终使用最新的稳定版本运行节点。 如果不确定自己在做什么，我们建议您 **[将 HDX 提名](/start_nominating)** 给经验丰富的验证人。 这样，您可以保护自己和可能质押您的提名人免受非自愿的资金损失。
+搭建并运行验证节点需要一定的技术技能，以正确设置节点并保证其正常运行。 我们还要求验证程序始终使用最新的稳定版本运行节点。 如果不确定自己在做什么，我们建议您 **[将您的 HDX 提名](/start_nominating)** 给经验丰富的验证人。 这样，您可以保护自己和可能质押您的提名人免受非自愿的资金损失。
 
 :::
 
@@ -37,9 +37,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>
 
 单击 + Stash（存储账户）按钮后，您应该看到带有四个可编辑字段的绑定偏好设置选项：
-* **stash account**（存储账户）: 拥有您大多数 HDX 令牌的帐户。HDX 将通过此帐户质押。
-* **controller account**（控制账户）: 拥有少量 HDX 的帐户，用于支付与开始和停止提名过程相关的费用。
-* **value bonded**（绑定的金额）：您要绑定的 HDX 数量。不要绑定所有的 HDX ，而是留下一些以支付后续发生的交易费用。
+* **stash account**（存储账户）: 拥有您大多数 HDX 令牌的帐户。HDX 将通过此帐户质押；
+* **controller account**（控制账户）: 拥有少量 HDX 的帐户，用于支付与开始和停止提名过程相关的费用；
+* **value bonded**（绑定的金额）：您要绑定的 HDX 数量。不要绑定所有的 HDX ，而是留下一些以支付后续发生的交易费用；
 * **payment destination**（支付目的账户）：质押奖励将被发送到的帐户。 
 
 :::warning

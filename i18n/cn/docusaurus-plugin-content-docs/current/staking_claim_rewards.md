@@ -10,12 +10,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 在规定时限内触发支付的过程，是一个重要的安全特征。通过要求为每个验证池和每个 era （时代）提交支付交易，奖励的分配分散在多个区块中。如果将所有奖励分配给单个区块内的所有验证人和提名人，链的稳定性就可能会受到威胁。
 
 ## 如何触发支付
-通过使用 Polkadot/apps ，验证人和他们的提名人都可以轻松触发支付。为此，导航到 *Network*（网络）> *Staking*（质押）> *Payouts*（支付）。或者，您也可以点击以下链接：  
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+通过使用 Polkadot/apps ，验证人和他们的提名人都可以轻松触发支付。为此，导航到 *Network*（网络）> *Staking*（质押）> *Payouts*（支付）。或者，直接点击这个链接：https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
 
 当选择 *My stashes* （我的 stash 账户）时，您应该会看到所有的奖励，这些奖励可用于支付您质押所得的令牌，并显示相应的 era （时代）号。点击 *Payout all* （支付所有），通过提交一系列交易，可以获得过去 era （时代）的所有奖励。
 
 <img src={useBaseUrl('/staking-claim-rewards/payouts.jpg')} />
 
 触发支付后，您将被要求使用您的 HDX 账户签署交易。一旦确认，选定的 era （时代）奖励，将分配给各自的验证人和他们的提名人。
-

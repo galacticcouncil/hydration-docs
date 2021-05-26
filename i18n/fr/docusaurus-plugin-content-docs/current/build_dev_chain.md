@@ -5,17 +5,17 @@ title: Configurer une chaîne de développement
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Cette section vous guide au long du processus de configuration de votre instance de chaîne HydraDX locale pour le développement.
+Cette section vous guide tout au long du processus de configuration de votre instance locale HydraDX à des fins de développement.
 
 :::note
-ëtes vous en train de chercher à configurer un node pour des raisons de validation ? Veuillez vous rendre au [guide de configuration de node](/node_setup).
+Vous cherchez à configurer un node à des fins de validation ? Veuillez vous rendre au [guide de configuration de node](/node_setup).
 :::
 
-## 01 installer les dépendences {#01-install-dependencies}
+## 01 installer les dépendances {#01-install-dependencies}
 
-Pour préparer une instance de chaîne HydraDX locale pour le développement, votre machine doit couvrir toutes les dépendances pour faire fonctionner une chaîne Substrate. Vous devrez installer un environnement de développement Rust et vous assurer qu'il est configuré convenablement pour compiler du code d'exécution Substrate dans la cible WebAssembly (Wasm).
+Pour préparer une instance locale HydraDX pour le développement, votre machine doit avoir toutes les dépendances pour faire fonctionner une chaîne Substrate. Vous devrez installer un environnement de développement Rust et vous assurer qu'il est configuré convenablement pour compiler du code d'exécution Substrate pour une finalité en WebAssembly (Wasm).
 
-Vous pouvez installer et configurer toutes les dépendances manuellement en suivant le [guide de Substrate](https://substrate.dev/docs/en/knowledgebase/getting-started), ou vous pourriez laisser ce script faire tout le travail pour vous:
+Vous pouvez installer et configurer toutes les dépendances manuellement en suivant le [guide de Substrate](https://substrate.dev/docs/en/knowledgebase/getting-started), ou vous pouvez utiliser le script suivant :
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
@@ -35,17 +35,17 @@ $ cd HydraDX-node/
 $ cargo build --release
 ```
 
-Vous devriez être capable de trouver le build (la construction) à `./target/release/hydra-dx`.
+Vous trouverez le build (la construction) dans le dossier suivant `./target/release/hydra-dx`.
 
 ## 03 exécuter {#03-run}
 
-avant d'exécuter votre build vous pouvez purger n'importe quel chaîne de développement existante sur votre machine (vous devrez faire ça souvent dans le processus de développement):
+Avant d'exécuter votre build vous pouvez purger n'importe quel chaîne de développement existante sur votre machine (vous devrez faire ça souvent dans le processus de développement):
 
 ```bash
 $ ./target/release/hydra-dx purge-chain --dev
 ```
 
-exécuter votre build en utilisant une des commandes suivantes:
+Exécuter votre build en utilisant une des commandes suivantes:
 
 ```bash
 $ ./target/release/hydra-dx --dev

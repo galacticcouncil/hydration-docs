@@ -15,18 +15,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 使用 Polkadot/apps 连接本地节点 {#accessing-your-local-node-using-polkadotapps}
 
-请打开 **[Polkadot/apps](https://polkadot.js.org/apps/)** ，单击左上角来更改网络去访问您的节点。 
+请打开 **[Polkadot/apps](https://polkadot.js.org/apps/)** ，单击左上角来更改网络去访问您的节点： 
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-打开菜单后，单击 **DEVELOPMENT** (开发)，然后选择 **Local Node** （本地节点）。
+打开菜单后，单击 **DEVELOPMENT** (开发)，然后选择 **Local Node** （本地节点）：
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-1.png')} />
 </div>
 
-如有必要，请调整IP后，单击 ***Switch***（转换）以切换到您的本地节点。
+如有必要，请调整IP后，单击 ***Switch***（转换）以切换到您的本地节点：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/polkadotjs-apps/local-2.png')} />

@@ -2,7 +2,8 @@ module.exports = {
   sidebar: {
     Intro: [
       "intro",
-      "snakenet"
+      "snakenet",
+      "new_deal"
     ],
     "How-to": [
       "claim",
@@ -10,6 +11,7 @@ module.exports = {
       "start_validating",
       "identity",
       "staking_claim_rewards",
+      "tip_request",
       {
         type: "category",
         label: "Connect to a Node",
