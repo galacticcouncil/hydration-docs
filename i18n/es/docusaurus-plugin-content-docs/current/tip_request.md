@@ -1,63 +1,63 @@
 ---
 id: tip_request
-title: Request a Treasury Tip
+title: Soliciar tips de la Tesorería
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
+Con el lanzamiento del [Programa de incentivos HydraDX New Deal ](#link-to-new-deal), los miembros de la comunidad pueden solicitar tips a la Tesorería  como recompensa por sus contribuciones. Con esta guía, podra tener un paso a paso, del proceso de solicitud de tips. Puede encontrar más información sobre los diferentes tipos de actividades que se recompensan en [este post](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
+El proceso para solicitar tips a la Tesorería consta de dos pasos. En el primer paso, los contribuyentes deben publicar su solicitud de tips en Commonwealth.im con una descripción de la contribución. Como segundo paso, la solicitud de tips a la Tesorería debe enviarse on-chain utilizando Polkadot/apps.
 
-## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
+## 01 Publica la solicitud del tips en Commonwealth.im {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+Para salvaguardar la transparencia, todas las solicitudes de tips a la Tesorería deben publicarse en un hilo en la [pagina de HydraDX Commonwealth](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.Antes de abrir un hilo, debe vincular su billetera HydraDX a Commonwealth.im: haga clic en *Log in* (esquina superior derecha) y seleccione *Continue with wallet > polkadot-js*
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
 </div>
 
-After selecting your HDX address in the popup, you will be asked to sign the message using your wallet and to set a display name for this wallet.
+Después de seleccionar su dirección HDX en la ventana emergente, se le pedirá que firme el mensaje con su billetera y que configure un nombre para mostrar con esta billetera.
 
-Once logged in, you need to create a new thread for your tip request. Navigate to the top-right part of the page and click on *New thread > New thread*. You can also directly use this link: https://commonwealth.im/hydradx/new/thread.
+Una vez que haya iniciado sesión, debe crear un nuevo hilo para su solicitud del tip. Navegue a la parte superior derecha de la página y haga clic en on *New thread > New thread*. También puede utilizar este link directamente: https://commonwealth.im/hydradx/new/thread . 
 
-You can use the title of the thread to indicate the subject (tip request) and the topic of the contribution. In the body of the thread, please provide the following information:
+Puede utilizar el título del hilo para indicar el tema (tip request) y el tema de la contribución. En el cuerpo del hilo, proporcione la siguiente información en ingles por favor:
 
-* Period when the contribution was made
-* A brief summary of the contribution
-* The amount of the requested tip (in HDX)
-* Time spent on the contribution (in hours)
-* If needed, a more detailed description including the relevance of the contribution to HydraDX
+* Periodo en el que se realizó la contribución
+* Un breve resumen de la contribución
+* El monto del tip solicitado (en HDX)
+* Tiempo dedicado a la contribución (en horas)
+* Si es necesario, una descripción más detallada que incluya la relevancia de la contribución a HydraDX
 
-For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
+Como referencia, puede echar un vistazo a [esta solicitud como ejemplo](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
 
-After filling out the information, post the thread and it should become available in the general list.
+Después de completar la información, publique el hilo y debería estar disponible en la lista general.
 
 :::note
 
-Nominators and validators who overbonded their HDX and got "stuck" can request a Treasury tip of 1 HDX which will allow them to unbond some of their tokens. If this applies to your case, please create a Commonwealth thread following [this example](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
+Los nominadores y validadores que hicieron bond de todo su HDX y se "atascaron" pueden solicitar un tip de la Tesorería con valor de 1 HDX que les permitirá hacer unbond de algunos de sus tokens. Si esto se aplica a su caso, cree un hilo de Commonwealth siguiendo [este ejemplo](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
 
 :::
 
-## 02 Submit the Tip Request On-Chain {#02-submit-on-chain}
+## 02 Envia la solicitud del Tip On-Chain {#02-submit-on-chain}
 
-After publishing your Treasury tip request, you need to submit it on-chain. For this purpose, your wallet needs to hold a small amount of HDX to cover the transaction fees. If you currently do not hold any HDX, you do not need to execute this step - someone else will submit your tip request on-chain for you.
+Después de publicar su solicitud de Tips de la Tesorería, debe enviarla de modo on-chain. Para este propósito, su billetera debe contener una pequeña cantidad de HDX para cubrir el fees de la transacción. Si actualmente no tiene ningún HDX, no es necesario que ejecute este paso; alguien más enviará su solicitud del tip on-chain por usted.
 
-Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Las solicitudes de los tips de la Tesorería se pueden enviar on-chain con Polkadot/apps usando el siguiente link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
 
-To submit a new tip request, click on *Propose tip* and provide the following information:
+Para enviar una nueva solicitud de propina, haga clic en *Proponer gratificación* y proporcione la siguiente información:
 
-* **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Commonwealth thread.
-* **tip reason** - provide a URL to the Commonwealth thread.
+* **enviar con la cuenta** - seleccione la cuenta que firmará la transacción para enviar la solicitud del tip on-chain. Esta cuenta debe tener una pequeña cantidad de HDX para los fees.
+* **beneficiario** - seleccione o ingrese la dirección de la cuenta que recibirá el tip de la Tesorería. Esta cuenta debe corresponder a la cuenta que abrió el hilo de Commonwealth.
+* **razón de la propina** - proporcione el URL al hilo  correspondiente a su Tip de Commonwealth.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
 </div>
 
-To submit the tip request, click on *Propose tip* and sign the transaction. 
+Para enviar la solicitud del tip, haga clic en *Proponer gratificación* y firme la transacción.
 
-Once the transaction is confirmed, you should see the tip request on the overview page.
+Una vez que se confirma la transacción, debería ver la solicitud de propina en la página de descripción general.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
