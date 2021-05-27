@@ -1,63 +1,65 @@
 ---
 id: tip_request
-title: Request a Treasury Tip
+title: Réclamer une récompense de trésorerie
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
+Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
+Le procédé de réclamer une récompense de trésorerie consiste en deux temps. Dans le premier temps, les contributeurs doivent publier leur requête de récompense sur Commonwealth.im avec une description de la contribution. dans un second temps, la récompense de trésorerie doit être soumit sur la chaîne (on-chain) en utilisant Polkadot/apps.
 
-## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
+## 01 Publier la requête de pourboire dans Commonwealth.im{#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+Par soucis de transparence, toutes les réclamations de récompense doivent être publiées dans un fil (thread) sur la [Page HydraDX Commonwealth](https://commonwealth.im/hydradx).  Avant d'ouvrir un thread, vous devez lier votre portefeuille HydraDX à Commonwealth.im:
+Cliquez sur *Log in* (en haut à droite) et sélectionnez *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
 </div>
 
-After selecting your HDX address in the popup, you will be asked to sign the message using your wallet and to set a display name for this wallet.
+Après avoir choisi votre adresse HDX dans le popup, on vous demandera de signer le message en utilisant votre portefeuille et de configurer un nom d'affichage pour ce portefeuille.
 
-Once logged in, you need to create a new thread for your tip request. Navigate to the top-right part of the page and click on *New thread > New thread*. You can also directly use this link: https://commonwealth.im/hydradx/new/thread.
+Une fois connecté, vous devez créer un nouveau thread pour votre requête de récompense. Naviguez jusqu'à la partie en haut à droite de la page et cliquez sur *New thread > New thread*. Vous pouvez aussi directement utiliser ce lien: https://commonwealth.im/hydradx/new/thread. 
 
-You can use the title of the thread to indicate the subject (tip request) and the topic of the contribution. In the body of the thread, please provide the following information:
+Vous pouvez utiliser le titre de ce thread pour indiquer le sujet (tip request) et la nature de la contribution. Dans le corps du thread, veuillez fournir les informations suivantes:
 
-* Period when the contribution was made
-* A brief summary of the contribution
-* The amount of the requested tip (in HDX)
-* Time spent on the contribution (in hours)
-* If needed, a more detailed description including the relevance of the contribution to HydraDX
+* La période pendant laquelle la contribution a été effectuée
+* Un bref résumé de la contribution
+* Le montant de la récompense réclamée (en HDX)
+* Le temps passé pour la contribution (en heures)
+* Si besoin est, un descriptif plus détaillé incluant la pertinence de la contribution à HydraDX
 
-For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
+Pour référence, vous pouvez regarder [cet exemple de requête de pourboire](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking). 
 
-After filling out the information, post the thread and it should become available in the general list.
+Après avoir rempli les informations, postez ce thread et il devrait devenir disponible dans la liste générale.
 
 :::note
 
-Nominators and validators who overbonded their HDX and got "stuck" can request a Treasury tip of 1 HDX which will allow them to unbond some of their tokens. If this applies to your case, please create a Commonwealth thread following [this example](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
+Les nominateurs et les validateurs qui ont surliés leurs HDXs et sont "coincés" peuvent réclamer une récompense de trésorerie de 1 HDX qui leur permettra de délier certains de leurs tokens. Si cela s'applique à votre cas, veuillez créer un thread Commonwealth en suivant [cet exemple](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
 
 :::
 
-## 02 Submit the Tip Request On-Chain {#02-submit-on-chain}
+## 02 Soumettre la réclamation de pouboire sur la chaîne (On-Chain) {#02-submit-on-chain}
 
-After publishing your Treasury tip request, you need to submit it on-chain. For this purpose, your wallet needs to hold a small amount of HDX to cover the transaction fees. If you currently do not hold any HDX, you do not need to execute this step - someone else will submit your tip request on-chain for you.
+Après avoir publié votre réclamation de récompense de trésorerie, vous devez la soumettre sur chaîne (on-chain). À cet effet, votre portefeuille ddoit contenir un petit montant de HDX pour couvrir les frais de transaction. Si vous n'avez pas de HDX actuellement, vous n'avez pas besoin d'effectuer cette étape - quelqu'un d'autre va soumettre votre requête de récompense sur chaîne pour vous.
 
-Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Les réclamations de récompense de trésorerie peuvent être soumises sur chaîne  avec Polkadot/apps en utilisant le lien suivant:
+https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
 
-To submit a new tip request, click on *Propose tip* and provide the following information:
+pour soumettre une nouvelle requête de récompense, cliquez sur *Proposez une récompense*
 
-* **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Commonwealth thread.
-* **tip reason** - provide a URL to the Commonwealth thread.
+*  **soumettre avec le compte** ou **submit with account** (en anglais) - choisissez le compte qui va signer la transaction pour soumettre la requête de récompense sur chaîne. Ce compte doit contenir un petit montant de HDX pour les coûts de transaction.
+* **bénéficiaire** ou **beneficiary** (en anglais) - choisissez ou entrez l'adresse du compte qui recevra la récompense de trésorerie. Ce compte doit correspondre au compte qui a ouvert le thread Commonwealth.
+* **raison de la récompense** ou **tip reason** (en anglais) - fournissez l'URL du thread Commonwealth.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
 </div>
 
-To submit the tip request, click on *Propose tip* and sign the transaction. 
+Pour soumettre la requête de récompense, cliquez sur *Proposez une récompense* ou *Propose tip* (en anglais) et signez la transaction. 
 
-Once the transaction is confirmed, you should see the tip request on the overview page.
+Une fois la transaction confirmée, vous devriez pouvoir voir votre réclamation de récompense sur la page overview.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
