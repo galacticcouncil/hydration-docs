@@ -1,63 +1,63 @@
 ---
 id: new_deal
-title: Contribute and Get Rewarded
+title: Contribuer et être récompensé
 ---
 
-The [HydraDX New Deal](#link-to-blog-post) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
+Le [Nouvel accord HydraDX](#link-to-blog-post) est notre appel à toutes les têtes d'hydres (Hydraheads) à joindre leur force dans notre mission pour construire l'infrastructure de liquidité du futur. Le Nouvel Accord (The New Deal) présente un programme de récompense généreux qui est conçu pour récompenser les contributions de la communauté. Avec le Nouvel Accord, nous cherchons à diminuer la frontière entre l'équipe et la communauté. La synergie résultante va finalement conduire à donner naissance à l'Omnipool, le fournisseur de liquidité le plus avancé que le monde  est sur le point de voir. 
 
-The New Deal allows us to issue HDX rewards from the Treasury for a wide variety of community contributions which are aligned with the goals of HydraDX. You can find more information on the process of submitting a Treasury tip request in [this guide](/tip_request).
+Le nouvel accord nous permet d'émettre des récompenses HDX depuis la trésorerie pour une grande gamme de contributions de la communauté qui sont alignées avec les objectifs d'HydraDX. Vous pouvez trouver plus d'informations sur le processus de soumettre une requête de pourboire de trésorerie dans [ce guide](/tip_request).
 
-For more inspiration, we have outlined some of the most pressing areas where we welcome your involvement. The list is not exhaustive, so please feel free to reach out to us if you want to share your ideas.
+Pour plus d'inspiration, nous avons décrit ci-dessous certains des domaines les plus pressants pour lesquels nous accueillerons votre implication avec plaisir. Cette liste est non-exhaustive, donc s'il-vous-plaît n'hésitez pas à nous contacter si vous voulez partager vos idées.
 
-Unless otherwise stated below, all contributions will be assessed individually based on their merit and relevance to the project in order to determine an appropriate reward.
+À moins que ce ne soit déclaré autrement ci-dessous, toutes les contributions serons évaluées individuellement en fonction de leur mérite et de leur pertinence avec le projet de façon à déterminer une récompense appropriée. 
 
-### 1. Bug Bounties {#bug-bounties}
+### 1. Bug Bounties (Primes de Bug) {#bug-bounties}
+=
+Le piratage dans le DeFi n'est pas rare. Le Snakenet récompensé est un moment et un endroit pour s'assurer que HydraDX est pare-balle (bulletproof) (On pourrait tout aussi bien l'avoir appelé "opération pare-balle"). HydraDX devenant le cœur qui pompe des liquidité dans le système financier requiert que nous joignons tous nos forces et que nous le testions sur le champs de bataille. 
 
-Hacks in DeFi are not uncommon. Incentivized Snakenet is a time and place to make sure that HydraDX is bulletproof (we might as well have called it “Operation Bulletproof”). HydraDX becoming the heart that pumps liquidity through the financial system requires all of us to join efforts and battle-test it.
+Les Hydraheads qui trouvent et signalent des bugs seront récompensés de 100$ jusqu'à 100K$ en HDX selon la sévérité du bug et le stade du projet. Le protocole va aussi passer des audits de sécurité formels, mais veuillez aller au devant et commencer à casser des choses le plus vite possible. Dans les semaines suivantes, nous mettrons en lumières les parties du code que nous apprécierions être examinées plus minutieusement.
 
-Hydraheads who find and report bugs will be rewarded from $100 up to $100k in HDX based on the severity of the bug and the stage of the project. The protocol will also undergo formal security audits, but please go ahead and start breaking things as soon as possible. In the coming weeks, we will be highlighting parts of the code that we would appreciate being looked at more thoroughly.
+### 2. Améliorations du protocole (Conception économique / Gouvernance) {#protocol-improvements}
 
-### 2. Protocol Improvements (Economic Design / Governance) {#protocol-improvements}
+Les DeFis sont devenus un univers financier alternatif. Son processus évolutif a été compressé depuis des centaines d'années en tout juste quelques semaines ou mois. La zone sauvage qu'est les DeFis est imprévisible, fracassant les espoirs et les hypothèses de base de beaucoup de projets. 
 
-DeFi has become an alternative financial universe. Its evolutionary process has been squeezed from hundreds of years into just weeks or months. The wilderness that is DeFi is unpredictable, shattering hopes and foundational assumptions of many projects. 
+Parfois, il pourrait être plus dur de repérer des failles économiques que techniques. HydraDX voudrait inciter les gens à contribuer en terme de ce qui suit: 
 
-Sometimes, it could be harder to spot economic exploits than technical ones. HydraDX would welcome people to contribute in terms of the following: 
+* Analyse et recherche  (frais d'opération dynamiques, token utilitaires différents, etc...  )
+* Peaufinage des paramètres (taille des frais; Est-ce que brûler tous les frais de transaction et les frais d'opération la meilleur solution pour le protocole? Combien brûler, combien allouer à la trésorerie, les délégateurs etc.?)
 
-* Analysis & research (dynamic trading fees, different token utilities etc.)
-* Parameters tweaking (size of fees; Is burning of all tx fees and HDX trading fees the best option for protocol? How much to burn, how much to allocate for the Treasury, the stakers etc.?)
+Pour vous rendre la vie plus simple avec les tâches gargantuesques ci-dessus, nous allons rendre disponible un soit disant "jumeau digital" open source d'HydraDX implémenté dans [cadCAD](https://cadcad.org/) - des librairies Python pour un examen complet de divers scénarios économiques et de gouvernance. Nous invitons tous les Hydraheads à former des groupes de recherche décentralisés, et nous vous garantissons que vos contributions ne passerons pas inaperçues. 
 
-To make your life easier with the gargantuan tasks above we will open source a so-called “digital twin” of HydraDX implemented in [cadCAD](https://cadcad.org/) - Python libraries for complex testing of various economic & governance scenarios. We are inviting Hydraheads to form a decentralized research group, and we assure you that your contributions will not go unnoticed.
+### 3. Améliorations du protocole technique {#technical-protocol-improvements}
 
-### 3. Technical Protocol Improvements {#technical-protocol-improvements}
+Pour faciliter la tâche pour les futures hydraheads, nous avons besoin d'un ensemble riche d'outillages et d'intégrations. Nous pouvons penser à ce qui suit:
 
-To make it easier for future Hydraheads, we need a rich set of tooling and integrations. We were able to think of the following:
+* Portefeuilles Mobile et hardware (par exemple: Trezor et Ledger)
+* Outillages d'infrastructures (Explorateurs de blockchains, node, superviseur de node validateur)
+* Tableau de bord de trading & outils (Bots de trading, tableaux de bord de LP (fournisseur de liquidités))
+* Développement général
 
-* Mobile and hardware wallets (e.g. Trezor and Ledger)
-* Infrastructure tooling (blockchain explorers, node, validator node monitoring)
-* Trading dashboards & tools (trading bots, LP dashboards)
-* General development
+### 4. Nouveaux Cas d'Utilisation et Nouveaux Produits {#new-use-cases}
 
-### 4. New Use Cases & Products {#new-use-cases}
+* Nouveaux cas d'utilisations comme le prêt et les options
+* Spécification des MVPs (Minimum Viable Products). 
+* cas d'utilisation d'interopérabilités
+* Infrastructure et outils de trading
 
-* New use cases such as Lending and Options
-* Specifications or MVPs
-* Interoperability use-cases
-* Infrastructure or trading tools
+### 5. Construction de la Communauté et Management {#community-building}
 
-### 5. Community Building & Management {#community-building}
+Bien que nous croyions dans une construction de communauté organique, nous accueillons aussi favorablement l'implication de "community managers" qui voudrait se charger de la tâche d'étendre les communautés locales (la qualité avant la quantité) et trouver plus d'Hydraheads qui voudront s'impliquer.
 
-While we believe in organic community building, we also welcome the involvement of community managers who would like to take up the task of expanding the local communities (quality over quantity) and finding more Hydraheads who want to get involved.
+Devenir un community manager est basé sur le mérite. N'importe quel membre qui se montre être un participant actif et constructif, disposé à aider les autres et à répandre la parole de HydraDX, peut en devenir un(e). 
 
-Becoming a community manager is based on merit. Any member who proves to be an active and constructive participant, willing to help others and spreading the word about HydraDX, can become one.
+La récompense de base pour les community managers est équivalent à 20$ par heure, payés en HDX.
 
-The base reward for community managers is the equivalent of $20 per hour, paid out in HDX.
+### 6. Autres contributions de communauté {#other-contributions}
 
-### 6. Other Community Contributions {#other-contributions}
+Il y a plein d'autres tâches utiles qui seront récompensées avec des pourboires de trésorerie, notamment: 
 
-There are many other helpful tasks which will be rewarded with Treasury tips, including:
+* Créer du contenu (guides, traductions, blogs, documentations)
+* Aider à faire passer le mot en produisant du matériel éducatif (blogs explicatifs, Animations pour débutants, vidéos)
+* Déployer votre créativité et créer des stickes et des memes (nous récompenserons les meilleurs)
 
-* Creating content (guides, translations, blogs, documentation)
-* Helping spreading the word by producing educational material (explanative blogs, ELI5 animations, videos)
-* Unfolding your creativity and creating stickers and memes (we will be rewarding the best ones)
-
-Community contributions will be assessed individually by the community managers. The reward for eligible community contributions under this category is the equivalent of $20 per hour, paid out in HDX.
+Les contributions de communauté seront évaluées individuellement par les community managers. La récompense pour les contributions de communauté éligibles dans cette catégorie est l'équivalent de 20$ par heure, payés en HDX.
