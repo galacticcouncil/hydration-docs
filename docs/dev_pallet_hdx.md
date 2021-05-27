@@ -1,14 +1,11 @@
 ---
-id: pallet_hdx
-title: HDX pallet
-slug: /hdx
+id: dev_pallet_hdx
+title: HDX Pallet
 ---
 
 ### Overview
 
 ### Config
-
-Config is self-explanatory.
 
 ```rust
 pub trait Config: frame_system::Config + pallet_asset_registry::Config {

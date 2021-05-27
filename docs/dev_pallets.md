@@ -3,28 +3,24 @@ id: dev_pallets
 title: Intro
 ---
 
-There are multiple pallets in HydraDX node.
+Here is an overview of the available pallets in HydraDX-node:
 
 ### Asset Registry
 
-Asset registry provides functionality to create, store and keep tracking of existing assets in a system.
+Asset registry provides the functionality to create, store and keep track of the existing assets on the chain.
 
 ### XYK
 
-Implementation of Uniswap AMM model. Details [here](/xyk)
+Implementation of a Uniswap-like AMM model. [More details](/xyk).
 
 ### HDX
 
-Hydra Omni pool implementation. Details [here](/hdx)
+HydraDX Omnipool implementation. [More details](/dev_pallet_hdx).
 
 ### Exchange
 
-Order matching implementation. Details [here](/exchange)
+Order matching implementation. [More details](/dev_pallet_exchange).
 
 ### Transaction multi payment
 
-Provides support to pay transaction fees in other than native currency. It is possible for a user to select
-which current he wishes to pay transactions fees in. 
-
-
-
+Provides support to pay transaction fees in another currency than the native one. It is possible for a users to select in which currency they wish to pay the transactions fees.

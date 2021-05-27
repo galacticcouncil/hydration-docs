@@ -1,21 +1,21 @@
 ---
-id: pallet_payment
-title: Transaction multi payment
+id: dev_pallet_payment
+title: Transaction Multi-Payment
 ---
 
 ### Overview
 
-This pallet provides functionality to accepted transaction fees in other currencies.
+This pallet provides the functionality to accept transaction fees in other currencies.
 
-Extends substrate's `transaction-payment` pallet.
+It extends Substrate's `transaction-payment` pallet.
 
-Transaction fees are paid in native currency by default. This pallet allows to set a different currency to pay fees with for an account. 
+Transaction fees are paid in native currency by default. This pallet allows to set a different currency to pay fees with. 
 
-When the transaction fees is being paid and chosen currency is not native currency - swap is executed to obtain fee amount in native currency first.
+When the transaction fees are being paid and the chosen currency is not native currency, a swap is executed to obtain fee amount in native currency first.
 
 The swap (or buy) is done via selected AMM pool.
 
-Subsequently, the fee is paid in native currency.
+Subsequently, the fee is paid in the native currency.
 
 ### Config
 ```rust
@@ -44,13 +44,13 @@ pub trait Config: frame_system::Config + pallet_transaction_payment::Config {
 }
 ```
 
-Currency deals with native asset and MultiCurrency deals with all other currencies in the system.
+Currency deals with the native asset while MultiCurrency deals with all other currencies in the system.
 
-AMMPool is again ( like with exchange pallet) implementation of AMM pool which will be used to swap non-native currency for native.
+AMMPool is again (like with exchange pallet) an implementation of AMM pool which will be used to swap non-native currency for native.
 
 ### Payment for setting a currency
 
-Since we want to allow users to set currency even if they don't have any native currency. THerefore, the tx fee payment is set to *Pays::No*
+We want to allow users to set currency even if they don't have any native currency. THerefore, the tx fee payment is set to *Pays::No*
 
 ```rust
 #[pallet::weight((<T as Config>::WeightInfo::set_currency(), DispatchClass::Normal, Pays::No))]
@@ -58,7 +58,7 @@ Since we want to allow users to set currency even if they don't have any native 
 pub fn set_currency(origin: OriginFor<T>, currency: AssetId) -> DispatchResultWithPostInfo {}
 ````
 
-However, the fee is withdrawn when currency is successfully set. It is fixed fee consisting of base fee  and set_currency weight.
+However, the fee is withdrawn when currency is successfully set. It is a fixed fee consisting of base fee and set_currency weight.
 
 ```rust
 pub fn withdraw_set_fee(who: &T::AccountId, currency: AssetId) -> DispatchResult {
@@ -77,7 +77,7 @@ pub fn withdraw_set_fee(who: &T::AccountId, currency: AssetId) -> DispatchResult
 
 *AccountCurrencyMap*
 
-A map between an account and chosen currency in which fees are paid.
+A map between an account and a chosen currency in which fees are paid.
 
 ```rust
 #[pallet::storage]
@@ -87,7 +87,7 @@ pub type AccountCurrencyMap<T: Config> = StorageMap<_, Blake2_128Concat, T::Acco
 
 *AcceptedCurrencies*
 
-Curated list of currencies which fees can be paid with. It is possible to select currency only if it is in this list.
+A curated list of currencies which can be used to pay fees. It is possible to select a currency only if it is in this list.
 
 Only selected members can add or remove currency from this list.
 
@@ -100,7 +100,7 @@ pub type AcceptedCurrencies<T: Config> = StorageValue<_, OrderedSet<AssetId>, Va
 
 *Authorities*
 
-List of account which are allowed to add or remove currency from the list of accepted currencies.
+List of accounts which are allowed to add or remove currencies from the list of accepted currencies.
 
 Only a root can add a member to this list.
 
@@ -124,7 +124,7 @@ pub fn remove_member(origin: OriginFor<T>, member: T::AccountId) -> DispatchResu
 
 ### Fee payment
 
-Where is the actual `hook` in the runtime where the fees are paid ? 
+Where is the actual `hook` in the runtime where the fees are paid? 
 
 ```rust
 /// The SignedExtension to the basic transaction logic.
@@ -142,7 +142,7 @@ pub type SignedExtra = (
 
 This is list of signed extensions which every transaction has to go through. And one of them is ChargeTransactionPayment.
 
-The multi payment transaction pallet imeplemtns the `OnChargeTransaction` trait and handles the withdraw_fee accordingly.
+The multi payment transaction pallet implements the `OnChargeTransaction` trait and handles the withdraw_fee accordingly.
 
 ```rust
 fn withdraw_fee(
@@ -173,10 +173,4 @@ fn withdraw_fee(
 }
 ```
 
-swap_currency ensures that there is enough balance of native currency to pay the fee by swapping chosen currency for native currency.
-
-
-
-
-
-
+swap_currency ensures that there is enough balance of the native currency to pay the fee by swapping the chosen currency for native currency.

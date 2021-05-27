@@ -1,14 +1,13 @@
 ---
-id: pallet_exchange
+id: dev_pallet_exchange
 title: Exchange
-slug: /exchange
 ---
 
 ### Overview
 
-Exchange pallet handles HydraDX order matching implementation.
+The exchange pallet handles the HydraDX order matching implementation.
 
-You can check out the following presentation to learn some fundamentals about the exchange concept.
+You can check out the following presentation to learn some fundamentals about the HydraDX exchange concept.
 
 Presentation
 
@@ -16,11 +15,9 @@ Presentation
 
 [Slides](https://docs.google.com/presentation/d/1mFWDOXrZ1Z5iZ_yGc-FyTu1FosDQeuEOi4VNkxutXZ4/edit#slide=id.gc8e33d26a6_0_50)
 
-Now, here we will focus on some implementation details of this pallet.
-
 ### Config 
 
-Exchange pallet config have several types which are needed for the pallet to work. Let's have a look
+The Exchange pallet config has the following types which are needed for the pallet to work:
 
 ```rust
 #[pallet::config]
@@ -42,7 +39,7 @@ pub trait Config: frame_system::Config {
 }
 ```
 
-AMMPool is implementation of an AMM pool which shall be used to resolve a transaction or partial transaction if it can't be directly traded with another transaction.
+AMMPool is an implementation of an AMM pool which is used to resolve a transaction or a partial transaction if it can't be directly traded with another transaction.
 
 Resolver determines how an intention should be resolved. Its interface is:
 
@@ -57,13 +54,12 @@ pub trait Resolver<AccountId, Intention, E> {
 }
 ```
 :::note
-Resolver will be probably removed in future from the config of exchange pallet.
+Resolver will be probably removed in the future from the config of the Exchange pallet.
 :::
 
 ### Intention id
 
-Intention id is an unique identifier of an intention (surprise!). It helps to track and determine how transaction/intention has been resolved. Frontend
-side uses this information to notify user about transaction.
+Intention id is an unique identifier of an intention (surprise!). It helps to track and determine how a transaction/intention has been resolved. On the frontend, this information is used to notify users about transactions.
 
 IntentionID is currently generated as follows:
 
@@ -91,7 +87,7 @@ pub type ExchangeAssetsIntentions<T: Config> = StorageMap<_, Blake2_128Concat,
     ValueQuery>;
 ```
 
-Count for each asset pair is stored separately:
+A count for each asset pair is stored separately:
 
 ```rust
 pub type ExchangeAssetsIntentionCount<T: Config> = StorageMap<_, Blake2_128Concat, 
@@ -111,11 +107,11 @@ ExchangeAssetsIntentions::<T>::remove_all();
 
 #### buy / sell
 
-Buy and sell work basically as proxy for an AMM pool implementation - whichever is configured to be used with exchange. 
+Buy and sell work basically as proxy for an AMM pool implementation - whichever is configured to be used with Exchange. 
 
-Instead of resolving the sell or buy transaction immediately - it registers user's intention to trade.
+Instead of resolving the sell or buy transaction immediately, it registers the intention of a user to trade.
 
-As seen in hdx or xyk pallet - sell and buy are the same:
+As in the hdx and xyk pallets, the sell and buy are nearly the same:
 
 ```rust
 #[pallet::weight(< T as Config >::WeightInfo::sell_intention() + < T as Config >::WeightInfo::on_finalize_for_one_sell_extrinsic() - < T as Config >::WeightInfo::known_overhead_for_on_finalize())]
@@ -141,19 +137,20 @@ pub fn buy(
 ) -> DispatchResultWithPostInfo {}
 ```
 
-After intentions is registered, an event is emitted with intention id assigned for this transaction:
+After the intention is registered, an event is emitted with the intention id:
 
 ```rust
 IntentionRegistered(T::AccountId, AssetId, AssetId, Balance, IntentionType, IntentionId<T>)
 ```
-Intention id helps to track resolution of the transaction.
+
+The intention id helps to track resolution of the transaction.
 
 ### on_initialize
 
-In Substrate, on finalize does not return weight due to the fact that it is done at the very end and total block weight 
-needs to be known before. 
+In Substrate, on finalize does not return weight due to the fact that it is done at the very end while the total block weight 
+needs to be known in advance. 
 
-In Exchange, all the magic happens in the on_finalize therefore we need to include the known overhead as well. 
+In the Exchange pallet, all the magic happens in the on_finalize therefore we need to include the known overhead as well. 
 on_initialize is called at the beginning, and it is possible to return some weight which should be taken into account. 
 
 Exchange pallet takes this opportunity and returns known overhead for on finalize, as below:
@@ -166,11 +163,9 @@ fn on_initialize(_n: T::BlockNumber) -> Weight {
 
 ### on_finalize and order matching algorithm
 
-This is where the matching happens. When block is finalized, we go through all the intentions for that block, try to match them and resolve them.
+This is where the matching happens. When a block is finalized, we go through all the intentions for that block, try to match them and resolve them.
 
-Intentions are now grouped by asset pair involved in the transaction. 
-
-For each such pair, we retrieve the corresponding list of intentions. 
+Intentions are grouped by the asset pairs involved in the transaction. For each asset pair, we retrieve the corresponding list of intentions. 
 
 ```rust
 let asset_a_ins = <ExchangeAssetsIntentions<T>>::get((asset_2, asset_1));
@@ -180,14 +175,13 @@ let asset_b_ins = <ExchangeAssetsIntentions<T>>::get((asset_1, asset_2));
 This means that all intentions in asset_a_ins are *SELL* asset A transactions or *BUY* asset A transactions.
 All intentions in asset_b_ins are *SELL* asset B transactions or *BUY* asset B transactions.
 
-Current algorithm takes asset_a_ins as main group and for each transaction it tries to match as many transactions as possible from the asset_b_ins group.
+The current algorithm takes asset_a_ins as a main group and for each transaction it tries to match as many transactions as possible from the asset_b_ins group.
 
 :::note
-this part can be probably improved to determine which group is better as main one ( but this could have additional performance impact if not done right), and it is still
-subject of discussions. 
+This part could be improved to determine which group is better as main one (but this could have additional performance impact if not done right), subject to discussions.
 :::
 
-Sum of the amount of all matched intentions must cover selling amount of the main intention.
+The sum of the amounts of all matched intentions must cover the selling amount of the main intention.
 
 Let's have a look:
 
@@ -213,39 +207,36 @@ for intention in a_ins {
 }
 ```
 
-At this point we have one main intention, and some matched intentions ( 1 or more). We can resolve these and make trades happen
+At this point we have one main intention, and some matched intentions (1 or more). We can resolve these and make trades happen
 directly between the accounts.
 
-This is very complicated part as several possible scenarios can occur. Let's break them down. 
+This is a very complicated part as several possible scenarios can occur. Let's break them down. 
 
-1. Matched intention can be completely direct traded
+1. The matched intention can be traded directly and in full  
    This means that matched intention's amount is less than what's left in main intention's amount
-2. Matched intention CANNOT be completely directly traded
-   This usually happens when resolving last matched intentions and main intention's amount is not enough to cover the amount in matched intention
-3. Exact match
-   Amounts in both intentions are the same - this is nice case as both transactions can be directly traded.
+2. The matched intention CANNOT be traded directly and in full  
+   This usually happens when resolving last matched intentions and main intention's amount is not enough to cover the amount in matched intention.
+3. Exact match  
+   Amounts in both intentions are the same - the trade can directly take place.
 
-Note that within any of these 3 scenarios -there are several cases which has to be considered - whether intention is SELL or BUY, fee, rests etc.
+Note that with respect to any of these 3 scenarios, the use-case must be differentiated: whether the intention is SELL or BUY, fee, rests etc.
 
-The best is to actually look at the code [here](https://github.com/galacticcouncil/HydraDX-node/blob/5a3889345ad592f15b5f73aa8479bf6ec6a9a34e/pallets/exchange/src/lib.rs#L547)
+Deep dive in the source code [here](https://github.com/galacticcouncil/HydraDX-node/blob/5a3889345ad592f15b5f73aa8479bf6ec6a9a34e/pallets/exchange/src/lib.rs#L547).
 
 ### Direct trade
 
-Direct trade simply means that token amounts are exchanged directly between accounts of each matched pair of transactions.
+Direct trade simply means that token amounts are exchanged directly between the accounts of each matched pair of transactions.
 
-### Determining resolution of an intention 
+### Determining the resolution of an intention 
 
-Transaction can be resolved in multiple different ways:
-1. AMM trade - sell or buy transaction is resolved traded through amm pool. This can happen when no matched transaction is found or there is some amount left to trade.
-2. Direct trade - transaction is resolved by trading with another matched transaction
-3. Combination of 1 or 2 - transaction can be partially resolved by direct trade, and the rest can be exchanged via amm pool
-4. Error - transaction can result in error due to various reasons ( limits, not enough pool asset etc.)
+Transactions can be resolved in multiple different ways:
+1. AMM trade - sell or buy transactions are resolved when trading through amm pool. This can happen when no matched transaction is found or there is some amount left to trade.
+2. Direct trade - transaction is resolved by trading with another matched transaction.
+3. Combination of 1 or 2 - transaction can be partially resolved by direct trade, and the rest can be exchanged via AMM pool.
+4. Error - transaction can result in error due to various reasons (limits, not enough pool asset etc.)
 
-For each of those cases , a specific event is emitted with intention id involved. By using intention id from IntentionRegistered event, it is possible to track
-how transaction has been resolved.
+For each of those cases, a specific event is emitted with the intention id involved. By using intention id from IntentionRegistered event, it is possible to track how any given transaction has been resolved.
 
 ### validate and execute
 
-You may have already noticed that intentions (or transactions) are validated first and execute only if validation is ok.
-
-This is to prevent going through the matching algorithm only to find out that transaction cannot be completed. And intentions/transaction will result in error.
+You may have already noticed that intentions (or transactions) are only executed once they have been validated. This prevents that a transaction goes through the whoe matching algorithm only to fail at the end.

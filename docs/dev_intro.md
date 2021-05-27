@@ -1,39 +1,27 @@
 ---
 id: dev_intro
-title: Intro
+title: Intro to Development
 ---
 
-Welcome to brief introduction to development with HydraDX.
+The purpose of the `Build` section of the HydraDX documentation is to share technical knowledge with the community and to empower individual contributions. HydraDX is a community-driven project which invests heavily in incentivizing community involvement, and we especially appreciate technical contributions!
 
-By reading this introductory tutorial, you should have good understanding of Hydra project, its purpose, design and implementation details as well.
+All technical contributions which are aligned with the goals of HydraDX are eligible for generous rewards which are paid out as Treasury tips in HDX. You can find more information about our reward scheme under the following links:
 
-
-By the end, you should be able to develop your own pallet on top of hydra or to extend Hydra.
-
-This tutorial assumes previous Substrate and Rust knowledge.
-
-We encourage and support the following course to obtain and learn Substrate fundamentals.
-
-[Acala Runtime Developer Academy](https://www.industryconnect.org/substrate-runtime-developer-academy/)
-
-To learn Rust - [The Book](https://doc.rust-lang.org/stable/book/).
-
-Of course, if you have any (and really any!) question - you can contact HydraDX team directly.
+* [New Deal reward scheme announcement](https://hydradx.substack.com/p/incentivized-testnet-reward-scheme)
+* [Example tasks which brings rewards](/new_deal)
+* [How to claim Treasury tips](/tip_request)
 
 
-## HydraDX
+## How to Start
 
-HydraDX is a cross-chain liquidity protocol built on Substrate. [Official intro](/)
+HydraDX is powered by Substrate which is a cutting-edge blockchain framework built on Rust. Knowledge of Rust is therefore an important prerequisite for chain development. If you want to learn Rust, a good place to start is the ["Rust Book"](https://doc.rust-lang.org/stable/book/).
 
-## Basilisk
-
-HydraDX's cousin. Something like Kusama is to Polkadot. It is platform built for innovation.
+A further requirement is basic knowledge of the Substrate framework. If you want to get up to speed quickly, we highly recommend you to subscribe to the [Acala Runtime Developer Academy](https://www.industryconnect.org/substrate-runtime-developer-academy/).
 
 
-## Github
+## How to Continue
 
-Both HydraDX and Basilisk are open-source projects. Repositories:
+Check out the docs under `Build`. Ask questions on Discord. Fork us. Open a PR with your contribution.
 
-[HydraDX-node](https://github.com/galacticcouncil/HydraDX-node)
-
-[Basilisk-node](https://github.com/galacticcouncil/Basilisk-node)
+https://github.com/galacticcouncil/HydraDX-node  
+https://github.com/galacticcouncil/Basilisk-node
