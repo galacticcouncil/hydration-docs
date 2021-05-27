@@ -3,7 +3,7 @@ id: new_deal
 title: Contribute and Get Rewarded
 ---
 
-The [HydraDX New Deal](#link-to-blog-post) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
+The [HydraDX New Deal](https://hydradx.substack.com/p/incentivized-testnet-reward-scheme) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
 
 The New Deal allows us to issue HDX rewards from the Treasury for a wide variety of community contributions which are aligned with the goals of HydraDX. You can find more information on the process of submitting a Treasury tip request in [this guide](/tip_request).
 
