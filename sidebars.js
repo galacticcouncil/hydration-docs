@@ -44,7 +44,8 @@ module.exports = {
           "dev_pallet_exchange",
           "dev_pallet_payment"
         ]
-      }
+      },
+      "dev_exercise",
     ],
     Contribute: ["contributing"]
   }
