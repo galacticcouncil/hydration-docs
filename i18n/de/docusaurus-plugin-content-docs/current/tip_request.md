@@ -1,63 +1,63 @@
 ---
 id: tip_request
-title: Request a Treasury Tip
+title: Die Anfrage vom Finanzministerium
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
+Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
+Das Anfordern eines Treasury-Tipps besteht aus zwei Schritten. Im ersten Schritt müssen Beitragende ihre Tipp-Anfrage in Commonwealth.im mit einer Beschreibung des Beitrags veröffentlichen. Als zweiter Schritt muss die Treasury-Tipp-Anfrage mithilfe von Polkadot/Apps on-chain eingereicht werden.
 
-## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
+## 01 Veröffentlichung  der Trinkgeldanfrage in Commonwealth.im {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+Um die Transparenz zu gewährleisten, müssen alle Treasury-Tipp-Anfragen in einem Thread auf der [HydraDX Commonwealth-Seite] (https://commonwealth.im/hydradx) veröffentlicht werden. Bevor Sie einen Thread öffnen, müssen Sie Ihre HydraDX-Brieftasche mit Commonwealth.im verknüpfen: Klick *Log in* (obere rechte Ecke) und wähl *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
 </div>
 
-After selecting your HDX address in the popup, you will be asked to sign the message using your wallet and to set a display name for this wallet.
+Nachdem Sie im Popup Ihre HDX-Adresse ausgewählt haben, werden Sie aufgefordert, die Nachricht mit Ihrem Wallet zu signieren und einen Anzeigenamen für dieses Wallet festzulegen.
 
-Once logged in, you need to create a new thread for your tip request. Navigate to the top-right part of the page and click on *New thread > New thread*. You can also directly use this link: https://commonwealth.im/hydradx/new/thread.
+Nachdem Sie sich eingeloggt haben, müssen Sie einen neuen Thread für Ihre Trinkgeldanfrage erstellen. Navigieren Sie zum oberen rechten Teil der Seite und klicken Sie auf *New thread > New thread*. Sie können auch direkt diesen Link verwenden: https://commonwealth.im/hydradx/new/thread.
 
-You can use the title of the thread to indicate the subject (tip request) and the topic of the contribution. In the body of the thread, please provide the following information:
+Sie können den Titel des Threads verwenden, um das Thema (Tippanfrage) und das Thema des Beitrags anzugeben. Geben Sie im Hauptteil des Threads bitte die folgenden Informationen an:
 
-* Period when the contribution was made
-* A brief summary of the contribution
-* The amount of the requested tip (in HDX)
-* Time spent on the contribution (in hours)
-* If needed, a more detailed description including the relevance of the contribution to HydraDX
+* Zeitraum, in dem der Beitrag geleistet wurde
+* Eine kurze Zusammenfassung des Beitrags
+* Die Höhe des angeforderten Trinkgelds (in HDX)
+* Zeitaufwand für den Beitrag (in Stunden)
+* Bei Bedarf eine genauere Beschreibung einschließlich der Relevanz des Beitrags zu HydraDX
 
-For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
+Als Referenz können Sie einen Blick auf [diese Beispiel-Tipp-Anfrage] (https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking) werfen.
 
-After filling out the information, post the thread and it should become available in the general list.
+Nachdem Sie die Informationen ausgefüllt haben, posten Sie den Thread und er sollte in der allgemeinen Liste verfügbar sein.
 
-:::note
+:::Hinweis
 
-Nominators and validators who overbonded their HDX and got "stuck" can request a Treasury tip of 1 HDX which will allow them to unbond some of their tokens. If this applies to your case, please create a Commonwealth thread following [this example](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
+Nominatoren und Validatoren, die ihr HDX überschuldet haben und „steckengeblieben“ sind, können ein Treasury-Tipp von 1 HDX anfordern, das es ihnen ermöglicht, einige ihrer Token aufzulösen. Wenn dies auf Ihren Fall zutrifft, erstellen Sie bitte einen Commonwealth-Thread nach [diesem Beispiel](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
 
 :::
 
-## 02 Submit the Tip Request On-Chain {#02-submit-on-chain}
+## 02 Senden der Tippanforderung On-Chain {#02-submit-on-chain}
 
-After publishing your Treasury tip request, you need to submit it on-chain. For this purpose, your wallet needs to hold a small amount of HDX to cover the transaction fees. If you currently do not hold any HDX, you do not need to execute this step - someone else will submit your tip request on-chain for you.
+Nachdem Sie Ihre Treasury-Tipp-Anfrage veröffentlicht haben, müssen Sie sie in der Kette einreichen. Zu diesem Zweck muss Ihr Wallet eine kleine Menge HDX enthalten, um die Transaktionsgebühren zu decken. Wenn Sie derzeit kein HDX besitzen, müssen Sie diesen Schritt nicht ausführen – jemand anderes wird Ihre Trinkgeldanforderung für Sie in der Kette einreichen.
 
-Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Treasury-Tipp-Anfragen können mit Polkadot / Apps über den folgenden Link in der Kette eingereicht werden: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
 
-To submit a new tip request, click on *Propose tip* and provide the following information:
+Um eine neue Trinkgeldanfrage zu stellen, klicken Sie auf *Propose tip* und geben Sie die folgenden Informationen ein:
 
-* **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Commonwealth thread.
-* **tip reason** - provide a URL to the Commonwealth thread.
+* **submit with account** - wählen Sie das Konto aus, das die Transaktion zum Senden der Trinkgeldanforderung in der Kette unterschreibt. Dieses Konto muss eine kleine Menge HDX für Transaktionskosten halten.
+* **beneficiary** - wählen oder geben Sie die Adresse des Kontos ein, das den Treasury-Tipp erhält. Dieses Konto muss dem Konto entsprechen, das den Commonwealth-Thread eröffnet hat.
+* **tip reason** - geben Sie eine URL zum Commonwealth-Thread an.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
 </div>
 
-To submit the tip request, click on *Propose tip* and sign the transaction. 
+Um die Trinkgeldanfrage zu senden, klicken Sie auf *Propose tip* und unterschreiben Sie die Transaktion.
 
-Once the transaction is confirmed, you should see the tip request on the overview page.
+Sobald die Transaktion bestätigt ist, sollten Sie die Trinkgeldanfrage auf der Übersichtsseite sehen.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
