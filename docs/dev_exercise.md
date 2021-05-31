@@ -3,13 +3,13 @@ id: dev_exercise
 title: Practical exercise
 ---
 
-simple practical exercise to implement stable-swap pool.
+Are you looking to put your Substrate knowledge to the test? Do you think you are ready to get hydrated? Then this small practical exercise might be what you are looking for. 
 
-It is simplified implementation having only 2 assets in a pool and without fees.
+## Task description
 
-## Description
+Implement a simplified version of a trading pool which holds 2 stable assets and has no trading fees.
 
-It should be possible to do the following:
+The trading pool should support the following functionality which should be implemented as extrinsics:
 
 - create pool
 - add liquidity
@@ -17,30 +17,25 @@ It should be possible to do the following:
 - sell
 - buy
 
-Bonus is to allow this pool to be plugged into the exchange by implement the AMM trait. 
-
 ## Math
 
-Math is already implemented in the HydraDX-math crate. 
-https://github.com/galacticcouncil/HydraDX-math
-
-and use branch - simpleswap
+You can find the math-related functionality in the HydraDX-math crate under branch simpleswap:
 https://github.com/galacticcouncil/HydraDX-math/tree/simpleswap
 
 ## Storage
 
 Design a storage which keeps the pool information. The following information needs to be stored:
 
-- amplification : u128
-- assets : AssetId - assets in the pool
-- balances : u128 - balances of each asset in the pool
-- pool asset: AssetId - asset minted or burnt when liquidity is added to or remove from the pool
+- amplification: u128
+- assets: AssetId (assets in the pool)
+- balances: u128 (balances of each asset in the pool)
+- pool asset: AssetId (asset minted or burnt when liquidity is added to or removed from the pool)
 
-Also consider what type of storage to use and what is the best way to access the pool.
+Also consider which type of storage to use and what is the best way to access the pool.
 
-## Details
+## Extrinsics
 
-Further details for each required extrinsic.
+Here are some further details on the required extrinsics.
 
 ### create pool
 
@@ -51,8 +46,7 @@ Further details for each required extrinsic.
     amplification: Balance) {}
 ```
 
-create_pool shouldc heck if such pool does not exist. If it does not, it creates/registers new pool asset in the asset registry
-( check XYK pallet how to work with asset registry) and stores all the necessary info in the storage
+In the first place, create_pool should check if a pool between the two pairs already exists. If this is not the case, it should create a new pool in the asset registry and store all the necessary information in the storage. You can check the XYK pallet for reference on how to work with the asset registry.
 
 ### add liquidity
 
@@ -65,9 +59,9 @@ ub fn add_liquidity(
 ) -> DispatchResultWithPostInfo {}
 ```
 
-add_liquidity should check for pool existence and also it has to check that account has sufficient balances of each asset added to the pool.
+This extrinsic should add liquidity to the pool, provided that the pool already exists and that the account has a sufficient balance of both assets that are added to the pool.
 
-To calculate teh amount of which should be minted for user - you use `calculate_pool_value` from the math crate. 
+You can use `calculate_pool_value` from the math crate to calculate the amount which should be minted for the user.
 
 ```rust
 let d0 = calculate_pool_value([initial amount a, initial amount b], ann);
@@ -83,18 +77,13 @@ let mint_mount = if supply > 0 {
 }
 ```
 
-`mint_amount` is the amount to be minted.
-
 ### remove_liquidity
 
 TBD
 
-### sell/buy
+### sell / buy
 
-Sell just changes the amounts of each asset in the pool. One asset increases and second one decreases. 
-All that needs to be done in sell ( or buy) is to calculate the amount in or out of the pool.
-
-Both, sell and buys, are very similar, they just differ in checks to determine if a sell/buy can be successful completed.
+Sell and buy are two very similar extrinsics which change the amount of the assets in the pool - the supply of one asset increases while the supply of the other asset decreases.
 
 ```rust
 pub fn sell(
@@ -116,17 +105,14 @@ pub fn buy(
 ) -> DispatchResultWithPostInfo {}
 ```
 
-To calculate out or in amount, use corresponding functions from the math crate. it should be clearly described
-
-Both methods should perform necessary checks to determine that transaction can be successfully completed.If yes, 
-it has to calculate the selling or buying amount, perform transfers and finally update the pool storage accordingly.
+Before the sell or buy is effectuated, the methods should perform the necessary validations in order to determine that the transaction can be  completed successfully. If this is the case, it should calculate the amounts in and out, perform the transfers and, finally - update the pool storage.
 
 ## Exchange support
 
-To be able to plug this pool into the Exchange pallet, AMM trait from the primitives crate must be implemtned for this pallet.
-Find some inspiration in XYK how this can be done.
+As a bonus task, you can prepare your newly created pool to be plugged into the Exchange pallet. For that purpose, an AMM trait from the primitives crate should be implemented for this pallet.
 
+You can look for inspiration on how this can be done in the XYK pallet.
 
 ## Questions
 
-If you have any question, feel free to contact anyone on Discord.
+If you have any questions, please feel free to contact us on Discord.
