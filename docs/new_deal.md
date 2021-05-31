@@ -37,6 +37,8 @@ To make it easier for future Hydraheads, we need a rich set of tooling and integ
 * Trading dashboards & tools (trading bots, LP dashboards)
 * General development
 
+Technical contributions are only eligible for a Treasury reward under the conditions that they are open-sourced and actively presented to the wider HydraDX community to make sure that as many people as possible can benefit from the solution.
+
 ### 4. New Use Cases & Products {#new-use-cases}
 
 * New use cases such as Lending and Options
