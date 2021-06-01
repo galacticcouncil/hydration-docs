@@ -37,6 +37,9 @@ Um es für zukünftige Hydraheads einfacher zu machen, benötigen wir eine Vielz
 * Trading-Dashboards und -Tools (Trading-Bots, LP-Dashboards)
 * Allgemeine Entwicklung
 
+Technische Beiträge sind nur unter den Bedingungen für ein Treasury berechtigt, dass sie Open Source sind und aktiv der breiteren HydraDX-Community präsentiert werden, um sicherzustellen, dass so viele Menschen wie möglich von der Lösung profitieren können.
+
+
 ### 4. Neue Anwendungsfälle & Produkte {#new-use-cases}
 
 * Neue Anwendungsfälle wie Kreditvergabe und Optionen
