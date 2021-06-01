@@ -37,6 +37,8 @@ Para que sea más fácil para los futuros Hydraheads, necesitamos un amplio conj
 * Dashboard y herramientas de trading (trading bots, LP dashboards)
 * Desarrollo general 
 
+Las contribuciones técnicas son solo elegibles para una recompensa de tip de la Tesorería bajo las condiciones, de que sean de fuente abierta y activamente presentadas a la comunidad de HydraDX para asegurarse que la mayor cantidad de personas, se beneficien de la solución.
+
 ### 4. Nuevos casos de uso y productos {#new-use-cases}
 
 * Nuevos casos de uso como préstamos y opciones
