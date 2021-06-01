@@ -28,6 +28,7 @@ Sie können den Titel des Threads verwenden, um das Thema (Tippanfrage) und das 
 * Die Höhe des angeforderten Trinkgelds (in HDX)
 * Zeitaufwand für den Beitrag (in Stunden)
 * Bei Bedarf eine genauere Beschreibung einschließlich der Relevanz des Beitrags zu HydraDX
+* Geben Sie ggf. weitere Informationen an, z. B. die Relevanz des Beitrags zu HydraDX und einen Link zur PR (bei technischen Beiträgen)
 
 Als Referenz können Sie einen Blick auf [diese Beispiel-Tipp-Anfrage] (https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking) werfen.
 
