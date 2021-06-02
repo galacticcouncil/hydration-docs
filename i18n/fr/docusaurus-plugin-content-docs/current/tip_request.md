@@ -29,6 +29,7 @@ Vous pouvez utiliser le titre de ce thread pour indiquer le sujet (tip request) 
 * Le montant de la récompense réclamée (en HDX)
 * Le temps passé pour la contribution (en heures)
 * Si besoin est, un descriptif plus détaillé incluant la pertinence de la contribution à HydraDX
+* * Si c'est approprié, fournissez des informations plus détaillées comme la pertinence de la contribution à HydraDX et un lien vers le PR (dans le cas d'une contribution technique).
 
 Pour référence, vous pouvez regarder [cet exemple de requête de pourboire](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking). 
 
