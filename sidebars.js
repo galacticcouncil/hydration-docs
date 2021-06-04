@@ -6,6 +6,7 @@ module.exports = {
       "new_deal"
     ],
     "How-to": [
+      "create_account",
       "claim",
       "start_nominating",
       "start_validating",
