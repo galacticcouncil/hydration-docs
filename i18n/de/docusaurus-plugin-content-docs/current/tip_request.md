@@ -34,7 +34,7 @@ Als Referenz können Sie einen Blick auf [diese Beispiel-Tipp-Anfrage] (https://
 
 Nachdem Sie die Informationen ausgefüllt haben, posten Sie den Thread und er sollte in der allgemeinen Liste verfügbar sein.
 
-:::Hinweis
+:::note
 
 Nominatoren und Validatoren, die ihr HDX überschuldet haben und „steckengeblieben“ sind, können ein Treasury-Tipp von 1 HDX anfordern, das es ihnen ermöglicht, einige ihrer Token aufzulösen. Wenn dies auf Ihren Fall zutrifft, erstellen Sie bitte einen Commonwealth-Thread nach [diesem Beispiel](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker).
 
