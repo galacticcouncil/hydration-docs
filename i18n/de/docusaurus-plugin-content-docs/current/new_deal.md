@@ -1,6 +1,6 @@
 ---
 id: new_deal
-title:Der Beitrag und die Belohnung
+title: Der Beitrag und die Belohnung
 ---
 
 [HydraDX New Deal](#link-to-blog-post) ist unser Appell an alle Hydraheads, ihre Kräfte in unserer Mission zu bündeln, die Liquiditätsinfrastruktur der Zukunft aufzubauen. Der New Deal führt ein großzügiges Belohnungssystem ein, das als Anreiz für Gemeinschaftsbeiträge dienen soll. Mit "New Deal" wollen wir die Grenzen zwischen Team und Community verwischen. Die resultierende Synergie wird schließlich zur Geburt von Omnipool führen, dem fortschrittlichsten Liquiditätsanbieter, den die Welt in Kürze sehen wird.
