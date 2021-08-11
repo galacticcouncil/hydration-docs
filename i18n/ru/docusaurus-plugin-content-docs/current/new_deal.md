@@ -44,6 +44,8 @@ To make it easier for future Hydraheads, we need a rich set of tooling and integ
 * Interoperability use-cases
 * Infrastructure or trading tools
 
+Les contributions techniques ne sont éligibles pour une récompense de trésorerie qu'à condition d'être open-source et présentées activement à l'ensemble (ou la plupart) de la communauté HydraDX, afin de s'assurer que le plus grand nombre puisse profiter de cette solution.
+
 ### 5. Community Building & Management {#community-building}
 
 While we believe in organic community building, we also welcome the involvement of community managers who would like to take up the task of expanding the local communities (quality over quantity) and finding more Hydraheads who want to get involved.
