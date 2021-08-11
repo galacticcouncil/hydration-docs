@@ -1,6 +1,6 @@
 ---
 id: claim
-title: Reclama tu HDX
+title: Reclamar tus HDX
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
