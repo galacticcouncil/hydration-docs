@@ -1,3 +1,8 @@
+---
+id: dev_testnet_howto
+title: Testnet Deployment
+---
+
 # Design and Automation of our Tesnet Deployment at HydraDX
 
 In this article, we are going to show you how we designed and automated our pipeline to be able to deploy a new testnet (Parachain + Relaychain) within minutes using Kubernetes (EKS Fargate), AWS ACM, Route53, Terraform and Github Actions.

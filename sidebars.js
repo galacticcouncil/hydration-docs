@@ -31,6 +31,11 @@ module.exports = {
     Build: [
       "dev_intro",
       "build_dev_chain",
+      {
+        type: "doc",
+        label: "Testnet Deployment",
+        id: "dev_testnet_howto",
+      },
       "dev_pools",
       "dev_primitives",
       "dev_math",
