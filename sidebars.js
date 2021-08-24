@@ -29,7 +29,9 @@ module.exports = {
         label: "Democracy",
         items: [
           "democracy_intro",
-          "democracy_referenda"
+          "democracy_referenda",
+          "democracy_council",
+          "democracy_technical_committee"
         ]
       }
     ],
