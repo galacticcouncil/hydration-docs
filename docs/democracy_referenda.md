@@ -27,6 +27,9 @@ The HydraDX Council has the powers to propose a referendum for a community vote.
 ### Emergency Proposals by the Technical Committee {#referenda-initiate-tech-committee}
 The Technical Committee can submit emergency proposals which deal with (critical) bug fixes or the quick adoption of battle-tested functionality. Emergency proposals skip the waiting queue and enter the voting round directly. The community can vote on emergency proposals in parallel to any regular proposal which has entered the voting round. Furthermore, emergency proposals have a shorter voting period to ensure that they can be fast-tracked.
 
+### Canceling a Referendum {#cancel}
+Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [HydraDX Council](/democracy_council) (with a 60% super-majority) or the [Technical Committee](/democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
+
 ## Voting in a Referendum {#referenda-vote}
 HydraDX referenda have a launch period of XXX days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of XXX days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
 
