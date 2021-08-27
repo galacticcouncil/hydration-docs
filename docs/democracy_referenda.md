@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Referenda allow stakeholders to put a proposal to a weighted, stake-based vote by the wider community. The object of the referendum is some suggested action which affects the protocol - for example, a Treasury payout, or even a change in the runtime code (this is what other projects would refer to as "hard fork").
 
-Generally speaking, only one referendum is brought to a vote at a time. Other pending referendum proposals are put in a queue. There are separate queues for publicly submitted proposals and for Council proposals. Every XXX days, the referendum mechanism picks the top proposal with the highest amount of support, alternating between the two queues. After a referendum has been voted upon and accepted, there is a so-called *enactment delay* period of XXX days which needs to pass before the decision is put into effect. An exception to these rules applies for emergency proposals by the Technical Committee which deal with major protocol problems and need to be fast-tracked.
+Generally speaking, only one referendum is brought to a vote at a time. Other pending referendum proposals are put in a queue. There are separate queues for publicly submitted proposals and for Council proposals. Every 3 days, the referendum mechanism picks the top proposal with the highest amount of support, alternating between the two queues. After a referendum has been voted upon and accepted, there is a so-called *enactment delay* period of 3 days which needs to pass before the decision is put into effect. An exception to these rules applies for emergency proposals by the Technical Committee which deal with major protocol problems and need to be fast-tracked.
 
 ## Initiating a Referendum {#referenda-initiate}
 There are multiple ways to initiate a referendum which are described in greater detail below. The way the referendum was initiated is decisive for the applicable voting mode.
@@ -31,7 +31,7 @@ The Technical Committee can submit emergency proposals which deal with (critical
 Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [HydraDX Council](/democracy_council) (with a 60% super-majority) or the [Technical Committee](/democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
 
 ## Voting in a Referendum {#referenda-vote}
-HydraDX referenda have a launch period of XXX days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of XXX days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
+HydraDX referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
 
 :::note
 Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for staking and for voting.
@@ -44,7 +44,7 @@ There are two factors which determine the weight of each vote in a referendum. T
 vote_weight = tokens * conviction_multiplier
 ```
 
-Vote lock periods have the same duration as the enactment delay. If tokens are locked for 1 voting period, this means that they will remain locked for **XXX days** after the voting has ended. Voters can influence the weight of their votes by decreasing or increasing the amount of periods for which the tokens are locked. It is possible to bring out a vote with 0 lock periods, however its weight would be only a fraction (conviction multiplier of 0.1x). On the other hand, the conviction multiplier increases by 1 for every doubling of the lock periods. As shown in the table below, locking the votes for the maximum of 32 periods would raise the conviction multiplier to 6x.
+Vote lock periods have the same duration as the enactment delay. If tokens are locked for 1 voting period, this means that they will remain locked for **3 days** after the voting has ended. Voters can influence the weight of their votes by decreasing or increasing the amount of periods for which the tokens are locked. It is possible to bring out a vote with 0 lock periods, however its weight would be only a fraction (conviction multiplier of 0.1x). On the other hand, the conviction multiplier increases by 1 for every doubling of the lock periods. As shown in the table below, locking the votes for the maximum of 32 periods would raise the conviction multiplier to 6x.
 
 | Lock Periods      | Conviction Multiplier |
 |:-----------------:|:---------------------:|
