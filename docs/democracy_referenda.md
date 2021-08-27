@@ -5,7 +5,7 @@ title: Referenda
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Referenda allow stakeholders to put a proposal to a weighted, stake-based vote by the wider community. The object of the referendum is some suggested action which affects the protocol - for example, a Treasury payout, or even a change in the runtime code (this is what other projects would refer to as "hard fork").
+Referenda allow stakeholders to put a proposal to a weighted, stake-based vote by the wider community. The object of the referendum is some suggested action which affects the protocol - for example, a Treasury payout, or even a change in the runtime code.
 
 Generally speaking, only one referendum is brought to a vote at a time. Other pending referendum proposals are put in a queue. There are separate queues for publicly submitted proposals and for Council proposals. Every 3 days, the referendum mechanism picks the top proposal with the highest amount of support, alternating between the two queues. After a referendum has been voted upon and accepted, there is a so-called *enactment delay* period of 3 days which needs to pass before the decision is put into effect. An exception to these rules applies for emergency proposals by the Technical Committee which deal with major protocol problems and need to be fast-tracked.
 
