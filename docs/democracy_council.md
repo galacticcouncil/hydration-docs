@@ -26,6 +26,6 @@ Finally, the HydraDX Council is responsible for electing the Technical Committee
 ## Elections {#elections}
 Any holder of HDX tokens can [apply](/participate_in_council_elections#become_candidate) for one of the 7 non-permanent sets of the HydraDX Council as a candidate.
 
-The Council elections take place at the end of every era (24h), at which point an algorithm fills the 7 non-permanent Council seats for the duration of the following era. The democracy module uses the same Phragmen algorithm which is used to elect the [active set of validators](/staking#validators).
+The Council elections take place every 7 days, at which point an algorithm fills the 7 non-permanent Council seats for the duration of the following 7 days. The democracy module uses the same Phragmen algorithm which is used to elect the [active set of validators](/staking#validators).
 
 All community members can [vote](/participate_in_council_elections#vote) in the Council elections by locking a certain amount of HDX tokens of their choice. Locked tokens are not available for transfer and will be used in the follow-up elections (until cancelled). Voters can and should select more than one candidate in order of preference. The election algorithm then distributes all votes to determine the optimal allocation of the available Council seats to the candidates with the highest community backing.
