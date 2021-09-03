@@ -1,6 +1,6 @@
 ---
 id: start_nominating
-title: Conviértete en un nominador
+title: Convertirse en un nominador
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

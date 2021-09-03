@@ -13,6 +13,8 @@ module.exports = {
       "identity",
       "staking_claim_rewards",
       "tip_request",
+      "participate_in_referenda",
+      "participate_in_council_elections",
       {
         type: "category",
         label: "Connect to a Node",
@@ -21,7 +23,17 @@ module.exports = {
     ],
     "Learn": [
       "staking",
-      "staking_rewards"
+      "staking_rewards",
+      {
+        type: "category",
+        label: "Democracy",
+        items: [
+          "democracy_intro",
+          "democracy_referenda",
+          "democracy_council",
+          "democracy_technical_committee"
+        ]
+      }
     ],
     "Maintain": [
       "node_setup",

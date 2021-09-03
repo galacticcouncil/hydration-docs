@@ -1,6 +1,6 @@
 ---
 id: staking_claim_rewards
-title: Reclama tus recompensas de staking
+title: Reclamar tus recompensas de Staking
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
