@@ -13,7 +13,7 @@ Generally speaking, only one referendum is brought to a vote at a time. Other pe
 There are multiple ways to initiate a referendum which are described in greater detail below. The way the referendum was initiated is decisive for the applicable voting mode.
 
 ### Public Referendum {#referenda-initiate-public}
-Any holder of HDX tokens can [propose a referendum](/participate_in_referenda#propose) by depositing the minimum required amount of HDX tokens and submitting the proposal on-chain. Other community members can [support (*second*) the proposal](/participate_in_referenda#second) for a referendum by locking up an equal amount of tokens. At the beginning of every voting cycle, the referendum proposal with the highest amount of *seconding* (total deposited tokens) is advanced to a vote by the community.
+Any holder of HDX tokens can [propose a referendum](/participate_in_referenda) by depositing the minimum required amount of HDX tokens and submitting the proposal on-chain. Other community members can [support (*second*) the proposal](/participate_in_referenda) for a referendum by locking up an equal amount of tokens. At the beginning of every voting cycle, the referendum proposal with the highest amount of *seconding* (total deposited tokens) is advanced to a vote by the community.
 
 The voting mode which applies to public referenda is [Positive Turnout Bias](#referenda-voting-modes).
 
