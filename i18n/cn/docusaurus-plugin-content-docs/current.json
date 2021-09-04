@@ -19,6 +19,10 @@
     "message": "学习",
     "description": "The label for category Learn in sidebar sidebar"
   },
+  "sidebar.sidebar.category.Democracy": {
+    "message": "民主",
+    "description": "The label for category Democracy in sidebar"
+  },
   "sidebar.sidebar.category.Maintain": {
     "message": "运营",
     "description": "The label for category Maintain in sidebar sidebar"
