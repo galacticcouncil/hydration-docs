@@ -27,7 +27,7 @@ You can use the title of the thread to indicate the subject (tip request) and th
 * A brief summary of the contribution
 * The amount of the requested tip (in HDX)
 * Time spent on the contribution (in hours)
-* If appropriate, provide more detailed information such as the relevance of the contribution to HydraDX and a link to the PR (in the case of technical contributions)
+* If needed, a more detailed description including the relevance of the contribution to HydraDX
 
 For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
 

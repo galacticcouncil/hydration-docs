@@ -3,7 +3,7 @@ id: new_deal
 title: Contribute and Get Rewarded
 ---
 
-The [HydraDX New Deal](https://hydradx.substack.com/p/incentivized-testnet-reward-scheme) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
+The [HydraDX New Deal](#link-to-blog-post) is our appeal to all Hydraheads to join forces in our mission to build the liquidity infrastructure of the future. The New Deal introduces a generous reward scheme which is designed to incentivize community contributions. With the New Deal, we aim to blur the lines between the team and the community. The resulting synergy will eventually result in the birth of the Omnipool, the most advanced liquidity provider the world is about to see.
 
 The New Deal allows us to issue HDX rewards from the Treasury for a wide variety of community contributions which are aligned with the goals of HydraDX. You can find more information on the process of submitting a Treasury tip request in [this guide](/tip_request).
 
@@ -37,14 +37,14 @@ To make it easier for future Hydraheads, we need a rich set of tooling and integ
 * Trading dashboards & tools (trading bots, LP dashboards)
 * General development
 
-Technical contributions are only eligible for a Treasury reward under the conditions that they are open-sourced and actively presented to the wider HydraDX community to make sure that as many people as possible can benefit from the solution.
-
 ### 4. New Use Cases & Products {#new-use-cases}
 
 * New use cases such as Lending and Options
 * Specifications or MVPs
 * Interoperability use-cases
 * Infrastructure or trading tools
+
+Les contributions techniques ne sont éligibles pour une récompense de trésorerie qu'à condition d'être open-source et présentées activement à l'ensemble (ou la plupart) de la communauté HydraDX, afin de s'assurer que le plus grand nombre puisse profiter de cette solution.
 
 ### 5. Community Building & Management {#community-building}
 
