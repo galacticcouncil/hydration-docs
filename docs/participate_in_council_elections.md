@@ -31,7 +31,7 @@ After that, select your preferred candidates by clicking on their names. Remeber
 To bring out your vote, click on *Submit vote* and sign the transaction.
 
 :::note
-Locked tokens cannot be transferred, however they can still be used for staking and voting in referenda. Your tokens will remain lucked and used for subsequent elections until you have decided to unlock them.
+Locked tokens cannot be transferred, however they can still be used for staking and voting in referenda. Your tokens will remain locked and used for subsequent elections until you have decided to unlock them.
 :::
 
 ### Apply as a Council candidate {#cw-become_candidate}
