@@ -58,7 +58,7 @@ After that, select your candidates in order of preference by moving them from th
 To bring out your vote, click on *Vote* and sign the transaction.
 
 :::note
-Locked tokens cannot be transferred, however they can still be used for staking and voting in referenda. Your tokens will remain lucked and used for subsequent elections until you have decided to unlock them.
+Locked tokens cannot be transferred, however they can still be used for staking and voting in referenda. Your tokens will remain locked and used for subsequent elections until you have decided to unlock them.
 :::
 
 ### Apply as a Council candidate {#polkajs-become_candidate}
