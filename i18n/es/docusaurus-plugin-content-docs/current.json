@@ -39,6 +39,10 @@
     "message": "Aprender",
     "description": "The label for category Learn in sidebar sidebar"
   },
+  "sidebar.sidebar.category.Democracy": {
+    "message": "Democracia",
+    "description": "The label for category Democracy in sidebar"
+  },
   "sidebar.sidebar.category.Maintain": {
     "message": "Mantener",
     "description": "The label for category Maintain in sidebar sidebar"
