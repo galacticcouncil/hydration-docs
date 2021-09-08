@@ -3,7 +3,7 @@ id: democracy_council
 title: HydraDX-Rat
 ---
 
-Das HydraDX Council ist eine On-Chain-Einheit, die eine Schlüsselrolle bei der Governance des Protokolls spielt. Dieser Artikel informiert über die [Zusammensetzung] (#composition) des Rates, seine [Hauptaufgaben](#tasks), und die [Wahl der Ratsmitglieder](#elections).
+Das HydraDX Council ist eine On-Chain-Einheit, die eine Schlüsselrolle bei der Governance des Protokolls spielt. Dieser Artikel informiert über die [Zusammensetzung](#composition) des Rates, seine [Hauptaufgaben](#tasks), und die [Wahl der Ratsmitglieder](#elections).
 
 Eine Schritt-für-Schritt-Anleitung zur Teilnahme an Ratswahlen finden Sie in [diesem Leitfaden](/participate_in_council_elections).
 
