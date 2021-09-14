@@ -13,8 +13,8 @@ If you are looking for practical guidance on how to participate in the governanc
 The list below contains the most important parameters which influence the governance mechanism on HydraDX. Please note that these may change over time.
 
 
-* Minimum HDX deposit for initiating a referendum: **100,000 HDX**
-* Referendum enactment period: **3 days**
+* Minimum HDX deposit for initiating a referendum: **10 000 HDX**
+* Referendum enactment period: **6 days**
 * Referendum voting period: **3 days**
 * Emergency referendum voting period: **3 hours**
 * Cooloff period after a referendum has been rejected: **7 days**
