@@ -5,8 +5,6 @@ title: Omnipool Design
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Omnipool design
-
 ## Tokens
 
 The HydraDX system includes two tokens: LHDX (liquid HDX) and HDX. HDX will be the governance token, while LHDX will
@@ -36,11 +34,16 @@ Mathematically, the TKN1/LHDX and TKN2/LHDX prices are calculated as though they
 in which the netted trades are executed does not matter. In version 1, the prices behave as though each TKN1/LHDX pool
 is a constant product CFMM, although other CFMMs continue to be under investigation.
 
-Let Q1 be the quantity of LHDX in the TKN1 pool and T1 be the quantity of TKN1. Then Q1 * T1 = Q1^+ * T1^+, so
+Let $Q_1$ be the quantity of LHDX in the TKN1 pool and $T_1$ be the quantity of TKN1. Then $Q_1 T_1 = Q_1^+ T_1^+$, so
 (ignoring fees for now)
 
 $$
-\Delta Q1 = Q1 (-\Delta T1)/(T1^+)
+\Delta Q_1 = Q_1 \frac{-\Delta T_1}{T_1^+}
+$$
+
+Similarly,
+$$
+\Delta T_1 = T_1 \frac{-\Delta Q_1}{Q_1^+}
 $$
 
 ### Providing Liquidity to Omnipool
@@ -54,36 +57,37 @@ LPs to take the loss, the protocol *splits* the matched pool with the LPs. If th
 being traded into the pool for TKN), the LPs are entitled to some of that LHDX. On the other hand, if the price of TKN
 goes down (via TKN being sold to the pool for LHDX), the protocol is entitled to some TKN.
 
-Let p be the current price of TKN, p0 the price when an LP initially provided liquidity, \Delta s the number of shares
-the LP wishes to withdraw, B the number of TKN shares owned *by the protocol*.
+Let $p$ be the current price of TKN, $p_0$ the price when an LP initially provided liquidity, $\Delta s$ the number of shares
+the LP wishes to withdraw, $B$ the number of TKN shares owned *by the protocol*.
 
-If the price of TKN has gone down (p < p0), the LP will be withdrawing only TKN (no LHDX). The protocol will take
+If the price of TKN has gone down ($p < p_0$), the LP will be withdrawing only TKN (no LHDX). The protocol will take
 control of some TKN shares from them, while some shares will be burned.
 
 We first calculate the change to the protocol share ownership of TKN:
+$$
+\Delta B = max\left(\frac{p_0 - p}{p + p_0} \Delta s, -B\right)
+$$
 
-$\Delta B = max((p0 - p)/(p + p0) \Delta s, -B)$
-
-Note that if p < p0 (the price of TKN has gone down), \Delta B is positive, meaning that the protocol is claiming
-some of the \Delta s shares from the LP. If p > p0, the protocol tries to give the LP any TKN shares it may have.
+Note that if $p < p_0$ (the price of TKN has gone down), $\Delta B$ is positive, meaning that the protocol is claiming
+some of the $\Delta s$ shares from the LP. If $p > p0$, the protocol tries to give the LP any TKN shares it may have.
 
 Next, we find the number of shares to burn:
-
+$$
 \Delta S = \Delta s - \Delta B
-
+$$
 We can then calculate the total about of TKN the LP receives, which is simply proportional:
-
-\Delta T = T (\Delta S)/S
-
-If p > p0, it is possible the protocol could not give the LP enough shares. In this case, lots of LHDX was traded into
+$$
+\Delta T = T \frac{\Delta S}{S}
+$$
+If $p > p_0$, it is possible the protocol could not give the LP enough shares. In this case, lots of LHDX was traded into
 the Omnipool for TKN, so the protocol has extra LHDX go give the LP. Specifically,
-
-\Delta Q = p * (2p/(p + p0) * (\Delta s)/S * T - \Delta T)
-
+$$
+\Delta Q = p \left(\frac{2p}{p + p0} \frac{\Delta s}{S} T - \Delta T\right)
+$$
 ### Impermanent Loss of Single-Asset Liquidity Provider
 Given the mechanisms described above, the "impermanent loss" of a single asset LP is
-
-2\sqrt{p*p0}/(p0 + p) - 1
-
+$$
+\frac{2\sqrt{p p_0}}{p_0 + p} - 1
+$$
 The single-asset LP has sensitivity only to the TKN/LHDX price, not to prices of other tokens in the Omnipool (except
 indirectly via LHDX).
