@@ -1,3 +1,6 @@
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 module.exports = {
   title: "HydraDX Docs",
   tagline: "Let's learn this",
@@ -63,6 +66,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           editUrl: "https://github.com/galacticcouncil/HydraDX-docs/edit/main/",
         },
         theme: {
@@ -70,6 +75,14 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      integrity:
+        'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
+      crossorigin: 'anonymous',
+    }
   ],
   i18n: {
     defaultLocale: 'en',
