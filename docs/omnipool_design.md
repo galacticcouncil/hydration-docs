@@ -7,9 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Tokens
 
-The HydraDX system includes two tokens: LHDX (liquid HDX) and HDX. HDX will be the governance token, while LHDX will
-be the "hub" token used by the Omnipool. HydraDX chain fees will be paid in LHDX, and partial impermanent loss
-mitigation will also be paid in LHDX.
+The HydraDX system includes two tokens: LHDX (liquid HDX) and HDX. HDX is the governance token, while LHDX is the
+"hub" token used by the Omnipool. HydraDX chain fees is paid in LHDX, and partial impermanent loss
+mitigation is also be paid in LHDX.
 
 ## The Omnipool
 
