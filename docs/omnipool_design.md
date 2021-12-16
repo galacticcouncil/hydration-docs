@@ -25,7 +25,8 @@ In each block, swaps are split into their TKN/LHDX pairs and then batch executed
 As a collator builds the block, they first split each trade intention into TKN/LHDX trades. (Swaps
 that already are buying or selling LHDX do not need to be split.)
 They then net all TKN/LHDX trades for each TKN in the Omnipool, leaving a single netted TKN/LHDX trade for each TKN.
-Next, they prune trades for which the slippage limit is violated, until all trades 
+Next, they prune trades for which the slippage limit is violated, until all remaining trades are executable at prices
+within their slippage limits.
 Finally, they execute each of these netted trades against the Omnipool AMM.
 
 ### Swap Execution
