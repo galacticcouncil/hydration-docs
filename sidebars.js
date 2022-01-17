@@ -34,6 +34,13 @@ module.exports = {
           "democracy_council",
           "democracy_technical_committee"
         ]
+      },
+      {
+        type: "category",
+        label: "Omnipool",
+        items: [
+          "omnipool_design"
+        ]
       }
     ],
     "Maintain": [
