@@ -2,6 +2,7 @@ module.exports = {
   sidebar: {
     Intro: [
       "intro",
+      "hydradx_crowdloan",
       "snakenet",
       "new_deal"
     ],
