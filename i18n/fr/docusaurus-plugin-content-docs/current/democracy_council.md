@@ -1,5 +1,5 @@
 ---
-id: conseil de démocratie
+id: democracy_council
 title: HydraDX Council
 ---
 
