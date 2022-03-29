@@ -83,6 +83,8 @@ mkdir /var/lib/hydradx
 chown hydra:hydra /var/lib/hydradx
 ```
 
+/!\ Make sure you have enough volume for your `base-path` by using `df -h`command.
+
 Next, run the following commands to start your node:
 
 ```bash
