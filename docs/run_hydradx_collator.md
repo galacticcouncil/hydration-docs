@@ -34,7 +34,7 @@ Best is to run your collator as a `service` using `systemctl`. To do so, let's f
 hydradx --name YOUR_COLLATOR_NAME --base-path /path/to/base-path --prometheus-external --node-key-file ~/.node-config/node-key --collator -- --execution wasm --name YOUR_COLLATOR_NAME --base-path /path/to/base-path --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0"
 ```
 
-Note that `--prometheus-external` is optional, but highly advisable so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
+Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
 
 Depending on your setup, you might also want to override certain parameters like the websocket, rpc or your node p2p port. Please use `hydra-dx --help` for more information about the available options.
 
