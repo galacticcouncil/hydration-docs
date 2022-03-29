@@ -107,6 +107,4 @@ Last step, run the following command and you're done!
 curl http://localhost:9933 -H "Content-Type:application/json;charset=utf-8" -d "@./inject.json"
 ```
 
-
-
 Check your node logs, and make sure it is properly syncing. Congrats! You're officially a ssssnek!
