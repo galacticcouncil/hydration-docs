@@ -40,7 +40,7 @@ Once done, you can generate your keys:
 subkey generate
 ```
 
-Put the generated key in the `node-key`  file under `~/.node-config/`, and store the rest safely!
+Put the generated private key in the `node-key`  file under `~/.node-config/`, and store the rest safely!
 
 ## Command to run your collator
 
