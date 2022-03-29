@@ -85,13 +85,6 @@ chown hydra:hydra /var/lib/hydradx
 
 /!\ Make sure you have enough volume for your `base-path` by using `df -h`command.
 
-Next, run the following commands to start your node:
-
-```bash
-sudo systemctl daemon-reload
-sudo systemctl start hydradx-collator.service
-```
-
 Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
 
 Depending on your setup, you might also want to override certain parameters like the websocket, rpc or your node p2p port. Please use `hydra-dx --help` for more information about the available options.
