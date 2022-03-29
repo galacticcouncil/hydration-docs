@@ -92,7 +92,7 @@ Depending on your setup, you might also want to override certain parameters like
 After saving your file, run the following commands to start your node:
 
 ```bash
-sudo systemctl daemon-reload
+sudo systemctl enable hydradx-collator
 sudo systemctl start hydradx-collator.service
 ```
 
