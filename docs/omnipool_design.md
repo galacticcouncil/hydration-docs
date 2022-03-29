@@ -81,7 +81,7 @@ Next, we find the number of shares to burn:
 $$
 \Delta S = \Delta s + \Delta B
 $$
-We can then calculate the total about of TKN the LP receives, which is simply proportional:
+We can then calculate the total amount of TKN the LP receives, which is simply proportional:
 $$
 \Delta T = T \frac{\Delta S}{S}\\
 \Delta t = -\Delta T
