@@ -19,8 +19,8 @@ Pick a release, for instance, let's use the latest release to date (11.2.1) from
 
 ```bash
 wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v11.2.1/hydra-dx
-sudo cp hydra-dx /usr/local/bin
-sudo chmod +x hydra-dx
+sudo mv hydra-dx /usr/local/bin
+sudo chmod +x /usr/local/bin/hydra-dx
 sudo chown hydra:hydra /usr/local/bin/hydra-dx
 
 ```
