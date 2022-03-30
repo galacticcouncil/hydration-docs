@@ -85,7 +85,7 @@ If you need to troubleshoot your running service, you can use the `journalctl` w
 journalctl -u hydradx-collator -f 
 ```
 
-## Generate your session keys!
+## Generate your session key!
 
 In order to generate keys for your node, run the following command:
 
