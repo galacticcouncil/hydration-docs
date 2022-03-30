@@ -110,3 +110,7 @@ Fill in the fields:
 - *keys*: enter your session key you just generated;
 - *proof*: `0`;
 
+## What's next?
+
+That's it, you're done. Let us know, and we will add your node to the collator set.
+
