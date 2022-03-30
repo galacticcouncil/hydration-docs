@@ -45,6 +45,7 @@ module.exports = {
     ],
     "Maintain": [
       "node_setup",
+      "collator_setup",
       "performance_benchmark",
       "node_monitoring"
     ],
