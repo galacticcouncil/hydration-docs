@@ -80,7 +80,7 @@ sudo systemctl start hydradx-collator.service
 
 And voilà ! Your node should be up and running now. Make sure your `hydra` user has the necessary permissions to access your `base-path` and key file.
 
-If you need to troubleshoot your running service, you can use the `journalctl` with `-f` option for tailing command as follows:
+If you need to troubleshoot your running service, you can use the `journalctl` command with the `-f` option for tailing:
 
 ```bash
 journalctl -fu hydradx-collator
