@@ -19,9 +19,9 @@ Pick a release, for instance, let's use the latest release to date (11.2.1) from
 
 ```bash
 wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v11.2.1/hydra-dx
-sudo mv hydra-dx /usr/local/bin
-sudo chmod +x /usr/local/bin/hydra-dx
-sudo chown hydra:hydra /usr/local/bin/hydra-dx
+sudo mv hydradx /usr/local/bin
+sudo chmod +x /usr/local/bin/hydradx
+sudo chown hydra:hydra /usr/local/bin/hydradx
 
 ```
 
@@ -67,7 +67,6 @@ ExecStart=/usr/local/bin/hydradx \
     --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0" \
     -- \
     --execution wasm \
-    --name YOUR_COLLATOR_NAME \
     --base-path /var/lib/hydradx
     
 Restart=always
@@ -87,7 +86,7 @@ chown hydra:hydra /var/lib/hydradx
 
 Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
 
-Depending on your setup, you might also want to override certain parameters like the websocket, rpc or your node p2p port. Please use `hydra-dx --help` for more information about the available options.
+Depending on your setup, you might also want to override certain parameters like the websocket, rpc or your node p2p port. Please use `hydradx --help` for more information about the available options.
 
 After saving your file, run the following commands to start your node:
 
