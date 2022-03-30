@@ -113,5 +113,5 @@ Fill in the fields:
 
 ## What's next?
 
-Make sure that your node is fully synced. Once done, let us know, and we will add your node to the collator set.
+Make sure that your node is fully synced. Once done, let us know, and we will add your node to the collators set.
 
