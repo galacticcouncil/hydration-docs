@@ -25,23 +25,6 @@ sudo chown hydra:hydra /usr/local/bin/hydradx
 
 ```
 
-## Generate your keys!
-
-In order to generate keys for your node. To do so, run the following set of commands to install the `subkey` command:
-
-```bash
-curl https://getsubstrate.io -sSf | bash -s -- --fast
-cargo install --force subkey --git https://github.com/paritytech/substrate --version 2.0.1 --locked
-```
-
-Once done, you can generate your keys:
-
-```bash
-subkey generate
-```
-
-Put the generated private key in the `node-key`  file under `~/.node-config/`, and store the rest safely!
-
 ## Command to run your collator
 
 Best is to run your collator as a `service` using `systemctl`. To do so, create a file, namely `hydradx-collator.service` under `/etc/systemd/system/hydradx-collator.service`:
@@ -62,7 +45,6 @@ ExecStart=/usr/local/bin/hydradx \
     --name YOUR_COLLATOR_NAME \
     --base-path /var/lib/hydradx \
     --prometheus-external \
-    --node-key-file ~/.node-config/node-key \
     --collator \
     --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0" \
     -- \
@@ -103,27 +85,28 @@ If you need to troubleshoot your running service, you can use the `journalctl` w
 journalctl -u hydradx-collator -f 
 ```
 
-## Inject your keys!
+## Generate your session keys!
 
-We're nearly done! Once your node is running, and you made sure that it is connected to the network, you can inject your keys, that you generated from the previous step. First, create a file, `inject.json` and paste the following while making sure to replace `SECRET_SEED` and `PUBLIC_KEY(HEX)` with your own values:
-
-``` json
-{
-  "jsonrpc":"2.0",
-  "id":1,
-  "method":"author_insertKey",
-  "params": [
-    "aura",
-    "SECRET_SEED",
-    "PUBLIC_KEY(HEX)"
-  ]
-}
-```
-
-Last step, run the following command and you're done!
+In order to generate keys for your node, run the following command:
 
 ```bash
-curl http://localhost:9933 -H "Content-Type:application/json;charset=utf-8" -d "@./inject.json"
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
 ```
 
-Check your node logs, and make sure it is properly syncing. Congrats! You're officially a ssssnek!
+Once done, you will have an output similar to::
+
+```json
+{"jsonrpc":"2.0","result":"0x9257c7a88f94f858a6f477743b4180f0c9a0630a1cea85c3f47dc6ca78e503767089bebe02b18765232ecd67b35a7fb18fc3027613840f27aca5a5cc300775391cf298af0f0e0342d0d0d873b1ec703009c6816a471c64b5394267c6fc583c31884ac83d9fed55d5379bbe1579601872ccc577ad044dd449848da1f830dd3e45","id":1}
+```
+
+## Set your session key!
+
+To associate the generated session keys with your Controller account, navigate to the following menu item in the Polkadot/apps: *Developer* > *Extrinsics*.
+
+Fill in the fields:
+
+- *using selected account*: select your Controller account;
+- *submit the following extrinsic*: select `session` on the left side and `setKeys` on the right;
+- *keys*: enter your session key you just generated;
+- *proof*: `0`;
+
