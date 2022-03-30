@@ -15,10 +15,10 @@ su - hydra
 
 ## Download and configure the `hydradx` binary
 
-Pick a release, for instance, let's use the latest release to date (11.2.1) from our assets repository:
+Pick a 12.x release, we are using `v12.1.0` from our assets repository:
 
 ```bash
-wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v11.2.1/hydra-dx
+wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v12.1.0/hydradx
 sudo mv hydradx /usr/local/bin
 sudo chmod +x /usr/local/bin/hydradx
 sudo chown hydra:hydra /usr/local/bin/hydradx
@@ -43,12 +43,11 @@ Type=exec
 User=hydra
 ExecStart=/usr/local/bin/hydradx \
     --name YOUR_COLLATOR_NAME \
-    --base-path /var/lib/hydradx \
-    --prometheus-external \
     --collator \
-    --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0" \
     -- \
     --execution wasm \
+    --prometheus-external \
+    --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0" \
     --base-path /var/lib/hydradx
     
 Restart=always
@@ -82,7 +81,7 @@ And voilà ! Your node should be up and running now. Make sure your `hydra` user
 If you need to troubleshoot your running service, you can use the `journalctl` with `-f` option for tailing command as follows:
 
 ```bash
-journalctl -u hydradx-collator -f 
+journalctl -fu hydradx-collator
 ```
 
 ## Generate your session key!
@@ -112,5 +111,5 @@ Fill in the fields:
 
 ## What's next?
 
-That's it, you're done. Let us know, and we will add your node to the collator set.
+Make sure that your node is fully synced. Once done, let us know, and we will add your node to the collator set.
 
