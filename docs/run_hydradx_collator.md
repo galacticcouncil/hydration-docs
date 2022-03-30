@@ -43,7 +43,8 @@ Type=exec
 User=hydra
 ExecStart=/usr/local/bin/hydradx \
     --name YOUR_COLLATOR_NAME \
-    --prometheus-external
+    --prometheus-external \
+    --base-path /var/lib/hydradx \
     --collator \
     -- \
     --execution wasm \
@@ -67,7 +68,7 @@ chown hydra:hydra /var/lib/hydradx
 
 Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
 
-If you need to monitor both the `parachain` and `relaychain` metrics, `--prometheus-external`option should be setup in both parts. You also need to set a separate port for the relaychain part as follows: `--prometheus-port YOUR_CUSTOM_PORT_NUMBER`.
+If you need to monitor both the `parachain` and `relaychain` metrics, `--prometheus-external`option should be setup in both parts. You also need to set a separate port for the relaychain part as follows: `--prometheus-port YOUR_CUSTOM_PORT_NUMBER`
 
 Depending on your setup, you might also want to override certain parameters like the websocket, rpc or your node p2p port. Please use `hydradx --help` for more information about the available options.
 
