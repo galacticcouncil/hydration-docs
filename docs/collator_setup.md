@@ -1,9 +1,9 @@
 ---
-id: run-collator
-title: Run your own collator
+id: collator_setup
+title: Set up a Collator Node
 ---
 
-This is a step-by-step how-to so you can get your HydraDX collator up and running. In this guide, we use Ubuntu 20.04 LTS
+This is a step-by-step how-to so you can get your HydraDX collator up and running. In this guide, we use Ubuntu 20.04 LTS.
 
 ## Create a technical `hydra` user and add it to Sudoers
 
@@ -63,7 +63,9 @@ mkdir /var/lib/hydradx
 chown hydra:hydra /var/lib/hydradx
 ```
 
-/!\ Make sure you have enough volume for your `base-path` by using `df -h`command.
+:::caution
+Make sure you have enough volume for your `base-path` by using `df -h` command.
+:::
 
 Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
 
@@ -78,7 +80,7 @@ sudo systemctl enable hydradx-collator
 sudo systemctl start hydradx-collator.service
 ```
 
-And voilà ! Your node should be up and running now. Make sure your `hydra` user has the necessary permissions to access your `base-path` and key file.
+Your node should now be up and running. Make sure your `hydra` user has the necessary permissions to access your `base-path` and key file.
 
 If you need to troubleshoot your running service, you can use the `journalctl` command with the `-f` option for tailing:
 
@@ -86,7 +88,7 @@ If you need to troubleshoot your running service, you can use the `journalctl` c
 journalctl -fu hydradx-collator
 ```
 
-## Generate your session key!
+## Generate your session key
 
 In order to generate keys for your node, run the following command:
 
@@ -94,13 +96,13 @@ In order to generate keys for your node, run the following command:
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
 ```
 
-Once done, you will have an output similar to::
+Once done, you will have an output similar to:
 
 ```json
 {"jsonrpc":"2.0","result":"0x9257c7a88f94f858a6f477743b4180f0c9a0630a1cea85c3f47dc6ca78e503767089bebe02b18765232ecd67b35a7fb18fc3027613840f27aca5a5cc300775391cf298af0f0e0342d0d0d873b1ec703009c6816a471c64b5394267c6fc583c31884ac83d9fed55d5379bbe1579601872ccc577ad044dd449848da1f830dd3e45","id":1}
 ```
 
-## Set your session key!
+## Set your session key
 
 To associate the generated session keys with your Controller account, navigate to the following menu item in the Polkadot/apps: *Developer* > *Extrinsics*.
 
@@ -113,5 +115,4 @@ Fill in the fields:
 
 ## What's next?
 
-Make sure that your node is fully synced. Once done, let us know, and we will add your node to the collators set.
-
+Make sure that your node is fully synced. Once this is done, let us know in the dedicated Discord channel (only if you have been preselected as a collator).
