@@ -105,7 +105,7 @@ Once done, you will have an output similar to:
 
 ## Set your session key
 
-To associate the generated session keys with your Controller account, navigate to the following menu item in the Polkadot/apps: *Developer* > *Extrinsics*.
+To associate the generated session keys with your Controller account, navigate to the following menu item in the [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.hydradx.io#/extrinsics) on the Polkadot parachain HydraDX: *Developer* > *Extrinsics*.
 
 Fill in the fields:
 
