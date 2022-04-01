@@ -3,6 +3,8 @@ id: collator_setup
 title: Set up a Collator Node
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 This is a step-by-step how-to so you can get your HydraDX collator up and running. In this guide, we use Ubuntu 20.04 LTS.
 
 ## Create a technical `hydra` user and add it to Sudoers
@@ -113,6 +115,10 @@ Fill in the fields:
 - *submit the following extrinsic*: select `session` on the left side and `setKeys` on the right;
 - *keys*: enter your session key you just generated;
 - *proof*: `0`;
+
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/collator-node/session-keys.png')} />
+</div>  
 
 ## What's next?
 

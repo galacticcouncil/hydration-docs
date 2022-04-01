@@ -24,6 +24,9 @@
     "rehype-katex": "4",
     "remark-math": "3"
   },
+  "engines": {
+    "node": ">=14 and <17"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
