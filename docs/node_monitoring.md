@@ -41,17 +41,17 @@ $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 ### Install Prometheus {#install-prometheus}
 
 Check latest version number of Prometheus at the [GitHub release page](https://github.com/prometheus/prometheus/releases/).  
-At the time of writing it is v2.25.2. Insert the latest release version in the following commands.
+At the time of writing it is v2.34.0. Insert the latest release version in the following commands.
 
 ```shell script
 # download prometheus
-$ wget https://github.com/prometheus/prometheus/releases/download/v2.25.2/prometheus-2.25.2.linux-amd64.tar.gz
+$ wget https://github.com/prometheus/prometheus/releases/download/v2.34.0/prometheus-2.34.0.linux-amd64.tar.gz
 
 # unpack the binaries
 $ tar xfz prometheus-*.tar.gz
 
 # enter the unpacked directory
-$ cd prometheus-2.25.2.linux-amd64
+$ cd prometheus-2.34.0.linux-amd64
 ```
 
 Now copy over the binaries into the local folder.
@@ -180,27 +180,27 @@ You should now be able to access Prometheus' web interface at http://localhost:9
 
 We will install Node Exporter to scrape server metrics that will be used in the dashboard.  
 Please check the version number of the latest release [here](https://github.com/prometheus/node_exporter/releases/) and update the command.  
-At the time of writing the latest version was `1.1.2`.
+At the time of writing the latest version was `1.3.1`.
 
 ### Install Node Exporter {#install-node-exporter}
 
 Download the latest release.
 
 ```shell script
-$ wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+$ wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
 ```
 
-Unpack the archive you just downloaded. This will create a folder called `node_exporter-1.1.2.linux-amd64`.
+Unpack the archive you just downloaded. This will create a folder called `node_exporter-1.3.1.linux-amd64`.
 
 ```shell script
-$ tar xvf node_exporter-1.1.2.linux-amd64.tar.gz
+$ tar xvf node_exporter-1.3.1.linux-amd64.tar.gz
 ```
 
 Next we copy the binary into our local application directory and assign it to our monitoring user.
 
 ```shell script
 # copy binary
-$ cp node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin
+$ sudo cp node_exporter-1.3.1.linux-amd64/node_exporter /usr/local/bin
 
 # set ownership
 $ sudo chown prometheus:prometheus /usr/local/bin/node_exporter
@@ -264,7 +264,7 @@ Paste the following content and save the file.
       - targets: ['localhost:9100']
 ```
 
-The apply the changes configuration a restart of the Prometheus service is required.
+Then apply the changes. A restart of the Prometheus service is required.
 
 ```shell script
 $ sudo systemctl restart prometheus.service 
@@ -282,12 +282,12 @@ We want it nice and beautiful. That's where Grafana comes into play.
 
 Please check what's the latest Grafana Version [with this link](https://grafana.com/grafana/download?platform=linux).  
 You can either change the version number in the following commands or copy the install commands directly from the link.  
-At the time of writing the latest version was `7.5.1`.
+At the time of writing the latest version was `8.4.6`.
 
 ```shell script
 $ sudo apt-get install -y adduser libfontconfig1
-$ wget https://dl.grafana.com/oss/release/grafana_7.5.1_amd64.deb
-$ sudo dpkg -i grafana_7.5.1_amd64.deb
+$ wget https://dl.grafana.com/oss/release/grafana_8.4.6_amd64.deb
+$ sudo dpkg -i grafana_8.4.6_amd64.deb
 ```
 
 The package comes with a builtin `systemd`-service which we will configure and start just like the Prometheus service.
@@ -327,7 +327,7 @@ Please click the `Plus`-button in the main navigation and select `import`.
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-We will use the [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) and to load it you simply input the id `14158` and hit the `Load`-button.  
+We will use the [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) layout, so simply input the id `14158` and hit the `Load`-button.  
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
