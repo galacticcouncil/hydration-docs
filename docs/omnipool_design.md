@@ -13,8 +13,8 @@ an array of efficiencies. This doc contains a mathematical specification of the 
 ### Hub token
 
 The Omnipool uses LRNA as a "hub" token through which all trades are routed, avoiding the segmentation of liquidity
-inherent in AMMs which require LPs to provide liquidity in all tokens. HydraDX chain fees is paid in LRNA, and partial impermanent
-loss mitigation is also be paid in LRNA.
+inherent to AMMs which require LPs to provide liquidity for a pair of tokens. Both transaction fees and partial impermanent
+loss mitigation are paid out in LRNA.
 
 ### A note on notation
 
