@@ -5,6 +5,9 @@ title: Omnipool Design
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+The HydraDX Omnipool is a novel type of AMM which concentrates all liquidity in a single trading pool, thus unlocking
+an array of efficiencies. This doc specifies the mechanics which power the Omnipool.
+
 ## Tokens
 
 The HydraDX system includes two tokens: LRNA and HDX. HDX is the governance token, while LRNA is the
