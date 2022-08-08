@@ -12,7 +12,7 @@ El proceso de solicitar manualmente un pago dentro de un período de tiempo limi
 
 ## Como solicitar el pago
 Tanto los validadores como sus nominadores pueden soliictar fácilmente un pago mediante Polkadot/Apps Para ello, vaya a *Network> Participación> Payouts*. Alternativamente, puede utilizar el siguiente enlace:
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/staking/payout
 
 Al seleccionar *My stashes*, debería ver todas las recompensas que están disponibles por el stake de sus tokens, con una indicación de los números de época respectivos. Al hacer clic en *Pagar todo*, es posible enviar una serie de transacciones para reclamar todas las recompensas disponibles para las eras pasadas.
 

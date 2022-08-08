@@ -44,7 +44,7 @@ Pour soumettre votre candidature, cliquez sur *Sign and send transaction* (Signe
 
 ## Utilisation de Polkadot/apps {#polkajs}
 ### Voter aux élection de membres du Conseil {#polkajs-vote}
-Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes sur [*Gouvernance > Conseil* page](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) dans Polkadot/apps.
+Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes sur [*Gouvernance > Conseil* page](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) dans Polkadot/apps.
 
 Pour voter pour les membres du Conseil, cliquez sur *Voter*.
 
@@ -63,7 +63,7 @@ Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent
 :::
 
 ### Postuler comme candidat au Conseil {#polkajs-become_candidate}
-Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [*Gouvernance > Conseil*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) dans Polkadot/apps.
+Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [*Gouvernance > Conseil*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) dans Polkadot/apps.
 
 Cliquez sur *Soumettre la candidature* va faire apparaître une fenêtre contextuelle.
 

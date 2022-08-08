@@ -11,7 +11,7 @@ If you are interested in how the election mechanism works, please refer to [this
 
 ## Using Polkadot/apps {#polkajs}
 ### Vote in Council member elections {#polkajs-vote}
-You can see the current Council members as well as the runners-up on the [*Governance > Council* page](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) in Polkadot/apps.
+You can see the current Council members as well as the runners-up on the [*Governance > Council* page](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) in Polkadot/apps.
 
 To bring out your vote for Council members, click on *Vote*.
 
@@ -30,7 +30,7 @@ Locked tokens cannot be transferred, however they can still be used for staking 
 :::
 
 ### Apply as a Council candidate {#polkajs-become_candidate}
-You can submit your application for Council membership by navigating to [*Governance > Council*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) in Polkadot/apps.
+You can submit your application for Council membership by navigating to [*Governance > Council*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) in Polkadot/apps.
 
 Click on *Submit candidacy* which will trigger a popup.
 

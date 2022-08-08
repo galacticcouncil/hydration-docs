@@ -44,7 +44,7 @@ Nominatoren und Validatoren, die ihr HDX überschuldet haben und „steckengebli
 
 Nachdem Sie Ihre Treasury-Tipp-Anfrage veröffentlicht haben, müssen Sie sie in der Kette einreichen. Zu diesem Zweck muss Ihr Wallet eine kleine Menge HDX enthalten, um die Transaktionsgebühren zu decken. Wenn Sie derzeit kein HDX besitzen, müssen Sie diesen Schritt nicht ausführen – jemand anderes wird Ihre Trinkgeldanforderung für Sie in der Kette einreichen.
 
-Treasury-Tipp-Anfragen können mit Polkadot / Apps über den folgenden Link in der Kette eingereicht werden: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Treasury-Tipp-Anfragen können mit Polkadot / Apps über den folgenden Link in der Kette eingereicht werden: https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 Um eine neue Trinkgeldanfrage zu stellen, klicken Sie auf *Propose tip* und geben Sie die folgenden Informationen ein:
 

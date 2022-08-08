@@ -11,7 +11,7 @@ Das manuelle Beanspruchen einer Auszahlung innerhalb eines begrenzten Zeitraums 
 
 ## Auslösung der Auszahlung
 Eine Auszahlung kann sowohl von Validatoren als auch von deren Nominatoren mithilfe von Polkadot / Apps problemlos ausgelöst werden. Navigieren Sie bitte zu *Network > Staking > Payouts*. Alternativ können Sie den folgenden Link verwenden: 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/staking/payout
 
 Unter *My stashes*, sollten Sie alle Rewards sehen, die für die Auszahlung von gesetzten Token verfügbar sind, mit Angabe der jeweiligen Epochennummern. Durch Klicken auf *Payout all* ist es möglich, eine Reihe von Transaktionen einzureichen, um alle verfügbaren Rewards für die vergangenen Epochen zu erhalten.
 

@@ -11,7 +11,7 @@ Le procédé de déclencher manuellement un paiement dans un délai limité est 
 
 ## Comment déclencher un paiement
 Un paiement peut être déclenché facilement par les validateurs et leurs nominateurs en utilisant Polkadot/apps. À cette fin, naviguez jusqu'à *Réseau > Staking > Paiements* (en anglais *Network > Staking > Payouts*). Sinon, vous pouvez utiliser le lien suivant:
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/staking/payout
 
 
 En sélectionnant *Mes réserves* (en anglais : *My stashes*) vous devriez voir vos récompenses qui sont disponibles pour paiement pour vos tokens délégués avec une information des numéros d'ère respectives. en cliquant sur *Paiement de tous* (en anglais *Payout all*), il est possible de soumettre une série de transactions afin de réclamer toutes les récompenses pour les ères passées.

@@ -16,7 +16,7 @@ HydraDX民主选举将在 **2021 年 9 月 15 号** 后上线，请勿在此日�
 ## 使用 Polkadot/apps {#polkajs}
 
 ### 在议会成员选举中投票 {#polkajs-vote}
-您将在 [*Governance* （治理）> *Council*（议会）页面](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) 中看到现有议员及候选者。
+您将在 [*Governance* （治理）> *Council*（议会）页面](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) 中看到现有议员及候选者。
 
 要为议会成员投票，请单击 *Vote*（投票）。
 
@@ -35,7 +35,7 @@ HydraDX民主选举将在 **2021 年 9 月 15 号** 后上线，请勿在此日�
 :::
 
 ### 申请成为议会候选人 {#polkajs-become_candidate}
-您可以通过导航到 Polkadot/apps 中的 [*Governance*(治理) > *Council*（议会）](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) 来提交您的议会成员申请。
+您可以通过导航到 Polkadot/apps 中的 [*Governance*(治理) > *Council*（议会）](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) 来提交您的议会成员申请。
 
 单击 *Submit candidacy*（提交候选资格），这将触发一个弹出窗口。
 

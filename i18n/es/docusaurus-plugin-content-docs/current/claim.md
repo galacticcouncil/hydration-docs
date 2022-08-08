@@ -92,4 +92,4 @@ Después de firmar el mensaje con la billetera que contiene sus tokens xHDX, la 
 
 ¡Ya ha completado el proceso de reclamación, convirtiéndose así oficialmente en propietario de HDX!
 
-Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) conectado a HydraDX Red: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
+Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts) conectado a HydraDX Red: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

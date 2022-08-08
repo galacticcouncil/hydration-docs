@@ -5,10 +5,9 @@ title: Connect to a Public Node
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-There are two public RPC nodes which are maintained by HydraDX and our partners. You can use these nodes for interacting with Snakenet. You can directly connect to a public node with Polkadot/apps by clicking on the links below:
+There are two public RPC nodes which are maintained by HydraDX and our partners. You can use these nodes for interacting with Snakenet. You can directly connect to a public node with Polkadot/apps by clicking on the link below:
 
-* [RPC node hosted by HydraDX](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer)
-* [RPC node hosted by Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
+* [RPC node hosted by HydraDX](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/explorer)
 
 
 ## Connect manually to an RPC node {#connect-manually-to-an-rpc-node}

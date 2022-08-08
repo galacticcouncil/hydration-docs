@@ -15,7 +15,7 @@ In order to create and manage your HDX wallet, you need to install the [Polkadot
 
 After installing the Polkadot.js browser extension, you should make sure that it has been updated with the latest chain metadata. For this purpose, you can visit the following link and update your metadata, if prompted:
 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/settings/metadata
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/settings/metadata
 
 ## 03 Create your HDX Account {#03-create-hdx-account}
 

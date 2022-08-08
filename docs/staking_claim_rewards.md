@@ -11,7 +11,7 @@ The process of manually triggering a payout within a limited timeframe is an imp
 
 ## How to trigger a payout
 A payout can be triggered easily by both validators and their nominators using Polkadot/apps. For this purpose, navigate to *Network > Staking > Payouts*. Alternatively, you can use the following link:  
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/staking/payout
 
 When selecting *My stashes* you should see all rewards which are available for payout for your staked tokens with an indication of the respective era numbers. By clicking on *Payout all*, it is possible to submit a series of transactions in order to claim all available rewards for the past eras.
 

@@ -16,7 +16,7 @@ El módulo de democracia HydraDX se lanzará a partir del **15 de septiembre de 
 ## Usando Polkadot/apps {#polkajs}
 ### Votar en las elecciones de miembros del Consejo {#polkajs-vote}
 
-Puede ver a los miembros actuales del Consejo, así como a los runners-up en la página [*Governance> Consejo*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) en  Polkadot/apps
+Puede ver a los miembros actuales del Consejo, así como a los runners-up en la página [*Governance> Consejo*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) en  Polkadot/apps
 
 Para mostrar su voto por los miembros del Consejo, haga clic en * Voto*.
 
@@ -36,7 +36,7 @@ Los tokens bloqueados no se pueden transferir, sin embargo, aún se pueden usar 
 
 ### Aplicar a candidato del Consejo {#polkajs-become_candidate}
 
-Puede enviar su solicitud para ser miembro del Consejo navegando a [*Governance> Consejo*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) en Polkadot/apps.
+Puede enviar su solicitud para ser miembro del Consejo navegando a [*Governance> Consejo*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) en Polkadot/apps.
 
 Click en  *Presentar a la candidatura* que activará una ventana emergente.
 

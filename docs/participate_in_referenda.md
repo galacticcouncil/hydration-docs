@@ -54,7 +54,7 @@ Malicious referendum proposals are punished. The HydraDX Council and the Technic
 ## Using Polkadot/apps {#polkajs}
 
 ### Vote in a Referendum {#polkajs-vote}
-You can see all referenda which are open for voting by navigating to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) in Polkadot/apps.
+You can see all referenda which are open for voting by navigating to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) in Polkadot/apps.
 
 To vote in a referendum, click on the *Vote* button next to it.
 
@@ -69,7 +69,7 @@ After that, bring out your vote by clicking on *Vote Nay* (No) or *Vote Aye* (Ye
 Proposing a referendum via Polkadot/apps consists of two steps - submitting a preimage, and submitting the proposal on-chain.
 
 #### 01 Submit preimage {#polkajs-propose-01}
-To submit the preimage, visit Polkadot/apps and navigate to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy).
+To submit the preimage, visit Polkadot/apps and navigate to [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy).
 
 After clicking on *Submit preimage*, you should see the following popup:
 
@@ -87,7 +87,7 @@ In the example above, the proposal area is *balances*, and the action is *forceT
 Before submitting the preimage and signing the transaction, please make sure to copy the preimage hash. You will need it for the next step.
 
 #### 02 Submit proposal {#polkajs-propose-02}
-To submit the referendum proposal, visit [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) in Polkadot/apps.
+To submit the referendum proposal, visit [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) in Polkadot/apps.
 
 After clicking on *Submit proposal*, you should see the following popup:
 

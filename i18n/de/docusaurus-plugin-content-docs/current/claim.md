@@ -88,7 +88,7 @@ Abhängig von der von Ihnen verwendeten Möglichkeit die Sie in Schritt Eins aus
 
 ### 04 Beanspruchen {#04-claim}
 
-Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie mit ihrer Polkadot.js Erweiterung signieren. Wenn Sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können Ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts), falls es nicht bereits in der Erweiterung angezeigt werden sollte.
+Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie mit ihrer Polkadot.js Erweiterung signieren. Wenn Sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können Ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts), falls es nicht bereits in der Erweiterung angezeigt werden sollte.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 

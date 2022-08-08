@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Как инициировать выплату
 Выплата может быть легко инициирована как валидаторами, так и их номинаторами с помощью Polkadot/apps. Для этого перейдите в *Network > Staking > Payouts*. В качестве альтернативы вы можете использовать следующую ссылку:
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/staking/payout
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/staking/payout
 
 При выборе *My stashes* вы должны увидеть все награды, которые доступны для выплаты за ваши номинированне токены, с указанием номеров соответствующих эр. Нажав на *Payout all*, можно отправить серию транзакций, чтобы получить все доступные награды за прошлые эры.
 
