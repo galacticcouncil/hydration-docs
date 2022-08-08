@@ -130,4 +130,3 @@ $ journalctl -f -u hydradx-validator.service
 ```
 
 Ihre HydraDX node ist jetzt konfiguriert und in Betrieb!
-Jetzt können sie die letzten Schritte ausführen um mit dem [validieren zu beginnen](/start_validating).

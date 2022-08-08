@@ -7,7 +7,6 @@ module.exports = {
     "How-to": [
       "create_account",
       "claim",
-      "start_validating",
       "identity",
       "staking_claim_rewards",
       "tip_request",

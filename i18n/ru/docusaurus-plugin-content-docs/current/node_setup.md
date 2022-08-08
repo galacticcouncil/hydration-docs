@@ -125,5 +125,3 @@ $ journalctl -f -u hydradx-validator.service
 ```
 
 Теперь ваш узел HydraDX настроен и работает!
-
-Теперь вы можете выполнить последние шаги, чтобы [начать валидацию](/start_validating).

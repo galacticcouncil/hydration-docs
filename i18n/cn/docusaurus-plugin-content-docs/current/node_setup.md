@@ -128,6 +128,3 @@ $ journalctl -f -u hydradx-validator.service
 ```
 
 恭喜您，现在您已经完成验证节点搭建并正在运行！
-
-接下来前往 **[开始验证](/start_validating)** ，完成剩下的步骤。
-
