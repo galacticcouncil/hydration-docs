@@ -8,7 +8,6 @@ module.exports = {
       "create_account",
       "claim",
       "identity",
-      "staking_claim_rewards",
       "tip_request",
       "participate_in_referenda",
       "participate_in_council_elections",
