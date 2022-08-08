@@ -1,7 +1,11 @@
 ---
-id: hydradx_crowdloan
+id: archive_hydradx_crowdloan
 title: HydraDX Crowdloan
 ---
+
+:::warning
+This page has been archived, meaning that the information it contains may be outdated or no longer applicable.
+:::
 
 The HydraDX crowdloan for the Polkadot parachain auctions is now live! You can support HydraDX by participating in our crowdloan campaign and pledging some amount of DOT tokens which will be locked up for the duration of the parachain slot.
 

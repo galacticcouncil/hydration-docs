@@ -2,14 +2,11 @@ module.exports = {
   sidebar: {
     Intro: [
       "intro",
-      "hydradx_crowdloan",
-      "snakenet",
       "new_deal"
     ],
     "How-to": [
       "create_account",
       "claim",
-      "start_nominating",
       "start_validating",
       "identity",
       "staking_claim_rewards",
@@ -69,6 +66,7 @@ module.exports = {
       },
       "dev_exercise",
     ],
+    Archive: ["archive_hydradx_crowdloan"],
     Contribute: ["contributing"]
   }
 };
