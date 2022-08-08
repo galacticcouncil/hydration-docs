@@ -43,11 +43,11 @@ After publishing your Treasury tip request, you need to submit it on-chain. For 
 
 Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.hydradx.io#/treasury/tips
 
-To submit a new tip request, click on *Propose tip* and provide the following information:
+To submit a new tip request, click on `Propose tip` and provide the following information:
 
 * **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Commonwealth thread.
-* **tip reason** - provide a URL to the Commonwealth thread.
+* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond to the account which opened the Polkassembly thread.
+* **tip reason** - provide a URL to the Polkassembly thread.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
