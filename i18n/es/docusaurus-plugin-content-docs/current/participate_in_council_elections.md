@@ -31,7 +31,7 @@ Después de eso, seleccione sus candidatos en orden de preferencia moviéndolos 
 Para mostrar su voto, haga clic en * Voto* y firme la transacción.
 
 :::note
-Los tokens bloqueados no se pueden transferir, sin embargo, aún se pueden usar para staking  y votar en referendos. Tus tokens seguirán siendo afortunados y se usarán para elecciones posteriores hasta que decidas desbloquearlos.
+Los tokens bloqueados no se pueden transferir, sin embargo, aún se pueden usar para votar en referendos. Tus tokens seguirán siendo afortunados y se usarán para elecciones posteriores hasta que decidas desbloquearlos.
 :::
 
 ### Aplicar a candidato del Consejo {#polkajs-become_candidate}

@@ -32,7 +32,7 @@ Après ça, choisissez vos candidats préférés en cliquant sur leurs noms. Rap
 Pour voter, cliquez sur *Submit vote* et signez la transaction.
 
 :::note
-Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour la délégation (staking) et pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
+Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
 :::
 
 ### Postuler comme candidat au Conseil {#cw-become_candidate}
@@ -59,7 +59,7 @@ Après ça, choisissez vos candidats dans l'ordre de préférence en les dépla�
 Pour voter, cliquez sur *Voter* et signer la transaction.
 
 :::note
-Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour la délégation (staking) et pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
+Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
 :::
 
 ### Postuler comme candidat au Conseil {#polkajs-become_candidate}

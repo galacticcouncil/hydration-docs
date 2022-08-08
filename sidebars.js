@@ -18,8 +18,6 @@ module.exports = {
       }
     ],
     "Learn": [
-      "staking",
-      "staking_rewards",
       {
         type: "category",
         label: "Democracy",
