@@ -8,12 +8,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Tu puedes reclamar tus HDX con los xHDX tokens (ERC-20) que obtuvo durante nuestro [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) mientras etsuvo activo.
 
-:::note
-
-¿No tiene ningún token xHDX pero, de todos modos, le gustaría obtener algunos HDX? Gracias por el interés, pero en este momento no es posible comprar ningún token HDX; las transferencias de HDX se congelan hasta la red principal. Sin embargo, a medida que avanzamos hacia la red principal, lanzaremos programas comunitarios incentivados que podrían generarle algunos HDX anticipados. Si está interesado, [suscríbase a nuestro boletín](https://hydradx.substack.com) y únase a nuestro servidor Discord para mantenerse actualizado.
-
-:::
-
 ## Pre-requisitos {#prequisites}
 Hay dos requisitos previos para reclamar su HDX. En primer lugar, debe instalar la [extensión del navegador Polkadot.js](https://polkadot.js.org/extension/) que se utilizará para crear su billetera HDX. En segundo lugar, necesita acceso a sus tokens xHDX, que deben almacenarse en una billetera que admita la firma de mensajes relacionados con tokens ERC-20 (por ejemplo, Metamask).
 
@@ -98,13 +92,4 @@ Después de firmar el mensaje con la billetera que contiene sus tokens xHDX, la 
 
 ¡Ya ha completado el proceso de reclamación, convirtiéndose así oficialmente en propietario de HDX!
 
-Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) conectado a HydraDX Red Snakenet. Tenga en cuenta que no puede ver su saldo HDX directamente en la extensión del navegador Polkadot.js.
-
-### 05 Que sigue? {#05-whats-next}
-
-Después de completar el proceso de reclamo, los tokens HDX permanecerán bloqueados en su billetera hasta el lanzamiento de mainnet.
-
-Los tokens xHDX (que solía reclamar HDX), por otro lado, permanecerán bloqueados en su billetera ERC-20 para siempre, lo que significa que puede ocultarlos de su billetera (o mantenerlos visibles como una insignia de adopción temprana).
-
-¿Quiere poner a trabajar sus tokens HDX y ayudar a mejorar la seguridad de la red HydraDX? Entonces podrías participar en nuestra red de prueba incentivada llamada **Snakenet** haciendo stake de tu HDX. Si está interesado, puede continuar familiarizándose con el [proceso de staking](/staking), después de lo cual puede decidir participar como [validador](/start_validating) o como [nominador](/start_nominating).
-
+Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) conectado a HydraDX Red: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

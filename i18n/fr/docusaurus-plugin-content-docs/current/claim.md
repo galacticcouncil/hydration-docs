@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Vous pouvez récupérer vos HDX avec les tokens xHDX (ERC-20) que vous avez obtenus pendant la période où notre [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) était opérationnel. 
 
-:::note
-
-Vous n'avez pas de tokens xHDX mais vous aimeriez néanmoins obtenir des HDX? Merci de votre intérêt mais pour le moment il n'est pas possible d'acheter des tokens HDX. Les transferts de HDX sont gelés jusqu'au mainnet (réseau principal). Pendant que nous nous dirigeons vers le mainnet, toutefois, nous allons lancer des programmes de communauté récompensés qui pourront vous faire gagner quelques HDX. Si vous êtes intéressés, [souscrivez à notre newsletter](https://hydradx.substack.com) et rejoignez notre server Discord pour rester informé.
-
-:::
-
 ## Prérequis {#prequisites}
 
 Il y a deux conditions préalables pour récupérer vos HDX. En premier lieu, vous  devez installer [l'extension de navigateur Polkadot.js](https://polkadot.js.org/extension/) qui sera utilisée pour créer votre portefeuille HDX. En second lieu, vous devez accéder à vos xHDX qui devraient être stockés dans un portefeuille supportant la signature de messages relatifs aux tokens ERC-20 (par exemple : Metamask).
@@ -103,12 +97,4 @@ Après avoir signé le message avec le portefeuille contenant vos tokens xHDX, l
 
 Vous avez terminé la procédure de récupération, faisant ainsi de vous un propriétaire de HDX.
 
-Vous pouvez visualiser votre solde en utilisant [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) connecté au réseau HydraDX Snakenet. Veuillez noter que vous ne pouvez pas voir votre solde directement dans l'extension de navigateur Polkadot.js.
-
-### 05 Et après? {#05-whats-next}
-
-Après avoir terminé le processus de récupération, les tokens HDX vont être bloqués dans votre portefeuille jusqu'au lancement du mainnet (réseau principal).
-
-Les tokens xHDX (que vous avez utilisés pour réclamer vos HDX), eux, vont restés bloqués dans votre portefeuille ERC-20 pour toujours, ce qui signifie que vous pouvez les cacher de votre portefeuille (ou les garder visibles comme un badge d'utilisateur pionnier).
-
-Voulez-vous mettre vos tokens HDX à l'œuvre et aider à améliorer la sécurité du réseau HydraDX? Alors vous pourriez participer à notre testnet récompensé appelé **Snakenet** en déléguant (staking) vos HDX. Si vous êtes intéressés, vous pouvez vous y mettre en vous familiarisant avec le [staking process](/staking), après quoi vous pouvez décider de participer en tant que [validateur](/start_validating) ou [nominateur](/start_nominating).
+Vous pouvez visualiser votre solde en utilisant Polkadot/apps connecté au réseau HydraDX: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
