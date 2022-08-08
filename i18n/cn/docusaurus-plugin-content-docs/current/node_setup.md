@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 本节将引导您搭建及运行 HydraDX 验证节点。
 
-:::warning
-
-保证验证节点在线运行时间，运行并合理设置节点，需要一定的技术知识。如果对相关技术知识不是很了解，我们建议您把令牌以 **[提名](/start_nominating)** 的方式质押给有经验和技术的验证人。如此一来，您可以同时保护自己和可能质押您节点的提名人免受非自愿损失。
-
-:::
-
 ## 00 基本性能要求 {#00-required-technical-specifications}
 
 以下是运行验证节点的硬件及系统的基本性能要求： 

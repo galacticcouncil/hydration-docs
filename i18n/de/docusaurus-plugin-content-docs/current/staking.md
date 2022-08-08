@@ -11,14 +11,14 @@ Der Mechanismus des HydraDX Stakings funktioniert im Kern nach dem NPoS (Nominat
 ### Validatoren {#validators}
 
 Die Validatoren betreiben die Validator Nodes im Netzwerk, welche die Infrastruktur für das HydraDX Netzwerk bereistellen um sicher funktionieren zu können. Validator Nodes erfüllen drei äußerst wichtige Funktionen. Erstens validieren Sie die Informationen in den Blocks, wie beispielsweise die Identität der Parteien oder den Inhalt der Verträge. Zweitens nehmen Validatoren an dem Prozess der Produktion neuer Blocks teil basierend auf den Validitätsbestätigungen der anderen Validatoren. Drittens garantieren sie die Endgültigkeit von Blockchain Transaktionen.
-Eine wichtige Eigenschaft des NPoS ist, dass nicht alle Validatoren an dem Validierungsprozess gleichzeitig teilnehmen. Lediglich jene Validatoren, die im *aktiven Validator Set* sind, führen die oben genannten Vorgänge durch und verdienen dadurch Belohnungen. Die Gruppe der aktiven Validatoren ist beschränkt durch die feste Anzahl der Nodes. Im [HydraDX Snakenet](/snakenet) erwarten wir eine Anzahl von ungefähr 300 Nodes, mit dem Plan der Erweiterung auf dem Weg hin zum Mainnet.
+Eine wichtige Eigenschaft des NPoS ist, dass nicht alle Validatoren an dem Validierungsprozess gleichzeitig teilnehmen. Lediglich jene Validatoren, die im *aktiven Validator Set* sind, führen die oben genannten Vorgänge durch und verdienen dadurch Belohnungen. Die Gruppe der aktiven Validatoren ist beschränkt durch die feste Anzahl der Nodes. Im HydraDX Snakenet erwarten wir eine Anzahl von ungefähr 300 Nodes, mit dem Plan der Erweiterung auf dem Weg hin zum Mainnet.
 Validatoren werden nach dem Prinzip der *proportional justified representation* in das aktive Set gewählt. Dieses Prinzip schützt die Dezentralisierung und die faire Repräsentation indem die verfügbaren Slots im Verhältnis zu der Menge an gestaketen Token verteilt werden. In anderen Worten, je mehr Token bei einem Validator gestaket sind, desto höher die Wahrscheinlichkeit ist, dass diese Node in das aktive Set von Validatoren gewählt wird. Validatoren, welche nicht im aktiven Set sind, kommen auf eine Warteliste. Das Set von aktiven Validatoren wird zum Beginn jeder Ära aktualisiert, wodurch jeder neue Validator die Möglichkeit erhalten sollte, ins aktive Set aufgenommen zu werden.
 
 :::note
-In einem Substrate-basierten Netzwerk ist die Zeit in **Äras** eingeteilt. Im [HydraDX Snakenet](/snakenet) dauert eine Ära 24 Stunden.
+In einem Substrate-basierten Netzwerk ist die Zeit in **Äras** eingeteilt. Im HydraDX Snakenet dauert eine Ära 24 Stunden.
 :::
 
-Das Betreiben und Erstellen einer Validator Node setzt ein gewisses Maß an technischen Fähigkeiten voraus, die benötigt werden um den fehlerfreien Betrieb der Node zu gewährleisten. Wenn Sie sich mit Validator Nodes nicht auskennen empfehlen wir, dass Sie einen erfahrenen Validator [mit Ihren HDX nominieren](/start_nominating). Wenn Sie allerdings der Meinung sind, das nötige technische Know-How mitzubringen, können Sie sich gerne unsere [Validator Anleitung](/node_setup) ansehen.
+Das Betreiben und Erstellen einer Validator Node setzt ein gewisses Maß an technischen Fähigkeiten voraus, die benötigt werden um den fehlerfreien Betrieb der Node zu gewährleisten. Wenn Sie sich mit Validator Nodes nicht auskennen empfehlen wir, dass Sie einen erfahrenen Validator mit Ihren HDX nominieren. Wenn Sie allerdings der Meinung sind, das nötige technische Know-How mitzubringen, können Sie sich gerne unsere [Validator Anleitung](/node_setup) ansehen.
 
 ### Nominatoren {#nominators}
 
@@ -32,4 +32,4 @@ Beachten Sie, dass Sie keine Validatoren nominieren sollten, die bereits voll od
 Nominieren ist eine einfachere Art des Stakings, allerdings birgt es auch Risiken. Validatoren, die sich nicht an die Regeln halten, könnten mit Slashing bestraft werden, was zum teilweisen oder kompletten Verlust des Kapitals des Validators und der Nominatoren führen kann. Nominieren Sie deshalb nur bekannte und bewährte Validator Nodes.
 :::
 
-Haben Sie Interesse Ihre HDX Token zu staken indem Sie Nominator werden? Dann könnte Ihnen [unser Nominator Guide](/start_nominating) weiterhelfen.
+Haben Sie Interesse Ihre HDX Token zu staken indem Sie Nominator werden? Dann könnte Ihnen unser Nominator Guide weiterhelfen.

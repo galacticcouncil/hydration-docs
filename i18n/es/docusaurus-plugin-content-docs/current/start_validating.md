@@ -9,7 +9,7 @@ Despues de [Configurar un nodo HydraDX](/node_setup), debe vincular los tokens H
 
 :::warning
 
-La ejecución de un nodo de validación requiere un cierto conjunto de habilidades técnicas necesarias para la configuración adecuada del nodo y para garantizar su tiempo de actividad. También requerimos que los validadores estén siempre ejecutando el nodo utilizando la última versión estable. Si no está seguro de lo que está haciendo aquí, le recomendamos que [Nominar tu HDX](/start_nominating)
+La ejecución de un nodo de validación requiere un cierto conjunto de habilidades técnicas necesarias para la configuración adecuada del nodo y para garantizar su tiempo de actividad. También requerimos que los validadores estén siempre ejecutando el nodo utilizando la última versión estable. Si no está seguro de lo que está haciendo aquí, le recomendamos que Nominar tu HDX
 :::
 
 ## 01 Vincula tus HDX tokens {#01-bond-hdx-tokens}

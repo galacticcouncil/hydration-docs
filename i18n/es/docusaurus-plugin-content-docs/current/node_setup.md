@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Esta sección lo guía a través del proceso de configuración y ejecución de un nodo HydraDX.
 
-:::warning
-
-La ejecución de un nodo de validación requiere un cierto conjunto de habilidades técnicas necesarias para la configuración adecuada del nodo y para garantizar su tiempo de actividad. Si no está seguro de lo que está haciendo aquí, le recomendamos que [nomine su HDX](/start_nominating) a un validador experimentado. Al hacerlo, se protege a sí mismo y a sus nominadores contra una pérdida involuntaria de fondos.
-
-:::
-
 ## 00 Especificaciones técnica requeridas {#00-required-technical-specifications}
 
 Las siguientes especificaciones técnicas son necesarias como mínimo para ejecutar un nodo validador HydraDX:

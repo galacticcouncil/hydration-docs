@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Nachdem Sie Ihre [HydraDX Node eingerichtet](/node_setup) haben, müssen Sie Ihre HDX-Token binden und die Validator Schlüssel erstellen bevor es mit dem Validieren losgehen kann.
 :::warning
 
-Das Betreiben und Erstellen einer Validator Node setzt ein gewisses Maß an technischen Fähigkeiten vorraus, die benötigt werden um den fehlerfreien Betrieb der Node zu gewährleisten. Zudem verpflichten wir die Validatoren Ihre Node immer auf dem neuesten Stabilen Release zu betreiben. Wenn Sie mit dem Thema Validatoren nicht vertraut sind, empfehlen wir Ihnen einen erfahrenen Validator mit Ihren HDX [zu nominieren](/start_nominating). Wenn Sie das Betreiben der Validator Nodes den erfahreneren Akteuren überlassen, schützen Sie sich und andere vor dem Verlust des eigenen Kryptokapitals.
+Das Betreiben und Erstellen einer Validator Node setzt ein gewisses Maß an technischen Fähigkeiten vorraus, die benötigt werden um den fehlerfreien Betrieb der Node zu gewährleisten. Zudem verpflichten wir die Validatoren Ihre Node immer auf dem neuesten Stabilen Release zu betreiben. Wenn Sie mit dem Thema Validatoren nicht vertraut sind, empfehlen wir Ihnen einen erfahrenen Validator mit Ihren HDX zu nominieren. Wenn Sie das Betreiben der Validator Nodes den erfahreneren Akteuren überlassen, schützen Sie sich und andere vor dem Verlust des eigenen Kryptokapitals.
 
 :::
 

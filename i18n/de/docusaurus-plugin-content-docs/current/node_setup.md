@@ -7,13 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Dieser Abschnitt soll Sie durch Prozess zum Aufbau und zum Betrieb einer HydraDX node führen.
 
-:::warning
-
-Das Betreiben und Erstellen einer Validator node setzt ein gewisses Maß an technischen Fähigkeiten vorraus, die benötigt werden um den Fehlerfreien Betrieb der Node zu gewährleisten. Wenn Sie nicht genau was Sie hier genau vorhaben, empfehlen wir das Sie einen erfahrenen Validator mit ihren HDX nominieren [nominate your HDX](/start_nominating) to an experienced validator instead. Wenn Sie das Betreiben der Validator Nodes den erfahreneren überlassen, schützen Sie sich und andere vor dem Verlust des eigenen Kryptokapitals.
-
-
-:::
-
 ## 00 Systemanforderungen {#00-required-technical-specifications}
 
 Folgende Hardware stellt das minimum dar, dass zum Betreiben einer HydraDX Validator Node aufgebracht werden muss:

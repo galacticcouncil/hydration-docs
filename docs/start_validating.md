@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 After [setting up your HydraDX node](/node_setup), you need to bond HDX tokens and set the validator keys before you can start validating.
 
-:::warning
-
-Running a validator node requires a certain technical skillset needed for the proper setup of the node, and for guaranteeing its uptime. We also require validators to be always running the node using the latest stable release. If you are not sure what you are doing here, we recommend that you [nominate your HDX](/start_nominating) to an experienced validator instead. By doing so, you protect yourself and your nominators against an involuntary loss of funds.
-
-:::
-
 ## 01 Bond HDX tokens {#01-bond-hdx-tokens}
 
 In order to take part at the network as a validator node, you need to bond some amount of HDX tokens. If you do not have any HDX, it is not possible to participate in the _initial_ stage of the testnet. However, some exciting news will be announced by the team in the upcoming weeks so stay posted and subscribe to our newsletter.

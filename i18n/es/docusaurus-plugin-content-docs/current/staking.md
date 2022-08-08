@@ -13,12 +13,12 @@ El mecanismo de consenso utilizado por HydraDX se denomina Prueba de participaci
 
 Los validadores participan en la red ejecutando nodos de validación, que proporcionan la infraestructura que permite que la red HydraDX funcione de forma segura. Los nodos de validación cumplen tres funciones que son de suma importancia para el mecanismo de consenso. En primer lugar, validan la información contenida en bloques, como la identidad de las partes y el objeto del contrato. En segundo lugar, los validadores participan en la producción de nuevos bloques basados ​​en las declaraciones de validez de otros validadores. En tercer lugar, garantizan la finalidad de las transacciones blockchain.
 
-Una característica importante de NPoS es que no todos los validadores participan en el proceso de validación al mismo tiempo. Solo los validadores del *conjunto de validadores activos* realizan las operaciones mencionadas anteriormente y obtienen recompensas por hacerlo. El conjunto de validadores activos está limitado a un número fijo de nodos. En [HydraDX Snakenet](/snakenet) esperamos que este número sea de alrededor de 300, ampliándolo a medida que avanzamos hacia la red principal.
+Una característica importante de NPoS es que no todos los validadores participan en el proceso de validación al mismo tiempo. Solo los validadores del *conjunto de validadores activos* realizan las operaciones mencionadas anteriormente y obtienen recompensas por hacerlo. El conjunto de validadores activos está limitado a un número fijo de nodos. En HydraDX Snakenet esperamos que este número sea de alrededor de 300, ampliándolo a medida que avanzamos hacia la red principal.
 
 Los validadores se eligen en el conjunto activo siguiendo el principio de *representación justificada proporcional*. Este principio tiene como objetivo salvaguardar la descentralización y la representación justa al asignar los espacios disponibles a los validadores en proporción a su participación nominada. Cuanto mayor sea la cantidad de tokens apostados con un validador determinado, mayor será la probabilidad de que el nodo sea elegido en el conjunto activo. Los validadores que no están incluidos en el conjunto activo se colocan en una lista de espera. El conjunto de validadores activos se actualiza al comienzo de cada era, proporcionando una posible ventana de entrada para nuevos validadores.
 
 :::note
-En una red basada en substrate, el tiempo se divide en unidades llamadas **eras**. En [HydraDX Snakenet](/snakenet), *1 Era = 24 horas*.
+En una red basada en substrate, el tiempo se divide en unidades llamadas **eras**. En HydraDX Snakenet, *1 Era = 24 horas*.
 
 :::
 
@@ -42,5 +42,5 @@ Nominar es una forma más accesible de hacer stake, pero también conlleva riesg
 
 :::
 
-Si estas interesado en hacer stake con tus tokens, nominando con los validadores, puede leer nuestra [guia para nominar ](/start_nominating).
+Si estas interesado en hacer stake con tus tokens, nominando con los validadores, puede leer nuestra guia para nominar.
 

@@ -9,7 +9,7 @@ Cette section vous guide à travers le procédé d'installation et de fonctionne
 
 :::caution
 
-Faire fonctionner un node validateur requiert une certaine compétence technique nécessaire pour l'installation correcte du node, et pour garantir sa disponibilité. Si vous n'êtes pas sûr de ce que vous faites ici, nous recommandons de [Déléguer vos HDX](/start_nominating) à un validateur expérimenté à la place. En déléguant vos HDX, vous vous protégez vous, et vos nominateurs contre une perte de fonds involontaire.
+Faire fonctionner un node validateur requiert une certaine compétence technique nécessaire pour l'installation correcte du node, et pour garantir sa disponibilité. Si vous n'êtes pas sûr de ce que vous faites ici, nous recommandons de Déléguer vos HDX à un validateur expérimenté à la place. En déléguant vos HDX, vous vous protégez vous, et vos nominateurs contre une perte de fonds involontaire.
 
 :::
 

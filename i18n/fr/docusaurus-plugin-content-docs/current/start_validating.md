@@ -9,7 +9,7 @@ Après avoir [mis en place votre node HydraDX](/node_setup), vous devez engager 
 
 :::warning
 
-Faire fonctionner un node de validateur requiert certaines compétences techniques for l'installation correcte du node, et garantir sa durée de fonctionnement. Nous exigeons aussi que les validateurs fassent fonctionner leur node en utilisant la version stable la plus récente. Si vous n'êtes pas sûr de ce que vous faites ici, nous vous recommandons de [déléguer vos HDX](/start_nominating) à un validateur expérimenté. Ainsi, vous vous protégez vous-même et vos nominateurs contre une perte de fonds involontaire.
+Faire fonctionner un node de validateur requiert certaines compétences techniques for l'installation correcte du node, et garantir sa durée de fonctionnement. Nous exigeons aussi que les validateurs fassent fonctionner leur node en utilisant la version stable la plus récente. Si vous n'êtes pas sûr de ce que vous faites ici, nous vous recommandons de déléguer vos HDX à un validateur expérimenté. Ainsi, vous vous protégez vous-même et vos nominateurs contre une perte de fonds involontaire.
 
 :::
 

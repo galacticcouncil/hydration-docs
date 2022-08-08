@@ -13,13 +13,13 @@ Le mécanisme de consensus utilisé par HydraDX est appelé Nominated Proof-of-S
 
 Les validateurs participent au réseau en exécutant des nodes validateurs, qui fournissent l'infrastructure qui permet au réseau HydraDX de fonctionner en toute sécurité. Les nodes validateurs remplissent trois fonctions qui sont d'une importance capitale dans le mécanisme de consensus. En premier lieu, ils valident les informations contenues dans les blocs, comme l'identité des différent partis et l'objet du contrat. En second lieu, les validateurs participent dans la production de nouveaux blocs basé sur la validité des déclarations d'autres validateurs. En dernier lieu, Ils garantissent la finalité des transactions de la blockchain. 
 
-Une caractéristique important du NPoS est que tous les validateurs ne participent pas au procédé de validation en même temps. Seuls les validateurs dans le *active validator set* (l'ensemble des validateurs actifs) effectuent les opérations mentionnées ci-dessus et gagnent des récompenses. L'ensemble des validateurs actifs est limité à un nombre de nodes fixe. Durant [HydraDX Snakenet](/snakenet) nous attendons que ce nombre soit d'environ 300, nombre qui augmentera au fur et à mesure que nous progresserons vers le mainnet (réseau principal).
+Une caractéristique important du NPoS est que tous les validateurs ne participent pas au procédé de validation en même temps. Seuls les validateurs dans le *active validator set* (l'ensemble des validateurs actifs) effectuent les opérations mentionnées ci-dessus et gagnent des récompenses. L'ensemble des validateurs actifs est limité à un nombre de nodes fixe. Durant HydraDX Snakenet nous attendons que ce nombre soit d'environ 300, nombre qui augmentera au fur et à mesure que nous progresserons vers le mainnet (réseau principal).
 
 Les validateurs son élus dans un ensemble actif en suivant les principe de la "représentation proportionnelle justifiée". Ce principe vise à garantir la décentralisation et la juste représentation en assignant les places disponibles aux validateurs en proportion de leur "nominated stake" (délégation nominée). Plus grand est le nombre de tokens délégués à un validateur donné, Plus grandes sont les chances que cette note va être élue dans l'ensemble actif. Les validateurs qui ne sont pas inclus dans l'ensemble actif sont placés en liste d'attente. L'ensemble des validateurs actifs est mis à jour au début de chaque ère, procurant une fenêtre d'entrée possible pour de nouveaux validateurs.
 
 :::note
 
-Dans un réseau basé sur Substrate, le temps est divisé en unités appelés **eras** (des ères). Dans [HydraDX Snakenet](/snakenet), *1 Ère = 24 heures*.
+Dans un réseau basé sur Substrate, le temps est divisé en unités appelés **eras** (des ères). Dans HydraDX Snakenet, *1 Ère = 24 heures*.
 
 :::
 

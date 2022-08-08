@@ -13,13 +13,13 @@ The consensus mechanism used by HydraDX is called Nominated Proof-of-Stake (NPoS
 
 Validators participate in the network by running validator nodes, which provide the infrastructure that allows the HydraDX network to operate securely. Validator nodes fulfill three functions which are of paramount importance to the consensus mechanism. In the first place, they validate the information contained in blocks, such as the identity of the parties and the subject of the contract. In the second place, validators participate in the production of new blocks based on the validity statements of other validators. In the third place, they guarantee the finality of blockchain transactions.
 
-An important characteristic of NPoS is that not all validators participate in the validating process at the same time. Only validators in the *active validator set* perform the above-mentioned operations and earn [rewards](/staking_rewards) for doing so. The set of active validators is limited to a fixed number of nodes. In [HydraDX Snakenet](/snakenet) we expect this number to be around 300, scaling it up as we progress towards mainnet.
+An important characteristic of NPoS is that not all validators participate in the validating process at the same time. Only validators in the *active validator set* perform the above-mentioned operations and earn [rewards](/staking_rewards) for doing so. The set of active validators is limited to a fixed number of nodes. In HydraDX Snakenet we expect this number to be around 300, scaling it up as we progress towards mainnet.
 
 Validators are elected into the active set by following the principle of *proportional justified representation*. This principle aims to safeguard decentralization and fair representation by assigning the available slots to validators in proportion to their nominated stake. The higher the amount of staked tokens with a given validator, the higher the chance that the node will be elected in the active set. Validators which are not included in the active set are placed on a waiting list. The set of active validators is updated at the beginning of every era, providing a possible entry window for new validators.
 
 :::note
 
-In a Substrate-based network, time is divided in units called **eras**. In [HydraDX Snakenet](/snakenet), *1 Era = 24 hours*.
+In a Substrate-based network, time is divided in units called **eras**. In HydraDX Snakenet, *1 Era = 24 hours*.
 
 :::
 
@@ -43,4 +43,4 @@ Nominating is a more accessible form of staking however it also bears risks. Val
 
 :::
 
-Are you interested in staking your HDX tokens by nominating validators? Check out our [nominator guide](/start_nominating) to start nominating.
+Are you interested in staking your HDX tokens by nominating validators? Check out our nominator guide to start nominating.
