@@ -1,16 +1,22 @@
 module.exports = {
   sidebar: {
-    Intro: [
+    HydraDX: [
       "intro",
       "new_deal"
     ],
     "How-to": [
+      {
+        type: "category",
+        label: "Democracy",
+        items: [
+          "tip_request",
+          "participate_in_referenda",
+          "participate_in_council_elections"
+        ]
+      },
       "create_account",
       "claim",
       "identity",
-      "tip_request",
-      "participate_in_referenda",
-      "participate_in_council_elections",
       {
         type: "category",
         label: "Connect to a Node",
@@ -37,7 +43,6 @@ module.exports = {
       }
     ],
     "Maintain": [
-      "node_setup",
       "collator_setup",
       "performance_benchmark",
       "node_monitoring"

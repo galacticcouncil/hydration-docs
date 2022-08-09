@@ -7,10 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This section runs you through the process of setting up a local HydraDX chain instance for development. 
 
-:::note
-Are you looking to set up a node for validation purposes? Please move to our [validator setup guide](/node_setup).
-:::
-
 ## 01 Install dependencies {#01-install-dependencies}
 
 To prepare a local HydraDX chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
