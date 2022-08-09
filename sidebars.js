@@ -50,22 +50,6 @@ module.exports = {
     Build: [
       "dev_intro",
       "build_dev_chain",
-      "dev_pools",
-      "dev_primitives",
-      "dev_math",
-      {
-        type: "category",
-        label: "Pallets",
-        items: [
-          "dev_pallets",
-          "dev_pallet_asset_registry",
-          "dev_pallet_xyk",
-          "dev_pallet_hdx",
-          "dev_pallet_exchange",
-          "dev_pallet_payment"
-        ]
-      },
-      "dev_exercise",
     ],
     Archive: ["archive_hydradx_crowdloan"],
     Contribute: ["contributing"]
