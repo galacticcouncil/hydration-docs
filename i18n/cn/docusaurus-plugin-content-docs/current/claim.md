@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 您可以使用 **[Balancer LBP](https://hydradxcn.substack.com/p/lbpgg)** 期间获得的 xHDX 令牌（ERC-20）申领您的 HDX 。 
 
-:::note
-
-没有 xHDX 令牌的您，仍想获取一些 HDX 令牌吗？感谢您对 HydraDX 的关注，但目前无法购买任何 HDX 令牌——主网上线前 HDX 的转账路径会被冻结。随着主网上线临近，我们将启动激励性社区计划，这些计划可能会给您带来一些早期的 HDX 令牌奖励。如感兴趣，请您 **[订阅我们的新闻通讯](https://hydradxcn.substack.com)** 并加入我们的 Discord 服务器，关注发布的最新消息。
-
-:::
-
 ## 前提条件 {#prequisites}
 
 想要申领您的 HDX，需满足两个前提条件。首先，需要在浏览器上安装 **[Polkadot.js 扩展程序](https://polkadot.js.org/extension/)** ，该扩展程序将用于创建您的 HDX 钱包。其次，需要访问存储您的 xHDX 令牌且支持 ERC-20 令牌消息签名的钱包（如 Metamask ）。
@@ -101,12 +95,4 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 此时您已完成申领过程，从而正式成为 HDX 的所有者。
 
-您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)** 检查令牌数额。请注意，您无法直接在 Polkadot.js 扩展程序中看到 HDX 令牌数额。
-
-### 05 接下来做什么？ {#05-whats-next}
-
-完成申领过程后，令牌将在您的钱包中保持锁定状态，直至主网启动。 
-
-另一方面，xHDX 令牌（您曾用于申领 HDX ）将永远锁定在您的 ERC-20 钱包中，这意味着您可以将其隐藏（或将其作为 HDX 令牌早期持有者的徽章保持可见）。
-
-想让您的 HDX 令牌工作，并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网 —— **Snakenet**（蛇网）。如有兴趣，可以先熟悉 **[质押](/staking)** 过程，然后再决定以 **[验证人](/start_validating)** 或 **[提名人](/start_nominating)** 的身份参加。
+您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts)** 检查令牌数额

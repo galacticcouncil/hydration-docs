@@ -5,7 +5,7 @@ title: 基本性能测试
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-您可以通过运行测试程序来确定自己的计算机是否符合 **[基本性能要求](/node_setup#00-required-technical-specifications)** 。 请运行一下代码：
+您可以通过运行测试程序来确定自己的计算机是否符合 **[基本性能要求](/collator_setup#technical-specifications)** 。 请运行一下代码：
 
 ```bash
 # Fetch source of the latest stable release

@@ -11,10 +11,6 @@
     "message": "База знаний",
     "description": "The label for category Knowledge Base in sidebar sidebar"
   },
-  "sidebar.sidebar.category.Snakenet": {
-    "message": "Snakenet",
-    "description": "The label for category Snakenet in sidebar sidebar"
-  },
   "sidebar.sidebar.category.Become a validator": {
     "message": "Стать валидатором",
     "description": "The label for category Become a validator in sidebar sidebar"

@@ -7,6 +7,21 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This is a step-by-step how-to so you can get your HydraDX collator up and running. In this guide, we use Ubuntu 20.04 LTS.
 
+## Required technical specifications {#technical-specifications}
+
+The following technical specifications are required as a minimum for running a HydraDX collator node: 
+
+* OS: Ubuntu 20.04
+* CPU: Intel Core i7-7700K @ 4.5Ghz (or equivalent single core performance)
+* Memory: 64GB RAM
+* Storage: NVMe SSD with a capacity of at least 200GB (the data footprint will grow over time)
+
+:::note
+
+These are the minimum technical requirements which have been verified by the team. Want to make sure that your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
+
+:::
+
 ## Create a technical `hydra` user and add it to Sudoers
 
 ```bash
@@ -107,7 +122,7 @@ Once done, you will have an output similar to:
 
 ## Set your session key
 
-To associate the generated session keys with your Controller account, navigate to the following menu item in the [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.hydradx.io#/extrinsics) on the Polkadot parachain HydraDX: *Developer* > *Extrinsics*.
+To associate the generated session keys with your Controller account, navigate to the following menu item in the [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics) on the Polkadot parachain HydraDX: *Developer* > *Extrinsics*.
 
 Fill in the fields:
 

@@ -7,8 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 HydraDX 和我们的合作伙伴运营着两个公共 RPC 节点。使用这些节点，您可以与 Snakenet（蛇网） 进行交互。您可以通过单击以下链接，直接使用 Polkadot/apps 连接到公共节点：
 
-* **[由 HydraDX 运营的 RPC 节点](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer)**
-* **[由 Intergalactic 运营的 RPC 节点](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)**
+* **[由 HydraDX 运营的 RPC 节点](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/explorer)**
 
 
 ## 手动连接到一个 RPC 节点 {#connect-manually-to-an-rpc-node}

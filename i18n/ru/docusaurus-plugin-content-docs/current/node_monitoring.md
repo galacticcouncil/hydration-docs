@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Предпосылки {#prerequisites}
 
-У вас должна быть запущена [Нода валидатора](/node_setup).
+У вас должна быть запущена [Нода колатора](/collator_setup).
 Это руководство было протестировано на версии Ubuntu 20.04 LTS.
 
 ## Установка Prometheus {#prometheus-setup}

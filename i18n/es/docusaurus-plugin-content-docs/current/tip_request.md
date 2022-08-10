@@ -43,7 +43,7 @@ Los nominadores y validadores que hicieron bond de todo su HDX y se "atascaron" 
 
 Después de publicar su solicitud de Tips de la Tesorería, debe enviarla de modo on-chain. Para este propósito, su billetera debe contener una pequeña cantidad de HDX para cubrir el fees de la transacción. Si actualmente no tiene ningún HDX, no es necesario que ejecute este paso; alguien más enviará su solicitud del tip on-chain por usted.
 
-Las solicitudes de los tips de la Tesorería se pueden enviar on-chain con Polkadot/apps usando el siguiente link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Las solicitudes de los tips de la Tesorería se pueden enviar on-chain con Polkadot/apps usando el siguiente link: https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 Para enviar una nueva solicitud de propina, haga clic en *Proponer gratificación* y proporcione la siguiente información:
 

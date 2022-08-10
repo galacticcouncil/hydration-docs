@@ -7,10 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Cette section vous guide tout au long du processus de configuration de votre instance locale HydraDX à des fins de développement.
 
-:::note
-Vous cherchez à configurer un node à des fins de validation ? Veuillez vous rendre au [guide de configuration de node](/node_setup).
-:::
-
 ## 01 installer les dépendances {#01-install-dependencies}
 
 Pour préparer une instance locale HydraDX pour le développement, votre machine doit avoir toutes les dépendances pour faire fonctionner une chaîne Substrate. Vous devrez installer un environnement de développement Rust et vous assurer qu'il est configuré convenablement pour compiler du code d'exécution Substrate pour une finalité en WebAssembly (Wasm).

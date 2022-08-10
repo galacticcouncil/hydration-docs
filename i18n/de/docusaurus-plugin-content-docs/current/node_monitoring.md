@@ -9,7 +9,7 @@ In diesem Kapitel durchlaufen wir den Einrichtungsprozess eines lokalen Monoitor
 
 ## Prerequisites {#prerequisites}
 
-Sie müssen Ihre [Validator Node](/node_setup) fertig eingerichtet und aktiv haben.  
+Sie müssen Ihre [Collator Node](/collator_setup) fertig eingerichtet und aktiv haben.  
 Dieser Guide wurde unter dem Ubuntu 20.04 LTS Release getestet.
 
 ## Prometheus Setup {#prometheus-setup}

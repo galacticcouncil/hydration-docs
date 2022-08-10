@@ -5,7 +5,7 @@ title: Performance Benchmark
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-You can make sure that your machine satisfies the [required technical specifications](/node_setup#00-required-technical-specifications) by running a performance benchmark. To do so, follow the steps below:
+You can make sure that your machine satisfies the [required technical specifications](/collator_setup#technical-specifications) by running a performance benchmark. To do so, follow the steps below:
 
 ```bash
 # Fetch source of the latest stable release

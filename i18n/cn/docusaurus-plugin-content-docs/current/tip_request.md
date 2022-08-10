@@ -43,7 +43,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 发布国库小费申请后，您需要在链上提交它。为此，您的钱包需要持有少量 HDX 来支付交易费用。如果目前没有任何 HDX ，您不需要执行这个步骤 —— 其他人会在链上为您提交小费申请。
 
-国库小费申请可以通过以下链接使用 Polkadot/apps 在链上提交：https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips 。
+国库小费申请可以通过以下链接使用 Polkadot/apps 在链上提交：https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips 。
 
 提交新的小费申请，请点击 *Propose tip*（提出小费）并提供以下信息：
 

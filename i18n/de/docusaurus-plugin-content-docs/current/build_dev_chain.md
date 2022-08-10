@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Dieser Abschnitt führt Sie durch den Prozess des Einrichtens einer lokalen HydraDX-Chain für die Entwicklung. 
 
 :::note
-Möchten Sie eine Validator Node einrichten? Bitte lesen Sie unseren [validator setup guide](/node_setup).
+Möchten Sie eine Validator Node einrichten? Bitte lesen Sie unseren [collator setup guide](/collator_setup).
 :::
 
 ## 01 Abhängigkeiten installieren {#01-install-dependencies}

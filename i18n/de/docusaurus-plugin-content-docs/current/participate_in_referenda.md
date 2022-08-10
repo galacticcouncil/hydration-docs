@@ -53,7 +53,7 @@ Böswillige Referendumsvorschläge werden bestraft. Der HydraDX-Rat und das Tech
 
 ## Verwendung von Polkadot/apps {#polkajs}
 ### Abstimmung auf Referendum {#polkajs-vote}
-Sie können alle Referenden einsehen, die zur Abstimmung offen sind, indem Sie zu [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) in Polkadot/apps navigieren.
+Sie können alle Referenden einsehen, die zur Abstimmung offen sind, indem Sie zu [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) in Polkadot/apps navigieren.
 
 Um bei einem Referendum abzustimmen, klicken Sie daneben auf die Schaltfläche *Vote*.
 
@@ -70,7 +70,7 @@ Der Vorschlag eines Referendums über Polkadot/Apps besteht aus zwei Schritten �
 
 #### 01 Vorabbild senden {#polkajs-propose-01}
 Um das Preimage einzureichen, besuchen Sie Polkadot/Apps und navigieren Sie zu
- [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy).
+ [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy).
 
 Nachdem Sie auf *Submit preimage* geklickt haben, sollten Sie das folgende Popup sehen:
 
@@ -89,7 +89,7 @@ Bevor Sie das Preimage einreichen und die Transaktion unterzeichnen, kopieren Si
 
 #### 02 Vorschlag einreichen {#polkajs-propose-02}
 Um den Referendumsvorschlag einzureichen, besuchen Sie
- [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) in Polkadot/apps.
+ [*Governance > Democracy*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) in Polkadot/apps.
 
 Nachdem Sie auf *Submit proposal* geklickt haben, sollten Sie das folgende Popup sehen:
 

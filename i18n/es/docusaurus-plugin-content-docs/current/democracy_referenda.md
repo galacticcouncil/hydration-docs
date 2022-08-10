@@ -41,7 +41,7 @@ Una vez que se ha propuesto un referéndum, no se puede revocar hasta que no hay
 Los referendos de HydraDX tienen un período de lanzamiento de 3 días. Al comienzo de cada nuevo período, la propuesta con la mayor cantidad de apoyo se toma de la cola de espera y se coloca en una ronda de votación. Cada ronda de votación tiene una duración de 3 días. Durante este período, los miembros de la comunidad pueden votar en el referéndum utilizando un mecanismo ponderado de base de intereses. Lo hacen bloqueando una cierta cantidad de tokens HDX durante un período de tiempo determinado.
 
 :::note
-Los tokens HDX bloqueados no se pueden transferir durante el período de bloqueo elegido. Sin embargo, todavía se pueden usar para staking y votar.
+Los tokens HDX bloqueados no se pueden transferir durante el período de bloqueo elegido. Sin embargo, todavía se pueden usar para votar.
 :::
 
 ### Ponderación de votos {#referenda-votes-weighing}
