@@ -13,6 +13,14 @@ module.exports = {
     "How-to": [
       {
         type: "category",
+        label: "Wallets",
+        items: [
+          "create_account",
+          "howto_wallet_parity_signer"
+        ]
+      },
+      {
+        type: "category",
         label: "Democracy",
         items: [
           "tip_request",
@@ -20,7 +28,6 @@ module.exports = {
           "participate_in_council_elections"
         ]
       },
-      "create_account",
       "claim",
       "identity",
       {
