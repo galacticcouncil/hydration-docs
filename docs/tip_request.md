@@ -7,17 +7,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Community members can request HDX tips from the HydraDX Treasury as a reward for their contributions to the Protocol. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
 
-The process of requesting a Treasury tip consists of two steps. As a first step, contributors need to [publish their tip request](#01-publish-tip-request) in Polkassembly with a description of the contribution. As a second step, the Treasury tip request must be [submitted on-chain](#02-submit-on-chain) using Polkadot/apps.
+The process of requesting a Treasury tip consists of two steps. As a first step, contributors need to [publish their tip request](#01-publish-tip-request) in Subsquare with a description of the contribution. As a second step, the Treasury tip request must be [submitted on-chain](#02-submit-on-chain) using Polkadot/apps.
 
-## 01 Publish in Polkassembly {#01-publish-tip-request}
+## 01 Publish in Subsquare {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published as a Discussion thread on the [HydraDX Polkassembly page](https://hydradx.polkassembly.io/discussions). 
+To safeguard transparency, all Treasury tip requests must be published as a Discussion thread on the [HydraDX Subsquare page](https://hydradx.subsquare.io/discussions). 
 
 :::note
-Before opening a thread, make sure that Polkassembly is linked to your HDX wallet. To do so, click on Sign-Up (first-time use) or Login (repeated use) and select the option `with Web3 address`. After selecting your HDX address in the popup, you will be asked to sign the message using your wallet.
+Before opening a thread, make sure that Subsquare is linked to your HDX wallet. To do so, click on Sign-Up (first-time use) or Login (repeated use) and select the option `with Web3 address`. After selecting your HDX address in the popup, you will be asked to sign the message using your wallet.
 :::
 
-Once logged in, you need to create a new Discussion thread for your tip request. You can do so following this link: https://hydradx.polkassembly.io/post/create
+Once logged in, you need to create a new Discussion thread for your tip request. You can do so following this link: https://hydradx.subsquare.io/post/create
 
 You can use the title of the thread to indicate the subject (tip request) and the topic of the contribution. In the body of the thread, please provide the following information:
 
@@ -29,13 +29,13 @@ You can use the title of the thread to indicate the subject (tip request) and th
 
 Before posting the thread, please make sure that the tab `Treasury` is selected to indicate the nature of the Discussion.
 
-For reference, you can take a look at [this example tip request](https://hydradx.polkassembly.io/post/192).
+For reference, you can take a look at [this example tip request](https://hydradx.subsquare.io/post/192).
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/post-thread.jpg')} />
 </div>
 
-Click on `Create` to publish your Discussion thread. Immediately after that, it should become visible in the [list of discussions](https://hydradx.polkassembly.io/discussions).
+Click on `Create` to publish your Discussion thread. Immediately after that, it should become visible in the [list of discussions](https://hydradx.subsquare.io/discussions).
 
 ## 02 Submit On-Chain {#02-submit-on-chain}
 
@@ -46,8 +46,8 @@ Treasury tip requests can be submitted on-chain with Polkadot/apps using the fol
 To submit a new tip request, click on `Propose tip` and provide the following information:
 
 * **submit with account** - select the account which will sign the transaction for submitting the tip request on-chain. This account needs to hold a small amount of HDX for transaction costs.
-* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond with the account which opened the Polkassembly thread.
-* **tip reason** - provide a URL to the Polkassembly thread.
+* **beneficiary** - select or enter the address of the account which will receive the Treasury tip. This account must correspond with the account which opened the Subsquare thread.
+* **tip reason** - provide a URL to the Subsquare thread.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
