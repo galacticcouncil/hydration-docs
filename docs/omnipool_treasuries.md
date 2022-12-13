@@ -1,4 +1,4 @@
 ---
 id: omnipool_treasuries
-title: LPing for Treasuries
+title: Hydrate Your Treasury
 ---
