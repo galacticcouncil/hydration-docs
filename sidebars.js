@@ -2,7 +2,13 @@ module.exports = {
   sidebar: {
     HydraDX: [
       "intro",
-      "new_deal"
+      "omnipool_trading",
+      "omnipool_lp",
+      "omnipool_treasuries",
+      "omnipool_security",
+      "omnipool_impermanent_loss",
+      "omnipool_hydrated_farms",
+      "tokenomics",
     ],
     "How-to": [
       {
@@ -52,6 +58,6 @@ module.exports = {
       "build_dev_chain",
     ],
     Archive: ["archive_hydradx_crowdloan"],
-    Contribute: ["contributing"]
+    Contribute: ["new_deal", "contributing"]
   }
 };
