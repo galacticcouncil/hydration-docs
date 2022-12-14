@@ -2,12 +2,12 @@ module.exports = {
   sidebar: {
     HydraDX: [
       "intro",
+      "omnipool_trading",
       "omnipool_lp",
       "omnipool_treasuries",
-      "omnipool_trading",
+      "omnipool_security",
       "omnipool_impermanent_loss",
       "omnipool_hydrated_farms",
-      "omnipool_security",
       "new_deal"
     ],
     "How-to": [
