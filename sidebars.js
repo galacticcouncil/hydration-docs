@@ -8,7 +8,7 @@ module.exports = {
       "omnipool_security",
       "omnipool_impermanent_loss",
       "omnipool_hydrated_farms",
-      "new_deal"
+      "tokenomics",
     ],
     "How-to": [
       {
@@ -58,6 +58,6 @@ module.exports = {
       "build_dev_chain",
     ],
     Archive: ["archive_hydradx_crowdloan"],
-    Contribute: ["contributing"]
+    Contribute: ["new_deal", "contributing"]
   }
 };
