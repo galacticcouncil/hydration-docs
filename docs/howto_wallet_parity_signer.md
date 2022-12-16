@@ -132,5 +132,5 @@ On your Desktop, navigate to https://nova-wallet.github.io/metadata-portal/ and 
   <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_metadata.jpg')} />
 </div>
 
-#### 03 Update
+#### 02 Update
 On your Parity Signer, click `Scanner`, and update the Metadata by scanning the QR code
