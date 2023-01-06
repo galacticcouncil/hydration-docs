@@ -11,6 +11,7 @@ module.exports = {
       "tokenomics",
     ],
     "How-to": [
+      "howto_trade",
       {
         type: "category",
         label: "Wallets",
