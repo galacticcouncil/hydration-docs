@@ -10,11 +10,11 @@ On this page you will find a **step-by-step guide for providing liquidity** in t
 Before deciding to become a liquidity provider, we encourage you to visit our [product page](/) and to **get yourself familiar** with the unique features of the HydraDX Omnipool.
 
 ## 00 Transport tokens
-If you would like to provide liquidity using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the HydraDX chain. This step does not apply to HDX.
+If you would like to execute a trade using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the HydraDX chain. This step does not apply to HDX.
 
 There are two different mechanisms to transport non-native assets:
-* Cross-chain transfer - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation here.
-* Ethereum bridge - for bridging assets from the Ethereum ecosystem. Step-by-step documentation here.
+* [Cross-chain transfer](https://app.hydradx.io/#/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](howto_xcm);
+* [Ethereum bridge](https://www.portalbridge.com/#/transfer) - for bridging assets from the Ethereum ecosystem. Step-by-step documentation [here](/howto_bridge).
 
 These solutions can also be used to transport tokens outside of the HydraDX network.
 
