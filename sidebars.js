@@ -12,6 +12,7 @@ module.exports = {
     ],
     "How-to": [
       "howto_trade",
+      "howto_lp",
       {
         type: "category",
         label: "Wallets",
