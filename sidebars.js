@@ -11,6 +11,10 @@ module.exports = {
       "tokenomics",
     ],
     "How-to": [
+      "howto_trade",
+      "howto_lp",
+      "howto_xcm",
+      "howto_bridge",
       {
         type: "category",
         label: "Wallets",
