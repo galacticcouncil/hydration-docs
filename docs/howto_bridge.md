@@ -86,11 +86,11 @@ After transferring bridged assets back to Acala (using [cross-chain transfers](/
 * Connect to your Metamask account that you are bridging from **(2)**.
 
 ### 03 Select Asset to Bridge
-* Once Metamask is connected, select the token asset you would like to bridge **(3)**. If the token is not found in the dropdown, you can paste in the token contract address (which can be confirmed via Etherscan).
+* Once Metamask is connected, select the token asset you would like to bridge **(3)**. If the token is not found in the dropdown, you can paste in the token contract address (which can be confirmed via [Acala Blockscout](https://blockscout.acala.network/)).
 
 :::caution
 Note that the only asset(s) currently able to be bridged to Acala from Ethereum is: 
-* DAI: 0x6B175474E89094C44Da98b954EedeAC495271d0F (always double check contract address)
+* DAI: 0x54A37A01cD75B616D63E0ab665bFfdb0143c52AE (always double check contract address)
 :::
 
 * Enter the amount of tokens you would like to bridge **(4)**;
