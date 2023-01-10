@@ -5,11 +5,15 @@ title: 节点监控
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 
 
-在本节中，我们将引导您完成验证节点的本地监控。
+在本节中，我们将引导您完成整理节点的本地监控。
 
 ## 前提条件 {#prerequisites}
 
+<<<<<<< Updated upstream
 您必须启动并运行 **[验证节点](/node_setup)** 。
+=======
+您必须启动并运行 **[整理节点](/collator_setup)** 。
+>>>>>>> Stashed changes
 
 本指南已在 Ubuntu 20.04 LTS 系统，进行了测试。  
 
@@ -20,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### 用户和目录 {#user-and-directories}
 
-我们创建一个仅用于监视的用户，该用户没有管理员权限，无法用于登录：
+我们创建一个仅用于监控的用户，该用户没有根目录，无法用于登录：
 
 ```shell script
 $ sudo useradd --no-create-home --shell /usr/sbin/nologin prometheus
@@ -33,7 +37,7 @@ $ sudo mkdir /etc/prometheus
 $ sudo mkdir /var/lib/prometheus
 ```
 
-更改目录的所有权，以将其限制为我们的新监视用户：
+更改目录的所有权，以将其限制为我们的新监控用户：
 
 ```shell script
 $ sudo chown -R prometheus:prometheus /etc/prometheus
@@ -103,7 +107,7 @@ $ sudo nano /etc/prometheus/prometheus.yml
 * `rule_files`: 指定 Prometheus 服务器应加载的规则文件
 * `scrape_configs`: 在这里设置监视资源
 
-我们将其设置得非常简洁，如下所示：
+我们将其设置得非常简单，并以这样的方式结束：
 
 ```yaml
 global:
@@ -124,7 +128,7 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-第一个抓取作业导出 Prometheus 本身的数据，第二个抓取作业导出 HydraDX 节点度量。 我们调整了两个作业的 `scrape_interval` 以获得更详细的统计信息。 这将覆盖全局值。 `static_configs` 中的 `target` 设置了导出器的运行位置，我们在此处使用默认端口。
+第一个抓取作业导出 Prometheus 本身的数据，第二个抓取作业导出 HydraDX 节点指标。 我们调整了两个作业的 `scrape_interval` 以获得更详细的统计信息。 这将覆盖全局值。 `static_configs` 中的 `target` 设置导出程序运行的位置，这里我们使用默认端口。
 
 保存配置后，我们将再次更改所有权：
 
@@ -134,8 +138,7 @@ $ sudo chown prometheus:prometheus /etc/prometheus/prometheus.yml
 
 ### 启动 Prometheus {#starting-prometheus}
 
-为了使 Prometheus 自动启动并在后台运行，我们将使用 `systemd` 。
-创建一个新的配置（同样使用您选择的编辑器）：
+为了使 Prometheus 自动启动并在后台运行，我们将使用 `systemd` 。创建一个新的配置（同样使用您选择的编辑器）：
 
 ````shell script
 $ sudo nano /etc/systemd/system/prometheus.service
@@ -164,10 +167,7 @@ $ sudo nano /etc/systemd/system/prometheus.service
   WantedBy=multi-user.target
 ```
 
-接下来，我们将执行以下三个步骤：
-`systemctl deamon-reload` 重新加载并更新 
-`systemctl enable` 系统准备
-`systemctl start` 系统启动
+接下来，我们将执行以下三个步骤：`systemctl deamon-reload` 加载新配置并更新现有配置 `systemctl enable` 激活我们的新服务 `systemctl start` 触发服务执行
 
 您可以通过执行以下命令，完成以上步骤：
 
@@ -207,7 +207,7 @@ $ cp node_exporter-1.1.2.linux-amd64/node_exporter /usr/local/bin
 $ sudo chown prometheus:prometheus /usr/local/bin/node_exporter
 ```
 
-现在，我们可以进行一些清理，并删除下载并解压缩的软件包：
+现在，我们可以进行一些清理，并删除下载并解压软件包：
 
 ```shell script
 $ rm -rf node_exporter*
@@ -215,14 +215,14 @@ $ rm -rf node_exporter*
 
 ### 创建系统服务 {#create-a-systemd-service}
 
-与 prometheus 相似，我们也希望 Node Exporter 也作为服务运行。
+与 prometheus 相似，我们希望 Node Exporter 也能作为服务运行。
 使用您选择的编辑器创建系统服务：
 
 ```shell script
 $ sudo nano /etc/systemd/system/node_exporter.service
 ```
 
-并将以下配置粘贴其中：
+并将以下配置粘贴进去：
 
 ```
 [Unit]
@@ -313,7 +313,7 @@ Password: `admin`
 请点击菜单中的设置（齿轮按钮），然后选择数据源。  
 在下一个窗口中，单击 "Add Datasource" ，然后选择 "Prometheus" 。  
 
-在下表中，您无需更改URL。 
+在下表中，您无需更改 URL。 
 设置 `http://localhost:9090/`，然后单击 `Save and Test`。
 
 <div style={{textAlign: 'center'}}>
