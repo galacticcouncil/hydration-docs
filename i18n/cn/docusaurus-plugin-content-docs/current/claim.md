@@ -5,7 +5,7 @@ title: 申领您的 HDX
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-您可以使用 **[Balancer LBP](https://hydradxcn.substack.com/p/lbpgg)** 期间获得的 xHDX 令牌（ERC-20）申领您的 HDX 。 
+您可以使用 **[Balancer LBP](https://hydradxcn.substack.com/p/lbpgg)** 期间获得的 xHDX 令牌（ERC-20）申领您的 HDX。 
 
 :::note
 
@@ -15,15 +15,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 前提条件 {#prequisites}
 
-想要申领您的 HDX，需满足两个前提条件。首先，需要在浏览器上安装 **[Polkadot.js 扩展程序](https://polkadot.js.org/extension/)** ，该扩展程序将用于创建您的 HDX 钱包。其次，需要访问存储您的 xHDX 令牌且支持 ERC-20 令牌消息签名的钱包（如 Metamask ）。
+想要申领您的 HDX，需满足两个前提条件。首先，需要在浏览器上安装 **[Polkadot.js 扩展程序](https://polkadot.js.org/extension/)**，该扩展程序将用于创建您的 HDX 钱包。其次，需要访问存储您的 xHDX 令牌且支持 ERC-20 令牌消息签名的钱包（如 Metamask ）。
 
-如果您的 xHDX 令牌存储在 Coinbase Wallet 或 Trust Wallet 中，则需要使用以下其中一个方法申领 HDX ，因为它们不支持消息签名：
+如果您的 xHDX 令牌存储在 Coinbase Wallet 或 Trust Wallet 中，则需要使用以下其中一个方法申领 HDX，因为它们不支持消息签名：
 * Metamask：您可以使用 Metamask 扩展程序，并使用恢复种子短语（*助记词* ）导入您的钱包。
 * MEW (MyEtherWallet)：您可以通过导入恢复种子短语(*助记词* ) 或使用 WalletLink 连接选项来使用 MEW 。可从 **[MEW 钱包访问页面](https://www.myetherwallet.com/access-my-wallet)** 访问这两个选项。如果您使用的是 Coinbase 钱包，则可以使用 WalletLink ，该钱包可以找到 Coinbase 的设置。
 
 ## 申领过程 {#claim-process}
 
-满足上述前提条件后，您可以导航到 **[HydraDX 申领程序](https://claim.hydradx.io)** ，进入申领过程。
+满足上述前提条件后，您可以导航到 **[HydraDX 申领程序](https://claim.hydradx.io)**，启动申领过程。
 
 在申领过程中，您将使用 xHDX 令牌（ERC-20）申领属于您的 HDX 令牌份额。
 
@@ -33,7 +33,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 :::warning
 
-请确保您不是钓鱼攻击的受害者，注意授权弹出：申领程序应自我标识为**CLAIM.HYDRADX.IO**，且请求来自于 **https://claim.hydradx.io** 。
+请确保您不是钓鱼攻击的受害者，注意授权弹出：申领程序应自我标识为 **CLAIM.HYDRADX.IO**，且请求来自于 **https://claim.hydradx.io** 。
 
 :::
 
@@ -59,9 +59,9 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 ### 02 创建并选择一个 HDX 地址 {#02-create-and-select-an-hdx-address}
 
-在这一步，将要求您选择 HDX 地址。
+这一步，将要求您选择 HDX 地址。
 
-要创建一个新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 + 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 *Next step* （下一步）。在这里，选择 **HydraDX Snakenet** （蛇网）来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
+要创建新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 `+` 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 *Next step* （下一步）。在这里，选择 **HydraDX Snakenet** （蛇网）来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
@@ -101,6 +101,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 此时您已完成申领过程，从而正式成为 HDX 的所有者。
 
+<<<<<<< Updated upstream
 您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts)** 检查令牌数额。请注意，您无法直接在 Polkadot.js 扩展程序中看到 HDX 令牌数额。
 
 ### 05 接下来做什么？ {#05-whats-next}
@@ -110,3 +111,6 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 另一方面，xHDX 令牌（您曾用于申领 HDX ）将永远锁定在您的 ERC-20 钱包中，这意味着您可以将其隐藏（或将其作为 HDX 令牌早期持有者的徽章保持可见）。
 
 想让您的 HDX 令牌工作，并帮助提高 HydraDX 网络的安全性吗？那就请您通过质押 HDX 参与到我们的激励性测试网 —— **Snakenet**（蛇网）。如有兴趣，可以先熟悉 **[质押](/staking)** 过程，然后再决定以 **[验证人](/start_validating)** 或 **[提名人](/start_nominating)** 的身份参加。
+=======
+您可以使用连接到 HydraDX Snakenet 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts)** 检查令牌数额。
+>>>>>>> Stashed changes
