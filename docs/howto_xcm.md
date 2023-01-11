@@ -17,6 +17,16 @@ Currently, the following tokens are supported by HydraDX for cross-chain transfe
 ## 00 Prerequisites
 Before you continue, please make sure you have sufficient amount of tokens on the destination chain for fees (ACA or DOT).
 
+:::warning 
+**Known Issue - transferring DAI to Acala**
+
+Currently, there is a known issue on the Acala parachain in receiving cross-chain transfers from HydraDX for DAI. 
+
+We have implemented an interim DAI faucet to provide a small amount of DAI on the Acala parachain to ensure that the DAI transferred from HydraDX is properly received. 
+
+**PLEASE use the faucet prior to completing any cross-chain transfer for DAI.**
+:::
+
 ## 01 Navigate to Cross-chain Transfers
 [https://app.hydradx.io/#/cross-chain](https://app.hydradx.io/#/cross-chain)
 
