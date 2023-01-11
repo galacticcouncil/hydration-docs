@@ -16,7 +16,7 @@ Wormhole’s Portal Bridge allows you to bridge tokens across different chains. 
     
 
 :::caution
-Make sure to have enough tokens (ETH and ACA) in your wallets to pay for fees. Remember that fees will be charged for sending and redeeming tokens, and for binding your wallet addresses.
+Make sure to have enough tokens (ETH and ACA) in your wallets to pay for fees. Remember that fees will be charged for sending and redeeming tokens, and for binding your wallet addresses. In the interim, HydraDX has created an ACA faucet to help faciliate initial bridging activities.
 :::
 
 ## Bridging Assets ETH -> Acala
