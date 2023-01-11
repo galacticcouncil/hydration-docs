@@ -22,7 +22,7 @@ Before you continue, please make sure you have sufficient amount of tokens on th
 
 Currently, there is a known issue on the Acala parachain in receiving cross-chain transfers from HydraDX for DAI. 
 
-We have implemented an interim DAI faucet to provide a small amount of DAI on the Acala parachain to ensure that the DAI transferred from HydraDX is properly received. 
+We have implemented an interim DAI faucet to provide a small amount of DAI on the Acala parachain to ensure that the DAI transferred from HydraDX is properly received. The faucet can be access via directly messaging the **Bridge Fee Faucet** bot located at the top of the member list on [Discord](https://discord.gg/kkmY35UxAG). Note that DMs must be enabled.
 
 **PLEASE use the faucet prior to completing any cross-chain transfer for DAI.**
 :::
