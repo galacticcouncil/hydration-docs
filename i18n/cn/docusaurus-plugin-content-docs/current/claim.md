@@ -96,4 +96,5 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 此时您已完成申领过程，从而正式成为 HDX 的所有者。
 
-您可以使用连接到 HydraDX 网络的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts)** 检查令牌数额。
+您可以使用连接到 HydraDX 网络检查令牌数额：
+**https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts**
