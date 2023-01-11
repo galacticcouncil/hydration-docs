@@ -28,7 +28,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::
 
-
 ## 01 确保系统时间同步 {#01-check-whether-your-system-clock-is-synchronized}
 
 在运行验证节点之前，请确认您的系统时间已经与网络同步。所有的验证节点是在同步工作的，因此这一步很关键。Ubuntu 20.04 的时钟默认是与网络同步的，如要验证，执行以下命令，并检查输出：
