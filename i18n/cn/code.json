@@ -1,6 +1,6 @@
 {
   "theme.NotFound.title": {
-    "message": "哎呀！找不到网页了......",
+    "message": "哎呀！网页找不到了......",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {

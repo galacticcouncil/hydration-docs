@@ -3,7 +3,7 @@ id: democracy_council
 title: HydraDX 议会
 ---
 
-HydraDX 议会是一个链上实体，在协议的治理中起着关键作用。 本文提供有关议会 [组成](#composition)、其 [主要任务](#tasks) 和 [选举议会成员](#elections) 的信息。
+HydraDX 议会是一个链上实体，在协议的治理中起着关键作用。 本文提供有关议会 **[组成](#composition)**、议会 **[主要任务](#tasks)** 和 **[选举议会成员](#elections)** 等三方面信息。
 
 有关如何参与议会选举的分步指导，请参阅 **[本指南](/participate_in_council_elections)** 。
 
