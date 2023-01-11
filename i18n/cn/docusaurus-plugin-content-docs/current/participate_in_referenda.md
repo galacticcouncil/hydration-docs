@@ -55,11 +55,7 @@ HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要
 ## 使用 Polkadot/apps {#polkajs}
 
 ### 在公投中投票 {#polkajs-vote}
-<<<<<<< Updated upstream
-您可以通过导航到 Polkadot/apps 中的 [*Governance*（治理）> *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) 来查看所有公开投票的公投。
-=======
 您可以通过导航到 Polkadot/apps 中的 **[*Governance*（治理）> *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy)** 来查看所有公开投票的公投。
->>>>>>> Stashed changes
 
 要在公投中投票，请单击旁边的 `Vote`（投票）按钮。
 
@@ -74,11 +70,7 @@ HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要
 通过 Polkadot/apps 提出公投包括两个步骤：提交原像，以及在链上提交提案。
 
 #### 01 提交原像 {#polkajs-propose-01}
-<<<<<<< Updated upstream
-要提交原像，请访问 Polkadot/apps 并导航至 [*Governance*（治理） > *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy)。
-=======
 要提交原像，请访问 Polkadot/apps 并导航至 **[*Governance*（治理） > *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy)**。
->>>>>>> Stashed changes
 
 单击 *Submit preimage* （提交原像）后，您应该会看到以下弹出窗口：
 
@@ -96,11 +88,7 @@ HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要
 在提交原像并签署交易之前，请确保复制原像哈希以在下一步使用它。
 
 #### 02 提交提案 {#polkajs-propose-02}
-<<<<<<< Updated upstream
-要提交公投提案，请访问 Polkadot/apps 中的 [*Governance*（治理）> *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy)。
-=======
 要提交公投提案，请访问 Polkadot/apps 中的 **[*Governance*（治理）> *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy)**。
->>>>>>> Stashed changes
 
 单击 `Submit proposal`（提交提案）后，您应该会看到以下弹出窗口：
 
