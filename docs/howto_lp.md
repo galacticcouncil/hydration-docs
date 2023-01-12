@@ -33,21 +33,27 @@ Click on `Connect wallet` **(1 in image above)** and connect to your preferred P
 ### Adding Liquidity
 To add liquidity for a given asset, click the button `Add liquidity` which is located right next to that asset **(3)**.
 
+:::important
+In the HydraDX Omnipool, each individual asset has a Total Value Locked (TVL) cap. This means that once the cap has been reached, users can no longer further add liquidity for that specific asset. 
+
+The individual caps for each asset will be reviewed from time to time by the team; any suggested revisions (either from team or the community) will be submitted as proposals via governance and voted on.
+:::
+
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_lp/add.jpg')} width="500px" />
 </div>
 
-Fill in the amount of liquidity you wish to provide, click `Add liquidity` and sign the transaction using your wallet.
+Fill in the amount of liquidity you wish to provide **(1)**, click `Add liquidity` **(2)** and sign the transaction using your wallet.
 
 ### Removing Liquidity
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_lp/remove_1.jpg')} />
 </div>
 
-To remove liquidity, toggle the dropdown located right next to the relevant asset **(1)** and click `Remove liquidity` on the position you wish to exit.
+To remove liquidity, toggle the dropdown located right next to the relevant asset **(1)** and click `Remove liquidity` **(2)** on the position you wish to exit.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_lp/remove_2.jpg')} width="500px" />
 </div>
 
-Toggle or enter the amount of liquidity you wish to withdraw **(3)**, click on `Remove liquidity` and sign the transaction using your wallet.
+Toggle or enter the amount of liquidity you wish to withdraw **(3)**, click on `Remove liquidity` **(4)** and sign the transaction using your wallet.
