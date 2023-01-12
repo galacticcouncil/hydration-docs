@@ -7,9 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Есть два общедоступных узла RPC, которые обслуживаются HydraDX и нашими партнерами. Вы можете использовать эти узлы для взаимодействия со Snakenet. Вы можете напрямую подключиться к общедоступному узлу с помощью Polkadot/apps, нажав на ссылки ниже:
 
-* [RPC node hosted by HydraDX](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/explorer)
-* [RPC node hosted by Intergalactic](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-02.snakenet.hydradx.io#/explorer)
-
+* [RPC node hosted by HydraDX](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/explorer)
 
 ## Подключиться к узлу RPC вручную {#connect-manually-to-an-rpc-node}
 

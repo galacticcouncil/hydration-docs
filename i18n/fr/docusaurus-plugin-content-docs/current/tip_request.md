@@ -46,7 +46,7 @@ Les nominateurs et les validateurs qui ont alloués tout leurs HDXs et qui se re
 Après avoir publié votre réclamation de récompense de trésorerie, vous devez la soumettre sur chaîne (on-chain). À cet effet, votre portefeuille doit contenir un petit montant de HDX pour couvrir les frais de transaction. Si vous n'avez pas de HDX actuellement, vous n'avez pas besoin d'effectuer cette étape - quelqu'un d'autre va soumettre votre requête de récompense sur chaîne pour vous.
 
 Les réclamations de récompense de trésorerie peuvent être soumises sur chaîne  avec Polkadot/apps en utilisant le lien suivant:
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 pour soumettre une nouvelle requête de récompense, cliquez sur *Proposez une récompense*
 

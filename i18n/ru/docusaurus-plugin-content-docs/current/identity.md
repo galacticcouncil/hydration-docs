@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Чтобы установить свою личность, откройте Polkadot/apps (подключенный к сети *HydraDX Snakenet*) и перейдите в *Мои учетные записи*. Как вариант, вы можете перейти по этой ссылке:
 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
 На странице учетных записей найдите учетную запись, в которой хранятся ваши привязанные токены HDX. После этого нажмите на три точки рядом с учетной записью (справа) и выберите *Установить идентификацию в сети*.
 
@@ -43,7 +43,7 @@ https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accoun
 
 После того, как вы установили свою личность, вы можете отправить ее регистраторам сети для проверки. Для этого откройте Polkadot/apps и перейдите в *Developer*>*Extrinsics*. Как вариант, вы можете перейти по этой ссылке:
 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
 После выбора соответствующей учетной записи HydraDX на последнем шаге вам необходимо заполнить следующую информацию:
 

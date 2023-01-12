@@ -34,7 +34,7 @@ Once a referendum has been proposed, it cannot be revoked until it has entered t
 HydraDX referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
 
 :::note
-Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for staking and for voting.
+Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for voting.
 :::
 
 ### Votes Weighing {#referenda-votes-weighing}

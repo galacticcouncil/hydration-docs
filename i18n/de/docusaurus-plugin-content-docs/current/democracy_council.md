@@ -27,6 +27,6 @@ Schließlich ist der HydraDX-Rat für die Wahl des Technischen Komitees verantwo
 ## Wahlen {#elections}
 Jeder Inhaber von HDX-Token kann sich für eines der 7 nicht-permanenten Sets des HydraDX Council als Kandidat [bewerben](/participate_in_council_elections#become_candidate).
 
-Die Ratswahlen finden alle 7 Tage statt, wobei ein Algorithmus die 7 nichtständigen Ratssitze für die Dauer der folgenden 7 Tage besetzt. Das Demokratiemodul verwendet denselben Phragmen-Algorithmus, der verwendet wird, um den [aktiven Satz von Validatoren](/staking#validators) auszuwählen.
+Die Ratswahlen finden alle 7 Tage statt, wobei ein Algorithmus die 7 nichtständigen Ratssitze für die Dauer der folgenden 7 Tage besetzt. Das Demokratiemodul verwendet denselben Phragmen-Algorithmus, der verwendet wird, um den aktiven Satz von Validatoren im Polkadot Netzwerk auszuwählen.
 
 Alle Community-Mitglieder können bei den Ratswahlen [abstimmen](/participate_in_council_elections#vote) indem sie eine bestimmte Anzahl von HDX-Token ihrer Wahl sperren. Gesperrte Token können nicht übertragen werden und werden bei den Folgewahlen (bis auf Widerruf) verwendet. Die Wähler können und sollten mehr als einen Kandidaten in der Reihenfolge ihrer Präferenz auswählen. Der Wahlalgorithmus verteilt dann alle Stimmen, um die optimale Zuteilung der verfügbaren Ratssitze an die Kandidaten mit der höchsten Unterstützung durch die Gemeinschaft zu bestimmen.

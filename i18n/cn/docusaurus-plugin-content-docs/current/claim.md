@@ -98,3 +98,4 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 您可以使用连接到 HydraDX 网络检查令牌数额：
 **https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts**
+

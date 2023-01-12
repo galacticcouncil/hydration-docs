@@ -8,6 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 在本节中，我们将引导您完成整理节点的本地监控。
 
 ## 前提条件 {#prerequisites}
+
 您必须启动并运行 **[整理节点](/collator_setup)** 。
 
 本指南已在 Ubuntu 20.04 LTS 系统，进行了测试。  
