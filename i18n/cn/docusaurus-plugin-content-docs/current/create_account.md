@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ## 02 升级 metadata（元数据） {#02-upgrade-metadata}
 
 安装 Polkadot.js 浏览器扩展程序后，您应确保它已更新为最新的链元数据。 为此，可访问以下链接并在出现提示时更新元数据：
-https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/settings/metadata
+**https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/settings/metadata**
 
 ## 03 创建您的 HDX 账户 {#03-create-hdx-account}
 

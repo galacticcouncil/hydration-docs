@@ -12,8 +12,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 :::
 
 ## 01 设置身份 {#01-set-identity}
-
-要设置身份，请打开 Polkadot/apps（连接到 *HydraDX Snakenet* 网络），然后导航到 *My accounts* （我的账户）。或者，直接点击这个链接：https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
+要设置身份，请打开 Polkadot/apps（连接到 *HydraDX Snakenet* 网络），然后导航到 *My accounts* （我的账户）。或者，直接点击这个链接：
+**https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts**
 
 在帐户页面，找到持有您的绑定 HDX 令牌的帐户（如果您是验证人-应为控制帐户）。然后，点击帐号旁边的三个点（在右侧），并选择 *Set on-chain identity* （设置链上身份）。
 
@@ -40,8 +40,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 填写完信息后，单击 *Set Identity* （设置身份），并使用 Polkadot.js 浏览器扩展程序对交易进行签名。一旦确认了交易，您的身份就设置好了。
 
 ## 02 提交身份证明 {#02-verify-identity}
-
-在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，直接点击这个链接：https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
+在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，直接点击这个链接：
+**https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics**
 
 在上一步选择相应 HydraDX 帐户后，您需要填写以下信息：
 

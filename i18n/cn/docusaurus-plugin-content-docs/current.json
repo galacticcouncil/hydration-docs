@@ -3,20 +3,24 @@
     "message": "下一页",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.Intro": {
-    "message": "简介",
-    "description": "The label for category Intro in sidebar sidebar"
+  "sidebar.sidebar.category.HydraDX": {
+    "message": "HydraDX",
+    "description": "The label for category HydraDX in sidebar sidebar"
   },
   "sidebar.sidebar.category.How-to": {
     "message": "指南",
     "description": "The label for category How-to in sidebar sidebar"
   },
+  "sidebar.sidebar.category.Wallets": {
+    "message": "钱包",
+    "description": "The label for category Wallets in sidebar"
+  },
   "sidebar.sidebar.category.Connect to a Node": {
     "message": "连接到节点",
-    "description": "The label for category Connect to a Node in sidebar sidebar"
+    "description": "The label for category Connect to a Node in sidebar"
   },
   "sidebar.sidebar.category.Learn": {
-    "message": "学习",
+    "message": "知识",
     "description": "The label for category Learn in sidebar sidebar"
   },
   "sidebar.sidebar.category.Democracy": {
@@ -24,7 +28,7 @@
     "description": "The label for category Democracy in sidebar"
   },
   "sidebar.sidebar.category.Maintain": {
-    "message": "运营",
+    "message": "运行",
     "description": "The label for category Maintain in sidebar sidebar"
   },
   "sidebar.sidebar.category.Build": {
@@ -32,7 +36,11 @@
     "description": "The label for category Build in sidebar sidebar"
   },
   "sidebar.sidebar.category.Contribute": {
-    "message": "投稿",
+    "message": "共建",
     "description": "The label for category Contribute in sidebar sidebar"
-  }
+  },
+  "sidebar.sidebar.category.Archive": {
+    "message": "存档",
+    "description": "The label for category Archive in sidebar sidebar"
+  }  
 }
