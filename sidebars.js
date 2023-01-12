@@ -2,6 +2,7 @@ module.exports = {
   sidebar: {
     Intro: [
       "intro",
+      "hydradx_crowdloan",
       "snakenet",
       "new_deal"
     ],
@@ -32,6 +33,13 @@ module.exports = {
           "democracy_referenda",
           "democracy_council",
           "democracy_technical_committee"
+        ]
+      },
+      {
+        type: "category",
+        label: "Omnipool",
+        items: [
+          "omnipool_design"
         ]
       }
     ],
