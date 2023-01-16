@@ -306,7 +306,7 @@ Password: `admin`
 ### 配置数据源 {#configuring-the-datasource}
 
 请点击菜单中的设置（齿轮按钮），然后选择数据源。  
-在下一个窗口中，单击 "Add Datasource" ，然后选择 "Prometheus" 。  
+在下一个窗口中，单击 `Add Datasource`，然后选择 *Prometheus* 。  
 
 在下表中，您无需更改 URL。 
 设置 `http://localhost:9090/`，然后单击 `Save and Test`。
