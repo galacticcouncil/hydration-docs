@@ -25,7 +25,7 @@ XYK 模型的缺陷之一是，交易池仅限于成对资产。 碎片化的流
 
 此外，根据内部研究，Omnipool 中令牌数量和总锁定价值（TVL）的增加导致滑点减少，呈指数级改善。
 
-<div style={{textAlign: 'left'}}>
+<div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/omnipool/trading-2.jpg')} width="300px" />
 </div>
 
