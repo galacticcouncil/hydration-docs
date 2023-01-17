@@ -55,6 +55,7 @@ module.exports = {
         type: "category",
         label: "Omnipool",
         items: [
+          "omnipool_intro_amm"
           "omnipool_design"
         ]
       }
