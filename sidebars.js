@@ -41,6 +41,7 @@ module.exports = {
       }
     ],
     "Learn": [
+      "learn_amm",
       {
         type: "category",
         label: "Democracy",
