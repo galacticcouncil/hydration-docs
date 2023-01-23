@@ -56,7 +56,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 这一步，将要求您选择 HDX 地址。
 
-要创建新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 `+` 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 `Next step`（下一步）。在这里，选择 **HydraDX Snakenet** （蛇网）来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
+要创建新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 `+` 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 `Next step`（下一步）。在这里，选择 **HydraDX** 来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 

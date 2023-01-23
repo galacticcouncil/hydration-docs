@@ -9,22 +9,22 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 01 安装 Polkadot.js {#01-install-polkadot-js}
 
-为了创建和管理您的 HDX 钱包，您需要安装 [Polkadot.js 浏览器扩展程序](https://polkadot.js.org/extension/)。
+为了创建和管理您的 HDX 钱包，您需要安装 **[Polkadot.js 浏览器扩展程序](https://polkadot.js.org/extension/)**。
 
 ## 02 升级 metadata（元数据） {#02-upgrade-metadata}
 
 安装 Polkadot.js 浏览器扩展程序后，您应确保它已更新为最新的链元数据。 为此，可访问以下链接并在出现提示时更新元数据：
-**https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/settings/metadata**
+**https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/settings/metadata**
 
 ## 03 创建您的 HDX 账户 {#03-create-hdx-account}
 
-要创建 HDX 新地址，请打开 Polkadot.js 浏览器扩展程序并单击 `+` > `Create new account`（创建新账户）。
+要创建 HDX 新地址，请打开 Polkadot.js 浏览器扩展程序并单击 ` + ` > `Create new account`（创建新账户）。
 
 您将看到一个 12 个短语的助记词，可用于恢复您的帐户。 确保在安全的位置备份您的种子短语。 点击 `Next step` （下一步）并填写以下信息：
 
-* **Network**（网络）: 请选择 `HydraDX Snakenet`
-* **Descriptive name of the account**（您账户的描述性名称）
-* **Password**（此账户的新密码）
+* **Network**（网络）: 请选择 `HydraDX`
+* **Descriptive name of the account**（账户的描述性名称）
+* **Password**（账户密码）
 
 单击 `Add the account with the generated seed`（使用生成的种子添加账户）后，将创建您的帐户。
 

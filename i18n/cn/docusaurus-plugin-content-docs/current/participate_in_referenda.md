@@ -72,7 +72,7 @@ HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要
 #### 01 提交原像 {#polkajs-propose-01}
 要提交原像，请访问 Polkadot/apps 并导航至 **[*Governance*（治理） > *Democracy*（民主）](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy)**。
 
-单击 *Submit preimage* （提交原像）后，您应该会看到以下弹出窗口：
+单击 `Submit preimage`（提交原像）后，您应该会看到以下弹出窗口：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/participate_in_referenda/polkajs-preimage.jpg')} />
