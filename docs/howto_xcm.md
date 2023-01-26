@@ -12,6 +12,7 @@ Cross-chain transfers allow you to transport non-native assets to the HydraDX ch
 Currently, the following tokens are supported by HydraDX for cross-chain transfers:
 * DOT
 * DAI (from Acala, bridged via Wormhole)
+* ETH  (from Acala, bridged via Wormhole)
 * HDX
 
 ## 00 Prerequisites
