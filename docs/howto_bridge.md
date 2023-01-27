@@ -39,7 +39,8 @@ Make sure to have enough tokens (ETH and ACA) in your wallets to pay for fees. R
 * Click **Next (5)**. This will prompt Metamask to request a network switch from Ethereum to Acala.
 
 :::caution
-Note that the only asset(s) currently able to be bridged to Acala from Ethereum is: 
+Note that the only asset currently able to be bridged to Acala from Ethereum are: 
+* ETH: Native
 * DAI: 0x6B175474E89094C44Da98b954EedeAC495271d0F (always double check contract address)
 :::
 
@@ -90,6 +91,7 @@ After transferring bridged assets back to Acala (using [cross-chain transfers](/
 
 :::caution
 Note that the only asset(s) currently able to be bridged to Acala from Ethereum is: 
+* ETH: Native
 * DAI: 0x54A37A01cD75B616D63E0ab665bFfdb0143c52AE (always double check contract address)
 :::
 
