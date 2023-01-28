@@ -1,6 +1,6 @@
 ---
 id: learn_amm
-title: 什么是 AMM？
+title: 什么是 AMM
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
