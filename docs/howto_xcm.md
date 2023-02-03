@@ -12,20 +12,11 @@ Cross-chain transfers allow you to transport non-native assets to the HydraDX ch
 Currently, the following tokens are supported by HydraDX for cross-chain transfers:
 * DOT
 * DAI (from Acala, bridged via Wormhole)
+* ETH  (from Acala, bridged via Wormhole)
 * HDX
 
 ## 00 Prerequisites
 Before you continue, please make sure you have sufficient amount of tokens on the destination chain for fees (ACA or DOT).
-
-:::warning 
-**Known Issue - transferring DAI to Acala**
-
-Currently, there is a known issue on the Acala parachain in receiving cross-chain transfers from HydraDX for DAI. 
-
-We have implemented an interim DAI faucet to provide a small amount of DAI on the Acala parachain to ensure that the DAI transferred from HydraDX is properly received. The faucet can be accessed via directly messaging the **Bridge Fee Faucet** bot located at the top of the member list on [Discord](https://discord.gg/kkmY35UxAG). Note that DMs must be enabled.
-
-**PLEASE use the faucet prior to completing any cross-chain transfer for DAI.**
-:::
 
 ## 01 Navigate to Cross-chain Transfers
 [https://app.hydradx.io/#/cross-chain](https://app.hydradx.io/#/cross-chain)
