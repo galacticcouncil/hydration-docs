@@ -7,7 +7,7 @@ title: Contribute to HydraDX
 
 HydraDX welcomes various contributions which are in the interest of the Protocol. Such activities are incentivized with the help of rewards from the HydraDX Treasury.
 
-The present document sets out the general framework for rewarding community contributions. The framework will be subjected to a general vote in an upcoming referendum at which HDX hodlers will give their formal approval (or disapproval). If approved, it will legitimize all payouts in the mentioned categories by the Council and make their processing faster.
+The present document sets out the general framework for rewarding community contributions. This framework has been approved by the community of HydraDX in a [general vote](https://hydradx.subsquare.io/democracy/referendum/11). The spending framework empowers payouts in the mentioned categories by the HydraDX Council, within the defined limits.
 
 Please note in advance that the payout of all bounties and tips mentioned in this document is subject to the full discretion of the HydraDX Council. If you are in doubt whether your effort entitles you to a bounty, please reach out in advance.
 
