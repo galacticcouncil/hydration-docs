@@ -12,7 +12,7 @@ Wormhole 的 Portal Bridge（传送桥）允许您在不同链之间桥接令牌
 ## 必备条件
 * Polkadot 钱包（Talisman 或 Polkadot.js 应用程序）；
 * 一个以太坊钱包（Metamask）；
-* 按照 **[Acala 绑定指南](https://guide.acalaapps.wiki/general/address-binding)** 将以太坊钱包和您的 acala 钱包地址绑定。完成这个动作需要少量的 ACA（＜ 1 ACA）。
+* 按照 **[Acala 绑定指南](https://guide.acalaapps.wiki/general/address-binding)** 将以太坊钱包和您的 Acala 钱包地址绑定。完成这个动作需要少量的 ACA（＜ 1 ACA）。
     
 :::caution
 请确保您的钱包中有足够的令牌（ETH 和 ACA）来支付费用。请记住，发送和兑换令牌以及绑定您的钱包地址将收取费用。
@@ -68,7 +68,7 @@ Wormhole 处理交易后，单击 `Redeem` **（9）**（兑换）。此操作�
   <img alt="metadata" src={useBaseUrl('/howto_bridge/inbound_5.jpg')} width="800px" />
 </div>
 
-您完成了！
+至此，您已完成了第一步！
 
 ## 桥接资产 Acala - > ETH 
 将桥接资产转回 Acala 后使用（**[跨链转账](/howto_xcm)**），可将它们桥接回以太坊生态系统，如下所示：
@@ -120,4 +120,4 @@ Wormhole 交易处理后，单击 `Redeem` **（9）**（兑换）。此操作�
   <img alt="metadata" src={useBaseUrl('/howto_bridge/outbound_5.jpg')} width="800px" />
 </div>
 
-您全部完成了！
+恭喜您，您已全部完成！
