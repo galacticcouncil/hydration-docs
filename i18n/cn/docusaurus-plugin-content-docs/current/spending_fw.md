@@ -11,7 +11,7 @@ HydraDX 欢迎大家参与社区共建。每个人都可以通过做贡献，获
 
 首先请注意，本文提到的所有赏金及小费支付，均由 HydraDX 议会全权酌情决定。如果不确定您的努力是否有资格获得赏金，请提前联系。
 
-您可以在 HydraDX Discord 的 #bounties 中提问。
+您可在 HydraDX Discord 的 #bounties 中提问。
 
 ## 1. 漏洞赏金 {#bug-bounties}
 
