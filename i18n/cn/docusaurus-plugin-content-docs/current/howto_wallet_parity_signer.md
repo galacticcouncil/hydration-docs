@@ -44,7 +44,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 按以下步骤创建新账户。
 
 #### 01 添加种子短语
-打开 Parity Signer 应用程序，选择 `New seed`.
+打开 Parity Signer 应用程序，选择 `New seed`。
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed.jpg')} width="350px" />
 </div>
