@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 为了获得更强的安全性，请为设备和使用设备创建的帐户设置长密码。
 
 #### 设置新账户
-不要使用旧的谷歌 ID 或 Apple ID，创建一个专门用于下载更新以及 Parity Signer 的新 ID。对于 Android 设备，最好不要使用 WiFi 或谷歌帐户。我们建议使用一些操作系统加密您的数据，如 **[Lineage O.S.](https://lineageos.org)**，如果需要电子邮件，请创建一个新邮箱。或者，您也可以在 IOS 上创建新的 Apple ID 和电子邮件。
+不要使用旧的谷歌 ID 或 Apple ID，创建一个专门用于下载更新以及 Parity Signer 的新 ID。对于 Android 设备，最好不要使用 WiFi 或谷歌帐户。我们建议使用一些操作系统加密您的数据，如 **[Lineage O.S](https://lineageos.org)**，如果需要电子邮件，请创建一个新邮箱。或者，您也可以在 IOS 上创建新的 Apple ID 和电子邮件。
 
 #### 勿用生物识别
 避免使用指纹扫描、面部识别系统或短数字码，因为它们很容易被利用。请改用强密码。
