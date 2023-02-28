@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 **[Parity Signer](https://www.parity.io/technologies/signer/)**（奇偶校验签名器）是一个移动应用程序，它可以把您的 IOS 或 Android 设备变成 Polkadot、Kusama 和任何其他基于 Substrate 链的专用硬件钱包。它可以让您保持私钥离线，同时仍能使用二维码以一种物理隔离的方式方便地签署交易。
 
 ## 设置 Parity Signer
-### 在您开始之前: 请确保安全
+### 在您开始之前：请确保安全
 #### 开始清理
 在安装 Parity Signer 之前，请确保您的手机纯净，如已使用过，请进行出厂设置，且不要安装除 Parity Signer 之外的任何其他应用程序。
 
