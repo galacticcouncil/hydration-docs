@@ -1,6 +1,6 @@
 ---
 id: intro
-title: 遇见 Ominipool
+title: 遇见 Omnipool
 slug: /
 ---
 
