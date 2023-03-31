@@ -70,6 +70,11 @@ Once the transaction has been processed by Wormhole, click Redeem (9). This acti
   <img alt="metadata" src={useBaseUrl('/howto_bridge/inbound_5.jpg')} width="800px" />
 </div>
 
+### Step 6: View Tokens for Cross-chain transfer to HydraDX
+* To view your tokens for transfer from Acala to HydraDX, head over to: [https://app.hydradx.io/#/cross-chain](https://app.hydradx.io/#/cross-chain)
+* The assets you bridged from Ethereum should be observable here once it is ready.
+* To perform a cross-chain transfer, you can follow the instructions [here](/howto_xcm)
+
 You are all set!
 
 ## Bridging Assets Acala -> ETH
