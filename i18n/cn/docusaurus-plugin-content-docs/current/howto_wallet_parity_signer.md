@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 **[Parity Signer](https://www.parity.io/technologies/signer/)**（奇偶校验签名器）是一个移动应用程序，它可以把您的 IOS 或 Android 设备变成 Polkadot、Kusama 和任何其他基于 Substrate 链的专用硬件钱包。它可以让您保持私钥离线，同时仍能使用二维码以一种物理隔离的方式方便地签署交易。
 
 ## 设置 Parity Signer
-### 在您开始之前: 请确保安全
+### 在您开始之前：请确保安全
 #### 开始清理
 在安装 Parity Signer 之前，请确保您的手机纯净，如已使用过，请进行出厂设置，且不要安装除 Parity Signer 之外的任何其他应用程序。
 
@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 为了获得更强的安全性，请为设备和使用设备创建的帐户设置长密码。
 
 #### 设置新账户
-不要使用旧的谷歌 ID 或 Apple ID，创建一个专门用于下载更新以及 Parity Signer 的新 ID。对于 Android 设备，最好不要使用 WiFi 或谷歌帐户。我们建议使用一些操作系统加密您的数据，如 **[Lineage O.S.](https://lineageos.org)**，如果需要电子邮件，请创建一个新邮箱。或者，您也可以在 IOS 上创建新的 Apple ID 和电子邮件。
+不要使用旧的谷歌 ID 或 Apple ID，创建一个专门用于下载更新以及 Parity Signer 的新 ID。对于 Android 设备，最好不要使用 WiFi 或谷歌帐户。我们建议使用一些操作系统加密您的数据，如 **[Lineage O.S](https://lineageos.org)**，如果需要电子邮件，请创建一个新邮箱。或者，您也可以在 IOS 上创建新的 Apple ID 和电子邮件。
 
 #### 勿用生物识别
 避免使用指纹扫描、面部识别系统或短数字码，因为它们很容易被利用。请改用强密码。
@@ -44,7 +44,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 按以下步骤创建新账户。
 
 #### 01 添加种子短语
-打开 Parity Signer 应用程序，选择 `New seed`.
+打开 Parity Signer 应用程序，选择 `New seed`。
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed.jpg')} width="350px" />
 </div>
