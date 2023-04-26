@@ -5,7 +5,7 @@ title: Soliciar tips de la Tesorería
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Con el lanzamiento del [Programa de incentivos HydraDX New Deal ](#link-to-new-deal), los miembros de la comunidad pueden solicitar tips a la Tesorería  como recompensa por sus contribuciones. Con esta guía, podra tener un paso a paso, del proceso de solicitud de tips. Puede encontrar más información sobre los diferentes tipos de actividades que se recompensan en [este post](/new_deal).
+Con el lanzamiento del [Programa de incentivos HydraDX New Deal ](#link-to-new-deal), los miembros de la comunidad pueden solicitar tips a la Tesorería  como recompensa por sus contribuciones. Con esta guía, podra tener un paso a paso, del proceso de solicitud de tips. Puede encontrar más información sobre los diferentes tipos de actividades que se recompensan en [este post](/spending_fw).
 
 El proceso para solicitar tips a la Tesorería consta de dos pasos. En el primer paso, los contribuyentes deben publicar su solicitud de tips en Commonwealth.im con una descripción de la contribución. Como segundo paso, la solicitud de tips a la Tesorería debe enviarse on-chain utilizando Polkadot/apps.
 

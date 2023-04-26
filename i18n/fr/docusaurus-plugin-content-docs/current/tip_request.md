@@ -5,7 +5,7 @@ title: Réclamer une récompense de trésorerie
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/new_deal).
+Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/spending_fw).
 
 Le processus pour réclamer une récompense de trésorie se compose de deux étapes. Dans un premier temps, les contributeurs doivent publier leur requête de récompense sur Commonwealth.im avec une description de la contribution. dans un second temps, la récompense de trésorerie doit être soumit sur la chaîne (on-chain) en utilisant Polkadot/apps.
 

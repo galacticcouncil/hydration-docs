@@ -5,7 +5,7 @@ title: Die Anfrage vom Finanzministerium
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/new_deal).
+Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/spending_fw).
 
 Das Anfordern eines Treasury-Tipps besteht aus zwei Schritten. Im ersten Schritt müssen Beitragende ihre Tipp-Anfrage in Commonwealth.im mit einer Beschreibung des Beitrags veröffentlichen. Als zweiter Schritt muss die Treasury-Tipp-Anfrage mithilfe von Polkadot/Apps on-chain eingereicht werden.
 

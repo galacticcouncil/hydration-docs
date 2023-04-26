@@ -5,7 +5,7 @@ title: 申请财政小费
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-作为社区成员对协议贡献的奖励，他们可向 HydraDX 财政申请 HDX 小费。本指南将指导您如何申请小费。您可以在 **[这篇文章](/new_deal)** 中找到更多获得奖励的各种活动信息。
+作为社区成员对协议贡献的奖励，他们可向 HydraDX 财政申请 HDX 小费。本指南将指导您如何申请小费。您可以在 **[这篇文章](/spending_fw)** 中找到更多获得奖励的各种活动信息。
 
 申请财政小费的流程，包括两个步骤：第一步，贡献者需要在 Subsquare 中 **[发布小费申请](#01-publish-tip-request)**，并附上贡献描述；第二步，财政小费申请必须使用 Polkadot/apps **[链上提交](#02-submit-on-chain)**。
 
