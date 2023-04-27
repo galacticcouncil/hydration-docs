@@ -136,3 +136,4 @@ $ journalctl -f -u hydradx-validator.service
 
 接下来前往 **[开始验证](/start_validating)** ，完成剩下的步骤。
 
+*（如发现翻译错误，请电报联系 @PDMCnode）*
