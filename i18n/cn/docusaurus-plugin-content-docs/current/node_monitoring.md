@@ -342,3 +342,5 @@ Password: `admin`
 * `Chain Instance`: localhost:9615  
 * `Server Job`: node_exporter  
 * `Server Host`: localhost:9100  
+
+*（如发现翻译错误，请电报联系 @PDMCnode）*
