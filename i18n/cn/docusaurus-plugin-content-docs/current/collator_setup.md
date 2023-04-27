@@ -137,3 +137,5 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 ## 下一步是什么
 
 确保您的节点已完全同步。一旦完成，请在专用的 Discord 频道中告诉我们（仅当您已被预选为整理器时）。
+
+*（如发现翻译错误，请电报联系 @PDMCnode）*
