@@ -27,4 +27,3 @@ HDX 供应总量 6,500,000,000，分布及占比如下：
   <img src={useBaseUrl('/tokenomics/supply_vestings.jpg')} />
 </div>
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
