@@ -67,4 +67,3 @@ HydraDX 有两个注册商：Simon Kraus - HydraSik（ID: **0**）、Jimmy Tudes
 * **LowQuality** - 信息不准确，但可通过修改进行更正；
 * **Erroneous** - 提供信息错误，可能存在恶意意图。
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
