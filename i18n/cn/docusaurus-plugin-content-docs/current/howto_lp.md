@@ -52,4 +52,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 切换或输入您希望提取的流动性数量 **（3）**，点击 `Remove Liquidity` （移除流动性）并使用您的钱包签署交易。
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
