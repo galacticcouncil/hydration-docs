@@ -61,4 +61,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
 </div>
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
+
