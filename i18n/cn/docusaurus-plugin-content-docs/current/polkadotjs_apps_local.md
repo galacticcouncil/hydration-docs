@@ -34,4 +34,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 至此，您应该已连接到您的本地节点，并能够进行交互。
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
