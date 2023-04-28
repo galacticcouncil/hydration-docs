@@ -34,4 +34,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 * 输入目的地址。它应该会自动填充您的链上地址，您也可以改为另一个地址；
 * 点击 `Transfer`（转账），用您的钱包签署交易。
 
-*（如发现翻译错误，请电报联系 @PDMCnode）*
