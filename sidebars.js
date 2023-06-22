@@ -14,6 +14,7 @@ module.exports = {
     "How-to": [
       "howto_trade",
       "howto_lp",
+      "howto_hydrated_farms",
       "howto_xcm",
       "howto_bridge",
       {
