@@ -5,7 +5,7 @@ title: 提供流动性
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-在这一页中，您将在 HydraDX Omnipool 中找到一个 **提供流动性的分步指南**。成为流动性提供者，可以让您从池交易中 **获得奖励**。
+在这一页中，您将在 HydraDX Omnipool（万能池）中找到一个 **提供流动性的分步指南**。成为流动性提供者，可以让您从池交易中 **获得奖励**。
 
 在决定成为流动性提供者之前，我们鼓励您访问我们的 **[产品页面](/)**，从而 **了解熟悉** HydraDX Omnipool 的独特特性。
 
@@ -51,3 +51,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>
 
 切换或输入您希望提取的流动性数量 **（3）**，点击 `Remove Liquidity` （移除流动性）并使用您的钱包签署交易。
+

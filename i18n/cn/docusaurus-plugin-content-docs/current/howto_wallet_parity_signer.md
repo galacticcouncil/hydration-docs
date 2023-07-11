@@ -133,3 +133,4 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 #### 02 更新
 在您的 Parity Signer 上，点击 `Scanner`（扫描器），扫描二维码更新元数据。
+

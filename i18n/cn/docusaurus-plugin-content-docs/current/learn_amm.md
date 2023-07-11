@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 本文介绍了自动做市商（AMM）及其一些基本概念，例如 **[滑点](#slippage)**、**[流动性供应](#lp)** 和 **[无常损失](#impermanent-loss)**。
 
-这些介绍性信息，将帮助您更好了解 HydraDX Omnipool 背后的机制，您可在我们的 **[产品文档](/)** 中找到相关描述。
+这些介绍性信息，将帮助您更好了解 HydraDX Omnipool（万能池）背后的机制，您可在我们的 **[产品文档](/)** 中找到相关描述。
 
 ## AMM 简介
 
