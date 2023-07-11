@@ -45,6 +45,8 @@ The individual caps for each asset will be reviewed from time to time by the tea
 
 Fill in the amount of liquidity you wish to provide **(1)**, click `Add liquidity` **(2)** and sign the transaction using your wallet.
 
+Next, you can learn [how to join Hydrated Farms](/howto_hydrated_farms) and earn additional rewards on top of the rewards from trading fees.
+
 ### Removing Liquidity
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_lp/remove_1.jpg')} />
