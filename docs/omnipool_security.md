@@ -49,4 +49,4 @@ To protect the Omnipool against economic exploits, there is a limit in place tha
 
 ### Targeted Function Pausing {#tfp}
 
-If some suspicious behaviour is detected on-chain, Targeted Function Pausing allows the HydraDX Technical Committee to take swift action and temporarily pause certain or all actions relating to specific assets. This resort of last actions can help mitigate the damage and allow for further investigation.
+If some suspicious behaviour is detected on-chain, Targeted Function Pausing allows the HydraDX Technical Committee to take swift action and temporarily pause certain or all actions relating to specific assets. This action of last resort can help mitigate the damage and allow for further investigation.
