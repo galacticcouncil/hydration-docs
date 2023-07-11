@@ -72,3 +72,4 @@ $$
 \frac{2\sqrt{p p_0}}{p_0 + p} - 1
 $$
 单一资产 LP 仅对 TKN/LRNA 价格敏感，对 Omnipool 中其他令牌的价格不敏感（间接通过 LRNA 除外）。
+
