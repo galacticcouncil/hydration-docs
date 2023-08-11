@@ -3,6 +3,7 @@ module.exports = {
     HydraDX: [
       "intro",
       "omnipool_trading",
+      "omnipool_dca",
       "omnipool_lp",
       "omnipool_treasuries",
       "omnipool_security",
@@ -13,6 +14,7 @@ module.exports = {
     ],
     "How-to": [
       "howto_trade",
+      "howto_dca",
       "howto_lp",
       "howto_hydrated_farms",
       "howto_xcm",
