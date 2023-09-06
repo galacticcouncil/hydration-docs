@@ -5,6 +5,7 @@ module.exports = {
       "omnipool_trading",
       "omnipool_dca",
       "omnipool_lp",
+      "staking",
       "omnipool_treasuries",
       "omnipool_security",
       "omnipool_impermanent_loss",
