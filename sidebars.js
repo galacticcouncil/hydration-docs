@@ -14,12 +14,13 @@ module.exports = {
       "spending_fw",
     ],
     "How-to": [
+      "howto_xcm",
+      "howto_bridge",
       "howto_trade",
       "howto_dca",
       "howto_lp",
       "howto_hydrated_farms",
-      "howto_xcm",
-      "howto_bridge",
+      "howto_stake",
       {
         type: "category",
         label: "Wallets",
