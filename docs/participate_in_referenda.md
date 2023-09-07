@@ -5,12 +5,12 @@ title: Participate in Referenda
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This post provides a step-by-step guide on how to participate in referenda - voting and proposing. There are two alternative tools which you can use for this purpose - [Subsquare](sub) or [Polkadot/apps](#polkajs).
+This post provides a step-by-step guide on how to participate in referenda - voting and proposing. There are two alternative tools which you can use for this purpose - [Subsquare](#sub) or [Polkadot/apps](#polkajs).
 
 Before you decide to participate, we strongly encourage you to read through the [knowledge article](/democracy_referenda) in the Learn / Democracy section. There you will find some important details on the mechanics behind referenda.
 
-## Using Subsquare {sub}
-### Vote in a Referendum {sub-vote}
+## Using Subsquare {#sub}
+### Vote in a Referendum {#sub-vote}
 To see all active and past referenda, navigate to the [Referenda tab](https://hydradx.subsquare.io/democracy/referenda) on Subsquare. 
 
 For first time and previous users, click on `Login` (top right corner) and connect your wallet. 
