@@ -5,42 +5,44 @@ title: Staking
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section provides a brief introduction into how staking works in the HydraDX network. If you are not familiar with staking in a Substrate-based network, we recommend that you read this before deciding to participate.
+HydraDX has a **long-running HDX staking program** which **incentivizes user activity** in areas that are beneficial to the Protocol. On this page you will find important information regarding the **mechanics behind the HDX Staking program**. You can also check out our [step-by-step guide on staking](/howto_stake).
 
-The consensus mechanism used by HydraDX is called Nominated Proof-of-Stake (NPoS). NPoS is a variation of Proof-of-Stake and is used in Substrate-based blockchains such as Polkadot and Kusama. The two central actors in an NPoS environment are called [**validators**](#validators) and [**nominators**](#nominators). 
+## Staking Basics {#basics}
 
-### Validators {#validators}
+HDX holders can **stake their HDX and receive rewards** which become **claimable as time passes**. Staking rewards are distributed from a dedicated pot that is gradually filled up by **different Protocol revenue streams**. Initially, the main revenue stream are the **LP fees** which the HydraDX Protocol accrues from its **HDX LP position in the Omnipool**. Furthermore, the HydraDX community has approved a proposal to support the APR during the first year of the staking program with **an additional subsidy of ~22M HDX** from the HydraDX Treasury which is gradually distributed to the staking rewards pot once per day.
 
-Validators participate in the network by running validator nodes, which provide the infrastructure that allows the HydraDX network to operate securely. Validator nodes fulfill three functions which are of paramount importance to the consensus mechanism. In the first place, they validate the information contained in blocks, such as the identity of the parties and the subject of the contract. In the second place, validators participate in the production of new blocks based on the validity statements of other validators. In the third place, they guarantee the finality of blockchain transactions.
+Rewards which enter the staking pot are always distributed directly to all stakers at any given moment. The amount that users are entitled to is proportional to the relative size of their stake in the stake pool. However, stakers do not automatically receive the rewards on their account - instead, they need to claim them.
 
-An important characteristic of NPoS is that not all validators participate in the validating process at the same time. Only validators in the *active validator set* perform the above-mentioned operations and earn [rewards](/staking_rewards) for doing so. The set of active validators is limited to a fixed number of nodes. In [HydraDX Snakenet](/snakenet) we expect this number to be around 300, scaling it up as we progress towards mainnet.
+When it comes to claiming rewards, all participants in HDX staking should be aware of the elements of **loyalty and gamification**. Once rewards are awarded, they cannot be instantly claimed for the full amount - doing so would yield just a fraction of the total rewards, with the remainder being returned the pot for redistribution to all stakers.
 
-Validators are elected into the active set by following the principle of *proportional justified representation*. This principle aims to safeguard decentralization and fair representation by assigning the available slots to validators in proportion to their nominated stake. The higher the amount of staked tokens with a given validator, the higher the chance that the node will be elected in the active set. Validators which are not included in the active set are placed on a waiting list. The set of active validators is updated at the beginning of every era, providing a possible entry window for new validators.
+Users who want to claim as many rewards as possible should keep their HDX staked without claiming until sufficient time has passed (rewards are “vested” following a bonding curve). The length of the waiting period is dynamic and depends on the user (in)actions. A user who just **stakes passively** would need to **wait ~2 years to claim 95% of their rewards**. In contrast, **active stakers** who collect the maximum amount of action points (more on that below) could claim **95% of their rewards in just over 2 months.** These are rough estimates - the actual timelines may vary in accordance with user actions and overall count of referenda.
 
-:::note
+## Boosting Your Rewards {#boosting-your-rewards}
 
-In a Substrate-based network, time is divided in units called **eras**. In [HydraDX Snakenet](/snakenet), *1 Era = 24 hours*.
+Stakers can increase the pace at which they can claim their rewards by **collecting action points** and **boosting their rewards**. Action points can be acquired by performing certain actions that are incentivized by the Protocol. Initially, the only way to collect action points is to **participate in the governance of HydraDX** by [voting on community referenda](https://hydradx.subsquare.io/democracy/referenda) **using the staked HDX**.
 
-:::
+<div style={{textAlign: 'center'}}>
+  <img alt="login" src={useBaseUrl('/staking/rewards_bonding_curve.jpg')} width="500px" />
+</div>
 
-Participating as a validator requires a certain level of technical knowledge for securely setting up and maintaining a validator node. Misbehavior of the validator node can be punished by slashing, resulting in an involuntary loss of funds for you and your nominators. If you believe that you have the necessary experience for running a validator node, you can refer to our [validator guide](/node_setup). Otherwise, we highly recommend that you consider participating as a nominator.
+There are 2 factors which determine the amount of action points that stakers will receive: The **size of the vote** (relative to the total size of their staked HDX), and the **conviction multiplier**. The higher the conviction multiplier of the vote, the greater its weight. Keep in mind that voting with a conviction multiplier places a **temporary lock on the tokens**. Stakers looking to achieve the highest rewards boost would be voting with 6x conviction multiplier, thereby locking their HDX for 192 days (counted from the last vote using such conviction). Just a reminder that **this lock is not related to staking** as such - instead, it is a standard feature of governance in the Polkadot ecosystem (more info [in our docs](/democracy_referenda#referenda-votes-weighing)).
 
-### Nominators {#nominators}
+| Conviction Multiplier | Days Locked |
+|:---------------------:|:-----------:|
+| 0.1x                  |  0d         |
+| 1x                    |  6d         |
+| 2x                    |  12d        |
+| 3x                    |  24d        |
+| 4x                    |  48d        |
+| 5x                    |  96d        |
+| 6x                    |  192d       |
 
-Nominators help secure the network by nominating validators to be elected in the active validator set. They do so by staking their HDX tokens with the validators of their choice. The nomination process does not require running and maintaining nodes, making this form of staking more accessible to everybody. Tokens which are used to nominate validators are *bonded*, meaning that they are frozen and cannot be used for other purposes. It is at any time possible to change or stop your nominations which will be reflected at the end of the current era. Nominators can also free up their tokens, however this will only become effective after a waiting period of *28 days* following the unbonding transaction.
+## Claiming Your Rewards
 
-Before nominating, you should always do your due diligence and research the credibility of the chosen validators. You can do so by checking their identity as well as historical information like era points, elected stake, rewards and slashes. At the beginning of Snakenet it might be difficult to find all this information, however. If you are in doubt about the choice of validators, approach us in the Discord and we will share our community curated list of trusted validators with you.
+As they keep their HDX staked, **users accumulate rewards over time**. These rewards become claimable subject to a bonding curve which is influenced by the boosts from action points (see above).
 
-Another point to consider when choosing a validator is the *reward commission percentage*. This represents the proportion of the rewards which will be paid out to the validator for providing its services to nominators. The lowest commission percentage is not always the best - running a performant and available node has high operational costs which can only be covered sustainably by demanding a realistic reward commission.
+At any given time, **stakers can claim** (a portion of) their claimable rewards. By doing so, however, they **forfeit the remainder of their non-claimable rewards**. These rewards are **automatically transferred back to the staking rewards pot** which **redistributes them to all other stakers**. Furthermore, claiming **resets the past action points of the user**, sending users back to the beginning of the bonding curve for future rewards from staking.
 
-In HydraDX, it is possible to nominate a **maximum of 16 validators** with your stake. Nominating more than one validator, however, does not necessarily mean that your stake will be assigned to all chosen validators every time. When the following era begins, Substrate will run a series of complex algorithms to determine the most optimal distribution of all nominations within the network, with the ultimate goal of deciding which validators are to be included in the set of active validators. If none of the validators you have chosen receives sufficient backing to be included in the active set, your **nominations will remain inactive** for the duration of the era (*24 hours*), and you will also receive no rewards for this period. To maximize the chances of having your stake included in the set of active validators, we strongly advise that you **nominate several validators**, which will also contribute to our efforts in enhancing decentralization.
+This mechanism creates an interesting **gamification dynamic**: By **remaining longer in the pool of stakers**, users not only **unlock a greater part** of their allocated rewards - they also have the chance to receive a **juicy portion of rewards from other stakers who claim or exit early**.
 
-:::note
-
-Make sure that you do not nominate validators that are oversubscribed. Currently, there is a **limit of 64 nominations** for a single validator, after which it becomes oversubscribed. When the following era begins, an oversubscribed validator will only be elected using the maximum allowed number of nominators. If this occurs, the nominators with the highest stake take precedence, while the nominators with the lowest stake will be disregarded and will not earn any awards during that era.
-
-Nominating is a more accessible form of staking however it also bears risks. Validators which breach the rules of the network may be punished by slashing, resulting in loss of funds for both the validator and its nominators. This is why it is important to only nominate reputable validator nodes.
-
-:::
-
-Are you interested in staking your HDX tokens by nominating validators? Check out our [nominator guide](/start_nominating) to start nominating.
+Happy staking!

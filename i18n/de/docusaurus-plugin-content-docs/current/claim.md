@@ -7,10 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Sie können ihre HDX Token aus der xHDX ERC-20 Token-Repräsentation beanspruchen, die Sie während des [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) erworben haben.
 
-:::note
-Sie besitzen keine xHDX Token aber möchten dennoch HDX Token erhalten? Vielen Dank für das Interesse aber momentan ist es nicht möglich HDX Token zu kaufen - Übertragungen von HDX sind bis zum Start des Mainnnets einngefroren. Auf dem Weg dorthin wird es jedoch die Möglichkeit geben im Testnet durch Teilnahme am Community-Programm HDX Token zu verdienen. Falls Sie darann interessiert sind [melden Sie sich für usneren Newsletter an](https://hydradx.substack.com) und treten Sie unserem Discord-Server bei um auf dem Laufenden zu bleiben.
-:::
-
 ## Vorbereitung {#prequisites}
 
 Es gibt zwei Voraussetzungen die für das Starten des Claim-Prozesses erfüllt sein müssen. Zum Einen benötigen Sie die [Polkadot.js Browsererweiterung](https://polkadot.js.org/extension/), mit welcher wir später das HDX Wallet erstellen werden und zum Anderen benötigen Sie Zugriff auf Ihr Wallet, in dem die xHDX Token aufbewahrt werden. Das Wallet muss in der Lage sein eine Nachricht signieren zu können.
@@ -92,16 +88,10 @@ Abhängig von der von Ihnen verwendeten Möglichkeit die Sie in Schritt Eins aus
 
 ### 04 Beanspruchen {#04-claim}
 
-Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie mit ihrer Polkadot.js Erweiterung signieren. Wenn Sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können Ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts), falls es nicht bereits in der Erweiterung angezeigt werden sollte.
+Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie mit ihrer Polkadot.js Erweiterung signieren. Wenn Sie dies abgeschlossen haben sind Sie nun offizieller HDX Besitzer. Sie können Ihren HDX Kontostand überprüfen unter [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts), falls es nicht bereits in der Erweiterung angezeigt werden sollte.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-sign.jpg')} />
 
 Sie habenn den Claim-Prozess erfolgreich abgeschlossen und sind nun offiziell ein HDX-Halter!
 
-Sie können Ihren Kontostand mit Hilfe von [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) überprüfen wenn Sie sich mit dem HydraDX Snakenet Netzwerk verbunden haben. Beachten Sie bitte, dass Sie Ihren Kontostand nicht direkt in der Polkadot.js Browsererweiterung sehen können.
-
-### 05 Was kommt danach? {#05-whats-next}
-
-Die HDX Token bleiben bis zum Start des Mainnets gesperrt.
-Sie werden weiterhin Ihren xHDX Kontostand in ihrer alten Wallet angezeigt bekommen. Da diese dort für immer gesperrt bleiben, könnten Sie diese Sichtbar lassen als eine Art "Early-Supporter Medaille" oder sie eben in Ihrer Wallet ausblenden lassen.
-Sie wollen mit Ihren HDX Token arbeiten und uns helfen die Sicherheit des HydraDX Netzwerkes zu verbessern? Dann können Sie in unserem vergüteten Testnetzwerkes Namens **Snakenet** teilnehmen indem Sie Ihre HDX Token staken. Gerne können Sie hier mehr über den [Staking-Prozess](/staking) erfahren und danach entscheidenn ob Sie als [validator](/start_validating) oder als [nominator](/start_nominating) aktiv werden möchten.
+Sie können Ihren Kontostand mit Hilfe von Polkadot/apps überprüfen wenn Sie sich mit dem HydraDX Netzwerk verbunden haben: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

@@ -9,7 +9,7 @@ En este capítulo, lo guiaremos a través de la configuración del monitoreo loc
 
 ## Pre-requisitos {#prerequisites}
 
-Debe tener su [Nodo validador](/node_setup) en funcionamiento.  
+Debe tener su [Nodo collator](/collator_setup) en funcionamiento.  
 Esta guía se probó en la versión Ubuntu 20.04 LTS.
 
 ## Configuración de Prometheus {#prometheus-setup}

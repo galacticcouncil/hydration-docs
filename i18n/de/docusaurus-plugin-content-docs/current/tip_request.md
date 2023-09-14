@@ -5,7 +5,7 @@ title: Die Anfrage vom Finanzministerium
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/new_deal).
+Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/spending_fw).
 
 Das Anfordern eines Treasury-Tipps besteht aus zwei Schritten. Im ersten Schritt müssen Beitragende ihre Tipp-Anfrage in Commonwealth.im mit einer Beschreibung des Beitrags veröffentlichen. Als zweiter Schritt muss die Treasury-Tipp-Anfrage mithilfe von Polkadot/Apps on-chain eingereicht werden.
 
@@ -44,7 +44,7 @@ Nominatoren und Validatoren, die ihr HDX überschuldet haben und „steckengebli
 
 Nachdem Sie Ihre Treasury-Tipp-Anfrage veröffentlicht haben, müssen Sie sie in der Kette einreichen. Zu diesem Zweck muss Ihr Wallet eine kleine Menge HDX enthalten, um die Transaktionsgebühren zu decken. Wenn Sie derzeit kein HDX besitzen, müssen Sie diesen Schritt nicht ausführen – jemand anderes wird Ihre Trinkgeldanforderung für Sie in der Kette einreichen.
 
-Treasury-Tipp-Anfragen können mit Polkadot / Apps über den folgenden Link in der Kette eingereicht werden: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Treasury-Tipp-Anfragen können mit Polkadot / Apps über den folgenden Link in der Kette eingereicht werden: https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 Um eine neue Trinkgeldanfrage zu stellen, klicken Sie auf *Propose tip* und geben Sie die folgenden Informationen ein:
 

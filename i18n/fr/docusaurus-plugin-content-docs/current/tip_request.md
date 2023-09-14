@@ -5,7 +5,7 @@ title: Réclamer une récompense de trésorerie
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/new_deal).
+Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/spending_fw).
 
 Le processus pour réclamer une récompense de trésorie se compose de deux étapes. Dans un premier temps, les contributeurs doivent publier leur requête de récompense sur Commonwealth.im avec une description de la contribution. dans un second temps, la récompense de trésorerie doit être soumit sur la chaîne (on-chain) en utilisant Polkadot/apps.
 
@@ -46,7 +46,7 @@ Les nominateurs et les validateurs qui ont alloués tout leurs HDXs et qui se re
 Après avoir publié votre réclamation de récompense de trésorerie, vous devez la soumettre sur chaîne (on-chain). À cet effet, votre portefeuille doit contenir un petit montant de HDX pour couvrir les frais de transaction. Si vous n'avez pas de HDX actuellement, vous n'avez pas besoin d'effectuer cette étape - quelqu'un d'autre va soumettre votre requête de récompense sur chaîne pour vous.
 
 Les réclamations de récompense de trésorerie peuvent être soumises sur chaîne  avec Polkadot/apps en utilisant le lien suivant:
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 pour soumettre une nouvelle requête de récompense, cliquez sur *Proposez une récompense*
 

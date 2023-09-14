@@ -28,6 +28,6 @@ Finalmente, el Consejo de HydraDX es responsable de elegir al Comité Técnico.
 ## Elecciones {#elections}
 Cualquier titular de tokens HDX puede [aplicar](/participate_in_council_elections) para uno de los 7 asientos no permanentes del Consejo HydraDX como candidato.
 
-Las elecciones del Consejo se llevan a cabo cada 7 días, momento en el que un algoritmo llena los 7 puestos no permanentes del Consejo durante los 7 días siguientes. El módulo de democracia utiliza el mismo algoritmo Phragmen que se utiliza para elegir el [conjunto activo de validadores](/staking#validators)..
+Las elecciones del Consejo se llevan a cabo cada 7 días, momento en el que un algoritmo llena los 7 puestos no permanentes del Consejo durante los 7 días siguientes. El módulo de democracia utiliza el mismo algoritmo Phragmen que se utiliza para elegir el conjunto activo de validadores in Polkadot.
 
 Todos los miembros de la comunidad pueden [votar](/participate_in_council_elections) en las elecciones del Consejo bloqueando una cierta cantidad de tokens HDX de su elección. Los tokens bloqueados no están disponibles para su transferencia y se utilizarán en las elecciones de seguimiento (hasta que se cancelen). Los votantes pueden y deben seleccionar más de un candidato en orden de preferencia. Luego, el algoritmo de elección distribuye todos los votos para determinar la asignación óptima de los puestos disponibles en el Consejo a los candidatos con el mayor respaldo de la comunidad.

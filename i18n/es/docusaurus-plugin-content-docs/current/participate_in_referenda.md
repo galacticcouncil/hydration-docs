@@ -56,7 +56,7 @@ Las propuestas de referéndum maliciosas son castigadas. El Consejo de HydraDX y
 
 ###  Votar en un referéndum {#polkajs-vote}
 
-Puede ver todos los referendos que están abiertos para votación navegando a [*Governance> Democracia*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) en Polkadot/apps.
+Puede ver todos los referendos que están abiertos para votación navegando a [*Governance> Democracia*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) en Polkadot/apps.
 
 
 Para votar en un referéndum, haga clic en el botón *Votar* al lado
@@ -73,7 +73,7 @@ Después de eso, saque su voto haciendo clic en *Vote Nay* (No) o *Vote Aye* (S�
 Proponer un referéndum a través de Polkadot/apps  consta de dos pasos: enviar una preimagen y enviar la propuesta on-chain.
 
 #### 01 Enviar  preimagen {#polkajs-propose-01}
-Para enviar la preimagen, visite Polkadot/apps y navegue hasta [*Governance > Democracia*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy).
+Para enviar la preimagen, visite Polkadot/apps y navegue hasta [*Governance > Democracia*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy).
 
 Después de hacer clic en *Enviar preimagen*, debería ver la siguiente ventana emergente:
 
@@ -91,7 +91,7 @@ En el ejemplo anterior, el área de propuesta es *balances* y la acción es *for
 Antes de enviar la preimagen y firmar la transacción, asegúrese de copiar el hash de la preimagen. Lo necesitará para el siguiente paso.
 
 #### 02 Subir propuesta {#polkajs-propose-02}
-Para presentar la propuesta de referéndum, visite [*Governance > Democracia*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) en Polkadot/apps.
+Para presentar la propuesta de referéndum, visite [*Governance > Democracia*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) en Polkadot/apps.
 
 Después de hacer clic en *Subir propuesta*, debería ver la siguiente ventana emergente:
 

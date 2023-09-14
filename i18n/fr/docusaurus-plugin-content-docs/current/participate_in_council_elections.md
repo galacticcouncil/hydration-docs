@@ -32,7 +32,7 @@ Après ça, choisissez vos candidats préférés en cliquant sur leurs noms. Rap
 Pour voter, cliquez sur *Submit vote* et signez la transaction.
 
 :::note
-Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour la délégation (staking) et pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
+Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
 :::
 
 ### Postuler comme candidat au Conseil {#cw-become_candidate}
@@ -44,7 +44,7 @@ Pour soumettre votre candidature, cliquez sur *Sign and send transaction* (Signe
 
 ## Utilisation de Polkadot/apps {#polkajs}
 ### Voter aux élection de membres du Conseil {#polkajs-vote}
-Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes sur [*Gouvernance > Conseil* page](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) dans Polkadot/apps.
+Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes sur [*Gouvernance > Conseil* page](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) dans Polkadot/apps.
 
 Pour voter pour les membres du Conseil, cliquez sur *Voter*.
 
@@ -59,11 +59,11 @@ Après ça, choisissez vos candidats dans l'ordre de préférence en les dépla�
 Pour voter, cliquez sur *Voter* et signer la transaction.
 
 :::note
-Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour la délégation (staking) et pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
+Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent être utilisés pour voter aux référendums. Vos tokens vont rester verrouillés et utilisés pour les élections suivantes jusqu'à ce que vous décidiez de les déverrouiller.
 :::
 
 ### Postuler comme candidat au Conseil {#polkajs-become_candidate}
-Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [*Gouvernance > Conseil*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) dans Polkadot/apps.
+Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [*Gouvernance > Conseil*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) dans Polkadot/apps.
 
 Cliquez sur *Soumettre la candidature* va faire apparaître une fenêtre contextuelle.
 

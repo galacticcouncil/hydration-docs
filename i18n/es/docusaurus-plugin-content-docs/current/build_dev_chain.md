@@ -7,10 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Esta sección le muestra el proceso de configuración de una instancia de cadena HydraDX local para el desarrollo.
 
-:::note
-Estas buscando configurar un nodo para validar? Vaya a nuestra [validator setup guide](/node_setup).
-:::
-
 ## 01 Instalar dependencias
 
 Para preparar una instancia local de HydraDX Chain para el desarrollo, su máquina debe cubrir todas las dependencias para ejecutar una cadena de substrate. Deberá instalar un entorno de desarrollador de Rust y asegurarse de que esté configurado correctamente para compilar el Substrate runtime code  para el destino WebAssembly (Wasm).

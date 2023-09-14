@@ -5,7 +5,7 @@ title: Leistungs-Benchmark
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Sie können sicherstellen, dass ihre Hardware die [technischen Mindestanforderungen](/node_setup#00-required-technical-specifications) erfüllt, indem Sie einen Leistungs-Benchmark ausführen.  
+Sie können sicherstellen, dass ihre Hardware die [technischen Mindestanforderungen](/collator_setup#technical-specifications) erfüllt, indem Sie einen Leistungs-Benchmark ausführen.  
 Nutzen Sie hierfür Folgenden Befehl:
 
 ```bash

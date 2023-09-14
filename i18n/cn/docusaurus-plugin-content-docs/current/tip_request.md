@@ -1,64 +1,64 @@
 ---
 id: tip_request
-title: 申请国库小费
+title: 申请财政小费
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-随着 **[HydraDX 新政激励计划](#link-to-new-deal)** 的推出，社区成员可以向国库申请 HDX 小费，作为对其贡献的奖励。本指南将引导您完成小费申请过程。您可以在 **[这篇文章](/new_deal)** 中找到有关获得奖励的不同类型活动的更多信息。 
+作为社区成员对协议贡献的奖励，他们可向 HydraDX 财政申请 HDX 小费。本指南将指导您如何申请小费。您可以在 **[这篇文章](/spending_fw)** 中找到更多获得奖励的各种活动信息。
 
-申请国库小费的过程包括两个步骤。第一步，贡献者需要在 Commonwealth.im 中发布他们的小费申请，并附上贡献的相关描述。第二步，必须使用 Polkadot/apps 在链上提交国库小费申请。
+申请财政小费的流程，包括两个步骤：第一步，贡献者需要在 Subsquare 中 **[发布小费申请](#01-publish-tip-request)**，并附上贡献描述；第二步，财政小费申请必须使用 Polkadot/apps **[链上提交](#02-submit-on-chain)**。
 
-## 01 在 Commonwealth.im 中发布小费申请 {#01-publish-tip-request}
+## 01 在 Subsquare 发布 {#01-publish-tip-request}
 
-为了确保透明度，所有国库小费申请必须在 **[HydraDX Commonwealth 页面](https://commonwealth.im/hydradx)** 的线程中发布。打开一个线程前，您需要将您的 HydraDX 钱包链接到 Commonwealth.im：点击 *Log in*（登录）（右上角），选择 *Connect with wallet*（用钱包连接）> *polkadot-js* 。
-
-<div style={{textAlign: 'center'}}>
-  <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
-</div>
-
-在弹出窗口中选择 HDX 地址后，将要求您使用钱包对消息签名并为此钱包设置显示名称。 
-
-登录后，您需要为小费申请创建一个新线程。 导航到页面的右上部分，然后单击 *New thread*（新建线程）> *New thread*（新建线程）。 您也可以直接使用此链接：https://commonwealth.im/hydradx/new/thread 。
-
-您可以使用线程标题来表明主题 （Tip request)）（小费申请）和贡献主体。 线程内容中，请提供以下信息：
-
-* **Period of the contribution**（贡献期间）
-* **Summary**（对贡献简要总结）
-* **Requested tip**（申请小费金额，以 HDX 为单位）
-* **Time spent**（花费时间，以小时为单位）
-* **Description**（描述）- 如果需要，可以进行更详细描述，如对 HydraDX 的贡献的相关性和 PR 链接（如果是技术贡献）
-
-作为参考，您可查看这个 **[小费申请示例](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking)** 。
-
-填写完信息后，发布线程，该线程应该在常规列表中可用。
+为确保透明度，所有财政小费申请必须在 **[HydraDX Subsquare 页面](https://hydradx.subsquare.io/discussions)** 上以讨论帖子的形式公布。
 
 :::note
-
-过度绑定 HDX 并被“卡住”的提名人和验证人，可发起 1 HDX 国库小费申请，这将有助于他们取消对部分令牌的绑定。如果这种情况适用于您，请按照 **[示例](https://commonwealth.im/hydradx/proposal/discussion/1166-tip-request-overbonded-staker)** 创建一个 Commonwealth 线程。
-
+打开帖子之前，请确保 Subsquare 链接到您的 HDX 钱包。点击 `Sign-Up`（注册）（首次使用）或 `Login`（登录）（二次使用），并选择 `with Web3 address`（Web3 地址）选项。在弹出窗口中选择您的 HDX 地址后，您将被要求使用钱包签署消息。
 :::
 
-## 02 在链上提交小费申请 {#02-submit-on-chain}
+登录后，您需要为小费申请创建一个新讨论帖。您可以点击以下链接：**https://hydradx.subsquare.io/post/create**
 
-发布国库小费申请后，您需要在链上提交它。为此，您的钱包需要持有少量 HDX 来支付交易费用。如果目前没有任何 HDX ，您不需要执行这个步骤 —— 其他人会在链上为您提交小费申请。
+您可以使用帖子标题来表明主旨（小费申请）和贡献主题。在帖子正文中，请提供以下信息:
 
-国库小费申请可以通过以下链接使用 Polkadot/apps 在链上提交：https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips 。
+* 贡献期间；
+* 贡献摘要；
+* 申请小费金额（HDX）；
+* 贡献耗时（h）；
+* 如果可能，请提供更详细的信息，例如：与 HydraDX 贡献相关的链接和 PR 链接（若是技术贡献）。
 
-提交新的小费申请，请点击 *Propose tip*（提出小费）并提供以下信息：
+发布帖子之前，请确保选择 `Treasury`（财政）标签，以表明讨论性质。
 
-* **submit with account** （随帐户提交）- 选择将签署交易的帐户，以提交链上小费申请。这个账户需要持有少量 HDX 以支付交易费用。
-* **beneficiary** （受益者）- 选择或输入将收到国库小费的帐户地址。这个帐号必须与打开 Commonwealth 线程的帐号相对应。
-* **tip reason** （小费原因）- 提供一个 Commonwealth 线程 URL 。
+作为参考，您可以查看这个 **[小费申请示例](https://hydradx.subsquare.io/post/192)**。
+
+<div style={{textAlign: 'center'}}>
+  <img alt="login" src={useBaseUrl('/tip-request/post-thread.jpg')} />
+</div>
+
+点击 `Create`（创建）发布您的讨论帖子。此时，它应该立即在 **[讨论列表](https://hydradx.subsquare.io/discussions)** 中可见。
+
+## 02 链上提交 {#02-submit-on-chain}
+
+发布财政小费申请后，您需在链上提交。出于这个目的，您的钱包需要持有少量 HDX 来支付交易费用。如果您目前没有任何 HDX，则不需要执行此步骤 - 其他人会帮您完成小费申请的链上提交。
+
+财政小费申请，可通过以下链接在 Polkadot/app 上完成链上提交：**https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/treasury/tips**
+
+要提交新的小费请求，请点击 `Propose tip`（提出小费）并提供以下信息：
+
+* **submit with account**（随账户提交）- 选择签署交易、小费申请提交链上的帐户。这个账户需要持有少量 HDX 作为交易费用。
+* **beneficiary**（受益者）- 选择或输入接收财政小费的帐户地址。此帐户必须与打开 Subsquare 帖子的帐户相对应。
+* **tip reason**（小费原因）- 提供一个 Subsquare 帖子的 URL。
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/submit-on-chain.jpg')} />
 </div>
 
-要提交小费申请，点击 *Propose tip*（提出小费）并签署交易。
+要提交小费请求，请点击 `Propose tip`（提出小费）并签署交易。
 
-一旦交易被确认，您应该可以在 Tips（小费） 页面上看到小费申请：
+确认交易后，您应该能在 Overview （概览）页面上看到小费申请。
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/tip-requests.jpg')} />
 </div>
+
+

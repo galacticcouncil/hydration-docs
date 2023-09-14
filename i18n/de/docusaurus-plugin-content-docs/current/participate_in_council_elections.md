@@ -15,7 +15,7 @@ Das HydraDX-Demokratiemodul wird am oder nach dem **15. September 2021** eingef�
 
 ## Verwundung von Polkadot/apps {#polkajs}
 ### Abstimmung bei den Wahlen zu den Ratsmitgliedern  {#polkajs-vote}
-Die aktuellen Ratsmitglieder sowie die Zweitplatzierten sind auf der Seite [*Governance > Council* page](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) in Polkadot/apps zu sehen.
+Die aktuellen Ratsmitglieder sowie die Zweitplatzierten sind auf der Seite [*Governance > Council* page](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) in Polkadot/apps zu sehen.
 
 Um Ihre Stimme für die Ratsmitglieder herauszubringen, klicken Sie auf *Vote*.
 
@@ -34,7 +34,7 @@ Gesperrte Token können nicht übertragen werden, sie können jedoch weiterhin z
 :::
 
 ### Bewerben Sie sich als Ratskandidat {#polkajs-become_candidate}
-Sie können Ihren Antrag auf Mitgliedschaft im Rat einreichen, indem Sie zu [*Governance > Council*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/council) in Polkadot/apps navigieren.
+Sie können Ihren Antrag auf Mitgliedschaft im Rat einreichen, indem Sie zu [*Governance > Council*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/council) in Polkadot/apps navigieren.
 
 Klicken Sie auf *Submit candidacy*, um ein Popup-Fenster auszulösen.
 

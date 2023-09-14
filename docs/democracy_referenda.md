@@ -34,7 +34,7 @@ Once a referendum has been proposed, it cannot be revoked until it has entered t
 HydraDX referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
 
 :::note
-Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for staking and for voting.
+Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for voting.
 :::
 
 ### Votes Weighing {#referenda-votes-weighing}
@@ -44,26 +44,29 @@ There are two factors which determine the weight of each vote in a referendum. T
 vote_weight = tokens * conviction_multiplier
 ```
 
-Vote lock periods have the same duration as the enactment delay. If tokens are locked for 1 voting period, this means that they will remain locked for **3 days** after the voting has ended. Voters can influence the weight of their votes by decreasing or increasing the amount of periods for which the tokens are locked. It is possible to bring out a vote with 0 lock periods, however its weight would be only a fraction (conviction multiplier of 0.1x). On the other hand, the conviction multiplier increases by 1 for every doubling of the lock periods. As shown in the table below, locking the votes for the maximum of 32 periods would raise the conviction multiplier to 6x.
+The table below contains an overview of the various Conviction Multipliers and the amount of days the tokens will be locked up for. It is possible to bring out a vote without locking your HDX, however its weight would be only a fraction (conviction multiplier of 0.1x). As shown in the table below, locking the tokens for the maximum of 192d would raise the conviction multiplier to 6x.
 
-| Lock Periods      | Conviction Multiplier |
-|:-----------------:|:---------------------:|
-| 0                 |  0.1                  |
-| 1                 |  1                    |
-| 2                 |  2                    |
-| 4                 |  3                    |
-| 8                 |  4                    |
-| 16                |  5                    |
-| 32                |  6                    |
+| Conviction Multiplier | Days Locked |
+|:---------------------:|:-----------:|
+| 0.1x                  |  0d         |
+| 1x                    |  6d         |
+| 2x                    |  12d        |
+| 3x                    |  24d        |
+| 4x                    |  48d        |
+| 5x                    |  96d        |
+| 6x                    |  192d       |
 
 ```
 An example:
 
-Alice votes with 5000 HDX and 0 lock periods.
-Bob votes with 100 HDX and 32 lock periods.
+Alice votes with 5000 HDX and 0.1x Conviction Multiplier.
+Bob votes with 100 HDX and 6x Conviction Multiplier.
 
 Weight Alice: 500
 Weight Bob: 600
+
+Token lock Alice: 0 days
+Token lock Bob: 192 days
 ```
 
 ### Voting Modes {#referenda-voting-modes}

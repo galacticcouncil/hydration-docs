@@ -54,7 +54,7 @@ Les propositions de référendum malveillantes sont sanctionnées. Le Conseil Hy
 ## Utiliser Polkadot/apps {#polkajs}
 
 ### Voter dans un Référendum {#polkajs-vote}
-Vous pouvez voir tous les référendums qui sont ouverts au vote en naviguant sur [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) dans Polkadot/apps.
+Vous pouvez voir tous les référendums qui sont ouverts au vote en naviguant sur [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) dans Polkadot/apps.
 
 Pour voter dans un référendum, cliquez sur le bouton *Vote* à son côté.
 
@@ -69,7 +69,7 @@ Après ça, apportez votre vote en cliquant sur *Vote Nay* (Non) or *Vote Aye* (
 Proposer un référendum via Polkadot/apps consiste en deux étapes - soumettre une pré-image, et soumettre une proposition sur-chaîne.
 
 #### 01 Soumettre une pré-image {#polkajs-propose-01}
-Pour soumettre une pré-image, visitez Polkadot/apps et naviguez jusqu'à [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy).
+Pour soumettre une pré-image, visitez Polkadot/apps et naviguez jusqu'à [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy).
 
 Après avoir cliqué sur *Soumette la pré-image*, vous devriez voir la fenêtre contextuelle suivante:
 
@@ -86,7 +86,7 @@ Dans l'exemple ci-dessus, la zone de proposition est *balances*, et l'action est
 
 Avant de soumettre la pré-image et de signer la transaction, veuillez vous assurer de copier le "preimage hash" (hachage de la pré-image). vous en aurez besoin pour l'étape suivante.
 #### 02 Soumettre la proposition {#polkajs-propose-02}
-Pour soumettre la proposition de référendum, visitez [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/democracy) dans Polkadot/apps. 
+Pour soumettre la proposition de référendum, visitez [*Gouvernance > Démocratie*](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/democracy) dans Polkadot/apps. 
 
 Après avoir cliqué sur *Soumettre la proposition*, vous devriez voir la fenêtre contextuelle suivante:
 

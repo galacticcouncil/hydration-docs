@@ -8,7 +8,7 @@ The purpose of the `Build` section of the HydraDX documentation is to share tech
 All technical contributions which are aligned with the goals of HydraDX are eligible for generous rewards which are paid out as Treasury tips in HDX. You can find more information about our reward scheme under the following links:
 
 * [New Deal reward scheme announcement](https://hydradx.substack.com/p/incentivized-testnet-reward-scheme)
-* [Example tasks which brings rewards](/new_deal)
+* [Example tasks which brings rewards](/spending_fw)
 * [How to claim Treasury tips](/tip_request)
 
 

@@ -7,12 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 You can claim your HDX with the xHDX tokens (ERC-20) that you have obtained in the period when our [Balancer LBP](https://hydradx.substack.com/p/lbp-announcement) was live.
 
-:::note
-
-You don't have any xHDX tokens but you would like to obtain some HDX nonetheless? Thank you for the interest but at this moment it is not possible to buy any HDX tokens - transfers of HDX are frozen until mainnet. As we move towards mainnet, however, we will be launching incentivized community programs which might earn you some early HDX. If you are interested, [subscribe to our newsletter](https://hydradx.substack.com) and join our Discord server to stay updated.
-
-:::
-
 ## Prerequisites {#prequisites}
 
 There are two prerequisites for claiming your HDX. In the first place, you need to install the [Polkadot.js browser extension](https://polkadot.js.org/extension/) which will be used to create your HDX wallet. In the second place, you need access to your xHDX tokens which should be stored in a wallet supporting the signing of messages relating to ERC-20 tokens (e.g. Metamask).
@@ -101,12 +95,4 @@ After signing the message with the wallet holding your xHDX tokens, the Polkadot
 
 You have now completed the claim process, thereby officially becoming an HDX owner!
 
-You can check your balance using [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts) connected to the HydraDX Snakenet network. Please note that you cannot see your HDX balance directly in the Polkadot.js browser extension.
-
-### 05 What's next? {#05-whats-next}
-
-After completing the claim process, the HDX tokens will remain locked in your wallet until the launch of mainnet. 
-
-The xHDX tokens (which you used to claim HDX), on the other hand, will remain locked in your ERC-20 wallet forever, meaning that you can hide them from your wallet (or keep them visible as an early-adopter badge).
-
-Do you want to put your HDX tokens to work and help improve the security of the HydraDX network? Then you could participate at our incentivized testnet called **Snakenet** by staking your HDX. If you are interested, you can proceed by getting familiar with the [staking process](/staking), after which you can decide to participate as a [validator](/start_validating) or a [nominator](/start_nominating).
+You can check your balance using Polkadot/apps connected to the HydraDX network: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

@@ -9,7 +9,7 @@ In this chapter we will walk you through the setup of local monitoring for your 
 
 ## Prerequisites {#prerequisites}
 
-You must have your [validator node](/node_setup) up and running.  
+You must have your [collator node](/collator_setup) up and running.  
 This guide was tested on Ubuntu 20.04 LTS release.
 
 ## Prometheus Setup {#prometheus-setup}

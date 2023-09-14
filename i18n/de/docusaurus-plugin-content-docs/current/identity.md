@@ -15,7 +15,7 @@ Wenn Sie als HydraDX-Validator teilnehmen, empfehlen wir Ihnen dringend, sowohl 
 
 Um Ihre Identität festzulegen, öffnen Sie Polkadot/apps (verbunden mit *HydraDX Snakenet* network) und navigieren Sie zu *My accounts*. Man kann auch diesem Link folgen:
 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/accounts
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
 Suchen Sie auf der Kontoseite das Konto, auf dem sich Ihre gebundenen HDX-Token befinden. Klicken Sie auf die drei Punkte neben dem Konto (auf der rechten Seite) und wählen Sie *Set on-chain identity*.
 
@@ -43,7 +43,7 @@ Klicken Sie nach dem Ausfüllen der Informationen auf *Set Identity* und signier
 
 Nachdem Sie Ihre Identität festgelegt haben, kann man sie zur Überprüfung an die Netzwerkregister senden. Öffnen Sie dazu Polkadot / apps und navigieren Sie zu *Developer* > *Extrinsics*. Man kann auch diesem Link folgen:
 
-https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/extrinsics
+https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
 Nachdem Sie im letzten Schritt das entsprechende HydraDX-Konto ausgewählt haben, müssen Sie die folgenden Informationen eingeben:
 

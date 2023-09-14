@@ -5,18 +5,16 @@ title: Omnipool Design
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-## Tokens
-
-The HydraDX system includes two tokens: LRNA and HDX. HDX is the governance token, while LRNA is the
-"hub" token used by the Omnipool. HydraDX chain fees is paid in LRNA, and partial impermanent loss
-mitigation is also be paid in LRNA.
+The HydraDX Omnipool is a novel type of AMM which concentrates all liquidity in a single trading pool, thus unlocking
+an array of efficiencies. This doc contains a mathematical specification of the mechanics which power the Omnipool.
 
 ## The Omnipool
 
 ### Hub token
 
 The Omnipool uses LRNA as a "hub" token through which all trades are routed, avoiding the segmentation of liquidity
-inherent in AMMs which require LPs to provide liquidity in all tokens.
+inherent to AMMs which require LPs to provide liquidity for a pair of tokens. Both transaction fees and partial impermanent
+loss mitigation are paid out in LRNA.
 
 ### A note on notation
 
@@ -81,7 +79,7 @@ Next, we find the number of shares to burn:
 $$
 \Delta S = \Delta s + \Delta B
 $$
-We can then calculate the total about of TKN the LP receives, which is simply proportional:
+We can then calculate the total amount of TKN the LP receives, which is simply proportional:
 $$
 \Delta T = T \frac{\Delta S}{S}\\
 \Delta t = -\Delta T

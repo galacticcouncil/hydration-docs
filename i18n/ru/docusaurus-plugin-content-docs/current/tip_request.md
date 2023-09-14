@@ -5,7 +5,7 @@ title: Request a Treasury Tip
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/new_deal).
+With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/spending_fw).
 
 The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
 
@@ -43,7 +43,7 @@ Nominators and validators who overbonded their HDX and got "stuck" can request a
 
 After publishing your Treasury tip request, you need to submit it on-chain. For this purpose, your wallet needs to hold a small amount of HDX to cover the transaction fees. If you currently do not hold any HDX, you do not need to execute this step - someone else will submit your tip request on-chain for you.
 
-Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-01.snakenet.hydradx.io#/treasury/tips.
+Treasury tip requests can be submitted on-chain with Polkadot/apps using the following link: https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/treasury/tips.
 
 To submit a new tip request, click on *Propose tip* and provide the following information:
 

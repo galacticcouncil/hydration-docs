@@ -9,7 +9,7 @@ Dans ce chapitre nous allons vous guider tout au long du réglage d'une solution
 
 ## Prérequis {#prerequisites}
 
-Vous devez avoir votre [node validateur](/node_setup) installé et actif.
+Vous devez avoir votre [node collateur](/collator_setup) installé et actif.
 Ce guide a été  testé sous la version Ubuntu 20.04 LTS.
 
 ## Réglages de Prometheus {#prometheus-setup}
