@@ -19,18 +19,18 @@ HDX will initially be used for the following:
 
 ## HDX Token Allocation
 
-Upon the launch of the HydraDX DAO, 10 billion HDX tokens were minted. However through the [governance-approved supply reduction](https://hydradx.subsquare.io/democracy/referendum/7), the total supply has been reduced to 6.5 billion HDX tokens.
+Upon the launch of the HydraDX DAO, the defined maximum supply of HDX tokens was 10 billion HDX. However through the [governance-approved supply reduction](https://hydradx.subsquare.io/democracy/referendum/7), this defined maximum supply was reduced to 6.5 billion HDX tokens.
 
-The allocation of these tokens is as follows:
+The allocation of these tokens is currently as follows:
 
-- LBP Participants - 30.5%
-- Founders and team - 12.5%
-- Investors - 10.6%
-- HDX Crowdloan - 7.6%
-- BSX Crowdloan - 1.9%
-- DAO treasury - 5.5%
-- Collators - 3.9%
-- Growth - 27.6%
+- LBP Participants - 30.5% (~1.983B)
+- Founders and team - 12.5% (810M)
+- Investors - 10.6% (690M)
+- HDX Crowdloan - 7.6% (~494.6M)
+- BSX Crowdloan - 1.9% (~120.7M)
+- DAO treasury - 5.5% (~354.5M)
+- Collators - 3.9% (~251.5M)
+- Growth - 27.6% (~1.796B)
   
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/tokenomics/supply_breakdown.jpg')} />
@@ -44,6 +44,6 @@ As of Sept 2023, ~2.6 billion of HDX tokens are in circulation.
   <img src={useBaseUrl('/tokenomics/supply_vestings.jpg')} />
 </div>
 
-There is currently no concrete emission/release schedule for HDX tokens residing in the Treasury and Growth allocations. HydraDX intends to distribute the supply of HDX in the treasury and growth funds to help fund ecosystem development where opportunities may arise. All of these distributions will be completely discussed transparently to the community beforehand, utilizing snapshot votes to probe sentiment.
+There is currently no concrete emission/release schedule for HDX tokens residing in the Treasury and Growth allocations. HydraDX intends to distribute the supply of HDX in the treasury and growth funds to help fund ecosystem development where opportunities may arise. All of these distributions will be discussed transparently to the community beforehand and voted on by the HydraDX DAO.
 
-Token distributions range from a variety of developmental purposes, (eg. liquidity provider rewards, integrations/partnerships with other projects, etc).
+Token distributions range from a variety of developmental purposes and growth initiatives, (eg. HDX bonds, liquidity provider rewards, integrations/partnerships with other projects, etc).
