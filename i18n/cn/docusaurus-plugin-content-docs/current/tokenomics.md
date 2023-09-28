@@ -38,7 +38,7 @@ HDX 最初将用于以下用途：
 
 ## HDX 发行计划
 
-截至 2023 年 9 月，约有 26 亿个 HDX 令牌在流通。
+截至 2023 年 9 月，约有 26 亿 HDX 令牌在流通。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/tokenomics/supply_vestings.jpg')} />
