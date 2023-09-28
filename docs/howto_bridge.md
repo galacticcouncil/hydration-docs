@@ -58,7 +58,7 @@ Use with caution. All crypto applications can potentially carry risks related to
 
 ### 05 Bridge Tokens
 
-- Within **Settings** **(5)**, you can select whether to Auto Relay the transaction.
+- Within **Settings** **(5)**, you can select whether to Auto Relay the transaction. It is recommended that this is toggled on.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_bridge/mb4.jpg')} width="600px" />
@@ -76,7 +76,7 @@ In the example above, bridging from Ethereum to HydraDX, your assets will automa
 
 - A Polkadot wallet (Talisman or Polkadot.js/apps);
 - An Ethereum wallet (Metamask);
-- Bind your two wallets following [Acala's guide](https://guide.acalaapps.wiki/general/address-binding). Completing this action will require a small amount ACA.
+- Bind your two wallets following [Acala's guide](https://guide.acalaapps.wiki/general/address-binding). Completing this action will require a small amount of ACA.
 
 :::caution
 Make sure to have enough tokens (ETH and ACA) in your wallets to pay for fees. Remember that fees will be charged for sending and redeeming tokens, and for binding your wallet addresses.
@@ -102,7 +102,7 @@ Once you have been directed to Acala bridge page, follow the actions below:
 
 - Enter the amount of tokens and the token for bridging **(4)**.
 - To commence the bridge, click **Approve Tokens (5)** and sign the transaction using your Metamask wallet app.
-- Once the tokens are approved for transfer, click **Send Tokens (5). T**his starts the bridging process cross-chain.
-- Once the transaction has been processed by Wormhole, click **Redeem Tokens (5).** This action results in you receiving the tokens on the Acala chain.
+- Once the tokens are approved for transfer, click **Send Tokens (5)**. This starts the bridging process cross-chain.
+- Once the transaction has been processed by Wormhole, click **Redeem & Route Tokens (5).** This action results in you receiving the tokens on the destination chain.
 
 In the example above, bridging from Ethereum to HydraDX, your assets will automatically appear in your wallet on HydraDX network. If you are bridging out of HydraDX to Ethereum, your assets should appear in your Metamask wallet afterwards.
