@@ -10,6 +10,8 @@ module.exports = {
       "omnipool_security",
       "omnipool_impermanent_loss",
       "omnipool_hydrated_farms",
+      "bonds",
+      "lbp",
       "tokenomics",
       "spending_fw",
     ],
