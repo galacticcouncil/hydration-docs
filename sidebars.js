@@ -1,6 +1,7 @@
 module.exports = {
   sidebar: {
     HydraDX: [
+      "great-unlock",
       "intro",
       "omnipool_trading",
       "omnipool_dca",
