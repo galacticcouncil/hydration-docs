@@ -24,6 +24,7 @@ module.exports = {
       "howto_lp",
       "howto_hydrated_farms",
       "howto_stake",
+      "howto_bonds_lbp",
       {
         type: "category",
         label: "Wallets",
