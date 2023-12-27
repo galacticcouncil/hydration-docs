@@ -78,6 +78,14 @@ module.exports = {
     Build: [
       "dev_intro",
       "build_dev_chain",
+      {
+        type: "category",
+        label: "Indexers",
+        items: [
+          "indexers_intro",
+          "indexers_subquery"
+        ]
+      },
     ],
     Archive: ["archive_hydradx_crowdloan"],
     Contribute: ["contributing"],
