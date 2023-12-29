@@ -1,6 +1,6 @@
 ---
 id: trade_metamask
-title: Trade using MetaMask
+title: Start Trading with MetaMask
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
