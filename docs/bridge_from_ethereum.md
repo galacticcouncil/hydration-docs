@@ -22,7 +22,7 @@ To bridge assets from Ethereum to HydraDX, follow the steps below.
 2. As Destination, select `HydraDX`
 3. Connect your Ethereum wallet
 4. Connect your HydraDX wallet
-5. Select the asset you wish the bridge and the amount
+5. Select the asset you wish to bridge and the amount
 6. Click on `Settings` and turn on `Auto Relay`
 7. Confirm and sign the transaction
 
