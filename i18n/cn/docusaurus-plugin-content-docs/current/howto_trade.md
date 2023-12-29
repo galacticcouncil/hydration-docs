@@ -18,7 +18,7 @@ HydraDX Omniool 是可释放无与伦比的效率的新一代 AMM，您可以在
 
 有两种不同的机制来转移非原生资产：
 * **[跨链传输](https://app.hydradx.io/#/cross-chain)** - 使用此工具，可从其他 Polkadot 平行链或从 Polkadot 自身转移资产。分步指南在 **[这里](howto_xcm)**；
-* **[以太坊桥](https://www.portalbridge.com/#/transfer)** - 用于连接以太坊生态系统中的资产。分步指南在 **[这里](/howto_bridge)**。
+* **[以太坊桥](https://www.portalbridge.com/#/transfer)** - 用于连接以太坊生态系统中的资产。分步指南在 **[这里](/bridge_from_ethereum)**。
 
 这些解决方案，也可用于 HydraDX 网络之外的令牌传输。
 
