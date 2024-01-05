@@ -17,8 +17,9 @@ module.exports = {
       "spending_fw",
     ],
     "How-to": [
+      "trade_metamask",
+      "bridge_from_ethereum",
       "howto_xcm",
-      "howto_bridge",
       "howto_trade",
       "howto_dca",
       "howto_lp",
