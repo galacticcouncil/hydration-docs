@@ -13,6 +13,7 @@ module.exports = {
       "omnipool_hydrated_farms",
       "bonds",
       "lbp",
+      "fees",
       "tokenomics",
       "spending_fw",
     ],
