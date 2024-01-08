@@ -12,7 +12,7 @@ Here is an overview of all fees:
 | Product       | Type fee                             | Amount         | Details                                                | Recipient              |
 | ------------- | ------------------------------------ | -------------- | ------------------------------------------------------ | ---------------------- |
 | Protocol      | [Transaction fee](#transaction-fee)  | ~1.60 HDX+     | Fee paid per transaction for any action on the network | Treasury               |
-| Omnipool      | [Asset fee](#asset-fee)              | 0.25% to 5.00% | Dynamic fee on every Omnipool trade                    | Treasury               |
+| Omnipool      | [Asset fee](#asset-fee)              | 0.25% to 5.00% | Dynamic fee on every Omnipool trade                    | LPs, referrers, traders & staking |
 | Omnipool      | [Protocol fee](#protocol-fee)        | 0.05% to 0.10% | Dynamic fee on every Omnipool trade                    | Burned or HDX subpool  |
 | Omnipool      | [Withdrawal fee](#withdrawal-fee-omnipool)| 0.01% to 1.00% | Dynamic fee on Omnipool LP liquidity withdrawals  | Liquidity providers    |
 | Isolated Pool | [Trade fee](#trade-fee-isolated-pool)| 0.3%           | Fee on every Isolated Pool trade                       | Liquidity providers    |
