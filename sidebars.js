@@ -1,18 +1,19 @@
 module.exports = {
   sidebar: {
     HydraDX: [
-      "great-unlock",
       "intro",
       "omnipool_trading",
       "omnipool_dca",
       "omnipool_lp",
       "staking",
+      "referrals",
       "omnipool_treasuries",
       "omnipool_security",
       "omnipool_impermanent_loss",
       "omnipool_hydrated_farms",
       "bonds",
       "lbp",
+      "fees",
       "tokenomics",
       "spending_fw",
     ],
