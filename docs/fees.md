@@ -47,6 +47,10 @@ Protocol fees are paid by users whenever they make a trade in the Omnipool. Thes
 
 When there is no negative imbalance, the protocol fee will be redirected to the HDX pool within the Omnipool. This will result in the value of HDX increasing relative to all other assets in the Omnipool. An arbitrageur will observe this and swap HDX with other assets, setting a new (likely higher) price for HDX.
 
+<div style={{textAlign: 'center'}}>
+  <img alt="metadata" src={useBaseUrl('/fees/protocol_fee.png')} width="800px" />
+</div>
+
 ## Withdrawal fee (Omnipool)
 The withdrawal fee is a dynamic fee paid whenever users withdraws liquidity from the Omnipool. It is designed to ensure that LPs do not lose money when liquidity is withdrawn immediately after a price change. The fee is calculated as the percentage difference between the spot price and the oracle price. This is also designed to ensure that any potential manipulation of the spot price will not be profitable.
 
