@@ -28,7 +28,7 @@ The impermanent loss experienced by any TKN position in the Omnipool is determin
 
 Since LRNA has a liquidity pair with all other tokens in the Omnipool, it can be seen as a weighted price index which reflects the aggregate movement of all different assets within the Omnipool. The [basket of Omnipool assets](https://app.hydradx.io/stats/overview) includes both stablecoins and other cryptocurrencies. 
 
-This design has important implications for IL. If TKN achieves a price movement which is aligned with the rest of the crypto market (e.g. with DOT or BTC), then the expected IL of TKN in the Omnipool shall we be lower as compared to an XYK pool between TKN/stablecoin, however that same IL will be higher as compared to an isolated XYK pool between TKN/DOT (or BTC).
+This design has important implications for IL. If TKN achieves a price movement which is aligned with the rest of the crypto market (e.g. with DOT or BTC), then the expected IL of TKN in the Omnipool shall be lower as compared to an XYK pool between TKN/stablecoin, however that same IL will be higher as compared to an isolated XYK pool between TKN/DOT (or BTC).
 
 ### The Impact of Asset Weights
 
@@ -55,7 +55,7 @@ The design of the Omnipool described above requires safeguards which ensure that
 For this purpose, the Protocol has put mechanisms in place for distributing IL according to the specific LP positions in the subpools. In both cases described above, the correction takes place when an LP withdraws their position.
 
 #### TKN price went up
-In cases where the spot price of the provided TKN has went up, the Protocol will divert some of the LPed assets as POL and distribute LRNA to the LP to compensate for the IL.
+In cases where the spot price of the provided TKN went up, the Protocol will divert some of the LPed assets as POL and distribute LRNA to the LP to compensate for the IL.
 
 Let’s suppose that Bob LPed 1000 DAI to the Omnipool when the price was $p_\alpha = 1$ LRNA/DAI, for which he received $s_\alpha = 500$ shares. We suppose there are $S_i = 10,000$ shares total in the DAI pool, and $R_i = 19,000$.
 
@@ -101,17 +101,17 @@ To mitigate the negative effects of the value depreciation of LRNA, the HydraDX 
 
 ### Fees
 
-In the first place, there are three types of fees which act as a safeguard. For more info please refer to our [fees](https://www.notion.so/Impermanent-Loss-3905f88bf62242c3a644844531631cec?pvs=21) page.
+In the first place, there are three types of fees which act as a safeguard. For more info please refer to our [fees](/fees) page.
 
-#### **Protocol Fees**
+#### Protocol Fees
 HydraDX charges Protocol fees upon every swap which are paid in LRNA. Whenever there is a negative LRNA imbalance, HydraDX will continually burn the Protocol fee until it has reached 2x the amount of any LRNA sold back into the Omnipool.
 
-#### **Dynamic Fees during Increased Volatility**
+#### Dynamic Fees during Increased Volatility
 Protocol fees are dynamic and adjusted based on the current market volatility. If prices in the Omnipool are volatile, each swap will incur higher Protocol fees which are potentially translated to a higher amount of LRNA which is burnt.
 
-#### **Withdrawal Fees**
+#### Withdrawal Fees
 
-Withdrawal fees are another type of dynamic fees which are designed to ensure that the Protocol and its LPs is not at loss whenever liquidity is withdrawn immediately after a price change. These fees are calculated as the percentage difference between the spot price and the oracle price. This also ensures that any potential manipulation of the spot price would not be profitable.
+Withdrawal fees are another type of dynamic fees which are designed to ensure that the Protocol and its LPs are not at loss whenever liquidity is withdrawn immediately after a price change. These fees are calculated as the percentage difference between the spot price and the oracle price. This also ensures that any potential manipulation of the spot price would not be profitable.
 
 ### Protocol-Owned Liquidity
 
