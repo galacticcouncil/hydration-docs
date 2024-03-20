@@ -32,6 +32,6 @@ Users can track the status of their orders on the UI. Open orders can at any tim
 
 [Split Trade](https://app.hydradx.io/trade) is a more simple implementation of DCA directly into the main trade page. It provides users with a one-click solution for splitting larger orders in order to protect themselves from slippage.
 
-When activated, Split Trade will split the order in smaller chunks until the size of the trades is small enough to achieve <0.1% slippage (estimate only - the exact slippage for future trades can never be predicted in advance).
+When activated, Split Trade will split the order in smaller chunks until the size of the trades is small enough to achieve less than 0.1% slippage (estimate only - the exact slippage for future trades can never be predicted in advance).
 
 Open Split Trade orders can be terminated by the user at any time, just like any regular DCA order.
