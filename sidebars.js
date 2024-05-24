@@ -51,7 +51,8 @@ module.exports = {
         type: "category",
         label: "Connect to a Node",
         items: ["polkadotjs_apps_local", "polkadotjs_apps_public"],
-      }
+      },
+      "howto_list_token_in_omnipool",
     ],
     "Learn": [
       "learn_amm",
