@@ -32,10 +32,10 @@ su - hydra
 
 ## Download and configure the `hydradx` binary
 
-Pick a 12.x release, we are using `v12.1.0` from our assets repository:
+Pick a 12.x release, we are using `v13.1.0` from our assets repository:
 
 ```bash
-wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v12.1.0/hydradx
+wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v13.1.0/hydradx
 sudo mv hydradx /usr/local/bin
 sudo chmod +x /usr/local/bin/hydradx
 sudo chown hydra:hydra /usr/local/bin/hydradx

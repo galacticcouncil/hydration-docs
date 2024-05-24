@@ -40,12 +40,12 @@ $ sudo chown -R prometheus:prometheus /var/lib/prometheus
 
 ### Install Prometheus {#install-prometheus}
 
-Check latest version number of Prometheus at the [GitHub release page](https://github.com/prometheus/prometheus/releases/).  
+Check latest version number of Prometheus at the [GitHub release page](https://github.com/prometheus/prometheus/releases/).
 At the time of writing it is v2.34.0. Insert the latest release version in the following commands.
 
 ```shell script
 # download prometheus
-$ wget https://github.com/prometheus/prometheus/releases/download/v2.34.0/prometheus-2.34.0.linux-amd64.tar.gz
+$ wget https://github.com/prometheus/prometheus/releases/download/v2.39.1/prometheus-2.39.1.linux-amd64.tar.gz
 
 # unpack the binaries
 $ tar xfz prometheus-*.tar.gz
@@ -187,13 +187,13 @@ At the time of writing the latest version was `1.3.1`.
 Download the latest release.
 
 ```shell script
-$ wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
+$ wget https://github.com/prometheus/node_exporter/releases/download/v1.4.0/node_exporter-1.4.0.linux-amd64.tar.gz
 ```
 
 Unpack the archive you just downloaded. This will create a folder called `node_exporter-1.3.1.linux-amd64`.
 
 ```shell script
-$ tar xvf node_exporter-1.3.1.linux-amd64.tar.gz
+$ tar xvf node_exporter-1.4.0.linux-amd64.tar.gz
 ```
 
 Next we copy the binary into our local application directory and assign it to our monitoring user.
@@ -242,19 +242,19 @@ WantedBy=multi-user.target
 We will now activate and start the service with this one-liner.
 
 ```shell script
-$ sudo systemctl daemon-reload && systemctl enable node_exporter && systemctl start node_exporter
+$ sudo systemctl daemon-reload && sudo systemctl enable node_exporter && sudo systemctl start node_exporter
 ```
 
 ### Add Scrape Job for Node Exporter {#add-scrape-job-for-node-exporter}
 
-The Node Exporter is now up and running but we need to tell Prometheus to scrape its data.  
+The Node Exporter is now up and running but we need to tell Prometheus to scrape its data.
 We will open the configuration file once again with the editor of choice.
 
 ```shell script
 $ sudo nano /etc/prometheus/prometheus.yml
 ```
 
-And at the very bottom of the file we will append one more scrape config.  
+And at the very bottom of the file we will append one more scrape config.
 Paste the following content and save the file.
 
 ```yaml
@@ -286,8 +286,8 @@ At the time of writing the latest version was `8.4.6`.
 
 ```shell script
 $ sudo apt-get install -y adduser libfontconfig1
-$ wget https://dl.grafana.com/oss/release/grafana_8.4.6_amd64.deb
-$ sudo dpkg -i grafana_8.4.6_amd64.deb
+$ wget https://dl.grafana.com/oss/release/grafana_9.2.1_amd64.deb
+$ sudo dpkg -i grafana_9.2.1_amd64.deb
 ```
 
 The package comes with a builtin `systemd`-service which we will configure and start just like the Prometheus service.
