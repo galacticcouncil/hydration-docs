@@ -10,7 +10,7 @@ On this page you will find the **requirements and process for listing a project'
 
 ## 00 Prerequisites
 
-With all tokens pooled into a single pool, we must take extra precautions to avoid exposing the Omnipool to large swings in token values due to market manipulation. Therefore the requirements for listing a token in the Omnipool are:
+With all tokens pooled into a single pool, we must take extra precautions to avoid exposing the Omnipool to large swings in token values due to market manipulation. Therefore the requirements for listing a token in the Omnipool are listed below. There may be exceptions, or additional criteria preventing a token from being listed in the Omnipool since it is difficult to define absolute rules that apply in all situations. The actual decision lies with HDX token holders who may still reject a token that meets all criteria and may accept a token that does not.
 
 1. The token must have already gone through price discovery for at least eight months. Must be listed on a DEX with at least $100k liquidity and/or listed on a CEX with active market maker support maintaining a 2% depth of at least $2k. Ideally the token is listed on at least two exchanges.
 2. Sudo control of the chain/token must have been removed or revoked. This could involve the removal of the `sudo` pallet entirely, removing a registered sudo key, or in the case of AssetHub tokens the provable burning of any administrative control over the token.
@@ -18,8 +18,6 @@ With all tokens pooled into a single pool, we must take extra precautions to avo
 4. The project must have transparent market data available, including the ability to inspect transactions via a block explorer.
 5. The token must be sufficiently distributed to avoid individuals causing large price swings. At least 40% of the token supply must be distributed and in circulation.
 6. The token must have a market cap of at least $1M.
-
-There may be exceptions, or additional criteria preventing a token from being listed in the Omnipool since it is difficult to define absolute rules that apply in all situations. HydraDX token holders will vote on each application to list a token in the Omnipool.
 
 For new projects, a typical token launch sequence would be to perform a fair token launch using a [Liquidity Boostrapping Pool (LBP)](https://docs.hydradx.io/lbp) followed by the LBP liquidity being deposited into an Isolated Pair. Isolated Pairs can be permissionlessly created and swaps on the Hydration platform are automatically routed through both the Omnipool and Isolated Pairs, so new projects can still create their first DEX liquidity on Hydration even before their token qualifies for listing in the Omnipool. After eight months of continued price discovery, the team can apply for the token to be listed in the Omnipool if it meets the criteria above.
 
