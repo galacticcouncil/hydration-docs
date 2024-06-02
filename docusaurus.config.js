@@ -23,12 +23,6 @@ module.exports = {
       },
       items: [
         {
-          to: "/",
-          activeBasePath: "/",
-          label: "Docs",
-          position: "left",
-        },
-        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -39,9 +33,39 @@ module.exports = {
         },
       ],
     },
+    colorMode: {
+      switchConfig: {
+        lightIcon: '🐍'
+      }
+    },
     footer: {
-      style: "dark",
+      logo: {
+        alt: "HydraDX",
+        src: "img/logo.svg"
+      },
       links: [
+        {
+          title: "HydraDX",
+          items: [
+            {
+              label: "Home",
+              href: "https://hydradx.io"
+            },
+            {
+              label: "Newsletter",
+              href: "https://hydradx.substack.com"
+            }
+          ]
+        },
+        {
+          title: "For developers",
+          items: [
+            {
+              label: "Github",
+              href: "https://github.com/galacticcouncil"
+            }
+          ]
+        },
         {
           title: "Community",
           items: [
@@ -55,8 +79,7 @@ module.exports = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Intergalactic, Inc. Built with Docusaurus.`,
+      ]
     },
   },
   presets: [
