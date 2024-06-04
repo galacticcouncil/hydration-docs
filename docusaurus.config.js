@@ -29,10 +29,6 @@ module.exports = {
           position: "left",
         },
         {
-          type: 'localeDropdown',
-          position: 'right',
-        },
-        {
           href: "https://hydradx.io",
           label: "Hydration Homepage",
           position: "right",
@@ -84,28 +80,4 @@ module.exports = {
       crossorigin: 'anonymous',
     }
   ],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'de', 'ru', 'es', 'fr', 'cn'],
-    localeConfigs: {
-      en: {
-        label: 'English',
-      },
-      de: {
-        label: 'Deutsch',
-      },
-      ru: {
-        label: 'русский',
-      },
-      es: {
-        label: 'español',
-      },
-      fr: {
-        label: 'français',
-      },
-      cn: {
-        label: '中文',
-      }
-    },
-  },
 };
