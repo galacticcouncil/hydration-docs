@@ -23,12 +23,6 @@ module.exports = {
       },
       items: [
         {
-          to: "/",
-          activeBasePath: "/",
-          label: "Docs",
-          position: "left",
-        },
-        {
           href: "https://hydradx.io",
           label: "Hydration Homepage",
           position: "right",
