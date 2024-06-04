@@ -3,6 +3,8 @@ id: contributing
 title: Writing Docs
 ---
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 ## Markdown Syntax {#markdown-syntax}
@@ -66,7 +68,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 Or leave it empty and use the [link text itself].
 
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ or <http://www.example.com/> and sometimes example.com (but not on GitHub, for example).
+URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com/ and sometimes example.com (but not on GitHub, for example).
 
 Some text to show that the reference links can follow later.
 
