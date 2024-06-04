@@ -16,7 +16,7 @@ module.exports = {
       additionalLanguages: ['rust'],
     },
     navbar: {
-      title: "Hydration Documentation",
+      title: "Hydration Docs",
       logo: {
         alt: "Hydration logo",
         src: "img/logo.svg",
