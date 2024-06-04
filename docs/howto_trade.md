@@ -17,13 +17,13 @@ The Hydration Omnipool is a next-gen AMM which unlocks unparalleled efficiencies
 If you would like to execute a trade using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the Hydration chain. This step does not apply to HDX.
 
 There are two different mechanisms to transport non-native assets:
-* [Cross-chain transfer](https://app.hydradx.io/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](howto_xcm);
+* [Cross-chain transfer](https://app.hydration.net/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](howto_xcm);
 * [Ethereum bridge](https://www.portalbridge.com/#/transfer) - for bridging assets from the Ethereum ecosystem. Step-by-step documentation [here](/bridge_from_ethereum).
 
 These solutions can also be used to transport tokens outside of the Hydration network.
 
 ## 01 Enter Omnipool
-[https://app.hydradx.io/#/trade](https://app.hydradx.io/trade)
+[https://app.hydration.net/#/trade](https://app.hydration.net/trade)
 
 ## 02 Connect Your Account
 Click on `Connect wallet` **(1 in image above)** and connect to your preferred Polkadot wallet. After that, select your account.

@@ -4,7 +4,7 @@ const katex = require('rehype-katex');
 module.exports = {
   title: "Hydration Docs",
   tagline: "Let's learn this",
-  url: "https://docs.hydradx.io",
+  url: "https://docs.hydration.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -23,7 +23,7 @@ module.exports = {
       },
       items: [
         {
-          href: "https://hydradx.io",
+          href: "https://hydration.net",
           label: "Hydration Homepage",
           position: "right",
         },

@@ -26,7 +26,7 @@ To enable single-sided LPing, the Protocol will automatically mint/burn a corres
 
 The impermanent loss experienced by any TKN position in the Omnipool is determined by the divergence in value between TKN and LRNA. A stronger price correlation between TKN and LRNA suggests a smaller IL (and vice versa).
 
-Since LRNA has a liquidity pair with all other tokens in the Omnipool, it can be seen as a weighted price index which reflects the aggregate movement of all different assets within the Omnipool. The [basket of Omnipool assets](https://app.hydradx.io/stats/overview) includes both stablecoins and other cryptocurrencies. 
+Since LRNA has a liquidity pair with all other tokens in the Omnipool, it can be seen as a weighted price index which reflects the aggregate movement of all different assets within the Omnipool. The [basket of Omnipool assets](https://app.hydration.net/stats/overview) includes both stablecoins and other cryptocurrencies. 
 
 This design has important implications for IL. If TKN achieves a price movement which is aligned with the rest of the crypto market (e.g. with DOT or BTC), then the expected IL of TKN in the Omnipool shall be lower as compared to an XYK pool between TKN/stablecoin, however that same IL will be higher as compared to an isolated XYK pool between TKN/DOT (or BTC).
 

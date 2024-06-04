@@ -85,7 +85,7 @@ chown hydra:hydra /var/lib/hydradx
 Make sure you have enough volume for your `base-path` by using `df -h` command.
 :::
 
-Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
+Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydration.net/node_monitoring/).
 
 If you need to monitor both the `parachain` and `relaychain` metrics, `--prometheus-external`option should be setup in both parts. You also need to set a separate port for the relaychain part as follows: `--prometheus-port YOUR_CUSTOM_PORT_NUMBER`
 

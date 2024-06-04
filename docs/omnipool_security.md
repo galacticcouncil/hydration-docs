@@ -7,7 +7,7 @@ The Hydration Protocol pursues a multi-layered security strategy. On this page y
 
 The most basic layer of the Hydration security strategy consists carefully conducted research and development, as well as rigorous peer review processes. On top of that, Hydration strives to have all mission-critical code undergo rigorous audits. The next layer of the security strategy is a generous bug bounty program which makes it worthwhile to find and disclose vulnerabilities (as opposed to exploiting them).
 
-Finally, the protocol has implemented a combination of state-of-the-art measures which are designed to [protect your liquidity](https://docs.hydradx.io/omnipool_security#protecting-liquidity) against unfortunate events such as toxic assets or (economic) exploits.
+Finally, the protocol has implemented a combination of state-of-the-art measures which are designed to [protect your liquidity](https://docs.hydration.net/omnipool_security#protecting-liquidity) against unfortunate events such as toxic assets or (economic) exploits.
 
 ## Audits {#audits}
 

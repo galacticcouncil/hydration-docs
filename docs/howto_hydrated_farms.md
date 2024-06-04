@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 With Hydrated Farms, providing liquidity to selected assets is incentivized by additional rewards on top of rewards from trading fees. To learn more, please visit the [dedicated product page](/omnipool_hydrated_farms).
 
 ## 00 Navigate to Liquidity Page
-[https://app.hydradx.io/liquidity](https://app.hydradx.io/liquidity)
+[https://app.hydration.net/liquidity](https://app.hydration.net/liquidity)
 
 ## 01 Provide Liquidity
 Incentivized assets can be identified by the `Farm rewards` section which displays all available rewards for a given farm.

@@ -16,7 +16,7 @@ Once you have the assets on the Moonbeam network, you can easily transfer them t
 ## Step-by-step
 To onboard assets from Moonbeam to Hydration:
 
-1. Navigate to the [Hydration cross-chain UI](https://app.hydradx.io/cross-chain)
+1. Navigate to the [Hydration cross-chain UI](https://app.hydration.net/cross-chain)
 2. Connect your MetaMask wallet and accept changing network to Hydration
 3. Select as source chain `Moonbeam`
 4. Select the asset you want to transfer and the amount

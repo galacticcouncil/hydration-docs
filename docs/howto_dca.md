@@ -15,7 +15,7 @@ Before proceeding, we encourage you to visit our [DCA product page](/omnipool_dc
 
 ### Step 1: Navigate to Hydration DCA Page
 
-https://app.hydradx.io/dca
+https://app.hydration.net/dca
 
 ### Step 2: Connect to Your Account
 

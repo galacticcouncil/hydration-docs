@@ -19,7 +19,7 @@ Currently, the following tokens are supported by Hydration for cross-chain trans
 Before you continue, please make sure you have sufficient amount of tokens on the destination chain for fees (ACA or DOT).
 
 ## 01 Navigate to Cross-chain Transfers
-[https://app.hydradx.io/#/cross-chain](https://app.hydradx.io/#/cross-chain)
+[https://app.hydration.net/#/cross-chain](https://app.hydration.net/#/cross-chain)
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_xcm/xcm_screen.jpg')} width="500px" />

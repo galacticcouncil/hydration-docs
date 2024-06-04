@@ -25,7 +25,7 @@ To cast your vote, click on `Vote` and provide the following information:
 
 - **Vote with account** - select the voting account.
 - **Value** - this is the amount of HDX tokens you are willing to lock in support of the referendum.
-- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](https://docs.hydradx.io/democracy_referenda#referenda-votes-weighing).
+- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](https://docs.hydration.net/democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Nay* (No) or *Aye* (Yes) and sign the transaction.
 
