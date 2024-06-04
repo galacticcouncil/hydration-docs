@@ -26,7 +26,7 @@ Todos los tokens HDX que se depositan para proponer o apoyar un referéndum se b
 
 ### Referéndum del Consejo {#referenda-initiate-council}
 
-El Consejo de HydraDX tiene el poder para proponer un referéndum para que la comunidad lo vote.Si lo hace por unanimidad, el modo de votación aplicable para el referéndum es [Sesgo de participación negativa](#referenda-voting-modes). Si el referéndum se propone con una mayoría simple de los votos del Consejo, entonces el modo de votación para aceptar las propuestas de la comunidad es [Mayoría simple](#referenda-voting-modes).
+El Consejo de Hydration tiene el poder para proponer un referéndum para que la comunidad lo vote.Si lo hace por unanimidad, el modo de votación aplicable para el referéndum es [Sesgo de participación negativa](#referenda-voting-modes). Si el referéndum se propone con una mayoría simple de los votos del Consejo, entonces el modo de votación para aceptar las propuestas de la comunidad es [Mayoría simple](#referenda-voting-modes).
 
 ### Propuestas de emergencia del Comité Técnico {#referenda-initiate-tech-committee}
 
@@ -34,11 +34,11 @@ El Comité Técnico puede enviar propuestas de emergencia que se ocupen de la co
 
 ### Cancelar un referéndum {#cancel}
 
-Una vez que se ha propuesto un referéndum, no se puede revocar hasta que no haya entrado en la ronda de votación. Se hace una excepción a esta regla para las propuestas que se consideran perjudiciales para el protocolo (por ejemplo, cambios de código que introducen un error). En este caso limitado, la propuesta de referéndum puede ser cancelada por el [Consejo de HydraDX](/democracy_council) (con una supermayoría del 60%) o el [Comité Técnico](/democracy_technical_committee) (por unanimidad). Todos los tokens que fueron bloqueados por los partidarios que secundaban la propuesta se queman.
+Una vez que se ha propuesto un referéndum, no se puede revocar hasta que no haya entrado en la ronda de votación. Se hace una excepción a esta regla para las propuestas que se consideran perjudiciales para el protocolo (por ejemplo, cambios de código que introducen un error). En este caso limitado, la propuesta de referéndum puede ser cancelada por el [Consejo de Hydration](/democracy_council) (con una supermayoría del 60%) o el [Comité Técnico](/democracy_technical_committee) (por unanimidad). Todos los tokens que fueron bloqueados por los partidarios que secundaban la propuesta se queman.
 
 ## Votación de un Referendum {#referenda-vote}
 
-Los referendos de HydraDX tienen un período de lanzamiento de 3 días. Al comienzo de cada nuevo período, la propuesta con la mayor cantidad de apoyo se toma de la cola de espera y se coloca en una ronda de votación. Cada ronda de votación tiene una duración de 3 días. Durante este período, los miembros de la comunidad pueden votar en el referéndum utilizando un mecanismo ponderado de base de intereses. Lo hacen bloqueando una cierta cantidad de tokens HDX durante un período de tiempo determinado.
+Los referendos de Hydration tienen un período de lanzamiento de 3 días. Al comienzo de cada nuevo período, la propuesta con la mayor cantidad de apoyo se toma de la cola de espera y se coloca en una ronda de votación. Cada ronda de votación tiene una duración de 3 días. Durante este período, los miembros de la comunidad pueden votar en el referéndum utilizando un mecanismo ponderado de base de intereses. Lo hacen bloqueando una cierta cantidad de tokens HDX durante un período de tiempo determinado.
 
 :::note
 Los tokens HDX bloqueados no se pueden transferir durante el período de bloqueo elegido. Sin embargo, todavía se pueden usar para votar.

@@ -39,12 +39,12 @@ transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.1
 
 Notes:
 - in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
-- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
+- if diff is positive for all three pallets, your machine covers the minimum requirements for running a Hydration node
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
 Sie können die Unterschiede in der Leistungsfähigkeit zwischen Ihrem Server und den Mindestanforderungen in der diff* (%)-Spalte sehen.
-Wenn alle drei Werte positiv sind sollte Ihr Server in der Lage sein eine HydraDX Validator Node zu betreiben. 
+Wenn alle drei Werte positiv sind sollte Ihr Server in der Lage sein eine Hydration Validator Node zu betreiben. 
 Wenn einer der Werte niedriger als -10 % ist empfehlen wir Ihnen vom Betreiben eines Validators auf diesem Server abzusehen.
 
 Sie können gerne unserem Discord Channel beitreten wenn sie Ihre Benchmark Ergebnisse diskutieren wollen oder Hilfe brauchen. Unsere Community hilft Ihnen gerne!

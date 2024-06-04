@@ -5,9 +5,9 @@ title: Se connecter à un node publique
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Il y a deux nodes publiques RPC qui sont maintenus par HydraDX et nos partenaires. Vous pouvez utilisez ces nodes pour interagir avec Snakenet. Vous pouvez vous connecter directement à un node publique avec Polkadot/apps en cliquant sur les liens ci-dessous:
+Il y a deux nodes publiques RPC qui sont maintenus par Hydration et nos partenaires. Vous pouvez utilisez ces nodes pour interagir avec Snakenet. Vous pouvez vous connecter directement à un node publique avec Polkadot/apps en cliquant sur les liens ci-dessous:
 
-* [Node RPC hébergé par HydraDX](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/explorer)
+* [Node RPC hébergé par Hydration](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/explorer)
 
 ## Se connecter manuellement à un node RPC {#connect-manually-to-an-rpc-node}
 
@@ -17,7 +17,7 @@ Pour accéder à un node RPC publique manuellement, ouvrez [Polkadot/apps](https
   <img src={useBaseUrl('/polkadotjs-apps/PolkadotJS-APPS-1.png')} />
 </div>
 
-Cliquez sur **LIVE NETWORKS** (ou **Réseau live** dans l'interface en français) et choisissez **HydraDX**.
+Cliquez sur **LIVE NETWORKS** (ou **Réseau live** dans l'interface en français) et choisissez **Hydration**.
 
 
 <div style={{textAlign: 'center'}}>

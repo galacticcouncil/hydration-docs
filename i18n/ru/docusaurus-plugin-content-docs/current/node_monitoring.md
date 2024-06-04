@@ -120,7 +120,7 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-Первое задание по очистке экспортирует данные самого Prometheus, второе - метрики узла HydraDX. Мы скорректировали `scrape_interval` обоих заданий, чтобы получить более подробную статистику. Это переопределит глобальные значения. Параметр `targets` в `static_configs` устанавливает, на каком порту запускаются экспортеры, здесь мы придерживаемся значений по умолчанию.
+Первое задание по очистке экспортирует данные самого Prometheus, второе - метрики узла Hydration. Мы скорректировали `scrape_interval` обоих заданий, чтобы получить более подробную статистику. Это переопределит глобальные значения. Параметр `targets` в `static_configs` устанавливает, на каком порту запускаются экспортеры, здесь мы придерживаемся значений по умолчанию.
 
 После сохранения конфигурации мы снова сменим владельца.
 
@@ -324,7 +324,7 @@ $ sudo systemctl daemon-reload && sudo systemctl enable grafana-server && sudo s
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-Мы будем использовать [панель управления HydraDX](https://grafana.com/grafana/dashboards/14158), и для ее загрузки вы просто вводите идентификатор `14158` и нажимаете кнопку `Load`.
+Мы будем использовать [панель управления Hydration](https://grafana.com/grafana/dashboards/14158), и для ее загрузки вы просто вводите идентификатор `14158` и нажимаете кнопку `Load`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />

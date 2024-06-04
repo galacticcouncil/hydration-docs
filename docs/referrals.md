@@ -5,7 +5,7 @@ title: Referrals
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-HydraDX is running a Referrals Program which aims to create **sustainable long-term incentives** to help onboard users to HydraDX. Anyone can participate and **start earning referral rewards** by registering their unique referral code:
+Hydration is running a Referrals Program which aims to create **sustainable long-term incentives** to help onboard users to Hydration. Anyone can participate and **start earning referral rewards** by registering their unique referral code:
 
 [https://app.hydradx.io/referrals/](https://app.hydradx.io/referrals/)
 

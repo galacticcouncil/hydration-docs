@@ -22,7 +22,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 您将看到一个 12 个短语的助记词，可用于恢复您的帐户。 确保在安全的位置备份您的种子短语。 点击 `Next step` （下一步）并填写以下信息：
 
-* **Network**（网络）: 请选择 `HydraDX`
+* **Network**（网络）: 请选择 `Hydration`
 * **Descriptive name of the account**（账户的描述性名称）
 * **Password**（账户密码）
 

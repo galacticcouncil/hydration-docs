@@ -3,7 +3,7 @@ id: democracy_technical_committee
 title: Comité Technique
 ---
 
-Le comité technique est un groupe de développeurs expérimentés phares qui sont nommés directement par le Conseil HydraDX. Sa tâche principale est de sauvegarder la stabilité technique du protocole.
+Le comité technique est un groupe de développeurs expérimentés phares qui sont nommés directement par le Conseil Hydration. Sa tâche principale est de sauvegarder la stabilité technique du protocole.
 
 Le Comité Technique a le droit de **produire des référendums d'urgence** qui sont accélérés et votés en parallèle avec tout autre référendum actif. Cela permet au Comité d'agir rapidement et de délivrer des changements (de codes) critiques.
 

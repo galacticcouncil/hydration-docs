@@ -85,8 +85,8 @@ Initial price was not sniped and allowed to fall before the significant demand f
   <img alt="lbp" src={useBaseUrl('/lbp/exhibit_b.jpg')} width="600px" />
 </div>
 
-### Exhibit C: HydraDX LBP
-Finally, you can take a look at our [analysis of the HydraDX LBP](https://hydradx.substack.com/p/lbp-analysis) back in February 2021 which helped HydraDX raise 22.9M DAI to become one of the most successful LBPs ever conducted.
+### Exhibit C: Hydration LBP
+Finally, you can take a look at our [analysis of the Hydration LBP](https://hydradx.substack.com/p/lbp-analysis) back in February 2021 which helped Hydration raise 22.9M DAI to become one of the most successful LBPs ever conducted.
 
 <div style={{textAlign: 'center'}}>
   <img alt="lbp" src={useBaseUrl('/lbp/exhibit_c.jpg')} width="600px" />

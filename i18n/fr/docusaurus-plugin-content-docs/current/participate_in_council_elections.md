@@ -11,13 +11,13 @@ Cet article fournit des directions pas à pas sur comment participer aux électi
 Si vous vous intéressez au fonctionnement des élections, veuillez vous référer à [cet article](/democracy_council#elections).
 
 :::caution
-Le module de démocratie HydraDX sera lancé le, ou après le, **15 septembre 2021**. Veuillez ne pas tenter les actions montrées avant cette date.
+Le module de démocratie Hydration sera lancé le, ou après le, **15 septembre 2021**. Veuillez ne pas tenter les actions montrées avant cette date.
 :::
 
 ## Utilisation de Commonwealth.im {#cw}
 
 ### Voter aux élections des membres du Conseil {#cw-vote}
-Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes dans [L'onglet conseillers](https://commonwealth.im/hydradx/council) sur la page Commonwealth de HydraDX.
+Vous pouvez voir les membres du Conseil actuels ainsi que les finalistes dans [L'onglet conseillers](https://commonwealth.im/hydradx/council) sur la page Commonwealth de Hydration.
 
 Pour voter pour les membres du Conseil, Cliquez sur *Vote*.
 
@@ -36,7 +36,7 @@ Les tokens verrouillés ne peuvent pas être transférés, cependant ils peuvent
 :::
 
 ### Postuler comme candidat au Conseil {#cw-become_candidate}
-Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [l'onglet Conseillers](https://commonwealth.im/hydradx/council) sur la page Commonwealth de HydraDX.
+Vous pouvez soumettre votre candidature d'adhésion au Conseil en naviguant jusqu'à [l'onglet Conseillers](https://commonwealth.im/hydradx/council) sur la page Commonwealth de Hydration.
 
 Cliquez sur *Run for council* (se présenter au Conseil) ce qui vous emmènera à un page montrant le dépôt minimum pour l'adhésion.
 

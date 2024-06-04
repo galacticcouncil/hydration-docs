@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 在本页上，您将找到 **操作跨链转账的分步指南**。
 
-跨链转账，允许您将非本地资产从其他 Polkadot 平行链或 Polkadot 本身，转账到 HydraDX 链。
+跨链转账，允许您将非本地资产从其他 Polkadot 平行链或 Polkadot 本身，转账到 Hydration 链。
 
 目前，HydraDX 支持以下令牌进行跨链转账：
 * DOT

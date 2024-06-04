@@ -5,7 +5,7 @@ title: 连接到本地节点
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-您可以使用 Polkadot/apps 连接到 HydraDX 本地节点。为此，需要访问用于 RPC Websocket 连接的 `9944` 端口。
+您可以使用 Polkadot/apps 连接到 Hydration 本地节点。为此，需要访问用于 RPC Websocket 连接的 `9944` 端口。
 
 :::warning
 

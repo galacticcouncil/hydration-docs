@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This article provides an introduction to Automated Market Makers (AMMs) together with some of their underpinning concepts such as [slippage](#slippage), [liquidity provisioning](#lp) and [impermanent loss](#impermanent-loss).
 
-This introductory information will help you understand better the mechanics behind the HydraDX Omnipool which you can find described in our [product documentation](/).
+This introductory information will help you understand better the mechanics behind the Hydration Omnipool which you can find described in our [product documentation](/).
 
 ## A Short Intro into AMMs
 

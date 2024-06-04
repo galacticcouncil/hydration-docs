@@ -5,15 +5,15 @@ title: Establecer tu Identidad
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Los titulares de cuentas tienen la posibilidad de establecer su identidad proporcionando información específica y almacenándola en la cadena. Además de eso, la información de identidad se puede enviar opcionalmente a los registradores de HydraDX para su verificación. Al establecer y verificar su identidad, los validadores y nominadores ayudan a salvaguardar la confianza en la red.
+Los titulares de cuentas tienen la posibilidad de establecer su identidad proporcionando información específica y almacenándola en la cadena. Además de eso, la información de identidad se puede enviar opcionalmente a los registradores de Hydration para su verificación. Al establecer y verificar su identidad, los validadores y nominadores ayudan a salvaguardar la confianza en la red.
 
 :::note
-Si participa como validador de HydraDX, le recomendamos encarecidamente que establezca su identidad y se someta al proceso de verificación. Los validadores verificados parecen más confiables y atraen más nominaciones, lo que aumenta sus posibilidades de ser incluidos en el conjunto de validadores activos.
+Si participa como validador de Hydration, le recomendamos encarecidamente que establezca su identidad y se someta al proceso de verificación. Los validadores verificados parecen más confiables y atraen más nominaciones, lo que aumenta sus posibilidades de ser incluidos en el conjunto de validadores activos.
 :::
 
 ## 01 Establece tu identidad {#01-set-identity}
 
-Para establecer su identidad, abra Polkadot / apps (conectado a la red HydraDX Snakenet ) y navegue hasta Cuentas . Alternativamente, puede seguir este enlace:
+Para establecer su identidad, abra Polkadot / apps (conectado a la red Hydration Snakenet ) y navegue hasta Cuentas . Alternativamente, puede seguir este enlace:
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
@@ -45,12 +45,12 @@ Una vez que haya establecido su identidad, puede enviarla a los registradores de
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
-After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
+After selecting the relevant Hydration account from the last step, you need to fill out the following information:
 
 * **extrinsic**: identity
 * **action**: requestJudgement
 * **reg_index**: aquí debe ingresar el ID del registrador que elija para realizar la verificación.
-HydraDX tiene 2 registradores: Simon Kraus - HydraSik (ID: **0** ) y Jimmy Tudeski - stakenode (ID: **1** ).
+Hydration tiene 2 registradores: Simon Kraus - HydraSik (ID: **0** ) y Jimmy Tudeski - stakenode (ID: **1** ).
 * **max_fee**:aquí debe ingresar la tarifa máxima en HDX que está dispuesto a pagar al registrador por la verificación. Solo los registradores con una tarifa inferior a su max_fee serán elegibles para llevar a cabo la verificación.
 
 Para enviar su solicitud de verificación, haga clic en *Enviar transacción* y firme la transacción.

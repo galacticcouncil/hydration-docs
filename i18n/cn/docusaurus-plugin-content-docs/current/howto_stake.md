@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 如果您还没有 HDX，可以在我们的 **[交易页面](https://app.hydradx.io/#/trade)** 上，通过与 Omnipool（万能池） 支持的一系列资产进行交换，来获得一些 HDX。
 
-### 步骤 0: 导航至 HydraDX 质押页面
+### 步骤 0: 导航至 Hydration 质押页面
 
 https://app.hydradx.io/staking
 

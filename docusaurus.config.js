@@ -2,7 +2,7 @@ const math = require('remark-math');
 const katex = require('rehype-katex');
 
 module.exports = {
-  title: "HydraDX Docs",
+  title: "Hydration Docs",
   tagline: "Let's learn this",
   url: "https://docs.hydradx.io",
   baseUrl: "/",
@@ -10,15 +10,15 @@ module.exports = {
   onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.png",
   organizationName: "galacticcouncil", // Usually your GitHub org/user name.
-  projectName: "HydraDX-docs", // Usually your repo name.
+  projectName: "Hydration-docs", // Usually your repo name.
   themeConfig: {
     prism: {
       additionalLanguages: ['rust'],
     },
     navbar: {
-      title: "HydraDX Documentation",
+      title: "Hydration Documentation",
       logo: {
-        alt: "HydraDX logo",
+        alt: "Hydration logo",
         src: "img/logo.svg",
       },
       items: [
@@ -34,7 +34,7 @@ module.exports = {
         },
         {
           href: "https://hydradx.io",
-          label: "HydraDX Homepage",
+          label: "Hydration Homepage",
           position: "right",
         },
       ],
@@ -68,7 +68,7 @@ module.exports = {
           routeBasePath: "/",
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          editUrl: "https://github.com/galacticcouncil/HydraDX-docs/edit/main/",
+          editUrl: "https://github.com/galacticcouncil/Hydration-docs/edit/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

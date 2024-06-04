@@ -17,13 +17,13 @@ Si sus tokens xHDX están almacenados en Coinbase Wallet o Trust Wallet, deberá
 
 ## Proceso de Reclamo {#claim-process}
 
-Después de asegurarse de que ha cumplido con los requisitos previos descritos anteriormente, puede navegar a la [aplicación HydraDX Claim](https://claim.hydradx.io) y continuar con el proceso de reclamación.
+Después de asegurarse de que ha cumplido con los requisitos previos descritos anteriormente, puede navegar a la [aplicación Hydration Claim](https://claim.hydradx.io) y continuar con el proceso de reclamación.
 
 Durante el proceso de reclamo, usará sus tokens xHDX (ERC-20) para reclamar su parte de tokens HDX.
 
 ### 00 Autorización {#00-authorize}
 
-La aplicación HydraDX Claim solicitará la autorización de la extensión del navegador Polkadot.js.
+La aplicación Hydration Claim solicitará la autorización de la extensión del navegador Polkadot.js.
 
 :::warning
 Asegúrese de no ser víctima de un ataque de phishing y preste atención a la ventana emergente de autorización: la aplicación debe identificarse como **CLAIM.HYDRADX.IO** y la solicitud debe provenir de **https://reclamo .hidradx.io**.
@@ -32,7 +32,7 @@ Asegúrese de no ser víctima de un ataque de phishing y preste atención a la v
 
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
-Después de autorizar, se le pedirá que actualice los metadatos para la extensión del navegador Polkadot.js. Esto permitirá que Polkadot.js cree direcciones específicas de HydraDX que se requieren para completar el proceso de reclamo.
+Después de autorizar, se le pedirá que actualice los metadatos para la extensión del navegador Polkadot.js. Esto permitirá que Polkadot.js cree direcciones específicas de Hydration que se requieren para completar el proceso de reclamo.
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
@@ -54,7 +54,7 @@ No es elegible para un reembolso de gasolina si ha obtenido su xHDX en algún ot
 
 En el segundo paso, se le pedirá que seleccione su dirección HDX.
 
-Para crear una nueva dirección HDX, abra la extensión del navegador Polkadot.js y haga clic en el signo + para crear una nueva cuenta. En el primer paso de la creación de la cuenta, verá la frase mnemotécnica de 12 trabajos que se puede utilizar para recuperar su cuenta. Después de guardar su frase inicial en un lugar seguro, haga clic en *Siguiente paso*. Aquí, debe cambiar la **Red** seleccionando la opción **HydraDX Snakenet**. Ingrese un nombre y contraseña para su cuenta y finalice la creación de la cuenta.
+Para crear una nueva dirección HDX, abra la extensión del navegador Polkadot.js y haga clic en el signo + para crear una nueva cuenta. En el primer paso de la creación de la cuenta, verá la frase mnemotécnica de 12 trabajos que se puede utilizar para recuperar su cuenta. Después de guardar su frase inicial en un lugar seguro, haga clic en *Siguiente paso*. Aquí, debe cambiar la **Red** seleccionando la opción **Hydration Snakenet**. Ingrese un nombre y contraseña para su cuenta y finalice la creación de la cuenta.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
@@ -64,13 +64,13 @@ Asegúrese de hacer una copia de seguridad de su frase inicial de recuperación 
 
 :::
 
-Después de crear su cuenta HDX, debería poder seleccionarla en la aplicación HydraDX Claim. Después de hacerlo, la aplicación debería proporcionarle una descripción general de las direcciones ETH y HDX utilizadas para el proceso de reclamo. Haga clic en siguiente para continuar con la firma del mensaje.
+Después de crear su cuenta HDX, debería poder seleccionarla en la aplicación Hydration Claim. Después de hacerlo, la aplicación debería proporcionarle una descripción general de las direcciones ETH y HDX utilizadas para el proceso de reclamo. Haga clic en siguiente para continuar con la firma del mensaje.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
 ### 03 Firma {#03-sign}
 
-En el tercer paso del proceso de reclamo utilizando la aplicación HydraDX Claim, se le proporcionará la opción de firmar el mensaje para usar sus tokens xHDX para reclamar HDX.
+En el tercer paso del proceso de reclamo utilizando la aplicación Hydration Claim, se le proporcionará la opción de firmar el mensaje para usar sus tokens xHDX para reclamar HDX.
 
 :::note
 
@@ -82,7 +82,7 @@ Dependiendo de la elección que haya hecho en el primer paso, tiene dos opciones
 
 * Si está utilizando **Metamask**, después de hacer clic en el botón *Firmar*, Metamask le pedirá que firme el mensaje. Siga las instrucciones en Metamask.
 
-* Si ingresó su dirección ETH manualmente, deberá firmar el mensaje a través de la billetera externa que contiene las claves privadas de sus tokens xHDX. Una vez que haya firmado el mensaje, copie la firma (comenzando con *0x*) en el campo respectivo en la aplicación HydraDX Claim.
+* Si ingresó su dirección ETH manualmente, deberá firmar el mensaje a través de la billetera externa que contiene las claves privadas de sus tokens xHDX. Una vez que haya firmado el mensaje, copie la firma (comenzando con *0x*) en el campo respectivo en la aplicación Hydration Claim.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
@@ -92,4 +92,4 @@ Después de firmar el mensaje con la billetera que contiene sus tokens xHDX, la 
 
 ¡Ya ha completado el proceso de reclamación, convirtiéndose así oficialmente en propietario de HDX!
 
-Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts) conectado a HydraDX Red: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
+Puede consultar su saldo utilizando [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts) conectado a Hydration Red: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

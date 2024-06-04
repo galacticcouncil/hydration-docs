@@ -1,4 +1,4 @@
-# HydraDX-docs
+# Hydration-docs
 
 ## Installation
 

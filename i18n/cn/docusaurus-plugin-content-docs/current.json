@@ -3,9 +3,9 @@
     "message": "下一页",
     "description": "The label for version current"
   },
-  "sidebar.sidebar.category.HydraDX": {
-    "message": "HydraDX",
-    "description": "The label for category HydraDX in sidebar sidebar"
+  "sidebar.sidebar.category.Hydration": {
+    "message": "Hydration",
+    "description": "The label for category Hydration in sidebar sidebar"
   },
   "sidebar.sidebar.category.How-to": {
     "message": "指南",

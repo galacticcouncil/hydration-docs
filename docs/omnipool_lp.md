@@ -5,9 +5,9 @@ title: Single-Sided LPing
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The cutting-edge design of the HydraDX Omnipool unlocks the possibility of single-sided liquidity provisioning: Anyone can provide liquidity only for the asset they want, and as much as they want (up to the respective TVL cap for the asset). This resolves one of the main drawbacks of standard XYK AMMs which require that liquidity providers (LPs) deposit a pair of assets in equivalent value.
+The cutting-edge design of the Hydration Omnipool unlocks the possibility of single-sided liquidity provisioning: Anyone can provide liquidity only for the asset they want, and as much as they want (up to the respective TVL cap for the asset). This resolves one of the main drawbacks of standard XYK AMMs which require that liquidity providers (LPs) deposit a pair of assets in equivalent value.
 
-Liquidity in the HydraDX Omnipool is concentrated, meaning that by providing your asset you gain instant exposure to all other assets in the Omnipool. Forget about liquidity fragmentation and the need to spread your liquidity across several trading pools.
+Liquidity in the Hydration Omnipool is concentrated, meaning that by providing your asset you gain instant exposure to all other assets in the Omnipool. Forget about liquidity fragmentation and the need to spread your liquidity across several trading pools.
 
 ## The Hub Token LRNA
 

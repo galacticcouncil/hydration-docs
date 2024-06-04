@@ -5,15 +5,15 @@ title: Set your Identity
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the HydraDX registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
+Account holders have the possibility to set their identity by prodiving specific information and storing it on-chain. Besides that, the identity information can optionally be submitted to the Hydration registrars for verification. By setting and verifying their identity, validators and nominators help safeguard the trust in the network.
 
 :::note
-If you are participating as a HydraDX validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
+If you are participating as a Hydration validator we **highly recommend** that you both set your identity and undergo the verification process. Verified validators appear more trustworthy and attract more nominations, thereby increasing their chances to be included in the set of active validators.
 :::
 
 ## 01 Set identity {#01-set-identity}
 
-To set your identity, open Polkadot/apps (connected to *HydraDX Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
+To set your identity, open Polkadot/apps (connected to *Hydration Snakenet* network) and navigate to *My accounts*. Alternatively, you can follow this link:
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
@@ -45,12 +45,12 @@ After you have set your identity, you can submit it to the network registrars fo
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
-After selecting the relevant HydraDX account from the last step, you need to fill out the following information:
+After selecting the relevant Hydration account from the last step, you need to fill out the following information:
 
 * **extrinsic**: identity
 * **action**: requestJudgement
 * **reg_index**: here you need to enter the ID of the registrar that you choose to carry out the verification.  
-HydraDX has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
+Hydration has 2 registrars: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
 * **max_fee**: here you need to enter the maximum fee in HDX that you are willing to pay to the registrar for the verification. Only registrars with a fee below your max_fee will be eligible to carry out the verification.
 
 To submit your verification request, click on *Submit Transaction* and sign the transaction.

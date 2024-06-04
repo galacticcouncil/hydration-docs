@@ -10,12 +10,12 @@ Esta publicación proporciona una guía paso a paso sobre cómo participar en re
 Antes de que decida participar, le recomendamos encarecidamente que lea [este artículo](/democracy_referenda)  en la sección Aprender / Democracia. Allí encontrará algunos detalles importantes sobre la mecánica de los referendos.
 
 :::caution
-El módulo de democracia HydraDX se lanzará a partir del **15 de septiembre de 2021**. No intente ninguna de las acciones mostradas antes de esa fecha.
+El módulo de democracia Hydration se lanzará a partir del **15 de septiembre de 2021**. No intente ninguna de las acciones mostradas antes de esa fecha.
 :::
 
 ## Usando Commonwealth.im {#cw}
 ### Votar en un referéndum {#cw-vote}
-Puede ver todos los referendos que están abiertos para votación navegando a la [Referenda tab](https://commonwealth.im/hydradx/referenda) en la página HydraDX Commonwealth.
+Puede ver todos los referendos que están abiertos para votación navegando a la [Referenda tab](https://commonwealth.im/hydradx/referenda) en la página Hydration Commonwealth.
 
 Para votar en un referéndum activo, debe hacer clic en él. Después de eso, verá una página que muestra todos los detalles relevantes..
 
@@ -28,7 +28,7 @@ Después de eso, saque su voto haciendo clic en * Vote yes * o * Vote no * y fir
 
 ### Proponer un referéndum {#cw-propose}
 
-Para proponer un referéndum, visite la [página de HydraDX Commonwealth](https://commonwealth.im/hydradx/) y haga clic en el menú superior en *New Thread > New democracy proposal*.
+Para proponer un referéndum, visite la [página de Hydration Commonwealth](https://commonwealth.im/hydradx/) y haga clic en el menú superior en *New Thread > New democracy proposal*.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/participate_in_referenda/cw-proposal.jpg')} />
@@ -49,7 +49,7 @@ Después de enviar la propuesta on-chain y firmar la transacción, su propuesta 
 :::caution
 En cada período de votación, la propuesta de referéndum con el mayor respaldo (*secundando*) ingresa a la ronda de votación. A medida que aumenta la cantidad de referendos, no hay garantía de que su propuesta obtenga el apoyo suficiente para entrar en votación. No hay opción para retirar una propuesta de referéndum, lo que significa que sus fondos pueden permanecer bloqueados por un período de tiempo más largo.
 
-Las propuestas de referéndum maliciosas son castigadas. El Consejo de HydraDX y el Comité Técnico tienen derecho a cancelar cualquier referéndum propuesto de mala fe. Como resultado, los tokens depositados se quemarán.
+Las propuestas de referéndum maliciosas son castigadas. El Consejo de Hydration y el Comité Técnico tienen derecho a cancelar cualquier referéndum propuesto de mala fe. Como resultado, los tokens depositados se quemarán.
 :::
 
 ## Usando Polkadot/apps {#polkajs}
@@ -107,5 +107,5 @@ Después de enviar la propuesta on-chain y firmar la transacción, su propuesta 
 :::caution
 En cada período de votación, la propuesta de referéndum con el mayor respaldo (*secundando*) ingresa a la ronda de votación. A medida que aumenta la cantidad de referendos, no hay garantía de que su propuesta obtenga el apoyo suficiente para entrar en votación. No hay opción para retirar una propuesta de referéndum, lo que significa que sus fondos pueden permanecer bloqueados por un período de tiempo más largo.
 
-Las propuestas de referéndum maliciosas son castigadas. El Consejo de HydraDX y el Comité Técnico tienen derecho a cancelar cualquier referéndum propuesto de mala fe. Como resultado, los tokens depositados se quemarán.
+Las propuestas de referéndum maliciosas son castigadas. El Consejo de Hydration y el Comité Técnico tienen derecho a cancelar cualquier referéndum propuesto de mala fe. Como resultado, los tokens depositados se quemarán.
 :::

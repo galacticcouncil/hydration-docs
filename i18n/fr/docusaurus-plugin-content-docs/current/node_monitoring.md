@@ -121,7 +121,7 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-La première tâche d'organisation de données (scrape) exporte les données de Prometheus, la seconde exporte les mesures du node HydraDX.
+La première tâche d'organisation de données (scrape) exporte les données de Prometheus, la seconde exporte les mesures du node Hydration.
 Nous avons réglé le `scrape_interval` de chaque tâche pour avoir des statistiques plus détaillées. Cela remplace les valeurs globales.
 Le `target` dans `static_configs` définit où les exportateurs fonctionnent, nous nous en tenons aux ports par défaut ici.
 
@@ -327,7 +327,7 @@ Veuillez cliquer sur le bouton `Plus` dans le menu principal de navigation et s�
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-Nous allons utiliser le [Tableau de bord HydraDX](https://grafana.com/grafana/dashboards/14158) pour le charger vous entrez l'id `14158` et cliquez sur le bouton `Load`.
+Nous allons utiliser le [Tableau de bord Hydration](https://grafana.com/grafana/dashboards/14158) pour le charger vous entrez l'id `14158` et cliquez sur le bouton `Load`.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />

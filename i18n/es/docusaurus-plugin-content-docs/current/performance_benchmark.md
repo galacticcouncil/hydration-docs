@@ -38,10 +38,10 @@ transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.1
 
 Notes:
 - in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
-- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
+- if diff is positive for all three pallets, your machine covers the minimum requirements for running a Hydration node
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
-Puede ver la diferencia en el rendimiento entre su máquina y la configuración mínima requerida en la columna **diff* (%)**. Si los tres valores de esta columna son positivos, su máquina debería ser adecuada para ejecutar un nodo validador HydraDX. Si alguno de los valores está por debajo de *-10%*, no recomendamos ejecutar un nodo HydraDX.
+Puede ver la diferencia en el rendimiento entre su máquina y la configuración mínima requerida en la columna **diff* (%)**. Si los tres valores de esta columna son positivos, su máquina debería ser adecuada para ejecutar un nodo validador Hydration. Si alguno de los valores está por debajo de *-10%*, no recomendamos ejecutar un nodo Hydration.
 
 Únase a nosotros en Discord si desea discutir sus resultados de referencia, nuestra comunidad siempre estará feliz de ayudar.

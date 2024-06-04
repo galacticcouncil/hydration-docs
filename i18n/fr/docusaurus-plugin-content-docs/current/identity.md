@@ -13,7 +13,7 @@ Si vous participez en tant que validateur HydradDX nous **recommandons fortement
 
 ## 01 Définir votre identité {#01-set-identity}
 
-Pour définir votre identité, ouvrez Polkadot/apps (connecté au réseau *HydraDX Snakenet* ) et naviguez jusqu'à *Mes comptes*. Sinon, vous pouvez suivre ce lien:
+Pour définir votre identité, ouvrez Polkadot/apps (connecté au réseau *Hydration Snakenet* ) et naviguez jusqu'à *Mes comptes*. Sinon, vous pouvez suivre ce lien:
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
@@ -45,11 +45,11 @@ Après avoir défini votre identité, vous pouvez la soumettre aux gérants de r
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
-Après avoir sélectionné le compte HydraDX approprié (de l'étape précédente), vous devez remplir les informations suivantes:
+Après avoir sélectionné le compte Hydration approprié (de l'étape précédente), vous devez remplir les informations suivantes:
 
 * **extrinsic**: identity
 * **action**: requestJudgment
-* **reg_index**: Ici vous devez entrez l'ID du gérant de registre que vous choisissez pour procéder à la vérification. HydraDX a deux gérants de registres: Simon Kraus - HydraSik (ID: **0**) et Jimmy Tudeski - stakenode (ID: **1**).
+* **reg_index**: Ici vous devez entrez l'ID du gérant de registre que vous choisissez pour procéder à la vérification. Hydration a deux gérants de registres: Simon Kraus - HydraSik (ID: **0**) et Jimmy Tudeski - stakenode (ID: **1**).
 * **max_fee**: Ici vous devez entrer le montant de frais maximum en HDX  que vous êtes prêt à payer au registraire pour la vérification. Seuls les registraires avec des frais inférieurs à votre max_fee vont être éligible pour effectuer la vérification.
 
 Pour soumettre la requête de vérification, cliquez sur *Soumettre la transaction* (*Submit Transaction* en anglais) et signez la transaction.

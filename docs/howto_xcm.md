@@ -7,9 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page you will find a **step-by-step guide for performing cross-chain transfers**. 
 
-Cross-chain transfers allow you to transport non-native assets to the HydraDX chain from other Polkadot parachains, or from Polkadot itself.
+Cross-chain transfers allow you to transport non-native assets to the Hydration chain from other Polkadot parachains, or from Polkadot itself.
 
-Currently, the following tokens are supported by HydraDX for cross-chain transfers:
+Currently, the following tokens are supported by Hydration for cross-chain transfers:
 * DOT
 * DAI (from Acala, bridged via Wormhole)
 * ETH  (from Acala, bridged via Wormhole)

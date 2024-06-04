@@ -18,13 +18,13 @@ Si vos tokens xHDX sont stockés dans un portefeuille Coinbase ou un portefeuill
 
 ## procédure de réclamation {#claim-process}
 
-Après vous être assuré que vous satisfaites les prérequis décris ci-dessus, vous pouvez vous rendre sur [application de réclamation HydraDX](https://claim.hydradx.io) et effectuer le procédé de récupération.
+Après vous être assuré que vous satisfaites les prérequis décris ci-dessus, vous pouvez vous rendre sur [application de réclamation Hydration](https://claim.hydradx.io) et effectuer le procédé de récupération.
 
 Pendant la procédure de récupération, vous allez utiliser vos tokens xHDX (ERC-20) pour récupérer votre part de tokens HDX.
 
 ### 00 Autoriser {#00-authorize}
 
-L'application de réclamation HydraDX va requérir une autorisation de l'extension de navigateur Polkadot.js.
+L'application de réclamation Hydration va requérir une autorisation de l'extension de navigateur Polkadot.js.
 
 :::warning
 
@@ -34,7 +34,7 @@ assurez vous que vous n'êtes pas victime d'une attaque d'hameçonnage, et soyez
 
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
-Après autorisation, vous serez invité à mettre à jour les métadonnées pour l'extension de navigateur Polkadot.js. Cela permettra à Polkadot.js de créer des adresses spécifiques à HydraDX qui seront nécessaires pour terminer la procédure de récupération.
+Après autorisation, vous serez invité à mettre à jour les métadonnées pour l'extension de navigateur Polkadot.js. Cela permettra à Polkadot.js de créer des adresses spécifiques à Hydration qui seront nécessaires pour terminer la procédure de récupération.
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
@@ -56,7 +56,7 @@ Vous n'êtes pas éligible pour un remboursement de gaz si vous avez obtenu vos 
 
 Dans la seconde étape, on vous demandera de choisir votre adresse HDX.
 
-Pour créer une nouvelle adresse HDX, ouvre l'extension de navigateur Polkadot.js et cliquez sur le signe  "+" pour créer un nouveau compte. Dans la première étape de création de compte, vous verrez la phrase mnémotechnique de 12 mots qui pourra être utilisée pour récupérer votre compte. Après avoir enregistré votre "seed phrase" dans un endroit sûr, cliquez sur *Next step*. Ici, vous devriez changer le **Network** en choisissant l'option **HydraDX Snakenet**.
+Pour créer une nouvelle adresse HDX, ouvre l'extension de navigateur Polkadot.js et cliquez sur le signe  "+" pour créer un nouveau compte. Dans la première étape de création de compte, vous verrez la phrase mnémotechnique de 12 mots qui pourra être utilisée pour récupérer votre compte. Après avoir enregistré votre "seed phrase" dans un endroit sûr, cliquez sur *Next step*. Ici, vous devriez changer le **Network** en choisissant l'option **Hydration Snakenet**.
 Saisissez un nom et un mot de passe pour votre compte, et finissez la création de compte.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
@@ -67,13 +67,13 @@ Assurez vous de conserver votre "seed phrase" de récupération en la stockant d
 
 :::
 
-Après avoir créé votre compte HDX, vous devriez être capable de le séléctionner dans l'application de récupération HydraDX. Après l'avoir fait, l'application devrait vous fournir un aperçu des adresses ETH et HDX utilisées pour la procédure de récupération. Cliquez sur suivant pour procéder à la signature du message.
+Après avoir créé votre compte HDX, vous devriez être capable de le séléctionner dans l'application de récupération Hydration. Après l'avoir fait, l'application devrait vous fournir un aperçu des adresses ETH et HDX utilisées pour la procédure de récupération. Cliquez sur suivant pour procéder à la signature du message.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
 ### 03 Signer {#03-sign}
 
-Dans la troisième étape du processus de récupération en utilisant l'application de récupération HydraDX, vous aurez l'option de signer le message en utilisant vos tokens xHDX pour réclamer vos HDX.
+Dans la troisième étape du processus de récupération en utilisant l'application de récupération Hydration, vous aurez l'option de signer le message en utilisant vos tokens xHDX pour réclamer vos HDX.
 
 :::note
 
@@ -85,7 +85,7 @@ Selon le choix que vous avez fait à la première étape, vous avez deux options
 
 * Si vous utilisez **Metamask**, après avoir cliqué sur le bouton *sign* (signez) vous serez invité par Metamask à signer le message. Suivez les instructions dans Metamask.
 
-* Si vous avez entré votre adresse ETH manuellement, vous devrez signer le message via le portefeuille externe qui contient la clé privée de vos tokens xHDX. Une fois que vous avez signé le message, copiez la signature (qui commence par "0x") dans le champ respectif sur l'application de récupération HydraDX.
+* Si vous avez entré votre adresse ETH manuellement, vous devrez signer le message via le portefeuille externe qui contient la clé privée de vos tokens xHDX. Une fois que vous avez signé le message, copiez la signature (qui commence par "0x") dans le champ respectif sur l'application de récupération Hydration.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
@@ -97,4 +97,4 @@ Après avoir signé le message avec le portefeuille contenant vos tokens xHDX, l
 
 Vous avez terminé la procédure de récupération, faisant ainsi de vous un propriétaire de HDX.
 
-Vous pouvez visualiser votre solde en utilisant Polkadot/apps connecté au réseau HydraDX: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
+Vous pouvez visualiser votre solde en utilisant Polkadot/apps connecté au réseau Hydration: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

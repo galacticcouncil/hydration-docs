@@ -5,11 +5,11 @@ title: Staking
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-HydraDX has a **long-running HDX staking program** which **incentivizes user activity** in areas that are beneficial to the Protocol. On this page you will find important information regarding the **mechanics behind the HDX Staking program**. You can also check out our [step-by-step guide on staking](/howto_stake).
+Hydration has a **long-running HDX staking program** which **incentivizes user activity** in areas that are beneficial to the Protocol. On this page you will find important information regarding the **mechanics behind the HDX Staking program**. You can also check out our [step-by-step guide on staking](/howto_stake).
 
 ## Staking Basics {#basics}
 
-HDX holders can **stake their HDX and receive rewards** which become **claimable as time passes**. Staking rewards are distributed from a dedicated pot that is gradually filled up by **different Protocol revenue streams**. Initially, the main revenue stream are the **LP fees** which the HydraDX Protocol accrues from its **HDX LP position in the Omnipool**. Furthermore, the HydraDX community has approved a proposal to support the APR during the first year of the staking program with **an additional subsidy of ~22M HDX** from the HydraDX Treasury which is gradually distributed to the staking rewards pot once per day.
+HDX holders can **stake their HDX and receive rewards** which become **claimable as time passes**. Staking rewards are distributed from a dedicated pot that is gradually filled up by **different Protocol revenue streams**. Initially, the main revenue stream are the **LP fees** which the Hydration Protocol accrues from its **HDX LP position in the Omnipool**. Furthermore, the Hydration community has approved a proposal to support the APR during the first year of the staking program with **an additional subsidy of ~22M HDX** from the Hydration Treasury which is gradually distributed to the staking rewards pot once per day.
 
 Rewards which enter the staking pot are always distributed directly to all stakers at any given moment. The amount that users are entitled to is proportional to the relative size of their stake in the stake pool. However, stakers do not automatically receive the rewards on their account - instead, they need to claim them.
 
@@ -19,7 +19,7 @@ Users who want to claim as many rewards as possible should keep their HDX staked
 
 ## Boosting Your Rewards {#boosting-your-rewards}
 
-Stakers can increase the pace at which they can claim their rewards by **collecting action points** and **boosting their rewards**. Action points can be acquired by performing certain actions that are incentivized by the Protocol. Initially, the only way to collect action points is to **participate in the governance of HydraDX** by [voting on community referenda](https://hydradx.subsquare.io/democracy/referenda) **using the staked HDX**.
+Stakers can increase the pace at which they can claim their rewards by **collecting action points** and **boosting their rewards**. Action points can be acquired by performing certain actions that are incentivized by the Protocol. Initially, the only way to collect action points is to **participate in the governance of Hydration** by [voting on community referenda](https://hydradx.subsquare.io/democracy/referenda) **using the staked HDX**.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/staking/rewards_bonding_curve.jpg')} width="500px" />

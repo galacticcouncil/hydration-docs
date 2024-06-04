@@ -38,10 +38,10 @@ transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.1
 
 Notes:
 - dans les champs "diff" vous pouvez voir la différence entre le temps benchmark de référence et le temps benchmark de votre machine
-- Si diff est positif pour les trois données, votre machine répond aux exigences minimums pour faire fonctionner un node HydraDX
+- Si diff est positif pour les trois données, votre machine répond aux exigences minimums pour faire fonctionner un node Hydration
 - Si diff dévie de -10% ou plus pour certaines données, votre machine pourrait ne pas convenir pour faire fonctionner un node
 ```
 
-Vous pouvez voir la différence de performance entre votre machine et la configuration minimale requise dans la colonne **diff* (%)**. Si les trois valeurs dans cette colonne sont positives, votre machine devrait convenir pour faire fonctionner un node validateur HydraDX. Si une des valeurs est en dessous de *-10 %*, il est déconseillé de faire fonctionner un node HydraDX.
+Vous pouvez voir la différence de performance entre votre machine et la configuration minimale requise dans la colonne **diff* (%)**. Si les trois valeurs dans cette colonne sont positives, votre machine devrait convenir pour faire fonctionner un node validateur Hydration. Si une des valeurs est en dessous de *-10 %*, il est déconseillé de faire fonctionner un node Hydration.
 
 Rejoignez nous sur Discord si vous voulez discuter des résultats du benchmark, notre communauté vous aidera volontiers.

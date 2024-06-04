@@ -123,7 +123,7 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-第一个抓取作业导出 Prometheus 本身的数据，第二个抓取作业导出 HydraDX 节点指标。 我们调整了两个作业的 `scrape_interval` 以获得更详细的统计信息。 这将覆盖全局值。 `static_configs` 中的 `target` 设置导出程序运行的位置，这里我们使用默认端口。
+第一个抓取作业导出 Prometheus 本身的数据，第二个抓取作业导出 Hydration 节点指标。 我们调整了两个作业的 `scrape_interval` 以获得更详细的统计信息。 这将覆盖全局值。 `static_configs` 中的 `target` 设置导出程序运行的位置，这里我们使用默认端口。
 
 保存配置后，我们将再次更改所有权：
 
@@ -323,7 +323,7 @@ Password: `admin`
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-我们将使用 **[HydraDX Dashboard（仪表盘）](https://grafana.com/grafana/dashboards/14158)** 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
+我们将使用 **[Hydration Dashboard（仪表盘）](https://grafana.com/grafana/dashboards/14158)** 进行加载，您只需输入id `14158` 并点击 `Load` 按钮即可加载它：
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />

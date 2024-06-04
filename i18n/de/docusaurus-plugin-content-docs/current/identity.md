@@ -5,15 +5,15 @@ title: Identität festlegen
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Kontoinhaber haben die Möglichkeit, ihre eigene Identität festzulegen, indem sie bestimmte Informationen bereitstellen und in der Blockchain speichern. Außerdem können die Identitätsinformationen optional zur Überprüfung an die HydraDX-Registratoren übermittelt werden. Durch das Festlegen und Überprüfen ihrer Identität tragen Validatoren und Nominatoren dazu bei, das Vertrauen in das Netzwerk zu stärken.
+Kontoinhaber haben die Möglichkeit, ihre eigene Identität festzulegen, indem sie bestimmte Informationen bereitstellen und in der Blockchain speichern. Außerdem können die Identitätsinformationen optional zur Überprüfung an die Hydration-Registratoren übermittelt werden. Durch das Festlegen und Überprüfen ihrer Identität tragen Validatoren und Nominatoren dazu bei, das Vertrauen in das Netzwerk zu stärken.
 
 :::note
-Wenn Sie als HydraDX-Validator teilnehmen, empfehlen wir Ihnen dringend, sowohl Ihre Identität festzulegen als auch den Überprüfungsprozess durchzuführen. Verifizierte Validatoren erscheinen vertrauenswürdiger und ziehen mehr Nominierungen an, wodurch sich ihre Chancen erhöhen, in die Gruppe der aktiven Validatoren aufgenommen zu werden.
+Wenn Sie als Hydration-Validator teilnehmen, empfehlen wir Ihnen dringend, sowohl Ihre Identität festzulegen als auch den Überprüfungsprozess durchzuführen. Verifizierte Validatoren erscheinen vertrauenswürdiger und ziehen mehr Nominierungen an, wodurch sich ihre Chancen erhöhen, in die Gruppe der aktiven Validatoren aufgenommen zu werden.
 :::
 
 ## 01 Identität festlegen {#01-set-identity}
 
-Um Ihre Identität festzulegen, öffnen Sie Polkadot/apps (verbunden mit *HydraDX Snakenet* network) und navigieren Sie zu *My accounts*. Man kann auch diesem Link folgen:
+Um Ihre Identität festzulegen, öffnen Sie Polkadot/apps (verbunden mit *Hydration Snakenet* network) und navigieren Sie zu *My accounts*. Man kann auch diesem Link folgen:
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts
 
@@ -45,12 +45,12 @@ Nachdem Sie Ihre Identität festgelegt haben, kann man sie zur Überprüfung an 
 
 https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics
 
-Nachdem Sie im letzten Schritt das entsprechende HydraDX-Konto ausgewählt haben, müssen Sie die folgenden Informationen eingeben:
+Nachdem Sie im letzten Schritt das entsprechende Hydration-Konto ausgewählt haben, müssen Sie die folgenden Informationen eingeben:
 
 * **extrinsic**: identity
 * **action**: requestJudgment
 * **reg_index**: Hier müssen Sie die ID des Registers eingeben, den Sie für die Überprüfung ausgewählt haben.  
-HydraDX hat 2 Registratoren: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
+Hydration hat 2 Registratoren: Simon Kraus - HydraSik (ID: **0**) and Jimmy Tudeski - stakenode (ID: **1**).
 * **max_fee**: Hier müssen Sie die maximale Gebühr in HDX eingeben, die Sie zur Überprüfung an den Registrator zahlen möchten. Nur Registratoren mit einer Gebühr unter Ihrer max_fee können die Überprüfung durchführen.
 
 Um Ihre Bestätigungsanfrage einzureichen, klicken Sie auf *Submit Transaction* und signieren Sie die Transaktion.

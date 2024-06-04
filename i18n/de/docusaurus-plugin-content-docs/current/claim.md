@@ -17,7 +17,7 @@ Sollten Sie ihre xHDX Token in einem Coinbase Wallet oder Trust Wallet aufbewahr
 
 ## Beanspruchungsprozess {#claim-process}
 
-Wenn alle Vorbereitungen abgeschlossen sind können Sie die [HydraDX Claim App](https://claim.hydradx.io) besuchen und den Prozess starten.
+Wenn alle Vorbereitungen abgeschlossen sind können Sie die [Hydration Claim App](https://claim.hydradx.io) besuchen und den Prozess starten.
 
 Während des Claim-Prozesses werden Sie ihre xHDX Token (ERC-20) verwenden um Ihre HDX Token zu erhalten.
 
@@ -32,7 +32,7 @@ Stellen Sie sicher, dass die Aufforderung CLAIM.HYDRADX.IO anzeigt und  https://
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
 
-Nach der Authorisierung, werden Sie aufgefordert ihre Metadaten für die polkadot.js Erweiterung zu aktualisieren. Dies bedeutet, dass die Polkadot.js Erweiterung dazu in der Lage sein wird HydraDX spezifische Adressen zu erstellen, welche notwendig sind um den Beanspruchungsprozess in der Benutzeroberfläche zu vervollständigen.
+Nach der Authorisierung, werden Sie aufgefordert ihre Metadaten für die polkadot.js Erweiterung zu aktualisieren. Dies bedeutet, dass die Polkadot.js Erweiterung dazu in der Lage sein wird Hydration spezifische Adressen zu erstellen, welche notwendig sind um den Beanspruchungsprozess in der Benutzeroberfläche zu vervollständigen.
 
 Nachdem Sie Ihre Ethereum-Adresse eingegeben haben sollten Sie die Menge an HDX Token sehen, die Sie beanspruchen können und die [erstatteten Gas-Gebühren](https://hydradx.substack.com/p/first-governance-vote), die Sie während des Kaufvorgangs der xHDX Token bei Balancer bezahlt haben.
 
@@ -55,7 +55,7 @@ Im zweiten Schritt müssen Sie ihre HDX Adresse auswählen.
 Um eine neue HDX Adresse zu erstellen öffnen Sie die Polkadot.js Browserextension und klicken das + Symbol.
 Im ersten Schritt der Accounterstellung sehen Sie ihre Mnemonic Phrase, welche aus 12 Worten besteht und dazu verwendet werden kann den Account später wiederherzustellen.
 Nachdem Sie ihre Seed Phrase an einem sicheren Ort gespeichert haben klicken Sie auf *Next step*. 
-Hier müssen Sie das **Network** auf **HydraDX Snakenet Gen2** umstellen. 
+Hier müssen Sie das **Network** auf **Hydration Snakenet Gen2** umstellen. 
 Vergeben Sie einen Namen und ein Passwort für den Account und beenden die Accounterstellung.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
@@ -94,4 +94,4 @@ Sobald die Nachricht signiert ist, müssen Sie eine Transaktion senden und Sie m
 
 Sie habenn den Claim-Prozess erfolgreich abgeschlossen und sind nun offiziell ein HDX-Halter!
 
-Sie können Ihren Kontostand mit Hilfe von Polkadot/apps überprüfen wenn Sie sich mit dem HydraDX Netzwerk verbunden haben: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
+Sie können Ihren Kontostand mit Hilfe von Polkadot/apps überprüfen wenn Sie sich mit dem Hydration Netzwerk verbunden haben: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

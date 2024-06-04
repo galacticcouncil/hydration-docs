@@ -5,13 +5,13 @@ title: Soliciar tips de la Tesorería
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Con el lanzamiento del [Programa de incentivos HydraDX New Deal ](#link-to-new-deal), los miembros de la comunidad pueden solicitar tips a la Tesorería  como recompensa por sus contribuciones. Con esta guía, podra tener un paso a paso, del proceso de solicitud de tips. Puede encontrar más información sobre los diferentes tipos de actividades que se recompensan en [este post](/spending_fw).
+Con el lanzamiento del [Programa de incentivos Hydration New Deal ](#link-to-new-deal), los miembros de la comunidad pueden solicitar tips a la Tesorería  como recompensa por sus contribuciones. Con esta guía, podra tener un paso a paso, del proceso de solicitud de tips. Puede encontrar más información sobre los diferentes tipos de actividades que se recompensan en [este post](/spending_fw).
 
 El proceso para solicitar tips a la Tesorería consta de dos pasos. En el primer paso, los contribuyentes deben publicar su solicitud de tips en Commonwealth.im con una descripción de la contribución. Como segundo paso, la solicitud de tips a la Tesorería debe enviarse on-chain utilizando Polkadot/apps.
 
 ## 01 Publica la solicitud del tips en Commonwealth.im {#01-publish-tip-request}
 
-Para salvaguardar la transparencia, todas las solicitudes de tips a la Tesorería deben publicarse en un hilo en la [pagina de HydraDX Commonwealth](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.Antes de abrir un hilo, debe vincular su billetera HydraDX a Commonwealth.im: haga clic en *Log in* (esquina superior derecha) y seleccione *Continue with wallet > polkadot-js*
+Para salvaguardar la transparencia, todas las solicitudes de tips a la Tesorería deben publicarse en un hilo en la [pagina de Hydration Commonwealth](https://commonwealth.im/hydradx). Before opening a thread, you need to link your Hydration wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.Antes de abrir un hilo, debe vincular su billetera Hydration a Commonwealth.im: haga clic en *Log in* (esquina superior derecha) y seleccione *Continue with wallet > polkadot-js*
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
@@ -27,7 +27,7 @@ Puede utilizar el título del hilo para indicar el tema (tip request) y el tema 
 * Un breve resumen de la contribución
 * El monto del tip solicitado (en HDX)
 * Tiempo dedicado a la contribución (en horas)
-* Si es apropiado, proporcione información más detallada así como la relevancia de la contribución a HydraDX, y a su vez el link al PR(en caso de ser una contribución técnica)
+* Si es apropiado, proporcione información más detallada así como la relevancia de la contribución a Hydration, y a su vez el link al PR(en caso de ser una contribución técnica)
 
 Como referencia, puede echar un vistazo a [esta solicitud como ejemplo](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
 

@@ -5,22 +5,22 @@ title: Trade in Omnipool
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This page provides a **step-by-step guide** which will **help you execute your first trades** using the HydraDX Omnipool.
+This page provides a **step-by-step guide** which will **help you execute your first trades** using the Hydration Omnipool.
 
-The HydraDX Omnipool is a next-gen AMM which unlocks unparalleled efficiencies, you can find out more in our [product documentation](/).
+The Hydration Omnipool is a next-gen AMM which unlocks unparalleled efficiencies, you can find out more in our [product documentation](/).
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_trade/trade_screen_st.jpg')} />
 </div>
 
 ## 00 Transport tokens
-If you would like to execute a trade using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the HydraDX chain. This step does not apply to HDX.
+If you would like to execute a trade using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the Hydration chain. This step does not apply to HDX.
 
 There are two different mechanisms to transport non-native assets:
 * [Cross-chain transfer](https://app.hydradx.io/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](howto_xcm);
 * [Ethereum bridge](https://www.portalbridge.com/#/transfer) - for bridging assets from the Ethereum ecosystem. Step-by-step documentation [here](/bridge_from_ethereum).
 
-These solutions can also be used to transport tokens outside of the HydraDX network.
+These solutions can also be used to transport tokens outside of the Hydration network.
 
 ## 01 Enter Omnipool
 [https://app.hydradx.io/#/trade](https://app.hydradx.io/trade)
@@ -29,7 +29,7 @@ These solutions can also be used to transport tokens outside of the HydraDX netw
 Click on `Connect wallet` **(1 in image above)** and connect to your preferred Polkadot wallet. After that, select your account.
 
 ## 03 Execute a Trade
-The HydraDX Trade UI allows you to intuitively execute a trade:
+The Hydration Trade UI allows you to intuitively execute a trade:
 
 * Select the pair of tokens you intend to trade **(2)**;
 * Enter the amount of tokens for the trade **(3)**.  

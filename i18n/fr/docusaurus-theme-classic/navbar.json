@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Documentation HydraDX",
+    "message": "Documentation Hydration",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
     "message": "Documents",
     "description": "Navbar item with label Docs"
   },
-  "item.label.HydraDX Homepage": {
-    "message": "Page d'accueil de HydraDX",
-    "description": "Navbar item with label HydraDX Homepage"
+  "item.label.Hydration Homepage": {
+    "message": "Page d'accueil de Hydration",
+    "description": "Navbar item with label Hydration Homepage"
   }
 }

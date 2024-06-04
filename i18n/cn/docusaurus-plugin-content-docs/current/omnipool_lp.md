@@ -5,9 +5,9 @@ title: 单边提供流动性
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-HydraDX Omnipool（万能池）的尖端设计提供了单边流动性供应的可能性：任何人都可以只为他们想要的资产提供流动性，而且数量不限（不超过 Omnipool 设定的资产 TVL 上限）。 这根除了标准 XYK AMM 的一个主要痛点：流动性提供者（LP）必须存入一对等价值的资产。 
+Hydration Omnipool（万能池）的尖端设计提供了单边流动性供应的可能性：任何人都可以只为他们想要的资产提供流动性，而且数量不限（不超过 Omnipool 设定的资产 TVL 上限）。 这根除了标准 XYK AMM 的一个主要痛点：流动性提供者（LP）必须存入一对等价值的资产。 
 
-HydraDX Omnipool 的流动性是集中的，这意味着通过提供资产，您可以获得在 Omnipool 中所有其他资产面前即时曝光的机会。请忘掉流动性碎片化和将流动性分散到多个交易池的需求吧！
+Hydration Omnipool 的流动性是集中的，这意味着通过提供资产，您可以获得在 Omnipool 中所有其他资产面前即时曝光的机会。请忘掉流动性碎片化和将流动性分散到多个交易池的需求吧！
 
 ## 枢纽令牌 LRNA
 

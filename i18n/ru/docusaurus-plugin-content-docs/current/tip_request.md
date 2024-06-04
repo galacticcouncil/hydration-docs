@@ -5,13 +5,13 @@ title: Request a Treasury Tip
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With the launch of the [HydraDX New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/spending_fw).
+With the launch of the [Hydration New Deal incentives program](#link-to-new-deal), community members can request HDX tips from the Treasury as a reward for their contributions. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/spending_fw).
 
 The process of requesting a Treasury tip consists of two steps. In the first step, contributors need to publish their tip request in Commonwealth.im with a description of the contribution. As a second step, the Treasury tip request must be submitted on-chain using Polkadot/apps.
 
 ## 01 Publish the Tip Request in Commonwealth.im {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published in a thread on the [HydraDX Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your HydraDX wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
+To safeguard transparency, all Treasury tip requests must be published in a thread on the [Hydration Commonwealth page](https://commonwealth.im/hydradx). Before opening a thread, you need to link your Hydration wallet to Commonwealth.im: Click *Log in* (top right corner) and select *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
@@ -27,7 +27,7 @@ You can use the title of the thread to indicate the subject (tip request) and th
 * A brief summary of the contribution
 * The amount of the requested tip (in HDX)
 * Time spent on the contribution (in hours)
-* If needed, a more detailed description including the relevance of the contribution to HydraDX
+* If needed, a more detailed description including the relevance of the contribution to Hydration
 
 For reference, you can take a look at [this example tip request](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking).
 

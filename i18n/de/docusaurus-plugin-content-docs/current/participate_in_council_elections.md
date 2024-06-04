@@ -10,7 +10,7 @@ Dieser Artikel enthält eine Schritt-für-Schritt-Anleitung zur Teilnahme an Rat
 Wenn Sie daran interessiert sind, wie der Wahlmechanismus funktioniert, lesen Sie bitte [diesen Beitrag](/democracy_council#elections).
 
 :::caution
-Das HydraDX-Demokratiemodul wird am oder nach dem **15. September 2021** eingeführt. Bitte versuchen Sie vor diesem Datum keine der angezeigten Aktionen.
+Das Hydration-Demokratiemodul wird am oder nach dem **15. September 2021** eingeführt. Bitte versuchen Sie vor diesem Datum keine der angezeigten Aktionen.
 :::
 
 ## Verwundung von Polkadot/apps {#polkajs}

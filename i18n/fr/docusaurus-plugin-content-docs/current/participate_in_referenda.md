@@ -10,12 +10,12 @@ Ce post fournit un guide détaillé sur comment participer aux référendums - v
 Avant de vous décider à participer, nous vous encourageons fortement à lire [l'article informatif](/democracy_referenda) dans la section Apprendre / Démocratie. Là, vous trouverez des détails importants sur les mécanismes derrière les référendums.
 
 :::caution
-Le module de démocratie HydraDX sera lancé le, ou après le, **15 septembre 2021**. Veuillez ne pas tenter les actions montrées avant cette date.
+Le module de démocratie Hydration sera lancé le, ou après le, **15 septembre 2021**. Veuillez ne pas tenter les actions montrées avant cette date.
 :::
 
 ## Utiliser Commonwealth.im {#cw}
 ### Voter dans un Référendum {#cw-vote}
-Vous pouvez voir tous les référendums qui sont ouverts au vote en naviguant sur [l'onglet Référendums](https://commonwealth.im/hydradx/referenda) sur la page Commonwealth de HydraDX.
+Vous pouvez voir tous les référendums qui sont ouverts au vote en naviguant sur [l'onglet Référendums](https://commonwealth.im/hydradx/referenda) sur la page Commonwealth de Hydration.
 
 Pour voter sur un référendum actif, vous devez cliquer dessus. Après quoi, vous verrez une page montrant tous les détails pertinents. 
 
@@ -27,7 +27,7 @@ Dans la section *Cast Your Vote* (*Voter*), remplissez les information suivantes
 Après ça, votez en cliquant sur *Vote yes/oui* ou *Vote no/non* et signez la transaction.
 
 ### Proposer un Référendum {#cw-propose}
-Pour proposer un référendum, visitez la [page Commonwealth HydraDX](https://commonwealth.im/hydradx/) et cliquez sur le menu du dessus sur *New Thread > New democracy proposal*.
+Pour proposer un référendum, visitez la [page Commonwealth Hydration](https://commonwealth.im/hydradx/) et cliquez sur le menu du dessus sur *New Thread > New democracy proposal*.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/participate_in_referenda/cw-proposal.jpg')} />
@@ -48,7 +48,7 @@ Après avoir soumis la proposition sur-chaîne et avoir signé la transaction, l
 :::caution
 À chaque période de vote, la proposition de référendum avec le soutient le plus important (*seconding* / *appui*) entre dans le tour de scrutin. À mesure que le nombre de référendums augmente, il n'y a aucune garantie que votre proposition atteigne jamais un appui suffisant pour entrer dans le scrutin. Il n'y a pas d'option pour retirer une proposition de référendum, ce qui veut dire que vos fonds peuvent rester verrouillés pour une période de temps plus longue.
 
-Les propositions de référendum malveillantes sont sanctionnées. Le Conseil HydraDX et le Comité Technique ont le droit d'annuler tout référendum qui a été proposé de mauvaise foi. Par conséquent, les tokens déposés seront détruits.
+Les propositions de référendum malveillantes sont sanctionnées. Le Conseil Hydration et le Comité Technique ont le droit d'annuler tout référendum qui a été proposé de mauvaise foi. Par conséquent, les tokens déposés seront détruits.
 :::
 
 ## Utiliser Polkadot/apps {#polkajs}
@@ -101,5 +101,5 @@ Après avoir soumis la proposition sur-chaîne, et avoir signé la transaction, 
 :::caution
 À chaque période de vote, la proposition de référendum avec le soutient le plus important (*seconding* / *appui*) entre dans le tour de scrutin. À mesure que le nombre de référendums augmente, il n'y a aucune garantie que votre proposition atteigne jamais un appui suffisant pour entrer dans le scrutin. Il n'y a pas d'option pour retirer une proposition de référendum, ce qui veut dire que vos fonds peuvent rester verrouillés pour une période de temps plus longue.
 
-Les propositions de référendum malveillantes sont sanctionnées. Le Conseil HydraDX et le Comité Technique ont le droit d'annuler tout référendum qui a été proposé de mauvaise foi. Par conséquent, les tokens déposés seront détruits.
+Les propositions de référendum malveillantes sont sanctionnées. Le Conseil Hydration et le Comité Technique ont le droit d'annuler tout référendum qui a été proposé de mauvaise foi. Par conséquent, les tokens déposés seront détruits.
 :::

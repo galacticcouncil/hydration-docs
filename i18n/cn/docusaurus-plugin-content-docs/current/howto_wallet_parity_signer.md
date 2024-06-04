@@ -86,11 +86,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   * 选择您需要的帐户或子帐户；
   * 您会看到一个二维码，您需要用您的设备摄像头扫描。
 
-### 添加 HydraDX 链
+### 添加 Hydration 链
 要使用 Parity Signer，首先需要向 Parity Signer 添加新链。如果您只想对 Polkadot 或 Kusama 使用 Parity，可跳过此步，继续更新元数据。要添加一条新链，您需扫描带有该链基本信息的二维码。
 
 #### 01 获取链规格
-桌面导航至 **https://nova-wallet.github.io/metadata-portal/** ，选择 HydraDX 作为所需的链。然后，点击 `Chain Specs`。
+桌面导航至 **https://nova-wallet.github.io/metadata-portal/** ，选择 Hydration 作为所需的链。然后，点击 `Chain Specs`。
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_add_chain.jpg')} />

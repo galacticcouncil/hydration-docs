@@ -5,17 +5,17 @@ title: DCA 交易
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-**[HydraDX DCA](https://app.hydradx.io/dca)** 和 **[拆分交易](https://app.hydradx.io/trade)** (简易 DCA) ，是两个用户友好型功能，允许交易者在 Omnipool 中进行交易时，以无需许可和非托管的方式，实施美元成本平均（DCA）策略。
+**[Hydration DCA](https://app.hydradx.io/dca)** 和 **[拆分交易](https://app.hydradx.io/trade)** (简易 DCA) ，是两个用户友好型功能，允许交易者在 Omnipool 中进行交易时，以无需许可和非托管的方式，实施美元成本平均（DCA）策略。
 
 按照 DCA 策略，订单不是一次下达，而是分成较小的交易后定期执行。通过这样做，交易员可以保护自己免受价格波动的影响，并获得平均价格。此外，将大订单分成较小的块，滑点会减少。
 
-HydraDX DCA 有两种实现方式 - **[完整功能 DCA](#hydradx-dca)** 和 **[拆分交易](#split-trade)**（简易 DCA），您可在主交易页面上找到它们。 往下，您可以了解这些功能的更多有关信息。
+Hydration DCA 有两种实现方式 - **[完整功能 DCA](#hydradx-dca)** 和 **[拆分交易](#split-trade)**（简易 DCA），您可在主交易页面上找到它们。 往下，您可以了解这些功能的更多有关信息。
 
 如果您正在寻找分步指南，请查看 **[下达 DCA 订单指南](/howto_dca)**。
 
-## HydraDX DCA {#hydradx-dca}
+## Hydration DCA {#hydradx-dca}
 
-**[HydraDX DCA](https://app.hydradx.io/dca)** 提供了直观的 UI，用户可以在 Omnipool 中微调 DCA 订单。
+**[Hydration DCA](https://app.hydradx.io/dca)** 提供了直观的 UI，用户可以在 Omnipool 中微调 DCA 订单。
 
 在设置订单时，用户可以指定他们想花费的资产 A 数量，以获得资产 B，以及交易频率 - 以小时（近似值）或区块（更精细）为单位。
 

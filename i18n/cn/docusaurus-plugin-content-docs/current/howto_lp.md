@@ -5,18 +5,18 @@ title: 提供流动性
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-在这一页中，您将在 HydraDX Omnipool（万能池）中找到一个 **提供流动性的分步指南**。成为流动性提供者，可以让您从池交易中 **获得奖励**。
+在这一页中，您将在 Hydration Omnipool（万能池）中找到一个 **提供流动性的分步指南**。成为流动性提供者，可以让您从池交易中 **获得奖励**。
 
-在决定成为流动性提供者之前，我们鼓励您访问我们的 **[产品页面](/)**，从而 **了解熟悉** HydraDX Omnipool 的独特特性。
+在决定成为流动性提供者之前，我们鼓励您访问我们的 **[产品页面](/)**，从而 **了解熟悉** Hydration Omnipool 的独特特性。
 
 ## 00 转移令牌
-如果您想使用非原生资产（例如 DOT 或 DAI）执行交易，您首先需要把这些资产转移到 HydraDX 链。这一步不适用 HDX。
+如果您想使用非原生资产（例如 DOT 或 DAI）执行交易，您首先需要把这些资产转移到 Hydration 链。这一步不适用 HDX。
 
 有两种不同的机制来转移非原生资产：
 * **[跨链转账](https://app.hydradx.io/#/cross-chain)** - 使用此工具，可从其他 Polkadot 平行链或从 Polkadot 自身转移资产。分步指南在 **[这里](howto_xcm)**；
 * **[以太坊桥](https://www.portalbridge.com/#/transfer)** - 用于连接以太坊生态系统中的资产。分步指南文档在 **[这里](/bridge_from_ethereum)**。
 
-这些解决方案，也可用于 HydraDX 网络之外的令牌传输。
+这些解决方案，也可用于 Hydration 网络之外的令牌传输。
 
 ## 01 导航至 Omnipool 流动性页面
 **[https://app.hydradx.io/#/liquidity](https://app.hydradx.io/#/liquidity)**

@@ -38,11 +38,11 @@ transaction_multi_payment|     218.00 vs 198.00      |      20.00    |       9.1
 
 Notes:
 - in the diff fields you can see the difference between the reference benchmark time and the benchmark time of your machine
-- if diff is positive for all three pallets, your machine covers the minimum requirements for running a HydraDX node
+- if diff is positive for all three pallets, your machine covers the minimum requirements for running a Hydration node
 - if diff deviates by -10% or more for some of the pallets, your machine might not be suitable to run a node
 ```
 
-您可以在 **diff* (%)** 列中看到您的计算机绩效参数与启动节点所需最低要求之间的差异。 如果此列的三个数值均为正数，则表示您的计算机可以正常运行 HydraDX 验证节点。 三个数值，如果任何一个数值低于 *-10％* ，则不建议使用该机运行 HydraDX 节点。
+您可以在 **diff* (%)** 列中看到您的计算机绩效参数与启动节点所需最低要求之间的差异。 如果此列的三个数值均为正数，则表示您的计算机可以正常运行 Hydration 验证节点。 三个数值，如果任何一个数值低于 *-10％* ，则不建议使用该机运行 Hydration 节点。
 
 如果您想讨论基本性能测试结果，请加入我们的 Discord ，社区很乐意提供您！
 

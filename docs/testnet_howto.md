@@ -1,4 +1,4 @@
-# Design and Automation of our Tesnet Deployment at HydraDX
+# Design and Automation of our Tesnet Deployment at Hydration
 
 In this article, we are going to show you how we designed and automated our pipeline to be able to deploy a new testnet (Parachain + Relaychain) within minutes using Kubernetes (EKS Fargate), AWS ACM, Route53, Terraform and Github Actions.
 
@@ -75,7 +75,7 @@ spec:
         - containerPort: 30333
 ```
 
-In this manifest, we choose the name of our node, the ports to expose, the command and its argument (please check HydraDX docs) as well as the number of replicas. This parameter is important as we only want one replica per node, to avoid sync issues. Note that you can have as many nodes as necessary.
+In this manifest, we choose the name of our node, the ports to expose, the command and its argument (please check Hydration docs) as well as the number of replicas. This parameter is important as we only want one replica per node, to avoid sync issues. Note that you can have as many nodes as necessary.
 
 #### Service Example
 We use the Service object in Kubernetes for at least two purposes here:

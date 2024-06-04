@@ -5,7 +5,7 @@ title: Omnipool 设计
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-HydraDX Omnipool（万能池）是一种新型的 AMM，它将所有流动性集中在一个交易池中，从而提高了一系列效率。本文档包含 Omnipool 的机制的理论规范。
+Hydration Omnipool（万能池）是一种新型的 AMM，它将所有流动性集中在一个交易池中，从而提高了一系列效率。本文档包含 Omnipool 的机制的理论规范。
 
 ## Omnipool
 

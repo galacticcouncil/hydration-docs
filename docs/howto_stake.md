@@ -9,11 +9,11 @@ Staking allows users to stake their HDX tokens and earn rewards which vest over 
 
 If you don't have any HDX, you can obtain some on our [trade page](https://app.hydradx.io/#/trade) by swapping against a range of assets supported by the Omnipool.
 
-### Step 0: Navigate to HydraDX Staking Page
+### Step 0: Navigate to Hydration Staking Page
 
 https://app.hydradx.io/staking
 
-Connect your wallet to HydraDX by clicking **`Connect Account`**.
+Connect your wallet to Hydration by clicking **`Connect Account`**.
 
 ### Step 1: Stake Your HDX
 

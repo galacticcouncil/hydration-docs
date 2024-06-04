@@ -10,7 +10,7 @@ Este artículo proporciona una guía paso a paso sobre cómo participar en las e
 Si está interesado en cómo funciona el mecanismo de elección, consulte [esta publicación](/democracy_council#elections).
 
 :::caution
-El módulo de democracia HydraDX se lanzará a partir del **15 de septiembre de 2021**. No intente ninguna de las acciones mostradas antes de esa fecha.
+El módulo de democracia Hydration se lanzará a partir del **15 de septiembre de 2021**. No intente ninguna de las acciones mostradas antes de esa fecha.
 :::
 
 ## Usando Polkadot/apps {#polkajs}

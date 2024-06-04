@@ -18,13 +18,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 申领过程 {#claim-process}
 
-满足上述前提条件后，您可以导航到 **[HydraDX 申领程序](https://claim.hydradx.io)**，启动申领过程。
+满足上述前提条件后，您可以导航到 **[Hydration 申领程序](https://claim.hydradx.io)**，启动申领过程。
 
 在申领过程中，您将使用 xHDX 令牌（ERC-20）申领属于您的 HDX 令牌份额。
 
 ### 00 授权 {#00-authorize}
 
-HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
+Hydration 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 :::warning
 
@@ -34,7 +34,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
-授权后，会提示您更新 Polkadot.js 扩展程序的元数据。这将允许 Polkadot.js 创建一个申领过程所需的 HydraDX 特定地址。
+授权后，会提示您更新 Polkadot.js 扩展程序的元数据。这将允许 Polkadot.js 创建一个申领过程所需的 Hydration 特定地址。
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
@@ -56,7 +56,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 这一步，将要求您选择 HDX 地址。
 
-要创建新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 `+` 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 `Next step`（下一步）。在这里，选择 **HydraDX** 来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
+要创建新的 HDX 地址，请打开 Polkadot.js 扩展程序，单击 `+` 号创建一个新帐户。在帐户创建的第一步，您会看到由 12 个英语单词组成、用于恢复帐户的助记词。将助记词保存在安全的地方后，点击 `Next step`（下一步）。在这里，选择 **Hydration** 来切换 **NETWORK** （网络）。输入您的帐户名称和密码，完成帐户创建。
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
@@ -66,7 +66,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 :::
 
-创建 HDX 帐户后，您应能在 HydraDX 申领程序中选择它。之后，该应用程序应为您提供用于申领过程的 ETH 和 HDX 地址概况。单击 `Next`（下一步）继续对消息进行签署。
+创建 HDX 帐户后，您应能在 Hydration 申领程序中选择它。之后，该应用程序应为您提供用于申领过程的 ETH 和 HDX 地址概况。单击 `Next`（下一步）继续对消息进行签署。
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
@@ -84,7 +84,7 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 * 如果您用的是 **Metamask** , 则在单击 `Sign`（签署）按钮后，将由 Metamask 提示您对信息进行签署。请按 Metamask 中的说明进行操作。 
 
-* 如果您手动输入了 ETH 地址，则需通过外部钱包签署消息，该外部钱包保留了您 xHDX 令牌的私钥。签署消息后，将签署哈希（以 *0x* 开头）复制粘贴到 HydraDX 申领程序的相应对话框中。
+* 如果您手动输入了 ETH 地址，则需通过外部钱包签署消息，该外部钱包保留了您 xHDX 令牌的私钥。签署消息后，将签署哈希（以 *0x* 开头）复制粘贴到 Hydration 申领程序的相应对话框中。
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
@@ -96,6 +96,6 @@ HydraDX 申领程序，需要 Polkadot.js 扩展程序的授权。
 
 此时您已完成申领过程，从而正式成为 HDX 的所有者。
 
-您可以使用连接到 HydraDX 网络检查令牌数额：
+您可以使用连接到 Hydration 网络检查令牌数额：
 **https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts**
 

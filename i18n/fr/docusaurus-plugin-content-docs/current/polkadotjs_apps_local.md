@@ -5,7 +5,7 @@ title: Se connecter à un node local
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Vous pouvez utiliser Polkadot/apps pour vous connecter à votre node HydraDX local. Pour ce faire, vous devez avoir accès au port `9944` qui est utilisé connexions websockets RPC.
+Vous pouvez utiliser Polkadot/apps pour vous connecter à votre node Hydration local. Pour ce faire, vous devez avoir accès au port `9944` qui est utilisé connexions websockets RPC.
 
 :::caution
 

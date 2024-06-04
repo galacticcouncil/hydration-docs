@@ -5,13 +5,13 @@ title: Die Anfrage vom Finanzministerium
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Mit der Einführung des [HydraDX New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/spending_fw).
+Mit der Einführung des [Hydration New Deal-Incentive-Programms](#link-to-new-deal) können Community-Mitglieder HDX-Tipps vom Finanzministerium als Belohnung für ihre Beiträge anfordern. Dieser Leitfaden führt Sie durch den Prozess der Trinkgeldanfragen. Weitere Informationen zu den verschiedenen Arten von Aktivitäten, die belohnt werden, finden Sie in [diesem Beitrag](/spending_fw).
 
 Das Anfordern eines Treasury-Tipps besteht aus zwei Schritten. Im ersten Schritt müssen Beitragende ihre Tipp-Anfrage in Commonwealth.im mit einer Beschreibung des Beitrags veröffentlichen. Als zweiter Schritt muss die Treasury-Tipp-Anfrage mithilfe von Polkadot/Apps on-chain eingereicht werden.
 
 ## 01 Veröffentlichung  der Trinkgeldanfrage in Commonwealth.im {#01-publish-tip-request}
 
-Um die Transparenz zu gewährleisten, müssen alle Treasury-Tipp-Anfragen in einem Thread auf der [HydraDX Commonwealth-Seite] (https://commonwealth.im/hydradx) veröffentlicht werden. Bevor Sie einen Thread öffnen, müssen Sie Ihre HydraDX-Brieftasche mit Commonwealth.im verknüpfen: Klick *Log in* (obere rechte Ecke) und wähl *Connect with wallet > polkadot-js*.
+Um die Transparenz zu gewährleisten, müssen alle Treasury-Tipp-Anfragen in einem Thread auf der [Hydration Commonwealth-Seite] (https://commonwealth.im/hydradx) veröffentlicht werden. Bevor Sie einen Thread öffnen, müssen Sie Ihre Hydration-Brieftasche mit Commonwealth.im verknüpfen: Klick *Log in* (obere rechte Ecke) und wähl *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
   <img alt="login" src={useBaseUrl('/tip-request/login.jpg')} width="300px" />
@@ -27,8 +27,8 @@ Sie können den Titel des Threads verwenden, um das Thema (Tippanfrage) und das 
 * Eine kurze Zusammenfassung des Beitrags
 * Die Höhe des angeforderten Trinkgelds (in HDX)
 * Zeitaufwand für den Beitrag (in Stunden)
-* Bei Bedarf eine genauere Beschreibung einschließlich der Relevanz des Beitrags zu HydraDX
-* Geben Sie ggf. weitere Informationen an, z. B. die Relevanz des Beitrags zu HydraDX und einen Link zur PR (bei technischen Beiträgen)
+* Bei Bedarf eine genauere Beschreibung einschließlich der Relevanz des Beitrags zu Hydration
+* Geben Sie ggf. weitere Informationen an, z. B. die Relevanz des Beitrags zu Hydration und einen Link zur PR (bei technischen Beiträgen)
 
 Als Referenz können Sie einen Blick auf [diese Beispiel-Tipp-Anfrage] (https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking) werfen.
 

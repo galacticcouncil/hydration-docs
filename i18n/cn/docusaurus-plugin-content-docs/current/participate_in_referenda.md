@@ -10,13 +10,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 在您决定参与之前，我们强烈建议您通读“学习/民主”部分中的 **[知识文章](/democracy_referenda)** 。在那里你会找到一些关于公投背后机制的重要细节。
 
 :::caution
-HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要在该日期之前尝试任何显示的操作。
+Hydration 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要在该日期之前尝试任何显示的操作。
 :::
 
 ## 使用 Commonwealth.im {#cw}
 
 ### 在公投中投票 {#cw-vote}
-您可以通过导航到 HydraDX Commonwealth 页面上的 **[公投选项卡](https://commonwealth.im/hydradx/referenda)** 来查看所有可供投票的公投。
+您可以通过导航到 Hydration Commonwealth 页面上的 **[公投选项卡](https://commonwealth.im/hydradx/referenda)** 来查看所有可供投票的公投。
 
 要对正在进行的公投进行投票，您需要单击它。之后，您将看到一个显示所有相关详细信息的页面。
 
@@ -28,7 +28,7 @@ HydraDX 民主模块将于 **2021 年 9 月 15 日** 或之后推出。请不要
 之后，通过单击 `Vote yes`（投票是）或 `Vote no`（投票否）并签署交易进行投票。
 
 ### 提出公投提案 {#cw-propose}
-要提出公投，请访问 **[HydraDX Commonwealth 页面](https://commonwealth.im/hydradx/)**，然后单击顶部菜单中的 *New Thread*（新帖子）> *New democracy proposal*（民主新提案）。
+要提出公投，请访问 **[Hydration Commonwealth 页面](https://commonwealth.im/hydradx/)**，然后单击顶部菜单中的 *New Thread*（新帖子）> *New democracy proposal*（民主新提案）。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/participate_in_referenda/cw-proposal.jpg')} />

@@ -5,14 +5,14 @@ title: 设置您的身份
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-帐户持有人，可通过提供特定信息并将其存储在链上来设置身份。除此之外，身份信息还可以提交给 HydraDX 注册商进行认证。通过设置并认证身份，有助于验证人及提名人保护其网络信用。
+帐户持有人，可通过提供特定信息并将其存储在链上来设置身份。除此之外，身份信息还可以提交给 Hydration 注册商进行认证。通过设置并认证身份，有助于验证人及提名人保护其网络信用。
 
 :::note
-如果您是 HydraDX 整理人，我们 **强烈建议** 您设置身份并通过认证程序。经过认证的整理人似乎更值得信任。
+如果您是 Hydration 整理人，我们 **强烈建议** 您设置身份并通过认证程序。经过认证的整理人似乎更值得信任。
 :::
 
 ## 01 设置身份 {#01-set-identity}
-要设置身份，请打开 Polkadot/apps（连接到 *HydraDX* 网络），然后导航到 *My accounts* （我的账户）。或者，直接点击这个链接：
+要设置身份，请打开 Polkadot/apps（连接到 *Hydration* 网络），然后导航到 *My accounts* （我的账户）。或者，直接点击这个链接：
 **https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/accounts**
 
 在帐户页面，找到持有您 HDX 令牌的帐户。然后，点击帐号旁边的三个点（在右侧），并选择 *Set on-chain identity* （设置链上身份）。
@@ -43,11 +43,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 在您设置好身份后，您可以将它提交给网络注册商进行认证。要做到这一点，请打开 Polkadot/apps 并导航到 *Developer*（开发者）> *Extrinsics*（交易）。或者，直接点击这个链接：
 **https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics**
 
-在上一步选择相应 HydraDX 帐户后，您需要填写以下信息：
+在上一步选择相应 Hydration 帐户后，您需要填写以下信息：
 
 * **submit the following extrinsic**（提交下面的外部信息）： 左边选 *identity*（身份）；中间选 *requestJudgement(reg_index, max_fee)*（请求判定）。
 * **regindex**（注册商 ID）: 在这里需要输入您选择的注册商 ID 进行验证。
-HydraDX 有两个注册商：Simon Kraus - HydraSik（ID: **0**）、Jimmy Tudeski - stakenode （ID: **1**）
+Hydration 有两个注册商：Simon Kraus - HydraSik（ID: **0**）、Jimmy Tudeski - stakenode （ID: **1**）
 * **maxFee**（最大费用）：在这里需要输入您愿意用 HDX 支付给注册商的最高费用。费用只有低于您支付最高费用的注册商，才有资格为您认证。
 
 若要提交认证请求，请单击 `Submit Transaction`（提交交易）并签署交易。

@@ -10,12 +10,12 @@ Dieser Beitrag bietet eine Schritt-für-Schritt-Anleitung zur Teilnahme an Refer
 Bevor Sie sich für eine Teilnahme entscheiden, empfehlen wir Ihnen dringend, den [Wissensartikel](/democracy_referenda) im Abschnitt Lernen / Demokratie durchzulesen. Dort finden Sie einige wichtige Details zu den Mechanismen hinter Volksabstimmungen.
 
 :::caution
-Das HydraDX-Demokratiemodul wird am oder nach dem **15. September 2021** eingeführt. Bitte versuchen Sie vor diesem Datum keine der angezeigten Aktionen.
+Das Hydration-Demokratiemodul wird am oder nach dem **15. September 2021** eingeführt. Bitte versuchen Sie vor diesem Datum keine der angezeigten Aktionen.
 :::
 
 ## Verwendung von Commonwealth.im {#cw}
 ### Abstimmung auf Referendum {#cw-vote}
-Sie können alle Volksabstimmungen einsehen, die zur Abstimmung offen sind, indem Sie auf das [Referenda tab](https://commonwealth.im/hydradx/referenda) auf der HydraDX Commonwealth-Seite navigieren.
+Sie können alle Volksabstimmungen einsehen, die zur Abstimmung offen sind, indem Sie auf das [Referenda tab](https://commonwealth.im/hydradx/referenda) auf der Hydration Commonwealth-Seite navigieren.
 
 Um über ein aktives Referendum abzustimmen, müssen Sie darauf klicken. Danach sehen Sie eine Seite mit allen relevanten Details.
 
@@ -27,7 +27,7 @@ Geben Sie im Abschnitt *Cast Your Vote* die folgenden Informationen ein:
 Geben Sie anschließend Ihre Stimme durch Klick auf *Vote yes* oder *Vote no* ab und unterschreiben Sie die Transaktion.
 
 ### Referendum vorschlagen {#cw-propose}
-Um ein Referendum vorzuschlagen, besuchen Sie die [HydraDX Commonwealth-Seite](https://commonwealth.im/hydradx/) und klicken Sie im oberen Menü auf *New Thread > New democracy proposal*.
+Um ein Referendum vorzuschlagen, besuchen Sie die [Hydration Commonwealth-Seite](https://commonwealth.im/hydradx/) und klicken Sie im oberen Menü auf *New Thread > New democracy proposal*.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/participate_in_referenda/cw-proposal.jpg')} />
@@ -48,7 +48,7 @@ Nachdem Sie den Vorschlag in der Kette eingereicht und die Transaktion unterzeic
 :::caution
 In jeder Abstimmungsperiode geht der Referendumsvorschlag mit der höchsten Unterstützung (*Seconding*) in die Abstimmungsrunde. Da die Zahl der Referenden zunimmt, gibt es keine Garantie dafür, dass Ihr Vorschlag jemals genügend Abordnungen erhält, um an der Abstimmung teilzunehmen. Es gibt keine Möglichkeit, einen Referendumsvorschlag zurückzuziehen, was bedeutet, dass Ihre Gelder möglicherweise für einen längeren Zeitraum gesperrt bleiben.
 
-Böswillige Referendumsvorschläge werden bestraft. Der HydraDX-Rat und das Technische Komitee haben das Recht, ein bösgläubiges Referendum abzubrechen. Infolgedessen werden die hinterlegten Token verbrannt.
+Böswillige Referendumsvorschläge werden bestraft. Der Hydration-Rat und das Technische Komitee haben das Recht, ein bösgläubiges Referendum abzubrechen. Infolgedessen werden die hinterlegten Token verbrannt.
 :::
 
 ## Verwendung von Polkadot/apps {#polkajs}
@@ -104,5 +104,5 @@ Nachdem Sie den Vorschlag in der Kette eingereicht und die Transaktion unterzeic
 :::caution
 In jeder Abstimmungsperiode geht der Referendumsvorschlag mit der höchsten Unterstützung (*Seconding*) in die Abstimmungsrunde. Da die Zahl der Referenden zunimmt, gibt es keine Garantie dafür, dass Ihr Vorschlag jemals genügend Abordnungen erhält, um an der Abstimmung teilzunehmen. Es gibt keine Möglichkeit, einen Referendumsvorschlag zurückzuziehen, was bedeutet, dass Ihre Gelder möglicherweise für einen längeren Zeitraum gesperrt bleiben.
 
-Böswillige Referendumsvorschläge werden bestraft. Der HydraDX-Rat und das Technische Komitee haben das Recht, ein bösgläubiges Referendum abzubrechen. Infolgedessen werden die hinterlegten Token verbrannt.
+Böswillige Referendumsvorschläge werden bestraft. Der Hydration-Rat und das Technische Komitee haben das Recht, ein bösgläubiges Referendum abzubrechen. Infolgedessen werden die hinterlegten Token verbrannt.
 :::

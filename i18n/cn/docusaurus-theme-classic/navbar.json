@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "HydraDX 文档",
+    "message": "Hydration 文档",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
     "message": "文档",
     "description": "Navbar item with label Docs"
   },
-  "item.label.HydraDX Homepage": {
-    "message": "HydraDX 主页",
-    "description": "Navbar item with label HydraDX Homepage"
+  "item.label.Hydration Homepage": {
+    "message": "Hydration 主页",
+    "description": "Navbar item with label Hydration Homepage"
   }
 }

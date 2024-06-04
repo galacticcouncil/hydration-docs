@@ -5,15 +5,15 @@ title: 下达 DCA 订单
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-在此页面，您将找到 **在 HydraDX Omnipool（万能池）中设置 DCA 订单** 的分步指南。
+在此页面，您将找到 **在 Hydration Omnipool（万能池）中设置 DCA 订单** 的分步指南。
 
-正式开始前，请先访问我们的 **[DCA 产品页面](/omnipool_dca)**，熟悉 HydraDX 实施的成本平均策略。
+正式开始前，请先访问我们的 **[DCA 产品页面](/omnipool_dca)**，熟悉 Hydration 实施的成本平均策略。
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/howto_dca/dca.jpg')} />
 </div>  
 
-### 步骤 1：导航到 HydraDX DCA 页面
+### 步骤 1：导航到 Hydration DCA 页面
 
 https://app.hydradx.io/dca
 

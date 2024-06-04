@@ -5,13 +5,13 @@ title: Réclamer une récompense de trésorerie
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Avec le lancement du [Programme récompensé de Nouvel Accord HydraDX](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/spending_fw).
+Avec le lancement du [Programme récompensé de Nouvel Accord Hydration](#link-to-new-deal), les membres de la communauté peuvent réclamer des récompenses HDX de la trésorerie en tant que récompense pour leurs contributions. Ce guide va vous guider tout au long du procédé de réclamation de récompense. Vous pouvez trouver plus d'informations sur les différents types d'activités qui sont récompensées dans [ce post](/spending_fw).
 
 Le processus pour réclamer une récompense de trésorie se compose de deux étapes. Dans un premier temps, les contributeurs doivent publier leur requête de récompense sur Commonwealth.im avec une description de la contribution. dans un second temps, la récompense de trésorerie doit être soumit sur la chaîne (on-chain) en utilisant Polkadot/apps.
 
 ## 01 Publier la requête de pourboire dans Commonwealth.im{#01-publish-tip-request}
 
-Par soucis de transparence, toutes les réclamations de récompense doivent être publiées dans un fil (thread) sur la [Page HydraDX Commonwealth](https://commonwealth.im/hydradx).  Avant d'ouvrir un thread, vous devez lier votre portefeuille HydraDX à Commonwealth.im:
+Par soucis de transparence, toutes les réclamations de récompense doivent être publiées dans un fil (thread) sur la [Page Hydration Commonwealth](https://commonwealth.im/hydradx).  Avant d'ouvrir un thread, vous devez lier votre portefeuille Hydration à Commonwealth.im:
 Cliquez sur *Log in* (en haut à droite) et sélectionnez *Connect with wallet > polkadot-js*.
 
 <div style={{textAlign: 'center'}}>
@@ -28,8 +28,8 @@ Vous pouvez utiliser le titre de ce thread pour indiquer le sujet (tip request) 
 * Un bref résumé de la contribution
 * Le montant de la récompense réclamée (en HDX)
 * Le temps passé pour la contribution (en heures)
-* Si besoin est, un descriptif plus détaillé incluant la pertinence de la contribution à HydraDX
-* * Si c'est approprié, fournissez des informations plus détaillées comme la pertinence de la contribution à HydraDX et un lien vers le PR (dans le cas d'une contribution technique).
+* Si besoin est, un descriptif plus détaillé incluant la pertinence de la contribution à Hydration
+* * Si c'est approprié, fournissez des informations plus détaillées comme la pertinence de la contribution à Hydration et un lien vers le PR (dans le cas d'une contribution technique).
 
 Pour référence, vous pouvez regarder [cet exemple de requête de pourboire](https://commonwealth.im/hydradx/proposal/discussion/1165-tip-request-add-documentation-for-staking). 
 

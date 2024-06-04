@@ -1,11 +1,11 @@
 ---
 id: node_setup
-title: 搭建 HydraDX 节点
+title: 搭建 Hydration 节点
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-本节将引导您搭建及运行 HydraDX 验证节点。
+本节将引导您搭建及运行 Hydration 验证节点。
 
 :::warning
 
@@ -99,7 +99,7 @@ $ touch /etc/systemd/system/hydradx-validator.service
 
 ```
 [Unit]
-Description=HydraDX validator
+Description=Hydration validator
 
 [Service]
 Type=exec

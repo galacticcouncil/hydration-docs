@@ -5,11 +5,11 @@ title: Configura una Cadena para desarrolladores.
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Esta sección le muestra el proceso de configuración de una instancia de cadena HydraDX local para el desarrollo.
+Esta sección le muestra el proceso de configuración de una instancia de cadena Hydration local para el desarrollo.
 
 ## 01 Instalar dependencias
 
-Para preparar una instancia local de HydraDX Chain para el desarrollo, su máquina debe cubrir todas las dependencias para ejecutar una cadena de substrate. Deberá instalar un entorno de desarrollador de Rust y asegurarse de que esté configurado correctamente para compilar el Substrate runtime code  para el destino WebAssembly (Wasm).
+Para preparar una instancia local de Hydration Chain para el desarrollo, su máquina debe cubrir todas las dependencias para ejecutar una cadena de substrate. Deberá instalar un entorno de desarrollador de Rust y asegurarse de que esté configurado correctamente para compilar el Substrate runtime code  para el destino WebAssembly (Wasm).
 
 
 Puede instalar y configurar todas las dependencias  manualmente siguiendo la [Substrate guide](https://substrate.dev/docs/en/knowledgebase/getting-started), o puede dejar que este script haga todo el trabajo por usted.
@@ -57,7 +57,7 @@ $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --de
 
 ## 04 Conéctese a su instancia de cadena local
 
-Puede conectarse a su nodo de desarrollo HydraDX usando Polkadot / apps y cambiando la red a Desarrollo. También puede utilizar este enlace:
+Puede conectarse a su nodo de desarrollo Hydration usando Polkadot / apps y cambiando la red a Desarrollo. También puede utilizar este enlace:
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
 
 <img alt="connect to node" src={useBaseUrl('/building/connect-to-node.jpg')} />

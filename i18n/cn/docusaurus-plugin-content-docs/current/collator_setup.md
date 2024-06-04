@@ -5,11 +5,11 @@ title: 搭建整理器节点
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-这是一个启动并运行 HydraDX 整理器的分步操作指南。在本指南中，我们使用 Ubuntu 20.04 LTS。
+这是一个启动并运行 Hydration 整理器的分步操作指南。在本指南中，我们使用 Ubuntu 20.04 LTS。
 
 ## 所需要的技术条件 {#technical-specifications}
 
-运行 HydraDX 整理器节点至少需要满足以下技术要求：
+运行 Hydration 整理器节点至少需要满足以下技术要求：
 
 * 操作系统：Ubuntu 20.04
 * CPU: Intel Core i7-7700K @ 4.5Ghz (或同等单核性能)
@@ -121,7 +121,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ## 设置您的密钥
 
-要将生成的会话密钥与您的控制器帐户相关联，请导航到 Polkadot 平行链 HydraDX 上的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics)** 中的以下菜单项：*Developer* > *Extrinsics* 。
+要将生成的会话密钥与您的控制器帐户相关联，请导航到 Polkadot 平行链 Hydration 上的 **[Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics)** 中的以下菜单项：*Developer* > *Extrinsics* 。
 
 填写字段:
 
