@@ -5,7 +5,7 @@ title: Fees
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The HydraDX Protocol charges users fees for its products. Some of these fees go to the HydraDX Treasury, while others are distributed as rewards to Liquidity Providers (LPs), stakers, referrers or trades. In some cases, fees in HDX may be even burned.
+The Hydration Protocol charges users fees for its products. Some of these fees go to the Hydration Treasury, while others are distributed as rewards to Liquidity Providers (LPs), stakers, referrers or trades. In some cases, fees in HDX may be even burned.
 
 Here is an overview of all fees:
 
@@ -23,16 +23,16 @@ Here is an overview of all fees:
 | OTC           | Trade fee                            | 0%             | Currently there are no fees on OTC trades              |                        |
 
 ## Transaction fee
-To submit any transaction on the HydraDX network (e.g. trade an asset, transfer tokens, submit a governance vote), users must pay a **transaction fee.** In Ethereum, this is commonly referred to as **gas**.
+To submit any transaction on the Hydration network (e.g. trade an asset, transfer tokens, submit a governance vote), users must pay a **transaction fee.** In Ethereum, this is commonly referred to as **gas**.
 
-On HydraDX, users are able to pay these transaction fees in **any Omnipool asset**. In order to reduce user friction, the Protocol will automatically set the first asset sent to HydraDX as the fee payment asset. This can be changed at any time on the wallet page of the app.
+On Hydration, users are able to pay these transaction fees in **any Omnipool asset**. In order to reduce user friction, the Protocol will automatically set the first asset sent to Hydration as the fee payment asset. This can be changed at any time on the wallet page of the app.
 
 Note: If you are using **a 0x address with MetaMask**, it is currently only possible to pay for transaction fees in **WETH (MRL)**.
 
 ## Asset fee
 Asset fees are are paid by users whenever they make a trade in the Omnipool. These fees are charged in the asset that is “bought” from the Omnipool. Asset fees are dynamic, meaning that they can increase or decrease based on the current volatility of the traded assets.
 
-With the introduction of **Referrals** to HydraDX, asset fees are distributed in the following way:
+With the introduction of **Referrals** to Hydration, asset fees are distributed in the following way:
 
 - 50% remains in the Omnipool as a reward for LPs
 - 50% is distributed for referrals to 3 distinctive groups: Referrers, traders & HDX stakers. The proportions vary based on the tier of referral code linked to the trader account (learn more in [Referrals](/referrals))

@@ -5,7 +5,7 @@ title: Omnipool Design
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-The HydraDX Omnipool is a novel type of AMM which concentrates all liquidity in a single trading pool, thus unlocking
+The Hydration Omnipool is a novel type of AMM which concentrates all liquidity in a single trading pool, thus unlocking
 an array of efficiencies. This doc contains a mathematical specification of the mechanics which power the Omnipool.
 
 ## The Omnipool

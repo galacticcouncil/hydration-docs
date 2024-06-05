@@ -23,7 +23,7 @@ To create a new HDX address, open the Polkadot.js browser extension and click on
 
 You will be displayed a 12-word mnemonic phrase which can be used to recover your account. Make sure that you backup your seed phrase in a secure location. Click on `Next step` and fill in the following information:
 
-* **Network**: Please select `HydraDX Snakenet`
+* **Network**: Please select `Hydration`
 * **Descriptive name of the account**
 * **Password**
 

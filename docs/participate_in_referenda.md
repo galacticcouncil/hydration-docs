@@ -25,7 +25,7 @@ To cast your vote, click on `Vote` and provide the following information:
 
 - **Vote with account** - select the voting account.
 - **Value** - this is the amount of HDX tokens you are willing to lock in support of the referendum.
-- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](https://docs.hydradx.io/democracy_referenda#referenda-votes-weighing).
+- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](https://docs.hydration.net/democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Nay* (No) or *Aye* (Yes) and sign the transaction.
 
@@ -87,5 +87,5 @@ After submitting the proposal on-chain and signing the transaction, your proposa
 :::caution
 Every voting period, the referendum proposal with the highest backing (*seconding*) enters the voting round. As the amount of referenda grows, there is no guarantee that your proposal will ever gain sufficient seconding to enter voting. There is no option to withdraw a referendum proposal, meaning that your funds might remain locked for a longer period of time.
 
-Malicious referendum proposals are punished. The HydraDX Council and the Technical Committee have the right to cancel any referendum which was proposed in bad faith. As a result, the deposited tokens will be burnt.
+Malicious referendum proposals are punished. The Hydration Council and the Technical Committee have the right to cancel any referendum which was proposed in bad faith. As a result, the deposited tokens will be burnt.
 :::

@@ -17,13 +17,13 @@ If your xHDX tokens are stored in Coinbase Wallet or Trust Wallet, you will need
 
 ## Claim process {#claim-process}
 
-After making sure that you have fulfilled the prerequisites described above, you can navigate to the [HydraDX Claim app](https://claim.hydradx.io) and proceed with the claim process.
+After making sure that you have fulfilled the prerequisites described above, you can navigate to the [Hydration Claim app](https://claim.hydradx.io) and proceed with the claim process.
 
 During the claim process, you will use your xHDX tokens (ERC-20) to claim your share of HDX tokens.
 
 ### 00 Authorize {#00-authorize}
 
-The HydraDX Claim app will request authorization from the Polkadot.js browser extension.
+The Hydration Claim app will request authorization from the Polkadot.js browser extension.
 
 :::warning
 
@@ -33,7 +33,7 @@ Make sure that you are not the victim of a phishing attack and pay attention to 
 
 <img alt="authorize" src={useBaseUrl('/claim/authorize.jpg')} />
 
-After authorizing, you will be prompted to update the metadata for the Polkadot.js browser extension. This will allow Polkadot.js to create HydraDX-specific addresses which are required to complete the claim process.
+After authorizing, you will be prompted to update the metadata for the Polkadot.js browser extension. This will allow Polkadot.js to create Hydration-specific addresses which are required to complete the claim process.
 
 <img alt="authorize" src={useBaseUrl('/claim/metadata.jpg')} />
 
@@ -55,7 +55,7 @@ You are not eligible for a gas refund if you have obtained your xHDX at some oth
 
 In the second step, you will be asked to select your HDX address.
 
-To create a new HDX address, open the Polkadot.js browser extension and click on the + sign to create a new account. In the first step of account creation, you will see the 12-word mnemonic phrase which can be used to recover your account. After saving your seed phrase in a secure place, click on *Next step*. Here, you should change the **Network** by selecting the option **HydraDX Snakenet**. Enter a name and password for your account, and finish the account creation.
+To create a new HDX address, open the Polkadot.js browser extension and click on the + sign to create a new account. In the first step of account creation, you will see the 12-word mnemonic phrase which can be used to recover your account. After saving your seed phrase in a secure place, click on *Next step*. Here, you should change the **Network** by selecting the option **Hydration**. Enter a name and password for your account, and finish the account creation.
 
 <img alt="authorize" src={useBaseUrl('/claim/create-account.png')} />
 
@@ -65,13 +65,13 @@ Make sure that you back up your recovery seed phrase by storing it in a safe pla
 
 :::
 
-After creating your HDX account, you should be able to select it in the HydraDX Claim app. After doing so, the app should provide you with an overview of the ETH and HDX addresses used for the claim process. Click on next to proceed to signing the message.
+After creating your HDX account, you should be able to select it in the  Claim app. After doing so, the app should provide you with an overview of the ETH and HDX addresses used for the claim process. Click on next to proceed to signing the message.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-02.jpg')} />
 
 ### 03 Sign {#03-sign}
 
-In the third step of the claim process using the HydraDX Claim app, you will be provided with the option to sign the message for using your xHDX tokens to claim HDX.
+In the third step of the claim process using the  Claim app, you will be provided with the option to sign the message for using your xHDX tokens to claim HDX.
 
 :::note
 
@@ -83,7 +83,7 @@ Depending on the choice you have made in the first step, you have two options to
 
 * If you are using **Metamask**, after clicking the *Sign* button you will be prompted by Metamask to sign the message. Follow the instructions in Metamask.
 
-* If you have entered your ETH address manually, you will need to sign the message through the external wallet that holds the private keys of your xHDX tokens. Once you have signed the message, copy the signature (starting with *0x*) to the respective field in the HydraDX Claim app.
+* If you have entered your ETH address manually, you will need to sign the message through the external wallet that holds the private keys of your xHDX tokens. Once you have signed the message, copy the signature (starting with *0x*) to the respective field in the  Claim app.
 
 <img alt="authorize" src={useBaseUrl('/claim/claim-03.jpg')} />
 
@@ -95,4 +95,4 @@ After signing the message with the wallet holding your xHDX tokens, the Polkadot
 
 You have now completed the claim process, thereby officially becoming an HDX owner!
 
-You can check your balance using Polkadot/apps connected to the HydraDX network: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts
+You can check your balance using Polkadot/apps connected to the Hydration network: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.hydradx.cloud#/accounts

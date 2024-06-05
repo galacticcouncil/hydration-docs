@@ -7,13 +7,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Staking allows users to stake their HDX tokens and earn rewards which vest over time. This page contains a step-by-step guide on how to stake your HDX. Before proceeding, we recommend that you get familiar with [the basics of HDX staking](/staking).
 
-If you don't have any HDX, you can obtain some on our [trade page](https://app.hydradx.io/#/trade) by swapping against a range of assets supported by the Omnipool.
+If you don't have any HDX, you can obtain some on our [trade page](https://app.hydration.net/#/trade) by swapping against a range of assets supported by the Omnipool.
 
-### Step 0: Navigate to HydraDX Staking Page
+### Step 0: Navigate to Hydration Staking Page
 
-https://app.hydradx.io/staking
+https://app.hydration.net/staking
 
-Connect your wallet to HydraDX by clicking **`Connect Account`**.
+Connect your wallet to Hydration by clicking **`Connect Account`**.
 
 ### Step 1: Stake Your HDX
 

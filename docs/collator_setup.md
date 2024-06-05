@@ -5,11 +5,11 @@ title: Set up a Collator Node
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This is a step-by-step how-to so you can get your HydraDX collator up and running. In this guide, we use Ubuntu 20.04 LTS.
+This is a step-by-step how-to so you can get your Hydration collator up and running. In this guide, we use Ubuntu 20.04 LTS.
 
 ## Required technical specifications {#technical-specifications}
 
-The following technical specifications are required as a minimum for running a HydraDX collator node: 
+The following technical specifications are required as a minimum for running a Hydration collator node: 
 
 * OS: Ubuntu 20.04
 * CPU: Intel Core i7-7700K @ 4.5Ghz (or equivalent single core performance)
@@ -85,7 +85,7 @@ chown hydra:hydra /var/lib/hydradx
 Make sure you have enough volume for your `base-path` by using `df -h` command.
 :::
 
-Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydradx.io/node_monitoring/).
+Note that `--prometheus-external` is optional, but we highly recommend it so you can be able to export prometheus metrics and monitor your node's health through Grafana. For more details about monitoring, please visit [this link](https://docs.hydration.net/node_monitoring/).
 
 If you need to monitor both the `parachain` and `relaychain` metrics, `--prometheus-external`option should be setup in both parts. You also need to set a separate port for the relaychain part as follows: `--prometheus-port YOUR_CUSTOM_PORT_NUMBER`
 
@@ -122,7 +122,7 @@ Once done, you will have an output similar to:
 
 ## Set your session key
 
-To associate the generated session keys with your Controller account, navigate to the following menu item in the [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics) on the Polkadot parachain HydraDX: *Developer* > *Extrinsics*.
+To associate the generated session keys with your Controller account, navigate to the following menu item in the [Polkadot/apps](https://polkadot.js.org/apps/?rpc=wss%253A%252F%252Frpc.hydradx.cloud#/extrinsics) on the Polkadot parachain Hydration: *Developer* > *Extrinsics*.
 
 Fill in the fields:
 

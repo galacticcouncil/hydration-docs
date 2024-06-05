@@ -7,9 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Purpose
 
-The HDX token is a governance token that allows staked token holders to decide the future of the protocol. Our mission with the HydraDX DAO is to distribute all decision-making to create a trustless liquidity protocol built around community-growth and self-sustainability. 
+The HDX token is a governance token that allows staked token holders to decide the future of the protocol. Our mission with the Hydration DAO is to distribute all decision-making to create a trustless liquidity protocol built around community-growth and self-sustainability. 
 
-To have a vote in the HydraDX DAO, and to contribute to the determination of any of the topics raised by community members, one must hold the HDX governance token. For more specifically on the governance process, please read our [Democracy](https://docs.hydradx.io/democracy_intro) documentation.
+To have a vote in the Hydration DAO, and to contribute to the determination of any of the topics raised by community members, one must hold the HDX governance token. For more specifically on the governance process, please read our [Democracy](https://docs.hydration.net/democracy_intro) documentation.
 
 HDX will initially be used for the following:
 
@@ -19,7 +19,7 @@ HDX will initially be used for the following:
 
 ## HDX Token Allocation
 
-Upon the launch of the HydraDX DAO, the defined maximum supply of HDX tokens was 10 billion HDX. However through the [governance-approved supply reduction](https://hydradx.subsquare.io/democracy/referendum/7), this defined maximum supply was reduced to 6.5 billion HDX tokens.
+Upon the launch of the Hydration DAO, the defined maximum supply of HDX tokens was 10 billion HDX. However through the [governance-approved supply reduction](https://hydradx.subsquare.io/democracy/referendum/7), this defined maximum supply was reduced to 6.5 billion HDX tokens.
 
 The allocation of these tokens is currently as follows:
 
@@ -44,6 +44,6 @@ As of Sept 2023, ~2.6 billion of HDX tokens are in circulation.
   <img src={useBaseUrl('/tokenomics/supply_vestings.jpg')} />
 </div>
 
-There is currently no concrete emission/release schedule for HDX tokens residing in the Treasury and Growth allocations. HydraDX intends to distribute the supply of HDX in the treasury and growth funds to help fund ecosystem development where opportunities may arise. All of these distributions will be discussed transparently to the community beforehand and voted on by the HydraDX DAO.
+There is currently no concrete emission/release schedule for HDX tokens residing in the Treasury and Growth allocations. Hydration intends to distribute the supply of HDX in the treasury and growth funds to help fund ecosystem development where opportunities may arise. All of these distributions will be discussed transparently to the community beforehand and voted on by the Hydration DAO.
 
 Token distributions range from a variety of developmental purposes and growth initiatives, (eg. HDX bonds, liquidity provider rewards, integrations/partnerships with other projects, etc).

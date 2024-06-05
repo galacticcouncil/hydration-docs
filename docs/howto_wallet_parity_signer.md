@@ -87,11 +87,11 @@ To add your account, open the Polkadot.js browser extension, click on `+` and se
   * Select your desired account or sub-account;
   * You will see a QR code which you need to scan with your device camera.
 
-### Add HydraDX Chain
+### Add Hydration Chain
 To use Parity Signer, you first need to add a new chain to Parity Signer. If you want to use Parity only for Polkadot or Kusama, you can skip this step and proceed with updating metadata. To add a new chain, you need to scan a QR code with base information about the chain.
 
 #### 01 Get Chain Specs
-On your Desktop, navigate to https://nova-wallet.github.io/metadata-portal/ and select HydraDX as the desired chain. After that, click on `Chain Specs`.
+On your Desktop, navigate to https://nova-wallet.github.io/metadata-portal/ and select Hydration as the desired chain. After that, click on `Chain Specs`.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_add_chain.jpg')} />

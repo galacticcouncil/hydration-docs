@@ -5,11 +5,11 @@ title: Set up a Development Chain
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-This section runs you through the process of setting up a local HydraDX chain instance for development. 
+This section runs you through the process of setting up a local Hydration chain instance for development. 
 
 ## 01 Install dependencies {#01-install-dependencies}
 
-To prepare a local HydraDX chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
+To prepare a local Hydration chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
 
 You can install and configure all dependencies manually following the [Substrate guide](https://substrate.dev/docs/en/knowledgebase/getting-started), or you could let this script do all the work for you:
 
@@ -52,7 +52,7 @@ $ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --de
 
 ## 04 Connect to your local chain instance {#04-connect-to-your-local-chain-instance}
 
-You can connect to your HydraDX development node using Polkadot/apps and changing network to `Development`. You can also use this link:  
+You can connect to your Hydration development node using Polkadot/apps and changing network to `Development`. You can also use this link:  
 https://polkadot.js.org/apps/?rpc=ws%3A%2F%2F127.0.0.1%3A9944#/explorer
 
 <img alt="connect to node" src={useBaseUrl('/building/connect-to-node.jpg')} />

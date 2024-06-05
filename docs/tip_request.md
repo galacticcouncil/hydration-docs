@@ -5,13 +5,13 @@ title: Request a Treasury Tip
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Community members can request HDX tips from the HydraDX Treasury as a reward for their contributions to the Protocol. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/spending_fw).
+Community members can request HDX tips from the Hydration Treasury as a reward for their contributions to the Protocol. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](/spending_fw).
 
 The process of requesting a Treasury tip consists of two steps. As a first step, contributors need to [publish their tip request](#01-publish-tip-request) in Subsquare with a description of the contribution. As a second step, the Treasury tip request must be [submitted on-chain](#02-submit-on-chain) using Polkadot/apps.
 
 ## 01 Publish in Subsquare {#01-publish-tip-request}
 
-To safeguard transparency, all Treasury tip requests must be published as a Discussion thread on the [HydraDX Subsquare page](https://hydradx.subsquare.io/discussions). 
+To safeguard transparency, all Treasury tip requests must be published as a Discussion thread on the [Hydration Subsquare page](https://hydradx.subsquare.io/discussions). 
 
 :::note
 Before opening a thread, make sure that Subsquare is linked to your HDX wallet. To do so, click on Sign-Up (first-time use) or Login (repeated use) and select the option `with Web3 address`. After selecting your HDX address in the popup, you will be asked to sign the message using your wallet.
@@ -25,7 +25,7 @@ You can use the title of the thread to indicate the subject (tip request) and th
 * A brief summary of the contribution
 * The amount of the requested tip (in HDX)
 * Time spent on the contribution (in hours)
-* If appropriate, provide more detailed information such as the relevance of the contribution to HydraDX and a link to the PR (in the case of technical contributions)
+* If appropriate, provide more detailed information such as the relevance of the contribution to Hydration and a link to the PR (in the case of technical contributions)
 
 Before posting the thread, please make sure that the tab `Treasury` is selected to indicate the nature of the Discussion.
 

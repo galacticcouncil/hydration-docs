@@ -1,6 +1,6 @@
 module.exports = {
   sidebar: {
-    HydraDX: [
+    Hydration: [
       "intro",
       "omnipool_trading",
       "omnipool_dca",

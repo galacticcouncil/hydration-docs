@@ -22,16 +22,16 @@ All HDX tokens which are deposited to propose or second a referendum are locked 
 :::
 
 ### Council Referendum {#referenda-initiate-council}
-The HydraDX Council has the powers to propose a referendum for a community vote. If it does so unanimously, the applicable voting mode for the referendum is [Negative Turnout Bias](#referenda-voting-modes). If the referendum is proposed with a simple majority of the Council votes, then the voting mode for accepting the proposals by the community is [Simple Majority](#referenda-voting-modes).
+The Hydration Council has the powers to propose a referendum for a community vote. If it does so unanimously, the applicable voting mode for the referendum is [Negative Turnout Bias](#referenda-voting-modes). If the referendum is proposed with a simple majority of the Council votes, then the voting mode for accepting the proposals by the community is [Simple Majority](#referenda-voting-modes).
 
 ### Emergency Proposals by the Technical Committee {#referenda-initiate-tech-committee}
 The Technical Committee can submit emergency proposals which deal with (critical) bug fixes or the quick adoption of battle-tested functionality. Emergency proposals skip the waiting queue and enter the voting round directly. The community can vote on emergency proposals in parallel to any regular proposal which has entered the voting round. Furthermore, emergency proposals have a shorter voting period to ensure that they can be fast-tracked.
 
 ### Canceling a Referendum {#cancel}
-Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [HydraDX Council](/democracy_council) (with a 60% super-majority) or the [Technical Committee](/democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
+Once a referendum has been proposed, it cannot be revoked until it has entered the voting round. An exception to this rule is made for proposals which are deemed detrimental to the protocol (e.g. code changes introducing a bug). In this limited case, the referendum proposal can be cancelled by the [Hydration Council](/democracy_council) (with a 60% super-majority) or the [Technical Committee](/democracy_technical_committee) (unanimously). All tokens wich were locked by supporters seconding the proposal are burned.
 
 ## Voting in a Referendum {#referenda-vote}
-HydraDX referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
+Hydration referenda have a launch period of 3 days. At the beginning of every new period, the proposal with the highest amount of seconding is taken from the waiting queue and put into a voting round. Every voting round has a duration of 3 days. During this period, community members can vote on the referendum using a weighted, stake-base mechanism. They do so by locking up a certain amount of HDX tokens for a given timeframe.
 
 :::note
 Locked HDX tokens cannot be transferred for the duration of the chosen lock period. However, they can still be used for voting.

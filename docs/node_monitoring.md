@@ -121,7 +121,7 @@ scrape_configs:
       - targets: ["localhost:9615"]
 ```
 
-The first scrape job exports data of Prometheus itself, the second one exports the HydraDX node metrics.
+The first scrape job exports data of Prometheus itself, the second one exports the Hydration node metrics.
 We adjusted the `scrape_interval` of both jobs to get more detailed statistics. This overrides the global values.
 The `target` in `static_configs` sets where the exporters run, we stick to the default ports here.
 
@@ -327,7 +327,7 @@ Please click the `Plus`-button in the main navigation and select `import`.
   <img src={useBaseUrl('/node-monitoring/grafana-import.png')} />
 </div>  
 
-We will use the [HydraDX Dashboard](https://grafana.com/grafana/dashboards/14158) layout, so simply input the id `14158` and hit the `Load`-button.  
+We will use the [Hydration Dashboard](https://grafana.com/grafana/dashboards/14158) layout, so simply input the id `14158` and hit the `Load`-button.  
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/node-monitoring/grafana-import-options.png')} />
