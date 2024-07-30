@@ -9,7 +9,7 @@ This section contains a series of knowledge articles which should provide you wi
 
 If you are looking for practical guidance on how to participate in the governance of Hydration, please refer to the step-by-step guides on [participating in referenda](/participate_in_referenda) and [participating in Council elections](/participate_in_council_elections).
 
-## Democracy parameters
+## Parameters for Democracy
 The list below contains the most important parameters which influence the governance mechanism on Hydration. Please note that these may change over time.
 
 
