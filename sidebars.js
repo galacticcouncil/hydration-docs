@@ -59,6 +59,7 @@ module.exports = {
         type: "category",
         label: "Democracy",
         items: [
+          "opengov",
           "democracy_intro",
           "democracy_referenda",
           "democracy_council",
