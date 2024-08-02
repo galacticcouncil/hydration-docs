@@ -60,6 +60,8 @@ module.exports = {
         label: "Democracy",
         items: [
           "democracy_intro",
+          "opengov_theory",
+          "opengov_tutorials",
           "democracy_referenda",
           "democracy_council",
           "democracy_technical_committee"
