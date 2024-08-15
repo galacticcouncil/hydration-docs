@@ -30,9 +30,12 @@ module.exports = {
       "howto_bonds_lbp",
       {
         type: "category",
-        label: "Wallets",
+        label: "Create a Wallet",
         items: [
-          "create_account",
+          "howto_wallet_mobile",
+          "howto_wallet_desktop",
+          "howto_wallet_ledger",
+          "howto_wallet_evm",
           "howto_wallet_parity_signer"
         ]
       },
