@@ -6,7 +6,7 @@ title: EVM (MetaMask)
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-# How to Use an EVM Wallet on Hydration
+# Using MetaMask on Hydration (0x)
 
 Hydration supports EVM wallets, enabling you to perform various transactions on the protocol, such as trading in the Omnipool, placing OTC orders, and more.
 

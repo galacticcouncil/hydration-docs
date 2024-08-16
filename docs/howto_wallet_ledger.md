@@ -6,20 +6,20 @@ title: Ledger
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-# How to Use Ledger Wallet on Hydration
+# Using Ledger on Hydration
 
 Securing your HDX tokens in cold storage while signing transactions on the Hydration network is possible thanks to the Universal Polkadot Ledger App.
 
 ---
 
-## **How to Create a Polkadot (HDX-compatible) Account on Ledger**
+## Setting Up Ledger
 
-### **Prepare Your Ledger Device**
+### Prepare Your Ledger Device
 
 1. Download and install **Ledger Live** on your computer. You can learn more about how to get started with Ledger Live [here](https://support.ledger.com/article/4404389503889-zd?redirect=false).
 2. Open Ledger Live, connect your Ledger device to **My Ledger**, and ensure your device is running the latest firmware version. If not, **update the firmware** of your Ledger Nano S / Nano S Plus / Nano X.
 
-### **Install the Polkadot App on Your Ledger Device**
+### Install the Polkadot App
 
 1. Open **Ledger Live** and navigate to the **My Ledger** tab.
 2. **Connect** and **unlock** your Ledger device.
@@ -31,7 +31,7 @@ Securing your HDX tokens in cold storage while signing transactions on the Hydra
   width="700px" />
 </div>
 
-### **Create a Polkadot Account in Ledger Live**
+### Create Your Account
 
 1. Open **Ledger Live** and navigate to the **Accounts** tab.
 2. Click **Add Account**.
@@ -50,7 +50,7 @@ Securing your HDX tokens in cold storage while signing transactions on the Hydra
 
 ---
 
-## **How to Import or Connect a Ledger Account to Talisman**
+## Using Ledger with Talisman
 
 1. Open the **Talisman Wallet extension**. Click the three horizontal dots at the bottom-right, and select **Add Account**.
     
@@ -93,7 +93,7 @@ Your Ledger account(s) should now appear in your Talisman Wallet Accounts tab. Y
 
 ---
 
-## **How to Import or Connect a Ledger Account to SubWallet**
+## Using Ledger with SubWallet
 
 1. Open the **SubWallet extension** and click on the **Account Name** to open the account selection tab.
     
@@ -129,7 +129,7 @@ Your Ledger account(s) should now appear in your SubWallet Accounts tab. You can
 
 ---
 
-## **How to Sign a Transaction with Your Ledger**
+## Signing Transactions with Ledger
 
 1. Ensure your Ledger device is connected to the wallet you wish to use (Talisman or SubWallet).
 2. Go to [app.hydration.net](https://app.hydration.net/).
@@ -140,8 +140,9 @@ Congratulations! The transaction is now complete. If you encounter any issues, e
 
 ---
 
-## **Need Help?**
+## Need Help?
 
 If you are having any issues with the Polkadot Ledger App, check out the following resources:
 1. Polkadot Forum post on [New Polkadot Ledger App](https://forum.polkadot.network/t/new-polkadot-ledger-app/8817).
 2. Polkadot Support post on [How to Migrate to the New Ledger Generic App](https://support.polkadot.network/support/solutions/articles/65000188075-talisman-migrate-to-the-new-ledger-universal-app).
+3. If your issue is still not resolved you can always contact us on Discord or Telegram.

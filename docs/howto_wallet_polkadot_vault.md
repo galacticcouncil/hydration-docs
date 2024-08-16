@@ -1,13 +1,13 @@
 ---
-id: howto_wallet_parity_signer
-title: Parity Signer
+id: howto_wallet_polkadot_vault
+title: Polkadot Vault
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# How to Create a Hydration Wallet Using Parity Signer
+# Using Polkadot Vault Hydration
 
-[Parity Signer](https://www.parity.io/technologies/signer/) is a mobile app which turns your iOS or Android device into a dedicated hardware wallet for Polkadot, Kusama, and any other Substrate-based chain. It allows you to keep your private keys offline while still being able to conveniently sign transactions in an air-gapped way using QR codes.
+[Polkadot Vault](https://www.parity.io/technologies/signer/) is a mobile app which turns your iOS or Android device into a dedicated hardware wallet for Polkadot, Kusama, and any other Substrate-based chain. It allows you to keep your private keys offline while still being able to conveniently sign transactions in an air-gapped way using QR codes.
 
 ## Set Up Parity Signer
 ### Before You Start: Stay Safe

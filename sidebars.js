@@ -19,6 +19,17 @@ module.exports = {
       "spending_fw",
     ],
     "How-to": [
+      {
+        type: "category",
+        label: "Wallets & Accounts",
+        items: [
+          "howto_wallet_mobile",
+          "howto_wallet_desktop",
+          "howto_wallet_ledger",
+          "howto_wallet_evm",
+          "howto_wallet_polkadot_vault"
+        ]
+      },
       "trade_metamask",
       "bridge_from_ethereum",
       "howto_xcm",
@@ -28,17 +39,6 @@ module.exports = {
       "howto_hydrated_farms",
       "howto_stake",
       "howto_bonds_lbp",
-      {
-        type: "category",
-        label: "Create a Wallet",
-        items: [
-          "howto_wallet_mobile",
-          "howto_wallet_desktop",
-          "howto_wallet_ledger",
-          "howto_wallet_evm",
-          "howto_wallet_parity_signer"
-        ]
-      },
       {
         type: "category",
         label: "Democracy",
