@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The Vault app is not technically a wallet, as it does not allow to transfer funds. It is more of a key-chain tool that will enable you the create, manage, and restore accounts. The app allows you to securely sign [extrinsics](https://wiki.polkadot.network/docs/learn-transactions) via QR codes without exposing your private keys to the internet.
 
-## **Before You Start: Stay Safe**
+## Before You Start: Stay Safe
 
 - **Start clean**: Before installing Polkadot Vault, make sure that your phone is in a clean state. If it has been used, perform a factory reset and do not install any other apps besides Polkadot Vault.
 - **Do not insert a SIM card**: If possible, don’t turn on WiFi. Or use a secure WiFi connection, preferably with no other connected devices and a reputable VPN provider to connect, update the device, and install the Parity signer app.
@@ -25,7 +25,7 @@ The Vault app is not technically a wallet, as it does not allow to transfer fund
 - **Logout from all accounts**: Log out from App stores, iCloud, and any other accounts you’ve joined.
 - **Updating your device**: If you are using WiFi to update your device, remember to disable it right after the update and use it only in a secure environment, preferably through a secure and encrypted VPN channel. After the update is complete, forget the WiFi network to make sure you don't automatically rejoin.
 
-## **Create a New Polkadot Vault Account for Hydration**
+## Create a New Polkadot Vault Account for Hydration
 
 The following steps need to be carried out on your Polkadot Vault device.
 
@@ -52,7 +52,7 @@ The following steps need to be carried out on your Polkadot Vault device.
 - Polkadot Vault will now create keys for you that have the following derivation path format:
     - //polkadot for Polkadot, //hydration for Hydration, etc.
 
-## **Import Existing Polkadot Vault Account**
+## Import Existing Polkadot Vault Account
 
 The following steps need to be carried out on your Polkadot Vault device.
 
@@ -64,7 +64,7 @@ The following steps need to be carried out on your Polkadot Vault device.
 - Polkadot Vault will now create keys for you that have the following derivation path format:
     - //polkadot for Polkadot, //kusama for Kusama, etc.
 
-## **Add Polkadot Vault Account to Wallets**
+## Add Polkadot Vault Account to Wallets
 
 Polkadot Vault is used in combination with the leading wallets in the ecosystem. Below are detailed guides created by the wallet teams to help you manage your PV accounts.
 
@@ -80,7 +80,7 @@ Optionally, you can add your Polkadot Vault account to the Polkadot.JS browser e
     - Select your desired account or sub-account;
     - You will see a QR code which you need to scan with your device camera.
 
-## **Update Chain Metadata in Polkadot Vault**
+## Update Chain Metadata in Polkadot Vault
 
 Due to the fact that your **Polkadot Vault Device** is always offline and is air-gapped, there is a unique system in which you must partake to update the chain metadata so that your transactions are valid. You can use the [Novasama Technologies Metadata Portal](https://metadata.novasama.io/#/polkadot) to find QR codes which will provide your **Polkadot Vault Device** with the information required to update the chain metadata.
 
@@ -102,7 +102,7 @@ The following steps need to be carried out on your **Polkadot Vault Device**.
 - Scan the Metadata QR code with your Polkadot Vault device (Note: this can take a few minutes to complete).
 - Review the Verifier Certificate and select Approve.
 
-## **Add Public Key for a Network**
+## Add Public Key for a Network
 
 In Polkadot Vault after you add the chain specs and metadata for a network, you then need to add your Public Key for that network so that you can conduct transactions.
 
@@ -113,7 +113,7 @@ The following steps need to be carried out on your Polkadot Vault device.
 - Select the network that you would like to add a key for (note: if you cannot see your desired network then you have not correctly added the chain specs and metadata).
 - Select Create Key.
 
-## **Note on Smartphone Compatibility**
+## Note on Smartphone Compatibility
 
 Although the Vault app is available for old smartphones, different versions will be installed according to the phone's hardware.
 
