@@ -21,7 +21,7 @@ One of the flaws of the XYK model is that trading pools are constrained to pairs
 
 ## Hydration Omnipool: Unified Liquidity
 
-Thanks to the cutting-edge design, liquidity in the Omnipool truly *acts as* *one*. By having all the liquidity connected through LRNA, the assets within the Omnipool have direct access to the entirety of liquidity for any other asset that is also deposited into the Omnipool. This allows for a **seamless on-chain execution** and enables swaps to be completed in a **single transaction** with no hopping required between various isolated trading pools. 
+Thanks to the cutting-edge design, liquidity in the Omnipool truly *acts as* *one*. By having all the liquidity connected through H2O, the assets within the Omnipool have direct access to the entirety of liquidity for any other asset that is also deposited into the Omnipool. This allows for a **seamless on-chain execution** and enables swaps to be completed in a **single transaction** with no hopping required between various isolated trading pools. 
 
 Furthermore, based on internal research, the increase in the number of tokens and total value locked (TVL) within the Omnipool lead to exponential improvements in slippage reduction.
 
