@@ -43,7 +43,7 @@ With the introduction of **Referrals** to Hydration, asset fees are distributed 
 </div>
 
 ## Protocol fee
-Protocol fees are paid by users whenever they make a trade in the Omnipool. These fees - paid in LRNA - are burned after the trades to mitigate any negative imbalance between the ratio of LRNA and the other assets in the Omnipool.
+Protocol fees are paid by users whenever they make a trade in the Omnipool. These fees - paid in H2O - are burned after the trades to mitigate any negative imbalance between the ratio of H2O and the other assets in the Omnipool.
 
 When there is no negative imbalance, the protocol fee will be redirected to the HDX pool within the Omnipool. This will result in the value of HDX increasing relative to all other assets in the Omnipool. An arbitrageur will observe this and swap HDX with other assets, setting a new (likely higher) price for HDX.
 
