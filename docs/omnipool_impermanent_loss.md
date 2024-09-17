@@ -18,33 +18,33 @@ The risk is referred to as "impermanent" because the loss is only realized when 
 
 ## Design of the Hydration Omnipool
 
-The Hydration Omnipool, in its most basic form, can be thought of as a collection of XYK AMM pools in which each of the different TKN assets is paired with the hub token LRNA. This design lies at the core of one of our distinguishing features: Single-sided LPing, or the ability of LPs to provide liquidity for a single asset only.
+The Hydration Omnipool, in its most basic form, can be thought of as a collection of XYK AMM pools in which each of the different TKN assets is paired with the hub token H2O. This design lies at the core of one of our distinguishing features: Single-sided LPing, or the ability of LPs to provide liquidity for a single asset only.
 
-To enable single-sided LPing, the Protocol will automatically mint/burn a corresponding amount of LRNA tokens every time liquidity is provided/withdrawn. Since all tokens have a pair with the hub token, LRNA acts as a price proxy providing an efficient way to determine the relative value of any two given assets in the Omnipool.
+To enable single-sided LPing, the Protocol will automatically mint/burn a corresponding amount of H2O tokens every time liquidity is provided/withdrawn. Since all tokens have a pair with the hub token, H2O acts as a price proxy providing an efficient way to determine the relative value of any two given assets in the Omnipool.
 
 ## IL in the Hydration Omnipool
 
-The impermanent loss experienced by any TKN position in the Omnipool is determined by the divergence in value between TKN and LRNA. A stronger price correlation between TKN and LRNA suggests a smaller IL (and vice versa).
+The impermanent loss experienced by any TKN position in the Omnipool is determined by the divergence in value between TKN and H2O. A stronger price correlation between TKN and H2O suggests a smaller IL (and vice versa).
 
-Since LRNA has a liquidity pair with all other tokens in the Omnipool, it can be seen as a weighted price index which reflects the aggregate movement of all different assets within the Omnipool. The [basket of Omnipool assets](https://app.hydration.net/stats/overview) includes both stablecoins and other cryptocurrencies. 
+Since H2O has a liquidity pair with all other tokens in the Omnipool, it can be seen as a weighted price index which reflects the aggregate movement of all different assets within the Omnipool. The [basket of Omnipool assets](https://app.hydration.net/stats/overview) includes both stablecoins and other cryptocurrencies. 
 
 This design has important implications for IL. If TKN achieves a price movement which is aligned with the rest of the crypto market (e.g. with DOT or BTC), then the expected IL of TKN in the Omnipool shall be lower as compared to an XYK pool between TKN/stablecoin, however that same IL will be higher as compared to an isolated XYK pool between TKN/DOT (or BTC).
 
 ### The Impact of Asset Weights
 
-Another factor that affects IL is the weight of TKN in the Omnipool, which is the relative size of the liquidity for TKN compared to the Omnipool TVL. A TKN with a bigger weight in the Omnipool will display a stronger price correlation with LRNA. This means that an (isolated) price movement of TKN will cause lower IL as compared to the situation where TKN has a lower weight in the Omnipool.
+Another factor that affects IL is the weight of TKN in the Omnipool, which is the relative size of the liquidity for TKN compared to the Omnipool TVL. A TKN with a bigger weight in the Omnipool will display a stronger price correlation with H2O. This means that an (isolated) price movement of TKN will cause lower IL as compared to the situation where TKN has a lower weight in the Omnipool.
 
 ### IL Modelling
 
-The graphic below illustrates how much IL would be incurred based on the price change of TKN relative to LRNA, and the asset weight of TKN.
+The graphic below illustrates how much IL would be incurred based on the price change of TKN relative to H2O, and the asset weight of TKN.
 
-For example, based on a 1% TKN weight in the Omnipool, if TKN price decreases 35% relative to the price of LRNA, the resulting IL would be ~2%.
+For example, based on a 1% TKN weight in the Omnipool, if TKN price decreases 35% relative to the price of H2O, the resulting IL would be ~2%.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/omnipool_impermanent_loss/il_model.png')}  />
 </div>
 
-X-axis = TKN price change relative to LRNA  
+X-axis = TKN price change relative to H2O  
 Y-axis = Impermanent Loss  
 Colored lines = Different initial weights assigned to TKN as a % of the total Omnipool
 
@@ -55,13 +55,13 @@ The design of the Omnipool described above requires safeguards which ensure that
 For this purpose, the Protocol has put mechanisms in place for distributing IL according to the specific LP positions in the subpools. In both cases described above, the correction takes place when an LP withdraws their position.
 
 #### TKN price went up
-In cases where the spot price of the provided TKN went up, the Protocol will divert some of the LPed assets as POL and distribute LRNA to the LP to compensate for the IL.
+In cases where the spot price of the provided TKN went up, the Protocol will divert some of the LPed assets as POL and distribute H2O to the LP to compensate for the IL.
 
-Let’s suppose that Bob LPed 1000 DAI to the Omnipool when the price was $p_\alpha = 1$ LRNA/DAI, for which he received $s_\alpha = 500$ shares. We suppose there are $S_i = 10,000$ shares total in the DAI pool, and $R_i = 19,000$.
+Let’s suppose that Bob LPed 1000 DAI to the Omnipool when the price was $p_\alpha = 1$ H2O/DAI, for which he received $s_\alpha = 500$ shares. We suppose there are $S_i = 10,000$ shares total in the DAI pool, and $R_i = 19,000$.
 
-Bob would now like to withdraw liquidity. The current price is $p_i^Q = 1.2$ LRNA/DAI.
+Bob would now like to withdraw liquidity. The current price is $p_i^Q = 1.2$ H2O/DAI.
 
-Since the price went *up*, the total quantity of DAI in the pool has gone *down*. The pool therefore will not confiscate any shares from Bob, and will have to give Bob some LRNA.
+Since the price went *up*, the total quantity of DAI in the pool has gone *down*. The pool therefore will not confiscate any shares from Bob, and will have to give Bob some H2O.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/omnipool_impermanent_loss/il_math_1.png')}  />
@@ -70,11 +70,11 @@ Since the price went *up*, the total quantity of DAI in the pool has gone *down*
 #### TKN price went down
 If the spot price of the asset has decreased since the LP provided liquidity, some of the LP shares will get transferred into POL to balance out the IL. 
 
-Let’s suppose that Alice LPed $100$ DOT to the Omnipool when the price was $p_\alpha = 10$ LRNA/DOT, and for which she received $s_\alpha = 200$ shares. We suppose there are $S_i = 1000$ shares total in the DOT pool, and $R_i = 710$ DOT.
+Let’s suppose that Alice LPed $100$ DOT to the Omnipool when the price was $p_\alpha = 10$ H2O/DOT, and for which she received $s_\alpha = 200$ shares. We suppose there are $S_i = 1000$ shares total in the DOT pool, and $R_i = 710$ DOT.
 
-She would now like to withdraw her liquidity. The current price is $p_i^Q = 5$ LRNA/DOT.
+She would now like to withdraw her liquidity. The current price is $p_i^Q = 5$ H2O/DOT.
 
-Note that the price going *down* means that the number of DOT in the Omnipool went *up*; we therefore will have plenty of DOT to give Alice, so she will not receive any LRNA. However, the protocol *will* confiscate some of her shares as protocol-owned-liquidity.
+Note that the price going *down* means that the number of DOT in the Omnipool went *up*; we therefore will have plenty of DOT to give Alice, so she will not receive any H2O. However, the protocol *will* confiscate some of her shares as protocol-owned-liquidity.
 
 The equation is:
 <div style={{textAlign: 'center'}}>
@@ -92,22 +92,22 @@ I.e., Alice is entitled to:
 
 In this case, it is clear that not enough fees accrued to the DOT pool to overcome Alice’s impermanent loss. Higher fee revenue would result in $R_i > 710$, which could turn Alice’s loss into profit, even with a similar price movement.
 
-## LRNA Imbalance Mechanisms
-In one of the examples above, LRNA is distributed to LPs to balance out IL. This exit of LRNA from the Omnipool causes an imbalance as the Omnipool now has less LRNA than what was minted / burned as a result of LPs depositing / removing assets from the Omnipool.
+## H2O Imbalance Mechanisms
+In one of the examples above, H2O is distributed to LPs to balance out IL. This exit of H2O from the Omnipool causes an imbalance as the Omnipool now has less H2O than what was minted / burned as a result of LPs depositing / removing assets from the Omnipool.
 
-Assuming the LP sells the LRNA obtained back into the Omnipool for an asset, this results in LRNA’s value to decrease which would affect all other liquidity positions within the Omnipool.
+Assuming the LP sells the H2O obtained back into the Omnipool for an asset, this results in H2O’s value to decrease which would affect all other liquidity positions within the Omnipool.
 
-To mitigate the negative effects of the value depreciation of LRNA, the Hydration Protocol has implemented the following mechanisms:
+To mitigate the negative effects of the value depreciation of H2O, the Hydration Protocol has implemented the following mechanisms:
 
 ### Fees
 
 In the first place, there are three types of fees which act as a safeguard. For more info please refer to our [fees](/fees) page.
 
 #### Protocol Fees
-Hydration charges Protocol fees upon every swap which are paid in LRNA. Whenever there is a negative LRNA imbalance, Hydration will continually burn the Protocol fee until it has reached 2x the amount of any LRNA sold back into the Omnipool.
+Hydration charges Protocol fees upon every swap which are paid in H2O. Whenever there is a negative H2O imbalance, Hydration will continually burn the Protocol fee until it has reached 2x the amount of any H2O sold back into the Omnipool.
 
 #### Dynamic Fees during Increased Volatility
-Protocol fees are dynamic and adjusted based on the current market volatility. If prices in the Omnipool are volatile, each swap will incur higher Protocol fees which are potentially translated to a higher amount of LRNA which is burnt.
+Protocol fees are dynamic and adjusted based on the current market volatility. If prices in the Omnipool are volatile, each swap will incur higher Protocol fees which are potentially translated to a higher amount of H2O which is burnt.
 
 #### Withdrawal Fees
 
@@ -115,10 +115,10 @@ Withdrawal fees are another type of dynamic fees which are designed to ensure th
 
 ### Protocol-Owned Liquidity
 
-In the second place, Hydration owns a substantial amount of Protocol-owned liquidity (POL). POL is held by the Protocol itself and it acts as the “liquidity of last resort”. It ensures that there is always a base level of liquidity within the Omnipool. As such, POL helps set a floor on how much the price of LRNA could decrease even if all 3rd-party LPs were to withdraw their liquidity from the Omnipool. 
+In the second place, Hydration owns a substantial amount of Protocol-owned liquidity (POL). POL is held by the Protocol itself and it acts as the “liquidity of last resort”. It ensures that there is always a base level of liquidity within the Omnipool. As such, POL helps set a floor on how much the price of H2O could decrease even if all 3rd-party LPs were to withdraw their liquidity from the Omnipool. 
 
 ### Liquidity Restrictions
 
-Finally, the Hydration Protocol has put some liquidity restrictions in place. One such restriction is to make **LRNA unvailable for purchase** on the market. The only way to obtain LRNA is to receive it as partial compensation for the IL experienced by LPing. This is meant to cap the total amount of LRNA that could leave the Omnipool, and therefore limit how much LRNA could suddenly be sold back to the Omnipool.
+Finally, the Hydration Protocol has put some liquidity restrictions in place. One such restriction is to make **H2O unvailable for purchase** on the market. The only way to obtain H2O is to receive it as partial compensation for the IL experienced by LPing. This is meant to cap the total amount of H2O that could leave the Omnipool, and therefore limit how much H2O could suddenly be sold back to the Omnipool.
 
 Asset caps are another type of liquidity restriction. Asset caps are defined per asset and they ensure that any token cannot make up a greater proportion of the Omnipool than initially defined by the cap.
