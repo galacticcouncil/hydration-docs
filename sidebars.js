@@ -1,27 +1,11 @@
 module.exports = {
   sidebar: {
-    Hydration: [
+    "Quick Start": [
       "intro",
-      "omnipool_trading",
-      "omnipool_dca",
-      "omnipool_lp",
-      "staking",
-      "referrals",
-      "yield_dca",
-      "omnipool_treasuries",
-      "omnipool_security",
-      "omnipool_impermanent_loss",
-      "omnipool_hydrated_farms",
-      "bonds",
-      "lbp",
-      "fees",
       "tokenomics",
-      "spending_fw",
-    ],
-    "How-to": [
       {
         type: "category",
-        label: "Wallets & Accounts",
+        label: "Set Up Wallets & Accounts",
         items: [
           "howto_wallet_mobile",
           "howto_wallet_desktop",
@@ -30,62 +14,130 @@ module.exports = {
           "howto_wallet_polkadot_vault"
         ]
       },
-      "trade_metamask",
-      "bridge_from_ethereum",
-      "howto_xcm",
-      "howto_trade",
-      "howto_dca",
-      "howto_lp",
-      "howto_hydrated_farms",
-      "howto_stake",
-      "howto_bonds_lbp",
       {
         type: "category",
-        label: "Democracy",
+        label: "Deposit Funds",
         items: [
-          "tip_request",
+          "bridge_from_ethereum"
+        ]
+      },
+      {
+        type: "category",
+        label: "Trade",
+        items: [
+          "howto_xcm",
+          "trade_metamask",
+          "howto_trade",
+          "howto_dca"
+        ]
+      }
+    ],
+    "Products & Features": [
+      {
+        type: "category",
+        label: "Trading",
+        items: [
+          {
+            type: "category",
+            label: "Trading Pools",
+            items: [
+              "omnipool",
+              "isolated_pools",
+              "stablepools"
+            ]
+          },
+          {
+            type: "category",
+            label: "Providing Liquidity",
+            items: [
+              "omnipool_lp",
+              "lp_rewards",
+              "omnipool_impermanent_loss"
+            ]
+          },
+          {
+            type: "category",
+            label: "Pro Trading",
+            items: [
+              "omnipool_dca",
+              "yield_dca",
+              "bonds"
+            ]
+          }
+        ]
+      },
+      "lend_borrow",
+      "hollar",
+      "staking"
+    ],
+    "User Guides": [
+      {
+        type: "category",
+        label: "Set Up Wallets & Accounts",
+        items: [
+          "howto_wallet_mobile",
+          "howto_wallet_desktop",
+          "howto_wallet_ledger",
+          "howto_wallet_evm",
+          "howto_wallet_polkadot_vault"
+        ]
+      },
+      {
+        type: "category",
+        label: "Deposit Funds",
+        items: [
+          "bridge_from_ethereum"
+        ]
+      },
+      {
+        type: "category",
+        label: "Trade",
+        items: [
+          "howto_xcm",
+          "trade_metamask",
+          "howto_trade",
+          "howto_dca"
+        ]
+      },
+      {
+        type: "category",
+        label: "Provide Liquidity",
+        items: [
+          "howto_lp",
+          "howto_hydrated_farms",
+          "howto_bonds_lbp"
+        ]
+      },
+      {
+        type: "category",
+        label: "Community & Governance",
+        items: [
+          "howto_stake",
+          "referrals",
           "participate_in_referenda",
-          "participate_in_council_elections"
-        ]
-      },
-      "claim",
-      "identity",
-      {
-        type: "category",
-        label: "Connect to a Node",
-        items: ["polkadotjs_apps_local", "polkadotjs_apps_public"],
-      }
-    ],
-    "Learn": [
-      "learn_amm",
-      {
-        type: "category",
-        label: "Democracy",
-        items: [
-          "democracy_intro",
-          "democracy_referenda",
-          "democracy_council",
-          "democracy_technical_committee"
-        ]
-      },
-      {
-        type: "category",
-        label: "Omnipool",
-        items: [
-          "omnipool_design"
+          "contributing",
+          "tip_request"
         ]
       }
     ],
-    "Maintain": [
+    "For DAOs": [
+      "lbp"
+    ],
+    "For Developers": [
+      "dev_intro",
+      "build_dev_chain",
       "collator_setup",
       "performance_benchmark",
       "node_monitoring"
     ],
-    Build: [
-      "dev_intro",
-      "build_dev_chain",
+    "Governance": [
+        "democracy_intro",
+        "democracy_referenda",
+        "democracy_council",
+        "democracy_technical_committee"
     ],
-    Archive: ["archive_hydradx_crowdloan"],
-    Contribute: ["contributing"],
+    "Security": [
+      "omnipool_security"
+    ],
   }
-};
+  };
