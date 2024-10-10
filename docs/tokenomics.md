@@ -1,6 +1,6 @@
 ---
 id: tokenomics
-title: HDX Tokenomics
+title: The HDX Token
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 

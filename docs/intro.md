@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Meet Omnipool
+title: What is Hydration?
 slug: /
 ---
 
