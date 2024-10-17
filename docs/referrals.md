@@ -1,6 +1,6 @@
 ---
 id: referrals
-title: Referrals
+title: Earn With Referrals
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
