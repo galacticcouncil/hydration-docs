@@ -51,7 +51,7 @@ module.exports = {
             label: "Providing Liquidity",
             items: [
               "omnipool_lp",
-              "lp_rewards",
+              "fees",
               "omnipool_impermanent_loss"
             ]
           },

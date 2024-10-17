@@ -1,6 +1,6 @@
 ---
 id: fees
-title: Fees
+title: Fees & Rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
