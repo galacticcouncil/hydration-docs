@@ -1,0 +1,14 @@
+{
+  "label": "Pools",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/trading/pools",
+    "type": "generated-index",
+    "title": "Pools"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "For DAOs",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/daos",
+    "type": "generated-index",
+    "title": "For DAOs"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

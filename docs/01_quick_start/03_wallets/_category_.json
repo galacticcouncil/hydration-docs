@@ -1,0 +1,15 @@
+{
+  "position": 1,
+  "label": "Wallet Setup",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/quick_start/wallets",
+    "type": "generated-index",
+    "title": "Wallet Setup"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

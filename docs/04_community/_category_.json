@@ -1,0 +1,14 @@
+{
+  "label": "Community and Governance",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/community",
+    "type": "generated-index",
+    "title": "Community and Governance"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
