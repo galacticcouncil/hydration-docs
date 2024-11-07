@@ -1,6 +1,6 @@
 ---
 id: omnipool_design
-title: Omnipool Design
+title: Design
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

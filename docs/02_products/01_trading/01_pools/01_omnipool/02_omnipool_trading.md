@@ -1,6 +1,6 @@
 ---
 id: omnipool_trading
-title: Efficient Trading
+title: Trading
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
