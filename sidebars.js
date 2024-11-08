@@ -84,6 +84,8 @@ module.exports = {
     Build: [
       "dev_intro",
       "build_dev_chain",
+      "build_xc_integration",
+      "build_remote_swaps"
     ],
     Archive: ["archive_hydradx_crowdloan"],
     Contribute: ["contributing"],
