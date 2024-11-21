@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This article provides step-by-step guidance on how to participate in Council elections - voting for Council members and becoming a Council candidate.
 
-If you are interested in how the election mechanism works, please refer to [this post](/democracy_council#elections).
+If you are interested in how the election mechanism works, please refer to [this post](./democracy_council#elections).
 
 ## Using Polkadot/apps {#polkajs}
 ### Vote in Council member elections {#polkajs-vote}
@@ -21,7 +21,7 @@ To bring out your vote for Council members, click on *Vote*.
 
 Enter the amount of tokens you are willing to lock in support of your candidates.
 
-After that, select your candidates in order of preference by moving them from the left list to the right one. Remeber to select multiple candidates - this will help the algorithm select the optimal distribution of candidates to the Council.
+After that, select your candidates in order of preference by moving them from the left list to the right one. Remember to select multiple candidates - this will help the algorithm select the optimal distribution of candidates to the Council.
 
 To bring out your vote, click on *Vote* and sign the transaction.
 

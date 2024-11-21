@@ -4,7 +4,7 @@ title: Staking
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Hydration has a **long-running HDX staking program** which **incentivizes user activity** in areas that are beneficial to the Protocol. On this page you will find important information regarding the **mechanics behind the HDX Staking program**. You can also check out our [step-by-step guide on staking](/howto_stake).
+Hydration has a **long-running HDX staking program** which **incentivizes user activity** in areas that are beneficial to the Protocol. On this page you will find important information regarding the **mechanics behind the HDX Staking program**. You can also check out our [step-by-step guide on staking](/community/stake_hdx).
 
 ## Staking Basics {#basics}
 
@@ -24,7 +24,7 @@ Stakers can increase the pace at which they can claim their rewards by **collect
   <img alt="login" src={useBaseUrl('/staking/rewards_bonding_curve.jpg')} width="500px" />
 </div>
 
-There are 2 factors which determine the amount of action points that stakers will receive: The **size of the vote** (relative to the total size of their staked HDX), and the **conviction multiplier**. The higher the conviction multiplier of the vote, the greater its weight. Keep in mind that voting with a conviction multiplier places a **temporary lock on the tokens**. Stakers looking to achieve the highest rewards boost would be voting with 6x conviction multiplier, thereby locking their HDX for 192 days (counted from the last vote using such conviction). Just a reminder that **this lock is not related to staking** as such - instead, it is a standard feature of governance in the Polkadot ecosystem (more info [in our docs](/democracy_referenda#referenda-votes-weighing)).
+There are 2 factors which determine the amount of action points that stakers will receive: The **size of the vote** (relative to the total size of their staked HDX), and the **conviction multiplier**. The higher the conviction multiplier of the vote, the greater its weight. Keep in mind that voting with a conviction multiplier places a **temporary lock on the tokens**. Stakers looking to achieve the highest rewards boost would be voting with 6x conviction multiplier, thereby locking their HDX for 192 days (counted from the last vote using such conviction). Just a reminder that **this lock is not related to staking** as such - instead, it is a standard feature of governance in the Polkadot ecosystem (more info [in our docs](../governance/democracy_referenda#referenda-votes-weighing)).
 
 | Conviction Multiplier | Days Locked |
 |:---------------------:|:-----------:|

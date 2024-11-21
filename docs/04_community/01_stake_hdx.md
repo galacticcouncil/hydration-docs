@@ -4,7 +4,7 @@ title: Stake HDX
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-Staking allows users to stake their HDX tokens and earn rewards which vest over time. This page contains a step-by-step guide on how to stake your HDX. Before proceeding, we recommend that you get familiar with [the basics of HDX staking](/staking).
+Staking allows users to stake their HDX tokens and earn rewards which vest over time. This page contains a step-by-step guide on how to stake your HDX. Before proceeding, we recommend that you get familiar with [the basics of HDX staking](../products/staking).
 
 If you don't have any HDX, you can obtain some on our [trade page](https://app.hydration.net/#/trade) by swapping against a range of assets supported by the Omnipool.
 
@@ -27,13 +27,13 @@ Connect your wallet to Hydration by clicking **`Connect Account`**.
 
 - The amount of rewards you receive is determined by the size of your staked HDX relative to the whole stake pool.
 - As time passes, you unlock a greater portion of your allocated rewards. The rate of unlocking is determined by a rewards bonding curve.
-- Learn more in the [Staking product docs](/staking).
+- Learn more in the [Staking product docs](../products/staking).
 
 ### Step 3: Boost Your Rewards
 
 - Collect Action Points to boost your rewards and increase the pace at which you unlock rewards.
 - You can collect Action Points by [voting on referenda](https://hydradx.subsquare.io/democracy/referenda). The more staked HDX you use for the vote and the higher the Conviction Multitplier - the more Action Points you receive.
-- Learn more in the [Staking product docs](/staking).
+- Learn more in the [Staking product docs](../products/staking).
 
 ### Step 4: Claim Your Rewards
 

@@ -5,7 +5,7 @@ title: Hydrate Your Treasury (B2B)
 
 The Hydration Omnipool has an **outspoken value proposition** for the **treasury of any project or DAO**. Forget about centralized market makers and inflationary rewards for liquidity mining; the Omnipool can facilitate the creation of a market for your token in a cost-efficient manner - trustless, without hidden costs and while building up your POL from trading fees.
 
-Thanks to its cutting-edge design, the Hydration Omnipool supports [single-sided LPing](/omnipool_lp). Instead of wastefully allocating liquidity mining rewards to incentivize other users to provide liquidity, projects and DAOs can deposit a part of their treasury to the Omnipool and receive **instant exposure to all other assets in an ocean of liquidity:** Diversified and deep (Hydration has $20M+ worth of POL which is gradually being deployed).
+Thanks to its cutting-edge design, the Hydration Omnipool supports [single-sided LPing](../products/trading/liquidity/single_sided_lp). Instead of wastefully allocating liquidity mining rewards to incentivize other users to provide liquidity, projects and DAOs can deposit a part of their treasury to the Omnipool and receive **instant exposure to all other assets in an ocean of liquidity:** Diversified and deep (Hydration has $20M+ worth of POL which is gradually being deployed).
 
 LPing in the Hydration Omnipool is **truly** **trustless**. Leveraging Polkadot’s unique capability of **cross-chain communication (XCM)**, the Omnipool empowers you to always remain in control of your funds: You can both provide your liquidity and manage it without relying on third parties.
 

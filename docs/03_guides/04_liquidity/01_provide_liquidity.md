@@ -12,8 +12,8 @@ Before deciding to become a liquidity provider, we encourage you to visit our [p
 If you would like to execute a trade using a non-native asset (e.g. DOT or DAI), you first need to get these assets to the Hydration chain. This step does not apply to HDX.
 
 There are two different mechanisms to transport non-native assets:
-* [Cross-chain transfer](https://app.hydration.net/#/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](howto_xcm);
-* [Ethereum bridge](https://www.portalbridge.com/#/transfer) - for bridging assets from the Ethereum ecosystem. Step-by-step documentation [here](/bridge_from_ethereum).
+* [Cross-chain transfer](https://app.hydration.net/#/cross-chain) - use this tool to transfer assets from other Polkadot parachains, or from Polkadot itself. Step-by-step documentation [here](/guides/deposit/within_polkadot);
+  * [Ethereum bridge](https://www.portalbridge.com/#/transfer) - for bridging assets from the Ethereum ecosystem. Step-by-step documentation [here](/guides/deposit/from_ethereum).
 
 These solutions can also be used to transport tokens outside of the Hydration network.
 
@@ -44,7 +44,7 @@ The individual caps for each asset will be reviewed from time to time by the tea
 
 Fill in the amount of liquidity you wish to provide **(1)**, click `Add liquidity` **(2)** and sign the transaction using your wallet.
 
-Next, you can learn [how to join Hydrated Farms](/howto_hydrated_farms) and earn additional rewards on top of the rewards from trading fees.
+Next, you can learn [how to join Hydrated Farms](/guides/liquidity/join_farms) and earn additional rewards on top of the rewards from trading fees.
 
 ### Removing Liquidity
 <div style={{textAlign: 'center'}}>

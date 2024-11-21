@@ -7,7 +7,7 @@ Hydrated Farms are time-limited incentives programs which offer additional rewar
 
 Departing from traditional liquidity mining programs, Hydrated Farms offer several distinctive features: they use [Farm NFTs](#farm-nfts) to represent the farm position, they support [rewards stacking](#rewards-stacking), and their rewards grow over time thanks to a [loyalty multiplier](#loyalty-multiplier).
 
-On this page you will find further details on the features of Hydrated Farms. If you would like to participate, please visit our [step-by-step guide on Hydrated Farms](/howto_hydrated_farms).
+On this page you will find further details on the features of Hydrated Farms. If you would like to participate, please visit our [step-by-step guide on Hydrated Farms](/guides/liquidity/join_farms).
 
 ## Farm NFTs {#farm-nfts}
 Whenever a user provides liquidity to the Omnipool and joins a Hydrated Farm, the Hydration Protocol will mint an NFT which is owned by the user. This NFT represents the user position in the farm and stores certain details such as time of entry. This enables the Protocol to provide sustainable incentives with rewards which grow over time.

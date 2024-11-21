@@ -2,7 +2,7 @@
 title: Yield DCA
 ---
 
-[Yield DCA](https://app.hydration.net/trade/yield-dca) enables users to diversify their rewards from DOT staking by setting up a [DCA schedule](/omnipool_dca) which periodically swaps their DOT staking yield into any asset traded on Hydration. 
+[Yield DCA](https://app.hydration.net/trade/yield-dca) enables users to diversify their rewards from DOT staking by setting up a [DCA schedule](/products/trading/pro/dca) which periodically swaps their DOT staking yield into any asset traded on Hydration. 
 
 Yield DCA works with vDOT - the DOT liquid staking token by [Bifrost Finance](https://bifrost.finance/). vDOT is a shadow token of staked DOT, with an underlying DOT reserve and incorporating the yield-bearing feature of DOT staking rewards (more info in the [Bifrost docs](https://docs.bifrost.finance/builders/liquid-staking-slp/vdot)). Holding vDOT acts as an equivalent to having a DOT staking position which is liquid, with staking rewards being accumulated as an appreciation in the price of vDOT.
 

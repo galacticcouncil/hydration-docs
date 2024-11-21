@@ -34,8 +34,8 @@ Asset fees are are paid by users whenever they make a trade in the Omnipool. The
 With the introduction of **Referrals** to Hydration, asset fees are distributed in the following way:
 
 - 50% remains in the Omnipool as a reward for LPs
-- 50% is distributed for referrals to 3 distinctive groups: Referrers, traders & HDX stakers. The proportions vary based on the tier of referral code linked to the trader account (learn more in [Referrals](/referrals))
-- HDX asset fees are currently excluded from Referrals, they are distributed in their fullest to the HDX Staking pot (learn more in [Staking](/staking))
+- 50% is distributed for referrals to 3 distinctive groups: Referrers, traders & HDX stakers. The proportions vary based on the tier of referral code linked to the trader account (learn more in [Referrals](/community/referrals))
+- HDX asset fees are currently excluded from Referrals, they are distributed in their fullest to the HDX Staking pot (learn more in [Staking](/products/staking))
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/referrals/rewards.jpg')} width="800px" />

@@ -17,7 +17,7 @@ The following technical specifications are required as a minimum for running a H
 
 :::note
 
-These are the minimum technical requirements which have been verified by the team. Want to make sure that your machine has sufficient resources to run a node? Run a [performance benchmark](/performance_benchmark) to find out.
+These are the minimum technical requirements which have been verified by the team. Want to make sure that your machine has sufficient resources to run a node? Run a [performance benchmark](./performance_benchmark) to find out.
 
 :::
 

@@ -10,7 +10,7 @@ Following the DCA strategy, orders are not placed at once but instead split into
 
 Hydration has two DCA implementations - the [full DCA feature](#hydration-dca), and [Split Trade](#split-trade) (easy DCA) which can be found on the main trading page. Further down, you can learn more about these features.
 
-If you are looking for step-by-step guidance, check out the [how-to place a DCA order guide](/howto_dca).
+If you are looking for step-by-step guidance, check out the [how-to place a DCA order guide](/guides/trade/dca).
 
 ## Hydration DCA {#hydration-dca}
 

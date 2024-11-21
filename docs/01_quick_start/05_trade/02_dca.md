@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page you will find a **step-by-step guide for setting up a DCA order** in the Hydration Omnipool.
 
-Before proceeding, we encourage you to visit our [DCA product page](/omnipool_dca) in order to get yourself familiar with the Hydration implementation of the dollar-cost averaging strategy.
+Before proceeding, we encourage you to visit our [DCA product page](/products/trading/pro/dca) in order to get yourself familiar with the Hydration implementation of the dollar-cost averaging strategy.
 
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/howto_dca/dca.jpg')} />

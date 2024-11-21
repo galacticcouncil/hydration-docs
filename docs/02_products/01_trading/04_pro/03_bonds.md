@@ -8,7 +8,7 @@ The Hydration Protocol uses **Bonds** as part of its strategy to **grow and dive
 
 All HDX bonds have a **maturity date**, which marks the moment when the bond can be **swapped against the underlying asset (HDX)**. The Hydration Protocol can decide the manner in which bonds are sold: For example, it can host a **dynamically priced LBP event**, or simply place an **OTC order against a fixed price**. Once acquired, bonds are **transferrable and tradeable on the secondary market** (e.g. OTC), also before they have reached maturity.
 
-On this page you will find more info about bonds, including the process of a bonds campaign. For step-by-step guidance on how to participate in a bonds LBP, please visit [this guide](/howto_bonds_lbp).
+On this page you will find more info about bonds, including the process of a bonds campaign. For step-by-step guidance on how to participate in a bonds LBP, please visit [this guide](/guides/liquidity/bonds).
 
 ## History of Bonds
 
@@ -18,7 +18,7 @@ The concept of bonds was first pioneered by OlympusDAO in 2021 as a tool which w
 
 The first step of a Bonds campaign is the issuance of the bonds by the Protocol. Any member of the Hydration Community can initiate a governance discussion and a referendum to issue a given amount of bonds with a predefined maturity date, in order to obtain a given asset as POL.
 
-Once bonds are issued, the Hydration Governance must decide on the method of trade. One option is to host a dedicated LBP event, which limited in time and allows for dynamic pricing thanks to the interplay between time-based weights shifting and demand (more info in our [LBP docs](/lbp)). Another option is for the Protocol to place an OTC order against a predefined price per bond.
+Once bonds are issued, the Hydration Governance must decide on the method of trade. One option is to host a dedicated LBP event, which limited in time and allows for dynamic pricing thanks to the interplay between time-based weights shifting and demand (more info in our [LBP docs](/daos/lbp)). Another option is for the Protocol to place an OTC order against a predefined price per bond.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/bonds/bonds-screen.jpg')} width="800px" />

@@ -3,7 +3,7 @@ title: Join Farms and Earn Rewards
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-With Hydrated Farms, providing liquidity to selected assets is incentivized by additional rewards on top of rewards from trading fees. To learn more, please visit the [dedicated product page](/omnipool_hydrated_farms).
+With Hydrated Farms, providing liquidity to selected assets is incentivized by additional rewards on top of rewards from trading fees. To learn more, please visit the [dedicated product page](/products/trading/liquidity/omnipool_hydrated_farms).
 
 ## 00 Navigate to Liquidity Page
 [https://app.hydration.net/liquidity](https://app.hydration.net/liquidity)
@@ -15,7 +15,7 @@ Incentivized assets can be identified by the `Farm rewards` section which displa
   <img alt="metadata" src={useBaseUrl('/howto_hydrated_farms/browse_farms.jpg')} width="800px" />
 </div>
 
-To join a farm, you must first provide liquidity ([step-by-step guide here](/howto_lp)).
+To join a farm, you must first provide liquidity ([step-by-step guide here](./provide_liquidity)).
 
 # 02 Join Farm
 Once you have provided liquidity for an incentivized asset, you can join its farm.

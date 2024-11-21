@@ -4,7 +4,7 @@ title: Hydration Council
 
 The Hydration Council is an on-chain entity which plays a key role in the governance of the protocol. This article provides information on the [composition](#composition) of the Council, its [main tasks](#tasks), and the [election of Council members](#elections).
 
-For step-by-step guidance on how to participate in Council elections, please refer to [this guide](/participate_in_council_elections).
+For step-by-step guidance on how to participate in Council elections, please refer to [this guide](./participate_in_council_elections).
 
 ## Composition {#composition}
 The Hydration Council currently consists of **13 members**. 
@@ -23,8 +23,8 @@ Furthermore, any proposed referendum can be cancelled with a 2/3 super-majority 
 Finally, the Hydration Council is responsible for electing the Technical Committee.
 
 ## Elections {#elections}
-Any holder of HDX tokens can [apply](/participate_in_council_elections) for one of the 7 non-permanent sets of the Hydration Council as a candidate.
+Any holder of HDX tokens can [apply](./participate_in_council_elections) for one of the 7 non-permanent sets of the Hydration Council as a candidate.
 
 The Council elections take place every 7 days, at which point an algorithm fills the 7 non-permanent Council seats for the duration of the following 7 days. The democracy module uses the same Phragmen algorithm which is used to elect the active set of validators on the Polkadot Relay Chain.
 
-All community members can [vote](/participate_in_council_elections) in the Council elections by locking a certain amount of HDX tokens of their choice. Locked tokens are not available for transfer and will be used in the follow-up elections (until cancelled). Voters can and should select more than one candidate in order of preference. The election algorithm then distributes all votes to determine the optimal allocation of the available Council seats to the candidates with the highest community backing.
+All community members can [vote](./participate_in_council_elections) in the Council elections by locking a certain amount of HDX tokens of their choice. Locked tokens are not available for transfer and will be used in the follow-up elections (until cancelled). Voters can and should select more than one candidate in order of preference. The election algorithm then distributes all votes to determine the optimal allocation of the available Council seats to the candidates with the highest community backing.

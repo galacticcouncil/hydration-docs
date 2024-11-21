@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This post provides a step-by-step guide on how to participate in referenda - voting and proposing. There are two alternative tools which you can use for this purpose - [Subsquare](#sub) or [Polkadot/apps](#polkajs).
 
-Before you decide to participate, we strongly encourage you to read through the [knowledge article](/democracy_referenda) in the Learn / Democracy section. There you will find some important details on the mechanics behind referenda.
+Before you decide to participate, we strongly encourage you to read through the [knowledge article](../governance/democracy_referenda) in the Learn / Democracy section. There you will find some important details on the mechanics behind referenda.
 
 ## Using Subsquare {#sub}
 ### Vote in a Referendum {#sub-vote}
@@ -24,14 +24,14 @@ To cast your vote, click on `Vote` and provide the following information:
 
 - **Vote with account** - select the voting account.
 - **Value** - this is the amount of HDX tokens you are willing to lock in support of the referendum.
-- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](https://docs.hydration.net/democracy_referenda#referenda-votes-weighing).
+- **Vote lock** - this is the multiplier which co-determines the [weight of your vote](/governance/democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Nay* (No) or *Aye* (Yes) and sign the transaction.
 
 In the section *Cast Your Vote*, fill in the following information:
 
 * Amount to vote - this is the amount of HDX tokens you are willing to lock in support of the referendum
-* Conviction multiplier - this is the multiplier which co-determines the [weight of your vote](/democracy_referenda#referenda-votes-weighing).
+* Conviction multiplier - this is the multiplier which co-determines the [weight of your vote](/governance/democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Vote yes* or *Vote no* and sign the transaction.
 
@@ -45,7 +45,7 @@ To vote in a referendum, click on the *Vote* button next to it.
 In the popup, fill in the following information:
 
 * Vote value - this is the amount of HDX tokens you are willing to lock in support of the referendum
-* Conviction multiplier - this is the multiplier which co-determines the [weight of your vote](/democracy_referenda#referenda-votes-weighing).
+* Conviction multiplier - this is the multiplier which co-determines the [weight of your vote](/governance/democracy_referenda#referenda-votes-weighing).
 
 After that, bring out your vote by clicking on *Vote Nay* (No) or *Vote Aye* (Yes) and sign the transaction.
 

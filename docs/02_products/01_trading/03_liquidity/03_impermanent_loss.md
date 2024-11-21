@@ -100,7 +100,7 @@ To mitigate the negative effects of the value depreciation of H2O, the Hydration
 
 ### Fees
 
-In the first place, there are three types of fees which act as a safeguard. For more info please refer to our [fees](/fees) page.
+In the first place, there are three types of fees which act as a safeguard. For more info please refer to our [fees](/products/trading/fees) page.
 
 #### Protocol Fees
 Hydration charges Protocol fees upon every swap which are paid in H2O. Whenever there is a negative H2O imbalance, Hydration will continually burn the Protocol fee until it has reached 2x the amount of any H2O sold back into the Omnipool.
