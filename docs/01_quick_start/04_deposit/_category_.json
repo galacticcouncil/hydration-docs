@@ -1,0 +1,14 @@
+{
+  "label": "Deposit Funds",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/quick_start/deposit",
+    "type": "generated-index",
+    "title": "Deposit Funds"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

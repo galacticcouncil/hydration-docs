@@ -1,0 +1,14 @@
+{
+  "label": "For Devs",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/devs",
+    "type": "generated-index",
+    "title": "For devs"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

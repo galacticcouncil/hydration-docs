@@ -1,0 +1,14 @@
+{
+  "label": "Deposit Funds",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/guides/deposit",
+    "type": "generated-index",
+    "title": "Deposit Funds"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

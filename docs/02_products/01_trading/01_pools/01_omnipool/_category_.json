@@ -1,0 +1,14 @@
+{
+    "label": "Omnipool",
+    "collapsible": true,
+    "collapsed": true,
+    "className": "red",
+    "link": {
+      "slug": "products/trading/pools/omnipool",
+      "type": "generated-index",
+      "title": "Omnipool"
+    },
+    "customProps": {
+      "description": ""
+    }
+  }

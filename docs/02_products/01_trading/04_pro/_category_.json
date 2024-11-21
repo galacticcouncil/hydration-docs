@@ -1,0 +1,14 @@
+{
+  "label": "Pro Features",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/trading/pro",
+    "type": "generated-index",
+    "title": "Pro Features"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Trading",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/trading",
+    "type": "generated-index",
+    "title": "Trading"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
