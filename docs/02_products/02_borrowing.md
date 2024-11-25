@@ -1,5 +1,0 @@
----
-title: Borrowing
----
-
-Coming soon.
