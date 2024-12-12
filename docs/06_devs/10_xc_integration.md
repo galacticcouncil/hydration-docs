@@ -124,8 +124,8 @@ To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) p
 1. **Fork the sdk repository**.
 2. **Extend xcm-cfg package**.
     1. If necessary, add a [new chain](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/chains/)
-    2. Add new [assets](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/assets.ts) to your chain
-    3. Add new [AssetRoute](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/configs/polkadot/hydration/index.ts) to both chain config files
+    2. Add new [assets](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/assets.ts)
+    3. Add new AssetRoute to both chain config files, [Hydration](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/configs/polkadot/hydration/index.ts) and [your chain's](https://github.com/galacticcouncil/sdk/tree/master/packages/xcm-cfg/src/configs/polkadot)
 3. (Optional / Recommended) **Test your changes locally in developer console**.
     1. Build the project by following [README.md](https://github.com/galacticcouncil/sdk/blob/master/README.md)
     2. Change current directory to `/examples/xcm-transfer/`
