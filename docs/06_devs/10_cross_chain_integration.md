@@ -1,5 +1,5 @@
 ---
-id: cross-chain_integration
+id: cross_chain_integration
 title: Cross-Chain Integration
 ---
 
