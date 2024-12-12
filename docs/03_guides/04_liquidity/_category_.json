@@ -1,0 +1,14 @@
+{
+  "label": "Liquidity",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/guides/liquidity",
+    "type": "generated-index",
+    "title": "Liquidity"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

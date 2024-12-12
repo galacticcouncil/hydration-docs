@@ -1,0 +1,14 @@
+{
+  "label": "Borrowing",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/borrowing",
+    "type": "generated-index",
+    "title": "Borrowing"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

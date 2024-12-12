@@ -1,0 +1,14 @@
+{
+  "label": "Providing Liquidity",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/trading/liquidity",
+    "type": "generated-index",
+    "title": "Providing Liquidity"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
