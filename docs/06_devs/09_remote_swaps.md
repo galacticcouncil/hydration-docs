@@ -1,9 +1,11 @@
 ---
-id: build_remote_swaps
+id: remote_swaps
 title: Remote swaps
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+Building cross-chain swaps.
 
 ## Introduction {#intro}
 With _xcm::execute_ call being gradually whitelisted on various chains, it is now possible to use Hydration as a universal atomic swapping engine. In practice, that means withdrawing funds on one chain, sending it to Hydration, swapping the asset for another and sending it back or another chain in one transaction. This enables cross-chain swaps and opening doors for use cases such as acquiring fee payment asset for a chain before a transaction happens and allowing for much better UX.
