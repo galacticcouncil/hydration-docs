@@ -17,7 +17,7 @@ User has 100 DOT on the Polkadot core chain and wants to swap it for USDT and ha
 The extrinsic would be in this example constructed as a _polkadotXcm.send_ call containing the following [instructions](https://github.com/paritytech/xcm-format):
 
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/build_remote_swaps/xcm_execute.png')} />
+  <img src={useBaseUrl('/img/devs/remote_swaps/xcm_execute.png')} />
 </div>
 
 ## Learn more

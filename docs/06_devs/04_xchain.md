@@ -1,5 +1,5 @@
 ---
-id: cross_chain_integration
+id: xchain
 title: Cross-Chain Integration
 ---
 
@@ -56,7 +56,7 @@ To initiate a request for opening a channel to Hydration on the relay chain, ple
 
 - prepare encoded transact call that will be executed on the relay chain:
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/build_xc_integration/hrmp_init.png')} />
+  <img src={useBaseUrl('/img/devs/xchain/hrmp_init.png')} />
 </div>
 
  _Encoded: 0x3c00f2070000e803000000900100_
@@ -85,19 +85,19 @@ Prepare a batch call that contains all the necessary actions and before submitti
 
 Once tested, note the preimage via _preimage.notePreimage_ extrinsic, choose the **Root** governance track and submit the referendum proposal using e.g. PolkadotJS Apps.
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/build_xc_integration/submit_referendum.png')} />
+  <img src={useBaseUrl('/img/devs/xchain/submit_referendum.png')} />
 </div>
 
 In order to queue the referendum for voting, a decision deposit needs to be placed.
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/build_xc_integration/decision_deposit.png')} />
+  <img src={useBaseUrl('/img/devs/xchain/decision_deposit.png')} />
 </div>
 
 ##### 3) Your parachain
 If the referendum in previous step passed and was executed successfully, hrmp channel needs to be accepted also on the other parachain. 
  - accept Hydration &#8594; Parachain channel request on the relay chain with the following Transact call, analogically to step 1:
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/build_xc_integration/hrmp_accept.png')} />
+  <img src={useBaseUrl('/img/devs/xchain/hrmp_accept.png')} />
 </div>
 
  _Encoded: 0x17012a080000_
