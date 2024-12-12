@@ -1,5 +1,5 @@
 ---
-title: Acquire Bonds (LBP)
+title: Buy Bonds (LBP)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
