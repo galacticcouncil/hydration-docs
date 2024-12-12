@@ -32,7 +32,7 @@ Initial listing of a token in the Omnipool is controlled by Hydration governance
 2. List the token in the Hydration asset registry.
 3. Hydration community vote on whether to allow listing the token in the Omnipool. The governance vote will not directly list the token but instead will include a remark to authorize listing in the Omnipool. Hydra community will also decide what the cap will be for the token as a percentage of overall Omnipool TVL. Currently each parachain token is capped at 5% of the Omnipool but will be lowered as the Omnipool asset list diversifies.
 3. Initial token liquidity is transferred from team or treasury into either the chain's sibling acct on the Hydration chain or into the Omnipool account (`7L53bUTBbfuj14UpdCNPwmgzzHSsrsTWBHX5pys32mVWM3C1`).
-4. HydraDX council passes a fast-track motion (including initial asset price) to add the initial liquidity to the Omnipool and enable trading. The resulting ownership NFT will be placed in the chain's sibling acct (or designated project/team acct for non-parachain tokens).
+4. Hydration DAO passes a motion (including initial asset price) to add the initial liquidity to the Omnipool and enable trading. The resulting ownership NFT will be placed in the chain's sibling acct (or designated project/team acct for non-parachain tokens).
 
 Each community should consider depositing additional tokens later to bring the deposit up to $1M or up to 2.5% of FDV, in line with other community deposits. Hydra's DCA feature allows swaps to be spread out, enabling larger trades over time, but loan liquidations need to happen within a single block and therefore deeper token liquidity enables larger money markets for the token.
 
@@ -44,7 +44,7 @@ Once initial Omnipool listing has been performed, a parachain/token's governance
 
 The general process to make a large deposit remotely is:
 1. Manually try to deposit tokens as liquidity in the Hydration UI to see what the current maximum deposit limit is.
-2. Use `xtokens.transfer` or similar to transfer the new tokens to the chain's sibling acct on HydraDX (plus like 20 tokens to use to pay XCM fees)
+2. Use `xtokens.transfer` or similar to transfer the new tokens to the chain's sibling acct on Hydration (plus like 20 tokens to use to pay XCM fees)
 3. Schedule once every 1 block repeating x times to deposit a chunk of tokens into the Omnipool. LP NFTs will automatically be placed in the account that the deposit is happening from. If your chain does not have the ability to schedule XCM transactions (using the `scheduler` pallet) then you likely should seek Hydra governance assistance in performing the deposit.
 
 **Example from Centrifuge:**
