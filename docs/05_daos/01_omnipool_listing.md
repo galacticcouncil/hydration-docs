@@ -1,11 +1,13 @@
 ---
-id: listing_a_token_in_omnipool
-title: Listing a token in the Omnipool
+id: omnipool_listing
+title: Omnipool Listing
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page you will find the **requirements and process for listing a project's token in the Omnipool**.
+On this page you will find the **requirements and process** for listing a project's token in the Hydration Omnipool. These requirements have been defined by the Hydration DAO.  
+
+All listings in the Omnipool must be approved individually by the governance of the Hydration DAO in a public referendum open to all HDX holders. Depending on the outcome of the referendum, the Hydration DAO may decline a listing even if all criteria have been met.
 
 ## 00 Prerequisites
 
