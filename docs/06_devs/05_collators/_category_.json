@@ -1,0 +1,14 @@
+{
+  "label": "Collators",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/collators",
+    "type": "generated-index",
+    "title": "Collators"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
