@@ -299,4 +299,4 @@ For example, suppose a token holder does not have the technical background to co
 - Delegated votes do not give action points for staking rewards on Hydration. To understand what this means, read about [HDX staking](https://docs.hydration.net/staking).
 
 ## **How to Use OpenGov**
-For tutorials (how-to guides) on how to use OpenGov, read this [page](docs/opengov_tutorials.md).
+For tutorials (how-to guides) on how to use OpenGov, read this [page](/guides/opengov).
