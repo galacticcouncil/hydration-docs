@@ -1,13 +1,12 @@
 ---
-id: opengov_tutorials
-title: Using OpenGov (How-Tos)
+title: Participate in OpenGov
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## **The Referendum Process**
 
-Before proceeding with making a referendum, identify the right track and origin for it. For instance, if the referendum is for requesting funds from treasury, select the treasury track with appropriate spend limits. Read [this post](docs/opengov_theory.md) to learn more about Origins and Tracks.
+Before proceeding with making a referendum, identify the right track and origin for it. For instance, if the referendum is for requesting funds from treasury, select the treasury track with appropriate spend limits. Read [this post](/community/opengov) to learn more about Origins and Tracks.
 
 Below is the ideal process to follow:
 
@@ -67,7 +66,7 @@ At this point, your referendum is now fully created and available for voting.
     3. **Split** - for when you wish to vote Aye and Nay.
     4. **Abstain** - for when you feel unqualified to vote on a proposal but want your tokens to count towards the Approval and Support parameters that determine whether or not a proposal passes. For more details on what this means, read this post.
 4. Enter the **HDX** value of your vote.
-5. Enter your vote’s **conviction multiplier**. The higher the conviction, the longer your HDX is locked and the more power your votes have. To learn more about conviction multipliers, read [this post](docs/opengov_theory.md).
+5. Enter your vote’s **conviction multiplier**. The higher the conviction, the longer your HDX is locked and the more power your votes have. To learn more about conviction multipliers, read [this post](/community/opengov).
 6. Click ‘**Confirm**’ and sign the transaction.
 
 You have successfully voted.
@@ -76,7 +75,7 @@ You have successfully voted.
 
 ## **How to Cancel or Kill a Referendum**
 
-To learn more about cancelling and killing a referendum, read [this post](docs/opengov_theory.md).
+To learn more about cancelling and killing a referendum, read [this post](/community/opengov).
 
 1. Go to the [Polkadot-JS UI](https://polkadot.js.org/apps/).
 2. Ensure you are on the **Hydration** network. If you are, you will see the Hydration logo at the top left corner of the page. If you see a different logo (for instance, Polkadot), then click that logo and it will show a drop down menu. Scroll down to HydraDX (or Hydration), select a server, and then scroll up to click ’Switch’.

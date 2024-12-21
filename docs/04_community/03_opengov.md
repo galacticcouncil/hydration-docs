@@ -1,6 +1,5 @@
 ---
-id: opengov_theory
-title: Understanding OpenGov
+title: OpenGov (Democracy)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
