@@ -1,0 +1,15 @@
+{
+  "position": 1,
+  "label": "Quick Start",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "slug": "/",
+    "type": "generated-index",
+    "title": "Quick Start"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

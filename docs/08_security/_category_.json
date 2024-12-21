@@ -1,0 +1,14 @@
+{
+  "label": "Security",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "security",
+  "link": {
+    "slug": "/security",
+    "type": "generated-index",
+    "title": "Security"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
