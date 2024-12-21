@@ -4,6 +4,11 @@ title: Request a Treasury Tip
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+:::warning
+This page relates to the old governance system (Gov v1) which has been replaced by OpenGov.  
+Please check the [OpenGov docs](/community/opengov) instead.
+:::
+
 Community members can request HDX tips from the Hydration Treasury as a reward for their contributions to the Protocol. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](../community/spending_fw).
 
 The process of requesting a Treasury tip consists of two steps. As a first step, contributors need to [publish their tip request](#01-publish-tip-request) in Subsquare with a description of the contribution. As a second step, the Treasury tip request must be [submitted on-chain](#02-submit-on-chain) using Polkadot/apps.
