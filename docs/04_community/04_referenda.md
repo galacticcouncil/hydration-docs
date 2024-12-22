@@ -1,8 +1,13 @@
 ---
-title: Participate in Referenda
+title: Referenda (old)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+:::warning
+This page relates to the old governance system (Gov v1) which has been replaced by OpenGov.  
+Please check the [OpenGov docs](/community/opengov) instead.
+:::
 
 This post provides a step-by-step guide on how to participate in referenda - voting and proposing. There are two alternative tools which you can use for this purpose - [Subsquare](#sub) or [Polkadot/apps](#polkajs).
 
