@@ -187,7 +187,7 @@ In this scenario, only 35 DOT from the total active issuance participated in vot
 **Example 2: Understanding Approval & Support Curves**
 
 <div style={{textAlign: 'left'}}>
-  <img alt="opengov_approval_support_curve" src={useBaseUrl('/opengov_theory/opengov_as.jpg')} width="700px" />
+  <img alt="opengov_approval_support_curve" src={useBaseUrl('/img/community/opengov/opengov_as.jpg')} width="700px" />
 </div>
 
 
@@ -204,55 +204,55 @@ The figure above shows the following:
 Different Origins have varying Confirmation Periods and requirements for Approval and Support. Referenda using less privileged origins may have lower support requirements compared to those using highly privileged origins like Root. Below are the approval and support curves for the different Origins of Hydration OpenGov.
 
 <div style={{textAlign: 'left'}}>
-  <img alt="root_approval_support_curve" src={useBaseUrl('/opengov_theory/root_curve.jpg')} width="400px" />
+  <img alt="root_approval_support_curve" src={useBaseUrl('//img/community/opengov/root_curve.jpg')} width="400px" />
 </div>
 
 **Root** - For referenda that seeks to change the protocol’s runtime
 
 <div style={{textAlign: 'left'}}>
-  <img alt="whitelisted_caller_approval_support_curve" src={useBaseUrl('/opengov_theory/whitelisted_caller_curve.jpg')} width="400px" />
+  <img alt="whitelisted_caller_approval_support_curve" src={useBaseUrl('/img/community/opengov/whitelisted_caller_curve.jpg')} width="400px" />
 </div>
 
 **Whitelisted Caller** - For referenda submitted by the Technical Committee
 
 <div style={{textAlign: 'left'}}>
-  <img alt="referendum_canceller_approval_support_curve" src={useBaseUrl('/opengov_theory/ref_canceller_curve.jpg')} width="400px" />
+  <img alt="referendum_canceller_approval_support_curve" src={useBaseUrl('/img/community/opengov/ref_canceller_curve.jpg')} width="400px" />
 </div>
 
 **Referendum Canceller** - For referenda that seek to cancel other referenda without slashing the Decision Deposit
 
 <div style={{textAlign: 'left'}}>
-  <img alt="referendum_killer_approval_support_curve" src={useBaseUrl('/opengov_theory/ref_killer_curve.jpg')} width="400px" />
+  <img alt="referendum_killer_approval_support_curve" src={useBaseUrl('/img/community/opengov/ref_killer_curve.jpg')} width="400px" />
 </div>
 
 **Referendum Killer** - For referenda that seek to cancel other referenda and slash the Decision Deposit
 
 <div style={{textAlign: 'left'}}>
-  <img alt="general_admin_approval_support_curve" src={useBaseUrl('/opengov_theory/general_admin_curve.jpg')} width="400px" />
+  <img alt="general_admin_approval_support_curve" src={useBaseUrl('/img/community/opengov/general_admin_curve.jpg')} width="400px" />
 </div>
 
 **General Admin** - For referenda that seeks to manage the registrar and permissioned HRMP channel operations
 
 <div style={{textAlign: 'left'}}>
-  <img alt="omnipool_approval_support_curve" src={useBaseUrl('/opengov_theory/omnipool_curve.jpg')} width="400px" />
+  <img alt="omnipool_approval_support_curve" src={useBaseUrl('/img/community/opengov/omnipool_curve.jpg')} width="400px" />
 </div>
 
 **Omnipool** - For referenda aimed at changing parameters of the Omnipool
 
 <div style={{textAlign: 'left'}}>
-  <img alt="treasurer_approval_support_curve" src={useBaseUrl('/opengov_theory/treasurer_curve.jpg')} width="400px" />
+  <img alt="treasurer_approval_support_curve" src={useBaseUrl('/img/community/opengov/treasurer_curve.jpg')} width="400px" />
 </div>
 
 **Treasurer** - For referenda that seeks to spend up to $500,000
 
 <div style={{textAlign: 'left'}}>
-  <img alt="spender_approval_support_curve" src={useBaseUrl('/opengov_theory/spender_curve.jpg')} width="400px" />
+  <img alt="spender_approval_support_curve" src={useBaseUrl('/img/community/opengov/spender_curve.jpg')} width="400px" />
 </div>
 
 **Spender** - For referenda that seeks to spend up to $5,000
 
 <div style={{textAlign: 'left'}}>
-  <img alt="tipper_approval_support_curve" src={useBaseUrl('/opengov_theory/tipper_curve.jpg')} width="400px" />
+  <img alt="tipper_approval_support_curve" src={useBaseUrl('/img/community/opengov/tipper_curve.jpg')} width="400px" />
 </div>
 
 **Tipper** - For referenda that seeks to spend up to $500

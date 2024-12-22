@@ -23,7 +23,7 @@ That said, you are free to create a referenda without first creating a discussio
 2. Fill in the **title, label,** and **description** of your proposal.
 
 <div style={{textAlign: 'center'}}>
-  <img alt="subsquare_UI_new_discussion_post" src={useBaseUrl('/opengov_tutorials/new_discussion_post.jpg')} width="500px" />
+  <img alt="subsquare_UI_new_discussion_post" src={useBaseUrl('/img/guides/opengov/new_discussion_post.jpg')} width="500px" />
 </div>
 
 3. Click **‘Create’** and sign the transaction.
@@ -41,7 +41,7 @@ It is advisable to create a discussion around a proposal before making a referen
     If you are familiar with creating preimages, then go ahead and choose any of the two main options (New preimage, I already have preimage).
 
 <div style={{textAlign: 'center'}}>
-<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/opengov_tutorials/new_referendum.jpg')} width="500px" />
+<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/img/guides/opengov/new_referendum.jpg')} width="500px" />
 </div>
     
 2. If you do not know how to use preimages, then select one of the **Quick Start** options that best fits your proposal. Below are the options:
