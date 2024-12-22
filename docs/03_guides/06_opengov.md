@@ -36,7 +36,7 @@ Having created a discussion post for your proposal, you should share the link to
 
 It is advisable to create a discussion around a proposal before making a referendum. This increases your chances of getting your referendum passed as you will get a chance a to listen to and act on community feedback and concerns.
 
-1. Go to **Subsquare > Referenda > New Proposal** https://hydradx.subsquare.io/referenda
+1. Go to **Subsquare > Referenda > New Proposal** https://hydration.subsquare.io/referenda
     
     If you are familiar with creating preimages, then go ahead and choose any of the two main options (New preimage, I already have preimage).
 
@@ -58,7 +58,7 @@ At this point, your referendum is now fully created and available for voting.
 
 ## **How to Vote on Referendum**
 
-1. Go to the referendum page on **[Subsquare](https://hydradx.subsquare.io/democracy/referenda)**.
+1. Go to the referendum page on **[Subsquare](https://hydration.subsquare.io/referenda)**.
 2. Click the ‘**Vote**’ button. This will bring up a dialog box.
 3. Choose your vote from 4 options
     1. **Aye**
@@ -78,7 +78,7 @@ You have successfully voted.
 To learn more about cancelling and killing a referendum, read [this post](/community/opengov).
 
 1. Go to the [Polkadot-JS UI](https://polkadot.js.org/apps/).
-2. Ensure you are on the **Hydration** network. If you are, you will see the Hydration logo at the top left corner of the page. If you see a different logo (for instance, Polkadot), then click that logo and it will show a drop down menu. Scroll down to HydraDX (or Hydration), select a server, and then scroll up to click ’Switch’.
+2. Ensure you are on the **Hydration** network. If you are, you will see the Hydration logo at the top left corner of the page. If you see a different logo (for instance, Polkadot), then click that logo and it will show a drop down menu. Scroll down to Hydration, select a server, and then scroll up to click ’Switch’.
 3. Navigate to **Governance > Referenda**.
 4. Click on the **"Add Preimage"** button.
 5. In the **’Send from Account’** dialog box, choose the account you want to use.
