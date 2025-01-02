@@ -1,0 +1,14 @@
+{
+  "label": "Borrow",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/guides/borrow",
+    "type": "generated-index",
+    "title": "Borrow"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
