@@ -1,5 +1,5 @@
 ---
-title: Create Meme Coin
+title: Create Memecoin
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 **[Memepad](https://app.hydration.net/memepad)** is Hydration's tool for creating and launching meme coins. This guide covers the essential steps from creation to post-launch management, ensuring you can successfully deploy and maintain your token.
 
 <div style={{textAlign: 'center'}}>
-  <img src={useBaseUrl('/howto_memepad/memepad.jpg')} />
+  <img src={useBaseUrl('/img/guides/trade/memecoin/memepad.jpg')} />
 </div>  
 
 ## Prerequisites
@@ -19,7 +19,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 1. Go to **[Memepad](https://app.hydration.net/memepad)**
 <div style={{textAlign: 'center'}}>
 <img 
-  src={useBaseUrl('/howto_memepad/create_memecoin.jpg')} 
+  src={useBaseUrl('/img/guides/trade/memecoin/create_memecoin.jpg')} 
   width="500px"
   style={{margin: '5px 0'}}
 />
@@ -38,7 +38,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div style={{textAlign: 'center'}}>
 <img 
-  src={useBaseUrl('/howto_memepad/create_done.jpg')} 
+  src={useBaseUrl('/img/guides/trade/memecoin/create_done.jpg')} 
   width="500px"
   style={{margin: '5px 0'}}
   />
@@ -52,7 +52,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div style={{textAlign: 'center'}}>
 <img 
-  src={useBaseUrl('/howto_memepad/meme_launched.jpg')} 
+  src={useBaseUrl('/img/guides/trade/memecoin/meme_launched.jpg')} 
   width="500px"
   style={{margin: '5px 0'}}
   />
@@ -60,7 +60,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div style={{textAlign: 'center'}}>
 <img 
-  src={useBaseUrl('/howto_memepad/admin_revoked.jpg')} 
+  src={useBaseUrl('/img/guides/trade/memecoin/admin_revoked.jpg')} 
   width="500px"
   style={{margin: '5px 0'}}
   />
@@ -74,7 +74,7 @@ How:
 
 <div style={{textAlign: 'center'}}>
 <img 
-  src={useBaseUrl('/howto_memepad/add_logo.jpg')} 
+  src={useBaseUrl('/img/guides/trade/memecoin/add_logo.jpg')} 
   width="500px"
   style={{margin: '5px 0'}}
   />

@@ -7,7 +7,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Providing liquidity on Hydration is straightforward, requiring only a single token to start earning trading fees and farm rewards.
 
 ## Add Liquidity
-1. Visit the **[Liquidity page](https://app.hydration.net/liquidity/all-pools).**
+
+### Step 1: Navigate to Liquidity Page
+https://app.hydration.net/liquidity/all-pools
 
 <div style={{textAlign: 'center'}}>
 <img 
@@ -17,7 +19,8 @@ Providing liquidity on Hydration is straightforward, requiring only a single tok
 />
 </div>
 
-2. Find your desired asset in the "**All Pools**" tab. Each pool will display current APR and other relevant metrics to help inform your decision.
+### Step 2: Select Your Pool
+Browse through the "All Pools" tab to see available assets. Each pool displays important metrics including current APR, Total Value Locked (TVL), and available farming rewards to help inform your decision.
 
 <div style={{textAlign: 'center'}}>
 <img 
@@ -27,9 +30,13 @@ Providing liquidity on Hydration is straightforward, requiring only a single tok
 />
 </div>
 
-3. Click the "**Join Farms**" button next to your chosen asset. If farming rewards aren't available for that asset, you'll see "**Join Pool**" instead.
+### Step 3: Join Pool/Farm
+Click the "Join Farms" button next to your chosen asset. If farming rewards aren't currently available for your selected asset, you'll see "Join Pool" instead.
 
-4. Enter the amount of tokens you wish to provide as liquidity.
+### Step 4: Set Liquidity Amount
+* Enter the amount of tokens you wish to provide as liquidity
+* Your potential earnings will update based on your input amount
+* Review the transaction details before proceeding
 
 <div style={{textAlign: 'center'}}>
 <img 
@@ -39,10 +46,15 @@ Providing liquidity on Hydration is straightforward, requiring only a single tok
 />
 </div>
 
-5. Click "**Add Liquidity & Join Farms**" and sign the required transactions through your wallet.
+### Step 5: Complete Transaction
+* Click "Add Liquidity & Join Farms" (4) to initiate the process
+* Sign the required transactions through your wallet
+* Wait for transaction confirmation
 
-## Add More Liquidity
-1. Navigate to the "**My Liquidity**" tab.
+## Adding More Liquidity
+
+### Step 1: Access Your Position
+Navigate to the "My Liquidity" tab to find your existing positions.
 
 <div style={{textAlign: 'center'}}>
 <img 
@@ -52,8 +64,9 @@ Providing liquidity on Hydration is straightforward, requiring only a single tok
 />
 </div>
 
-2. Find your token and click "**Manage**".
-3. Click "**Add & Join Farms**" to provide additional liquidity.
-4. Enter the amount and sign the transactions.
+### Step 2: Manage Position
+* Find your token and click "Manage"
+* Select "Add & Join Farms" to increase your liquidity
+* Enter the additional amount and sign the transactions
 
 To learn more about providing liquidity and the available rewards, check out this [guide](../../products/trading/liquidity).

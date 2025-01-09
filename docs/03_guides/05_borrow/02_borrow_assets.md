@@ -52,7 +52,7 @@ Liquidation is the process where a portion of your supplied collateral is sold o
 
 On Hydration, the Health Factor and Loan-to-Value (LTV) ratio are essential to maintaining the security of your collateral against borrowed assets. Keeping these metrics in check helps you avoid liquidation risk and manage your borrowing position effectively.
 
-### **Health Factor**
+### Health Factor
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/img/guides/borrow/borrow/04.png')} width="800px" />
@@ -63,7 +63,7 @@ The Health Factor measures how secure your collateral is in relation to your bor
 - **Above 2.0** – Safe: Your position is secure.
 - **1.0 or Lower** – Risky: Your collateral is at risk of liquidation.
 
-### **Loan-to-Value (LTV)**
+### Loan-to-Value (LTV)
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/img/guides/borrow/borrow/05.png')} width="800px" />
@@ -71,7 +71,7 @@ The Health Factor measures how secure your collateral is in relation to your bor
 
 The Current LTV ratio shows how much of your collateral's value is being used as debt. Keeping this ratio below the Liquidation Threshold reduces the chance of liquidation. Reducing your LTV can help secure your position.
 
-### **Liquidation Threshold**
+### Liquidation Threshold
 
 The Liquidation Threshold is the maximum Loan-to-Value (LTV) ratio you can reach before being at risk of liquidation. If your LTV exceeds this threshold, part of your collateral may be liquidated to cover the debt.
 
