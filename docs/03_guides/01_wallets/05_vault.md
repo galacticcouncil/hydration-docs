@@ -4,118 +4,134 @@ title: Polkadot Vault
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Using Polkadot Vault With Hydration
+# Using Polkadot Vault Hydration
 
-[Polkadot Vault](https://www.parity.io/technologies/signer/) (formerly Parity Signer) is a mobile app which turns your iOS or Android device into a dedicated hardware wallet for Polkadot, Kusama, and any other Substrate-based chain. It allows you to keep your private keys offline while still being able to conveniently sign transactions in an air-gapped way using QR codes.
+[Polkadot Vault](https://www.parity.io/technologies/signer/) is a mobile app which turns your iOS or Android device into a dedicated hardware wallet for Polkadot, Kusama, and any other Substrate-based chain. It allows you to keep your private keys offline while still being able to conveniently sign transactions in an air-gapped way using QR codes.
 
-The Vault app is not technically a wallet, as it does not allow to transfer funds. It is more of a key-chain tool that will enable you the create, manage, and restore accounts. The app allows you to securely sign [extrinsics](https://wiki.polkadot.network/docs/learn-transactions) via QR codes without exposing your private keys to the internet.
+## 01 Set Up Parity Signer
+### 00 Before You Start: Stay Safe
+#### 00 Start clean
+Before installing Parity Signer, make sure that your phone is in a clean state. If it has been used, perform a factory reset and do not install any other apps besides Parity Signer.
 
-## Before You Start: Stay Safe
+#### 01 Don’t Insert Sim
+If possible, don’t turn on WiFi or use a secure WiFi connection, preferably with no other connected devices and a reputable VPN provider to connect, update the device, and install the Parity signer app.
 
-- **Start clean**: Before installing Polkadot Vault, make sure that your phone is in a clean state. If it has been used, perform a factory reset and do not install any other apps besides Polkadot Vault.
-- **Do not insert a SIM card**: If possible, don’t turn on WiFi. Or use a secure WiFi connection, preferably with no other connected devices and a reputable VPN provider to connect, update the device, and install the Parity signer app.
-- **Use strong passwords**: For robust security, use long passwords for the device and the accounts you need to create to use it.
-- **Setup brand new account**: Don’t use your old Google or Apple IDs. Create a new one specifically for this purpose, which will be used to only download updates and Polkadot Vault. In the case of an Android device, it is better to not use WiFi or a Google account at all. We recommend using some sort of OS that encrypts your data like [Lineage O.S.](https://lineageos.org/) If an email is required, create a new one. Alternatively, you can create new Apple ID and email on iOS.
-- **No Biometrics**: Avoid fingerprint scanners, face ID, or short numeric codes because they are exploitable. Use a strong password instead.
-- **Disable all signal-receiving features**: Use airplane mode and make sure to disable all of these features manually. If you are on an iOS device, turn it off and ask to auto-join networks and hotspots in the WiFi settings. Including:
-    - Location services
-    - WiFi (if required to upgrade or setup, disable right after the update)
-    - Bluetooth
-- **Logout from all accounts**: Log out from App stores, iCloud, and any other accounts you’ve joined.
-- **Updating your device**: If you are using WiFi to update your device, remember to disable it right after the update and use it only in a secure environment, preferably through a secure and encrypted VPN channel. After the update is complete, forget the WiFi network to make sure you don't automatically rejoin.
+#### 02 Use Strong Passwords
+For robust security, use long passwords for the device and the accounts you need to create to use it.
 
-## Create a New Polkadot Vault Account for Hydration
+#### 03 Setup New Account
+Don’t use your old google ID or apple ID, create a new one specifically for this use which will be used only to download updates and parity signer. In case of Android device it’s better to not use WiFi or google account at all. We recommend using some sort of OS that encrypts your data like [Lineage O.S.](https://lineageos.org) If an email is required, create a new one. Alternatively, you can create new apple id and email on iOS.
 
-The following steps need to be carried out on your Polkadot Vault device.
+#### 04 No Biometrics
+Avoid fingerprint scanners, face ID, or shot numeric codes as they are exploitable. Use a strong password instead.
 
-- **Install Polkadot Vault**: First you must install the Polkadot Vault app on the phone you wish to use as your vault. After installation, turn on airplane mode.
-    
+#### 05 Disable All Signal-receiving Features
+Use airplane mode and make sure to disable all of these features manually. If you are on an iOS device, turn it off and ask to auto-join networks and hotspots in the WiFi settings. Including:
+
+* Location services
+* WiFi (if required to upgrade or setup, disable right after the update)
+* Bluetooth
+
+#### 06 Logout From All Accounts
+Log out from App stores, iCloud, and any other accounts you’ve joined.
+
+#### 07 Updating Your Device
+If you are using WiFi to update your device, remember to disable it right after the update and use it only in a secure environment, preferably through a secure and encrypted VPN channel. After the update is complete, forget the WiFi network to make sure you don't automatically rejoin.
+
+### 01 Install Parity Signer
+Install Parity Signer from the official app store for your device (iOS / Android).  
+Make sure that the application you are downloading has been published by Parity Technologies.
+
+### 02 Create a New Account
+To create a new account, follow the steps below.
+
+#### 01 Add Seed
+Open the Parity Signer app and select `New seed`.
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/polkadot_vault_iOS.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed.jpg')} width="350px" />
 </div>
-    
-- **Set Up Network:** Click **Set Up Networks** and add Hydration as a network.
-    
+
+#### 02 Back Up your Recovery Phrase
+The app will display your recover phrase. Write it down and store it in a safe place.
+
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/polkadot_vault_network.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_seed_2.jpg')} width="350px" />
 </div>
-    
-- **Add key set**: Open the Polkadot Vault application. Select **Add Key Set.** Input the name for your new key set.
-    
+
+After completing this, you are all set to go! You can use your phone passcode or authentication method (fingerprint / face id) in Parity Signer.
+
+:::danger
+Stay safe!
+
+Anyone with your seed phrase can access your funds, and there is no recourse for someone stealing your seed phrase. 
+
+To protect your seed phrase, consider the following tips:
+* Never store your seed phrase as a digital file on any device.
+* Always write down your seed phrase with a pen and paper.
+* Store the paper with your seed phrase on it somewhere safe.
+* Never give your seed phrase to anybody, including support staff.
+:::
+
+### 03 Connect to Polkadot.js/apps
+Optionally, you can add your Parity Signer account into the Polkadot.js browser extension which will allow you to view your balances on the [Polkadot.js/apps accounts page](https://polkadot.js.org/apps/#/accounts) and to sign transactions more easily.
+
+#### On Polkadot.js/apps
+To add your account, open the Polkadot.js browser extension, click on `+` and select `Attach external QR-signer account`.
+
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/polkadot_vault_keyset.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_polkajs_attach.jpg')} width="350px" />
 </div>
-    
-- **Store your seed phrase**: Make a copy of your mnemonic passphrase ****and select Next. Confirm that you have written down your secret recovery phrase and that you understand that if you lose your secret phrase your funds will be lost forever.
-- **Select Hydration**: From the networks list, select the networks that you would like to create keys for (you can add more later) and select **Done**. In this case, select Hydration.
-- Polkadot Vault will now create keys for you that have the following derivation path format:
-    - //polkadot for Polkadot, //hydration for Hydration, etc.
 
-## Import Existing Polkadot Vault Account
+#### On Parity Signer
+  * Open `Keys` tab in the bottom menu;
+  * Select the network you will be using from the dropdown menu next to chain;
+  * Select your desired account or sub-account;
+  * You will see a QR code which you need to scan with your device camera.
 
-The following steps need to be carried out on your Polkadot Vault device.
+### 04 Add Hydration Chain
+To use Parity Signer, you first need to add a new chain to Parity Signer. If you want to use Parity only for Polkadot or Kusama, you can skip this step and proceed with updating metadata. To add a new chain, you need to scan a QR code with base information about the chain.
 
-- Open the Polkadot Vault application.
-- Select Recover Key Set.
-- Input the name for your key set.
-- Input your secret recovery phrase and then select next.
-- Select the networks that you would like to import keys for (you can add more alter) and select Done.
-- Polkadot Vault will now create keys for you that have the following derivation path format:
-    - //polkadot for Polkadot, //kusama for Kusama, etc.
+#### 01 Get Chain Specs
+On your Desktop, navigate to https://nova-wallet.github.io/metadata-portal/ and select Hydration as the desired chain. After that, click on `Chain Specs`.
 
-## Add Polkadot Vault Account to Wallets
-
-Polkadot Vault is used in combination with the leading wallets in the ecosystem. Below are detailed guides created by the wallet teams to help you manage your PV accounts.
-
-- [How to Add Polkadot Vault to Talisman](https://docs.talisman.xyz/talisman/start/importing-external-wallets/import-from-polkadot-vault)
-- [How to Add Polkadot Vault to Nova Wallet](https://docs.novawallet.io/nova-wallet-wiki/wallet-management/hardware-wallets/polkadot-vault/add-polkadot-vault-account-to-nova-wallet)
-- [How to Add Polkadot Vault to SubWallet](https://docs.subwallet.app/main/mobile-app-user-guide/account-management/attach-a-polkadot-vault-previously-parity-signer-account)
-
-Optionally, you can add your Polkadot Vault account to the Polkadot.JS browser extension which will allow you to view your balances on the [Polkadot.js/apps accounts page](https://polkadot.js.org/apps/#/accounts) and to sign transactions more easily.
-
-- On Polkadot.JS extension: Click on + and select Attach external QR-signer account.
-- On Polkadot Vault: Open Keys tab in the bottom menu;
-    - Select the network you will be using from the dropdown menu next to chain;
-    - Select your desired account or sub-account;
-    - You will see a QR code which you need to scan with your device camera.
-
-## Update Chain Metadata in Polkadot Vault
-
-Due to the fact that your **Polkadot Vault Device** is always offline and is air-gapped, there is a unique system in which you must partake to update the chain metadata so that your transactions are valid. You can use the [Novasama Technologies Metadata Portal](https://metadata.novasama.io/#/polkadot) to find QR codes which will provide your **Polkadot Vault Device** with the information required to update the chain metadata.
-
-The following steps need to be carried out on your **Polkadot Vault Device**.
-
-- Navigate to the [Novasama Technologies Metadata Portal](https://metadata.novasama.io/#/polkadot) . (Note: this should be done on a device which is not your Polkadot Vault device).
-    
 <div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/howto_wallets/polkadot_vault_hydration.jpg')} width="350px" />
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_add_chain.jpg')} />
 </div>
-    
-- On the metadata portal, select the blockchain that you wish to update the metadata for.
-- If you are adding a chain for the first time, select the Chain Specs tab at the top of the metadata portal screen.
-- Using your Polkadot Vault device select the QR code scanner.
-- Scan the Chain specs QR code with your Polkadot Vault device
-- Review the verifier certificate and then select Approve at the bottom of the screen on your Polkadot Vault device.
-- Select the Metadata tab at the top of the metadata portal screen.
-- Using your Polkadot Vault device select the QR code scanner.
-- Scan the Metadata QR code with your Polkadot Vault device (Note: this can take a few minutes to complete).
-- Review the Verifier Certificate and select Approve.
 
-## Add Public Key for a Network
+#### 02 Add Specs
+On your Parity Signer, click `Scanner`, scan the QR code and click `Add new chain`.
 
-In Polkadot Vault after you add the chain specs and metadata for a network, you then need to add your Public Key for that network so that you can conduct transactions.
+## 02 Use Parity Signer
+:::warning
+Always make sure you are scanning a QR code signed by a trusted verifier.
+:::
 
-The following steps need to be carried out on your Polkadot Vault device.
+### 01 Sign a Transaction
+To sign a transaction from your parity signer, we recommended adding it to polkadot.js extension for ease of use. Until more chains can work with Parity Signer directly, it will be the most convenient way to use it inside applications on your desktop.
 
-- Ensure that you have added the desired network chain specs and metadata.
-- On your Polkadot Vault device select the + icon at the top right of the screen.
-- Select the network that you would like to add a key for (note: if you cannot see your desired network then you have not correctly added the chain specs and metadata).
-- Select Create Key.
+When signing a transaction using your Parity Signer, Polkadot.js/apps will display a QR code.
 
-## Note on Smartphone Compatibility
+<div style={{textAlign: 'center'}}>
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_sign_1.jpg')} width="350px" />
+</div>
 
-Although the Vault app is available for old smartphones, different versions will be installed according to the phone's hardware.
+Scan the QR code using Parity Signer and click on `Unlock key and sign`.
 
-For example, smartphones like iPhone 6 will install Parity Signer (the old brand name of the Vault app) with limited capabilities. There will be no log or warning if the phone was connected to the internet while not using the app. Also, no metadata updates are possible, and no option to add new networks.
+<div style={{textAlign: 'center'}}>
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_sign_2.jpg')} width="350px" />
+</div>
 
-This would not be as secure as the latest version of the app. We would recommend that you use smartphones compatible with the latest Polkadot Vault app.
+Your Parity Signer will now display a QR code. To complete signing the transaction, switch back to Polkadot.js/apps and click on `Scan signature via camera`.
+
+### 02 Update Metadata
+To use the Parity Signer, you require the latest metadata for decoding transactions in the Parity Signer. You can acquire the metadata by scanning a multi-part QR code containing this data, allowing the Parity Signer to decode the actual transaction and display it correctly before you sign. This step is similar to updating your ledger application.
+
+#### 01 Get Metadata
+On your Desktop, navigate to https://nova-wallet.github.io/metadata-portal/ and select the desired chain. After that, click on `Metadata`.
+
+<div style={{textAlign: 'center'}}>
+  <img alt="metadata" src={useBaseUrl('/howto_wallets/parity_signer_metadata.jpg')} />
+</div>
+
+#### 02 Update
+On your Parity Signer, click `Scanner`, and update the Metadata by scanning the QR code
