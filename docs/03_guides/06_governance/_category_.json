@@ -1,0 +1,14 @@
+{
+  "label": "Governance",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "/guides/governance",
+    "type": "generated-index",
+    "title": "Governance"
+  },
+  "customProps": {
+    "description": ""
+  }
+}

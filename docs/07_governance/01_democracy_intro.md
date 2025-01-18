@@ -2,17 +2,22 @@
 title: Introduction
 ---
 
-Hydration is in the process of fully decentralizing its governance. All decisions which affect the protocol are adopted following a democratic process which is supported by the Substrate democracy module. The central mechanism for establishing consensus among the stakeholders is the **referendum**.
+On Hydration, all decisions which affect the protocol are adopted through a governance process that puts token holders at the centre of decision making.
 
-This section contains a series of knowledge articles which should provide you with a better understanding of the mechanisms behind the governance of Hydration. You will find more information on [how referenda work](./democracy_referenda), as well as on the two central groups of governance actors: the [Hydration Council](./democracy_council) and the [Technical Committee](./democracy_technical_committee).
+---
 
-## Parameters for Democracy
-The list below contains the most important parameters which influence the governance mechanism on Hydration. Please note that these may change over time.
+### **Participants**
 
+These are the groups of decision makers and their roles in the governance process.
 
-* Minimum HDX deposit for initiating a referendum: **10 000 HDX**
-* Referendum enactment period: **6 days**
-* Referendum voting period: **3 days**
-* Emergency referendum voting period: **3 hours**
-* Cooloff period after a referendum has been rejected: **7 days**
-* Maximum pending referendum proposals: **100**
+#### **1. Public**
+
+This group is inclusive of all HDX token holders. They can propose and vote on referenda.
+
+#### **2. Technical Committee**
+
+This is a group of experienced engineers who are appointed by OpenGov referenda on the GeneralAdmin track (read [Origins and Tracks](docs/07_governance/03_democracy_origins_tracks.md) section to understand what this means). Their main task is to safeguard the technical stability of the protocol.
+
+The Technical Committee has the power to whitelist referenda, which are then placed on the Whitelisted Caller track.  This is a quicker track with lower thresholds that can dispatch Root origin referenda that can alter the runtime. This enables the TC to swiftly fix any problems that may arise.
+
+In addition to whitelisting referenda, the TC has another key function related to the security of the [Omnipool](docs/02_products/01_trading/01_pools/01_omnipool.md): targeted function pausing. This allows the TC to temporarily pause certain or all actions relating to specific assets. Thus, in the case of an emergency or detection of suspicious behaviour, the TC has the power to make any asset non-tradable.
