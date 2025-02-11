@@ -125,7 +125,7 @@ If the referendum in previous step passed and was executed successfully, hrmp ch
 Wait for one session after each acceptance for the channels to be opened.
 
 ##### 5) Add icons to the Hydration app
-Open a new issue in [Hydration UI repository](https://github.com/galacticcouncil/HydraDX-ui) with title "Add icons for _projectname_" and attach icons for the chain and all assets. Icon should have maximum size of 10kB and SVG/PNG format.
+Open a new issue in [Intergalactic asset metadata repository](https://github.com/galacticcouncil/intergalactic-asset-metadata) with title "Add icons for _projectname_" and attach icons for the chain and all assets. Icon should have maximum size of 10kB and SVG/PNG format.
 
 ##### 6) Add tokens to cross-chain UI
 To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) page, it is necessary to open a pull request to the [sdk repository](https://github.com/galacticcouncil/sdk).
@@ -139,7 +139,8 @@ To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) p
     1. Build the project by following [README.md](https://github.com/galacticcouncil/sdk/blob/master/README.md)
     2. Change current directory to `/examples/xcm-transfer/`
     3. Adjust chains, asset, adresses and balance definitions in the [index file](https://github.com/galacticcouncil/sdk/blob/master/examples/xcm-transfer/src/index.ts)
-    4. Test your changes by running `npm run dev` and check the developer console output in your browser, typically at `localhost:3000` 
+    4. Test your changes by running `npm run dev` and check the developer console output in your browser, typically at `localhost:3000`
+    5. Add a minor bump for `@galacticcouncil/xcm-cfg` package by running `npm run changeset`
 3. **Open a PR from your fork to the main repository** and wait until the workflow is approved. UI preview with your changes will be deployed and appear in the PR description.
 4. **Try sending each of the registered tokens back and forth** from one chain to the other, and verify the deposits were successful and balances configuration is correct.
 5. **Add a comment that configuration is ready to be merged.**
