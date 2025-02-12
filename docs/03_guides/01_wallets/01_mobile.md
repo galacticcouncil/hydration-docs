@@ -10,7 +10,7 @@ To get your Hydration account ready to go on mobile, follow the steps below.
 
 *Although this guide focuses on Nova Wallet, the process is generally similar to that of other mobile wallets like SubWallet. Click [here](https://wiki.polkadot.network/docs/wallets-index) to check out other mobile wallets available on Polkadot.*
 
-## Setting Up Nova Wallet
+## 00 Setting Up Nova Wallet
 
 Begin by downloading the Nova Wallet application from the official website, accessible [here](https://novawallet.io/), or on the App Store. 
 
@@ -19,7 +19,7 @@ Begin by downloading the Nova Wallet application from the official website, acce
   width="600px" />
 </div>
 
-## Creating Your Account
+## 01 Creating Your Account
 
 1. To create a new wallet, launch the Nova Wallet app and click the **Create A New Wallet** button.
 2. Enter a name for your wallet to proceed.
@@ -32,7 +32,7 @@ Do not share your mnemonic phrase with anyone. It’s advisable to not take scre
 4. For added security, you will be asked to re-enter the mnemonic phrase in the correct sequence.
 5. Set up your PIN which will be used for accessing the app.
 
-## Using Nova Wallet
+## 03 Using Nova Wallet
 
 To access your Hydration account, locate the Hydration section within the app.
 

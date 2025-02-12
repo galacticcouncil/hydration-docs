@@ -11,14 +11,14 @@ Securing your HDX tokens in cold storage while signing transactions on the Hydra
 
 ---
 
-## Setting Up Ledger
+## 00 Setting Up Ledger
 
-### Prepare Your Ledger Device
+### 00 Prepare Your Ledger Device
 
 1. Download and install **Ledger Live** on your computer. You can learn more about how to get started with Ledger Live [here](https://support.ledger.com/article/4404389503889-zd?redirect=false).
 2. Open Ledger Live, connect your Ledger device to **My Ledger**, and ensure your device is running the latest firmware version. If not, **update the firmware** of your Ledger Nano S / Nano S Plus / Nano X.
 
-### Install the Polkadot App
+### 01 Install the Polkadot App
 
 1. Open **Ledger Live** and navigate to the **My Ledger** tab.
 2. **Connect** and **unlock** your Ledger device.
@@ -30,7 +30,7 @@ Securing your HDX tokens in cold storage while signing transactions on the Hydra
   width="700px" />
 </div>
 
-### Create Your Account
+### 02 Create Your Account
 
 1. Open **Ledger Live** and navigate to the **Accounts** tab.
 2. Click **Add Account**.
@@ -49,7 +49,7 @@ Securing your HDX tokens in cold storage while signing transactions on the Hydra
 
 ---
 
-## Using Ledger with Talisman
+## 01 Using Ledger with Talisman
 
 1. Open the **Talisman Wallet extension**. Click the three horizontal dots at the bottom-right, and select **Add Account**.
     
@@ -92,7 +92,7 @@ Your Ledger account(s) should now appear in your Talisman Wallet Accounts tab. Y
 
 ---
 
-## Using Ledger with SubWallet
+## 02 Using Ledger with SubWallet
 
 1. Open the **SubWallet extension** and click on the **Account Name** to open the account selection tab.
     
@@ -128,7 +128,7 @@ Your Ledger account(s) should now appear in your SubWallet Accounts tab. You can
 
 ---
 
-## Signing Transactions with Ledger
+## 03 Signing Transactions with Ledger
 
 1. Ensure your Ledger device is connected to the wallet you wish to use (Talisman or SubWallet).
 2. Go to [app.hydration.net](https://app.hydration.net/).
@@ -139,7 +139,7 @@ Congratulations! The transaction is now complete. If you encounter any issues, e
 
 ---
 
-## Need Help?
+## 04 Need Help?
 
 If you are having any issues with the Polkadot Ledger App, check out the following resources:
 1. Polkadot Forum post on [New Polkadot Ledger App](https://forum.polkadot.network/t/new-polkadot-ledger-app/8817).

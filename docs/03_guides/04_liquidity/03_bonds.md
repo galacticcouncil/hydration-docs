@@ -12,13 +12,13 @@ This page contains a step-by-step guide on how to acquire Bonds via LBP on Hydra
   <img alt="metadata" src={useBaseUrl('/howto_bonds_lbp/bonds1.jpg')} />
 </div>
 
-### Step 0: Navigate to Hydration Bonds Page
+### 00 Navigate to Hydration Bonds Page
 
 https://app.hydration.net/trade/bonds
 
 Connect your wallet to Hydration by clicking **`Connect Account` (1 in image above).**
 
-### Step 1: Pick the Bond you want to support
+### 01 Pick the Bond you want to support
 
 - You will be able to see all current active Bond campaigns **(2)** as well as past campaigns **(3)**.
 - Click on **`Trade`**  to enter into the dedicated Bonds campaign which you want to contribute to.
@@ -27,7 +27,7 @@ Connect your wallet to Hydration by clicking **`Connect Account` (1 in image abo
   <img alt="metadata" src={useBaseUrl('/howto_bonds_lbp/bonds2.jpg')} />
 </div>
 
-### Step 2: Participate in the Bonds LBP
+### 02 Participate in the Bonds LBP
 :::caution
 Before participating in a Liquidity Bootstrapping Pool (LBP), you should first get familiar with how an LBP works.
 

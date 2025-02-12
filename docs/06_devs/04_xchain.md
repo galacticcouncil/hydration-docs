@@ -79,14 +79,23 @@ On the Hydration side, the following actions need to be performed:
 - initiate a request for opening Hydration &#8594; Parachain channel;
 - register Parachain's native asset(s) in the Hydration asset registry.
 
-You can find an example of this call [here](https://hydration.subsquare.io/democracy/referenda/158).
-
 Prepare a batch call that contains all the necessary actions and before submitting, test its successful execution in [Chopsticks](https://github.com/AcalaNetwork/chopsticks).
 
-Once tested, note the preimage via _preimage.notePreimage_ extrinsic, choose the **Root** governance track and submit the referendum proposal using e.g. PolkadotJS Apps.
+1. Run local chopsticks setup with `npx @acala-network/chopsticks@latest xcm --relaychain=configs/polkadot.yml --parachain=configs/hydradx.yml`
+2. Prepare calldata (can be similar to [this](https://hydration.subsquare.io/democracy/referenda/158) example)
+3. Propose via Polkadot.js Apps on the Root track
 <div style={{textAlign: 'center'}}>
   <img src={useBaseUrl('/img/devs/xchain/submit_referendum.png')} />
 </div>
+
+4. Use [Moonbeam tools](https://github.com/Moonsong-Labs/moonbeam-tools) to execute the proposal by running `npx ts-node src/tools/fast-execute-chopstick-proposal.ts --url ws://localhost:8000 --proposal-index 12`. Proposal index can be found on the left side of the Referenda page.
+<div style={{textAlign: 'center'}}>
+  <img src={useBaseUrl('/img/devs/xchain/proposal_index.png')} />
+</div>
+
+5. Check that all actions in the proposal were executed successfully (e.g. HRMP channels were requested on the relay chain at `ws://localhost:8001`, assets were registered on Hydration etc.)
+
+After successfully testing the proposal, repeat the process on the live network.
 
 In order to queue the referendum for voting, a decision deposit needs to be placed.
 <div style={{textAlign: 'center'}}>
@@ -116,7 +125,7 @@ If the referendum in previous step passed and was executed successfully, hrmp ch
 Wait for one session after each acceptance for the channels to be opened.
 
 ##### 5) Add icons to the Hydration app
-Open a new issue in [Hydration UI repository](https://github.com/galacticcouncil/HydraDX-ui) with title "Add icons for _projectname_" and attach icons for the chain and all assets. Icon should have maximum size of 10kB and SVG/PNG format.
+Open a new issue in [Intergalactic asset metadata repository](https://github.com/galacticcouncil/intergalactic-asset-metadata) with title "Add icons for _projectname_" and attach icons for the chain and all assets. Icon should have maximum size of 10kB and SVG/PNG format.
 
 ##### 6) Add tokens to cross-chain UI
 To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) page, it is necessary to open a pull request to the [sdk repository](https://github.com/galacticcouncil/sdk).
@@ -130,7 +139,8 @@ To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) p
     1. Build the project by following [README.md](https://github.com/galacticcouncil/sdk/blob/master/README.md)
     2. Change current directory to `/examples/xcm-transfer/`
     3. Adjust chains, asset, adresses and balance definitions in the [index file](https://github.com/galacticcouncil/sdk/blob/master/examples/xcm-transfer/src/index.ts)
-    4. Test your changes by running `npm run dev` and check the developer console output in your browser, typically at `localhost:3000` 
+    4. Test your changes by running `npm run dev` and check the developer console output in your browser, typically at `localhost:3000`
+    5. Add a minor bump for `@galacticcouncil/xcm-cfg` package by running `npm run changeset`
 3. **Open a PR from your fork to the main repository** and wait until the workflow is approved. UI preview with your changes will be deployed and appear in the PR description.
 4. **Try sending each of the registered tokens back and forth** from one chain to the other, and verify the deposits were successful and balances configuration is correct.
 5. **Add a comment that configuration is ready to be merged.**
