@@ -17,23 +17,24 @@ The following guides will walk you through using an EVM wallet on Hydration.
 
 ## How to Connect an EVM Wallet to Hydration (MetaMask)
 
-1. Click the **Connect** button at the top-right of the [Hydration Portal](https://app.hydration.net/).
+### 00 Connect
+Click the **Connect** button at the top-right of the [Hydration Portal](https://app.hydration.net/).
     
  <div style={{textAlign: 'center'}}>
   <img alt="Hydration UI" src={useBaseUrl('/howto_wallet_evm/evm_connectwallet.jpg')}
   width="700px" />
 </div>
     
-
-2. Select **EVM** and choose your preferred wallet. For this guide we will choose **MetaMask**. There is also the option of **Talisman**, **WalletConnect**, and **SubWallet**. More wallets will be added as becomes necessary.
+### 01 - Choose EVM
+Select **EVM** and choose your preferred wallet. For this guide we will choose **MetaMask**. There is also the option of **Talisman**, **WalletConnect**, and **SubWallet**. More wallets will be added as becomes necessary.
     
  <div style={{textAlign: 'center'}}>
   <img alt="Hydration UI" src={useBaseUrl('/howto_wallet_evm/evm_wallets.jpg')}
   width="500px" />
 </div>
     
-
-3. Sign-in to **MetaMask** and select the account you would like to connect to Hydration. 
+### 02 Sign-in
+Sign-in to **MetaMask** and select the account you would like to connect to Hydration. 
     
  <div style={{textAlign: 'center'}}>
   <img alt="Hydration UI" src={useBaseUrl('/howto_wallet_evm/metamask_accounts.jpg')}
@@ -45,8 +46,8 @@ The following guides will walk you through using an EVM wallet on Hydration.
   width="500px" />
 </div>
     
-
-4. Click **Confirm** and accept changing network to Hydration.
+### 03 Confirm
+Click **Confirm** and accept changing network to Hydration.
 
  <div style={{textAlign: 'center'}}>
   <img alt="Hydration UI" src={useBaseUrl('/howto_wallet_evm/evm_accountadded.jpg')}

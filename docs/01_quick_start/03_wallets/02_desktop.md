@@ -10,10 +10,10 @@ There are multiple options for creating a Hydration account on a desktop, includ
 
 This guide will walk you through setting up your account using the Talisman wallet.
 
-## Setting Up Talisman
+## 00 Setting Up Talisman
 To get started, download the **Talisman extension** from the [official website](https://www.talisman.xyz/). The Talisman extension supports most modern browsers.
 
-## Creating Your Account
+## 01 Creating Your Account
 1. Once you’ve downloaded and installed the extension, launch it and click on the **Add Account** button.
 2. Select **Polkadot** as the account, and input the account name of your choice. Then click **Create**.
 
@@ -30,7 +30,7 @@ Do not share your mnemonic phrase with anyone. It’s advisable to not take scre
 5. Verify your phrase by inputting it in the correct order.
 6. To copy your Hydration address, click on the **Copy** button. Scroll down and look for Hydration, then click the copy icon to copy the address
 
-## Using Talisman
+## 02 Using Talisman
 <div style={{textAlign: 'center'}}>
   <img alt="Nova Wallet Landing Page" src={useBaseUrl('/howto_wallet_desktop/talisman_copy_address.gif')}
   width="600px" />

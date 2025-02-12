@@ -16,10 +16,10 @@ Currently, the following tokens are supported by Hydration for cross-chain trans
 * ETH  (from Acala, bridged via Wormhole)
 * HDX
 
-## 00 Prerequisites
+## 00 - Prerequisites
 Before you continue, please make sure you have sufficient amount of tokens on the destination chain for fees (ACA or DOT).
 
-## 01 Navigate to Cross-chain Transfers
+## 01 - Navigate to Cross-chain Transfers
 [https://app.hydration.net/#/cross-chain](https://app.hydration.net/#/cross-chain)
 
 <div style={{textAlign: 'center'}}>
@@ -27,10 +27,10 @@ Before you continue, please make sure you have sufficient amount of tokens on th
 </div>
 
 
-## 02 Connect Your Account
+## 02 - Connect Your Account
 Click on `Connect wallet` and connect to your preferred Polkadot wallet. After that, select your account.
 
-## 03 Cross-chain Transfer
+## 03 - Cross-chain Transfer
 * Select the source chain and the destination chain;
 * Select the asset you intend to transfer and enter the amount;
 * Enter the destination address. It should automatically populate with your address on that chain, but you can also change it to another address;
