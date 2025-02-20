@@ -15,8 +15,8 @@ You can also check out our [Borrowing product docs](/products/borrowing/overview
 
 ### 01 Access the Supply UI
 
-- Open the Hydration platform and go to the **Supply UI**.
-- This will open **"My Dashboards"** where you can view your lending and borrowing options.
+- Open the Hydration platform and go to the **[Supply UI](https://app.hydration.net/borrow/dashboard)**.
+- This will open **My Dashboards** where you can view your lending and borrowing options.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/img/guides/borrow/supply/01.png')} />
@@ -24,8 +24,8 @@ You can also check out our [Borrowing product docs](/products/borrowing/overview
 
 ### 02 Choose an Asset to Supply
 
-- In the dashboard, navigate to the **"Assets to Supply"** section.
-- Locate the asset you want to supply and click the **"Supply"** button next to it.
+- In the dashboard, navigate to the **Assets to Supply** section.
+- Locate the asset you want to supply and click the **Supply** button next to it.
   - **Tip:** You can click anywhere outside the "Supply" button to reveal more details about the asset, such as:
     - **Max LTV (Loan-To-Value)** - The maximum amount you can borrow against this asset.
     - **Liquidation Threshold** - The point at which your supplied asset becomes subject to liquidation.
@@ -49,7 +49,7 @@ You can also check out our [Borrowing product docs](/products/borrowing/overview
 
 - **Congratulations!** You’ve successfully supplied an asset and signed the contract.
 
-Now, you can start earning based on your supplied assets! For more details on managing your supply, visit **"My Dashboards"** anytime.
+Now, you can start earning based on your supplied assets! For more details on managing your supply, visit **My Dashboards** anytime.
 
 ## How to Withdraw Supplied Tokens {#withdraw}
 
@@ -57,8 +57,8 @@ Once you've supplied tokens, you can withdraw them anytime by following these st
 
 ### 01 Locate Your Supplied Tokens
 
-- Go to the **"My Dashboards"** section on the Hydration platform.
-- Scroll to the **"Your Supplies"** section, where you’ll see all the tokens you’ve supplied
+- Go to the **My Dashboards** section on the Hydration platform.
+- Scroll to the **Your Supplies** section, where you’ll see all the tokens you’ve supplied
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/img/guides/borrow/supply/04.png')} width="600px" />
@@ -66,7 +66,7 @@ Once you've supplied tokens, you can withdraw them anytime by following these st
 
 ### 02 Initiate the Withdrawal
 
-- Find the asset you want to withdraw and click the **"Withdraw"** button next to it.
+- Find the asset you want to withdraw and click the **Withdraw** button next to it.
 
 ### 03 Specify the Amount
 
