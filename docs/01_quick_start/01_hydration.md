@@ -3,12 +3,14 @@ title: What is Hydration?
 sidebar_position: 0
 ---
 
-**Hydration** is a next-gen Layer-1 blockchain built on Polkadot, designed to **make DeFi efficient, simple, and unstoppable**. It unites the three fundamental pillars of DeFi - **trading, lending, and stablecoin** - under the roof of a single, scalable appchain.
+**Hydration** is a next-gen Layer-1 blockchain built on Polkadot, designed to **make DeFi efficient, simple, and unstoppable**. At its core, it unites the three fundamental pillars of DeFi - **trading, lending, and stablecoin** - while offering powerful tools for DAOs, projects, and users of all types.
+
+## The Three Pillars
 
 ### Trading: The Right AMM for Every Need
 Hydration offers a comprehensive suite of Automated Market Makers (AMMs), each optimized for specific trading scenarios:
 
-* The innovative **[Omnipool](docs/02_products/01_trading/01_pools/01_omnipool.md)** combines assets into a single trading pool, enabling lower slippage, fewer hops between trades, and unprecedented capital efficiency gains. It introduces **[1-sided liquidity provisioning](docs/02_products/01_trading/03_liquidity/01_single_sided_lp.md),** making market making more accessible than ever.
+* The innovative **[Omnipool](docs/02_products/01_trading/01_pools/01_omnipool.md)** combines assets into a single trading pool, enabling lower slippage, fewer hops between trades, and unprecedented capital efficiency gains. It introduces **[single-sided liquidity provisioning](docs/02_products/01_trading/03_liquidity/01_single_sided_lp.md),** making market making more accessible than ever.
 * **[Stablepools](docs/02_products/01_trading/01_pools/03_stablepools.md)** provide specialized environments for correlated assets like stablecoins or wrapped tokens (USDT/USDC/DAI or BTC/WBTC), offering minimal slippage and maximum capital efficiency.
 * **[Isolated Pools](docs/02_products/01_trading/01_pools/02_isolated_pools.md)** allow for custom risk management and yield opportunities while protecting the broader protocol.
 Liquidity Bootstrapping Pools (LBPs) empower new projects to achieve fair token distribution and initial price discovery, while also enabling the protocol to acquire Protocol-owned liquidity.
@@ -25,6 +27,15 @@ The protocol's innovative design internalizes liquidation rewards that typically
 
 ### Stablecoin: HOLLAR
 The upcoming HOLLAR stablecoin will complete Hydration's DeFi ecosystem, providing a native stable asset designed to work seamlessly with all protocol features.
+
+## Treasury Management for DAOs
+Hydration offers a comprehensive suite of tools designed specifically for DAOs and projects:
+
+* **Fair Token Launch:** Use [Liquidity Bootstrapping Pools (LBPs)](docs/05_daos/03_lbp.md) for initial token distribution and price discovery through time-based weight shifting.
+* **Permissionless Markets:** Create [Isolated Pools](docs/02_products/01_trading/01_pools/02_isolated_pools.md) for your token without requiring Hydration DAO approval.
+* **Single-Sided Liquidity Provision:** The Omnipool enables DAOs to provide liquidity with just their own token - no paired assets required. Earn [trading fees](docs/02_products/01_trading/02_fees.md) on previously idle treasury tokens, accumulating Protocol-Owned Liquidity over time.
+* **Sovereign Treasury Management:** Through Polkadot's XCM capabilities, DAOs maintain complete control over their funds while participating in liquidity provision.
+
 
 ## Security, User Experience, and Sustainability
 Security and user experience are central to Hydration's design philosophy. The protocol combines multiple security audits, a generous [bug bounty](https://immunefi.com/bug-bounty/hydration/information/) program, and sophisticated protection mechanisms with one of DeFi's most intuitive interfaces. 
