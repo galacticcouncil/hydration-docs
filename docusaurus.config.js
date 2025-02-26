@@ -37,11 +37,11 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/HDNPFFrcnW",
+              href: "https://discord.gg/hydration-net",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/hydra_dx",
+              href: "https://x.com/hydration_net",
             },
           ],
         },
