@@ -21,24 +21,24 @@ Before proceeding, we encourage you to read the following articles to better und
   * Click 'Switch' to connect
 
 <div style={{textAlign: 'center'}}>
-<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/img/guides/opengov/cancel_kill_referenda/polkadot_js.jpg')} width="500px" />
+<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/img/guides/opengov/polkadot_js.jpg')} width="500px" />
 </div>
 
 ### 01 Navigate to Referenda
 
 * Go to **Governance > Referenda**
-* Click the "**Add Preimage**" button
-* Select your account in the **'Send from Account'** dialog
+* Click the **Add Preimage** button
+* Select your account in the **Send from Account** dialog
 
 ### 02 Configure Proposal
 
-* In the **'Propose'** section, select **'Referenda'**
+* In the **Propose** section, select **Referenda**
 * Choose your intended action:
-  * **'cancel(index)'** - Stop the referendum without slashing the decision deposit
-  * **'kill(index)'** - Stop the referendum and slash the decision deposit
+  * **cancel(index)** - Stop the referendum without slashing the decision deposit
+  * **kill(index)** - Stop the referendum and slash the decision deposit
 
 <div style={{textAlign: 'center'}}>
-<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/img/guides/opengov/cancel_kill_referenda/submit_preimage.jpg')} width="500px" />
+<img alt="subsquare_UI_new_referendum" src={useBaseUrl('/img/guides/opengov/submit_preimage.jpg')} width="500px" />
 </div>
 
 ### 03 Specify Referendum

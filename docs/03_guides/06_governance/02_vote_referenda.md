@@ -16,7 +16,7 @@ Before proceeding, we encourage you to read the following articles to better und
 ### 00 Navigate to Referendum Page
 
 * Visit the referendum page on **[Subsquare](https://hydration.subsquare.io/referenda)**.
-* Click the "**Vote**" button to open the voting dialog.
+* Click the **Vote** button to open the voting dialog.
 
 ### 01 Select Your Vote
 
@@ -41,8 +41,8 @@ Enter the amount of **HDX** you wish to vote with.
 
 ### 04 Submit Vote
 
-* Click "**Confirm**" to submit your vote
+* Click **Confirm** to submit your vote
 * Sign the transaction through your wallet
 * Wait for transaction confirmation
 
-To learn more about voting and governance, check out our [OpenGov guides](docs/07_governance).
+To learn more about voting and governance, check out our [OpenGov guides](/governance).

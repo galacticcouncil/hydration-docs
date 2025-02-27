@@ -6,15 +6,15 @@ On Hydration, all decisions which affect the protocol are adopted through a gove
 
 ---
 
-### **Participants**
+### Participants
 
 These are the groups of decision makers and their roles in the governance process.
 
-#### **1. Public**
+#### 1. Public
 
 This group is inclusive of all HDX token holders. They can propose and vote on referenda.
 
-#### **2. Technical Committee**
+#### 2. Technical Committee
 
 This is a group of experienced engineers who are appointed by OpenGov referenda on the GeneralAdmin track (read [Origins and Tracks](docs/07_governance/03_democracy_origins_tracks.md) section to understand what this means). Their main task is to safeguard the technical stability of the protocol.
 

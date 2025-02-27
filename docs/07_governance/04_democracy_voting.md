@@ -4,7 +4,7 @@ title: Voting
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-### **Conviction Voting**
+### Conviction Voting
 
 Hydration utilizes an idea called voluntary locking that allows token holders to increase their voting power by declaring how long they are willing to lock up their tokens; hence, the number of votes for each token holder will be calculated by the following formula:
 
@@ -32,7 +32,7 @@ See below an example that shows how voluntary locking works.
 
 Even though both Logan and Kevin vote with more DOT than Peter, the lock period for both of them is less than Peter’s, leading to their voting power counting as less.
 
-### **Approval and Support**
+### Approval and Support
 
 When a referendum exits the Lead-in Period and enters the Voting Period, it must meet two criteria for the duration of the Confirmation Period to be approved: **Approval** and **Support**.
 
@@ -87,7 +87,7 @@ The figure above shows the following:
 - It is possible that a referendum meets the approval and support thresholds almost at the end of the decision period. In this case, even though the decision period elapses, the referendum can pass if it stays confirming for the duration of the track-specific confirmation period. It is rejected immediately if it exits the confirmation period after the decision period elapses.
 - The approval curve starts at 100% and gradually decreases to 50%, but never below 50%. Assuming all the active token supply has voted on a proposal, the conviction vote-weighted support should always be above 50% to pass.
 
-### **Approval & Support Curves for Tracks**
+### Approval & Support Curves for Tracks
 
 Different Origins have varying Confirmation Periods and requirements for Approval and Support. Referenda using less privileged origins may have lower support requirements compared to those using highly privileged origins like Root. Below are the approval and support curves for the different Origins of Hydration OpenGov.
 
