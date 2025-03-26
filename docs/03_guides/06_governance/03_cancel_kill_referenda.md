@@ -1,5 +1,5 @@
 ---
-title: Cancel or Kill a Referenda
+title: Cancel or Kill a Referendum
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -8,8 +8,8 @@ On this page you will find a **step-by-step guide for cancelling or killing a re
 
 Before proceeding, we encourage you to read the following articles to better understand the process:
 
-* [Referenda](docs/07_governance/02_democracy_referenda.md)
-* [Kill & Cancel](docs/07_governance/06_democracy_cancel_ref.md)
+* [Referenda](/governance/referenda)
+* [Kill & Cancel](/governance/cancel_kill_ref)
 
 ### 00 Access Polkadot-JS UI
 
@@ -52,4 +52,4 @@ Before proceeding, we encourage you to read the following articles to better und
 * Sign the transaction through your wallet
 * Wait for transaction confirmation
 
-To learn more about governance processes, check out our [OpenGov guides](docs/07_governance).
+To learn more about governance processes, check out our [OpenGov guides](/governance/intro).

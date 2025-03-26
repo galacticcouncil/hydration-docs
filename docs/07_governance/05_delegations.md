@@ -27,7 +27,7 @@ For example, suppose a token holder does not have the technical background to co
 
 - Before delegating a specific track, you must remove any vote on that track.
 - Delegating voting power does not give the delegate control over your account's funds. The delegate can vote with your power but cannot transfer balances, choose validators, or execute any other actions besides voting on the defined tracks.
-- Delegated votes do not give action points for staking rewards on Hydration. To understand what this means, read about [HDX staking](https://docs.hydration.net/staking).
+- Delegated votes do not give action points for staking rewards on Hydration. To understand what this means, read about [HDX staking](/products/staking).
 
 ---
 

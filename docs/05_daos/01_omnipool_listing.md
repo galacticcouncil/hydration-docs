@@ -23,7 +23,7 @@ With all tokens pooled into a single pool, we must take extra precautions to avo
   - For tokens with an FDV up to \$50M, the minimum team/treasury deposit into the Omnipool is \$300k worth of tokens.
   - For tokens with an FDV above \$50M, the minimum team/treasury deposit into the Omnipool is \$500k worth of tokens.
 
-For new projects, a typical token launch sequence would be to perform a fair token launch using a [Liquidity Boostrapping Pool (LBP)](https://docs.hydration.net/daos/lbp) followed by the LBP liquidity being deposited into an Isolated Pair. Isolated Pairs can be permissionlessly created and swaps on the Hydration platform are automatically routed through both the Omnipool and Isolated Pairs, so new projects can still create their first DEX liquidity on Hydration even before their token qualifies for listing in the Omnipool. After eight months of continued price discovery, the team can apply for the token to be listed in the Omnipool if it meets the criteria above.
+For new projects, a typical token launch sequence would be to perform a fair token launch using a [Liquidity Boostrapping Pool (LBP)](/daos/lbp) followed by the LBP liquidity being deposited into an Isolated Pair. Isolated Pairs can be permissionlessly created and swaps on the Hydration platform are automatically routed through both the Omnipool and Isolated Pairs, so new projects can still create their first DEX liquidity on Hydration even before their token qualifies for listing in the Omnipool. After eight months of continued price discovery, the team can apply for the token to be listed in the Omnipool if it meets the criteria above.
 
 
 ## 01 Listing Process

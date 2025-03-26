@@ -1,21 +1,21 @@
 ---
-title: Vote on Referenda
+title: Vote on a Referendum
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-On this page you will find a **step-by-step guide for voting in Hydration referenda**.
+On this page you will find a **step-by-step guide for voting on a Hydration referendum**.
 
 Before proceeding, we encourage you to read the following articles to better understand the intricacies of our OpenGov implementation. 
 
-* [Referenda](docs/07_governance/02_democracy_referenda.md)
-* [Origins & Tracks](docs/07_governance/03_democracy_origins_tracks.md)
-* [Conviction Voting](docs/07_governance/04_democracy_voting.md)
+* [Referenda](/governance/referenda)
+* [Origins & Tracks](/governance/origins_tracks)
+* [Conviction Voting](/governance/voting)
 
 
-### 00 Navigate to Referendum Page
+### 00 Navigate to Referenda Page
 
-* Visit the referendum page on **[Subsquare](https://hydration.subsquare.io/referenda)**.
+* Visit the referenda page on **[Subsquare](https://hydration.subsquare.io/referenda)**.
 * Click the **Vote** button to open the voting dialog.
 
 ### 01 Select Your Vote
@@ -37,7 +37,7 @@ Enter the amount of **HDX** you wish to vote with.
 * Higher conviction means:
   * Longer HDX lock period
   * Greater voting power
-* For more details about conviction voting, read [this post](docs/07_governance/04_democracy_voting.md)
+* For more details about conviction voting, read [this post](/governance/voting)
 
 ### 04 Submit Vote
 

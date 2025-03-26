@@ -1,19 +1,19 @@
 ---
-title: Submit Proposal
+title: Start a Referendum
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## 00 The Referendum Process
 
-Before proceeding with submitting a proposal to trigger a [referendum](docs/07_governance/02_democracy_referenda.md), identify the right track and origin for it. For example, if the proposal is requesting funds from the treasury, select the treasury track with appropriate spend limits. Read [this post](docs/07_governance/03_democracy_origins_tracks.md) to learn more about Origins and Tracks.
+Before proceeding with submitting a proposal to trigger a [referendum](/governance/referenda), identify the right track and origin for it. For example, if the proposal is requesting funds from the treasury, select the treasury track with appropriate spend limits. Read [this post](/governance/origins_tracks) to learn more about Origins and Tracks.
 
 Below is **the ideal process to follow**:
 
 * **Create a discussion post about your proposal.** This post allows the community to deliberate and recommend improvements.
 * **Create a referendum.**
 
-That said, you are free to create a referenda without first creating a discussion post.
+That said, you are free to create a referendum without first creating a discussion post.
 
 ---
 
@@ -44,8 +44,8 @@ Having created a discussion post for your proposal, you should share the link to
     
 * If you do not know how to use preimages, then select one of the **Quick Start** options that best fits your proposal. Below are the options:
     * **Treasury spend local** - for proposals that want to request HDX.
-    * **Remark** - for proposals that wish to propose changes to the protocol/ecosystem. most ideal for the ‘Wish for Change’ track.
-* In the following dialog box, enter all relevant details. It is important to specify the correct track for your proposal. Read [this guide](docs/07_governance/03_democracy_origins_tracks.md) to understand more about the choosing the right track. Once done, click **Create Preimage** and sign the transaction. This will create your proposal/referendum. But note that until you pay the Decision Deposit, this referendum is, in a sense, inactive (it will not pass even if it gets the necessary votes). At this stage, there are two things you need to do.
+    * **Remark** - for proposals that wish to propose changes to the protocol/ecosystem. Most ideal for the ‘Wish for Change’ track.
+* In the following dialog box, enter all relevant details. It is important to specify the correct track for your proposal. Read [this guide](/governance/origins_tracks) to understand more about the choosing the right track. Once done, click **Create Preimage** and sign the transaction. This will create your referendum. But note that until you pay the Decision Deposit, this referendum is, in a sense, inactive (it will not pass even if it gets the necessary votes). At this stage, there are two things you need to do.
 * **Add contextual information**. You can do this by editing the referendum to add the information. Or you can link to the discussion post you created before.
 * **Pay Decision Deposit**. Click the Decision Deposit button on the Status dialog box of your referendum page. Enter the required HDX and sign the transaction.
 

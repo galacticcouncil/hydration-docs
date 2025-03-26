@@ -8,7 +8,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The HDX token is a governance token that allows staked token holders to decide the future of the protocol. Our mission with the Hydration DAO is to distribute all decision-making to create a trustless liquidity protocol built around community-growth and self-sustainability. 
 
-To have a vote in the Hydration DAO, and to contribute to the determination of any of the topics raised by community members, one must hold the HDX governance token. For more specifically on the governance process, please read our [Democracy](https://docs.hydration.net/democracy_intro) documentation.
+To have a vote in the Hydration DAO, and to contribute to the determination of any of the topics raised by community members, one must hold the HDX governance token. For more specifically on the governance process, please read our [Democracy](/governance/intro) documentation.
 
 HDX will initially be used for the following:
 
