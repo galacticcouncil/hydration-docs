@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 The Hydration Protocol uses **Bonds** as part of its strategy to **grow and diversify its Protocol-owned liquidity (POL)**. For this purpose, the Hydration Governance can at any time decide to **issue a given amount of bonds** which will be traded against assets that the Hydration Treasury wishes to accumulate.
 
-This page contains a step-by-step guide on how to acquire Bonds via LBP on Hydration. Before proceeding, we recommend that you get familiar with Bonds: https://docs.hydration.net/bonds.
+This page contains a step-by-step guide on how to acquire Bonds via LBP on Hydration. Before proceeding, we recommend that you get familiar with [Bonds](/products/trading/pro/bonds).
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/howto_bonds_lbp/bonds1.jpg')} />
@@ -31,7 +31,7 @@ Connect your wallet to Hydration by clicking **`Connect Account` (1 in image abo
 :::caution
 Before participating in a Liquidity Bootstrapping Pool (LBP), you should first get familiar with how an LBP works.
 
-Find more info [in our docs](https://docs.hydration.net/lbp).
+Find more info [in our docs](/daos/lbp).
 :::
 
 The Hydration Bonds LBP UI allows you to intuitively execute the swap:

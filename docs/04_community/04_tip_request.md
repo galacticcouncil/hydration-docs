@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::warning
 This page relates to the old governance system (Gov v1) which has been replaced by OpenGov.  
-Please check the [OpenGov docs](/community/opengov) instead.
+Please check the [OpenGov docs](/governance/intro) instead.
 :::
 
 Community members can request HDX tips from the Hydration Treasury as a reward for their contributions to the Protocol. This guide walks you through the process of tip requests. You can find more information about the different types of activities that get rewarded in [this post](../community/spending_fw).
