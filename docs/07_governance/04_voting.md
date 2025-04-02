@@ -92,7 +92,7 @@ The figure above shows the following:
 Different Origins have varying Confirmation Periods and requirements for Approval and Support. Referenda using less privileged origins may have lower support requirements compared to those using highly privileged origins like Root. Below are the approval and support curves for the different Origins of Hydration OpenGov.
 
 <div style={{textAlign: 'left'}}>
-  <img alt="root_approval_support_curve" src={useBaseUrl('//img/community/opengov/root_curve.jpg')} width="400px" />
+  <img alt="root_approval_support_curve" src={useBaseUrl('/img/community/opengov/root_curve.jpg')} width="400px" />
 </div>
 
 **Root** - For referenda that seeks to change the protocol’s runtime
