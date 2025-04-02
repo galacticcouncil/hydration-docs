@@ -69,4 +69,4 @@ Navigate to the **My Liquidity** tab to find your existing positions.
 * Select **Add & Join Farms** to increase your liquidity
 * Enter the additional amount and sign the transactions
 
-To learn more about providing liquidity and the available rewards, check out this [guide](../../products/trading/liquidity).
+To learn more about providing liquidity and the available rewards, check out this [guide](/products/trading/liquidity).

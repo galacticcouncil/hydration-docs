@@ -10,9 +10,9 @@ sidebar_position: 0
 ### Trading: The Right AMM for Every Need
 Hydration offers a comprehensive suite of Automated Market Makers (AMMs), each optimized for specific trading scenarios:
 
-* The innovative **[Omnipool](docs/02_products/01_trading/01_pools/01_omnipool.md)** combines assets into a single trading pool, enabling lower slippage, fewer hops between trades, and unprecedented capital efficiency gains. It introduces **[single-sided liquidity provisioning](docs/02_products/01_trading/03_liquidity/01_single_sided_lp.md),** making market making more accessible than ever.
-* **[Stablepools](docs/02_products/01_trading/01_pools/03_stablepools.md)** provide specialized environments for correlated assets like stablecoins or wrapped tokens (USDT/USDC/DAI or BTC/WBTC), offering minimal slippage and maximum capital efficiency.
-* **[Isolated Pools](docs/02_products/01_trading/01_pools/02_isolated_pools.md)** allow for custom risk management and yield opportunities while protecting the broader protocol.
+* The innovative **[Omnipool](/products/trading/pools/omnipool)** combines assets into a single trading pool, enabling lower slippage, fewer hops between trades, and unprecedented capital efficiency gains. It introduces **[single-sided liquidity provisioning](/products/trading/liquidity/single_sided_lp),** making market making more accessible than ever.
+* **[Stablepools](/products/trading/pools/stablepools)** provide specialized environments for correlated assets like stablecoins or wrapped tokens (USDT/USDC/DAI or BTC/WBTC), offering minimal slippage and maximum capital efficiency.
+* **[Isolated Pools](/products/trading/pools/isolated_pools)** allow for custom risk management and yield opportunities while protecting the broader protocol.
 Liquidity Bootstrapping Pools (LBPs) empower new projects to achieve fair token distribution and initial price discovery, while also enabling the protocol to acquire Protocol-owned liquidity.
 
 **[Advanced features](/products/trading/pro)** like yield optimization and DCA trading enhance the trading experience further.
@@ -31,9 +31,9 @@ The upcoming HOLLAR stablecoin will complete Hydration's DeFi ecosystem, providi
 ## Treasury Management for DAOs
 Hydration offers a comprehensive suite of tools designed specifically for DAOs and projects:
 
-* **Fair Token Launch:** Use [Liquidity Bootstrapping Pools (LBPs)](docs/05_daos/03_lbp.md) for initial token distribution and price discovery through time-based weight shifting.
-* **Permissionless Markets:** Create [Isolated Pools](docs/02_products/01_trading/01_pools/02_isolated_pools.md) for your token without requiring Hydration DAO approval.
-* **Single-Sided Liquidity Provision:** The Omnipool enables DAOs to provide liquidity with just their own token - no paired assets required. Earn [trading fees](docs/02_products/01_trading/02_fees.md) on previously idle treasury tokens, accumulating Protocol-Owned Liquidity over time.
+* **Fair Token Launch:** Use [Liquidity Bootstrapping Pools (LBPs)](/daos/lbp) for initial token distribution and price discovery through time-based weight shifting.
+* **Permissionless Markets:** Create [Isolated Pools](/products/trading/pools/isolated_pools) for your token without requiring Hydration DAO approval.
+* **Single-Sided Liquidity Provision:** The Omnipool enables DAOs to provide liquidity with just their own token - no paired assets required. Earn [trading fees](/products/trading/fees) on previously idle treasury tokens, accumulating Protocol-Owned Liquidity over time.
 * **Sovereign Treasury Management:** Through Polkadot's XCM capabilities, DAOs maintain complete control over their funds while participating in liquidity provision.
 
 

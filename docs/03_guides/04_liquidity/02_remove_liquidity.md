@@ -6,7 +6,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 On this page you will find a step-by-step guide for removing liquidity from Hydration pools.
 
-Before proceeding, you may want to read [this guide](docs/03_guides/04_liquidity/01_provide_liquidity.md) to learn how to provide liquidity and earn fees and rewards.
+Before proceeding, you may want to read [this guide](/guides/liquidity/provide_liquidity) to learn how to provide liquidity and earn fees and rewards.
 
 ## Step 1: Access Your Positions
 Navigate to the **[Liquidity](https://app.hydration.net/liquidity)** and click **My Positions** to view your active positions.

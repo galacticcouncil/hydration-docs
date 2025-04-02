@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 </div>  
 
 ## Prerequisites
-* **[Web3 wallet](../wallets) with sufficient DOT for gas fees and liquidity pool**. 5 DOT is the lowest we recommend. How much DOT you need is determined by the value of the liquidity pool you want to create. The higher the DOT, the higher the value.
+* **[Web3 wallet](/guides/wallets) with sufficient DOT for gas fees and liquidity pool**. 5 DOT is the lowest we recommend. How much DOT you need is determined by the value of the liquidity pool you want to create. The higher the DOT, the higher the value.
 * **Token concept:** name, symbol, and initial supply planning.
 * Optional but recommended: **logo file** (SVG/PNG, less than 30kb).
 
