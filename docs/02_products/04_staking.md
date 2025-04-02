@@ -12,9 +12,17 @@ HDX holders can **stake their HDX and receive rewards** which become **claimable
 
 Rewards which enter the staking pot are always distributed directly to all stakers at any given moment. The amount that users are entitled to is proportional to the relative size of their stake in the stake pool. However, stakers do not automatically receive the rewards on their account - instead, they need to claim them.
 
+## Loyalty and Gamification
 When it comes to claiming rewards, all participants in HDX staking should be aware of the elements of **loyalty and gamification**. Once rewards are awarded, they cannot be instantly claimed for the full amount - doing so would yield just a fraction of the total rewards, with the remainder being returned the pot for redistribution to all stakers.
 
+<div style={{textAlign: 'center'}}>
+  <img alt="login" src={useBaseUrl('/img/staking/claiming_curve.jpg')} width="500px" />
+</div>
+
+For example, if the user claims the available rewards of 21,281.77 HDX (74.12% of their total rewards) in the image above, they will forfeit the remaining 7,429 HDX of unclaimable rewards. To maximize rewards, users should either wait until more of their rewards become claimable or accelerate the process by earning action points (more on this below).
+
 Users who want to claim as many rewards as possible should keep their HDX staked without claiming until sufficient time has passed (rewards are “vested” following a bonding curve). The length of the waiting period is dynamic and depends on the user (in)actions. A user who just **stakes passively** would need to **wait ~2 years to claim 95% of their rewards**. In contrast, **active stakers** who collect the maximum amount of action points (more on that below) could claim **95% of their rewards in just over 2 months.** These are rough estimates - the actual timelines may vary in accordance with user actions and overall count of referenda.
+
 
 ## Boosting Your Rewards {#boosting-your-rewards}
 
@@ -41,10 +49,6 @@ There are 2 factors which determine the amount of action points that stakers wil
 As they keep their HDX staked, **users accumulate rewards over time**. These rewards become claimable subject to a bonding curve which is influenced by the boosts from action points (see above).
 
 At any given time, **stakers can claim** (a portion of) their claimable rewards. By doing so, however, they **forfeit the remainder of their non-claimable rewards**. These rewards are **automatically transferred back to the staking rewards pot** which **redistributes them to all other stakers**. Furthermore, claiming **resets the past action points of the user**, sending users back to the beginning of the bonding curve for future rewards from staking.
-
-<div style={{textAlign: 'center'}}>
-  <img alt="login" src={useBaseUrl('/img/staking/claiming_curve.jpg')} width="500px" />
-</div>
 
 This mechanism creates an interesting **gamification dynamic**: By **remaining longer in the pool of stakers**, users not only **unlock a greater part** of their allocated rewards - they also have the chance to receive a **juicy portion of rewards from other stakers who claim or exit early**.
 
