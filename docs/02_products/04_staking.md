@@ -42,6 +42,17 @@ As they keep their HDX staked, **users accumulate rewards over time**. These rew
 
 At any given time, **stakers can claim** (a portion of) their claimable rewards. By doing so, however, they **forfeit the remainder of their non-claimable rewards**. These rewards are **automatically transferred back to the staking rewards pot** which **redistributes them to all other stakers**. Furthermore, claiming **resets the past action points of the user**, sending users back to the beginning of the bonding curve for future rewards from staking.
 
+<div style={{textAlign: 'center'}}>
+  <img alt="login" src={useBaseUrl('/img/staking/claiming_curve.jpg')} width="500px" />
+</div>
+
 This mechanism creates an interesting **gamification dynamic**: By **remaining longer in the pool of stakers**, users not only **unlock a greater part** of their allocated rewards - they also have the chance to receive a **juicy portion of rewards from other stakers who claim or exit early**.
+
+## Note About Increasing Stake
+If you decide to increase your stake by adding more HDX to your staking position, it's important to understand how this affects your rewards. Your existing accumulated rewards will remain the same - they will not be lost or reset. However, **increasing your stake will slightly set you back on your action points curve**, which means it will take a bit longer to fully unlock your rewards.
+
+This adjustment ensures fairness in the staking system - **new HDX added to your stake needs to go through the same vesting period as your original stake**. The setback on the action points curve is proportional to the amount of HDX added relative to your existing stake. This mechanism prevents users from bypassing the loyalty aspect of the staking program by adding tokens gradually.
+
+Remember that while this slightly extends the time needed to claim your maximum rewards, your total potential rewards will increase due to your larger stake size in the pool.
 
 Happy staking!
