@@ -4,6 +4,8 @@ title: From Ethereum
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+# Deposit from Ethereum
+
 Bridging assets from the Ethereum ecosystem is easy. Hydration uses two bridges for this purpose:
 * **Wormhole** - an industry-leading bridge that connects to various chains
 * **Snowbridge** - a trustless bridge between Polkadot and Ethereum
