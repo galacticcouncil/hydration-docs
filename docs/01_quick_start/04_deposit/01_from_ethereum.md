@@ -13,7 +13,7 @@ Bridging assets from the Ethereum ecosystem is easy. Hydration uses two bridges 
 When bridging an asset, it is locked on the source network and an equivalent amount is minted on a Polkadot parachain. The assets are then transferred to the Hydration chain where they can be used for all DeFi activities.
 
 **Which chain the asset will be minted on Polkadot is dependent on which asset and/or bridge you use.**
-* **Using Wormhole** will mint assets on Polkadot L1s **Acala** or **Moonbeam** depending on the asset
+* **Using Wormhole** will mint assets on **Moonbeam**
 * **Using Snowbridge** will mint assets on **Asset Hub** (Polkadot's canonical home for all assets)
 
 To bridge assets from Ethereum to Hydration, follow the steps below.
