@@ -51,6 +51,6 @@ Hydration’s design incorporates multiple layers of protection to safeguard use
 
 To get started, see our user guides for [supplying assets](/guides/borrow/supply_assets) and for [borrowing assets](/guides/borrow/borrow_assets) for step-by-step instructions.
 
-You can find an overview of the [applicable risk parameters on this page](/products/borrowing/risk_parameters). 
+You can find an overview of the [applicable risk parameters on the Hydration app](https://app.hydration.net/borrow/markets). 
 
 For more information you can also consult the [AAVE documentation](https://aave.com/docs).
