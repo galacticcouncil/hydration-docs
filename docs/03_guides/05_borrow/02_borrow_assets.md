@@ -1,5 +1,6 @@
 ---
 title: Borrow Assets
+description: Learn how to how to Borrow against your assets
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,5 +1,6 @@
 ---
 title: Supply Assets
+description: Learn how to Lend your assets and earn APR
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
