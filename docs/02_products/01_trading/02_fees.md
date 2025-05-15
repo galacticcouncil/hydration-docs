@@ -37,18 +37,11 @@ With the introduction of **Referrals** to Hydration, asset fees are distributed 
 - 50% is distributed for referrals to 3 distinctive groups: Referrers, traders & HDX stakers. The proportions vary based on the tier of referral code linked to the trader account (learn more in [Referrals](/community/referrals))
 - HDX asset fees are currently excluded from Referrals, they are distributed in their fullest to the HDX Staking pot (learn more in [Staking](/products/staking))
 
-<div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/referrals/rewards.jpg')} width="800px" />
-</div>
+
 
 ## Protocol fee
-Protocol fees are paid by users whenever they make a trade in the Omnipool. These fees - paid in H2O - are burned after the trades to mitigate any negative imbalance between the ratio of H2O and the other assets in the Omnipool.
+Protocol fees are paid by users whenever they make a trade in the Omnipool. Paid in H2O, half of these fees are burnt while the remaining half are sent to the Treasury.
 
-When there is no negative imbalance, the protocol fee will be redirected to the HDX pool within the Omnipool. This will result in the value of HDX increasing relative to all other assets in the Omnipool. An arbitrageur will observe this and swap HDX with other assets, setting a new (likely higher) price for HDX.
-
-<div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/fees/protocol_fee.png')} width="800px" />
-</div>
 
 ## Withdrawal fee (Omnipool)
 The withdrawal fee is a dynamic fee paid whenever users withdraws liquidity from the Omnipool. It is designed to ensure that LPs do not lose money when liquidity is withdrawn immediately after a price change. The fee is calculated as the percentage difference between the spot price and the oracle price. This is also designed to ensure that any potential manipulation of the spot price will not be profitable.
