@@ -24,8 +24,8 @@ You can also check out our [Borrowing product docs](/products/borrowing/overview
 </div>
 
 ### Step 2: Choose an Asset to Borrow
-- Navigate to the **Assets to Borrow** section.
-- Click the **Borrow** button on the asset you wish to borrow.
+- Navigate to the **"Assets to Borrow"** section.
+- Click the **"Borrow"** button on the asset you wish to borrow.
 - Alternatively, you can click anywhere outside the borrow button on the asset to see more detailed information, such as **Max LTV**, **Liquidation Threshold**, and **Liquidation Penalty**.
 
 <div style={{textAlign: 'center'}}>
@@ -93,7 +93,7 @@ Increase your health factor by:
 
 ### Step 2: Locate Your Borrowed Assets
 
-- In the **Your Borrows** section, find the asset you want to repay.
+- In the **"Your Borrows"** section, find the asset you want to repay.
 
 <div style={{textAlign: 'center'}}>
   <img alt="metadata" src={useBaseUrl('/img/guides/borrow/borrow/06.png')} width="600px" />
@@ -101,7 +101,7 @@ Increase your health factor by:
 
 ### Step 3: Initiate Repayment
 
-- Click the **Repay** button next to the asset you wish to repay.
+- Click the **"Repay"** button next to the asset you wish to repay.
 
 ### Step 4: Enter Repayment Amount
 
