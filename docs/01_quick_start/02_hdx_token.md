@@ -29,6 +29,9 @@ This mechanism creates a virtuous cycle where:
 * Protocol revenue is used to reduce circulating supply
 * Value is returned directly to stakers and governance participants
 * Long-term holders are rewarded for their commitment to the protocol
+
+Another important aspect of the HDX buybacks is that a portion of LP and referral fees are automatically bought back during the idle part of the block.
+
 ### Non-Inflationary Staking
 [HDX stakers](/products/staking) receive rewards that are not subject to any inflation. These rewards are powered by a combination of POL, HDX buybacks, and other profit-making strategies. Unlike many DeFi protocols that dilute token holders through constant inflation, **Hydration's reward mechanism ensures that stakers receive value from actual protocol revenue rather than from newly minted tokens**.
 ## How The Protocol Makes Money (Revenue Streams to HDX Holders)
