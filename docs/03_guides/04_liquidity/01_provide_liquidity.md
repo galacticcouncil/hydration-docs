@@ -1,5 +1,6 @@
 ---
 title: Provide Liquidity
+description: Add assets to pools to earn rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

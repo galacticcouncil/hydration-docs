@@ -1,5 +1,6 @@
 ---
 title: Liquidity bootstrapping (LBP)
+description: Launch tokens with fair price discovery
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

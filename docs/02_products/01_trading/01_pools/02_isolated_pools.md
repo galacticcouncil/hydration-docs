@@ -1,5 +1,6 @@
 ---
 title: Isolated Pools (XYK)
+description: Understand traditional AMM token pairs
 ---
 
 In addition to [the Omnipool](/products/trading/pools/omnipool), Hydration offers Isolated Pools, which are **separate pools that contain specific collections of assets**. Each Isolated Pool has its own unique risk management configurations, such as liquidity caps, fee structures, and asset composition.

@@ -1,5 +1,6 @@
 ---
 title: State of the Art Security
+description: Overview of Hydration's security measures
 ---
 
 The Hydration Protocol pursues a multi-layered security strategy. On this page you will find a description of the various measures which work together to keep your funds safe.

@@ -1,6 +1,7 @@
 ---
 id: omnipool_listing
 title: Omnipool Listing
+description: Get your token listed in the Omnipool
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

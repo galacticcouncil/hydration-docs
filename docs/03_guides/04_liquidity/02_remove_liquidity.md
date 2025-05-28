@@ -1,5 +1,6 @@
 ---
 title: Remove Liquidity
+description: Withdraw your assets from liquidity pools
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 

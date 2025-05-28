@@ -1,5 +1,6 @@
 ---
 title: Origins & Tracks
+description: Learn about referenda origins and decision tracks
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

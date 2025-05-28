@@ -1,5 +1,6 @@
 ---
 title: Automate Your Trading
+description: Set up automated trading strategies
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

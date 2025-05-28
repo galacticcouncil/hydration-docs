@@ -1,5 +1,6 @@
 ---
 title: Stablepools
+description: Learn about low-slippage stablecoin trading
 ---
 
 Hydration offers Stablepools, **specialized liquidity pools designed specifically for stablecoins**. Stablepools provide a dedicated environment for users to efficiently trade and swap between different stablecoins with reduced slippage and improved capital efficiency.

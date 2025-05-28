@@ -1,6 +1,7 @@
 ---
 id: learn_amm
 title: What are AMMs?
+description: Introduction to Automated Market Makers
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

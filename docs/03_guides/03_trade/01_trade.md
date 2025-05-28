@@ -1,5 +1,6 @@
 ---
 title: Place a Trade
+description: Execute manual trades on Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

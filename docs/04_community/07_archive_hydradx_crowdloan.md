@@ -1,6 +1,7 @@
 ---
 id: archive_hydradx_crowdloan
 title: HydraDX Crowdloan
+description: Learn how to participate in the Hydration crowdloan on Polkadot
 ---
 
 :::warning

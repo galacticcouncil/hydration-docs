@@ -1,5 +1,6 @@
 ---
 title: Create Memecoin
+description: Launch your own token on Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

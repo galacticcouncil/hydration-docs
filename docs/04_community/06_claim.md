@@ -1,6 +1,7 @@
 ---
 id: claim
 title: Claim your HDX
+description: Learn how to claim your HDX from the first token sale
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

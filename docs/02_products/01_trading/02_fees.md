@@ -1,5 +1,6 @@
 ---
 title: Fees
+description: Understand trading and transaction costs
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

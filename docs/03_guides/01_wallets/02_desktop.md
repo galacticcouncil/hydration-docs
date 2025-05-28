@@ -1,5 +1,6 @@
 ---
 title: Desktop
+description: Configure your desktop wallet on Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

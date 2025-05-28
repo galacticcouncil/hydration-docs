@@ -1,5 +1,6 @@
 ---
 title: Stake HDX
+description: Learn how to stake HDX and earn rewards
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

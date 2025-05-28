@@ -1,5 +1,6 @@
 ---
 title: Performance Benchmark
+description: Test and optimize node performance
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

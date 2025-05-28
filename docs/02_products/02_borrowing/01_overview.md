@@ -1,5 +1,6 @@
 ---
 title: Overview
+description: Introduction to Hydration's lending protocol
 ---
 
 # Borrowing

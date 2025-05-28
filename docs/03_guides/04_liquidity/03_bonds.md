@@ -1,5 +1,6 @@
 ---
 title: Buy Bonds (LBP)
+description: Participate in bond sales & Liquidity Bootstrapping Pools
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

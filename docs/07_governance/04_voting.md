@@ -1,5 +1,6 @@
 ---
 title: Voting
+description: Understanding the intricacies of voting
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,6 +1,7 @@
 ---
 id: fees_rewards
 title: Fees & Rewards
+description: Understand trading and transaction costs
 ---
 
 Hydration revolutionizes liquidity provision with a uniquely simple approach: you only need to supply a single token to start earning (learn more about [single-sided lping](/products/trading/liquidity/single_sided_lp)). This innovative design eliminates the complexity typically associated with liquidity mining while maximizing capital efficiency.

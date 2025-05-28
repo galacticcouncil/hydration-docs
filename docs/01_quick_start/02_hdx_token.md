@@ -1,5 +1,6 @@
 ---
 title: HDX Token
+description: Learn about the HDX token and why you should hold
 sidebar_position: 0
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl'; 

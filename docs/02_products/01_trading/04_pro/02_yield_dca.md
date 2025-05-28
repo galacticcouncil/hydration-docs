@@ -1,5 +1,6 @@
 ---
 title: Yield DCA
+description: Learn about Dollar Cost Averaging with yield
 ---
 
 [Yield DCA](https://app.hydration.net/trade/yield-dca) enables users to diversify their rewards from DOT staking by setting up a [DCA schedule](/products/trading/pro/dca) which periodically swaps their DOT staking yield into any asset traded on Hydration. 

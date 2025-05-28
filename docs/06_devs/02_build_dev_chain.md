@@ -1,5 +1,6 @@
 ---
 title: Set up a Development Chain
+description: Configure local development environment
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
