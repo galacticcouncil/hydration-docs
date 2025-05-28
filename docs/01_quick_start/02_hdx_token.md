@@ -24,13 +24,16 @@ Hydration accumulates POL such that **the protocol owns liquidity and supplies s
 * Interest earned on deployed assets
 * Strategic positioning in high-yield opportunities across the ecosystem
 ### HDX Buybacks
-Using POL, **HDX holders can vote to buyback HDX and redistribute to holders, use as incentives for liquidity campaigns, or store in the treasury**. In 2025, over 197 million HDX, acquired via buybacks using DAI (obtained from the LBP) throughout 2024, is getting distributed to HDX stakers. Another round of buybacks has been planned for 2025.
-This mechanism creates a virtuous cycle where:
-* Protocol revenue is used to reduce circulating supply
+On Hydration, there are two kinds of buybacks: automatic and governance-directed.
+
+Hydration **automatically uses 50% of asset fees from every trade to buyback HDX tokens**. Thanks to owning its own block production, the Hydration protocol can execute these buybacks whenever there is space in the block, making them resistant to MEV and ensuring the best execution for HDX holders. This creates a constant, organic demand for HDX that scales with protocol usage. 
+
+Using Protocol Owned Liquidity (POL), **HDX holders can vote to buyback HDX and redistribute to holders, use as incentives for liquidity campaigns, or store in the treasury**. In 2025, over 197 million HDX acquired via buybacks using DAI (obtained from the LBP) throughout 2024 will be distributed to HDX stakers.
+Together, these buyback mechanisms create a virtuous cycle where:
+* Protocol revenue continuously reduces circulating supply through automatic buybacks
+* Additional governance-directed buybacks provide targeted value distribution
 * Value is returned directly to stakers and governance participants
 * Long-term holders are rewarded for their commitment to the protocol
-
-Another important aspect of the HDX buybacks is that a portion of LP and referral fees are automatically bought back during the idle part of the block.
 
 ### Non-Inflationary Staking
 [HDX stakers](/products/staking) receive rewards that are not subject to any inflation. These rewards are powered by a combination of POL, HDX buybacks, and other profit-making strategies. Unlike many DeFi protocols that dilute token holders through constant inflation, **Hydration's reward mechanism ensures that stakers receive value from actual protocol revenue rather than from newly minted tokens**.
