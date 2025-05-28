@@ -1,6 +1,7 @@
 ---
 id: xchain
 title: Cross-Chain Integration
+description: Connect other chains to Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

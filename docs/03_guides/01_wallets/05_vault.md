@@ -1,5 +1,6 @@
 ---
 title: Polkadot Vault
+description: Set up Polkadot Vault (formerly Parity Signer)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

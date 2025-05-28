@@ -1,6 +1,7 @@
 ---
 id: omnipool_treasuries
 title: Hydrate Your Treasury (B2B)
+description: Treasury management solutions for organizations
 ---
 
 The Hydration Omnipool has an **outspoken value proposition** for the **treasury of any project or DAO**. Forget about centralized market makers and inflationary rewards for liquidity mining; the Omnipool can facilitate the creation of a market for your token in a cost-efficient manner - trustless, without hidden costs and while building up your POL from trading fees.

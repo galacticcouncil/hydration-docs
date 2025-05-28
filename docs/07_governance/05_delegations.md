@@ -1,5 +1,6 @@
 ---
 title: Delegations
+description: Learn how delegations work
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

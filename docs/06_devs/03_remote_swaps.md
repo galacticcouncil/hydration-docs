@@ -1,6 +1,7 @@
 ---
 id: remote_swaps
 title: Remote swaps
+description: Integrate Hydration swaps into your application
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

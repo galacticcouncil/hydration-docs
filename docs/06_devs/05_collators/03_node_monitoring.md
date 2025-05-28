@@ -1,5 +1,6 @@
 ---
 title: Node Monitoring
+description: Monitor collator node health and performance
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'; 

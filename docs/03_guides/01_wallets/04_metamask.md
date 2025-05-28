@@ -1,5 +1,6 @@
 ---
 title: MetaMask
+description: Connect and configure MetaMask
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

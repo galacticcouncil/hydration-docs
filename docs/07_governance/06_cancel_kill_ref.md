@@ -1,5 +1,6 @@
 ---
 title: Cancelling & Killing Referenda
+description: Learn about emergency governance procedures
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

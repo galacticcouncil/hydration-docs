@@ -1,5 +1,7 @@
 ---
 title: Earn With Referrals
+description: Learn how to generate income through the referral program
+
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

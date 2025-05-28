@@ -1,6 +1,7 @@
 ---
 id: identity
 title: Set your Identity
+description: Establish your on-chain identity
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

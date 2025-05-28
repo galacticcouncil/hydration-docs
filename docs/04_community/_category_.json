@@ -6,9 +6,9 @@
   "link": {
     "slug": "/community",
     "type": "generated-index",
-    "title": "Community and Governance"
+    "title": "Community"
   },
   "customProps": {
-    "description": ""
+    "description": "Learn how to get involved with the Hydration ecosystem"
   }
 }
