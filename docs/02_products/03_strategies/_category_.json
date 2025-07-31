@@ -1,0 +1,14 @@
+{
+  "label": "Strategies",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "slug": "products/strategies",
+    "type": "generated-index",
+    "title": "Strategies"
+  },
+  "customProps": {
+    "description": ""
+  }
+}
