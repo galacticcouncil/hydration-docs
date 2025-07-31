@@ -69,10 +69,10 @@ Once acquired, GIGAETH immediately begins earning combined yield from its underl
 
 Like all protocol parameters on Hydration, **the parameters pertaining to GIGAETH are governed through Hydration OpenGov**, giving the decision-making power to all HDX holders. This includes all decisions regarding the incentives and other operational matters.
 
-## Risk Involved
-The main risk is [impermanent loss](/products/trading/liquidity/impermanent_loss), as GIGAETH represents a liquidity pool position between wstETH and aETH. If the relative values of these assets change significantly, you may experience impermanent loss compared to holding them separately. Additional risks include price fluctuations of underlying assets and liquidation risk when used as collateral.
+## Risks Involved
+GIGAETH is deployed in the [Omnipool](/products/trading/pools/omnipool) AMM, meaning that it is exposed to the risk of [impermanent loss](/products/trading/liquidity/impermanent_loss). Impermanent loss may occur if the value of wstETH / aETH changes significantly compared to the weighted average of all other assets in the Omnipool.
 
-If you're using GIGAETH as collateral in **[Borrow](https://app.hydration.net/borrow)**, ensure your risk tolerance aligns with the health factor of your Borrow position. To learn more about health factor, read our [Borrow docs](/products/borrowing/overview).
+If you're using GIGAETH as collateral in **[Borrow](https://app.hydration.net/borrow)**, make sure to manage the risk of liquidations by monitoring the health factor of your Borrow position. To learn more about health factor, read our [Borrow docs](/products/borrowing/overview).
 
 ## Frequently Asked Questions
 
