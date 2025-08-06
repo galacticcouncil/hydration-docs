@@ -1,6 +1,6 @@
 ---
 title: Omnipool
-description: Learn about Hydration's primary innovation
+description: Learn about Hydration's Omnipool
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
