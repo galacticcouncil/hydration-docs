@@ -1,5 +1,6 @@
 ---
 title: Bonds
+description: Learn about Hydration bonds
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

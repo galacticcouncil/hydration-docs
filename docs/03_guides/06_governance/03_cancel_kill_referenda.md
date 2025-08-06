@@ -1,5 +1,6 @@
 ---
 title: Cancel or Kill a Referendum
+description: Learn how to stop active governance proposals
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

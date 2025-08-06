@@ -1,5 +1,6 @@
 ---
 title: Impermanent Loss
+description: Understand risks of liquidity provision
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

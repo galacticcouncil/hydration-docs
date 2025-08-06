@@ -1,5 +1,6 @@
 ---
 title: From Ethereum
+description: Deposit assets from Ethereum
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

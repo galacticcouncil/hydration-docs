@@ -1,5 +1,6 @@
 ---
 title: Set up a Collator Node
+description: Learn how to configure your node
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

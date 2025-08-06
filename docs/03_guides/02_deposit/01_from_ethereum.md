@@ -1,5 +1,6 @@
 ---
 title: From Ethereum
+description: Bridge assets from Ethereum to Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

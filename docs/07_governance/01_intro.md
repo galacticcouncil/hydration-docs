@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: Overview of Hydration's governance system
 ---
 
 On Hydration, all decisions which affect the protocol are adopted through a governance process that puts token holders at the centre of decision making.

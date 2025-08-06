@@ -1,6 +1,7 @@
 ---
 id: spending_fw
 title: Contribute to Hydration
+description: Learn how to earn by contributing to Hydration
 ---
 
 # Rewarding Contributions to Hydration

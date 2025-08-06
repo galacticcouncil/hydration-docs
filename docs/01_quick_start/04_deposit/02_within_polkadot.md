@@ -1,5 +1,6 @@
 ---
 title: Within Polkadot
+description: Transfer assets within the Polkadot ecosystem
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

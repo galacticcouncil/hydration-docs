@@ -1,5 +1,6 @@
 ---
 title: Vote on a Referendum
+description: Learn how to participate in governance decisions
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,5 +1,6 @@
 ---
 title: Request a Treasury Tip
+description: Learn how to apply for community funding
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

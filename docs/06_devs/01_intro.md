@@ -1,5 +1,6 @@
 ---
 title: Intro to Development
+description: Getting started with Hydration development
 ---
 
 The purpose of the `Build` section of the Hydration documentation is to share technical knowledge with the community and to empower individual contributions. Hydration is a community-driven project which invests heavily in incentivizing community involvement, and we especially appreciate technical contributions!

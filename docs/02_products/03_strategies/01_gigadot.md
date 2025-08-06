@@ -1,5 +1,6 @@
 ---
 title: GIGADOT
+description: Learn about the composite DOT strategy token
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

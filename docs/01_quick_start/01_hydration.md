@@ -1,6 +1,7 @@
 ---
 title: What is Hydration?
 sidebar_position: 0
+description: An overview of the Hydration protocol
 ---
 
 **Hydration** is a next-gen Layer-1 blockchain built on Polkadot, designed to **make DeFi efficient, simple, and unstoppable**. At its core, it unites the three fundamental pillars of DeFi - **trading, lending, and stablecoin** - while offering powerful tools for DAOs, projects, and users of all types.

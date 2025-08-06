@@ -1,5 +1,6 @@
 ---
 title: Referenda
+description: Understanding governance proposals
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

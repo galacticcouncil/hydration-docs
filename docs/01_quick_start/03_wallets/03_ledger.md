@@ -1,5 +1,6 @@
 ---
 title: Ledger
+description: Connect your Ledger hardware wallet
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

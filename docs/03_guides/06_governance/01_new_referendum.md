@@ -1,5 +1,6 @@
 ---
 title: Start a Referendum
+description: Learn how to propose changes to the protocol
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

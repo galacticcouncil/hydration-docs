@@ -1,5 +1,6 @@
 ---
 title: Mobile
+description: Set up your mobile wallet on Hydration
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
