@@ -73,18 +73,3 @@ This mechanism:
 - Better distributes IL protection across the entire system
 
 Combined with the more responsive dynamic fee system, this approach ensures that increased trading activity benefits both traders (through lower fees) and liquidity providers (through better protection).
-
-## Referral Fee Structure
-
-The referral system operates on tier requirements based on HDX staking amounts. Higher staking levels unlock better fee splits for both referrers and users who join through referral links.
-
-| Tier | Rewards Volume | Referrer | User | Staking Requirement |
-| --- | --- | --- | --- | --- |
-| None | - | - | - | - |
-| 0 | 0 HDX | 3% | 2% | 45% |
-| 1 | 305 HDX | 6% | 4% | 40% |
-| 2 | 4,583 HDX | 9% | 6% | 35% |
-| 3 | 61,111 HDX | 12% | 8% | 30% |
-| 4 | 763,888 HDX | 15% | 10% | 25% |
-
-*Note: These percentages should be verified against the implemented values.*

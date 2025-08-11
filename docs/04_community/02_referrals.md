@@ -19,6 +19,13 @@ Referral rewards are accumulated in HDX and can be claimed at any time. The rewa
 
 Besides the current rate of asset fees, there is one more factor which determines the exact amount of rewards received: the Referrer Tier. There are 5 tiers, everyone starts at Tier 0. Referrers level up as they hit certain absolute thresholds in terms of total volume of referral rewards. Here’s an overview:
 
-<div style={{textAlign: 'center'}}>
-  <img alt="metadata" src={useBaseUrl('/referrals/rewards.jpg')} width="800px" />
-</div>
+| Tier | Rewards Volume | Referrer | User | Staking Requirement |
+| --- | --- | --- | --- | --- |
+| None | - | - | - | - |
+| 0 | 0 HDX | 3% | 2% | 45% |
+| 1 | 305 HDX | 6% | 4% | 40% |
+| 2 | 4,583 HDX | 9% | 6% | 35% |
+| 3 | 61,111 HDX | 12% | 8% | 30% |
+| 4 | 763,888 HDX | 15% | 10% | 25% |
+
+*Note: These percentages should be verified against the implemented values.*
