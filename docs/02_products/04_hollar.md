@@ -3,9 +3,9 @@ title: HOLLAR
 description: Learn about Hydration's native stablecoin
 ---
 
-HOLLAR is a **decentralized, over-collateralized stablecoin** designed to target the value of approximately $1. Unlike algorithmic stablecoins that rely on market mechanisms alone, HOLLAR is minted against crypto collateral that users deposit into the protocol. This creates a direct backing relationship where each HOLLAR token represents a claim against real crypto assets held in the system.
+HOLLAR is Hydration's **decentralized, over-collateralized stablecoin** designed to target the value of approximately $1. Unlike algorithmic stablecoins that rely on market mechanisms alone, HOLLAR is minted against crypto collateral that users deposit into the protocol. This creates a direct backing relationship where each HOLLAR token represents a claim against real crypto assets held in the system.
 
-HOLLAR **builds on the proven architecture of Aave's GHO protocol**, inheriting battle-tested mechanisms for collateral management, interest accrual, and liquidations. **The key innovation is the addition of the HOLLAR Stability Module (HSM) that provides enhanced price stability** through direct stablecoin conversion capabilities.
+HOLLAR **builds on the proven architecture of Aave's GHO protocol**, inheriting battle-tested mechanisms for collateral management, interest accrual, and liquidations. In parallel, our cutting-edge [HOLLAR Stability Module (HSM)](#the-hollar-stability-module-hsm) helps provide enhanced price stability through direct stablecoin conversion capabilities.
 
 ## What Makes HOLLAR Unique
 
