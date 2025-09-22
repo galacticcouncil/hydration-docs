@@ -4,79 +4,57 @@ title: Contribute to Hydration
 description: Learn how to earn by contributing to Hydration
 ---
 
-# Rewarding Contributions to Hydration
+# Contributing to Hydration
 
-Hydration welcomes various contributions which are in the interest of the Protocol. Such activities are incentivized with the help of rewards from the Hydration Treasury.
+Hydration welcomes community contributions that benefit the protocol and its ecosystem. There are several ways to contribute and potentially receive rewards for your efforts.
 
-The present document sets out the general framework for rewarding community contributions. This framework has been approved by the community of Hydration in a [general vote](https://hydradx.subsquare.io/democracy/referendum/11). The spending framework empowers payouts in the mentioned categories by the Hydration Council, within the defined limits.
+## Bug Bounties
 
-Please note in advance that the payout of all bounties and tips mentioned in this document is subject to the full discretion of the Hydration Council. If you are in doubt whether your effort entitles you to a bounty, please reach out in advance.
+Hydration's primary bug bounty program operates through Immunefi, a leading platform for blockchain security bug bounties. This program incentivizes security researchers and developers to identify and responsibly disclose vulnerabilities in Hydration's codebase and infrastructure.
 
-You can ask questions in #bounties on the Hydration Discord.
+The program covers multiple areas including blockchain vulnerabilities, smart contract issues, and website/application security flaws. Bounty amounts vary based on the severity and potential impact of discovered vulnerabilities, with the highest rewards reserved for critical findings that could significantly impact the protocol.
 
-## 1. Bug Bounties {#bug-bounties}
+To participate in the bug bounty program, security researchers should follow the responsible disclosure guidelines and submission procedures outlined on the platform. All submissions must adhere to the program's terms and conditions to be eligible for rewards.
 
-Hydration runs a Bug Bounty program on Immunefi. Bugs and vulnerabilities are classified into three to four categories of severity which determine the maximum size of the bounty:
+**Get Started:** [Hydration Bug Bounty Program on Immunefi](https://immunefi.com/bug-bounty/hydration/information/)
 
-### Blockchain: {#bug-bounties-blockchain}
+## Tips
 
-* Critical: $50,000 to $1,000,000;
-* High: $5,000 to $50,000;
-* Medium: $5,000;
-* Low: $1,000.
+Community members can request tips for work they've completed that benefits the Hydration ecosystem. Tips can be requested by contributors themselves or nominated by other community members on behalf of deserving contributors.
 
-### Websites & Apps: {#bug-bounties-apps}
+Tip requests are submitted through Hydration's OpenGov system, where HDX holders vote on whether to approve the requested tip. The community evaluates contributions based on their value to the protocol, quality of execution, and overall benefit to the ecosystem.
 
-* Critical: $5,000 to $50,000;
-* High: $5,000;
-* Medium: $1,000.
+Examples of tip-worthy contributions include developing useful tools, providing technical support to the community, or other activities that meaningfully advance the Hydration ecosystem.
 
-### Notes: {#bug-bounties-notes}
+## OpenGov Funding
 
-* In order to be granted a bounty, bug reports must be made in accordance with the procedure for responsible disclosure and any other guideline posted on the Hydration Immunefi page;
-* Bounties for critical Blockchain vulnerabilities are capped at 10% of the potential economic damage;
-* The actual size of the rewarded bounties is at the discretion of the Council;
-* Bounties are paid by the treasury in HDX using the 7d MA USD price from an exchange (CEX or DEX once Oracles are available - if in doubt, please discuss with the Hydration Council in #bounties).
+Contributors can request funding from the Hydration Treasury through the OpenGov governance process for various projects and initiatives. This route allows for both pre-funding of planned work and retroactive compensation for completed contributions.
 
-## 2. Development Bounties {#dev-bounties}
+**Important Considerations:**
 
-The Hydration development team will be launching a dashboard with development bounties in an effort to decentralize technical work on the protocol. The dashboard will present the latest bounties together with a description, technical specification and size of the bounty.
+OpenGov funding is challenging to secure and should not be relied upon as a guaranteed income source. Unless the value provided is exceptionally high and undeniably beneficial to the protocol, proposals face significant hurdles in the voting process.
 
-The present framework authorizes the Hydration Council to propose development bounties of up to $100,000 which will be paid by the Treasury in HDX using the 7d MA USD price from an exchange. Bounties exceeding this amount still need to undergo the governance process.
+**Pre-funding:** Requesting funds before completing work is particularly difficult unless the proposer has established reputation within the community and/or the proposed work is highly desirable to HDX holders.
 
-## 3. Community Management {#community-mgmt}
+**Retroactive funding:** Some contributors pursue this approach by completing work first and then requesting compensation. While this can work, it also carries the risk that the community may not approve funding even after work is completed.
 
-Efforts spent on Community Management can be rewarded from the Hydration treasury in HDX at a rate of $20 per hour (using the 7d MA USD price from an exchange).
+**Proposal Success Factors:**
 
-New community managers are subject to prior approval by the team.
+- Clear demonstration of value to the protocol
+- Established reputation within the community
+- High-quality deliverables or proven track record
+- Strong alignment with community priorities
+- Reasonable funding requests relative to expected impact
 
-Here are some of the expectations attached to these roles:
+## Getting Started
 
-* Moderate on both Telegram and Discord;
-* Be an ambassador for the project;
-* Show activity on socials;
-* Participate in bi-weekly calls with other community managers;
-* Coordinate translations
-* Ideally already an active member of the Hydra community.
+Before beginning any contribution work, especially if you're hoping for compensation, it's recommended to engage with the community first. You can:
 
-## 4. Translations {#translations}
+- Discuss your ideas in the Hydration Discord or community forums
+- Gauge community interest and get feedback on your proposed contribution
+- Connect with other contributors and learn from their experiences
+- Understand current community priorities and needs
 
-Work on translations can be rewarded from the Hydration treasury in HDX at a rate of $20 per hour (using the 7d MA USD price from an exchange). Currently, Hydration welcomes translations in the following languages (this list can be extended via a referendum):
-
-* Mandarin
-* Spanish
-* Russian
-* Slovak
-
-New translators are subject to prior approval by the Community Managers and/or Hydration Council.
-
-## 5. Other Community Contributions {#other-contributions}
-
-Are you looking to contribute with an effort which does not fall into one of the categories above? Please feel free to reach out, the Hydration Council is prepared to consider your case. This spending framework authorizes the Hydration Council to provide tips up to the value of $100,000 (using the 7d MA USD price from an exchange).
-
-Here are some examples of contributions that could be rewarded:
-
-* Creating good educational content such as guides, explanative blogs or videos [content creator should liaise with Community Managers & Hydration Council ahead of and during production process to ensure information is of the highest quality];
-* Provisioning Decentralized infrastructure;
-* Advancing integrations which contribute to the Protocol or the community;
-* Memes (!!), emojis, merch and stickers.
+:::warning Funding Not Guaranteed
+Remember that all funding decisions ultimately rest with HDX holders through the governance process. While quality contributions are valued, there are no guarantees that any particular contribution will receive compensation.
+:::
