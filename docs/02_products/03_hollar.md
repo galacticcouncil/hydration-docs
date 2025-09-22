@@ -24,7 +24,7 @@ HOLLAR leverages Hydration's position as an app-specific DeFi blockchain built o
 
 **When you want to create new HOLLAR tokens, you deposit crypto assets as collateral.** The protocol evaluates your collateral's value and allows you to mint HOLLAR up to a certain percentage of that value - this is called the loan-to-value ratio. For example, if you deposit 1,000 USD worth of ETH and the LTV ratio is 75%, you can mint up to $750 worth of HOLLAR.
 
-Your minted HOLLAR represents a debt position that accrues interest over time, currently at 5.12% annually. This interest compensates the protocol for the risk of accepting your volatile crypto collateral in exchange for a stable asset. To reclaim your collateral, you must repay the HOLLAR you minted plus any accrued interest.
+Your minted HOLLAR represents a debt position that accrues interest over time, currently at 5% annually. This interest compensates the protocol for the risk of accepting your volatile crypto collateral in exchange for a stable asset. To reclaim your collateral, you must repay the HOLLAR you minted plus any accrued interest.
 
 ### Collateral and Risk Management
 
