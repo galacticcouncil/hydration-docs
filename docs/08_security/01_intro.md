@@ -11,7 +11,7 @@ Finally, the protocol has implemented a combination of state-of-the-art measures
 
 ## Audits {#audits}
 
-The Hydration protocol conducts audits of all mission-critical code and [publishes the audit reports](https://github.com/galacticcouncil/Hydration-audit-reports) on a regular basis. 
+The Hydration protocol conducts audits of all mission-critical code and [publishes the audit reports](https://github.com/galacticcouncil/hydration-security/tree/main/audit-reports) on a regular basis. 
 
 The security audit of the Rust implementation of the Hydration Omnipool was performed by [Runtime Verification](https://runtimeverification.com/) - an established industry leader with clients such as NASA, Ethereum and Polkadot. The scope of the security audit includes the source code of [Hydration Omnipool pallet](https://github.com/galacticcouncil/HydraDX-node/blob/master/pallets/omnipool/src/),its [mathematical logic](https://github.com/galacticcouncil/HydraDX-math/tree/main/src/omnipool) and [asset registry](https://github.com/galacticcouncil/warehouse/tree/main/asset-registry), as well as 3rd party libraries which have been included as a (Substrate) dependency. The results of the audit were published in September 2022, you can [consult the full report here](https://github.com/galacticcouncil/HydraDX-audit-reports/blob/main/220907-Runtime-Verification-Security-Audit.pdf).
 
