@@ -12,7 +12,6 @@ HOLLAR **builds on the proven architecture of Aave's GHO protocol**, inheriting 
 HOLLAR leverages Hydration's position as an app-specific DeFi blockchain built on Polkadot, enabling innovations that smart contract-based protocols cannot achieve due to their dependence on external blockchain runtimes.
 
 - **App-Specific Blockchain Advantages**: Unlike protocols constrained by smart contract limitations, HOLLAR benefits from Hydration's complete control over its runtime and execution environment. This enables deep protocol-level integrations and automated behaviors impossible for traditional smart contracts.
-- **Enhanced Yield Generation**: HOLLAR tokens earn additional yield from the interest paid by borrowers, creating value for HOLLAR holders beyond simple price stability.
 - **Advanced Stability Mechanisms**: The HOLLAR Stability Module provides stronger economic security for maintaining the $1 peg through sophisticated real-time market monitoring and response capabilities that analyze stableswap pools block-by-block.
 - **Automated Risk Management**: Protocol-executed partial liquidations occur automatically at the beginning of every block, bringing unhealthy positions back to safe levels without requiring full liquidation. This provides better security and user experience compared to traditional all-or-nothing liquidation systems.
 - **Integrated DeFi Ecosystem**: HOLLAR benefits from native interoperability with Hydration's existing DeFi protocols, enabling seamless integration without the friction typical of cross-protocol interactions.
