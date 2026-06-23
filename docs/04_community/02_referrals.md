@@ -17,7 +17,7 @@ Referred traders are also put in the advantage - they receive cashback from thei
 
 Referral rewards are accumulated in HDX and can be claimed at any time. The rewards are sustainable as they are financed from the Omnipool asset fees that incur upon every trade. Depending on the current volatility, asset fees can be anywhere in the range of 0.25% to 5.00% of the order size (learn more in our [fees docs](../products/trading/fees#asset-fee)).
 
-50% of the asset fees are channeled towards LPs. If the trade in question does not fall under a referral, the remaining 50% of the asset fee is redistributed to the HDX Stakers. In cases of referred trades, this amount will be split between Staking and Referrals. An exception to this are HDX asset fees, which are channeled in their entirety to the Staking pot (learn more in our [staking docs](../products/staking)).
+50% of the asset fees are channeled towards LPs. If the trade in question does not fall under a referral, the remaining 50% of the asset fee is redistributed to GIGAHDX stakers. In cases of referred trades, this amount will be split between GIGAHDX staking and Referrals. An exception to this are HDX asset fees, which are channeled in their entirety to the GIGAHDX staking pot (learn more in our [staking docs](../products/staking)).
 
 Besides the current rate of asset fees, there is one more factor which determines the exact amount of rewards received: the Referrer Tier. There are 5 tiers, everyone starts at Tier 0. Referrers level up as they hit certain absolute thresholds in terms of total volume of referral rewards. Here’s an overview:
 
