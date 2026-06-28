@@ -13,7 +13,7 @@ To have a vote in the Hydration DAO, and to contribute to the determination of a
 
 HDX serves multiple functions within the Hydration ecosystem:
 * **Governance participation:** Voting on protocol upgrades, parameter adjustments, and community proposals
-* **Value accrual:** Receiving protocol revenue through staking rewards and buyback distributions
+* **Value accrual:** Receiving protocol revenue through GIGAHDX staking rewards and buyback distributions
 * **Ecosystem alignment:** Incentivizing behaviors that benefit the protocol's long-term sustainability
 * **Treasury management:** Directing the allocation and deployment of Protocol-Owned Liquidity (POL)
 
@@ -30,7 +30,7 @@ On Hydration, there are two kinds of buybacks: automatic and governance-directed
 
 Hydration **automatically uses 50% of asset fees from every trade to buyback HDX tokens**. Thanks to owning its own block production, the Hydration protocol can execute these buybacks whenever there is space in the block, making them resistant to MEV and ensuring the best execution for HDX holders. This creates a constant, organic demand for HDX that scales with protocol usage. You can view how these buybacks are distributed [here](https://docs.hydration.net/community/referrals#how-do-referrals-work).
 
-Using Protocol Owned Liquidity (POL), **HDX holders can vote to buyback HDX and redistribute to holders, use as incentives for liquidity campaigns, or store in the treasury**. In 2025, over 197 million HDX acquired via buybacks using DAI (obtained from the LBP) throughout 2024 will be distributed to HDX stakers.
+Using Protocol Owned Liquidity (POL), **HDX holders can vote to buyback HDX and redistribute to holders, use as incentives for liquidity campaigns, or store in the treasury**. In 2025, over 197 million HDX acquired via buybacks using DAI (obtained from the LBP) throughout 2024 will be distributed to GIGAHDX stakers.
 Together, these buyback mechanisms create a virtuous cycle where:
 * Protocol revenue continuously reduces circulating supply through automatic buybacks
 * Additional governance-directed buybacks provide targeted value distribution
@@ -38,7 +38,7 @@ Together, these buyback mechanisms create a virtuous cycle where:
 * Long-term holders are rewarded for their commitment to the protocol
 
 ### Non-Inflationary Staking
-[HDX stakers](/products/staking) receive rewards that are not subject to any inflation. These rewards are powered by a combination of POL, HDX buybacks, and other profit-making strategies. Unlike many DeFi protocols that dilute token holders through constant inflation, **Hydration's reward mechanism ensures that stakers receive value from actual protocol revenue rather than from newly minted tokens**.
+[GIGAHDX stakers](/products/staking) receive rewards that are not subject to any inflation. These rewards are powered by a combination of POL, HDX buybacks, and other profit-making strategies. Unlike many DeFi protocols that dilute token holders through constant inflation, **Hydration's reward mechanism ensures that stakers receive value from actual protocol revenue rather than from newly minted tokens**.
 ## How The Protocol Makes Money (Revenue Streams to HDX Holders)
 Hydration has designed multiple revenue streams that ultimately benefit HDX holders:
 1. **LP Fees:** By providing liquidity using its POL and earning rewards on deployed assets

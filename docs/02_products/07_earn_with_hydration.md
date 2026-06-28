@@ -17,15 +17,15 @@ Your earnings from trading fees benefit from Hydration's enhanced fee distributi
 
 **For current supported assets and rates, visit the [liquidity page](https://app.hydration.net/liquidity/all-pools).**
 
-### HDX Staking
+### GIGAHDX Staking
 
-Stake HDX tokens to earn rewards from protocol operations including LP fees from Hydration's HDX position and treasury subsidies. Rewards accumulate over time but follow a bonding curve system - claiming early yields only a fraction of total rewards, with the remainder redistributed to other stakers.
+Stake HDX into GIGAHDX to earn rewards from protocol operations while keeping your staked position useful in the Hydration ecosystem. GIGAHDX represents your share of the HDX backing the staking pool, and passive yield is reflected through the GIGAHDX-to-HDX rate.
 
-The system includes gamification elements: active participants who vote in governance earn "action points" that accelerate the bonding curve, allowing faster access to rewards. Passive stakers need approximately 2 years to claim 95% of rewards, while active governance participants can achieve this in just over 2 months.
+GIGAHDX holders can also earn extra rewards by voting on eligible Hydration referenda. Eligible votes must be standard Aye or Nay votes with conviction; no-conviction, Split, and Abstain votes do not earn GIGAHDX voting rewards. Higher conviction can increase voting rewards, but it also locks the voted amount for longer. Claimed voting rewards are auto-compounded into the staked position.
 
-Rewards can be claimed at any time, but doing so resets your position on the bonding curve for future rewards. Note that increasing your stake sets you back on the action points curve proportional to the amount added.
+GIGAHDX can also be used as collateral to borrow HOLLAR. Borrowing adds liquidation risk, so users should monitor their health factor and repay debt when needed.
 
-**For step-by-step instructions, see our [staking guide](https://docs.hydration.net/community/stake_hdx). For current staking rates, visit the [staking page](https://docs.hydration.net/products/staking).**
+**For more info, visit the [staking page](https://docs.hydration.net/products/staking).**
 
 ### Lending
 
@@ -57,7 +57,7 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 
 Register a unique referral code to earn from the trading activity of users you onboard, while referred traders receive cashback on their trades. When someone trades using your referral code, they become permanently linked to your account, and you earn rewards from all their future Omnipool trades.
 
-Referral rewards come from the 50% of asset fees that would otherwise go entirely to HDX stakers, creating a sustainable earning mechanism tied to actual protocol usage. Your earning rate depends on your referrer tier, which increases based on the total volume of referral rewards you generate.
+Referral rewards come from the 50% of asset fees that would otherwise go entirely to GIGAHDX stakers, creating a sustainable earning mechanism tied to actual protocol usage. Your earning rate depends on your referrer tier, which increases based on the total volume of referral rewards you generate.
 
 Referral earnings depend on the trading activity of referred users and current asset fee rates, which can vary with market volatility.
 
