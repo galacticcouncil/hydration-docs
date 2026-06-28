@@ -21,7 +21,7 @@ Your earnings from trading fees benefit from Hydration's enhanced fee distributi
 
 Stake HDX into GIGAHDX to earn rewards from protocol operations while keeping your staked position useful in the Hydration ecosystem. GIGAHDX represents your share of the HDX backing the staking pool, and passive yield is reflected through the GIGAHDX-to-HDX rate.
 
-GIGAHDX holders can also earn extra rewards by voting on eligible Hydration referenda. Higher conviction can increase voting rewards, but it also locks the voted amount for longer. Claimed voting rewards are auto-compounded into the staked position.
+GIGAHDX holders can also earn extra rewards by voting on eligible Hydration referenda. Eligible votes must be standard Aye or Nay votes with conviction; no-conviction, Split, and Abstain votes do not earn GIGAHDX voting rewards. Higher conviction can increase voting rewards, but it also locks the voted amount for longer. Claimed voting rewards are auto-compounded into the staked position.
 
 GIGAHDX can also be used as collateral to borrow HOLLAR. Borrowing adds liquidation risk, so users should monitor their health factor and repay debt when needed.
 

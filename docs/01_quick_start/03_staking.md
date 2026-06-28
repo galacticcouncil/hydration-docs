@@ -49,7 +49,7 @@ GIGAHDX holders can earn extra rewards by voting in Hydration governance. These 
 
 Voting rewards are strongest when you vote with higher conviction. Higher conviction increases your voting power and potential reward share, but it also locks the voted amount for longer. The app shows projected voting APR as an estimate, not a guarantee.
 
-Only standard Aye and Nay votes are eligible for GIGAHDX voting rewards. Split and Abstain votes still count for governance, but they do not earn GIGAHDX voting rewards.
+Only standard Aye and Nay votes with conviction are eligible for GIGAHDX voting rewards. Split, Abstain, and no-conviction votes still count for governance, but they do not earn GIGAHDX voting rewards.
 
 When voting rewards are claimed, they are auto-compounded into your GIGAHDX position. This means the reward increases your staked position instead of arriving as free HDX in your wallet.
 
@@ -102,6 +102,6 @@ Legacy staking is available at https://app.hydration.net/staking-old for existin
 - GIGAHDX is tied to HDX. If HDX falls in value, the USD value of your position can fall.
 - Borrowing HOLLAR against GIGAHDX creates liquidation risk.
 - Higher conviction votes can earn more voting rewards, but they lock the voted amount for longer.
-- Split and Abstain votes do not earn GIGAHDX voting rewards.
+- Split, Abstain, and no-conviction votes do not earn GIGAHDX voting rewards.
 - Unstaked HDX is locked for at least 28 days before it becomes transferable.
 - Pool limits can restrict lending or borrowing when capacity is full.
