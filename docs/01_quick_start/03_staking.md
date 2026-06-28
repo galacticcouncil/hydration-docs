@@ -29,7 +29,7 @@ GIGAHDX is designed for users who want their HDX to stay productive without mana
 
 When you stake HDX, your HDX enters the GIGAHDX pool and you receive GIGAHDX in return. The exchange rate between GIGAHDX and HDX changes over time.
 
-For example, if the pool grows through rewards, your GIGAHDX position can represent more HDX than you originally staked. This growth is reflected in your position value. You do not need to claim passive yield separately.
+For example, if the pool grows through rewards, your GIGAHDX position can represent more HDX than you originally staked. This growth is reflected in your position value, and unclaimed passive yield is not forfeited.
 
 The app shows your position primarily in HDX terms, with the GIGAHDX amount shown as the position token amount.
 
@@ -41,7 +41,7 @@ GIGAHDX has two main yield sources.
 
 Passive yield is applied automatically to all GIGAHDX holders. It comes from HDX that enters the GIGAHDX pool and increases the value backing each GIGAHDX.
 
-You do not need to claim passive yield. It is reflected in the GIGAHDX-to-HDX rate and therefore in the HDX value of your position.
+Passive yield can be claimed on-chain, but the app usually handles this in the background. It is not shown as a separate reward you need to manually claim to avoid losing it. When claiming is needed, the app can batch it into other actions, such as preparing a vote so the yield can be included in voting power, or unstaking so the full position is converted back into HDX.
 
 ### Voting Rewards
 
@@ -59,7 +59,7 @@ The rewards panel shows voting rewards that are ready to claim. Claiming rewards
 
 Some earned voting rewards may be locked until the relevant conviction period ends. The app may show these as locked rewards so you can see what has been earned but is not claimable yet.
 
-Passive yield is not shown as a claimable reward because it is already included in your position value.
+Passive yield is not shown in the rewards panel as a separate claimable reward. It remains reflected in your position value, and the app claims or batches it when required by actions such as voting or unstaking.
 
 ## Borrowing HOLLAR Against GIGAHDX
 
@@ -105,4 +105,3 @@ Legacy staking is available at https://app.hydration.net/staking-old for existin
 - Split and Abstain votes do not earn GIGAHDX voting rewards.
 - Unstaked HDX is locked for at least 28 days before it becomes transferable.
 - Pool limits can restrict lending or borrowing when capacity is full.
-
