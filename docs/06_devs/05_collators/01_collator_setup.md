@@ -32,10 +32,10 @@ su - hydra
 
 ## Download and configure the `hydradx` binary
 
-Pick a 12.x release, we are using `v12.1.0` from our assets repository:
+Pick the [latest release](https://github.com/galacticcouncil/hydration-node/releases/latest) from our assets repository (`v49.0.2` at time of writing — substitute the current tag):
 
 ```bash
-wget https://github.com/galacticcouncil/HydraDX-node/releases/download/v12.1.0/hydradx
+wget https://github.com/galacticcouncil/hydration-node/releases/download/v49.0.2/hydradx
 sudo mv hydradx /usr/local/bin
 sudo chmod +x /usr/local/bin/hydradx
 sudo chown hydra:hydra /usr/local/bin/hydradx
@@ -64,7 +64,6 @@ ExecStart=/usr/local/bin/hydradx \
     --base-path /var/lib/hydradx \
     --collator \
     -- \
-    --execution wasm \
     --telemetry-url "wss://telemetry.hydradx.io:9000/submit/ 0" \
     --base-path /var/lib/hydradx
     
@@ -111,7 +110,7 @@ journalctl -fu hydradx-collator
 In order to generate keys for your node, run the following command:
 
 ```bash
-curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9944
 ```
 
 Once done, you will have an output similar to:

@@ -132,16 +132,16 @@ Open a new issue in [Intergalactic asset metadata repository](https://github.com
 To add your tokens to our [Cross-chain](https://app.hydration.net/cross-chain) page, it is necessary to open a pull request to the [sdk repository](https://github.com/galacticcouncil/sdk).
 
 1. **Fork the sdk repository**.
-2. **Extend xcm-cfg package**.
-    1. If necessary, add a [new chain](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/chains/)
-    2. Add new [assets](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/assets.ts)
-    3. Add new AssetRoute to both chain config files, [Hydration](https://github.com/galacticcouncil/sdk/blob/master/packages/xcm-cfg/src/configs/polkadot/hydration/index.ts) and [your chain's](https://github.com/galacticcouncil/sdk/tree/master/packages/xcm-cfg/src/configs/polkadot)
+2. **Extend xc-cfg package**.
+    1. If necessary, add a [new chain](https://github.com/galacticcouncil/sdk/blob/master/packages/xc-cfg/src/chains/)
+    2. Add new [assets](https://github.com/galacticcouncil/sdk/blob/master/packages/xc-cfg/src/assets.ts)
+    3. Add new AssetRoute to both chain config files, [Hydration](https://github.com/galacticcouncil/sdk/blob/master/packages/xc-cfg/src/configs/polkadot/hydration/index.ts) and [your chain's](https://github.com/galacticcouncil/sdk/tree/master/packages/xc-cfg/src/configs/polkadot)
 3. (Optional / Recommended) **Test your changes locally in developer console**.
     1. Build the project by following [README.md](https://github.com/galacticcouncil/sdk/blob/master/README.md)
-    2. Change current directory to `/examples/xcm-transfer/`
-    3. Adjust chains, asset, adresses and balance definitions in the [index file](https://github.com/galacticcouncil/sdk/blob/master/examples/xcm-transfer/src/index.ts)
+    2. Change current directory to `/examples/xc-transfer/`
+    3. Adjust chains, asset, adresses and balance definitions in the [index file](https://github.com/galacticcouncil/sdk/blob/master/examples/xc-transfer/src/index.ts)
     4. Test your changes by running `npm run dev` and check the developer console output in your browser, typically at `localhost:3000`
-    5. Add a minor bump for `@galacticcouncil/xcm-cfg` package by running `npm run changeset`
+    5. Add a minor bump for `@galacticcouncil/xc-cfg` package by running `npm run changeset`
 3. **Open a PR from your fork to the main repository** and wait until the workflow is approved. UI preview with your changes will be deployed and appear in the PR description.
 4. **Try sending each of the registered tokens back and forth** from one chain to the other, and verify the deposits were successful and balances configuration is correct.
 5. **Add a comment that configuration is ready to be merged.**
