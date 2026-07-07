@@ -24,30 +24,30 @@ Build the Wasm and native execution environments:
 
 ```bash
 # Fetch source of the latest stable release
-$ git clone https://github.com/galacticcouncil/HydraDX-node -b stable
+$ git clone https://github.com/galacticcouncil/hydration-node -b stable
 
 # Build the binary
-$ cd HydraDX-node/
+$ cd hydration-node/
 $ cargo build --release
 ```
 
-You should be able to find the build under `./target/release/hydra-dx`.
+You should be able to find the build under `./target/release/hydradx`.
 
 ## 03 Run {#03-run}
 
 Before running your build you can purge any existing development chains on your machine (you will need to do this often in the development process):
 
 ```bash
-$ ./target/release/hydra-dx purge-chain --dev
+$ ./target/release/hydradx purge-chain --dev
 ```
 
 Run your build using one of the following commands:
 
 ```bash
-$ ./target/release/hydra-dx --dev
+$ ./target/release/hydradx --dev
 
 # Run with detailed logging
-$ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydra-dx -lruntime=debug --dev
+$ RUST_LOG=debug RUST_BACKTRACE=1 ./target/release/hydradx -lruntime=debug --dev
 ```
 
 ## 04 Connect to your local chain instance {#04-connect-to-your-local-chain-instance}
