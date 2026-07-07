@@ -22,5 +22,5 @@ The extrinsic would be in this example constructed as a _polkadotXcm.send_ call 
 </div>
 
 ## Learn more
-To know more about remote swaps, you can head over to our github repository where you can find [integration tests](https://github.com/galacticcouncil/HydraDX-node/blob/769c33d63d24356791c2f0e276350ebdc2914005/integration-tests/src/exchange_asset.rs#L341) covering more advanced scenarios.
+To know more about remote swaps, you can head over to our github repository where you can find [integration tests](https://github.com/galacticcouncil/hydration-node/blob/769c33d63d24356791c2f0e276350ebdc2914005/integration-tests/src/exchange_asset.rs#L341) covering more advanced scenarios.
 

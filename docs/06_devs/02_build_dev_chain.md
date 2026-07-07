@@ -11,7 +11,7 @@ This section runs you through the process of setting up a local Hydration chain 
 
 To prepare a local Hydration chain instance for development, your machine needs to cover all dependencies for running a Substrate chain. You will need to install a Rust developer environment and make sure that it is configured properly for compiling Substrate runtime code to the WebAssembly (Wasm) target.
 
-You can install and configure all dependencies manually following the [Substrate guide](https://substrate.dev/docs/en/knowledgebase/getting-started), or you could let this script do all the work for you:
+You can install and configure all dependencies manually following the [Polkadot SDK documentation](https://docs.polkadot.com/), or you could let this script do all the work for you:
 
 ```bash
 $ curl https://getsubstrate.io -sSf | bash -s -- --fast
@@ -23,8 +23,8 @@ $ source ~/.cargo/env
 Build the Wasm and native execution environments:
 
 ```bash
-# Fetch source of the latest stable release
-$ git clone https://github.com/galacticcouncil/hydration-node -b stable
+# Fetch source of the current mainnet branch
+$ git clone https://github.com/galacticcouncil/hydration-node -b master
 
 # Build the binary
 $ cd hydration-node/
