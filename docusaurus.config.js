@@ -1,5 +1,5 @@
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require('remark-math').default;
+const katex = require('rehype-katex').default;
 
 module.exports = {
   title: "Hydration Docs",
