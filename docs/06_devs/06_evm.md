@@ -9,6 +9,17 @@ Hydration's EVM compatibility is provided by `pallet_evm` + `pallet_ethereum` �
 - EVM transactions and Substrate extrinsics settle in the same block, on the same state.
 - The EVM sits alongside Hydration's native pallets (Omnipool, money market, HOLLAR, etc.), and several of those pallets are exposed to EVM contracts via precompiles.
 
+## Account mapping (Substrate ↔ EVM) {#account-mapping}
+
+Hydration accounts live in two address spaces — 32-byte Substrate `AccountId`s and 20-byte EVM addresses — and the mapping between them (`pallet_evm_accounts`) is asymmetric.
+
+**Substrate → EVM (always available, no action needed):** every Substrate `AccountId` already has an implicit EVM address — simply its **first 20 bytes**. This is how a Substrate-signed extrinsic's identity shows up inside the EVM (e.g. as the caller for calls routed through the [Dispatch precompile](#precompiles)).
+
+**EVM → Substrate** has two cases:
+
+- **Unbound (default).** For a raw EVM address with no explicit link, Hydration derives a synthetic "truncated" `AccountId`: `"ETH\0"` (4 bytes) + the 20-byte EVM address + 8 zero bytes = 32 bytes. This is what holds balance and pays fees for a plain `eth_sendRawTransaction` from a fresh EOA — a one-way derivation, not tied to any real sr25519/ed25519 keypair.
+- **Bound, via `evmAccounts.bind_evm_address()`.** A user with an existing Substrate account can submit this extrinsic (no arguments — both sides are derived from the caller) to link the two. It stores the **last 12 bytes** of their real `AccountId` in on-chain storage, keyed by their EVM address (which, per the rule above, is just the first 20 bytes of that same `AccountId`). After binding, the runtime reconstructs their real account as `evm_address (20 bytes) + stored last 12 bytes` — so an existing Substrate account's HDX/asset balances become directly usable from the EVM side, instead of a separate synthetic shadow account. Binding is optional; most raw EOA-signed EVM transactions never bind anything and just use the synthetic form.
+
 ## Networks & RPC {#networks-rpc}
 
 **Mainnet** — EVM chain ID `222222` (`0x3640e`). All endpoints below serve both Substrate WSS and Ethereum JSON-RPC (`eth_*`) on the same host — there is no separate EVM-only endpoint:
