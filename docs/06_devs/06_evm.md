@@ -39,6 +39,8 @@ Hydration accounts live in two address spaces — 32-byte Substrate `AccountId`s
 
 For `eth_*` JSON-RPC, use the same hostnames over `https://` (e.g. `https://hydration-rpc.n.dwellir.com`).
 
+> Live latency benchmarks for these endpoints (p50/p90/p99, 3 regions, updated every 60 s): [OpenChainBench Hydration RPC](https://openchainbench.com/benchmarks/hydration-rpc)
+
 **Test networks** — Hydration doesn't run a separate long-lived public testnet with independent state; instead, mainnet-forked "lark" nodes serve as the disposable test environment, regularly reset to current mainnet state:
 
 - `https://0.lark.hydration.cloud`
