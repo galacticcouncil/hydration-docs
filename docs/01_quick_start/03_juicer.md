@@ -12,7 +12,9 @@ Your deposited collateral stays separate from the PRIME loop's liquidation path,
 
 Connect your wallet to the [Hydration app](https://app.hydration.net) and make sure the asset you want to deposit is available on Hydration. You will also need enough funds to cover transaction fees.
 
-Review the vault's current yield estimate, protocol fee, available capacity, and withdrawal delay. Yield varies with market conditions. The protocol fee is 69% of eligible strategy yield, charged before the vault's HOLLAR borrowing interest is serviced. Governance can change the fee.
+Review the vault's current yield estimate, fee terms, available capacity, and withdrawal delay. Juicer pairs a 40% interest discount on vault HOLLAR borrowing and a 90% discount on PRIME-loop borrowing with a 69% protocol share of eligible harvested yield. The loop discount is subject to a discounted-debt cap. The discounts reduce borrowing costs, while the harvest share compensates the protocol. Deposited principal is excluded from the fee.
+
+After the harvest share, the remaining proceeds service the vault's discounted borrowing interest and compound into your position. Rates and governance settings can change; see [fees and borrowing costs](/products/juicer#fees-and-borrowing-costs) for details.
 
 Read the [Juicer 🧃 product overview](/products/juicer) for how the strategy and principal protection work.
 

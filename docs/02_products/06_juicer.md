@@ -47,15 +47,19 @@ You do not need to open or manage a separate personal HOLLAR loan for Juicer. Bo
 
 ## Fees and borrowing costs
 
-The protocol fee applies to eligible strategy yield, rather than your deposited principal or the total value of your position. It is charged on realized harvest proceeds after swaps and before the vault's HOLLAR interest is serviced. It is therefore not a fee on your final net profit.
+Juicer pairs **discounted HOLLAR borrowing with a share of harvested yield**. Vault borrowing receives a 40% interest discount, and the PRIME loop receives a separate 90% discount, subject to its discounted-debt cap. Lower borrowing costs leave more strategy yield available to harvest; the protocol receives 69% of eligible harvest yield in return.
+
+This pricing shifts protocol revenue from HOLLAR borrowing interest into harvested ETH or tBTC. The discounts and harvest fee are designed together to support competitive user returns. Actual returns depend on market rates, execution costs, and the effective discounts.
 
 | Setting | Details |
 | --- | --- |
-| Protocol fee | 69% of eligible strategy yield. Governance can set a separate rate for each vault from 0% to 100%. |
-| HOLLAR borrowing discounts | A 40% discount for vault borrowing and a separate 90% discount for loop borrowing. Discounts can change, and the loop discount is subject to a debt cap. |
+| Discounted HOLLAR borrowing | 40% interest discount for vault borrowing and 90% for loop borrowing, subject to the loop's discounted-debt cap. |
+| Protocol harvest share | 69% of eligible strategy yield, paired with the borrowing discounts above. Deposited principal and collateral price gains are excluded. |
 | Withdrawal delay | 7 days before an unwind can start. Governance can change the delay for future requests. |
 
-For example, at a 69% fee, a harvest of 0.01 ETH allocates 0.0069 ETH to the protocol and leaves 0.0031 ETH to service vault borrowing interest and compound any remainder. The loop's borrowing costs and swap costs have already reduced the yield available for that harvest.
+The harvest share is charged on actual collateral received after swaps. The remainder services the vault's discounted HOLLAR interest, then compounds into holders' positions. Loop borrowing costs are already reflected in the yield available for harvest, so the harvest share is calculated before vault interest rather than on final net profit.
+
+Governance can adjust each vault's harvest fee from 0% to 100%, and authorized governance roles can change borrowing discounts. Review both when assessing the strategy's current terms.
 
 Yield ownership and the protocol's share are allocated at accounting checkpoints. A later fee change does not reassign yield already allocated, although changes can affect reserves for unpaid borrowing interest and therefore estimates of unconverted earnings. Check the selected vault's current rate before depositing.
 
