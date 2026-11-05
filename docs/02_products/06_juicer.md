@@ -49,7 +49,9 @@ You do not need to open or manage a separate personal HOLLAR loan for Juicer. Bo
 
 Juicer pairs **discounted HOLLAR borrowing with a share of harvested yield**. Vault borrowing receives a 40% interest discount, and the PRIME loop receives a separate 90% discount, subject to its discounted-debt cap. Lower borrowing costs leave more strategy yield available to harvest; the protocol receives 69% of eligible harvest yield in return.
 
-This pricing shifts protocol revenue from HOLLAR borrowing interest into harvested ETH or tBTC. The discounts and harvest fee are designed together to support competitive user returns. Actual returns depend on market rates, execution costs, and the effective discounts.
+At the full HOLLAR borrowing rate, much of the PRIME loop's yield would normally go toward interest paid to the protocol. A zero-harvest-fee model with undiscounted borrowing could therefore produce broadly similar protocol revenue, collected mainly in HOLLAR. Juicer instead discounts borrowing and collects a share of the larger harvest in ETH or tBTC. The fee and discounts should be considered together; the outcome depends on market rates, execution costs, and the effective discounts.
+
+The protocol also takes responsibility for recovering shortfalls under Juicer's principal-preservation policy. Collecting revenue in collateral supports building reserves for that responsibility. Treasury allocations and recovery funding remain governance decisions; harvest fees are not automatically swept into a recovery reserve.
 
 | Setting | Details |
 | --- | --- |
