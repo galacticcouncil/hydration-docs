@@ -5,13 +5,9 @@ description: Learn how Juicer earns yield in your deposited asset, including fee
 
 Juicer is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared leveraged PRIME strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
 
-:::info Launch status
-Juicer is a launch candidate and is not deployed to production. Public deposits remain blocked pending independent review, approved risk and liquidity limits, and operational readiness. The settings below describe the candidate and its launch proposal; they are not confirmed live parameters.
-:::
-
 ## How Juicer works
 
-Each collateral asset has its own vault. The candidate describes vaults for ETH and tBTC. A deposit receives vault shares representing a funded position in that vault. Depositing supplies collateral to the lending market; it does not immediately borrow HOLLAR or execute a swap. Keepers deploy available capacity gradually, subject to borrowing and execution limits.
+Each collateral asset has its own vault, with vaults for ETH and tBTC. A deposit receives vault shares representing a funded position in that vault. Depositing supplies collateral to the lending market; it does not immediately borrow HOLLAR or execute a swap. Keepers deploy available capacity gradually, subject to borrowing and execution limits.
 
 The shared strategy uses borrowed HOLLAR to build leveraged PRIME exposure. When eligible PRIME yield is harvested, it is converted into each vault's collateral asset. The proceeds pay the protocol fee, then service the vault's HOLLAR borrowing interest. Any remainder is compounded for holders. Some earned PRIME is retained to cover future execution costs.
 
@@ -21,7 +17,7 @@ Yield varies with PRIME returns, HOLLAR borrowing rates, leverage, fees, and exe
 
 ## Depositing
 
-Once public access is activated, use the supported vault for the asset you want to deposit. Review its current fee, withdrawal delay, capacity, and restrictions before approving and submitting a deposit. Each vault accepts its configured collateral asset.
+Use the supported vault for the asset you want to deposit. Review its current fee, withdrawal delay, capacity, and restrictions before approving and submitting a deposit. Each vault accepts its configured collateral asset.
 
 Deposits can be rejected when the vault has reached its cap, deposits are paused, strategy backing is below the permitted admission threshold, or a required debt adjustment or source allocation is pending. Insufficient rounding-reserve funding can also prevent a deposit. A rejected transaction does not create a position.
 
@@ -31,15 +27,15 @@ You do not need to open or manage a separate personal HOLLAR loan for Juicer. Bo
 
 The protocol fee applies to eligible strategy yield, rather than your deposited principal or the total value of your position. It is charged on realized harvest proceeds after swaps and before the vault's HOLLAR interest is serviced. It is therefore not a fee on your final net profit.
 
-| Setting | Candidate behavior |
+| Setting | Details |
 | --- | --- |
-| Protocol fee | Each vault starts at 5% when registered. The launch proposal sets 69%. Governance can set a separate rate for each vault from 0% to 100%. |
-| HOLLAR borrowing discounts | The launch proposal sets a 40% discount for vault borrowing and a separate 90% discount for loop borrowing. Discounts can change, and the loop discount is subject to a debt cap. |
-| Withdrawal delay | Contracts initialize with 12 hours; the launch proposal sets 7 days. Governance can change the delay for future requests. |
+| Protocol fee | 69% of eligible strategy yield. Governance can set a separate rate for each vault from 0% to 100%. |
+| HOLLAR borrowing discounts | A 40% discount for vault borrowing and a separate 90% discount for loop borrowing. Discounts can change, and the loop discount is subject to a debt cap. |
+| Withdrawal delay | 7 days before an unwind can start. Governance can change the delay for future requests. |
 
 For example, at a 69% fee, a harvest of 0.01 ETH allocates 0.0069 ETH to the protocol and leaves 0.0031 ETH to service vault borrowing interest and compound any remainder. The loop's borrowing costs and swap costs have already reduced the yield available for that harvest.
 
-Yield ownership and the protocol's share are allocated at accounting checkpoints. A later fee change does not reassign yield already allocated, although changes can affect reserves for unpaid borrowing interest and therefore estimates of unconverted earnings. Check the selected vault's current rate rather than assuming the registration or proposed launch rate applies.
+Yield ownership and the protocol's share are allocated at accounting checkpoints. A later fee change does not reassign yield already allocated, although changes can affect reserves for unpaid borrowing interest and therefore estimates of unconverted earnings. Check the selected vault's current rate before depositing.
 
 Fees are normally collected in the deposited asset. Fees on source yield realized during exits are collected in HOLLAR. These protocol fees are separate from wallet transaction fees.
 

@@ -55,11 +55,11 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 
 ### Juicer
 
-Juicer is an upcoming automated strategy that supplies collateral to Hydration's lending market, borrows HOLLAR, and deploys it into a shared leveraged PRIME strategy. Eligible earnings are converted back into the deposited asset and compounded after fees and borrowing interest.
+Juicer is an automated strategy that supplies collateral to Hydration's lending market, borrows HOLLAR, and deploys it into a shared leveraged PRIME strategy. Eligible earnings are converted back into the deposited asset and compounded after fees and borrowing interest.
 
-Juicer is a launch candidate and is not deployed to production. Its principal-preservation policy depends on strategy operation and recovery funding; withdrawals use a queue and may be delayed.
+Its principal-preservation policy depends on strategy operation and recovery funding; withdrawals use a queue and may be delayed.
 
-**See [Juicer](/products/juicer) for how it works, proposed fees, withdrawal rules, and risks.**
+**See [Juicer](/products/juicer) for how it works, fees, withdrawal rules, and risks.**
 
 ### Referrals
 
