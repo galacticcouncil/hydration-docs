@@ -1,27 +1,47 @@
 ---
 title: Juicer 🧃
-description: Learn how Juicer earns yield in your deposited asset, including fees, withdrawals, and risks
+description: Put your ETH and BTC borrowing power to work with automated looping, principal protection, and compounding
 ---
 
-Juicer 🧃 is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared PRIME looping strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
+**Squeeze more from the assets you want to hold.** Juicer 🧃 puts the borrowing power of your ETH and BTC to work, earning yield that is converted back into the asset you deposited. You keep your exposure to ETH or BTC while Juicer handles the borrowing, swaps, looping, harvesting, and rebalancing.
+
+Its key design choice: **your deposited asset stays separate from the PRIME loop's liquidation path.** Synthetic backing protects the collateral position, while a shared PRIME looping strategy generates yield using borrowed HOLLAR. ETH and tBTC each have their own vault.
 
 For a walkthrough of deposits and withdrawals, see [Juicer 🧃 Quick Start](/quick_start/juicer).
 
+## Why use Juicer
+
+- **Keep holding ETH or BTC.** Earn in the asset you deposited, with funded earnings compounded automatically.
+- **Put borrowing power to work.** Access a PRIME looping strategy with discounted HOLLAR borrowing, without managing a personal loan.
+- **Let the strategy do the work.** Permissionless keepers handle deployment, harvesting, rebalancing, and withdrawal settlement.
+- **Built-in principal protection.** Synthetic backing separates the deposited collateral from the loop, with automatic debt reduction as conditions change.
+
 ## How Juicer works
 
-Each collateral asset has its own vault, with vaults for ETH and tBTC. A deposit receives vault shares representing a funded position in that vault. Depositing supplies collateral to the lending market; it does not immediately borrow HOLLAR or execute a swap. Keepers deploy available capacity gradually, subject to borrowing and execution limits.
+Your deposit is supplied to Hydration's [lending market](/products/borrowing/overview) in a collateral position called Main. You receive vault shares representing your funded position. The deposit does not immediately borrow HOLLAR or execute a swap. Keepers deploy available capacity gradually, subject to borrowing and execution limits.
 
-The PRIME looping strategy repeatedly supplies PRIME and borrows HOLLAR to acquire more PRIME, increasing both yield potential and risk. When eligible PRIME yield is harvested, it is converted into each vault's collateral asset. The proceeds pay the protocol fee, then service the vault's HOLLAR borrowing interest. Any remainder is compounded for holders. Some earned PRIME is retained to cover future execution costs.
+Main borrows HOLLAR at a discounted rate and deploys it into the shared PRIME strategy. The strategy swaps HOLLAR for PRIME, supplies PRIME to the money market, and borrows additional HOLLAR to repeat the process up to its target health factor. When eligible PRIME yield is harvested, it is converted into each vault's collateral asset. The proceeds pay the protocol fee, then service the vault's HOLLAR borrowing interest. Any remainder is compounded for holders. Some earned PRIME is retained to cover future execution costs.
 
-Funded earnings are included in your vault balance and continue compounding automatically. You do not need to claim them separately. Estimated earnings that have not yet been converted and funded are separate from that balance and remain exposed to strategy losses and execution costs.
+Funded earnings are included in your vault balance and continue compounding automatically. You do not need to claim them separately. Estimated earnings that have not yet been converted and funded are shown separately.
 
-Yield varies with PRIME returns, HOLLAR borrowing rates, the extent of looping, fees, and execution costs. There is no fixed or minimum APY, and net yield can be negative.
+Yield reflects PRIME returns after borrowing costs, protocol fees, and execution costs. Rates vary with market conditions.
+
+## Automatic deleveraging and unwinding
+
+Juicer manages borrowing at two levels:
+
+- **Protecting the PRIME loop.** If its health factor reaches the configured safety threshold, keepers trigger automatic deleveraging: the strategy reduces PRIME exposure and repays HOLLAR debt to move back toward its target health factor.
+- **Adjusting to collateral prices.** If the vault's borrowing ratio moves above its configured band as collateral value falls, rebalancing unwinds part of the PRIME strategy and uses the resulting HOLLAR to repay Main debt. Ordinary rebalancing does not sell your deposited ETH or tBTC.
+
+The same unwind machinery handles withdrawal requests, freeing the HOLLAR needed to repay an exit's debt and release collateral. Where enabled and within borrowing limits, some exits can settle without selling the loop.
+
+You do not need to monitor and manually unwind the loop yourself. Keepers execute these actions under on-chain thresholds and price limits; completion still depends on available liquidity and functioning execution.
 
 ## Depositing
 
 Use the supported vault for the asset you want to deposit. Review its current fee, withdrawal delay, capacity, and restrictions before approving and submitting a deposit. Each vault accepts its configured collateral asset.
 
-Deposits can be rejected when the vault has reached its cap, deposits are paused, strategy backing is below the permitted admission threshold, or a required debt adjustment or source allocation is pending. Insufficient rounding-reserve funding can also prevent a deposit. A rejected transaction does not create a position.
+Deposit availability depends on vault capacity and strategy readiness. The vault may temporarily stop deposits while it rebalances, restores backing, or is paused.
 
 You do not need to open or manage a separate personal HOLLAR loan for Juicer. Borrowing and repayment take place within the strategy contracts.
 
@@ -50,23 +70,16 @@ Juicer withdrawals use a queue. They require a request, a waiting period, settle
 3. **Allow the strategy to settle.** Eligible requests start in first-in, first-out order. At the unwind start, the contracts calculate the collateral entitlement and allocate the exit's debt. That exit bears its subsequent borrowing interest. Settlement repays the allocated debt and releases collateral; it may require multiple transactions and partial payments.
 4. **Receive settled collateral.** Keepers or any other caller can deliver available collateral to the request owner. The owner can also claim it directly and may choose another receiving address. Other callers cannot redirect the payment.
 
-The withdrawal delay is the earliest time an unwind can start, **not a payout deadline**. Earlier requests, market liquidity, execution limits, pending debt adjustments, pauses, and funding shortfalls can extend the wait. Where enabled and within borrowing limits, some exits can settle without selling the shared PRIME position.
+The withdrawal delay is the earliest time an unwind can start. Final payment timing depends on queue progress, liquidity, and strategy settlement.
 
 Unpaid claims remain outstanding when funding is insufficient. Later source recoveries belonging to a completed exit remain payable in HOLLAR to its original owner, separately from the deposited-asset payout.
 
 ## Principal preservation and risks
 
-Juicer's policy is to preserve your original principal **in the deposited token**. For example, the protected principal of a 1 ETH deposit is denominated in ETH; its dollar value can still fall.
+Juicer is designed to keep your deposited ETH or tBTC outside the PRIME loop's liquidation path. Alongside your collateral, Main holds synthetic backing that covers the liquidation-threshold value of its HOLLAR debt. This backing protects Main's health factor without creating additional borrowing power. Ordinary interest servicing and rebalancing use strategy proceeds rather than selling your deposited asset.
 
-Ordinary interest servicing and strategy-loss recovery do not sell deposited collateral. The vault uses synthetic collateral to support its lending-market health factor. That protection depends on valid configuration, functioning oracles, permissions, and timely maintenance. Synthetic collateral cannot repay HOLLAR debt or fund a withdrawal.
+The principal-preservation policy is denominated in the deposited token: a 1 ETH deposit is protected in ETH terms, while its dollar value still moves with ETH. Earned strategy value absorbs losses before original principal backing; any remaining shortfall is a governance recovery obligation, with unpaid claims preserved.
 
-The principal-preservation policy is not an unconditional guarantee. The PRIME strategy can lose value or be liquidated, leaving insufficient HOLLAR to release collateral. Governance must supply recovery capital when needed, and there is no fixed recovery deadline or guarantee that funding will be available. A recorded claim does not ensure immediate payment.
+These protections rely on correct configuration, reliable oracles, and timely keeper maintenance. They are not an unconditional guarantee: the PRIME loop retains its own liquidation risk, and synthetic backing cannot fund a HOLLAR repayment. A shortfall can delay withdrawals while governance supplies recovery funding, with no fixed recovery deadline.
 
-Consider these risks before depositing:
-
-- **Strategy borrowing risk:** PRIME losses, changing borrowing rates, or execution costs can reduce earnings and create repayment shortfalls.
-- **Liquidity and withdrawal delays:** market conditions, keeper outages, transaction limits, or emergency pauses can delay both settlement and claims.
-- **Contract and oracle dependencies:** Juicer relies on its contracts, Hydration's lending market, PRIME, HOLLAR, price feeds, and swap execution.
-- **Governance and recovery:** authorized roles can change parameters, upgrade vault contracts, and pause operations. Emergency recovery may require external funding and a reviewed upgrade. Automatic recovery payouts covering all affected holders are not implemented.
-
-During an emergency, recovery policy must account for all affected holders, including those who have not requested withdrawal. The ordinary withdrawal queue alone does not provide that allocation.
+As with other DeFi strategies, smart contracts, market liquidity, and governance decisions affect operation. Authorized roles can adjust parameters, pause activity, and upgrade vault contracts. See the withdrawal process above when planning how long to keep funds in Juicer.

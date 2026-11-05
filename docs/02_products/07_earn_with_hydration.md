@@ -55,9 +55,9 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 
 ### Juicer 🧃
 
-Juicer is an automated strategy that supplies collateral to Hydration's lending market, borrows HOLLAR, and deploys it into a shared PRIME looping strategy. Eligible earnings are converted back into the deposited asset and compounded after fees and borrowing interest.
+Juicer 🧃 puts the borrowing power of your ETH or tBTC to work through a shared PRIME looping strategy. Earn in the asset you want to hold, with eligible earnings converted back into your deposited asset and compounded automatically.
 
-Its principal-preservation policy depends on strategy operation and recovery funding; withdrawals use a queue and may be delayed.
+Deposited collateral stays separate from the PRIME loop's liquidation path through synthetic backing. Keepers handle borrowing, harvesting, rebalancing, and automatic deleveraging. Withdrawals use a seven-day delay followed by strategy settlement.
 
 **See [Juicer 🧃](/products/juicer) for how it works, fees, withdrawal rules, and risks.**
 
