@@ -53,6 +53,14 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 - [GIGAETH strategy page](https://app.hydration.net/strategies/gigaeth)
 - Documentation: [GIGADOT](https://docs.hydration.net/products/strategies/gigadot) | [GIGAETH](https://docs.hydration.net/products/strategies/gigaeth)
 
+### Juicer
+
+Juicer is an upcoming automated strategy that supplies collateral to Hydration's lending market, borrows HOLLAR, and deploys it into a shared leveraged PRIME strategy. Eligible earnings are converted back into the deposited asset and compounded after fees and borrowing interest.
+
+Juicer is a launch candidate and is not deployed to production. Its principal-preservation policy depends on strategy operation and recovery funding; withdrawals use a queue and may be delayed.
+
+**See [Juicer](/products/juicer) for how it works, proposed fees, withdrawal rules, and risks.**
+
 ### Referrals
 
 Register a unique referral code to earn from the trading activity of users you onboard, while referred traders receive cashback on their trades. When someone trades using your referral code, they become permanently linked to your account, and you earn rewards from all their future Omnipool trades.
