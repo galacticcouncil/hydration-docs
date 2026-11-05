@@ -3,17 +3,17 @@ title: Juicer
 description: Learn how Juicer earns yield in your deposited asset, including fees, withdrawals, and risks
 ---
 
-Juicer is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared leveraged PRIME strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
+Juicer is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared PRIME looping strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
 
 ## How Juicer works
 
 Each collateral asset has its own vault, with vaults for ETH and tBTC. A deposit receives vault shares representing a funded position in that vault. Depositing supplies collateral to the lending market; it does not immediately borrow HOLLAR or execute a swap. Keepers deploy available capacity gradually, subject to borrowing and execution limits.
 
-The shared strategy uses borrowed HOLLAR to build leveraged PRIME exposure. When eligible PRIME yield is harvested, it is converted into each vault's collateral asset. The proceeds pay the protocol fee, then service the vault's HOLLAR borrowing interest. Any remainder is compounded for holders. Some earned PRIME is retained to cover future execution costs.
+The PRIME looping strategy repeatedly supplies PRIME and borrows HOLLAR to acquire more PRIME, increasing both yield potential and risk. When eligible PRIME yield is harvested, it is converted into each vault's collateral asset. The proceeds pay the protocol fee, then service the vault's HOLLAR borrowing interest. Any remainder is compounded for holders. Some earned PRIME is retained to cover future execution costs.
 
 Funded earnings are included in your vault balance and continue compounding automatically. You do not need to claim them separately. Estimated earnings that have not yet been converted and funded are separate from that balance and remain exposed to strategy losses and execution costs.
 
-Yield varies with PRIME returns, HOLLAR borrowing rates, leverage, fees, and execution costs. There is no fixed or minimum APY, and net yield can be negative.
+Yield varies with PRIME returns, HOLLAR borrowing rates, the extent of looping, fees, and execution costs. There is no fixed or minimum APY, and net yield can be negative.
 
 ## Depositing
 
@@ -62,7 +62,7 @@ The principal-preservation policy is not an unconditional guarantee. The PRIME s
 
 Consider these risks before depositing:
 
-- **Leveraged strategy exposure:** PRIME losses, changing borrowing rates, or execution costs can reduce earnings and create repayment shortfalls.
+- **Strategy borrowing risk:** PRIME losses, changing borrowing rates, or execution costs can reduce earnings and create repayment shortfalls.
 - **Liquidity and withdrawal delays:** market conditions, keeper outages, transaction limits, or emergency pauses can delay both settlement and claims.
 - **Contract and oracle dependencies:** Juicer relies on its contracts, Hydration's lending market, PRIME, HOLLAR, price feeds, and swap execution.
 - **Governance and recovery:** authorized roles can change parameters, upgrade vault contracts, and pause operations. Emergency recovery may require external funding and a reviewed upgrade. Automatic recovery payouts covering all affected holders are not implemented.
