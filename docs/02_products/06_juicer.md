@@ -1,9 +1,11 @@
 ---
-title: Juicer
+title: Juicer 🧃
 description: Learn how Juicer earns yield in your deposited asset, including fees, withdrawals, and risks
 ---
 
-Juicer is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared PRIME looping strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
+Juicer 🧃 is an automated yield strategy that supplies your collateral to Hydration's [lending market](/products/borrowing/overview), borrows HOLLAR against it, and puts that HOLLAR to work in a shared PRIME looping strategy. Eligible earnings are converted back into the asset you deposited and compounded into your position.
+
+For a walkthrough of deposits and withdrawals, see [Juicer 🧃 Quick Start](/quick_start/juicer).
 
 ## How Juicer works
 

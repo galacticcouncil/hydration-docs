@@ -53,13 +53,13 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 - [GIGAETH strategy page](https://app.hydration.net/strategies/gigaeth)
 - Documentation: [GIGADOT](https://docs.hydration.net/products/strategies/gigadot) | [GIGAETH](https://docs.hydration.net/products/strategies/gigaeth)
 
-### Juicer
+### Juicer 🧃
 
 Juicer is an automated strategy that supplies collateral to Hydration's lending market, borrows HOLLAR, and deploys it into a shared PRIME looping strategy. Eligible earnings are converted back into the deposited asset and compounded after fees and borrowing interest.
 
 Its principal-preservation policy depends on strategy operation and recovery funding; withdrawals use a queue and may be delayed.
 
-**See [Juicer](/products/juicer) for how it works, fees, withdrawal rules, and risks.**
+**See [Juicer 🧃](/products/juicer) for how it works, fees, withdrawal rules, and risks.**
 
 ### Referrals
 
