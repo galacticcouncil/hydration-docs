@@ -53,6 +53,14 @@ Strategy tokens involve exposure to underlying asset price fluctuations and, for
 - [GIGAETH strategy page](https://app.hydration.net/strategies/gigaeth)
 - Documentation: [GIGADOT](https://docs.hydration.net/products/strategies/gigadot) | [GIGAETH](https://docs.hydration.net/products/strategies/gigaeth)
 
+### Juicer 🧃
+
+Juicer 🧃 puts the borrowing power of your ETH or tBTC to work through a shared PRIME looping strategy. Earn in the asset you want to hold, with eligible earnings converted back into your deposited asset and compounded automatically.
+
+Deposited collateral stays separate from the PRIME loop's liquidation path through synthetic backing. Keepers handle borrowing, harvesting, rebalancing, and automatic deleveraging. Withdrawals use a seven-day delay followed by strategy settlement.
+
+**See [Juicer 🧃](/products/juicer) for how it works, fees, withdrawal rules, and risks.**
+
 ### Referrals
 
 Register a unique referral code to earn from the trading activity of users you onboard, while referred traders receive cashback on their trades. When someone trades using your referral code, they become permanently linked to your account, and you earn rewards from all their future Omnipool trades.
